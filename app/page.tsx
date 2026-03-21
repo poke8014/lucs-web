@@ -11,7 +11,7 @@ export default function Home() {
     }}>
       {/* Paste the full HTML from above, converted to JSX */}
       {/* We'll flesh this out in the next session */}
-      <h1>Coming soon.</h1>
+      <h1>Get hacked.</h1>
     </main>
   )
 }
