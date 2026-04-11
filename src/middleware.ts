@@ -1,9 +1,39 @@
 import { NextRequest, NextResponse } from "next/server";
 
+const SCRAPAHOLIC_HOST = "scrapaholic.lucttang.dev";
+
+async function verifyAuthToken(token: string, password: string) {
+  const encoder = new TextEncoder();
+  const data = encoder.encode(password + "_scrapaholic_salt");
+  const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+  return (
+    token ===
+    Array.from(new Uint8Array(hashBuffer))
+      .map((b) => b.toString(16).padStart(2, "0"))
+      .join("")
+  );
+}
+
 export async function middleware(request: NextRequest) {
+  const hostname = request.headers.get("host") ?? "";
   const { pathname } = request.nextUrl;
 
-  // Only protect /scrapaholic routes (not login or auth API)
+  // Subdomain rewrite: scrapaholic.lucttang.dev/* → /scrapaholic/*
+  if (hostname === SCRAPAHOLIC_HOST || hostname.startsWith(SCRAPAHOLIC_HOST)) {
+    // Skip rewrite for assets/internals
+    if (pathname.startsWith("/_next") || pathname.startsWith("/favicon")) {
+      return NextResponse.next();
+    }
+
+    // Already on /scrapaholic path — don't double-rewrite
+    if (!pathname.startsWith("/scrapaholic")) {
+      const url = request.nextUrl.clone();
+      url.pathname = `/scrapaholic${pathname}`;
+      return NextResponse.rewrite(url);
+    }
+  }
+
+  // Auth: protect /scrapaholic routes (not login or auth API)
   if (
     !pathname.startsWith("/scrapaholic") ||
     pathname === "/scrapaholic/login" ||
@@ -19,15 +49,7 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL("/scrapaholic/login", request.url));
   }
 
-  // Verify token matches the expected hash
-  const encoder = new TextEncoder();
-  const data = encoder.encode(expected + "_scrapaholic_salt");
-  const hashBuffer = await crypto.subtle.digest("SHA-256", data);
-  const expectedToken = Array.from(new Uint8Array(hashBuffer))
-    .map((b) => b.toString(16).padStart(2, "0"))
-    .join("");
-
-  if (token !== expectedToken) {
+  if (!(await verifyAuthToken(token, expected))) {
     const response = NextResponse.redirect(
       new URL("/scrapaholic/login", request.url)
     );
@@ -39,5 +61,5 @@ export async function middleware(request: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/scrapaholic/:path*"],
+  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
 };
