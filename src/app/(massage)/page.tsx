@@ -115,7 +115,7 @@ export default function MassagePage() {
           marginBottom: '2.5rem',
           fontStyle: 'italic',
         }}>
-          Book to discover what's limiting your movement.  
+          Book to discover what&apos;s limiting your movement.
         </p>
 
         <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -184,8 +184,8 @@ export default function MassagePage() {
             maxWidth: '55ch',
             lineHeight: 1.7,
           }}>
-            No two sessions are the same. Whether you're new to massage or a regular,
-            we'll work together to find what your body needs.
+            No two sessions are the same. Whether you&apos;re new to massage or a regular,
+            we&apos;ll work together to find what your body needs.
           </p>
 
           <div style={{
@@ -343,7 +343,7 @@ export default function MassagePage() {
             maxWidth: '52ch',
             lineHeight: 1.6,
           }}>
-            Only open slots are shown. Any time I'm unavailable is blocked — no details,
+            Only open slots are shown. Any time I&apos;m unavailable is blocked — no details,
             just unavailable.
           </p>
 

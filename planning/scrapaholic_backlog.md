@@ -11,7 +11,7 @@
 - [x] **1.2** Configure environment variables: `.env.example` with `FIRECRAWL_API_KEY`, `GEMINI_API_KEY`, `REDDIT_CLIENT_ID`, `REDDIT_SECRET`, `DATABASE_URL`, `FDA_API_KEY`, `NCBI_API_KEY`; add `.env` to `.gitignore`
   - **Note:** Using Gemini 2.5 Flash (free tier) instead of Claude API for LLM calls during MVP
   - **Verify:** `.env.example` exists; `.env` in `.gitignore`; no raw keys in tracked files
-- [ ] **1.3** Set up PostgreSQL database (local Docker + free Supabase/Neon staging). Initial Prisma migration: `products` table (`id`, `url`, `name`, `brand`, `category`, `raw_claims` JSON, `created_at`)
+- [x] **1.3** Set up PostgreSQL database (local Docker + free Supabase/Neon staging). Initial Prisma migration: `products` table (`id`, `url`, `name`, `brand`, `category`, `raw_claims` JSON, `created_at`)
   - **Verify:** `npx prisma db push` succeeds; table visible in DB GUI; insert + query a test row
 - [ ] **1.4** Configure private subdomain (e.g. `verify.yourdomain.com`) with DNS to Vercel. Add simple auth so only you can access
   - **Verify:** Visit subdomain — see app. Incognito without auth — access denied
