@@ -14,50 +14,50 @@ async function verifyAuthToken(token: string, password: string) {
   );
 }
 
+async function isAuthenticated(request: NextRequest): Promise<boolean> {
+  const token = request.cookies.get("scrapaholic-auth")?.value;
+  const expected = process.env.SCRAPAHOLIC_PASSWORD;
+  if (!expected || !token) return false;
+  return verifyAuthToken(token, expected);
+}
+
 export async function middleware(request: NextRequest) {
   const hostname = request.headers.get("host") ?? "";
   const { pathname } = request.nextUrl;
+  const isSubdomain = hostname === SCRAPAHOLIC_HOST;
 
-  // Subdomain rewrite: scrapaholic.lucttang.dev/* → /scrapaholic/*
-  if (hostname === SCRAPAHOLIC_HOST || hostname.startsWith(SCRAPAHOLIC_HOST)) {
-    // Skip rewrite for assets/internals
-    if (pathname.startsWith("/_next") || pathname.startsWith("/favicon")) {
-      return NextResponse.next();
+  // Block /scrapaholic on the main domain — only accessible via subdomain
+  if (!isSubdomain) {
+    if (pathname.startsWith("/scrapaholic")) {
+      return NextResponse.rewrite(new URL("/not-found", request.url));
     }
-
-    // Already on /scrapaholic path — don't double-rewrite
-    if (!pathname.startsWith("/scrapaholic")) {
-      const url = request.nextUrl.clone();
-      url.pathname = `/scrapaholic${pathname}`;
-      return NextResponse.rewrite(url);
-    }
-  }
-
-  // Auth: protect /scrapaholic routes (not login or auth API)
-  if (
-    !pathname.startsWith("/scrapaholic") ||
-    pathname === "/scrapaholic/login" ||
-    pathname.startsWith("/api/scrapaholic-auth")
-  ) {
     return NextResponse.next();
   }
 
-  const token = request.cookies.get("scrapaholic-auth")?.value;
-  const expected = process.env.SCRAPAHOLIC_PASSWORD;
-
-  if (!expected || !token) {
-    return NextResponse.redirect(new URL("/scrapaholic/login", request.url));
+  // Skip rewrite for assets/internals
+  if (pathname.startsWith("/_next") || pathname.startsWith("/favicon")) {
+    return NextResponse.next();
   }
 
-  if (!(await verifyAuthToken(token, expected))) {
-    const response = NextResponse.redirect(
-      new URL("/scrapaholic/login", request.url)
-    );
-    response.cookies.delete("scrapaholic-auth");
-    return response;
+  // Allow login page and auth API through without auth
+  if (pathname === "/login" || pathname.startsWith("/api/scrapaholic-auth")) {
+    if (pathname === "/login") {
+      const url = request.nextUrl.clone();
+      url.pathname = "/scrapaholic/login";
+      return NextResponse.rewrite(url);
+    }
+    return NextResponse.next();
   }
 
-  return NextResponse.next();
+  // Check auth before rewriting
+  if (!(await isAuthenticated(request))) {
+    return NextResponse.redirect(new URL("/login", request.url));
+  }
+
+  // Authenticated — rewrite to /scrapaholic/*
+  const url = request.nextUrl.clone();
+  url.pathname = `/scrapaholic${pathname}`;
+  return NextResponse.rewrite(url);
 }
 
 export const config = {
