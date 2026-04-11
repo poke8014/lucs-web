@@ -22,7 +22,7 @@ export default function ScrapaholicLoginPage() {
       });
 
       if (res.ok) {
-        router.push("/scrapaholic");
+        router.push("/");
         router.refresh();
       } else {
         setError("Incorrect password");
