@@ -1,0 +1,215 @@
+[
+  {
+    "url": "https://naturesbounty.com/products/magnesium-glycinate",
+    "extraction": {
+      "name": "Magnesium Glycinate",
+      "brand": "Nature's Bounty",
+      "price": "$14.99",
+      "ingredients": [
+        {
+          "name": "Magnesium (as Magnesium Glycinate)",
+          "amount": "240",
+          "unit": "mg"
+        },
+        {
+          "name": "Vegetable Cellulose",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "Ascorbyl Palmitate",
+          "amount": "",
+          "unit": ""
+        }
+      ],
+      "claims": [
+        "Supports muscle relaxation",
+        "Supports heart, bone, and nerve health",
+        "Bioavailable and well-absorbed form of Magnesium",
+        "Non-GMO",
+        "Suitable for vegetarians"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Gluten Free",
+        "Lactose Free",
+        "Vegetarian"
+      ],
+      "imageUrl": "https://naturesbounty.com/cdn/shop/files/NaturesBounty_Walmart_MagnesiumGlycinate_Label_60Caps.png?v=1719602031&width=750"
+    }
+  },
+  {
+    "url": "https://www.thorne.com/products/dp/magnesium-bisglycinate",
+    "extraction": {
+      "name": "Magnesium Bisglycinate",
+      "brand": "Thorne",
+      "price": "$52 /60 Scoops",
+      "ingredients": [
+        {
+          "name": "Magnesium (as Magnesium Bisglycinate)",
+          "amount": "200",
+          "unit": "mg"
+        },
+        {
+          "name": "Citric Acid",
+          "amount": "-",
+          "unit": "-"
+        },
+        {
+          "name": "Monk Fruit concentrate",
+          "amount": "-",
+          "unit": "-"
+        }
+      ],
+      "claims": [
+        "Promotes restful sleep and muscle relaxation",
+        "Promotes bronchial relaxation",
+        "Supports normal heart rate and rhythm",
+        "Helps relax smooth and skeletal muscle",
+        "Promotes vasodilation and maintains normal blood pressure",
+        "Supports insulin sensitivity",
+        "Is a cofactor for enzymes involved in cellular energy production",
+        "Decreased laxative effect compared to other magnesium formulations"
+      ],
+      "certifications": [
+        "NSF Certified for Sport®"
+      ],
+      "imageUrl": "https://d1vo8zfysxy97v.cloudfront.net/media/product/m204__v4276839dcfb0dd565beb88920a98df340c4ecb91.png"
+    }
+  },
+  {
+    "url": "https://www.gardenoflife.com/vitamin-code-raw-d3",
+    "extraction": {
+      "name": "Vitamin Code Raw D3 2000 IU Capsules",
+      "brand": "Garden of Life",
+      "price": "$19.19",
+      "ingredients": [
+        {
+          "name": "Vitamin D3",
+          "amount": "50",
+          "unit": "mcg"
+        },
+        {
+          "name": "Cracked Wall Chlorella",
+          "amount": "varies",
+          "unit": "unknown"
+        },
+        {
+          "name": "Organically Grown Fruits and Vegetables",
+          "amount": "23",
+          "unit": "types"
+        }
+      ],
+      "claims": [
+        "Bone and Joint Health",
+        "Breast and Prostate Health",
+        "Immune System Health",
+        "Supports Healthy Digestion"
+      ],
+      "certifications": [
+        "Non-GMO Project Verified",
+        "NSF Certified Gluten Free",
+        "Star K Kosher",
+        "Vegetarian",
+        "No Dairy",
+        "No Soy",
+        "Raw"
+      ],
+      "imageUrl": "https://www.gardenoflife.com/media/catalog/product/p/6/p658010114134-1_1.jpg?optimize=medium&fit=bounds&height=625&width=625&canvas=625:625"
+    }
+  },
+  {
+    "url": "https://www.nowfoods.com/products/supplements/ashwagandha-450-mg-veg-capsules",
+    "extraction": {
+      "name": "Ashwagandha 450 mg Veg Capsules",
+      "brand": "NOW Foods",
+      "price": "$6.39",
+      "ingredients": [
+        {
+          "name": "Ashwagandha Extract (Withania somnifera) (Root and Leaf)",
+          "amount": "450",
+          "unit": "mg"
+        },
+        {
+          "name": "Other Ingredients: Hypromellose (cellulose capsule), Stearic Acid (vegetable source), Rice Flour",
+          "amount": "",
+          "unit": ""
+        }
+      ],
+      "claims": [
+        "Ayurvedic Adaptogen",
+        "Free Radical Scavenger",
+        "Immune System Support"
+      ],
+      "certifications": [
+        "Halal",
+        "GMP",
+        "Kosher (Triangle K)",
+        "Non-GMO",
+        "Vegan"
+      ],
+      "imageUrl": "https://www.nowfoods.com/sites/default/files/styles/cloudzoom_thumbnail/public/2025-12/4595_v1.png?itok=c78DG9pg"
+    }
+  },
+  {
+    "url": "https://jarrow.com/products/fem-dophilus-1-billion-cfu-veggie-caps",
+    "extraction": {
+      "name": "Fem-Dophilus® - 1 Billion CFU",
+      "brand": "Jarrow Formulas",
+      "price": "$24.99",
+      "ingredients": [
+        {
+          "name": "Proprietary Probiotic Blend",
+          "amount": "155",
+          "unit": "mg"
+        },
+        {
+          "name": "Lacticaseibacillus rhamnosus GR-1®",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "Limosilactobacillus reuteri RC-14®",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "Other Ingredients",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "Microcrystalline cellulose",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "Capsule (hypromellose)",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "Magnesium stearate (vegetable source)",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "Silicon dioxide",
+          "amount": "",
+          "unit": ""
+        }
+      ],
+      "claims": [
+        "Maintains and balances vaginal microbiome and urinary tract health",
+        "Clinically documented benefits supported by over 30 years of clinical research",
+        "Two patented strains: Lacticaseibacillus rhamnosus GR-1® and Limosilactobacillus reuteri RC-14® for effectiveness in vaginal health"
+      ],
+      "certifications": [
+        "Non-GMO",
+        "Vegan",
+        "Gluten Free"
+      ],
+      "imageUrl": "https://jarrow.com/cdn/shop/products/FEMS_010923_Front_600x.png?v=1676415324"
+    }
+  }
+]

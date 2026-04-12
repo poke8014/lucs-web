@@ -17,24 +17,24 @@
   - **Verify:** Visit subdomain — see app. Incognito without auth — access denied
 - [x] **1.5** Set up GitHub Actions CI: lint (ESLint), type check (`tsc --noEmit`), deploy to staging on push to `main`
   - **Verify:** Push a type error — CI fails. Fix + push — CI passes, site updates within 5 min
-- [ ] **1.6** Create API route stubs: `POST /api/analyze` (accepts `{ urls: string[] }`, returns 200 empty JSON), `GET /api/products` (returns empty array from DB). Validate with Zod
+- [x] **1.6** Create API route stubs: `POST /api/analyze` (accepts `{ urls: string[] }`, returns 200 empty JSON), `GET /api/products` (returns empty array from DB). Validate with Zod
   - **Verify:** `curl` POST valid payload -> 200; POST missing `urls` -> 400 with validation error
 
 ---
 
 ## Milestone 2 — Firecrawl Product Extraction (Week 2–3)
 
-- [ ] **2.1** Sign up for Firecrawl, store API key in `.env`. Install `@mendable/firecrawl-js`. Write test script scraping `https://example.com`
+- [x] **2.1** Sign up for Firecrawl, store API key in `.env`. Install `@mendable/firecrawl-js`. Write test script scraping `https://example.com`
   - **Verify:** Script logs scraped markdown content, no auth errors
-- [ ] **2.2** Define `ProductExtraction` TypeScript interface: `name`, `brand`, `price?`, `ingredients[]` (name, amount?, unit?), `claims[]`, `certifications[]`, `imageUrl?`. Add Zod schema
+- [x] **2.2** Define `ProductExtraction` TypeScript interface: `name`, `brand`, `price?`, `ingredients[]` (name, amount?, unit?), `claims[]`, `certifications[]`, `imageUrl?`. Add Zod schema
   - **Verify:** Interface compiles; mock object passes Zod validation
-- [ ] **2.3** Write `extractProduct(url)` using Firecrawl `/scrape` with LLM extraction mode, prompt returns `ProductExtraction` schema
+- [x] **2.3** Write `extractProduct(url)` using Firecrawl `/scrape` with LLM extraction mode, prompt returns `ProductExtraction` schema
   - **Verify:** Call with real supplement URL — name, brand, and 3+ ingredients populated
-- [ ] **2.4** Add error handling: try/catch Firecrawl calls. Handle 429 (exponential backoff, max 3 retries), network errors, malformed responses. Log failures with URL
+- [x] **2.4** Add error handling: try/catch Firecrawl calls. Handle 429 (exponential backoff, max 3 retries), network errors, malformed responses. Log failures with URL
   - **Verify:** Invalid key triggers 3 retries in logs, then clean error (no crash)
-- [ ] **2.5** Write integration tests: 5 real supplement URLs from different brands. Assert non-empty name, brand, 1+ ingredient. Save results to JSON fixture
+- [x] **2.5** Write integration tests: 5 real supplement URLs from different brands. Assert non-empty name, brand, 1+ ingredient. Save results to JSON fixture
   - **Verify:** All 5 pass; fixture file valid; no obviously wrong extractions
-- [ ] **2.6** Wire `extractProduct()` into `POST /api/analyze`. Accept URL array, extract sequentially, store in `products` table, return JSON
+- [x] **2.6** Wire `extractProduct()` into `POST /api/analyze`. Accept URL array, extract sequentially, store in `products` table, return JSON
   - **Verify:** POST with 2 URLs -> 2 product objects with ingredients; 2 DB rows inserted
 
 ---
@@ -93,6 +93,23 @@
 ---
 
 ## Post-MVP (Backlog — Unprioritized)
+
+### Feature: Smart Filtering & Sorting
+
+- [ ] **P.7** Build filter/sort toolbar UI above comparison results. Dropdown or toggle controls for sort criteria and filter options. Responsive layout
+  - **Verify:** Toolbar renders on desktop and mobile; controls toggle/select without page reload
+- [ ] **P.8** Add "Similar Users Picked" recommendation filter: track user search patterns (category, ingredients searched), find users with overlapping searches, surface products those users selected. Query `selections` table joined with search history
+  - **Verify:** User who searched magnesium + sleep sees products chosen by others who also searched magnesium + sleep; no results gracefully shows fallback message
+- [ ] **P.9** Add sort-by-reliability option: sort products by trust score (descending). Use `TrustScore.overall` from existing scoring pipeline
+  - **Verify:** Products reorder by trust score; ties broken by selection count; sort direction toggleable
+- [ ] **P.10** Add sort-by-cost option: sort products by price (ascending/descending). Handle missing price gracefully (push to bottom or label "Price unavailable")
+  - **Verify:** Products with prices sort correctly; missing-price products grouped at end; toggle asc/desc works
+- [ ] **P.11** Add combined/weighted sort: let users combine reliability + cost into a "best value" sort (e.g., trust score per dollar). Display value score badge on cards
+  - **Verify:** High trust + low cost ranks above low trust + high cost; badge shows calculated value score
+- [ ] **P.12** Persist filter/sort preferences per session using URL query params or localStorage so refreshing the page retains the user's selections
+  - **Verify:** Apply filter -> refresh page -> same filter active; share URL with params -> recipient sees same sort
+
+### Other
 
 - [ ] **P.1** Vertical expansion: skincare, health devices, wellness (new extraction schemas + subreddit mappings)
 - [ ] **P.2** Redis caching layer: 7-day cache for Firecrawl + Reddit data (~60s -> ~5s for repeats)

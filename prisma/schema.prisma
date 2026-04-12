@@ -13,13 +13,17 @@ datasource db {
 }
 
 model Product {
-  id        String   @id @default(cuid())
-  url       String
-  name      String
-  brand     String
-  category  String?
-  rawClaims Json?
-  createdAt DateTime @default(now()) @map("created_at")
+  id             String   @id @default(cuid())
+  url            String
+  name           String
+  brand          String
+  category       String?
+  price          String?
+  ingredients    Json?
+  rawClaims      Json?
+  certifications Json?
+  imageUrl       String?  @map("image_url")
+  createdAt      DateTime @default(now()) @map("created_at")
 
   @@map("products")
 }

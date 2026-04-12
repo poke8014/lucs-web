@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "@mendable/firecrawl-js": "^4.18.2",
     "@prisma/adapter-pg": "^7.7.0",
     "@prisma/adapter-pg-worker": "^6.9.0",
     "@prisma/client": "^7.7.0",
@@ -17,7 +18,8 @@
     "next": "16.2.1",
     "pg": "^8.20.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

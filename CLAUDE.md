@@ -11,18 +11,15 @@ customer reviews and view third party data such as lab results and FDA informati
 ## Folder Structure
 ```
 /
+├── .github/workflows/ — CI (lint, type check, deploy)
 ├── planning/          — Specs, architecture, decisions
-├── docs/              — Documentation
-├── ops/               — Deployment and operations
-├── src/
-│   └── app/
-│       ├── (personal)/    — Personal portfolio / software employer site
-│       ├── (massage)/     — Massage business site
-│       ├── scrapaholic/   — Clinical product verification engine
-│       ├── layout.tsx     — Root layout
-│       ├── globals.css
-│       └── favicon.ico
-└── public/            — Static assets
+├── docs/              — Documentation (future use)
+├── ops/               — Deployment and operations (future use)
+├── scripts/           — Ad-hoc test/dev scripts (Firecrawl, DB, extraction)
+├── fixtures/          — Test fixture data
+├── prisma/            — Prisma schema and migrations
+├── src/               — Application code (see src/CONTEXT.md for full tree)
+└── public/            — Static assets (SVGs)
 ```
 
 ## Sites
@@ -42,8 +39,9 @@ Route groups `(personal)` and `(massage)` share the root layout but have indepen
 ## Workspaces
 - /planning — Specs, architecture, decisions
 - /src — Application code
-- /docs — Documentation
-- /ops — Deployment and operations
+- /scripts — Ad-hoc test and dev scripts (Firecrawl, DB, extraction)
+- /docs — Documentation (future use)
+- /ops — Deployment and operations (future use)
 
 ## Routing
 | Task | Go to | Read | Skills |
