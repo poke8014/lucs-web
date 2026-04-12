@@ -10,16 +10,7 @@ customer reviews and view third party data such as lab results and FDA informati
 
 ## Folder Structure
 ```
-/
-├── .github/workflows/ — CI (lint, type check, deploy)
-├── planning/          — Specs, architecture, decisions
-├── docs/              — Documentation (future use)
-├── ops/               — Deployment and operations (future use)
-├── scripts/           — Ad-hoc test/dev scripts (Firecrawl, DB, extraction)
-├── fixtures/          — Test fixture data
-├── prisma/            — Prisma schema and migrations
-├── src/               — Application code (see src/CONTEXT.md for full tree)
-└── public/            — Static assets (SVGs)
+/ { .github/workflows, planning, docs, ops, scripts, fixtures, prisma, src, public }
 ```
 
 ## Sites
@@ -46,10 +37,10 @@ Route groups `(personal)` and `(massage)` share the root layout but have indepen
 ## Routing
 | Task | Go to | Read | Skills |
 |------|-------|------|--------|
-| Spec a feature | /planning | CONTEXT.md | — |
-| Write code | /src | CONTEXT.md | testing-skill |
-| Write docs | /docs | CONTEXT.md | doc-authoring-skill |
+| Plan or add to backlog | /planning | CONTEXT.md | — |
+| Execute a task | /src | CONTEXT.md | testing-skill |
 | Deploy or debug | /ops | CONTEXT.md | — |
+| After a significant push | /docs | CONTEXT.md | doc-authoring-skill |
 
 ## Naming conventions
 - Specs: feature-name_spec.md
