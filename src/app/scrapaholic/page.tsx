@@ -23,10 +23,14 @@ export default function ScrapaholicPage() {
   const [stage, setStage] = useState<PipelineStage | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState("");
+  const [redditError, setRedditError] = useState("");
+  const [sentimentError, setSentimentError] = useState("");
 
   const handleAnalyze = useCallback(async (url: string) => {
     setIsLoading(true);
     setError("");
+    setRedditError("");
+    setSentimentError("");
     setExtraction(null);
     setRedditPosts([]);
     setSentiment(null);
@@ -99,13 +103,14 @@ export default function ScrapaholicPage() {
               setStage("analyzing-sentiment");
               break;
             case "reddit-error":
+              setRedditError(data.message);
               setStage("analyzing-sentiment");
               break;
             case "sentiment":
               setSentiment(data);
               break;
             case "sentiment-error":
-              // Sentiment failed — raw reddit data is still visible
+              setSentimentError(data.message);
               break;
             case "error":
               throw new Error(data.message);
@@ -160,6 +165,15 @@ export default function ScrapaholicPage() {
             />
           )}
 
+          {redditError && stage === "done" && (
+            <div className="rounded-xl border border-amber-200 bg-amber-50 px-6 py-4 shadow-sm">
+              <h3 className="text-sm font-semibold text-amber-800">
+                Reddit Scraping Issue
+              </h3>
+              <p className="mt-1 text-sm text-amber-700">{redditError}</p>
+            </div>
+          )}
+
           {sentiment ? (
             <SentimentPanel sentiment={sentiment} />
           ) : (
@@ -169,8 +183,8 @@ export default function ScrapaholicPage() {
                 <h3 className="text-lg font-semibold text-gray-900">
                   Reddit Sentiment
                 </h3>
-                <p className="mt-2 text-sm text-gray-400">
-                  Sentiment data unavailable for this product
+                <p className="mt-2 text-sm text-gray-500">
+                  {sentimentError || "Sentiment data unavailable for this product"}
                 </p>
               </div>
             )

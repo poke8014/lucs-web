@@ -50,8 +50,15 @@ export async function POST(request: Request) {
 
         // Stage 2: Reddit scraping — stream filtered posts individually
         const filteredPosts: ApifyRedditPost[] = [];
+        let rawPostCount = 0;
+        let rawCommentCount = 0;
         try {
           const rawPosts = await scrapeRedditPosts(extraction.name);
+          rawPostCount = rawPosts.length;
+          rawCommentCount = rawPosts.reduce(
+            (n, p) => n + p.comments.length,
+            0,
+          );
 
           // Filter and stream each post individually so the UI updates incrementally
           for (const post of rawPosts) {
@@ -68,16 +75,20 @@ export async function POST(request: Request) {
               (n, p) => n + p.comments.length,
               0,
             ),
+            rawPostCount,
+            rawCommentCount,
           });
         } catch (redditError) {
-          console.warn(
-            `[analyze] Reddit scraping failed for "${extraction.name}":`,
+          const detail =
             redditError instanceof Error
               ? redditError.message
-              : redditError,
+              : String(redditError);
+          console.warn(
+            `[analyze] Reddit scraping failed for "${extraction.name}":`,
+            detail,
           );
           send("reddit-error", {
-            message: "Reddit data unavailable",
+            message: `Reddit scraping failed: ${detail}`,
           });
         }
 
@@ -96,16 +107,26 @@ export async function POST(request: Request) {
             );
             send("sentiment", redditSentiment);
           } catch (sentimentError) {
-            console.warn(
-              `[analyze] Sentiment analysis failed for "${extraction.name}":`,
+            const detail =
               sentimentError instanceof Error
                 ? sentimentError.message
-                : sentimentError,
+                : String(sentimentError);
+            console.warn(
+              `[analyze] Sentiment analysis failed for "${extraction.name}":`,
+              detail,
             );
             send("sentiment-error", {
-              message: "Sentiment analysis unavailable",
+              message: `Gemini sentiment analysis failed: ${detail}`,
             });
           }
+        } else if (rawPostCount === 0) {
+          send("sentiment-error", {
+            message: `No Reddit discussions found for "${extraction.name}" in health-focused subreddits (r/Supplements, r/Nootropics, r/StackAdvice, r/nutrition, r/Fitness, r/Biohackers, r/vitamins)`,
+          });
+        } else {
+          send("sentiment-error", {
+            message: `Found ${rawPostCount} Reddit post${rawPostCount !== 1 ? "s" : ""} with ${rawCommentCount} comment${rawCommentCount !== 1 ? "s" : ""}, but none contained relevant product experience discussion after filtering. Try a more specific or well-known product name`,
+          });
         }
 
         // Persist to database
