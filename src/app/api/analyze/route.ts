@@ -52,6 +52,7 @@ export async function POST(request: Request) {
         const filteredPosts: ApifyRedditPost[] = [];
         let rawPostCount = 0;
         let rawCommentCount = 0;
+        let redditFailed = false;
         try {
           const rawPosts = await scrapeRedditPosts(extraction.name);
           rawPostCount = rawPosts.length;
@@ -79,6 +80,7 @@ export async function POST(request: Request) {
             rawCommentCount,
           });
         } catch (redditError) {
+          redditFailed = true;
           const detail =
             redditError instanceof Error
               ? redditError.message
@@ -92,7 +94,7 @@ export async function POST(request: Request) {
           });
         }
 
-        // Stage 3: Sentiment analysis on filtered posts
+        // Stage 3: Sentiment analysis on filtered posts (skip if scraping itself failed)
         let redditSentiment = null;
         if (filteredPosts.length > 0) {
           try {
@@ -119,11 +121,11 @@ export async function POST(request: Request) {
               message: `Gemini sentiment analysis failed: ${detail}`,
             });
           }
-        } else if (rawPostCount === 0) {
+        } else if (!redditFailed && rawPostCount === 0) {
           send("sentiment-error", {
             message: `No Reddit discussions found for "${extraction.name}" in health-focused subreddits (r/Supplements, r/Nootropics, r/StackAdvice, r/nutrition, r/Fitness, r/Biohackers, r/vitamins)`,
           });
-        } else {
+        } else if (!redditFailed) {
           send("sentiment-error", {
             message: `Found ${rawPostCount} Reddit post${rawPostCount !== 1 ? "s" : ""} with ${rawCommentCount} comment${rawCommentCount !== 1 ? "s" : ""}, but none contained relevant product experience discussion after filtering. Try a more specific or well-known product name`,
           });
