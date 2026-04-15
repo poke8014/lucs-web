@@ -62,6 +62,8 @@
   - **Verify:** Quote source links navigate to correct Reddit threads; no doubled `reddit.com` in URLs
 - [x] **3.9** Limit scraping to health-focused subreddits (e.g., r/Supplements, r/Nootropics, r/StackAdvice, r/nutrition) rather than searching all of Reddit. Research which subreddits yield best signal for supplement products
   - **Verify:** Scraper targets specific subreddits; results are higher relevance; irrelevant subreddit posts excluded
+- [ ] **3.10** Clean up extracted product names before using them as Reddit search queries. Full names like "Kirkland Signature Krill Oil 500 mg" are too specific and return zero results. Strip dosage amounts, unit sizes, brand qualifiers, and other extraneous info to produce a broader search term (e.g. "Kirkland krill oil" or "krill oil"). Consider searching with both a brand-specific and generic query to maximize coverage
+  - **Verify:** "Kirkland Signature Krill Oil 500 mg" → finds Reddit posts about krill oil; products with verbose names still return results; search isn't so broad it returns irrelevant posts
 
 ---
 
