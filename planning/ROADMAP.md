@@ -21,7 +21,7 @@ The system follows a three-pipeline architecture that converges into a trust sco
 | Pipeline | Data Source | Output |
 |---|---|---|
 | Claims Extraction | Firecrawl LLM scrape of product URLs | Structured ingredient list, dosages, certifications, marketing claims |
-| User Sentiment | Reddit API + Gemini analysis | Efficacy themes, representative quotes, confidence-weighted sentiment score |
+| User Sentiment | Apify Reddit Scraper + Gemini analysis | Efficacy themes, representative quotes, confidence-weighted sentiment score |
 | Verification | FDA, NIH DSLD, PubMed, ClinicalTrials.gov | Adverse event counts, clinical evidence strength, certification cross-checks |
 
 ---
@@ -32,7 +32,7 @@ The system follows a three-pipeline architecture that converges into a trust sco
 - **Backend:** Next.js API routes (Node.js)
 - **Database:** PostgreSQL via Prisma ORM
 - **Web Scraping:** Firecrawl SDK (LLM extraction mode)
-- **Sentiment:** Reddit API + Gemini 2.5 Flash for NLP analysis (free tier during MVP)
+- **Sentiment:** Apify Reddit Scraper Pro + Gemini 2.5 Flash for NLP analysis (both free tier during MVP)
 - **Verification:** OpenFDA API, PubMed E-utilities, NIH DSLD
 - **Hosting:** Vercel / Railway with private subdomain
 - **CI/CD:** GitHub Actions
@@ -44,7 +44,7 @@ The system follows a three-pipeline architecture that converges into a trust sco
 | Service | Tier | Cost |
 |---|---|---|
 | Firecrawl | Free (500 credits/mo) | $0 |
-| Reddit API | Free (100 req/min) | $0 |
+| Apify (Reddit Scraper) | Free ($5/mo compute) | $0 |
 | Gemini 2.5 Flash | Free tier | $0 |
 | PostgreSQL (Supabase/Neon) | Free tier | $0 |
 | Hosting (Vercel) | Hobby | $0–20 |
@@ -93,55 +93,73 @@ Each milestone below contains tasks designed for a junior engineer. Every task h
 
 ---
 
-### Milestone 3 — Reddit Sentiment Pipeline
+### Milestone 3 — Reddit Sentiment Pipeline via Apify
 
 **Timeline:** Week 3–4
 **Goal:** For a given product or brand, find relevant Reddit discussions and extract user sentiment and efficacy signals using an LLM.
 **Deliverable:** A sentiment service that returns a structured summary of what real users say about a product, including positive/negative themes and an overall confidence score.
 
+> **Pivot (2026-04-12):** Reddit API access requires approval via their Responsible Builder Policy, which is not being granted. Replaced direct Reddit API integration with [Apify FREE Reddit Scraper Pro](https://apify.com/spry_wholemeal/reddit-scraper) (actor `RGEBfXu0TSc1siPLb`), which scrapes Reddit via public JSON endpoints. This simplifies the pipeline from 6 tasks to 5 by combining search + comment fetching into a single actor call.
+
 | # | Task | Verification | Est. Time |
 |---|---|---|---|
-| 1 | Register a Reddit 'script' app at `reddit.com/prefs/apps`. Store `client_id` and `client_secret` in `.env`. Write a helper function `getRedditAccessToken()` that POSTs to `https://www.reddit.com/api/v1/access_token` with `grant_type=client_credentials`. Cache the token for 1 hour. | Call `getRedditAccessToken()` — returns a valid bearer token string. Call it again within 1 hr — returns cached token (no network request in logs). | 1.5 hrs |
-| 2 | Write `searchReddit(query: string, subreddits?: string[])` that calls Reddit's `/search.json` endpoint with the product name. Limit to relevant subreddits (`r/Supplements`, `r/Nootropics`, `r/SkincareAddiction`). Return the top 10 posts sorted by relevance, including `title`, `selftext`, `score`, `num_comments`, and `permalink`. | Call with 'Thorne Magnesium Bisglycinate' — returns at least 3 posts with non-empty titles. All permalinks resolve to valid Reddit URLs. | 2 hrs |
-| 3 | For each post returned, fetch the top 5 comments (sorted by 'best') using Reddit's `/comments/{article}.json` endpoint. Concatenate post body + comment bodies into a single text blob per thread. Cap at 2000 characters per thread. | For a known active thread, confirm comments are included in output. Total text per thread ≤ 2000 chars. | 2 hrs |
-| 4 | Define a `SentimentResult` interface: `{ overallScore: number (1–10), totalMentions: number, themes: { positive: string[], negative: string[], neutral: string[] }, representativeQuotes: { text: string, context: string, sentiment: string }[], confidenceLevel: 'low' | 'medium' | 'high' }`. | Interface compiles. Mock object passes Zod validation. | 30 min |
-| 5 | Write `analyzeRedditSentiment(productName, threadTexts[])` that sends the concatenated Reddit text to the Gemini API with a system prompt instructing it to return a JSON `SentimentResult`. The prompt should distinguish efficacy reports ('this actually helped my sleep') from hype ('just ordered, excited!'). | Call with real thread data for a popular supplement. Output has `overallScore` between 1–10, at least 2 themes in positive or negative, and `confidenceLevel` is not null. | 3 hrs |
-| 6 | Add a `redditSentiment` field (JSON) to the `products` table. Wire the sentiment pipeline into `POST /api/analyze` so it runs after extraction. Store results in DB alongside product data. | `curl` POST `/api/analyze` → response now includes both product extraction and sentiment data. DB row has both columns populated. | 1.5 hrs |
+| 1 | Add `APIFY_API_TOKEN` to `.env.example` and `.env`. Remove obsolete `REDDIT_CLIENT_ID`/`REDDIT_SECRET`. | `.env.example` has `APIFY_API_TOKEN`; no Reddit vars; app boots. | 10 min |
+| 2 | Create `src/lib/apify-reddit.ts` with `scrapeRedditPosts(productName)`. Call Apify actor via REST API (no SDK). Zod schemas for post+comment output. Retry logic (3 attempts, exponential backoff). Target r/Supplements, r/Nootropics, r/SkincareAddiction. | Call with 'Thorne Magnesium Bisglycinate' → 1+ posts with titles; comments present on high-engagement posts; invalid token → 3 retries then clean error. | 2 hrs |
+| 3 | Confirm existing `SentimentResult` schema at `src/lib/schemas/sentiment-result.ts` covers the Apify data flow. | Import and validate a mock `SentimentResult`; Zod `.parse()` succeeds. | 10 min |
+| 4 | Install `@google/generative-ai`. Create `src/lib/gemini.ts` (shared client) and `src/lib/sentiment.ts` with `analyzeRedditSentiment(productName, posts)`. Send Apify post+comment data to Gemini. Distinguish efficacy reports from hype. | Real Apify data → valid `SentimentResult`; score 1–10; 2+ themes; quotes have reddit.com sources. | 2 hrs |
+| 5 | Add `redditSentiment Json?` column to `products`. Wire sentiment into `POST /api/analyze` after extraction. Sentiment failure stores `null` (does not fail request). | POST response includes extraction + sentiment; DB row has both columns; Apify down → extraction succeeds with `redditSentiment: null`. | 1 hr |
 
 ---
 
-### Milestone 4 — Verification & Trust Scoring
+### Milestone 4 — Product Analysis UI
+
+**Timeline:** Week 4
+**Goal:** First user-facing interface. A single-product analysis view that surfaces everything from Milestones 2–3 (extraction + sentiment) in the browser.
+**Deliverable:** A working `/scrapaholic` page where a user pastes one product URL, waits for analysis, and sees structured extraction data alongside Reddit sentiment.
+
+| # | Task | Verification | Est. Time |
+|---|---|---|---|
+| 1 | Build `UrlInput` component: single URL text field, validation (http/https), submit button, loading state with animated progress steps ("Scraping product page…", "Searching Reddit…", "Analyzing sentiment…"). React + Tailwind. | Valid URL → spinner with progress text. Invalid string → inline error. Empty submit blocked. | 2 hrs |
+| 2 | Build `ProductCard` component: product name, brand, price (if available), ingredients list with amounts/units, marketing claims as badges, certifications. | Mock extraction data renders all fields. Missing optional fields (price, imageUrl) degrade gracefully. Responsive at 375px and 1200px. | 3 hrs |
+| 3 | Build `SentimentPanel` component: score gauge (1–10, colored: green ≥7, yellow 4–6, red ≤3), confidence badge (low/medium/high), themes list with sentiment icons, representative quotes with clickable Reddit links. | Mock sentiment data renders. Gauge color matches thresholds. Quotes link to reddit.com. "Low confidence" shows muted styling. | 3 hrs |
+| 4 | Wire into `/scrapaholic` page: submit URL → call `POST /api/analyze` → render `ProductCard` + `SentimentPanel`. Handle API errors with user-friendly message. Show empty state before first analysis. | Paste a real supplement URL on staging → see extraction + sentiment. Apify down → extraction renders, sentiment shows "unavailable". Network error → error toast, no crash. | 2 hrs |
+
+---
+
+### Milestone 5 — Verification & Trust Scoring
 
 **Timeline:** Week 4–5
-**Goal:** Cross-reference product claims against third-party databases and generate a composite trust score that quantifies how verified a product's claims really are.
-**Deliverable:** A trust scoring engine that flags discrepancies between claims and evidence, producing a transparent, explainable score per product.
+**Goal:** Cross-reference product claims against third-party databases, generate a composite trust score, and surface verification data in the existing product analysis UI.
+**Deliverable:** A trust scoring engine with a transparent, explainable score — plus UI components for trust gauge, FDA data, and ingredient evidence integrated into the analysis page.
 
 | # | Task | Verification | Est. Time |
 |---|---|---|---|
-| 1 | Research and document available free APIs: FDA Adverse Event API (`api.fda.gov`), NIH Dietary Supplement Label Database (`dsld.od.nih.gov`), ClinicalTrials.gov API. Write a markdown file listing each API's base URL, auth requirements, rate limits, and relevant endpoints. | Markdown file exists with at least 3 APIs documented. Each entry has a working example `curl` command that returns data. | 2 hrs |
+| 1 | Research and document available free APIs: FDA Adverse Event API (`api.fda.gov`), NIH Dietary Supplement Label Database (`dsld.od.nih.gov`), ClinicalTrials.gov API, PubMed E-utilities. Write a markdown file listing each API's base URL, auth requirements, rate limits, and relevant endpoints. | Markdown file exists with at least 3 APIs documented. Each entry has a working example `curl` command that returns data. | 2 hrs |
 | 2 | Write `checkFDAAdverseEvents(productName, brand)` that queries the openFDA API for adverse event reports matching the product. Return: total reports, most common adverse reactions (top 5), and whether any serious events were reported. | Call with a known supplement brand — returns structured data. Call with a gibberish name — returns zero results (not an error). | 2 hrs |
 | 3 | Write `checkIngredientEvidence(ingredientName, claimedBenefit)` that searches PubMed's free E-utilities API for clinical studies. Return: number of studies found, whether any are RCTs (randomized controlled trials), and a brief LLM-generated summary of the evidence strength. | Call with ('magnesium glycinate', 'sleep') — returns study count > 0 and a coherent summary. Call with ('pixie dust', 'flying') — returns 0 studies. | 3 hrs |
-| 4 | Define a `TrustScore` interface: `{ overall: number (0–100), breakdown: { claimVerification: number, ingredientEvidence: number, userSentiment: number, safetyProfile: number }, flags: { type: 'warning' | 'positive' | 'info', message: string }[], explanation: string }`. | Interface compiles. Create mock scores for a good product (85+) and a sketchy product (30–) — both pass validation. | 30 min |
-| 5 | Write `calculateTrustScore(extraction, sentiment, fdaData, evidenceData)` that sends all collected data to the Gemini API with a detailed scoring rubric prompt. The rubric should weight: ingredient evidence (35%), user sentiment (25%), claim verification (25%), safety profile (15%). Return a `TrustScore`. | Call with real data from previous milestones. Score is between 0–100. Breakdown sums roughly to overall. At least 1 flag is present. Explanation is a coherent paragraph. | 3 hrs |
-| 6 | Wire the trust scoring into `POST /api/analyze` as the final pipeline step. Store the `TrustScore` in a new `trust_score` JSON column. Return the complete analysis (extraction + sentiment + trust score) in the API response. | Full pipeline test: `curl` with 2 product URLs → response has all three data layers per product. DB rows have all columns filled. Total response time < 60 seconds. | 2 hrs |
+| 4 | Define a `TrustScore` interface: `{ overall: number (0–100), breakdown: { claimVerification, ingredientEvidence, userSentiment, safetyProfile }, flags: { type, message }[], explanation }`. Add Zod schema. | Interface compiles. Mock scores for a good product (85+) and a sketchy product (30–) — both pass validation. | 30 min |
+| 5 | Write `calculateTrustScore(extraction, sentiment, fdaData, evidenceData)` sending all data to Gemini with scoring rubric: ingredient evidence 35%, user sentiment 25%, claim verification 25%, safety 15%. | Call with real data. Score 0–100. Breakdown sums roughly to overall. 1+ flag. Coherent explanation. | 3 hrs |
+| 6 | Wire trust scoring into `POST /api/analyze` as final pipeline step. Store in `trust_score` JSON column. Return complete analysis. | `curl` with 2 product URLs → all 3 data layers per product. DB rows complete. Response < 60s. | 2 hrs |
+| 7 | Build `TrustScoreGauge` component: circular/semicircular gauge (green >70, yellow 40–70, red <40), breakdown bars for each sub-score, flags list with warning/positive/info icons. | Score 85 → green gauge. Score 35 → red gauge. Breakdown bars proportional. Flags render with correct icons. | 3 hrs |
+| 8 | Build `VerificationDetails` component: FDA adverse events summary (total reports, top reactions, serious event badge), ingredient evidence cards (study count, RCT badge, evidence summary per ingredient). | Mock FDA + evidence data renders all sections. Zero adverse events → "No reports found". No studies → "No clinical data". | 3 hrs |
+| 9 | Integrate trust score + verification into product analysis page: `TrustScoreGauge` and `VerificationDetails` render below `ProductCard` + `SentimentPanel`. Graceful degradation if verification APIs fail. | Full pipeline: paste URL → extraction, sentiment, trust score, FDA data, evidence all visible. FDA API down → trust score still renders with reduced confidence note. | 2 hrs |
 
 ---
 
-### Milestone 5 — Comparison UI & User Feedback Loop
+### Milestone 6 — Comparison View & Recommendations
 
 **Timeline:** Week 5–7
-**Goal:** Build the user-facing comparison interface and implement the selection tracking that grows your product database over time.
-**Deliverable:** A polished side-by-side comparison view with trust scores, ingredient breakdowns, and a 'pick your winner' mechanism that feeds future recommendations.
+**Goal:** Extend the single-product view into a multi-product comparison experience with user selections and community-driven recommendations.
+**Deliverable:** A polished side-by-side comparison view with trust scores, ingredient difference highlighting, and a 'pick your winner' mechanism that feeds future recommendations.
 
 | # | Task | Verification | Est. Time |
 |---|---|---|---|
-| 1 | Build a URL input component: a form where users can paste 2–4 product URLs, with basic validation (must be valid http/https URLs). Show a loading state with progress indicators while analysis runs. Use React + Tailwind. | Paste 2 valid URLs → loading spinner appears. Paste an invalid string → inline validation error. Form prevents submission with 0 or >4 URLs. | 3 hrs |
-| 2 | Build a `ProductCard` component displaying: product name, brand, trust score (as a colored circular gauge: green > 70, yellow 40–70, red < 40), top 3 ingredients with amounts, key claims, and the number of Reddit mentions. | Render a `ProductCard` with mock data → all fields visible. Score gauge color matches thresholds. Component is responsive (looks good at 375px and 1200px widths). | 4 hrs |
-| 3 | Build a `ComparisonView` that displays 2–4 `ProductCard`s side by side. Highlight differences: if Product A has an ingredient Product B lacks, show it with a colored badge. Show trust score flags beneath each card. | Render with 2 products → cards are side by side on desktop, stacked on mobile. Differences are visually highlighted. At least one flag is visible. | 4 hrs |
-| 4 | Add a 'Choose This Product' button on each card. When clicked, POST to `/api/selections` with `{ chosenProductId, comparisonProductIds[], sessionId }`. Store in a `selections` table (`id`, `chosen_product_id`, `comparison_ids` JSON, `created_at`). | Click the button → POST succeeds (200). Check DB — selection row exists with correct product IDs. Button shows a confirmation state after click. | 2 hrs |
-| 5 | Build a `GET /api/recommendations` endpoint: given a product category, return the top 5 products by selection count from the `selections` table. Include their trust scores. Fall back to trust score ranking if < 10 total selections exist. | Insert 15 mock selections favoring Product X. `GET /api/recommendations?category=supplements` → Product X is #1. Delete selections so < 10 remain → endpoint returns products sorted by trust score. | 2 hrs |
-| 6 | Add a 'Popular Verified Alternatives' section below the comparison view. Call the recommendations endpoint and display up to 3 alternatives with mini-cards showing name, brand, trust score, and selection count. | After running a comparison, alternatives section appears with up to 3 products. Each mini-card links to a full analysis. If no alternatives exist, section shows a 'Be the first to compare!' message. | 2 hrs |
-| 7 | End-to-end test: paste 2 real product URLs into the live staging site, wait for analysis, review the comparison, select a winner. Refresh the page and run another comparison in the same category — confirm the first winner appears in recommendations. | Full flow works without errors in staging. Console shows no unhandled exceptions. Selected product appears in recommendations on second comparison. Page load-to-result time < 90 seconds. | 3 hrs |
+| 1 | Extend `UrlInput` to accept 2–4 product URLs. Dynamic add/remove fields, validation per field, shared loading state with per-product progress. | 2 valid URLs → spinner. Invalid string → inline error on that field. Blocks 0 or >4 URLs. Can add/remove URL fields. | 2 hrs |
+| 2 | Build `ComparisonView`: 2–4 `ProductCard`s side by side (stacked on mobile). Highlight ingredient differences with colored badges (green = unique advantage, red = missing). Trust score flags beneath each card. | 2 products side by side on desktop, stacked on mobile. Differences highlighted. Flags visible. | 4 hrs |
+| 3 | Add 'Choose This Product' button on each card. POST to `/api/selections` with `{ chosenProductId, comparisonProductIds[], sessionId }`. Store in `selections` table. | Click → POST 200. DB row with correct IDs. Button shows confirmation state. | 2 hrs |
+| 4 | Build `GET /api/recommendations` endpoint: top 5 products by selection count per category. Include trust scores. Fall back to trust score ranking if <10 selections. | 15 mock selections favoring X → X is #1. <10 selections → sorted by trust score. | 2 hrs |
+| 5 | Add 'Popular Verified Alternatives' section below comparison. Call recommendations endpoint, display up to 3 mini-cards (name, brand, trust score, selection count). | Alternatives appear with up to 3 products. Empty state shows 'Be the first to compare!' | 2 hrs |
+| 6 | End-to-end test: paste 2 real URLs on staging, wait for analysis, review comparison, select winner. Refresh + new comparison in same category → winner appears in recommendations. | Full flow no errors. No console exceptions. Selected product in recommendations. Load-to-result < 90s. | 3 hrs |
 
 ---
 

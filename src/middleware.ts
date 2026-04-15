@@ -27,8 +27,12 @@ export async function middleware(request: NextRequest) {
   const isSubdomain = hostname === SCRAPAHOLIC_HOST;
 
   // Block /scrapaholic on the main domain — only accessible via subdomain
+  // Allow direct access in local dev for manual testing
   if (!isSubdomain) {
-    if (pathname.startsWith("/scrapaholic")) {
+    if (
+      pathname.startsWith("/scrapaholic") &&
+      process.env.NODE_ENV !== "development"
+    ) {
       return NextResponse.rewrite(new URL("/not-found", request.url));
     }
     return NextResponse.next();

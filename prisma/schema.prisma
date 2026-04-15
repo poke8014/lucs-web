@@ -22,8 +22,9 @@ model Product {
   ingredients    Json?
   rawClaims      Json?
   certifications Json?
-  imageUrl       String?  @map("image_url")
-  createdAt      DateTime @default(now()) @map("created_at")
+  imageUrl        String?  @map("image_url")
+  redditSentiment Json?    @map("reddit_sentiment")
+  createdAt       DateTime @default(now()) @map("created_at")
 
   @@map("products")
 }

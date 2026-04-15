@@ -2,11 +2,17 @@
 
 Project documentation lives here.
 
+## Contents
+
+| File | Purpose |
+|------|---------|
+| reddit-scraper-reference.md | Full reference for the Apify Reddit Scraper MCP actor (`spry_wholemeal/reddit-scraper`) — modes, input schemas, output fields, gotchas |
+
 ## Planned
 
-- User-facing docs for Scrapaholic
-- API documentation
+- API documentation (endpoint reference for `/api/analyze`, `/api/products`)
 - Architecture diagrams
+- User-facing docs for Scrapaholic
 
 ## Documentation Workflow
 

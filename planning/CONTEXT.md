@@ -8,6 +8,7 @@ Specs, architecture decisions, and roadmaps live here.
 |------|---------|
 | ROADMAP.md | 7-week MVP sprint plan for Scrapaholic (April 2026) |
 | scrapaholic_backlog.md | Task-level backlog with milestones, acceptance criteria, and verify steps |
+| **External:** [docs/reddit-scraper-reference.md](../docs/reddit-scraper-reference.md) | Apify Reddit Scraper MCP reference (modes, schemas, output fields) — used in Milestone 3 |
 
 ## Conventions
 

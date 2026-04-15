@@ -24,14 +24,14 @@ Route groups `(personal)` and `(massage)` share the root layout but have indepen
 - **Backlog:** planning/scrapaholic_backlog.md
 - **Roadmap:** planning/ROADMAP.md
 - **LLM:** Gemini 2.5 Flash (free tier for MVP)
-- **APIs:** Firecrawl, Reddit, FDA (api.fda.gov), NCBI/PubMed
+- **APIs:** Firecrawl, Apify (Reddit scraping), FDA (api.fda.gov), NCBI/PubMed
 - **Env vars:** see .env.example
 
 ## Workspaces
 - /planning — Specs, architecture, decisions
 - /src — Application code
-- /scripts — Ad-hoc test and dev scripts (Firecrawl, DB, extraction)
-- /docs — Documentation (future use)
+- /scripts — Ad-hoc test and dev scripts (Firecrawl, Apify Reddit, DB, extraction)
+- /docs — Documentation and API references
 - /ops — Deployment and operations (future use)
 
 ## Routing
