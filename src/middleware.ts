@@ -58,7 +58,12 @@ export async function middleware(request: NextRequest) {
     return NextResponse.redirect(new URL("/login", request.url));
   }
 
-  // Authenticated — rewrite to /scrapaholic/*
+  // API routes live at /api/*, not /scrapaholic/api/* — pass through after auth
+  if (pathname.startsWith("/api/")) {
+    return NextResponse.next();
+  }
+
+  // Authenticated — rewrite pages to /scrapaholic/*
   const url = request.nextUrl.clone();
   url.pathname = `/scrapaholic${pathname}`;
   return NextResponse.rewrite(url);
