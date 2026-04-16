@@ -54,7 +54,7 @@ export async function POST(request: Request) {
         let rawCommentCount = 0;
         let redditFailed = false;
         try {
-          const rawPosts = await scrapeRedditPosts(extraction.name);
+          const rawPosts = await scrapeRedditPosts(extraction.name, extraction.brand);
           rawPostCount = rawPosts.length;
           rawCommentCount = rawPosts.reduce(
             (n, p) => n + p.comments.length,

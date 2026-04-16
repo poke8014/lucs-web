@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { buildSearchQueries } from "./search-queries";
 
 const ACTOR_ID = "spry_wholemeal~reddit-scraper";
 const APIFY_BASE_URL = "https://api.apify.com/v2";
@@ -134,8 +135,12 @@ function groupRecords(rawItems: unknown[]): ApifyRedditPost[] {
     }
   }
 
-  // Attach comments to their parent posts, sorted by score descending
+  // Attach comments to their parent posts, deduplicating across queries
+  const seenComments = new Set<string>();
   for (const comment of comments) {
+    if (seenComments.has(comment.comment_id)) continue;
+    seenComments.add(comment.comment_id);
+
     const post = posts.get(comment.post_id);
     if (post) {
       post.comments.push({
@@ -165,22 +170,26 @@ function groupRecords(rawItems: unknown[]): ApifyRedditPost[] {
  */
 export async function scrapeRedditPosts(
   productName: string,
+  brand: string,
   options?: { maxPostsPerQuery?: number; subreddits?: string[] },
 ): Promise<ApifyRedditPost[]> {
   const token = getApifyToken();
-  const maxPostsPerQuery = options?.maxPostsPerQuery ?? 25;
+  const maxPostsPerQuery = options?.maxPostsPerQuery ?? 15;
   const subreddits = options?.subreddits ?? HEALTH_SUBREDDITS;
 
-  // Build a subreddit-restricted query using Reddit search syntax
+  // Build multi-specificity queries from the product name and brand
+  const searchTerms = buildSearchQueries(productName, brand);
+
+  // Prepend subreddit restriction to each query
   const subredditFilter = subreddits
     .map((s) => `subreddit:${s}`)
     .join(" OR ");
-  const query = `(${subredditFilter}) ${productName}`;
+  const queries = searchTerms.map((q) => `(${subredditFilter}) ${q}`);
 
   const actorInput = {
     mode: "search",
     search: {
-      queries: [query],
+      queries,
       sort: "relevance",
       maxPostsPerQuery,
       commentsMode: "high_engagement",
