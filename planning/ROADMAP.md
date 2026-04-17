@@ -22,7 +22,8 @@ The system follows a three-pipeline architecture that converges into a trust sco
 |---|---|---|
 | Claims Extraction | Firecrawl LLM scrape of product URLs | Structured ingredient list, dosages, certifications, marketing claims |
 | User Sentiment | Apify Reddit Scraper + Gemini analysis | Efficacy themes, representative quotes, confidence-weighted sentiment score |
-| Verification | FDA, NIH DSLD, PubMed, ClinicalTrials.gov | Adverse event counts, clinical evidence strength, certification cross-checks |
+| Verification | FDA, NIH DSLD, PubMed, ClinicalTrials.gov | Adverse event counts, clinical evidence strength |
+| Certification | NSF Sport, USP Verified, Informed Sport, IFOS, BSCG | Binary cert status per product, cached locally with 30-day TTL |
 
 ---
 
@@ -134,12 +135,20 @@ Each milestone below contains tasks designed for a junior engineer. Every task h
 
 | # | Task | Verification | Est. Time |
 |---|---|---|---|
-| 1 | Research and document available free APIs: FDA Adverse Event API (`api.fda.gov`), NIH Dietary Supplement Label Database (`dsld.od.nih.gov`), ClinicalTrials.gov API, PubMed E-utilities. Write a markdown file listing each API's base URL, auth requirements, rate limits, and relevant endpoints. | Markdown file exists with at least 3 APIs documented. Each entry has a working example `curl` command that returns data. | 2 hrs |
-| 2 | Write `checkFDAAdverseEvents(productName, brand)` that queries the openFDA API for adverse event reports matching the product. Return: total reports, most common adverse reactions (top 5), and whether any serious events were reported. | Call with a known supplement brand — returns structured data. Call with a gibberish name — returns zero results (not an error). | 2 hrs |
-| 3 | Write `checkIngredientEvidence(ingredientName, claimedBenefit)` that searches PubMed's free E-utilities API for clinical studies. Return: number of studies found, whether any are RCTs (randomized controlled trials), and a brief LLM-generated summary of the evidence strength. | Call with ('magnesium glycinate', 'sleep') — returns study count > 0 and a coherent summary. Call with ('pixie dust', 'flying') — returns 0 studies. | 3 hrs |
-| 4 | Define a `TrustScore` interface: `{ overall: number (0–100), breakdown: { claimVerification, ingredientEvidence, userSentiment, safetyProfile }, flags: { type, message }[], explanation }`. Add Zod schema. | Interface compiles. Mock scores for a good product (85+) and a sketchy product (30–) — both pass validation. | 30 min |
-| 5 | Write `calculateTrustScore(extraction, sentiment, fdaData, evidenceData)` sending all data to Gemini with scoring rubric: ingredient evidence 35%, user sentiment 25%, claim verification 25%, safety 15%. | Call with real data. Score 0–100. Breakdown sums roughly to overall. 1+ flag. Coherent explanation. | 3 hrs |
-| 6 | Wire trust scoring into `POST /api/analyze` as final pipeline step. Store in `trust_score` JSON column. Return complete analysis. | `curl` with 2 product URLs → all 3 data layers per product. DB rows complete. Response < 60s. | 2 hrs |
+| 1 | Research and document third-party testing sources: certification programs (NSF Sport, USP Verified, Informed Sport, IFOS, BSCG), independent testing (ConsumerLab), and free APIs (FDA, NIH DSLD, PubMed, ClinicalTrials.gov). | `docs/third-party-testing-research.md` exists with 10+ sources, access methods, and cache strategy. | 2 hrs |
+| 1-ui | Add certification source picker (checkbox group: NSF Sport, USP, Informed Sport, IFOS, BSCG) to the analysis form. Pass `certSources[]` to API. `checkCertifications()` only queries selected sources. | Unchecking all skips cert scraping; selecting only IFOS queries only nutrasource.ca. | 1.5 hrs |
+| 1a | Add `CertificationCache` and `BrandReputation` tables to Prisma schema, run migration. | Tables appear in DB; insert + query works. | 30 min |
+| 1b | Write `src/lib/certifications/nsf-sport.ts` — download NSF PDF, parse, bulk upsert cache. | Known brand (Thorne) returns `certified=true`. | 2 hrs |
+| 1c | Write `src/lib/certifications/informed-sport.ts` — Firecrawl search, parse, cache. | Search "thorne" → `certified=true`. | 1.5 hrs |
+| 1d | Write `src/lib/certifications/ifos.ts` — AJAX endpoint calls to nutrasource.ca, parse, cache. | "Nordic Naturals" → `certified=true`. | 1.5 hrs |
+| 1e | Write `src/lib/certifications/usp.ts` — scrape USP directory, cache. | NOW Foods magnesium → `certified=true`. | 1.5 hrs |
+| 1f | Write `src/lib/certifications/index.ts` — unified `checkCertifications(productName, brand, sources?)` with cache-first lookup (30-day TTL). `sources` filters which providers to query. | First call scrapes + caches; second returns from cache; `sources: ['nsf_sport']` only queries NSF. | 1 hr |
+| 1g | Seed `BrandReputation` with community-sourced ConsumerLab pass rates. | 10+ brands seeded with pass rates. | 30 min |
+| 2 | Write `checkFDAAdverseEvents(productName, brand)` querying openFDA. Return: total reports, top 5 reactions, serious event flag. | Known brand → data. Gibberish → zero results (no error). | 2 hrs |
+| 3 | Write `checkIngredientEvidence(ingredientName, claimedBenefit)` via PubMed E-utilities. Return: study count, RCT flag, LLM summary. | ('magnesium glycinate', 'sleep') → count > 0 + summary. ('pixie dust', 'flying') → 0 studies. | 3 hrs |
+| 4 | Define `TrustScore` interface with `certificationStatus` in breakdown. Add Zod schema. | Compiles. Good product (85+) and sketchy product (30–) pass validation. | 30 min |
+| 5 | Write `calculateTrustScore()` with rubric: certification 25%, evidence 25%, sentiment 20%, claims 15%, safety 15%. | NSF-certified product scores higher than uncertified equivalent. | 3 hrs |
+| 6 | Wire trust scoring into `POST /api/analyze`. Store in `trust_score` JSON column. | All data layers per product. Response < 60s. | 2 hrs |
 | 7 | Build `TrustScoreGauge` component: circular/semicircular gauge (green >70, yellow 40–70, red <40), breakdown bars for each sub-score, flags list with warning/positive/info icons. | Score 85 → green gauge. Score 35 → red gauge. Breakdown bars proportional. Flags render with correct icons. | 3 hrs |
 | 8 | Build `VerificationDetails` component: FDA adverse events summary (total reports, top reactions, serious event badge), ingredient evidence cards (study count, RCT badge, evidence summary per ingredient). | Mock FDA + evidence data renders all sections. Zero adverse events → "No reports found". No studies → "No clinical data". | 3 hrs |
 | 9 | Integrate trust score + verification into product analysis page: `TrustScoreGauge` and `VerificationDetails` render below `ProductCard` + `SentimentPanel`. Graceful degradation if verification APIs fail. | Full pipeline: paste URL → extraction, sentiment, trust score, FDA data, evidence all visible. FDA API down → trust score still renders with reduced confidence note. | 2 hrs |

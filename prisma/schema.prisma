@@ -28,3 +28,45 @@ model Product {
 
   @@map("products")
 }
+
+model CertificationCache {
+  id          String   @id @default(cuid())
+  source      String   // "nsf_sport" | "usp_verified" | "informed_sport" | "ifos" | "bscg"
+  lookupKey   String   @map("lookup_key") // normalized product name or brand name
+  productName String?  @map("product_name")
+  brand       String?
+  certified   Boolean
+  certDetails Json?    @map("cert_details") // source-specific metadata
+  scrapedAt   DateTime @default(now()) @map("scraped_at")
+  expiresAt   DateTime @map("expires_at") // scrapedAt + 30 days default
+
+  @@unique([source, lookupKey])
+  @@index([brand])
+  @@index([expiresAt])
+  @@map("certification_cache")
+}
+
+model ScrapeCache {
+  id        String   @id @default(cuid())
+  source    String   // "nsf_sport" | "informed_sport" | "usp" | "bscg" etc.
+  url       String
+  markdown  String   // raw Firecrawl markdown output
+  scrapedAt DateTime @default(now()) @map("scraped_at")
+  expiresAt DateTime @map("expires_at")
+
+  @@unique([source])
+  @@index([expiresAt])
+  @@map("scrape_cache")
+}
+
+model BrandReputation {
+  id          String   @id @default(cuid())
+  brand       String   @unique
+  clPassRate  Float?   @map("cl_pass_rate") // ConsumerLab pass rate (0.0–1.0)
+  knownCerts  String[] @map("known_certs") // ["nsf_sport", "usp_verified", ...]
+  fdaWarnings Int      @default(0) @map("fda_warnings")
+  notes       String?
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  @@map("brand_reputation")
+}

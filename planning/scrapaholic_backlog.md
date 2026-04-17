@@ -86,18 +86,36 @@
 
 > Backend verification pipeline + trust score UI integrated into the existing product analysis view.
 
-- [ ] **5.1** Research and document free APIs: FDA Adverse Event (`api.fda.gov`), NIH DSLD (`dsld.od.nih.gov`), ClinicalTrials.gov, PubMed E-utilities. Write markdown with base URLs, auth, rate limits, endpoints
-  - **Verify:** Markdown file exists with 3+ APIs; each has working example `curl`
+- [x] **5.1** Research and document third-party testing sources: certification programs (NSF Sport, USP Verified, Informed Sport, IFOS, BSCG), independent testing (ConsumerLab), and free APIs (FDA, NIH DSLD, PubMed, ClinicalTrials.gov). Write markdown with access methods, endpoints, and scraping strategies
+  - **Verify:** `docs/third-party-testing-research.md` exists with 10+ sources documented; access method identified for each; cache strategy defined
+- [ ] **5.1-ui** Add certification source selection to the analysis form. Checkbox group (NSF Sport, USP Verified, Informed Sport, IFOS, BSCG) lets the user pick which sources to check. Default all selected. Pass `certSources: string[]` to `POST /api/analyze`. `checkCertifications()` only queries selected sources
+  - **Verify:** Unchecking all cert sources skips certification scraping entirely; selecting only IFOS queries only nutrasource.ca; selections persist visually during loading
+- [x] **5.1a** Add `CertificationCache` and `BrandReputation` tables to Prisma schema, run migration
+  - **Verify:** `npx prisma db push` succeeds; tables appear in DB; insert + query test row works
+- [x] **5.1b** Write `src/lib/certifications/nsf-sport.ts` — Firecrawl scrape of `nsfsport.com/certified-products/search-results.php`, regex-parse markdown, bulk upsert into `CertificationCache`. Raw markdown stored in `ScrapeCache` table (30-day TTL) to avoid re-scraping. 2,254 products across 269 brands
+  - **Verify:** Run script → `CertificationCache` rows with `source="nsf_sport"`; known brand (Thorne) returns `certified=true`
+- [x] **5.1c** Write `src/lib/certifications/informed-sport.ts` — Firecrawl scrape of `sport.wetestyoutrust.com/supplement-search` + `ScrapeCache` pattern (see nsf-sport.ts). Single page scrape extracts complete brand sidebar (531 brands) + first page product cards (71 products). Brand-level matching provides full coverage without scraping all 83 product pages. Thorne is NOT in Informed Sport (NSF Sport only)
+  - **Verify:** Run script → `CertificationCache` rows with `source="informed_sport"`; known brand (Momentous) returns `certified=true`; unknown brand returns `null`
+- [ ] **5.1d** Write `src/lib/certifications/ifos.ts` — call AJAX endpoints at `certifications.nutrasource.ca`, parse JSON, cache
+  - **Verify:** Search "Nordic Naturals" → `certified=true`; covers IFOS, IKOS, IAOS cert types
+- [ ] **5.1e** Write `src/lib/certifications/usp.ts` — Firecrawl scrape + `ScrapeCache` pattern (see nsf-sport.ts). Discover current directory URL, scrape verified products, cache
+  - **Verify:** Known USP brand (NOW Foods magnesium) returns `certified=true`
+- [ ] **5.1f** Write `src/lib/certifications/index.ts` — unified `checkCertifications(productName, brand, sources?)` with cache-first lookup (30-day TTL). `sources` param filters which providers to query (defaults to all). Only scrapes selected sources. All Firecrawl modules check `ScrapeCache` before scraping
+  - **Verify:** First call scrapes + caches; second call returns from cache (no network); expired cache re-scrapes; passing `sources: ['nsf_sport']` only queries NSF
+- [ ] **5.1g** Seed `BrandReputation` table with community-sourced ConsumerLab pass rates from Reddit data
+  - **Verify:** 10+ brands seeded; `NOW` has `clPassRate=1.0`; `Bulk Supplements` has `clPassRate=0.57`
+- [ ] **5.1h** Expand Informed Sport scraper to paginate all ~83 product listing pages (~3,900 products) and optionally scrape individual product detail pages for batch-level test data, certificate numbers, and test dates. Currently MVP uses brand-sidebar-only approach (1 Firecrawl credit per 30-day refresh)
+  - **Verify:** Full pagination yields 3,500+ product rows in `CertificationCache`; detail page scrape returns batch/cert metadata in `certDetails`
 - [ ] **5.2** Write `checkFDAAdverseEvents(productName, brand)` querying openFDA for adverse events. Return total reports, top 5 reactions, serious event flag
   - **Verify:** Known brand returns data; gibberish name returns zero (no error)
 - [ ] **5.3** Write `checkIngredientEvidence(ingredientName, claimedBenefit)` searching PubMed E-utilities. Return study count, RCT flag, LLM-generated evidence summary
   - **Verify:** ('magnesium glycinate', 'sleep') -> count > 0 + coherent summary; ('pixie dust', 'flying') -> 0 studies
-- [ ] **5.4** Define `TrustScore` interface: `overall` (0-100), `breakdown` (claimVerification, ingredientEvidence, userSentiment, safetyProfile), `flags[]`, `explanation`. Add Zod schema
+- [ ] **5.4** Define `TrustScore` interface: `overall` (0-100), `breakdown` (claimVerification, ingredientEvidence, userSentiment, safetyProfile, **certificationStatus**), `flags[]`, `explanation`. Add Zod schema
   - **Verify:** Compiles; good product (85+) and sketchy product (30-) both pass validation
-- [ ] **5.5** Write `calculateTrustScore(extraction, sentiment, fdaData, evidenceData)` sending all data to Gemini with scoring rubric: ingredient evidence 35%, user sentiment 25%, claim verification 25%, safety 15%
-  - **Verify:** Real data -> score 0-100; breakdown roughly sums to overall; 1+ flag; coherent explanation
+- [ ] **5.5** Write `calculateTrustScore(extraction, sentiment, fdaData, evidenceData, **certData**)` sending all data to Gemini with scoring rubric: certification status 25%, ingredient evidence 25%, user sentiment 20%, claim verification 15%, safety 15%
+  - **Verify:** Real data -> score 0-100; breakdown roughly sums to overall; 1+ flag; coherent explanation; NSF-certified product scores higher than uncertified equivalent
 - [ ] **5.6** Wire trust scoring into `POST /api/analyze` as final step. Store in `trust_score` JSON column. Return full analysis
-  - **Verify:** POST with 2 URLs -> all 3 data layers per product; DB rows complete; response < 60s
+  - **Verify:** POST with 2 URLs -> all data layers per product; DB rows complete; response < 60s
 - [ ] **5.7** Build `TrustScoreGauge` component: circular/semicircular gauge (green >70, yellow 40–70, red <40), breakdown bars for each sub-score, flags list with warning/positive/info icons
   - **Verify:** Score 85 -> green gauge; score 35 -> red gauge; breakdown bars proportional; flags render with correct icons
 - [ ] **5.8** Build `VerificationDetails` component: FDA adverse events summary (total reports, top reactions, serious event badge), ingredient evidence cards (study count, RCT badge, evidence summary per ingredient)
@@ -145,6 +163,8 @@
 
 ### Reddit & Sentiment Improvements
 
+- [ ] **P.13** DB cache-hit for Reddit sentiment: before calling Apify, check if the `products` table already has `redditSentiment` data for the same product name/brand within a configurable TTL (default 7 days). If cached data exists and is fresh, skip Reddit scraping entirely and reuse stored sentiment. Reduces Apify calls and drops repeat analyses from ~60s to seconds
+  - **Verify:** Analyze a product → re-analyze same product within TTL → no Apify call made, sentiment returned from DB; analyze after TTL expires → re-scrapes Reddit; new product with no prior data → scrapes normally
 - [ ] **P.16** Stream Reddit results incrementally to the UI — show posts/comments appearing one-by-one as they are parsed instead of rendering the full table after scraping completes
 
 ### Other
