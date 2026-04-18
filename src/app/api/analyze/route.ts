@@ -6,10 +6,21 @@ import { analyzeRedditSentiment, filterPostComments, filterPostsForDigest } from
 import { prisma } from "@/src/lib/prisma";
 import type { ApifyRedditPost } from "@/src/lib/apify-reddit";
 
+const VALID_CERT_SOURCES = [
+  "nsf_sport",
+  "informed_sport",
+  "usp_verified",
+  "ifos",
+  "bscg",
+] as const;
+
 const analyzeSchema = z.object({
   urls: z
     .array(z.string().url("Each URL must be a valid URL"))
     .min(1, "At least one URL is required"),
+  certSources: z
+    .array(z.enum(VALID_CERT_SOURCES))
+    .default([...VALID_CERT_SOURCES]),
 });
 
 function sseEvent(event: string, data: unknown): string {

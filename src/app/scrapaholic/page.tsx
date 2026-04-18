@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from "react";
 import UrlInput from "./_components/UrlInput";
+import type { CertSourceId } from "./_components/UrlInput";
 import ProductCard from "./_components/ProductCard";
 import SentimentPanel from "./_components/SentimentPanel";
 import RedditMentions from "./_components/RedditMentions";
@@ -26,7 +27,7 @@ export default function ScrapaholicPage() {
   const [redditError, setRedditError] = useState("");
   const [sentimentError, setSentimentError] = useState("");
 
-  const handleAnalyze = useCallback(async (url: string) => {
+  const handleAnalyze = useCallback(async (url: string, certSources: CertSourceId[]) => {
     setIsLoading(true);
     setError("");
     setRedditError("");
@@ -40,7 +41,7 @@ export default function ScrapaholicPage() {
       const response = await fetch("/api/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ urls: [url] }),
+        body: JSON.stringify({ urls: [url], certSources }),
       });
 
       if (!response.ok) {

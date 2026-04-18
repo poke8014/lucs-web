@@ -24,8 +24,20 @@ const STAGE_ORDER: PipelineStage[] = [
   "analyzing-sentiment",
 ];
 
+export const CERT_SOURCES = [
+  { id: "nsf_sport", label: "NSF Sport" },
+  { id: "informed_sport", label: "Informed Sport" },
+  { id: "usp_verified", label: "USP Verified" },
+  { id: "ifos", label: "IFOS" },
+  { id: "bscg", label: "BSCG" },
+] as const;
+
+export type CertSourceId = (typeof CERT_SOURCES)[number]["id"];
+
+export const ALL_CERT_SOURCE_IDS: CertSourceId[] = CERT_SOURCES.map((s) => s.id);
+
 interface UrlInputProps {
-  onAnalyze: (url: string) => Promise<void>;
+  onAnalyze: (url: string, certSources: CertSourceId[]) => Promise<void>;
   isLoading: boolean;
   stage: PipelineStage | null;
 }
@@ -37,6 +49,7 @@ export default function UrlInput({
 }: UrlInputProps) {
   const [url, setUrl] = useState("");
   const [error, setError] = useState("");
+  const [certSources, setCertSources] = useState<CertSourceId[]>([...ALL_CERT_SOURCE_IDS]);
 
   function validate(value: string): string | null {
     if (!value.trim()) return "URL is required";
@@ -59,7 +72,19 @@ export default function UrlInput({
       return;
     }
     setError("");
-    onAnalyze(url.trim());
+    onAnalyze(url.trim(), certSources);
+  }
+
+  function toggleCertSource(id: CertSourceId) {
+    setCertSources((prev) =>
+      prev.includes(id) ? prev.filter((s) => s !== id) : [...prev, id],
+    );
+  }
+
+  function toggleAll() {
+    setCertSources((prev) =>
+      prev.length === CERT_SOURCES.length ? [] : [...ALL_CERT_SOURCE_IDS],
+    );
   }
 
   const stageIndex = stage ? STAGE_ORDER.indexOf(stage) : -1;
@@ -90,6 +115,67 @@ export default function UrlInput({
         >
           {isLoading ? "Analyzing…" : "Analyze"}
         </button>
+      </div>
+
+      <div className="mt-3">
+        <div className="flex items-center justify-between">
+          <span className="text-xs font-medium text-gray-500">
+            Certification sources
+          </span>
+          <button
+            type="button"
+            onClick={toggleAll}
+            disabled={isLoading}
+            className="text-xs text-blue-600 hover:text-blue-700 disabled:text-gray-400"
+          >
+            {certSources.length === CERT_SOURCES.length
+              ? "Deselect all"
+              : "Select all"}
+          </button>
+        </div>
+        <div className="mt-1.5 flex flex-wrap gap-2">
+          {CERT_SOURCES.map((source) => {
+            const checked = certSources.includes(source.id);
+            return (
+              <label
+                key={source.id}
+                className={`inline-flex cursor-pointer items-center gap-1.5 rounded-full border px-3 py-1 text-xs transition-colors ${
+                  checked
+                    ? "border-blue-200 bg-blue-50 text-blue-700"
+                    : "border-gray-200 bg-gray-50 text-gray-400"
+                } ${isLoading ? "cursor-not-allowed opacity-60" : "hover:border-blue-300"}`}
+              >
+                <input
+                  type="checkbox"
+                  checked={checked}
+                  onChange={() => toggleCertSource(source.id)}
+                  disabled={isLoading}
+                  className="sr-only"
+                />
+                <span
+                  className={`inline-block h-3 w-3 rounded border ${
+                    checked
+                      ? "border-blue-500 bg-blue-500"
+                      : "border-gray-300 bg-white"
+                  }`}
+                >
+                  {checked && (
+                    <svg
+                      viewBox="0 0 12 12"
+                      className="h-3 w-3 text-white"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                    >
+                      <path d="M2.5 6l2.5 2.5 4.5-5" />
+                    </svg>
+                  )}
+                </span>
+                {source.label}
+              </label>
+            );
+          })}
+        </div>
       </div>
 
       {isLoading && stage && stage !== "done" && (
