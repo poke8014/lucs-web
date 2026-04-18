@@ -263,14 +263,11 @@ export async function checkInformedSport(
   productName: string,
   brand: string
 ): Promise<{ certified: boolean; productName?: string; brand?: string } | null> {
-  const now = new Date();
-
   // 1. Try exact product name match
   const byProduct = await prisma.certificationCache.findFirst({
     where: {
       source: SOURCE_KEY,
       lookupKey: toLookupKey(productName),
-      expiresAt: { gt: now },
     },
   });
 
@@ -287,7 +284,6 @@ export async function checkInformedSport(
     where: {
       source: SOURCE_KEY,
       lookupKey: `brand:${toLookupKey(brand)}`,
-      expiresAt: { gt: now },
     },
   });
 
@@ -304,7 +300,6 @@ export async function checkInformedSport(
       source: SOURCE_KEY,
       brand: { contains: brand, mode: "insensitive" },
       certified: true,
-      expiresAt: { gt: now },
     },
   });
 

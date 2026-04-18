@@ -200,13 +200,10 @@ export async function checkNsfSport(
   productName: string,
   brand: string
 ): Promise<{ certified: boolean; productName?: string; brand?: string } | null> {
-  const now = new Date();
-
   const byProduct = await prisma.certificationCache.findFirst({
     where: {
       source: "nsf_sport",
       lookupKey: toLookupKey(productName),
-      expiresAt: { gt: now },
     },
   });
 
@@ -223,7 +220,6 @@ export async function checkNsfSport(
       source: "nsf_sport",
       brand: { contains: brand, mode: "insensitive" },
       certified: true,
-      expiresAt: { gt: now },
     },
   });
 
