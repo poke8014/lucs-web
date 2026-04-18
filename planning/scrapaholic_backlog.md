@@ -88,7 +88,7 @@
 
 - [x] **5.1** Research and document third-party testing sources: certification programs (NSF Sport, USP Verified, Informed Sport, IFOS, BSCG), independent testing (ConsumerLab), and free APIs (FDA, NIH DSLD, PubMed, ClinicalTrials.gov). Write markdown with access methods, endpoints, and scraping strategies
   - **Verify:** `docs/third-party-testing-research.md` exists with 10+ sources documented; access method identified for each; cache strategy defined
-- [ ] **5.1-ui** Add certification source selection to the analysis form. Checkbox group (NSF Sport, USP Verified, Informed Sport, IFOS, BSCG) lets the user pick which sources to check. Default all selected. Pass `certSources: string[]` to `POST /api/analyze`. `checkCertifications()` only queries selected sources
+- [x] **5.1-ui** Add certification source selection to the analysis form. Checkbox group (NSF Sport, USP Verified, Informed Sport, IFOS, BSCG) lets the user pick which sources to check. Default all selected. Pass `certSources: string[]` to `POST /api/analyze`. `checkCertifications()` only queries selected sources
   - **Verify:** Unchecking all cert sources skips certification scraping entirely; selecting only IFOS queries only nutrasource.ca; selections persist visually during loading
 - [x] **5.1a** Add `CertificationCache` and `BrandReputation` tables to Prisma schema, run migration
   - **Verify:** `npx prisma db push` succeeds; tables appear in DB; insert + query test row works
@@ -96,8 +96,8 @@
   - **Verify:** Run script → `CertificationCache` rows with `source="nsf_sport"`; known brand (Thorne) returns `certified=true`
 - [x] **5.1c** Write `src/lib/certifications/informed-sport.ts` — Firecrawl scrape of `sport.wetestyoutrust.com/supplement-search` + `ScrapeCache` pattern (see nsf-sport.ts). Single page scrape extracts complete brand sidebar (531 brands) + first page product cards (71 products). Brand-level matching provides full coverage without scraping all 83 product pages. Thorne is NOT in Informed Sport (NSF Sport only)
   - **Verify:** Run script → `CertificationCache` rows with `source="informed_sport"`; known brand (Momentous) returns `certified=true`; unknown brand returns `null`
-- [ ] **5.1d** Write `src/lib/certifications/ifos.ts` — call AJAX endpoints at `certifications.nutrasource.ca`, parse JSON, cache
-  - **Verify:** Search "Nordic Naturals" → `certified=true`; covers IFOS, IKOS, IAOS cert types
+- [x] **5.1d** Write `src/lib/certifications/ifos.ts` — GET requests to AJAX endpoints at `certifications.nutrasource.ca` (POST 404s), paginate all brands (367) and products (1,790), cache in `CertificationCache` with 30-day TTL via `ScrapeCache` marker. No Firecrawl credits needed. Covers all Nutrasource cert types: IFOS, IKOS, IAOS, IGEN, IPRO, RTCP, NutraStrong
+  - **Verify:** Search "Nordic Naturals" → `certified=true` (IGEN); "Natural Factors" → `certified=true` (IFOS); unknown brand → `null`; second refresh hits cache
 - [ ] **5.1e** Write `src/lib/certifications/usp.ts` — Firecrawl scrape + `ScrapeCache` pattern (see nsf-sport.ts). Discover current directory URL, scrape verified products, cache
   - **Verify:** Known USP brand (NOW Foods magnesium) returns `certified=true`
 - [ ] **5.1f** Write `src/lib/certifications/index.ts` — unified `checkCertifications(productName, brand, sources?)` with cache-first lookup (30-day TTL). `sources` param filters which providers to query (defaults to all). Only scrapes selected sources. All Firecrawl modules check `ScrapeCache` before scraping
