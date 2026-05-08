@@ -1,6 +1,6 @@
 # Luc's Web
 
-Personal brand website and home for **Scrapaholic** — a clinical product verification engine.
+Personal brand website.
 
 ## Sites
 
@@ -8,15 +8,14 @@ Personal brand website and home for **Scrapaholic** — a clinical product verif
 |------|-------|--------|-------------|
 | Massage | `/` | lucttang.dev | Tang Therapeutics — massage services, availability, Calendly booking |
 | Personal | — | lucttang.dev | Portfolio for software employers (coming soon) |
-| Scrapaholic | `/scrapaholic` | scrapaholic.lucttang.dev | Compare supplements via trust scoring, Reddit sentiment, and FDA/PubMed data |
+
+> **Archived:** Scrapaholic (clinical product verification engine) was archived on 2026-05-07. The `/scrapaholic` route still serves on `scrapaholic.lucttang.dev`, but no new development is planned. See `archive/scrapaholic/` for the original planning, docs, and scripts.
 
 ## Tech Stack
 
 - **Framework**: Next.js 16 (App Router) + TypeScript
 - **Styling**: Tailwind CSS 4
 - **Database**: PostgreSQL + Prisma 7
-- **Scraping**: Firecrawl (LLM extraction mode)
-- **LLM**: Gemini 2.5 Flash (free tier for MVP)
 - **Hosting**: Vercel
 - **CI**: GitHub Actions (lint + typecheck)
 
@@ -38,7 +37,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) for the massage site.
-Scrapaholic is only accessible via `scrapaholic.lucttang.dev` (password-protected).
 
 ## Scripts
 

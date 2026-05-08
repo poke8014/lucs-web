@@ -2,6 +2,8 @@
 
 All application code lives here.
 
+> **Note:** The `scrapaholic` route, its API handlers, and supporting lib modules (`firecrawl.ts`, `apify-reddit.ts`, `gemini.ts`, `sentiment.ts`, `fda.ts`, `certifications/*`, `schemas/*`) are kept here so the live subdomain keeps serving, but the project is **archived as of 2026-05-07**. Do not extend or refactor scrapaholic code unless the user explicitly resumes the project. Original planning/docs/scripts are under `archive/scrapaholic/`.
+
 ## Layout
 
 ```
