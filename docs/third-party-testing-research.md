@@ -52,7 +52,7 @@ These programs certify individual products through lab testing. A product either
 | Detail | Value |
 |---|---|
 | Search URL | `https://www.usp.org/verification-services/verified-mark` |
-| Verified products directory | `https://www.quality-supplements.org/verified-products` (returned 404 as of 2026-04-14 — may have moved) |
+| Verified products directory | `https://www.quality-supplements.org/usp_verified_products` (corrected URL — old `/verified-products` path 404s) |
 | Public API | **None** |
 | Search fields | Unknown — directory may be restructured |
 | Data returned | Product name, brand, USP Verified Mark status |

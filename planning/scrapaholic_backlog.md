@@ -98,15 +98,15 @@
   - **Verify:** Run script → `CertificationCache` rows with `source="informed_sport"`; known brand (Momentous) returns `certified=true`; unknown brand returns `null`
 - [x] **5.1d** Write `src/lib/certifications/ifos.ts` — GET requests to AJAX endpoints at `certifications.nutrasource.ca` (POST 404s), paginate all brands (367) and products (1,790), cache in `CertificationCache` with 30-day TTL via `ScrapeCache` marker. No Firecrawl credits needed. Covers all Nutrasource cert types: IFOS, IKOS, IAOS, IGEN, IPRO, RTCP, NutraStrong
   - **Verify:** Search "Nordic Naturals" → `certified=true` (IGEN); "Natural Factors" → `certified=true` (IFOS); unknown brand → `null`; second refresh hits cache
-- [ ] **5.1e** Write `src/lib/certifications/usp.ts` — Firecrawl scrape + `ScrapeCache` pattern (see nsf-sport.ts). Discover current directory URL, scrape verified products, cache
-  - **Verify:** Known USP brand (NOW Foods magnesium) returns `certified=true`
-- [ ] **5.1f** Write `src/lib/certifications/index.ts` — unified `checkCertifications(productName, brand, sources?)` with cache-first lookup (30-day TTL). `sources` param filters which providers to query (defaults to all). Only scrapes selected sources. All Firecrawl modules check `ScrapeCache` before scraping
+- [x] **5.1e** Write `src/lib/certifications/usp.ts` — Firecrawl scrape of `quality-supplements.org/usp_verified_products` + `ScrapeCache` pattern (see nsf-sport.ts). Base page gives complete brand sidebar (16 brands) + first 12 product cards. Paginated pages blocked by Akamai WAF, so brand-level matching provides full coverage (same approach as Informed Sport). 1 Firecrawl credit per 30-day refresh
+  - **Verify:** Run script → `CertificationCache` rows with `source="usp_verified"`; known brand (Nature Made) returns `certified=true`; unknown brand returns `null`; second refresh hits cache
+- [x] **5.1f** Write `src/lib/certifications/index.ts` — unified `checkCertifications(productName, brand, sources?)` with cache-first lookup (30-day TTL). `sources` param filters which providers to query (defaults to all). Only scrapes selected sources. All Firecrawl modules check `ScrapeCache` before scraping
   - **Verify:** First call scrapes + caches; second call returns from cache (no network); expired cache re-scrapes; passing `sources: ['nsf_sport']` only queries NSF
 - [ ] **5.1g** Seed `BrandReputation` table with community-sourced ConsumerLab pass rates from Reddit data
   - **Verify:** 10+ brands seeded; `NOW` has `clPassRate=1.0`; `Bulk Supplements` has `clPassRate=0.57`
 - [ ] **5.1h** Expand Informed Sport scraper to paginate all ~83 product listing pages (~3,900 products) and optionally scrape individual product detail pages for batch-level test data, certificate numbers, and test dates. Currently MVP uses brand-sidebar-only approach (1 Firecrawl credit per 30-day refresh)
   - **Verify:** Full pagination yields 3,500+ product rows in `CertificationCache`; detail page scrape returns batch/cert metadata in `certDetails`
-- [ ] **5.2** Write `checkFDAAdverseEvents(productName, brand)` querying openFDA for adverse events. Return total reports, top 5 reactions, serious event flag
+- [x] **5.2** Write `checkFDAAdverseEvents(productName, brand)` querying openFDA for adverse events. Return total reports, top 5 reactions, serious event flag
   - **Verify:** Known brand returns data; gibberish name returns zero (no error)
 - [ ] **5.3** Write `checkIngredientEvidence(ingredientName, claimedBenefit)` searching PubMed E-utilities. Return study count, RCT flag, LLM-generated evidence summary
   - **Verify:** ('magnesium glycinate', 'sleep') -> count > 0 + coherent summary; ('pixie dust', 'flying') -> 0 studies

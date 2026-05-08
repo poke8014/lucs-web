@@ -37,6 +37,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# firecrawl local scrape cache
+/.firecrawl
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
