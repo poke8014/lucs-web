@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cynosurus echinatus",
+  "taxon_id": 47695,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 109369338,
+      "license": "cc-by",
+      "attribution": "(c) Jeremy Gilmore, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109369338/large.jpeg",
+      "observation_id": 67659566,
+      "observation_url": "https://www.inaturalist.org/observations/67659566",
+      "observed_on": "2021-01-04",
+      "place_guess": "Path to Cecilia Waterfall straight up from carpark, Table Mountain National Park, Cape Town, Western Cape, South Africa",
+      "user_login": "jeremygilmore",
+      "filename": "cynosurus-echinatus_01_inat-109369338.jpeg"
+    },
+    {
+      "photo_id": 608523197,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608523197/large.jpg",
+      "observation_id": 335017481,
+      "observation_url": "https://www.inaturalist.org/observations/335017481",
+      "observed_on": "2025-12-04",
+      "place_guess": "Barcou\u00e7o, Mealhada, 3050, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "cynosurus-echinatus_02_inat-608523197.jpg"
+    },
+    {
+      "photo_id": 122614892,
+      "license": "cc-by",
+      "attribution": "(c) Justin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122614892/large.jpeg",
+      "observation_id": 74981971,
+      "observation_url": "https://www.inaturalist.org/observations/74981971",
+      "observed_on": "2021-04-23",
+      "place_guess": "Hidden Falls Regional Park",
+      "user_login": "justin2",
+      "filename": "cynosurus-echinatus_03_inat-122614892.jpeg"
+    },
+    {
+      "photo_id": 329665095,
+      "license": "cc-by",
+      "attribution": "(c) Yves Bas, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329665095/large.jpeg",
+      "observation_id": 188364664,
+      "observation_url": "https://www.inaturalist.org/observations/188364664",
+      "observed_on": "2023-05-09",
+      "place_guess": "G\u00e9rone, Espagne",
+      "user_login": "yvesbas",
+      "filename": "cynosurus-echinatus_04_inat-329665095.jpeg"
+    },
+    {
+      "photo_id": 390476439,
+      "license": "cc-by",
+      "attribution": "(c) Ole N., some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/390476439/large.jpeg",
+      "observation_id": 220541186,
+      "observation_url": "https://www.inaturalist.org/observations/220541186",
+      "observed_on": "2024-06-04",
+      "place_guess": "Limmer, 30 Hannover-Linden-Limmer, Deutschland",
+      "user_login": "isearching",
+      "filename": "cynosurus-echinatus_05_inat-390476439.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Ammophila arenaria",
+  "taxon_id": 942779,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 386842029,
+      "license": "cc-by",
+      "attribution": "(c) Aalbert Rebergen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386842029/large.jpeg",
+      "observation_id": 218599956,
+      "observation_url": "https://www.inaturalist.org/observations/218599956",
+      "observed_on": "2024-05-04",
+      "place_guess": "Waikouaiti, New Zealand",
+      "user_login": "aalbertrebergen",
+      "filename": "ammophila-arenaria_01_inat-386842029.jpeg"
+    },
+    {
+      "photo_id": 138894918,
+      "license": "cc-by",
+      "attribution": "(c) Jared Shorma, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138894918/large.jpg",
+      "observation_id": 84502465,
+      "observation_url": "https://www.inaturalist.org/observations/84502465",
+      "observed_on": "2021-06-25",
+      "place_guess": "Newport, OR, US",
+      "user_login": "blazeclaw",
+      "filename": "ammophila-arenaria_02_inat-138894918.jpg"
+    },
+    {
+      "photo_id": 614433689,
+      "license": "cc-by",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614433689/large.jpg",
+      "observation_id": 337932022,
+      "observation_url": "https://www.inaturalist.org/observations/337932022",
+      "observed_on": "2026-02-08",
+      "place_guess": "Vagos, Aveiro, Portugal",
+      "user_login": "duarte",
+      "filename": "ammophila-arenaria_03_inat-614433689.jpg"
+    },
+    {
+      "photo_id": 70214639,
+      "license": "cc-by",
+      "attribution": "(c) Arnim Littek, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/70214639/large.jpeg",
+      "observation_id": 44287113,
+      "observation_url": "https://www.inaturalist.org/observations/44287113",
+      "observed_on": "2020-04-27",
+      "place_guess": "Foxton Beach, New Zealand",
+      "user_login": "arnim",
+      "filename": "ammophila-arenaria_04_inat-70214639.jpeg"
+    },
+    {
+      "photo_id": 296060922,
+      "license": "cc-by",
+      "attribution": "(c) Sam Bellamy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296060922/large.jpeg",
+      "observation_id": 170676580,
+      "observation_url": "https://www.inaturalist.org/observations/170676580",
+      "observed_on": "2023-07-02",
+      "place_guess": "Landguard Fort, Felixstowe IP11 3TW, UK",
+      "user_login": "samwbellamy",
+      "filename": "ammophila-arenaria_05_inat-296060922.jpeg"
+    }
+  ]
+}

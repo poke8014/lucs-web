@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Festuca myuros",
+  "taxon_id": 77140,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 158414377,
+      "license": "cc-by",
+      "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414377/large.jpg",
+      "observation_id": 95423386,
+      "observation_url": "https://www.inaturalist.org/observations/95423386",
+      "observed_on": "2011-05-22",
+      "place_guess": "Zion National Park, Angels Landing, Utah, United States",
+      "user_login": "mattlavin",
+      "filename": "vulpia-myuros_01_inat-158414377.jpg"
+    },
+    {
+      "photo_id": 158414385,
+      "license": "cc-by",
+      "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414385/large.jpg",
+      "observation_id": 95423386,
+      "observation_url": "https://www.inaturalist.org/observations/95423386",
+      "observed_on": "2011-05-22",
+      "place_guess": "Zion National Park, Angels Landing, Utah, United States",
+      "user_login": "mattlavin",
+      "filename": "vulpia-myuros_02_inat-158414385.jpg"
+    },
+    {
+      "photo_id": 158414393,
+      "license": "cc-by",
+      "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414393/large.jpg",
+      "observation_id": 95423386,
+      "observation_url": "https://www.inaturalist.org/observations/95423386",
+      "observed_on": "2011-05-22",
+      "place_guess": "Zion National Park, Angels Landing, Utah, United States",
+      "user_login": "mattlavin",
+      "filename": "vulpia-myuros_03_inat-158414393.jpg"
+    },
+    {
+      "photo_id": 158414403,
+      "license": "cc-by",
+      "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414403/large.jpg",
+      "observation_id": 95423386,
+      "observation_url": "https://www.inaturalist.org/observations/95423386",
+      "observed_on": "2011-05-22",
+      "place_guess": "Zion National Park, Angels Landing, Utah, United States",
+      "user_login": "mattlavin",
+      "filename": "vulpia-myuros_04_inat-158414403.jpg"
+    },
+    {
+      "photo_id": 158414408,
+      "license": "cc-by",
+      "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414408/large.jpg",
+      "observation_id": 95423386,
+      "observation_url": "https://www.inaturalist.org/observations/95423386",
+      "observed_on": "2011-05-22",
+      "place_guess": "Zion National Park, Angels Landing, Utah, United States",
+      "user_login": "mattlavin",
+      "filename": "vulpia-myuros_05_inat-158414408.jpg"
+    }
+  ]
+}

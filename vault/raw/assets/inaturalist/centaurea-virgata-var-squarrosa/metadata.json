@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Centaurea virgata ssp. squarrosa",
+  "taxon_id": 79698,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 424414396,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Dubynin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424414396/large.jpg",
+      "observation_id": 238399194,
+      "observation_url": "https://www.inaturalist.org/observations/238399194",
+      "observed_on": "2024-06-11",
+      "place_guess": "\u0416\u0430\u043c\u0431\u044b\u043b\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+      "user_login": "alexanderdubynin",
+      "filename": "centaurea-virgata-var-squarrosa_01_inat-424414396.jpg"
+    },
+    {
+      "photo_id": 536515024,
+      "license": "cc-by",
+      "attribution": "(c) sharpnel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536515024/large.jpg",
+      "observation_id": 297885004,
+      "observation_url": "https://www.inaturalist.org/observations/297885004",
+      "observed_on": "2025-07-14",
+      "place_guess": "16, \u041a\u0430\u0440\u0430\u0433\u0430\u043d\u0434\u0430 100000, \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+      "user_login": "sharpnel",
+      "filename": "centaurea-virgata-var-squarrosa_02_inat-536515024.jpg"
+    },
+    {
+      "photo_id": 540870165,
+      "license": "cc-by",
+      "attribution": "(c) Islam Galymzhanov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/540870165/large.jpg",
+      "observation_id": 300196438,
+      "observation_url": "https://www.inaturalist.org/observations/300196438",
+      "observed_on": "2025-07-22",
+      "place_guess": "\u0415\u043d\u0431\u0435\u043a\u0448\u0438\u043a\u0430\u0437\u0430\u0445\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+      "user_login": "islam_galymzhanov",
+      "filename": "centaurea-virgata-var-squarrosa_03_inat-540870165.jpg"
+    },
+    {
+      "photo_id": 256046287,
+      "license": "cc-by",
+      "attribution": "(c) Oleg Kosterin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256046287/large.jpg",
+      "observation_id": 148661410,
+      "observation_url": "https://www.inaturalist.org/observations/148661410",
+      "observed_on": "2009-07-06",
+      "place_guess": "Kazakhstan, Almaty Province, the dry valley behind Tamgaly-Tas Rock",
+      "user_login": "oleg_kosterin",
+      "filename": "centaurea-virgata-var-squarrosa_04_inat-256046287.jpg"
+    },
+    {
+      "photo_id": 294061137,
+      "license": "cc-by",
+      "attribution": "(c) \u041c\u0438\u0445\u0430\u0438\u043b \u041e\u0440\u043b\u043e\u0432, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/294061137/large.jpeg",
+      "observation_id": 169602571,
+      "observation_url": "https://www.inaturalist.org/observations/169602571",
+      "observed_on": "2023-06-26",
+      "place_guess": "Almaty (Alma-Ata), KZ-AA, KZ",
+      "user_login": "naturalist16000",
+      "filename": "centaurea-virgata-var-squarrosa_05_inat-294061137.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Leucanthemum vulgare",
+  "taxon_id": 56057,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 384586008,
+      "license": "cc-by",
+      "attribution": "(c) Will Kuhn, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384586008/large.jpeg",
+      "observation_id": 217395674,
+      "observation_url": "https://www.inaturalist.org/observations/217395674",
+      "observed_on": "2024-05-21",
+      "place_guess": "Townsend, TN 37882, USA",
+      "user_login": "willkuhn",
+      "filename": "leucanthemum-vulgare_01_inat-384586008.jpeg"
+    },
+    {
+      "photo_id": 9736542,
+      "license": "cc-by",
+      "attribution": "(c) Connie Taylor, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9736542/large.jpeg",
+      "observation_id": 7479114,
+      "observation_url": "https://www.inaturalist.org/observations/7479114",
+      "observed_on": "2017-08-12",
+      "place_guess": "Fishhook, AK, USA",
+      "user_login": "connietaylor",
+      "filename": "leucanthemum-vulgare_02_inat-9736542.jpeg"
+    },
+    {
+      "photo_id": 204365735,
+      "license": "cc-by",
+      "attribution": "(c) Marilyne Busque-Dubois, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204365735/large.jpg",
+      "observation_id": 120805932,
+      "observation_url": "https://www.inaturalist.org/observations/120805932",
+      "observed_on": "2022-06-07",
+      "place_guess": "Baie-Saint-Paul, QC, CA",
+      "user_login": "marilynebdubois",
+      "filename": "leucanthemum-vulgare_03_inat-204365735.jpg"
+    },
+    {
+      "photo_id": 201524988,
+      "license": "cc-by",
+      "attribution": "(c) Tyler Ekholm, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201524988/large.jpeg",
+      "observation_id": 119225591,
+      "observation_url": "https://www.inaturalist.org/observations/119225591",
+      "observed_on": "2022-05-29",
+      "place_guess": "Swansea, MA 02777, USA",
+      "user_login": "chickenparmesan24",
+      "filename": "leucanthemum-vulgare_04_inat-201524988.jpeg"
+    },
+    {
+      "photo_id": 21365414,
+      "license": "cc-by",
+      "attribution": "(c) Toby Rowland, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21365414/large.jpg",
+      "observation_id": 14371808,
+      "observation_url": "https://www.inaturalist.org/observations/14371808",
+      "observed_on": "2018-06-07",
+      "place_guess": "459 Reid St, Peterborough, ON, CA",
+      "user_login": "tobypcr",
+      "filename": "leucanthemum-vulgare_05_inat-21365414.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Lythrum hyssopifolia",
+  "taxon_id": 58934,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 102588228,
+      "license": "cc-by",
+      "attribution": "(c) Jeremy Gilmore, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102588228/large.jpeg",
+      "observation_id": 63873523,
+      "observation_url": "https://www.inaturalist.org/observations/63873523",
+      "observed_on": "2020-10-25",
+      "place_guess": "Riverlands Nature Reserve, West Coast, Western Cape, South Africa",
+      "user_login": "jeremygilmore",
+      "filename": "lythrum-hyssopifolium_01_inat-102588228.jpeg"
+    },
+    {
+      "photo_id": 454233809,
+      "license": "cc-by",
+      "attribution": "(c) Quinten Wiegersma, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454233809/large.jpg",
+      "observation_id": 253660463,
+      "observation_url": "https://www.inaturalist.org/observations/253660463",
+      "observed_on": "2024-09-13",
+      "place_guess": "Innovation Drive (Hyundai) Pond, Hamilton Road, London",
+      "user_login": "birds_bugs_botany",
+      "filename": "lythrum-hyssopifolium_02_inat-454233809.jpg"
+    },
+    {
+      "photo_id": 132296627,
+      "license": "cc-by",
+      "attribution": "(c) \u0414\u043c\u0438\u0442\u0440\u0438\u0439 \u0414\u0443\u043d\u0438\u043d, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132296627/large.jpeg",
+      "observation_id": 80703101,
+      "observation_url": "https://www.inaturalist.org/observations/80703101",
+      "observed_on": "2021-05-29",
+      "place_guess": "\u0421\u043e\u0447\u0438, \u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439, \u0420\u043e\u0441\u0441\u0438\u044f, 354364",
+      "user_login": "dmitrydunin369",
+      "filename": "lythrum-hyssopifolium_03_inat-132296627.jpeg"
+    },
+    {
+      "photo_id": 536110146,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/536110146/large.jpg",
+      "observation_id": 297673147,
+      "observation_url": "https://www.inaturalist.org/observations/297673147",
+      "observed_on": "2010-05-28",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "lythrum-hyssopifolium_04_inat-536110146.jpg"
+    },
+    {
+      "photo_id": 298087957,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/298087957/large.jpeg",
+      "observation_id": 171762306,
+      "observation_url": "https://www.inaturalist.org/observations/171762306",
+      "observed_on": "2023-07-08",
+      "place_guess": "England, GB",
+      "user_login": "jonnyecology",
+      "filename": "lythrum-hyssopifolium_05_inat-298087957.jpeg"
+    }
+  ]
+}

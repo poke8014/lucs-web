@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Festuca arundinacea",
+  "taxon_id": 164708,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 106303495,
+      "license": "cc-by",
+      "attribution": "(c) \u0413\u0435\u043e\u0440\u0433\u0438\u0439 \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043e\u0432 (Georgy Vinogradov), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106303495/large.jpg",
+      "observation_id": 65998620,
+      "observation_url": "https://www.inaturalist.org/observations/65998620",
+      "observed_on": "2007-08-11",
+      "place_guess": "\u041e\u0434\u0438\u043d\u0446\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "prokhozhyj",
+      "filename": "festuca-arundinacea_01_inat-106303495.jpg"
+    },
+    {
+      "photo_id": 596718663,
+      "license": "cc-by",
+      "attribution": "(c) Mariano Cosentino, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596718663/large.jpg",
+      "observation_id": 329217298,
+      "observation_url": "https://www.inaturalist.org/observations/329217298",
+      "observed_on": "2025-12-02",
+      "place_guess": "Juan Anchorena, B1640 Mart\u00ednez, Provincia de Buenos Aires, Argentina",
+      "user_login": "elbarbaguardaparque",
+      "filename": "festuca-arundinacea_02_inat-596718663.jpg"
+    },
+    {
+      "photo_id": 327180014,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327180014/large.jpeg",
+      "observation_id": 187127381,
+      "observation_url": "https://www.inaturalist.org/observations/187127381",
+      "observed_on": "2023-10-11",
+      "place_guess": "Hilsea, Portsmouth, UK",
+      "user_login": "bobwardell",
+      "filename": "festuca-arundinacea_03_inat-327180014.jpeg"
+    },
+    {
+      "photo_id": 649157609,
+      "license": "cc-by",
+      "attribution": "(c) ashleyrsteel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649157609/large.jpg",
+      "observation_id": 355971793,
+      "observation_url": "https://www.inaturalist.org/observations/355971793",
+      "observed_on": "2026-04-27",
+      "place_guess": "Blue Ridge, TX, US",
+      "user_login": "ashleyrsteel",
+      "filename": "festuca-arundinacea_04_inat-649157609.jpg"
+    },
+    {
+      "photo_id": 80657106,
+      "license": "cc-by",
+      "attribution": "(c) Alex Zorach, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80657106/large.jpeg",
+      "observation_id": 50781104,
+      "observation_url": "https://www.inaturalist.org/observations/50781104",
+      "observed_on": "2020-06-24",
+      "place_guess": "Newark Rail Station, Newark, DE 19716, USA",
+      "user_login": "cazort",
+      "filename": "festuca-arundinacea_05_inat-80657106.jpeg"
+    }
+  ]
+}

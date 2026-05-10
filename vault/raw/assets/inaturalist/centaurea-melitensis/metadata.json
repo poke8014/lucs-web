@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Centaurea melitensis",
+  "taxon_id": 57922,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 187396319,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187396319/large.jpg",
+      "observation_id": 111035471,
+      "observation_url": "https://www.inaturalist.org/observations/111035471",
+      "observed_on": "2022-04-10",
+      "place_guess": "Los Padres National Forest, Santa Margarita, CA, US",
+      "user_login": "serpophaga",
+      "filename": "centaurea-melitensis_01_inat-187396319.jpg"
+    },
+    {
+      "photo_id": 614909467,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614909467/large.jpg",
+      "observation_id": 338164308,
+      "observation_url": "https://www.inaturalist.org/observations/338164308",
+      "observed_on": "2018-05-29",
+      "place_guess": "Atalaia das Figueiras, Campo Maior, 7370, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "centaurea-melitensis_02_inat-614909467.jpg"
+    },
+    {
+      "photo_id": 252890868,
+      "license": "cc-by",
+      "attribution": "(c) Joe Dillon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252890868/large.jpeg",
+      "observation_id": 147014203,
+      "observation_url": "https://www.inaturalist.org/observations/147014203",
+      "observed_on": "2023-01-21",
+      "place_guess": "Pencarrow Head, Lower Hutt, New Zealand",
+      "user_login": "joedillon",
+      "filename": "centaurea-melitensis_03_inat-252890868.jpeg"
+    },
+    {
+      "photo_id": 189845127,
+      "license": "cc-by",
+      "attribution": "(c) Dee Shea Himes, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189845127/large.jpeg",
+      "observation_id": 112398456,
+      "observation_url": "https://www.inaturalist.org/observations/112398456",
+      "observed_on": "2022-04-21",
+      "place_guess": "San Mateo County, CA, USA",
+      "user_login": "deehimes",
+      "filename": "centaurea-melitensis_04_inat-189845127.jpeg"
+    },
+    {
+      "photo_id": 48696244,
+      "license": "cc-by",
+      "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48696244/large.jpg",
+      "observation_id": 31132781,
+      "observation_url": "https://www.inaturalist.org/observations/31132781",
+      "observed_on": "2019-08-15",
+      "place_guess": "San Clemente Island Underwater Range, , CA, US",
+      "user_login": "sulavanderplank",
+      "filename": "centaurea-melitensis_05_inat-48696244.jpg"
+    }
+  ]
+}

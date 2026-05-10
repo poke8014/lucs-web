@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cotoneaster franchetii",
+  "taxon_id": 1319212,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 33337608,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33337608/large.jpg",
+      "observation_id": 21540971,
+      "observation_url": "https://www.inaturalist.org/observations/21540971",
+      "observed_on": "2019-03-20",
+      "place_guess": "Taranaki, New Plymouth, Hurdon, Davies Road near Barrett's Domain Access Track",
+      "user_login": "pjd1",
+      "filename": "cotoneaster-franchetii_01_inat-33337608.jpg"
+    },
+    {
+      "photo_id": 289051238,
+      "license": "cc-by",
+      "attribution": "(c) Alan Prather, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289051238/large.jpeg",
+      "observation_id": 166897127,
+      "observation_url": "https://www.inaturalist.org/observations/166897127",
+      "observed_on": "2023-06-09",
+      "place_guess": "Sausalito, CA 94965, USA",
+      "user_login": "alan_prather",
+      "filename": "cotoneaster-franchetii_02_inat-289051238.jpeg"
+    },
+    {
+      "photo_id": 336065553,
+      "license": "cc-by",
+      "attribution": "(c) Aaron Liston, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/336065553/large.jpeg",
+      "observation_id": 191553578,
+      "observation_url": "https://www.inaturalist.org/observations/191553578",
+      "observed_on": "2023-11-19",
+      "place_guess": "Benton County, OR, USA",
+      "user_login": "aaronliston",
+      "filename": "cotoneaster-franchetii_03_inat-336065553.jpeg"
+    },
+    {
+      "photo_id": 33337768,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33337768/large.jpg",
+      "observation_id": 21540971,
+      "observation_url": "https://www.inaturalist.org/observations/21540971",
+      "observed_on": "2019-03-20",
+      "place_guess": "Taranaki, New Plymouth, Hurdon, Davies Road near Barrett's Domain Access Track",
+      "user_login": "pjd1",
+      "filename": "cotoneaster-franchetii_04_inat-33337768.jpg"
+    },
+    {
+      "photo_id": 33337769,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33337769/large.jpg",
+      "observation_id": 21540971,
+      "observation_url": "https://www.inaturalist.org/observations/21540971",
+      "observed_on": "2019-03-20",
+      "place_guess": "Taranaki, New Plymouth, Hurdon, Davies Road near Barrett's Domain Access Track",
+      "user_login": "pjd1",
+      "filename": "cotoneaster-franchetii_05_inat-33337769.jpg"
+    }
+  ]
+}

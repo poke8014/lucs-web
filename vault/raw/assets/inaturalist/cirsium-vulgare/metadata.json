@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cirsium vulgare",
+  "taxon_id": 52989,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 29561361,
+      "license": "cc-by",
+      "attribution": "(c) Erasmo Macaya Horta, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29561361/large.jpg",
+      "observation_id": 19241194,
+      "observation_url": "https://www.inaturalist.org/observations/19241194",
+      "observed_on": "2018-12-23",
+      "place_guess": "Isla de Pascua, Hanga Roa, Valpara\u00edso, CL",
+      "user_login": "erasmomac",
+      "filename": "cirsium-vulgare_01_inat-29561361.jpg"
+    },
+    {
+      "photo_id": 69149440,
+      "license": "cc-by",
+      "attribution": "(c) Tom Norton, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69149440/large.jpeg",
+      "observation_id": 43585686,
+      "observation_url": "https://www.inaturalist.org/observations/43585686",
+      "observed_on": "2020-04-25",
+      "place_guess": "Thetford Center, VT 05075, USA",
+      "user_login": "tsn",
+      "filename": "cirsium-vulgare_02_inat-69149440.jpeg"
+    },
+    {
+      "photo_id": 189125690,
+      "license": "cc-by",
+      "attribution": "(c) Sandy Wolkenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189125690/large.jpg",
+      "observation_id": 111992206,
+      "observation_url": "https://www.inaturalist.org/observations/111992206",
+      "observed_on": "2022-04-18",
+      "place_guess": "E Ridgewood Ave, Paramus, NJ, US",
+      "user_login": "sadawolk",
+      "filename": "cirsium-vulgare_03_inat-189125690.jpg"
+    },
+    {
+      "photo_id": 24488636,
+      "license": "cc-by",
+      "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24488636/large.jpeg",
+      "observation_id": 16303325,
+      "observation_url": "https://www.inaturalist.org/observations/16303325",
+      "observed_on": "2018-09-05",
+      "place_guess": "Via Gentile da Fabriano, 170, 60125 Ancona AN, Italia",
+      "user_login": "gianni_del_bufalo",
+      "filename": "cirsium-vulgare_04_inat-24488636.jpeg"
+    },
+    {
+      "photo_id": 296056732,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296056732/large.jpeg",
+      "observation_id": 170674313,
+      "observation_url": "https://www.inaturalist.org/observations/170674313",
+      "observed_on": "2023-07-02",
+      "place_guess": "Fuglet\u00e5rn F\u00f8nsvej, N\u00f8rre Aaby, 5580 N\u00f8rre Aaby, Danmark",
+      "user_login": "margitkildevang",
+      "filename": "cirsium-vulgare_05_inat-296056732.jpeg"
+    }
+  ]
+}

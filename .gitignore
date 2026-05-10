@@ -40,6 +40,19 @@ yarn-error.log*
 # firecrawl local scrape cache
 /.firecrawl
 
+# obsidian — keep vault config tracked, but ignore UI state and trash
+vault/.obsidian/workspace*.json
+vault/.obsidian/cache
+vault/.obsidian/appearance.json.bak
+vault/.trash/
+
+# vault image binaries — large, regeneratable via fetch scripts.
+# metadata.json sidecars are NOT ignored — they encode attribution + source IDs.
+vault/raw/assets/**/*.jpg
+vault/raw/assets/**/*.JPG
+vault/raw/assets/**/*.jpeg
+vault/raw/assets/**/*.png
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

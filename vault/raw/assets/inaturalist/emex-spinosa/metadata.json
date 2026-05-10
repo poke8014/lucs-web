@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Emex spinosa",
+  "taxon_id": 915673,
+  "photos_taxon_id": 915673,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 460674888,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460674888/large.jpeg",
+      "observation_id": 256879727,
+      "observation_url": "https://www.inaturalist.org/observations/256879727",
+      "observed_on": "2007-04-07",
+      "place_guess": "\u062d\u064a \u0627\u0644\u0628\u0627\u0637\u064a\u0648\u060c \u0627\u0644\u0641\u0646\u064a\u062f\u0642\u060c Marrocos",
+      "user_login": "zebedeugalinha",
+      "filename": "emex-spinosa_01_inat-460674888.jpeg"
+    },
+    {
+      "photo_id": 460675109,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460675109/large.jpeg",
+      "observation_id": 256879727,
+      "observation_url": "https://www.inaturalist.org/observations/256879727",
+      "observed_on": "2007-04-07",
+      "place_guess": "\u062d\u064a \u0627\u0644\u0628\u0627\u0637\u064a\u0648\u060c \u0627\u0644\u0641\u0646\u064a\u062f\u0642\u060c Marrocos",
+      "user_login": "zebedeugalinha",
+      "filename": "emex-spinosa_02_inat-460675109.jpeg"
+    },
+    {
+      "photo_id": 460673632,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460673632/large.jpeg",
+      "observation_id": 256879238,
+      "observation_url": "https://www.inaturalist.org/observations/256879238",
+      "observed_on": "2004-05-01",
+      "place_guess": "Ixia, \u0399\u03b1\u03bb\u03c5\u03c3\u03cc\u03c2 851 01, Gr\u00e9cia",
+      "user_login": "zebedeugalinha",
+      "filename": "emex-spinosa_03_inat-460673632.jpeg"
+    },
+    {
+      "photo_id": 460674102,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460674102/large.jpeg",
+      "observation_id": 256879238,
+      "observation_url": "https://www.inaturalist.org/observations/256879238",
+      "observed_on": "2004-05-01",
+      "place_guess": "Ixia, \u0399\u03b1\u03bb\u03c5\u03c3\u03cc\u03c2 851 01, Gr\u00e9cia",
+      "user_login": "zebedeugalinha",
+      "filename": "emex-spinosa_04_inat-460674102.jpeg"
+    },
+    {
+      "photo_id": 376972845,
+      "license": "cc-by",
+      "attribution": "(c) yelena_antipova, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376972845/large.jpeg",
+      "observation_id": 213327628,
+      "observation_url": "https://www.inaturalist.org/observations/213327628",
+      "observed_on": "2024-05-03",
+      "place_guess": "\u05d7\u05d3\u05e8\u05d4, \u05d9\u05e9\u05e8\u05d0\u05dc",
+      "user_login": "yelena_antipova",
+      "filename": "emex-spinosa_05_inat-376972845.jpeg"
+    }
+  ]
+}

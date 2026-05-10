@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Hedera helix",
+  "taxon_id": 55882,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 38428455,
+      "license": "cc-by",
+      "attribution": "(c) Marianna Boi, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38428455/large.jpeg",
+      "observation_id": 24846027,
+      "observation_url": "https://www.inaturalist.org/observations/24846027",
+      "observed_on": "2019-05-09",
+      "place_guess": "Citt\u00e0 Metropolitana di Torino, Italia",
+      "user_login": "mariannaboi",
+      "filename": "hedera-helix_01_inat-38428455.jpeg"
+    },
+    {
+      "photo_id": 366848221,
+      "license": "cc-by",
+      "attribution": "(c) Roman A. Lagazyuk (\u0420\u043e\u043c\u0430\u043d \u0410. \u041b\u0430\u0433\u0430\u0437\u044e\u043a), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/366848221/large.jpeg",
+      "observation_id": 207397029,
+      "observation_url": "https://www.inaturalist.org/observations/207397029",
+      "observed_on": "2024-04-15",
+      "place_guess": "Ievpatoriis'ka, UA-KR, UA",
+      "user_login": "ro_ko",
+      "filename": "hedera-helix_02_inat-366848221.jpeg"
+    },
+    {
+      "photo_id": 401572630,
+      "license": "cc-by",
+      "attribution": "(c) Dave Richardson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401572630/large.jpg",
+      "observation_id": 226428310,
+      "observation_url": "https://www.inaturalist.org/observations/226428310",
+      "observed_on": "2024-07-01",
+      "place_guess": "Blersch Street, Stellenbosch, WC, ZA",
+      "user_login": "daverichardson",
+      "filename": "hedera-helix_03_inat-401572630.jpg"
+    },
+    {
+      "photo_id": 23968667,
+      "license": "cc-by",
+      "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23968667/large.jpeg",
+      "observation_id": 16005151,
+      "observation_url": "https://www.inaturalist.org/observations/16005151",
+      "observed_on": "2018-08-29",
+      "place_guess": "Marche, IT",
+      "user_login": "gianni_del_bufalo",
+      "filename": "hedera-helix_04_inat-23968667.jpeg"
+    },
+    {
+      "photo_id": 282889848,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Cahen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282889848/large.jpeg",
+      "observation_id": 163555514,
+      "observation_url": "https://www.inaturalist.org/observations/163555514",
+      "observed_on": "2023-05-24",
+      "place_guess": "Hounslow, England, United Kingdom",
+      "user_login": "danielcahen",
+      "filename": "hedera-helix_05_inat-282889848.jpeg"
+    }
+  ]
+}

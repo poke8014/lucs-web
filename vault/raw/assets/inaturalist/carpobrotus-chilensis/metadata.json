@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Carpobrotus chilensis",
+  "taxon_id": 56026,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 375449954,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375449954/large.jpeg",
+      "observation_id": 212455386,
+      "observation_url": "https://www.inaturalist.org/observations/212455386",
+      "observed_on": "2024-04-30",
+      "place_guess": "El Cerrito, CA 94530, USA",
+      "user_login": "alan_rockefeller",
+      "filename": "carpobrotus-chilensis_01_inat-375449954.jpeg"
+    },
+    {
+      "photo_id": 255668048,
+      "license": "cc-by",
+      "attribution": "(c) Cesar Ormazabal, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255668048/large.jpeg",
+      "observation_id": 148462109,
+      "observation_url": "https://www.inaturalist.org/observations/148462109",
+      "observed_on": "2020-12-11",
+      "place_guess": "Humedal de Pichicuy Km 172 Ruta 5 Norte, Valpara\u00edso, Chile",
+      "user_login": "cesar383",
+      "filename": "carpobrotus-chilensis_02_inat-255668048.jpeg"
+    },
+    {
+      "photo_id": 375449997,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375449997/large.jpeg",
+      "observation_id": 212455386,
+      "observation_url": "https://www.inaturalist.org/observations/212455386",
+      "observed_on": "2024-04-30",
+      "place_guess": "El Cerrito, CA 94530, USA",
+      "user_login": "alan_rockefeller",
+      "filename": "carpobrotus-chilensis_03_inat-375449997.jpeg"
+    },
+    {
+      "photo_id": 375450035,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375450035/large.jpeg",
+      "observation_id": 212455386,
+      "observation_url": "https://www.inaturalist.org/observations/212455386",
+      "observed_on": "2024-04-30",
+      "place_guess": "El Cerrito, CA 94530, USA",
+      "user_login": "alan_rockefeller",
+      "filename": "carpobrotus-chilensis_04_inat-375450035.jpeg"
+    },
+    {
+      "photo_id": 255668059,
+      "license": "cc-by",
+      "attribution": "(c) Cesar Ormazabal, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255668059/large.jpeg",
+      "observation_id": 148462109,
+      "observation_url": "https://www.inaturalist.org/observations/148462109",
+      "observed_on": "2020-12-11",
+      "place_guess": "Humedal de Pichicuy Km 172 Ruta 5 Norte, Valpara\u00edso, Chile",
+      "user_login": "cesar383",
+      "filename": "carpobrotus-chilensis_05_inat-255668059.jpeg"
+    }
+  ]
+}

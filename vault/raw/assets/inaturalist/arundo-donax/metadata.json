@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Arundo donax",
+  "taxon_id": 64017,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 603525902,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/603525902/large.jpg",
+      "observation_id": 332542446,
+      "observation_url": "https://www.inaturalist.org/observations/332542446",
+      "observed_on": "2025-12-20",
+      "place_guess": "Miradouro do Vale do Inferno, Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "arundo-donax_01_inat-603525902.jpg"
+    },
+    {
+      "photo_id": 335619621,
+      "license": "cc-by",
+      "attribution": "(c) Suanne Pyle, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335619621/large.jpeg",
+      "observation_id": 191328194,
+      "observation_url": "https://www.inaturalist.org/observations/191328194",
+      "observed_on": "2023-11-09",
+      "place_guess": "Hidalgo, TX, USA",
+      "user_login": "spyle64",
+      "filename": "arundo-donax_02_inat-335619621.jpeg"
+    },
+    {
+      "photo_id": 79679448,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79679448/large.jpg",
+      "observation_id": 50178228,
+      "observation_url": "https://www.inaturalist.org/observations/50178228",
+      "observed_on": "2020-06-19",
+      "place_guess": "Burleson Plaza, Burleson, TX, US",
+      "user_login": "sambiology",
+      "filename": "arundo-donax_03_inat-79679448.jpg"
+    },
+    {
+      "photo_id": 146934086,
+      "license": "cc-by",
+      "attribution": "(c) Wendy McCrady, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146934086/large.jpg",
+      "observation_id": 89010419,
+      "observation_url": "https://www.inaturalist.org/observations/89010419",
+      "observed_on": "2020-08-15",
+      "place_guess": "Brazoria County, TX, USA",
+      "user_login": "wendybirds",
+      "filename": "arundo-donax_04_inat-146934086.jpg"
+    },
+    {
+      "photo_id": 158129171,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158129171/large.jpg",
+      "observation_id": 95262909,
+      "observation_url": "https://www.inaturalist.org/observations/95262909",
+      "observed_on": "2021-09-18",
+      "place_guess": "Flamingo Park, Sunrise, FL, US",
+      "user_login": "buggybuddy",
+      "filename": "arundo-donax_05_inat-158129171.jpg"
+    }
+  ]
+}

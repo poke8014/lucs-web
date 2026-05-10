@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Carduus pycnocephalus",
+  "taxon_id": 52990,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 57863658,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57863658/large.jpg",
+      "observation_id": 36593050,
+      "observation_url": "https://www.inaturalist.org/observations/36593050",
+      "observed_on": "2017-05-30",
+      "place_guess": "Lane County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "carduus-pycnocephalus_01_inat-57863658.jpg"
+    },
+    {
+      "photo_id": 724334,
+      "license": "cc-by",
+      "attribution": "(c) Justin Johnsen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/724334/large.jpg",
+      "observation_id": 569693,
+      "observation_url": "https://www.inaturalist.org/observations/569693",
+      "observed_on": "2014-03-15",
+      "place_guess": "Webster, California, United States",
+      "user_login": "justin2",
+      "filename": "carduus-pycnocephalus_02_inat-724334.jpg"
+    },
+    {
+      "photo_id": 196701887,
+      "license": "cc-by",
+      "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196701887/large.jpeg",
+      "observation_id": 116522921,
+      "observation_url": "https://www.inaturalist.org/observations/116522921",
+      "observed_on": "2022-05-10",
+      "place_guess": "60125 Ancona AN, Italia",
+      "user_login": "gianni_del_bufalo",
+      "filename": "carduus-pycnocephalus_03_inat-196701887.jpeg"
+    },
+    {
+      "photo_id": 179205894,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179205894/large.jpg",
+      "observation_id": 106653756,
+      "observation_url": "https://www.inaturalist.org/observations/106653756",
+      "observed_on": "2022-02-12",
+      "place_guess": "Springfield, OR, USA",
+      "user_login": "sean579",
+      "filename": "carduus-pycnocephalus_04_inat-179205894.jpg"
+    },
+    {
+      "photo_id": 585898750,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585898750/large.jpg",
+      "observation_id": 323769927,
+      "observation_url": "https://www.inaturalist.org/observations/323769927",
+      "observed_on": "2004-04-28",
+      "place_guess": "Egeu Meridional, Gr\u00e9cia",
+      "user_login": "zebedeugalinha",
+      "filename": "carduus-pycnocephalus_05_inat-585898750.jpg"
+    }
+  ]
+}

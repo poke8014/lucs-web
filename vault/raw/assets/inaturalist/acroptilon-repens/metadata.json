@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Rhaponticum repens",
+  "taxon_id": 339502,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 215177824,
+      "license": "cc-by",
+      "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215177824/large.jpg",
+      "observation_id": 126794451,
+      "observation_url": "https://www.inaturalist.org/observations/126794451",
+      "observed_on": "2022-07-15",
+      "place_guess": "\u0416\u0438\u043b\u0438\u043d\u043e, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "convallaria1128",
+      "filename": "acroptilon-repens_01_inat-215177824.jpg"
+    },
+    {
+      "photo_id": 393970800,
+      "license": "cc-by",
+      "attribution": "(c) Yana, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393970800/large.jpeg",
+      "observation_id": 222406615,
+      "observation_url": "https://www.inaturalist.org/observations/222406615",
+      "observed_on": "2024-06-13",
+      "place_guess": "\u0410\u0431\u0430\u0439\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, 100000, \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+      "user_login": "yanagorsht",
+      "filename": "acroptilon-repens_02_inat-393970800.jpeg"
+    },
+    {
+      "photo_id": 215177835,
+      "license": "cc-by",
+      "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215177835/large.jpg",
+      "observation_id": 126794451,
+      "observation_url": "https://www.inaturalist.org/observations/126794451",
+      "observed_on": "2022-07-15",
+      "place_guess": "\u0416\u0438\u043b\u0438\u043d\u043e, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "convallaria1128",
+      "filename": "acroptilon-repens_03_inat-215177835.jpg"
+    },
+    {
+      "photo_id": 215177843,
+      "license": "cc-by",
+      "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215177843/large.jpg",
+      "observation_id": 126794451,
+      "observation_url": "https://www.inaturalist.org/observations/126794451",
+      "observed_on": "2022-07-15",
+      "place_guess": "\u0416\u0438\u043b\u0438\u043d\u043e, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "convallaria1128",
+      "filename": "acroptilon-repens_04_inat-215177843.jpg"
+    },
+    {
+      "photo_id": 215177853,
+      "license": "cc-by",
+      "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215177853/large.jpg",
+      "observation_id": 126794451,
+      "observation_url": "https://www.inaturalist.org/observations/126794451",
+      "observed_on": "2022-07-15",
+      "place_guess": "\u0416\u0438\u043b\u0438\u043d\u043e, \u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "convallaria1128",
+      "filename": "acroptilon-repens_05_inat-215177853.jpg"
+    }
+  ]
+}

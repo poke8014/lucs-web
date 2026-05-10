@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cortaderia selloana",
+  "taxon_id": 64240,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 249034897,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249034897/large.jpg",
+      "observation_id": 145021459,
+      "observation_url": "https://www.inaturalist.org/observations/145021459",
+      "observed_on": "2022-12-24",
+      "place_guess": "Springs Ave, Pawleys Island, SC, US",
+      "user_login": "whiteoak",
+      "filename": "cortaderia-selloana_01_inat-249034897.jpg"
+    },
+    {
+      "photo_id": 55631999,
+      "license": "cc-by",
+      "attribution": "(c) Jeremy Gilmore, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/55631999/large.jpeg",
+      "observation_id": 35290542,
+      "observation_url": "https://www.inaturalist.org/observations/35290542",
+      "observed_on": "2019-10-31",
+      "place_guess": "Block A18, Lower Tokai Park, Cape Town, Western Cape, South Africa",
+      "user_login": "jeremygilmore",
+      "filename": "cortaderia-selloana_02_inat-55631999.jpeg"
+    },
+    {
+      "photo_id": 453088763,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453088763/large.jpg",
+      "observation_id": 253079658,
+      "observation_url": "https://www.inaturalist.org/observations/253079658",
+      "observed_on": "1975-08-01",
+      "place_guess": "4960 Melga\u00e7o, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "cortaderia-selloana_03_inat-453088763.jpg"
+    },
+    {
+      "photo_id": 7509544,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7509544/large.jpg",
+      "observation_id": 6003565,
+      "observation_url": "https://www.inaturalist.org/observations/6003565",
+      "observed_on": "2017-04-15",
+      "place_guess": "Kapiti Island Nature Reserve, Okupe Loop Track",
+      "user_login": "pjd1",
+      "filename": "cortaderia-selloana_04_inat-7509544.jpg"
+    },
+    {
+      "photo_id": 579704319,
+      "license": "cc-by",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579704319/large.jpg",
+      "observation_id": 320611776,
+      "observation_url": "https://www.inaturalist.org/observations/320611776",
+      "observed_on": "2025-10-12",
+      "place_guess": "Montijo, Set\u00fabal, Portugal",
+      "user_login": "duarte",
+      "filename": "cortaderia-selloana_05_inat-579704319.jpg"
+    }
+  ]
+}

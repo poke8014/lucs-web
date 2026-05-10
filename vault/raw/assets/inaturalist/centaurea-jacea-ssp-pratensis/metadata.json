@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Centaurea jacea ssp. pratensis",
+  "taxon_id": 81529,
+  "photos_taxon_id": 55713,
+  "photos_from_parent_species": true,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 212280005,
+      "license": "cc-by",
+      "attribution": "(c) aga_l_, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/212280005/large.jpeg",
+      "observation_id": 125189327,
+      "observation_url": "https://www.inaturalist.org/observations/125189327",
+      "observed_on": "2022-07-07",
+      "place_guess": "00-877 Warszawa, Polska",
+      "user_login": "aga_l_",
+      "filename": "centaurea-jacea-ssp-pratensis_01_inat-212280005.jpeg"
+    },
+    {
+      "photo_id": 590474102,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590474102/large.jpg",
+      "observation_id": 326066141,
+      "observation_url": "https://www.inaturalist.org/observations/326066141",
+      "observed_on": "2025-08-04",
+      "place_guess": "M6.1, Grad Livno, Federacija Bosne i Hercegovine, BA",
+      "user_login": "ubovich",
+      "filename": "centaurea-jacea-ssp-pratensis_02_inat-590474102.jpg"
+    },
+    {
+      "photo_id": 9413424,
+      "license": "cc-by",
+      "attribution": "(c) ape, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9413424/large.jpg",
+      "observation_id": 7279724,
+      "observation_url": "https://www.inaturalist.org/observations/7279724",
+      "observed_on": "2017-07-30",
+      "place_guess": "Tampere, Finland",
+      "user_login": "ape",
+      "filename": "centaurea-jacea-ssp-pratensis_03_inat-9413424.jpg"
+    },
+    {
+      "photo_id": 222661568,
+      "license": "cc-by",
+      "attribution": "(c) Pavel Smirnov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222661568/large.jpeg",
+      "observation_id": 130889368,
+      "observation_url": "https://www.inaturalist.org/observations/130889368",
+      "observed_on": "2022-08-15",
+      "place_guess": "Kuril'skiy rayon, RU-SL, RU",
+      "user_login": "psmirnov",
+      "filename": "centaurea-jacea-ssp-pratensis_04_inat-222661568.jpeg"
+    },
+    {
+      "photo_id": 546412407,
+      "license": "cc-by",
+      "attribution": "(c) Bobo-X, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/546412407/large.jpg",
+      "observation_id": 303169986,
+      "observation_url": "https://www.inaturalist.org/observations/303169986",
+      "observed_on": "2025-08-02",
+      "place_guess": "22-106 Jagodne, Polska",
+      "user_login": "bobo-x",
+      "filename": "centaurea-jacea-ssp-pratensis_05_inat-546412407.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Lepidium chalepense",
+  "taxon_id": 891469,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 297437372,
+      "license": "cc-by",
+      "attribution": "(c) Brook, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297437372/large.jpg",
+      "observation_id": 171399201,
+      "observation_url": "https://www.inaturalist.org/observations/171399201",
+      "observed_on": "2023-07-06",
+      "place_guess": "S 18th St, Yakima, WA, US",
+      "user_login": "brook",
+      "filename": "lepidium-chalepense_01_inat-297437372.jpg"
+    },
+    {
+      "photo_id": 291544316,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Dubynin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/291544316/large.jpg",
+      "observation_id": 168242091,
+      "observation_url": "https://www.inaturalist.org/observations/168242091",
+      "observed_on": "2023-06-03",
+      "place_guess": "\u0411\u0430\u043b\u0445\u0430\u0448\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+      "user_login": "alexanderdubynin",
+      "filename": "lepidium-chalepense_02_inat-291544316.jpg"
+    },
+    {
+      "photo_id": 575746265,
+      "license": "cc-by",
+      "attribution": "(c) Jared Shorma, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/575746265/large.jpg",
+      "observation_id": 318554783,
+      "observation_url": "https://www.inaturalist.org/observations/318554783",
+      "observed_on": "2025-09-18",
+      "place_guess": "Foothills Hwy, Longmont, CO, US",
+      "user_login": "blazeclaw",
+      "filename": "lepidium-chalepense_03_inat-575746265.jpg"
+    },
+    {
+      "photo_id": 527442269,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/527442269/large.jpg",
+      "observation_id": 293058089,
+      "observation_url": "https://www.inaturalist.org/observations/293058089",
+      "observed_on": "2025-06-26",
+      "place_guess": "Highway 3A, Pincher Creek No. 9, AB, CA",
+      "user_login": "kallummcdonald",
+      "filename": "lepidium-chalepense_04_inat-527442269.jpg"
+    },
+    {
+      "photo_id": 564792344,
+      "license": "cc-by",
+      "attribution": "(c) Jes Gray, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/564792344/large.jpg",
+      "observation_id": 312794716,
+      "observation_url": "https://www.inaturalist.org/observations/312794716",
+      "observed_on": "2025-09-08",
+      "place_guess": "County Line Rd, Longmont, CO, US",
+      "user_login": "jes_gray",
+      "filename": "lepidium-chalepense_05_inat-564792344.jpg"
+    }
+  ]
+}

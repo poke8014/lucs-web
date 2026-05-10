@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Nicotiana glauca",
+  "taxon_id": 58334,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 87821011,
+      "license": "cc-by",
+      "attribution": "(c) i_c_riddell, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87821011/large.jpg",
+      "observation_id": 55165116,
+      "observation_url": "https://www.inaturalist.org/observations/55165116",
+      "observed_on": "2020-08-02",
+      "place_guess": "Hatfield, Harare, Zimbabwe",
+      "user_login": "i_c_riddell",
+      "filename": "nicotiana-glauca_01_inat-87821011.jpg"
+    },
+    {
+      "photo_id": 2574765,
+      "license": "cc-by",
+      "attribution": "(c) Jesse Rorabaugh, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2574765/large.JPG",
+      "observation_id": 2314459,
+      "observation_url": "https://www.inaturalist.org/observations/2314459",
+      "observed_on": "2015-10-26",
+      "place_guess": "Los Angeles, California, United States",
+      "user_login": "glmory",
+      "filename": "nicotiana-glauca_02_inat-2574765.JPG"
+    },
+    {
+      "photo_id": 77500553,
+      "license": "cc-by",
+      "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77500553/large.jpeg",
+      "observation_id": 48835982,
+      "observation_url": "https://www.inaturalist.org/observations/48835982",
+      "observed_on": "2020-06-07",
+      "place_guess": "Coastal San Pedro, Los Angeles, CA, USA",
+      "user_login": "redrovertracy",
+      "filename": "nicotiana-glauca_03_inat-77500553.jpeg"
+    },
+    {
+      "photo_id": 102534510,
+      "license": "cc-by",
+      "attribution": "(c) Amelia Tauber, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102534510/large.jpg",
+      "observation_id": 63843627,
+      "observation_url": "https://www.inaturalist.org/observations/63843627",
+      "observed_on": "2020-10-30",
+      "place_guess": "Rancho Cordova, CA, US",
+      "user_login": "antrozousamelia",
+      "filename": "nicotiana-glauca_04_inat-102534510.jpg"
+    },
+    {
+      "photo_id": 59900354,
+      "license": "cc-by",
+      "attribution": "(c) Jeremy Gilmore, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59900354/large.jpeg",
+      "observation_id": 37746522,
+      "observation_url": "https://www.inaturalist.org/observations/37746522",
+      "observed_on": "2020-01-19",
+      "place_guess": "Boulders Penguin Colony, Seaforth Beach, Simon's Town, Cape Town, Western Cape, South Africa",
+      "user_login": "jeremygilmore",
+      "filename": "nicotiana-glauca_05_inat-59900354.jpeg"
+    }
+  ]
+}

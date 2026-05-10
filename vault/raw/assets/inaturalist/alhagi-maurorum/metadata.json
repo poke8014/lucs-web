@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Alhagi maurorum",
+  "taxon_id": 75323,
+  "photos_taxon_id": 75323,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 18391851,
+      "license": "cc-by",
+      "attribution": "(c) Nasser Halaweh, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18391851/large.jpg",
+      "observation_id": 12702632,
+      "observation_url": "https://www.inaturalist.org/observations/12702632",
+      "observed_on": "2016-06-22",
+      "place_guess": "Aybak, Afghanistan",
+      "user_login": "nasserhalaweh",
+      "filename": "alhagi-maurorum_01_inat-18391851.jpg"
+    },
+    {
+      "photo_id": 145485558,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145485558/large.jpg",
+      "observation_id": 88194613,
+      "observation_url": "https://www.inaturalist.org/observations/88194613",
+      "observed_on": "2021-07-20",
+      "place_guess": "Navajo Blvd, Holbrook, AZ, US",
+      "user_login": "glmory",
+      "filename": "alhagi-maurorum_02_inat-145485558.jpg"
+    },
+    {
+      "photo_id": 145485645,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145485645/large.jpg",
+      "observation_id": 88194613,
+      "observation_url": "https://www.inaturalist.org/observations/88194613",
+      "observed_on": "2021-07-20",
+      "place_guess": "Navajo Blvd, Holbrook, AZ, US",
+      "user_login": "glmory",
+      "filename": "alhagi-maurorum_03_inat-145485645.jpg"
+    },
+    {
+      "photo_id": 145485729,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/145485729/large.jpg",
+      "observation_id": 88194613,
+      "observation_url": "https://www.inaturalist.org/observations/88194613",
+      "observed_on": "2021-07-20",
+      "place_guess": "Navajo Blvd, Holbrook, AZ, US",
+      "user_login": "glmory",
+      "filename": "alhagi-maurorum_04_inat-145485729.jpg"
+    },
+    {
+      "photo_id": 130583174,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130583174/large.jpeg",
+      "observation_id": 79712027,
+      "observation_url": "https://www.inaturalist.org/observations/79712027",
+      "observed_on": "2021-05-21",
+      "place_guess": "Winslow, AZ 86047, USA",
+      "user_login": "craigmartin",
+      "filename": "alhagi-maurorum_05_inat-130583174.jpeg"
+    }
+  ]
+}

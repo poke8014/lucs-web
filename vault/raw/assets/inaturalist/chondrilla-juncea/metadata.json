@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Chondrilla juncea",
+  "taxon_id": 76300,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 153787587,
+      "license": "cc-by",
+      "attribution": "(c) Zihao Wang, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153787587/large.jpg",
+      "observation_id": 92807787,
+      "observation_url": "https://www.inaturalist.org/observations/92807787",
+      "observed_on": "2021-08-28",
+      "place_guess": "Jones Beach State Park, Jones Beach State Parka, NY, US",
+      "user_login": "zihaowang",
+      "filename": "chondrilla-juncea_01_inat-153787587.jpg"
+    },
+    {
+      "photo_id": 610308006,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610308006/large.jpg",
+      "observation_id": 335901136,
+      "observation_url": "https://www.inaturalist.org/observations/335901136",
+      "observed_on": "2014-08-13",
+      "place_guess": "Reigadinha, Pinhel, 6400, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "chondrilla-juncea_02_inat-610308006.jpg"
+    },
+    {
+      "photo_id": 144302388,
+      "license": "cc-by",
+      "attribution": "(c) KAnatoliy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144302388/large.jpeg",
+      "observation_id": 87516388,
+      "observation_url": "https://www.inaturalist.org/observations/87516388",
+      "observed_on": "2021-07-18",
+      "place_guess": "\u0420\u043e\u0441\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f, 346885",
+      "user_login": "anatoliy7",
+      "filename": "chondrilla-juncea_03_inat-144302388.jpeg"
+    },
+    {
+      "photo_id": 146876433,
+      "license": "cc-by",
+      "attribution": "(c) Amy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/146876433/large.jpeg",
+      "observation_id": 88975774,
+      "observation_url": "https://www.inaturalist.org/observations/88975774",
+      "observed_on": "2021-07-28",
+      "place_guess": "Santa Barbara, CA 93105, USA",
+      "user_login": "arboretum_amy",
+      "filename": "chondrilla-juncea_04_inat-146876433.jpeg"
+    },
+    {
+      "photo_id": 320645421,
+      "license": "cc-by",
+      "attribution": "(c) Cindy Bell, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320645421/large.jpg",
+      "observation_id": 183758995,
+      "observation_url": "https://www.inaturalist.org/observations/183758995",
+      "observed_on": "2023-09-17",
+      "place_guess": "S Smith Rd, Cheney, WA, US",
+      "user_login": "cynbell",
+      "filename": "chondrilla-juncea_05_inat-320645421.jpg"
+    }
+  ]
+}

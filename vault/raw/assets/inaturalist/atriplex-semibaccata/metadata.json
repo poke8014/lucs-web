@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Atriplex semibaccata",
+  "taxon_id": 60177,
+  "photos_taxon_id": 60177,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 60939043,
+      "license": "cc-by",
+      "attribution": "(c) Kym Nicolson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60939043/large.jpg",
+      "observation_id": 38351139,
+      "observation_url": "https://www.inaturalist.org/observations/38351139",
+      "observed_on": "2020-02-05",
+      "place_guess": "Tolderol SA 5256, Australia",
+      "user_login": "knicolson",
+      "filename": "atriplex-semibaccata_01_inat-60939043.jpg"
+    },
+    {
+      "photo_id": 60939044,
+      "license": "cc-by",
+      "attribution": "(c) Kym Nicolson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60939044/large.jpg",
+      "observation_id": 38351139,
+      "observation_url": "https://www.inaturalist.org/observations/38351139",
+      "observed_on": "2020-02-05",
+      "place_guess": "Tolderol SA 5256, Australia",
+      "user_login": "knicolson",
+      "filename": "atriplex-semibaccata_02_inat-60939044.jpg"
+    },
+    {
+      "photo_id": 60939063,
+      "license": "cc-by",
+      "attribution": "(c) Kym Nicolson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60939063/large.jpg",
+      "observation_id": 38351139,
+      "observation_url": "https://www.inaturalist.org/observations/38351139",
+      "observed_on": "2020-02-05",
+      "place_guess": "Tolderol SA 5256, Australia",
+      "user_login": "knicolson",
+      "filename": "atriplex-semibaccata_03_inat-60939063.jpg"
+    },
+    {
+      "photo_id": 488266235,
+      "license": "cc-by",
+      "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488266235/large.jpg",
+      "observation_id": 271441952,
+      "observation_url": "https://www.inaturalist.org/observations/271441952",
+      "observed_on": "2025-04-16",
+      "place_guess": "San Clemente Island Underwater Range, CA, US",
+      "user_login": "sulavanderplank",
+      "filename": "atriplex-semibaccata_04_inat-488266235.jpg"
+    },
+    {
+      "photo_id": 601725057,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/601725057/large.jpg",
+      "observation_id": 331666712,
+      "observation_url": "https://www.inaturalist.org/observations/331666712",
+      "observed_on": "2025-12-06",
+      "place_guess": "Los Angeles County, CA, USA",
+      "user_login": "aaronddhh",
+      "filename": "atriplex-semibaccata_05_inat-601725057.jpg"
+    }
+  ]
+}

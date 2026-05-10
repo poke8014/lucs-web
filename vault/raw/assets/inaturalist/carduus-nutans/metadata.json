@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Carduus nutans",
+  "taxon_id": 76007,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 477369835,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477369835/large.jpeg",
+      "observation_id": 265737387,
+      "observation_url": "https://www.inaturalist.org/observations/265737387",
+      "observed_on": "2017-06-12",
+      "place_guess": "Pindus Mountains, Kalabaka 422 00, Gr\u00e9cia",
+      "user_login": "zebedeugalinha",
+      "filename": "carduus-nutans_01_inat-477369835.jpeg"
+    },
+    {
+      "photo_id": 39129019,
+      "license": "cc-by",
+      "attribution": "(c) Kostas Zontanos, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39129019/large.jpeg",
+      "observation_id": 25274297,
+      "observation_url": "https://www.inaturalist.org/observations/25274297",
+      "observed_on": "2019-05-12",
+      "place_guess": "\u039a\u03b5\u03bd\u03c4\u03c1\u03b9\u03ba\u03ae \u039c\u03b1\u03ba\u03b5\u03b4\u03bf\u03bd\u03af\u03b1, \u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+      "user_login": "kostaszontanos",
+      "filename": "carduus-nutans_02_inat-39129019.jpeg"
+    },
+    {
+      "photo_id": 457575268,
+      "license": "cc-by",
+      "attribution": "(c) Jane Weeden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/457575268/large.jpg",
+      "observation_id": 255341814,
+      "observation_url": "https://www.inaturalist.org/observations/255341814",
+      "observed_on": "2024-12-16",
+      "place_guess": "Spring Branch, TX, US",
+      "user_login": "janeweeden",
+      "filename": "carduus-nutans_03_inat-457575268.jpg"
+    },
+    {
+      "photo_id": 41487855,
+      "license": "cc-by",
+      "attribution": "(c) Sandy Wolkenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41487855/large.jpg",
+      "observation_id": 26709148,
+      "observation_url": "https://www.inaturalist.org/observations/26709148",
+      "observed_on": "2019-06-09",
+      "place_guess": "Overpeck County Park Dog Run, Ridgefield Park, NJ, US",
+      "user_login": "sadawolk",
+      "filename": "carduus-nutans_04_inat-41487855.jpg"
+    },
+    {
+      "photo_id": 380323718,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380323718/large.jpg",
+      "observation_id": 215134238,
+      "observation_url": "https://www.inaturalist.org/observations/215134238",
+      "observed_on": "2024-05-11",
+      "place_guess": "Cedar Grove Church Rd, Polkton, NC, US",
+      "user_login": "gillydilly",
+      "filename": "carduus-nutans_05_inat-380323718.jpg"
+    }
+  ]
+}

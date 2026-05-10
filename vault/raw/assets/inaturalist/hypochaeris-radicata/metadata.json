@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Hypochaeris radicata",
+  "taxon_id": 53104,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 46105177,
+      "license": "cc-by",
+      "attribution": "(c) Rudyard, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46105177/large.jpeg",
+      "observation_id": 29538954,
+      "observation_url": "https://www.inaturalist.org/observations/29538954",
+      "observed_on": "2019-07-21",
+      "place_guess": "Outer Sunset, San Francisco, CA, USA",
+      "user_login": "rudyard",
+      "filename": "hypochaeris-radicata_01_inat-46105177.jpeg"
+    },
+    {
+      "photo_id": 128718719,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128718719/large.jpg",
+      "observation_id": 78638599,
+      "observation_url": "https://www.inaturalist.org/observations/78638599",
+      "observed_on": "2021-05-09",
+      "place_guess": "Diggs Rd, Wadesboro, NC, US",
+      "user_login": "gillydilly",
+      "filename": "hypochaeris-radicata_02_inat-128718719.jpg"
+    },
+    {
+      "photo_id": 647150131,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/647150131/large.jpg",
+      "observation_id": 354773757,
+      "observation_url": "https://www.inaturalist.org/observations/354773757",
+      "observed_on": "2019-07-12",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "hypochaeris-radicata_03_inat-647150131.jpg"
+    },
+    {
+      "photo_id": 449494092,
+      "license": "cc-by",
+      "attribution": "(c) Benny Albro, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449494092/large.jpeg",
+      "observation_id": 251235168,
+      "observation_url": "https://www.inaturalist.org/observations/251235168",
+      "observed_on": "2024-11-09",
+      "place_guess": "Presidio, San Francisco, CA, US",
+      "user_login": "bennyalbro",
+      "filename": "hypochaeris-radicata_04_inat-449494092.jpeg"
+    },
+    {
+      "photo_id": 94396525,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94396525/large.jpeg",
+      "observation_id": 59094625,
+      "observation_url": "https://www.inaturalist.org/observations/59094625",
+      "observed_on": "2020-09-09",
+      "place_guess": "Washington, US",
+      "user_login": "littlelegofan",
+      "filename": "hypochaeris-radicata_05_inat-94396525.jpeg"
+    }
+  ]
+}

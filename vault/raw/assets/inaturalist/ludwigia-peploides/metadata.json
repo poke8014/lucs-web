@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Ludwigia peploides",
+  "taxon_id": 60220,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 323324256,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323324256/large.jpg",
+      "observation_id": 185149417,
+      "observation_url": "https://www.inaturalist.org/observations/185149417",
+      "observed_on": "2023-09-26",
+      "place_guess": "Saddle Ridge Dr, Independence, MO, US",
+      "user_login": "creaturecalledkate",
+      "filename": "ludwigia-peploides_01_inat-323324256.jpg"
+    },
+    {
+      "photo_id": 236846062,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236846062/large.jpeg",
+      "observation_id": 138557642,
+      "observation_url": "https://www.inaturalist.org/observations/138557642",
+      "observed_on": "2022-10-08",
+      "place_guess": "St. Johns, Portland, OR, USA",
+      "user_login": "drew_meyer",
+      "filename": "ludwigia-peploides_02_inat-236846062.jpeg"
+    },
+    {
+      "photo_id": 140172268,
+      "license": "cc-by",
+      "attribution": "(c) Tom Pollard, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140172268/large.jpg",
+      "observation_id": 85215252,
+      "observation_url": "https://www.inaturalist.org/observations/85215252",
+      "observed_on": "2021-07-01",
+      "place_guess": "Briant Park, Summit, NJ, US",
+      "user_login": "tpollard",
+      "filename": "ludwigia-peploides_03_inat-140172268.jpg"
+    },
+    {
+      "photo_id": 13268949,
+      "license": "cc-by",
+      "attribution": "(c) Jacqui Geux, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13268949/large.jpeg",
+      "observation_id": 9701187,
+      "observation_url": "https://www.inaturalist.org/observations/9701187",
+      "observed_on": "2018-02-02",
+      "place_guess": "Karekare 0772, New Zealand",
+      "user_login": "jacqui-nz",
+      "filename": "ludwigia-peploides_04_inat-13268949.jpeg"
+    },
+    {
+      "photo_id": 251119941,
+      "license": "cc-by",
+      "attribution": "(c) Proteros, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251119941/large.jpg",
+      "observation_id": 145622613,
+      "observation_url": "https://www.inaturalist.org/observations/145622613",
+      "observed_on": "2023-01-02",
+      "place_guess": "Gilead NSW 2560, Australia",
+      "user_login": "proteros",
+      "filename": "ludwigia-peploides_05_inat-251119941.jpg"
+    }
+  ]
+}

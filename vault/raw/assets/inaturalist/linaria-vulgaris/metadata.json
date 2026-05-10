@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Linaria vulgaris",
+  "taxon_id": 50790,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 173228930,
+      "license": "cc-by",
+      "attribution": "(c) Romi Galeota Lencina, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173228930/large.jpeg",
+      "observation_id": 103496440,
+      "observation_url": "https://www.inaturalist.org/observations/103496440",
+      "observed_on": "2021-12-16",
+      "place_guess": "Minas, Neuqu\u00e9n, Argentina",
+      "user_login": "romigaleota",
+      "filename": "linaria-vulgaris_01_inat-173228930.jpeg"
+    },
+    {
+      "photo_id": 569550462,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/569550462/large.jpg",
+      "observation_id": 315287583,
+      "observation_url": "https://www.inaturalist.org/observations/315287583",
+      "observed_on": "2025-08-23",
+      "place_guess": "Grad Livno, Federacija Bosne i Hercegovine, BA",
+      "user_login": "ubovich",
+      "filename": "linaria-vulgaris_02_inat-569550462.jpg"
+    },
+    {
+      "photo_id": 87465119,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87465119/large.jpg",
+      "observation_id": 54948861,
+      "observation_url": "https://www.inaturalist.org/observations/54948861",
+      "observed_on": "2020-07-31",
+      "place_guess": "Hunt Club Woods, Ottawa Canada",
+      "user_login": "johnsankey",
+      "filename": "linaria-vulgaris_03_inat-87465119.jpg"
+    },
+    {
+      "photo_id": 435802070,
+      "license": "cc-by",
+      "attribution": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435802070/large.jpeg",
+      "observation_id": 244322233,
+      "observation_url": "https://www.inaturalist.org/observations/244322233",
+      "observed_on": "2024-09-15",
+      "place_guess": "Gro\u00dfbeeren-Heinersdorf, Deutschland",
+      "user_login": "alexis_orion",
+      "filename": "linaria-vulgaris_04_inat-435802070.jpeg"
+    },
+    {
+      "photo_id": 590058704,
+      "license": "cc-by",
+      "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/590058704/large.jpg",
+      "observation_id": 325855649,
+      "observation_url": "https://www.inaturalist.org/observations/325855649",
+      "observed_on": "2025-11-08",
+      "place_guess": "Via Esino, 60126 Torrette AN, Italia",
+      "user_login": "gianni_del_bufalo",
+      "filename": "linaria-vulgaris_05_inat-590058704.jpg"
+    }
+  ]
+}

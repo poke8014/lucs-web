@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Brassica tournefortii",
+  "taxon_id": 75870,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 182410495,
+      "license": "cc-by",
+      "attribution": "(c) Andrew Meeds, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182410495/large.jpg",
+      "observation_id": 108351474,
+      "observation_url": "https://www.inaturalist.org/observations/108351474",
+      "observed_on": "2022-03-09",
+      "place_guess": "North Mountain Village, Phoenix, AZ, USA",
+      "user_login": "ameeds",
+      "filename": "brassica-tournefortii_01_inat-182410495.jpg"
+    },
+    {
+      "photo_id": 221362381,
+      "license": "cc-by",
+      "attribution": "(c) Thomas Mesaglio, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221362381/large.jpeg",
+      "observation_id": 130189626,
+      "observation_url": "https://www.inaturalist.org/observations/130189626",
+      "observed_on": "2022-07-16",
+      "place_guess": "North West Coastal Highway, south of Hamelin Pool, Western Australia",
+      "user_login": "thebeachcomber",
+      "filename": "brassica-tournefortii_02_inat-221362381.jpeg"
+    },
+    {
+      "photo_id": 259958879,
+      "license": "cc-by",
+      "attribution": "(c) Katie Pearson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259958879/large.jpeg",
+      "observation_id": 150727821,
+      "observation_url": "https://www.inaturalist.org/observations/150727821",
+      "observed_on": "2023-03-09",
+      "place_guess": "Phoenix, AZ 85042, USA",
+      "user_login": "themerekat",
+      "filename": "brassica-tournefortii_03_inat-259958879.jpeg"
+    },
+    {
+      "photo_id": 61815582,
+      "license": "cc-by",
+      "attribution": "(c) Bob Miller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61815582/large.jpeg",
+      "observation_id": 38872124,
+      "observation_url": "https://www.inaturalist.org/observations/38872124",
+      "observed_on": "2020-01-25",
+      "place_guess": "San Diego County, CA, USA",
+      "user_login": "swbirder",
+      "filename": "brassica-tournefortii_04_inat-61815582.jpeg"
+    },
+    {
+      "photo_id": 182410594,
+      "license": "cc-by",
+      "attribution": "(c) Andrew Meeds, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182410594/large.jpg",
+      "observation_id": 108351474,
+      "observation_url": "https://www.inaturalist.org/observations/108351474",
+      "observed_on": "2022-03-09",
+      "place_guess": "North Mountain Village, Phoenix, AZ, USA",
+      "user_login": "ameeds",
+      "filename": "brassica-tournefortii_05_inat-182410594.jpg"
+    }
+  ]
+}

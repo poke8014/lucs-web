@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cirsium arvense",
+  "taxon_id": 60132,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 143113645,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143113645/large.jpeg",
+      "observation_id": 86831247,
+      "observation_url": "https://www.inaturalist.org/observations/86831247",
+      "observed_on": "2021-05-09",
+      "place_guess": "Cowichan Valley, BC, Canada",
+      "user_login": "ellyne",
+      "filename": "cirsium-arvense_01_inat-143113645.jpeg"
+    },
+    {
+      "photo_id": 86119659,
+      "license": "cc-by",
+      "attribution": "(c) Yurii Basov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86119659/large.jpeg",
+      "observation_id": 54133572,
+      "observation_url": "https://www.inaturalist.org/observations/54133572",
+      "observed_on": "2020-07-24",
+      "place_guess": "\u0422\u044e\u043c\u0435\u043d\u044c, \u0422\u044e\u043c\u0435\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f, 625048",
+      "user_login": "yurii_basov",
+      "filename": "cirsium-arvense_02_inat-86119659.jpeg"
+    },
+    {
+      "photo_id": 214416263,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214416263/large.jpeg",
+      "observation_id": 126375188,
+      "observation_url": "https://www.inaturalist.org/observations/126375188",
+      "observed_on": "2022-07-15",
+      "place_guess": "The Castle, Carlisle CA3 8UR, UK",
+      "user_login": "corehope",
+      "filename": "cirsium-arvense_03_inat-214416263.jpeg"
+    },
+    {
+      "photo_id": 142772538,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142772538/large.jpeg",
+      "observation_id": 86644670,
+      "observation_url": "https://www.inaturalist.org/observations/86644670",
+      "observed_on": "2021-07-11",
+      "place_guess": "Washington, US",
+      "user_login": "littlelegofan",
+      "filename": "cirsium-arvense_04_inat-142772538.jpeg"
+    },
+    {
+      "photo_id": 141664123,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141664123/large.jpeg",
+      "observation_id": 86039110,
+      "observation_url": "https://www.inaturalist.org/observations/86039110",
+      "observed_on": "2021-07-06",
+      "place_guess": "Vienne, Poitou-Charentes, FR",
+      "user_login": "goldfjnch",
+      "filename": "cirsium-arvense_05_inat-141664123.jpeg"
+    }
+  ]
+}

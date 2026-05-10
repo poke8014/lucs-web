@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Myriophyllum spicatum",
+  "taxon_id": 78157,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 154260595,
+      "license": "cc-by",
+      "attribution": "(c) Benoit Renaud, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154260595/large.jpeg",
+      "observation_id": 93103774,
+      "observation_url": "https://www.inaturalist.org/observations/93103774",
+      "observed_on": "2021-08-30",
+      "place_guess": "Rosem\u00e8re, QC J7A 3K3, Canada",
+      "user_login": "benoitrenaud",
+      "filename": "myriophyllum-spicatum_01_inat-154260595.jpeg"
+    },
+    {
+      "photo_id": 237521711,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237521711/large.jpeg",
+      "observation_id": 138925799,
+      "observation_url": "https://www.inaturalist.org/observations/138925799",
+      "observed_on": "2022-10-15",
+      "place_guess": "Crab Orchard National Wildlife Refuge, Williamson County, US-IL, US",
+      "user_login": "alan_rockefeller",
+      "filename": "myriophyllum-spicatum_02_inat-237521711.jpeg"
+    },
+    {
+      "photo_id": 532193498,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532193498/large.jpg",
+      "observation_id": 295613361,
+      "observation_url": "https://www.inaturalist.org/observations/295613361",
+      "observed_on": "2025-07-01",
+      "place_guess": "Kandoll Rd, Rosburg, WA, US",
+      "user_login": "tomerler",
+      "filename": "myriophyllum-spicatum_03_inat-532193498.jpg"
+    },
+    {
+      "photo_id": 356480124,
+      "license": "cc-by",
+      "attribution": "(c) \u041f\u043e\u043b\u044f\u043a\u043e\u0432 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356480124/large.jpeg",
+      "observation_id": 201898028,
+      "observation_url": "https://www.inaturalist.org/observations/201898028",
+      "observed_on": "2024-03-09",
+      "place_guess": "\u0414\u0443\u0445\u043e\u0432\u0449\u0438\u043d\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0421\u043c\u043e\u043b\u0435\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "naturalist19358",
+      "filename": "myriophyllum-spicatum_04_inat-356480124.jpeg"
+    },
+    {
+      "photo_id": 43622313,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43622313/large.jpg",
+      "observation_id": 28002544,
+      "observation_url": "https://www.inaturalist.org/observations/28002544",
+      "observed_on": "2019-06-29",
+      "place_guess": "Gie\u00dfen, DE-HE, DE",
+      "user_login": "bobwardell",
+      "filename": "myriophyllum-spicatum_05_inat-43622313.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Tanacetum vulgare",
+  "taxon_id": 55971,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 107202519,
+      "license": "cc-by",
+      "attribution": "(c) Sarah Johnson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107202519/large.jpeg",
+      "observation_id": 66493000,
+      "observation_url": "https://www.inaturalist.org/observations/66493000",
+      "observed_on": "2020-12-12",
+      "place_guess": "1 Marina Drive, Washburn, WI 54891, USA",
+      "user_login": "sejohnson",
+      "filename": "tanacetum-vulgare_01_inat-107202519.jpeg"
+    },
+    {
+      "photo_id": 67430834,
+      "license": "cc-by",
+      "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67430834/large.jpeg",
+      "observation_id": 42467217,
+      "observation_url": "https://www.inaturalist.org/observations/42467217",
+      "observed_on": "2011-07-23",
+      "place_guess": "Yermakovsky District, Krasnoyarsk Krai, Russia",
+      "user_login": "convallaria1128",
+      "filename": "tanacetum-vulgare_02_inat-67430834.jpeg"
+    },
+    {
+      "photo_id": 454440750,
+      "license": "cc-by",
+      "attribution": "(c) P Holroyd, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454440750/large.jpeg",
+      "observation_id": 253764740,
+      "observation_url": "https://www.inaturalist.org/observations/253764740",
+      "observed_on": "2024-12-01",
+      "place_guess": "1350 K\u00f8benhavn, Denmark",
+      "user_login": "pholroyd",
+      "filename": "tanacetum-vulgare_03_inat-454440750.jpeg"
+    },
+    {
+      "photo_id": 473508879,
+      "license": "cc-by",
+      "attribution": "(c) lazarus, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473508879/large.jpeg",
+      "observation_id": 263564736,
+      "observation_url": "https://www.inaturalist.org/observations/263564736",
+      "observed_on": "2022-08-04",
+      "place_guess": "Clear Creek County, CO, USA",
+      "user_login": "lazarus",
+      "filename": "tanacetum-vulgare_04_inat-473508879.jpeg"
+    },
+    {
+      "photo_id": 330844692,
+      "license": "cc-by",
+      "attribution": "(c) tetyanakuchma, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330844692/large.jpeg",
+      "observation_id": 188944297,
+      "observation_url": "https://www.inaturalist.org/observations/188944297",
+      "observed_on": "2023-09-09",
+      "place_guess": "\u041a\u043e\u0437\u0435\u043b\u0435\u0446\u044c\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0427\u0435\u0440\u043d\u0456\u0433\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0423\u043a\u0440\u0430\u0457\u043d\u0430",
+      "user_login": "tetyanakuchma",
+      "filename": "tanacetum-vulgare_05_inat-330844692.jpeg"
+    }
+  ]
+}

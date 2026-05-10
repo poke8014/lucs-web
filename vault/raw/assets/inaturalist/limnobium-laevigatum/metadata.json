@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Limnobium spongia",
+  "taxon_id": 77751,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 89576521,
+      "license": "cc-by",
+      "attribution": "(c) Sindupa De Silva, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89576521/large.jpeg",
+      "observation_id": 56219546,
+      "observation_url": "https://www.inaturalist.org/observations/56219546",
+      "observed_on": "2020-07-22",
+      "place_guess": "Glenwood, WV 25520, USA",
+      "user_login": "sindupadesilva",
+      "filename": "limnobium-laevigatum_01_inat-89576521.jpeg"
+    },
+    {
+      "photo_id": 198024556,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198024556/large.jpeg",
+      "observation_id": 117268970,
+      "observation_url": "https://www.inaturalist.org/observations/117268970",
+      "observed_on": "2022-05-12",
+      "place_guess": "Charleston, South Carolina, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "limnobium-laevigatum_02_inat-198024556.jpeg"
+    },
+    {
+      "photo_id": 240685591,
+      "license": "cc-by",
+      "attribution": "(c) Brandon Corder, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240685591/large.jpeg",
+      "observation_id": 140595384,
+      "observation_url": "https://www.inaturalist.org/observations/140595384",
+      "observed_on": "2022-10-28",
+      "place_guess": "Florida, US",
+      "user_login": "brandoncorder",
+      "filename": "limnobium-laevigatum_03_inat-240685591.jpeg"
+    },
+    {
+      "photo_id": 254395864,
+      "license": "cc-by",
+      "attribution": "(c) mfeaver, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254395864/large.jpeg",
+      "observation_id": 147803717,
+      "observation_url": "https://www.inaturalist.org/observations/147803717",
+      "observed_on": "2023-01-31",
+      "place_guess": "Jefferson County, FL, USA",
+      "user_login": "mfeaver",
+      "filename": "limnobium-laevigatum_04_inat-254395864.jpeg"
+    },
+    {
+      "photo_id": 30500729,
+      "license": "cc-by",
+      "attribution": "(c) Annika Lindqvist, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30500729/large.jpeg",
+      "observation_id": 19790339,
+      "observation_url": "https://www.inaturalist.org/observations/19790339",
+      "observed_on": "2019-01-12",
+      "place_guess": "Seabourne Creek Park, Rosenberg, TX, USA",
+      "user_login": "annikaml",
+      "filename": "limnobium-laevigatum_05_inat-30500729.jpeg"
+    }
+  ]
+}

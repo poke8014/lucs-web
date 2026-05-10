@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Bromus diandrus",
+  "taxon_id": 52702,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 469633391,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469633391/large.jpeg",
+      "observation_id": 261411731,
+      "observation_url": "https://www.inaturalist.org/observations/261411731",
+      "observed_on": "2007-07-03",
+      "place_guess": "6420 Trancoso, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "bromus-diandrus_01_inat-469633391.jpeg"
+    },
+    {
+      "photo_id": 651104416,
+      "license": "cc-by",
+      "attribution": "(c) Nathan May, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/651104416/large.jpg",
+      "observation_id": 357015173,
+      "observation_url": "https://www.inaturalist.org/observations/357015173",
+      "observed_on": "2026-04-24",
+      "place_guess": "Dallas, TX, USA",
+      "user_login": "nathanmayflower",
+      "filename": "bromus-diandrus_02_inat-651104416.jpg"
+    },
+    {
+      "photo_id": 649111061,
+      "license": "cc-by",
+      "attribution": "(c) ashleyrsteel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649111061/large.jpg",
+      "observation_id": 355945453,
+      "observation_url": "https://www.inaturalist.org/observations/355945453",
+      "observed_on": "2026-04-27",
+      "place_guess": "Tandy Hills Natural Area, Fort Worth, TX, US",
+      "user_login": "ashleyrsteel",
+      "filename": "bromus-diandrus_03_inat-649111061.jpg"
+    },
+    {
+      "photo_id": 143563880,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/143563880/large.jpg",
+      "observation_id": 87090379,
+      "observation_url": "https://www.inaturalist.org/observations/87090379",
+      "observed_on": "2018-05-11",
+      "place_guess": "Santa Barbara, California, United States",
+      "user_login": "serpophaga",
+      "filename": "bromus-diandrus_04_inat-143563880.jpg"
+    },
+    {
+      "photo_id": 649111230,
+      "license": "cc-by",
+      "attribution": "(c) ashleyrsteel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649111230/large.jpg",
+      "observation_id": 355945453,
+      "observation_url": "https://www.inaturalist.org/observations/355945453",
+      "observed_on": "2026-04-27",
+      "place_guess": "Tandy Hills Natural Area, Fort Worth, TX, US",
+      "user_login": "ashleyrsteel",
+      "filename": "bromus-diandrus_05_inat-649111230.jpg"
+    }
+  ]
+}

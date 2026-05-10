@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Hydrilla verticillata",
+  "taxon_id": 77468,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 304416602,
+      "license": "cc-by",
+      "attribution": "(c) Stanislav Murashkin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/304416602/large.jpg",
+      "observation_id": 175178376,
+      "observation_url": "https://www.inaturalist.org/observations/175178376",
+      "observed_on": "2023-07-27",
+      "place_guess": "\u0412\u043e\u043b\u0433\u0430, \u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434, \u0412\u043e\u043b\u0433\u043e\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, RU",
+      "user_login": "stanislav_murashkin",
+      "filename": "hydrilla-verticillata_01_inat-304416602.jpg"
+    },
+    {
+      "photo_id": 364001704,
+      "license": "cc-by",
+      "attribution": "(c) Cheng-Te Hsu, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364001704/large.jpeg",
+      "observation_id": 205835897,
+      "observation_url": "https://www.inaturalist.org/observations/205835897",
+      "observed_on": "2024-04-05",
+      "place_guess": "226\u53f0\u7063\u65b0\u5317\u5e02\u5e73\u6eaa\u5340\u65b0\u5bee\u91cc",
+      "user_login": "chengte",
+      "filename": "hydrilla-verticillata_02_inat-364001704.jpeg"
+    },
+    {
+      "photo_id": 289354150,
+      "license": "cc-by",
+      "attribution": "(c) W Rao, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289354150/large.jpeg",
+      "observation_id": 167102845,
+      "observation_url": "https://www.inaturalist.org/observations/167102845",
+      "observed_on": "2023-06-09",
+      "place_guess": "Belle and Mayo Islands, Richmond, VA, USA",
+      "user_login": "sus_scrofa",
+      "filename": "hydrilla-verticillata_03_inat-289354150.jpeg"
+    },
+    {
+      "photo_id": 59682872,
+      "license": "cc-by",
+      "attribution": "(c) Brandon Corder, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59682872/large.jpeg",
+      "observation_id": 37629061,
+      "observation_url": "https://www.inaturalist.org/observations/37629061",
+      "observed_on": "2019-01-13",
+      "place_guess": "Volusia County, US-FL, US",
+      "user_login": "brandoncorder",
+      "filename": "hydrilla-verticillata_04_inat-59682872.jpeg"
+    },
+    {
+      "photo_id": 519400871,
+      "license": "cc-by",
+      "attribution": "(c) Nguyen-Khanh-Trinh Tram, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519400871/large.jpg",
+      "observation_id": 288804234,
+      "observation_url": "https://www.inaturalist.org/observations/288804234",
+      "observed_on": "2023-01-21",
+      "place_guess": "Tr\u00e0 C\u00f4n, Tr\u00e0 \u00d4n, V\u0129nh Long, Vietnam",
+      "user_login": "khanhtrinh",
+      "filename": "hydrilla-verticillata_05_inat-519400871.jpg"
+    }
+  ]
+}

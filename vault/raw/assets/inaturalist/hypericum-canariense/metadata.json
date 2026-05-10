@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Hypericum canariense",
+  "taxon_id": 77482,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 356540194,
+      "license": "cc-by",
+      "attribution": "(c) V\u00edtor Jorge, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356540194/large.jpeg",
+      "observation_id": 201929276,
+      "observation_url": "https://www.inaturalist.org/observations/201929276",
+      "observed_on": "2024-03-09",
+      "place_guess": "9370 Estreito da Calheta, Portugal",
+      "user_login": "vitorjcj",
+      "filename": "hypericum-canariense_01_inat-356540194.jpeg"
+    },
+    {
+      "photo_id": 356540214,
+      "license": "cc-by",
+      "attribution": "(c) V\u00edtor Jorge, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356540214/large.jpeg",
+      "observation_id": 201929276,
+      "observation_url": "https://www.inaturalist.org/observations/201929276",
+      "observed_on": "2024-03-09",
+      "place_guess": "9370 Estreito da Calheta, Portugal",
+      "user_login": "vitorjcj",
+      "filename": "hypericum-canariense_02_inat-356540214.jpeg"
+    },
+    {
+      "photo_id": 356540240,
+      "license": "cc-by",
+      "attribution": "(c) V\u00edtor Jorge, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356540240/large.jpeg",
+      "observation_id": 201929276,
+      "observation_url": "https://www.inaturalist.org/observations/201929276",
+      "observed_on": "2024-03-09",
+      "place_guess": "9370 Estreito da Calheta, Portugal",
+      "user_login": "vitorjcj",
+      "filename": "hypericum-canariense_03_inat-356540240.jpeg"
+    },
+    {
+      "photo_id": 356540265,
+      "license": "cc-by",
+      "attribution": "(c) V\u00edtor Jorge, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356540265/large.jpeg",
+      "observation_id": 201929276,
+      "observation_url": "https://www.inaturalist.org/observations/201929276",
+      "observed_on": "2024-03-09",
+      "place_guess": "9370 Estreito da Calheta, Portugal",
+      "user_login": "vitorjcj",
+      "filename": "hypericum-canariense_04_inat-356540265.jpeg"
+    },
+    {
+      "photo_id": 356540299,
+      "license": "cc-by",
+      "attribution": "(c) V\u00edtor Jorge, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/356540299/large.jpeg",
+      "observation_id": 201929276,
+      "observation_url": "https://www.inaturalist.org/observations/201929276",
+      "observed_on": "2024-03-09",
+      "place_guess": "9370 Estreito da Calheta, Portugal",
+      "user_login": "vitorjcj",
+      "filename": "hypericum-canariense_05_inat-356540299.jpeg"
+    }
+  ]
+}

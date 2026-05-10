@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Acacia dealbata",
+  "taxon_id": 53343,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 604442960,
+      "license": "cc-by",
+      "attribution": "(c) Jose Castro, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604442960/large.jpg",
+      "observation_id": 332988984,
+      "observation_url": "https://www.inaturalist.org/observations/332988984",
+      "observed_on": "2026-01-01",
+      "place_guess": "Corgo, 27163 Corgo, Lugo, Espa\u00f1a",
+      "user_login": "jose_castro",
+      "filename": "acacia-dealbata_01_inat-604442960.jpg"
+    },
+    {
+      "photo_id": 583043854,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/583043854/large.jpg",
+      "observation_id": 322311577,
+      "observation_url": "https://www.inaturalist.org/observations/322311577",
+      "observed_on": "2025-10-21",
+      "place_guess": "3040 Antanhol, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "acacia-dealbata_02_inat-583043854.jpg"
+    },
+    {
+      "photo_id": 177101086,
+      "license": "cc-by",
+      "attribution": "(c) Annette Herz, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177101086/large.jpg",
+      "observation_id": 105538206,
+      "observation_url": "https://www.inaturalist.org/observations/105538206",
+      "observed_on": "2022-01-23",
+      "place_guess": "Golf Club Dr, Santa Cruz, CA, US",
+      "user_login": "nettiecat",
+      "filename": "acacia-dealbata_03_inat-177101086.jpg"
+    },
+    {
+      "photo_id": 59116443,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59116443/large.jpeg",
+      "observation_id": 37312198,
+      "observation_url": "https://www.inaturalist.org/observations/37312198",
+      "observed_on": "2020-01-05",
+      "place_guess": "Grootrivier bridge, R62, South Cape DC, South Africa",
+      "user_login": "shauns",
+      "filename": "acacia-dealbata_04_inat-59116443.jpeg"
+    },
+    {
+      "photo_id": 46341799,
+      "license": "cc-by",
+      "attribution": "(c) Leon Perrie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46341799/large.jpeg",
+      "observation_id": 29686004,
+      "observation_url": "https://www.inaturalist.org/observations/29686004",
+      "observed_on": "2019-07-28",
+      "place_guess": "Awapuni, Palmerston North, New Zealand",
+      "user_login": "leonperrie",
+      "filename": "acacia-dealbata_05_inat-46341799.jpeg"
+    }
+  ]
+}

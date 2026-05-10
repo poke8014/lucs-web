@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Glyceria declinata",
+  "taxon_id": 77288,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 610237829,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610237829/large.jpg",
+      "observation_id": 335867193,
+      "observation_url": "https://www.inaturalist.org/observations/335867193",
+      "observed_on": "2026-01-21",
+      "place_guess": "Chatham Islands, Rekohu (Chatham Island), Maipito Road, Ces Lanauze's Maipito Kawenata ",
+      "user_login": "pjd1",
+      "filename": "glyceria-declinata_01_inat-610237829.jpg"
+    },
+    {
+      "photo_id": 166241383,
+      "license": "cc-by",
+      "attribution": "(c) Paul Bell-Butler, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166241383/large.jpg",
+      "observation_id": 99693545,
+      "observation_url": "https://www.inaturalist.org/observations/99693545",
+      "observed_on": "2021-10-29",
+      "place_guess": "Papaiti, New Zealand",
+      "user_login": "pdbellbutler",
+      "filename": "glyceria-declinata_02_inat-166241383.jpg"
+    },
+    {
+      "photo_id": 585152100,
+      "license": "cc-by",
+      "attribution": "(c) Joe Dillon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585152100/large.jpg",
+      "observation_id": 323393708,
+      "observation_url": "https://www.inaturalist.org/observations/323393708",
+      "observed_on": "2025-10-25",
+      "place_guess": "Kenepuru, Porirua, New Zealand",
+      "user_login": "joedillon",
+      "filename": "glyceria-declinata_03_inat-585152100.jpg"
+    },
+    {
+      "photo_id": 610237813,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610237813/large.jpg",
+      "observation_id": 335867193,
+      "observation_url": "https://www.inaturalist.org/observations/335867193",
+      "observed_on": "2026-01-21",
+      "place_guess": "Chatham Islands, Rekohu (Chatham Island), Maipito Road, Ces Lanauze's Maipito Kawenata ",
+      "user_login": "pjd1",
+      "filename": "glyceria-declinata_04_inat-610237813.jpg"
+    },
+    {
+      "photo_id": 610237836,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610237836/large.jpg",
+      "observation_id": 335867193,
+      "observation_url": "https://www.inaturalist.org/observations/335867193",
+      "observed_on": "2026-01-21",
+      "place_guess": "Chatham Islands, Rekohu (Chatham Island), Maipito Road, Ces Lanauze's Maipito Kawenata ",
+      "user_login": "pjd1",
+      "filename": "glyceria-declinata_05_inat-610237836.jpg"
+    }
+  ]
+}

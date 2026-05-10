@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Centaurea diffusa",
+  "taxon_id": 76210,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 118032363,
+      "license": "cc-by",
+      "attribution": "(c) Galyna Mykytynets, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118032363/large.jpeg",
+      "observation_id": 72407393,
+      "observation_url": "https://www.inaturalist.org/observations/72407393",
+      "observed_on": "2020-06-15",
+      "place_guess": "\u042f\u043a\u0438\u043c\u0456\u0432\u0441\u044c\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0417\u0430\u043f\u043e\u0440\u0456\u0437\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0423\u043a\u0440\u0430\u0457\u043d\u0430",
+      "user_login": "galyna_mykytynets",
+      "filename": "centaurea-diffusa_01_inat-118032363.jpeg"
+    },
+    {
+      "photo_id": 401681123,
+      "license": "cc-by",
+      "attribution": "(c) \u0410\u043d\u043d\u0430 \u041a\u0438\u0440\u0438\u0447\u0435\u043d\u043a\u043e, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401681123/large.jpeg",
+      "observation_id": 226496211,
+      "observation_url": "https://www.inaturalist.org/observations/226496211",
+      "observed_on": "2024-07-01",
+      "place_guess": "\u0414\u0438\u043d\u0441\u043a\u043e\u0439 \u0440-\u043d, \u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "kirann",
+      "filename": "centaurea-diffusa_02_inat-401681123.jpeg"
+    },
+    {
+      "photo_id": 561564629,
+      "license": "cc-by",
+      "attribution": "(c) Stanislav Murashkin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/561564629/large.jpg",
+      "observation_id": 311104266,
+      "observation_url": "https://www.inaturalist.org/observations/311104266",
+      "observed_on": "2025-09-02",
+      "place_guess": "Verkhnedonskoy rayon, RU-RO, RU",
+      "user_login": "stanislav_murashkin",
+      "filename": "centaurea-diffusa_03_inat-561564629.jpg"
+    },
+    {
+      "photo_id": 449998700,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/449998700/large.jpeg",
+      "observation_id": 251489195,
+      "observation_url": "https://www.inaturalist.org/observations/251489195",
+      "observed_on": "2024-11-12",
+      "place_guess": "Okanagan-Similkameen, BC, Canada",
+      "user_login": "dougbrown",
+      "filename": "centaurea-diffusa_04_inat-449998700.jpeg"
+    },
+    {
+      "photo_id": 310319973,
+      "license": "cc-by",
+      "attribution": "(c) Brenda Black, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/310319973/large.jpeg",
+      "observation_id": 178344258,
+      "observation_url": "https://www.inaturalist.org/observations/178344258",
+      "observed_on": "2023-08-13",
+      "place_guess": "Braunsbedra, Deutschland",
+      "user_login": "spiphany",
+      "filename": "centaurea-diffusa_05_inat-310319973.jpeg"
+    }
+  ]
+}

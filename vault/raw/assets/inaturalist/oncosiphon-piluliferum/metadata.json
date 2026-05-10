@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Oncosiphon pilulifer",
+  "taxon_id": 78258,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 267186155,
+      "license": "cc-by",
+      "attribution": "(c) Perry Grissom, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267186155/large.jpg",
+      "observation_id": 154622229,
+      "observation_url": "https://www.inaturalist.org/observations/154622229",
+      "observed_on": "2023-04-12",
+      "place_guess": "E Pastime Rd, Tucson, AZ, US",
+      "user_login": "pgris12",
+      "filename": "oncosiphon-piluliferum_01_inat-267186155.jpg"
+    },
+    {
+      "photo_id": 473752793,
+      "license": "cc-by",
+      "attribution": "(c) CKonecna, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473752793/large.jpeg",
+      "observation_id": 263687321,
+      "observation_url": "https://www.inaturalist.org/observations/263687321",
+      "observed_on": "2025-03-02",
+      "place_guess": "Scottsdale, AZ 85258, USA",
+      "user_login": "ckonecna",
+      "filename": "oncosiphon-piluliferum_02_inat-473752793.jpeg"
+    },
+    {
+      "photo_id": 368984513,
+      "license": "cc-by",
+      "attribution": "(c) Rachel Stringham, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368984513/large.jpeg",
+      "observation_id": 208541621,
+      "observation_url": "https://www.inaturalist.org/observations/208541621",
+      "observed_on": "2024-04-21",
+      "place_guess": "Cottonflower, Goodyear, AZ 85338, USA",
+      "user_login": "restringham",
+      "filename": "oncosiphon-piluliferum_03_inat-368984513.jpeg"
+    },
+    {
+      "photo_id": 490783169,
+      "license": "cc-by",
+      "attribution": "(c) Jordan Zylstra, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490783169/large.jpeg",
+      "observation_id": 272793086,
+      "observation_url": "https://www.inaturalist.org/observations/272793086",
+      "observed_on": "2025-04-24",
+      "place_guess": "Phelan, CA 92371, USA",
+      "user_login": "jordanzylstra",
+      "filename": "oncosiphon-piluliferum_04_inat-490783169.jpeg"
+    },
+    {
+      "photo_id": 134689765,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134689765/large.jpg",
+      "observation_id": 82083435,
+      "observation_url": "https://www.inaturalist.org/observations/82083435",
+      "observed_on": "2021-06-07",
+      "place_guess": "Torrey Pines State Natural Reserve, San Diego, CA, US",
+      "user_login": "blueclay",
+      "filename": "oncosiphon-piluliferum_05_inat-134689765.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Alliaria petiolata",
+  "taxon_id": 56061,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 39650821,
+      "license": "cc-by",
+      "attribution": "(c) Quinten Wiegersma, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39650821/large.jpeg",
+      "observation_id": 25589816,
+      "observation_url": "https://www.inaturalist.org/observations/25589816",
+      "observed_on": "2019-05-22",
+      "place_guess": "Uplands, London, ON N5X, Canada",
+      "user_login": "birds_bugs_botany",
+      "filename": "alliaria-petiolata_01_inat-39650821.jpeg"
+    },
+    {
+      "photo_id": 490983937,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Dubynin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/490983937/large.jpeg",
+      "observation_id": 272905614,
+      "observation_url": "https://www.inaturalist.org/observations/272905614",
+      "observed_on": "2025-04-25",
+      "place_guess": "\u0411\u043e\u0441\u0442\u0430\u043d\u0434\u044b\u043a\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0410\u043b\u043c\u0430\u0442\u044b, \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+      "user_login": "alexanderdubynin",
+      "filename": "alliaria-petiolata_02_inat-490983937.jpeg"
+    },
+    {
+      "photo_id": 185928798,
+      "license": "cc-by",
+      "attribution": "(c) Sandy Wolkenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185928798/large.jpg",
+      "observation_id": 110236725,
+      "observation_url": "https://www.inaturalist.org/observations/110236725",
+      "observed_on": "2022-04-02",
+      "place_guess": "Elizabeth Ave, Teaneck, NJ, US",
+      "user_login": "sadawolk",
+      "filename": "alliaria-petiolata_03_inat-185928798.jpg"
+    },
+    {
+      "photo_id": 524510678,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/524510678/large.jpg",
+      "observation_id": 291519709,
+      "observation_url": "https://www.inaturalist.org/observations/291519709",
+      "observed_on": "2025-06-21",
+      "place_guess": "Pond St, Medford, MA, US",
+      "user_login": "dinomariobob",
+      "filename": "alliaria-petiolata_04_inat-524510678.jpg"
+    },
+    {
+      "photo_id": 37620458,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37620458/large.jpeg",
+      "observation_id": 24330146,
+      "observation_url": "https://www.inaturalist.org/observations/24330146",
+      "observed_on": "2019-05-01",
+      "place_guess": "18001 Renton-Maple Valley Rd, Maple Valley, WA 98038, USA",
+      "user_login": "haida_gwaii",
+      "filename": "alliaria-petiolata_05_inat-37620458.jpeg"
+    }
+  ]
+}

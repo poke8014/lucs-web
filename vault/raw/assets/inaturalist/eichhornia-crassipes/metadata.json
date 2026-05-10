@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Eichhornia crassipes",
+  "taxon_id": 962637,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 3103104,
+      "license": "cc-by",
+      "attribution": "(c) Mattia Menchetti, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3103104/large.JPG",
+      "observation_id": 2746308,
+      "observation_url": "https://www.inaturalist.org/observations/2746308",
+      "observed_on": "2008-07-02",
+      "place_guess": "West Bay, Roatan, Honduras, Honduras",
+      "user_login": "mattiamenchetti",
+      "filename": "eichhornia-crassipes_01_inat-3103104.JPG"
+    },
+    {
+      "photo_id": 31164282,
+      "license": "cc-by",
+      "attribution": "(c) Michael D Fox, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/31164282/large.jpg",
+      "observation_id": 20192111,
+      "observation_url": "https://www.inaturalist.org/observations/20192111",
+      "observed_on": "2017-06-08",
+      "place_guess": "Denton, Texas, United States",
+      "user_login": "mchlfx",
+      "filename": "eichhornia-crassipes_02_inat-31164282.jpg"
+    },
+    {
+      "photo_id": 28107964,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28107964/large.jpeg",
+      "observation_id": 18390548,
+      "observation_url": "https://www.inaturalist.org/observations/18390548",
+      "observed_on": "2017-05-23",
+      "place_guess": "\u53f0\u7063\u5609\u7fa9\u7e23",
+      "user_login": "leaf0605",
+      "filename": "eichhornia-crassipes_03_inat-28107964.jpeg"
+    },
+    {
+      "photo_id": 611651832,
+      "license": "cc-by",
+      "attribution": "(c) Donald Davesne, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611651832/large.jpg",
+      "observation_id": 336572847,
+      "observation_url": "https://www.inaturalist.org/observations/336572847",
+      "observed_on": "2025-08-07",
+      "place_guess": "Bar\u00e3o de Melga\u00e7o - State of Mato Grosso, Brazil",
+      "user_login": "donalddavesne",
+      "filename": "eichhornia-crassipes_04_inat-611651832.jpg"
+    },
+    {
+      "photo_id": 128140412,
+      "license": "cc-by",
+      "attribution": "(c) ritirene, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128140412/large.jpeg",
+      "observation_id": 78308726,
+      "observation_url": "https://www.inaturalist.org/observations/78308726",
+      "observed_on": "2021-05-08",
+      "place_guess": "Palmas, Arroyo, Puerto Rico",
+      "user_login": "ritirene",
+      "filename": "eichhornia-crassipes_05_inat-128140412.jpeg"
+    }
+  ]
+}

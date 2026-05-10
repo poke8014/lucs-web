@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cynoglossum officinale",
+  "taxon_id": 48152,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 76546309,
+      "license": "cc-by",
+      "attribution": "(c) \u0414\u0430\u0440\u044c\u044f \u0414\u0440\u0443\u0449\u0435\u043d\u043a\u043e, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76546309/large.jpeg",
+      "observation_id": 48248688,
+      "observation_url": "https://www.inaturalist.org/observations/48248688",
+      "observed_on": "2020-05-31",
+      "place_guess": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0438\u0439 \u0440-\u043d, \u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a, \u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "daria_dru",
+      "filename": "cynoglossum-officinale_01_inat-76546309.jpeg"
+    },
+    {
+      "photo_id": 76293311,
+      "license": "cc-by",
+      "attribution": "(c) Safina Rezeda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76293311/large.jpg",
+      "observation_id": 48092654,
+      "observation_url": "https://www.inaturalist.org/observations/48092654",
+      "observed_on": "2020-05-29",
+      "place_guess": "\u0420\u0430\u043d\u0433\u0430\u0437\u0430\u0440, \u0420\u0435\u0441\u043f. \u0422\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d, \u0420\u043e\u0441\u0441\u0438\u044f, 423359",
+      "user_login": "safinarezeda",
+      "filename": "cynoglossum-officinale_02_inat-76293311.jpg"
+    },
+    {
+      "photo_id": 4876244,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4876244/large.jpg",
+      "observation_id": 4104202,
+      "observation_url": "https://www.inaturalist.org/observations/4104202",
+      "observed_on": "2013-06-08",
+      "place_guess": "Sardegna,  Genargentu, Rio Aratu",
+      "user_login": "pjd1",
+      "filename": "cynoglossum-officinale_03_inat-4876244.jpg"
+    },
+    {
+      "photo_id": 40463806,
+      "license": "cc-by",
+      "attribution": "(c) Ace, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40463806/large.jpg",
+      "observation_id": 26080229,
+      "observation_url": "https://www.inaturalist.org/observations/26080229",
+      "observed_on": "2019-05-30",
+      "place_guess": "372 E Steep Mountain Dr, Draper, UT, US",
+      "user_login": "acerigley",
+      "filename": "cynoglossum-officinale_04_inat-40463806.jpg"
+    },
+    {
+      "photo_id": 77070576,
+      "license": "cc-by",
+      "attribution": "(c) \u0414\u0430\u0440\u044c\u044f \u0414\u0440\u0443\u0449\u0435\u043d\u043a\u043e, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77070576/large.jpeg",
+      "observation_id": 48248688,
+      "observation_url": "https://www.inaturalist.org/observations/48248688",
+      "observed_on": "2020-05-31",
+      "place_guess": "\u0421\u043e\u0432\u0435\u0442\u0441\u043a\u0438\u0439 \u0440-\u043d, \u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a, \u041d\u043e\u0432\u043e\u0441\u0438\u0431\u0438\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "daria_dru",
+      "filename": "cynoglossum-officinale_05_inat-77070576.jpeg"
+    }
+  ]
+}

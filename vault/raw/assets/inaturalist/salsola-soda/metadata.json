@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Salsola soda",
+  "taxon_id": 78960,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 10809893,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10809893/large.jpeg",
+      "observation_id": 8163180,
+      "observation_url": "https://www.inaturalist.org/observations/8163180",
+      "observed_on": "2017-09-28",
+      "place_guess": "Alameda Point Shoreline, Alameda, CA 94501, USA",
+      "user_login": "rockybajada",
+      "filename": "salsola-soda_01_inat-10809893.jpeg"
+    },
+    {
+      "photo_id": 152549697,
+      "license": "cc-by",
+      "attribution": "(c) LJ Moore-McClelland, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152549697/large.jpg",
+      "observation_id": 92161106,
+      "observation_url": "https://www.inaturalist.org/observations/92161106",
+      "observed_on": "2021-08-22",
+      "place_guess": "Main Dr, San Rafael, CA, US",
+      "user_login": "ocean_beach_goth",
+      "filename": "salsola-soda_02_inat-152549697.jpg"
+    },
+    {
+      "photo_id": 240491800,
+      "license": "cc-by",
+      "attribution": "(c) Lja\u017e, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240491800/large.jpeg",
+      "observation_id": 140488600,
+      "observation_url": "https://www.inaturalist.org/observations/140488600",
+      "observed_on": "2022-10-30",
+      "place_guess": "\u0160ibensko-Kninska, HR",
+      "user_login": "ljazz",
+      "filename": "salsola-soda_03_inat-240491800.jpeg"
+    },
+    {
+      "photo_id": 308943454,
+      "license": "cc-by",
+      "attribution": "(c) Alex, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/308943454/large.jpeg",
+      "observation_id": 177616659,
+      "observation_url": "https://www.inaturalist.org/observations/177616659",
+      "observed_on": "2023-08-09",
+      "place_guess": "Novato, CA, USA",
+      "user_login": "arlenedevitt",
+      "filename": "salsola-soda_04_inat-308943454.jpeg"
+    },
+    {
+      "photo_id": 3494678,
+      "license": "cc-by",
+      "attribution": "(c) Drepanostoma, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3494678/large.jpg",
+      "observation_id": 3035662,
+      "observation_url": "https://www.inaturalist.org/observations/3035662",
+      "observed_on": "2010-05-31",
+      "place_guess": "Sassari, Sardegna, Italy",
+      "user_login": "martinbishop",
+      "filename": "salsola-soda_05_inat-3494678.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Centaurea solstitialis",
+  "taxon_id": 52588,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 30658771,
+      "license": "cc-by",
+      "attribution": "(c) \u042e\u0440\u0438\u0439 \u0414\u0430\u043d\u0438\u043b\u0435\u0432\u0441\u043a\u0438\u0439 (Yuriy Danilevsky), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30658771/large.jpg",
+      "observation_id": 19881553,
+      "observation_url": "https://www.inaturalist.org/observations/19881553",
+      "observed_on": "2015-07-18",
+      "place_guess": "\u0423\u0441\u0442\u044c-\u041b\u0430\u0431\u0438\u043d\u0441\u043a, \u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "yuriydanilevsky",
+      "filename": "centaurea-solstitialis_01_inat-30658771.jpg"
+    },
+    {
+      "photo_id": 127964825,
+      "license": "cc-by",
+      "attribution": "(c) Eleftherios Katsillis, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127964825/large.jpeg",
+      "observation_id": 78210843,
+      "observation_url": "https://www.inaturalist.org/observations/78210843",
+      "observed_on": "2021-05-07",
+      "place_guess": "South Aegean, Aegean, Greece",
+      "user_login": "eleftherioskats",
+      "filename": "centaurea-solstitialis_02_inat-127964825.jpeg"
+    },
+    {
+      "photo_id": 46815828,
+      "license": "cc-by",
+      "attribution": "(c) silk128, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46815828/large.jpeg",
+      "observation_id": 29980981,
+      "observation_url": "https://www.inaturalist.org/observations/29980981",
+      "observed_on": "2019-07-21",
+      "place_guess": "Citt\u00e0 Metropolitana di Bologna, Italia",
+      "user_login": "silk128",
+      "filename": "centaurea-solstitialis_03_inat-46815828.jpeg"
+    },
+    {
+      "photo_id": 210440012,
+      "license": "cc-by",
+      "attribution": "(c) Jonathan Vaughn, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210440012/large.jpeg",
+      "observation_id": 124172389,
+      "observation_url": "https://www.inaturalist.org/observations/124172389",
+      "observed_on": "2022-06-29",
+      "place_guess": "Visalia, CA 93292, USA",
+      "user_login": "jvaughn2000",
+      "filename": "centaurea-solstitialis_04_inat-210440012.jpeg"
+    },
+    {
+      "photo_id": 230124739,
+      "license": "cc-by",
+      "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/230124739/large.jpeg",
+      "observation_id": 134961765,
+      "observation_url": "https://www.inaturalist.org/observations/134961765",
+      "observed_on": "2022-09-09",
+      "place_guess": "Palo Alto, CA, USA",
+      "user_login": "chilipossum",
+      "filename": "centaurea-solstitialis_05_inat-230124739.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Hirschfeldia incana",
+  "taxon_id": 53097,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 624435741,
+      "license": "cc-by",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624435741/large.jpg",
+      "observation_id": 342860863,
+      "observation_url": "https://www.inaturalist.org/observations/342860863",
+      "observed_on": "2023-07-19",
+      "place_guess": "Vagos, Aveiro, Portugal",
+      "user_login": "duarte",
+      "filename": "hirschfeldia-incana_01_inat-624435741.jpg"
+    },
+    {
+      "photo_id": 74552371,
+      "license": "cc-by",
+      "attribution": "(c) Rachel Allingham, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74552371/large.jpg",
+      "observation_id": 47010480,
+      "observation_url": "https://www.inaturalist.org/observations/47010480",
+      "observed_on": "2020-05-21",
+      "place_guess": "Cleveland National Forest, Alpine, CA, US",
+      "user_login": "slimygrub",
+      "filename": "hirschfeldia-incana_02_inat-74552371.jpg"
+    },
+    {
+      "photo_id": 278832767,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278832767/large.jpeg",
+      "observation_id": 161321849,
+      "observation_url": "https://www.inaturalist.org/observations/161321849",
+      "observed_on": "2023-05-12",
+      "place_guess": "Jacumba Hot Springs, CA 91934, USA",
+      "user_login": "sheriff_woody_pct",
+      "filename": "hirschfeldia-incana_03_inat-278832767.jpeg"
+    },
+    {
+      "photo_id": 186764200,
+      "license": "cc-by",
+      "attribution": "(c) Vasileia Sef, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186764200/large.jpeg",
+      "observation_id": 110687771,
+      "observation_url": "https://www.inaturalist.org/observations/110687771",
+      "observed_on": "2022-04-07",
+      "place_guess": "Kalamaria Municipality 551 32, Greece",
+      "user_login": "vasileiasef",
+      "filename": "hirschfeldia-incana_04_inat-186764200.jpeg"
+    },
+    {
+      "photo_id": 79133594,
+      "license": "cc-by",
+      "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79133594/large.jpeg",
+      "observation_id": 49845042,
+      "observation_url": "https://www.inaturalist.org/observations/49845042",
+      "observed_on": "2020-06-15",
+      "place_guess": "Julian, CA 92036, USA",
+      "user_login": "milliebasden",
+      "filename": "hirschfeldia-incana_05_inat-79133594.jpeg"
+    }
+  ]
+}

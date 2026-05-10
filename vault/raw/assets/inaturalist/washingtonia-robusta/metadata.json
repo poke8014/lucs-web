@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Washingtonia robusta",
+  "taxon_id": 79521,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 172095640,
+      "license": "cc-by",
+      "attribution": "(c) Bill Levine, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172095640/large.jpeg",
+      "observation_id": 102895494,
+      "observation_url": "https://www.inaturalist.org/observations/102895494",
+      "observed_on": "2021-12-10",
+      "place_guess": "23300 Todos Santos, BCS, Mexico",
+      "user_login": "blevine",
+      "filename": "washingtonia-robusta_01_inat-172095640.jpeg"
+    },
+    {
+      "photo_id": 345062203,
+      "license": "cc-by",
+      "attribution": "(c) Sue Carnahan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/345062203/large.jpeg",
+      "observation_id": 196056508,
+      "observation_url": "https://www.inaturalist.org/observations/196056508",
+      "observed_on": "2015-11-29",
+      "place_guess": "Nacapule Canyon, Guaymas Municipality, Sonora, Mexico",
+      "user_login": "suecar",
+      "filename": "washingtonia-robusta_02_inat-345062203.jpeg"
+    },
+    {
+      "photo_id": 335814660,
+      "license": "cc-by",
+      "attribution": "(c) Carlos A. Armenta, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335814660/large.jpeg",
+      "observation_id": 191426723,
+      "observation_url": "https://www.inaturalist.org/observations/191426723",
+      "observed_on": "2023-11-18",
+      "place_guess": "Maricopa County, AZ, USA",
+      "user_login": "eleodesthermopolis",
+      "filename": "washingtonia-robusta_03_inat-335814660.jpeg"
+    },
+    {
+      "photo_id": 54009762,
+      "license": "cc-by",
+      "attribution": "(c) Katie McCoy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54009762/large.jpeg",
+      "observation_id": 34328017,
+      "observation_url": "https://www.inaturalist.org/observations/34328017",
+      "observed_on": "2019-10-13",
+      "place_guess": "Folsom",
+      "user_login": "tashawidow",
+      "filename": "washingtonia-robusta_04_inat-54009762.jpeg"
+    },
+    {
+      "photo_id": 20082425,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20082425/large.jpeg",
+      "observation_id": 13645723,
+      "observation_url": "https://www.inaturalist.org/observations/13645723",
+      "observed_on": "2018-05-23",
+      "place_guess": "Sundays River Kirkwood, South Africa",
+      "user_login": "shauns",
+      "filename": "washingtonia-robusta_05_inat-20082425.jpeg"
+    }
+  ]
+}

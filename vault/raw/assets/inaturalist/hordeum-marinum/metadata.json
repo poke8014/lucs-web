@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Hordeum marinum",
+  "taxon_id": 57181,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 34858235,
+      "license": "cc-by",
+      "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34858235/large.jpeg",
+      "observation_id": 22500364,
+      "observation_url": "https://www.inaturalist.org/observations/22500364",
+      "observed_on": "2019-04-12",
+      "place_guess": "7450 Schmidt Ln, El Cerrito, CA 94530, USA",
+      "user_login": "ddefreese",
+      "filename": "hordeum-marinum_01_inat-34858235.jpeg"
+    },
+    {
+      "photo_id": 204205755,
+      "license": "cc-by",
+      "attribution": "(c) crothfels, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204205755/large.jpg",
+      "observation_id": 120718865,
+      "observation_url": "https://www.inaturalist.org/observations/120718865",
+      "observed_on": "2022-06-07",
+      "place_guess": "W 1400 N, Logan, UT, US",
+      "user_login": "crothfels",
+      "filename": "hordeum-marinum_02_inat-204205755.jpg"
+    },
+    {
+      "photo_id": 386128529,
+      "license": "cc-by",
+      "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386128529/large.jpeg",
+      "observation_id": 218222882,
+      "observation_url": "https://www.inaturalist.org/observations/218222882",
+      "observed_on": "2024-05-24",
+      "place_guess": "Corte Madera, CA, USA",
+      "user_login": "chilipossum",
+      "filename": "hordeum-marinum_03_inat-386128529.jpeg"
+    },
+    {
+      "photo_id": 488136981,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Donnelly, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488136981/large.jpg",
+      "observation_id": 271372414,
+      "observation_url": "https://www.inaturalist.org/observations/271372414",
+      "observed_on": "2025-04-18",
+      "place_guess": "E Raynor Ranch Rd, Le Grand, CA, US",
+      "user_login": "rynaturalist",
+      "filename": "hordeum-marinum_04_inat-488136981.jpg"
+    },
+    {
+      "photo_id": 86724430,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86724430/large.jpg",
+      "observation_id": 54500929,
+      "observation_url": "https://www.inaturalist.org/observations/54500929",
+      "observed_on": "2020-07-26",
+      "place_guess": "Farlington, England, UK",
+      "user_login": "bobwardell",
+      "filename": "hordeum-marinum_05_inat-86724430.jpg"
+    }
+  ]
+}

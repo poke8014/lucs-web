@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Brachypodium distachyon",
+  "taxon_id": 57158,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 506136207,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506136207/large.jpg",
+      "observation_id": 281739376,
+      "observation_url": "https://www.inaturalist.org/observations/281739376",
+      "observed_on": "2013-05-11",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "brachypodium-distachyon_01_inat-506136207.jpg"
+    },
+    {
+      "photo_id": 506139318,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506139318/large.jpg",
+      "observation_id": 281739376,
+      "observation_url": "https://www.inaturalist.org/observations/281739376",
+      "observed_on": "2013-05-11",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "brachypodium-distachyon_02_inat-506139318.jpg"
+    },
+    {
+      "photo_id": 506139320,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506139320/large.jpg",
+      "observation_id": 281739376,
+      "observation_url": "https://www.inaturalist.org/observations/281739376",
+      "observed_on": "2013-05-11",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "brachypodium-distachyon_03_inat-506139320.jpg"
+    },
+    {
+      "photo_id": 506139321,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506139321/large.jpg",
+      "observation_id": 281739376,
+      "observation_url": "https://www.inaturalist.org/observations/281739376",
+      "observed_on": "2013-05-11",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "brachypodium-distachyon_04_inat-506139321.jpg"
+    },
+    {
+      "photo_id": 506139337,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506139337/large.jpg",
+      "observation_id": 281739376,
+      "observation_url": "https://www.inaturalist.org/observations/281739376",
+      "observed_on": "2013-05-11",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "brachypodium-distachyon_05_inat-506139337.jpg"
+    }
+  ]
+}

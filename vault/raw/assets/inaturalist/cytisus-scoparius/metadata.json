@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cytisus scoparius",
+  "taxon_id": 48538,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 127638745,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127638745/large.jpeg",
+      "observation_id": 78018960,
+      "observation_url": "https://www.inaturalist.org/observations/78018960",
+      "observed_on": "2021-05-08",
+      "place_guess": "Cowichan Valley, CA-BC, CA",
+      "user_login": "shanebustapbj",
+      "filename": "cytisus-scoparius_01_inat-127638745.jpeg"
+    },
+    {
+      "photo_id": 473961627,
+      "license": "cc-by",
+      "attribution": "(c) Thomas Gyselinck, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473961627/large.jpeg",
+      "observation_id": 263795406,
+      "observation_url": "https://www.inaturalist.org/observations/263795406",
+      "observed_on": "2025-02-17",
+      "place_guess": "Genk, 3600 Genk, Belgi\u00eb",
+      "user_login": "thomas--",
+      "filename": "cytisus-scoparius_02_inat-473961627.jpeg"
+    },
+    {
+      "photo_id": 331408747,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Heras Gonz\u00e1lez, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331408747/large.jpeg",
+      "observation_id": 189219123,
+      "observation_url": "https://www.inaturalist.org/observations/189219123",
+      "observed_on": "2023-10-28",
+      "place_guess": "28680 San Mart\u00edn de Valdeiglesias, Madrid, Espa\u00f1a",
+      "user_login": "danielherasgonzlez",
+      "filename": "cytisus-scoparius_03_inat-331408747.jpeg"
+    },
+    {
+      "photo_id": 189292930,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189292930/large.jpg",
+      "observation_id": 112084034,
+      "observation_url": "https://www.inaturalist.org/observations/112084034",
+      "observed_on": "2022-04-19",
+      "place_guess": "Galicia, ES",
+      "user_login": "joluca",
+      "filename": "cytisus-scoparius_04_inat-189292930.jpg"
+    },
+    {
+      "photo_id": 606195053,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606195053/large.jpg",
+      "observation_id": 333876226,
+      "observation_url": "https://www.inaturalist.org/observations/333876226",
+      "observed_on": "2004-06-24",
+      "place_guess": "3620 P\u00eara Velha, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "cytisus-scoparius_05_inat-606195053.jpg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Tamarix gallica",
+  "taxon_id": 51303,
+  "photos_taxon_id": 51303,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 159263742,
+      "license": "cc-by",
+      "attribution": "(c) Patrick Hacker, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159263742/large.jpeg",
+      "observation_id": 95902581,
+      "observation_url": "https://www.inaturalist.org/observations/95902581",
+      "observed_on": "2021-09-08",
+      "place_guess": "Erlaa, 1230 Wien, \u00d6sterreich",
+      "user_login": "pastabaum",
+      "filename": "tamarix-gallica_01_inat-159263742.jpeg"
+    },
+    {
+      "photo_id": 159263775,
+      "license": "cc-by",
+      "attribution": "(c) Patrick Hacker, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159263775/large.jpeg",
+      "observation_id": 95902581,
+      "observation_url": "https://www.inaturalist.org/observations/95902581",
+      "observed_on": "2021-09-08",
+      "place_guess": "Erlaa, 1230 Wien, \u00d6sterreich",
+      "user_login": "pastabaum",
+      "filename": "tamarix-gallica_02_inat-159263775.jpeg"
+    },
+    {
+      "photo_id": 159263771,
+      "license": "cc-by",
+      "attribution": "(c) Patrick Hacker, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159263771/large.jpeg",
+      "observation_id": 95902581,
+      "observation_url": "https://www.inaturalist.org/observations/95902581",
+      "observed_on": "2021-09-08",
+      "place_guess": "Erlaa, 1230 Wien, \u00d6sterreich",
+      "user_login": "pastabaum",
+      "filename": "tamarix-gallica_03_inat-159263771.jpeg"
+    },
+    {
+      "photo_id": 159263813,
+      "license": "cc-by",
+      "attribution": "(c) Patrick Hacker, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159263813/large.jpeg",
+      "observation_id": 95902581,
+      "observation_url": "https://www.inaturalist.org/observations/95902581",
+      "observed_on": "2021-09-08",
+      "place_guess": "Erlaa, 1230 Wien, \u00d6sterreich",
+      "user_login": "pastabaum",
+      "filename": "tamarix-gallica_04_inat-159263813.jpeg"
+    },
+    {
+      "photo_id": 343530451,
+      "license": "cc-by",
+      "attribution": "(c) Viktor, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343530451/large.jpg",
+      "observation_id": 195294040,
+      "observation_url": "https://www.inaturalist.org/observations/195294040",
+      "observed_on": "2023-12-30",
+      "place_guess": "Porto Moniz, Portugal",
+      "user_login": "viktor-n",
+      "filename": "tamarix-gallica_05_inat-343530451.jpg"
+    }
+  ]
+}

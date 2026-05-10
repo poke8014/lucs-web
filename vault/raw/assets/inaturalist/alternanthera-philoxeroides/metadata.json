@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Alternanthera philoxeroides",
+  "taxon_id": 75386,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 468309529,
+      "license": "cc-by",
+      "attribution": "(c) Jens-Christian Svenning, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468309529/large.jpeg",
+      "observation_id": 260745995,
+      "observation_url": "https://www.inaturalist.org/observations/260745995",
+      "observed_on": "2025-02-02",
+      "place_guess": "22, Sultanpur, Gurugram, Haryana 122505, India",
+      "user_login": "jcsvenning",
+      "filename": "alternanthera-philoxeroides_01_inat-468309529.jpeg"
+    },
+    {
+      "photo_id": 57628333,
+      "license": "cc-by",
+      "attribution": "(c) Jacqui Geux, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57628333/large.jpeg",
+      "observation_id": 36456065,
+      "observation_url": "https://www.inaturalist.org/observations/36456065",
+      "observed_on": "2019-12-05",
+      "place_guess": "Waitakere, Piha 0772, New Zealand",
+      "user_login": "jacqui-nz",
+      "filename": "alternanthera-philoxeroides_02_inat-57628333.jpeg"
+    },
+    {
+      "photo_id": 200337387,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200337387/large.jpg",
+      "observation_id": 118565543,
+      "observation_url": "https://www.inaturalist.org/observations/118565543",
+      "observed_on": "2022-05-24",
+      "place_guess": "Pintail Ln, Natchez, MS, US",
+      "user_login": "kent_ozment",
+      "filename": "alternanthera-philoxeroides_03_inat-200337387.jpg"
+    },
+    {
+      "photo_id": 519458022,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519458022/large.jpg",
+      "observation_id": 288834759,
+      "observation_url": "https://www.inaturalist.org/observations/288834759",
+      "observed_on": "2025-06-11",
+      "place_guess": "Lake Shore Dr, Fort Worth, TX, US",
+      "user_login": "sambiology",
+      "filename": "alternanthera-philoxeroides_04_inat-519458022.jpg"
+    },
+    {
+      "photo_id": 346345998,
+      "license": "cc-by",
+      "attribution": "(c) portioid, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/346345998/large.jpg",
+      "observation_id": 196748379,
+      "observation_url": "https://www.inaturalist.org/observations/196748379",
+      "observed_on": "2024-01-15",
+      "place_guess": "Ubud, Bali, Indonesia",
+      "user_login": "portioid",
+      "filename": "alternanthera-philoxeroides_05_inat-346345998.jpg"
+    }
+  ]
+}

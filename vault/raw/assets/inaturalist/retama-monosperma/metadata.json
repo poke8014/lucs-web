@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Genista monosperma",
+  "taxon_id": 341169,
+  "photos_taxon_id": 341169,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 173295351,
+      "license": "cc-by",
+      "attribution": "(c) Oleg Kosterin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173295351/large.jpg",
+      "observation_id": 103529533,
+      "observation_url": "https://www.inaturalist.org/observations/103529533",
+      "observed_on": "2021-05-10",
+      "place_guess": "Morocco, NW Azemmour, dry forest halfway to the coast",
+      "user_login": "oleg_kosterin",
+      "filename": "retama-monosperma_01_inat-173295351.jpg"
+    },
+    {
+      "photo_id": 384832406,
+      "license": "cc-by",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384832406/large.jpeg",
+      "observation_id": 217528689,
+      "observation_url": "https://www.inaturalist.org/observations/217528689",
+      "observed_on": "2024-05-18",
+      "place_guess": "Castro Marim, Faro, Portugal",
+      "user_login": "duarte",
+      "filename": "retama-monosperma_02_inat-384832406.jpeg"
+    },
+    {
+      "photo_id": 492726044,
+      "license": "cc-by",
+      "attribution": "(c) Corin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492726044/large.jpeg",
+      "observation_id": 274037684,
+      "observation_url": "https://www.inaturalist.org/observations/274037684",
+      "observed_on": "2025-04-26",
+      "place_guess": "C6QX+RVW, Ghazoua, Morocco",
+      "user_login": "uncivilisation",
+      "filename": "retama-monosperma_03_inat-492726044.jpeg"
+    },
+    {
+      "photo_id": 224241661,
+      "license": "cc-by",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/224241661/large.jpeg",
+      "observation_id": 131744191,
+      "observation_url": "https://www.inaturalist.org/observations/131744191",
+      "observed_on": "2022-08-14",
+      "place_guess": "Olh\u00e3o, Faro, Portugal",
+      "user_login": "duarte",
+      "filename": "retama-monosperma_04_inat-224241661.jpeg"
+    },
+    {
+      "photo_id": 255805085,
+      "license": "cc-by",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/255805085/large.jpeg",
+      "observation_id": 148535137,
+      "observation_url": "https://www.inaturalist.org/observations/148535137",
+      "observed_on": "2023-02-11",
+      "place_guess": "S\u00e3o Br\u00e1s de Alportel, Faro, Portugal",
+      "user_login": "duarte",
+      "filename": "retama-monosperma_05_inat-255805085.jpeg"
+    }
+  ]
+}

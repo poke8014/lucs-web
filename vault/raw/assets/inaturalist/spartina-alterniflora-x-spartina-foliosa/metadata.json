@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Spartina alterniflora x S. foliosa",
+  "taxon_id": 772903,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 460551201,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/460551201/large.jpeg",
+      "observation_id": 218575408,
+      "observation_url": "https://www.inaturalist.org/observations/218575408",
+      "observed_on": "2024-05-27",
+      "place_guess": "Auckland, New Zealand",
+      "user_login": "steviakiwi23",
+      "filename": "spartina-alterniflora-x-spartina-foliosa_01_inat-460551201.jpeg"
+    },
+    {
+      "photo_id": 91725754,
+      "license": "cc-by",
+      "attribution": "(c) Steven Bodzin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91725754/large.jpeg",
+      "observation_id": 57503079,
+      "observation_url": "https://www.inaturalist.org/observations/57503079",
+      "observed_on": "2020-08-23",
+      "place_guess": "Westchester, New York, United States",
+      "user_login": "steven-cyclist",
+      "filename": "spartina-alterniflora-x-spartina-foliosa_02_inat-91725754.jpeg"
+    },
+    {
+      "photo_id": 147804012,
+      "license": "cc-by",
+      "attribution": "(c) Louis Imbeau, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/147804012/large.jpeg",
+      "observation_id": 89499672,
+      "observation_url": "https://www.inaturalist.org/observations/89499672",
+      "observed_on": "2021-07-19",
+      "place_guess": "Qu\u00e9bec, Canada",
+      "user_login": "imbeaul",
+      "filename": "spartina-alterniflora-x-spartina-foliosa_03_inat-147804012.jpeg"
+    },
+    {
+      "photo_id": 534705,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/534705/large.jpg",
+      "observation_id": 424349,
+      "observation_url": "https://www.inaturalist.org/observations/424349",
+      "observed_on": "2013-10-10",
+      "place_guess": "276\u2013290 N Bayshore Dr, Baytown, Texas, US",
+      "user_login": "sambiology",
+      "filename": "spartina-alterniflora-x-spartina-foliosa_04_inat-534705.jpg"
+    },
+    {
+      "photo_id": 386796875,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386796875/large.jpeg",
+      "observation_id": 218575408,
+      "observation_url": "https://www.inaturalist.org/observations/218575408",
+      "observed_on": "2024-05-27",
+      "place_guess": "Auckland, New Zealand",
+      "user_login": "steviakiwi23",
+      "filename": "spartina-alterniflora-x-spartina-foliosa_05_inat-386796875.jpeg"
+    }
+  ]
+}

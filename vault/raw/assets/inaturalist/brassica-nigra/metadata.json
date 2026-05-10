@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Brassica nigra",
+  "taxon_id": 1555489,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 3628483,
+      "license": "cc-by",
+      "attribution": "(c) naturalist charlie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3628483/large.jpg",
+      "observation_id": 3135847,
+      "observation_url": "https://www.inaturalist.org/observations/3135847",
+      "observed_on": "2003-04-25",
+      "place_guess": "cheeseboro cayon",
+      "user_login": "charlie",
+      "filename": "brassica-nigra_01_inat-3628483.jpg"
+    },
+    {
+      "photo_id": 510111843,
+      "license": "cc-by",
+      "attribution": "(c) Cory Butterfield, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/510111843/large.jpg",
+      "observation_id": 283870416,
+      "observation_url": "https://www.inaturalist.org/observations/283870416",
+      "observed_on": "2025-05-22",
+      "place_guess": "Santiago Canyon Rd, Orange, CA, US",
+      "user_login": "madszn95",
+      "filename": "brassica-nigra_02_inat-510111843.jpg"
+    },
+    {
+      "photo_id": 839082,
+      "license": "cc-by",
+      "attribution": "(c) Peter Brastow, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/839082/large.jpg",
+      "observation_id": 665886,
+      "observation_url": "https://www.inaturalist.org/observations/665886",
+      "observed_on": "2014-05-07",
+      "place_guess": "Presidio, Presidio of San Francisco, San Francisco County, Golden Gate National Recreation Area, US-CA, US",
+      "user_login": "pbrastow",
+      "filename": "brassica-nigra_03_inat-839082.jpg"
+    },
+    {
+      "photo_id": 69439481,
+      "license": "cc-by",
+      "attribution": "(c) Amy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69439481/large.jpeg",
+      "observation_id": 43784949,
+      "observation_url": "https://www.inaturalist.org/observations/43784949",
+      "observed_on": "2020-04-26",
+      "place_guess": "Orange, California, United States",
+      "user_login": "arboretum_amy",
+      "filename": "brassica-nigra_04_inat-69439481.jpeg"
+    },
+    {
+      "photo_id": 6143942,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6143942/large.jpg",
+      "observation_id": 5021122,
+      "observation_url": "https://www.inaturalist.org/observations/5021122",
+      "observed_on": "2017-01-28",
+      "place_guess": "Los Angeles, California, United States",
+      "user_login": "glmory",
+      "filename": "brassica-nigra_05_inat-6143942.jpg"
+    }
+  ]
+}

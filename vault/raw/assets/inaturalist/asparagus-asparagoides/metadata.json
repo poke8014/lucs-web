@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Asparagus asparagoides",
+  "taxon_id": 64107,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 38017465,
+      "license": "cc-by",
+      "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38017465/large.jpg",
+      "observation_id": 24585875,
+      "observation_url": "https://www.inaturalist.org/observations/24585875",
+      "observed_on": "2019-04-28",
+      "place_guess": "Christchurch including Banks Peninsula, Canterbury, New Zealand",
+      "user_login": "jon_sullivan",
+      "filename": "asparagus-asparagoides_01_inat-38017465.jpg"
+    },
+    {
+      "photo_id": 97059077,
+      "license": "cc-by",
+      "attribution": "(c) Thomas Mesaglio, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/97059077/large.jpeg",
+      "observation_id": 60688550,
+      "observation_url": "https://www.inaturalist.org/observations/60688550",
+      "observed_on": "2020-09-25",
+      "place_guess": "Wategora Reserve along Duck River, Sydney, New South Wales",
+      "user_login": "thebeachcomber",
+      "filename": "asparagus-asparagoides_02_inat-97059077.jpeg"
+    },
+    {
+      "photo_id": 463615885,
+      "license": "cc-by",
+      "attribution": "(c) Christopher Cooke, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463615885/large.jpeg",
+      "observation_id": 258406793,
+      "observation_url": "https://www.inaturalist.org/observations/258406793",
+      "observed_on": "2025-01-13",
+      "place_guess": "Inglewood, CA 90302, USA",
+      "user_login": "christophercooke",
+      "filename": "asparagus-asparagoides_03_inat-463615885.jpeg"
+    },
+    {
+      "photo_id": 585287590,
+      "license": "cc-by",
+      "attribution": "(c) katuchka, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/585287590/large.jpg",
+      "observation_id": 323524675,
+      "observation_url": "https://www.inaturalist.org/observations/323524675",
+      "observed_on": "2025-10-26",
+      "place_guess": "Ehlanzeni, Mpumalanga, South Africa",
+      "user_login": "katuchka",
+      "filename": "asparagus-asparagoides_04_inat-585287590.jpg"
+    },
+    {
+      "photo_id": 10753098,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10753098/large.jpg",
+      "observation_id": 8105591,
+      "observation_url": "https://www.inaturalist.org/observations/8105591",
+      "observed_on": "2017-09-25",
+      "place_guess": "786 Harding Ave, San Jose, CA, US",
+      "user_login": "glmory",
+      "filename": "asparagus-asparagoides_05_inat-10753098.jpg"
+    }
+  ]
+}

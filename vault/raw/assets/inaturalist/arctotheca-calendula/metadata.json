@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Arctotheca calendula",
+  "taxon_id": 56024,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 458457218,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/458457218/large.jpg",
+      "observation_id": 255781449,
+      "observation_url": "https://www.inaturalist.org/observations/255781449",
+      "observed_on": "1998-05-24",
+      "place_guess": "Figueira da Foz, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "arctotheca-calendula_01_inat-458457218.jpg"
+    },
+    {
+      "photo_id": 220306262,
+      "license": "cc-by",
+      "attribution": "(c) Thomas Mesaglio, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220306262/large.jpeg",
+      "observation_id": 129622288,
+      "observation_url": "https://www.inaturalist.org/observations/129622288",
+      "observed_on": "2022-07-15",
+      "place_guess": "Ross Graham Lookout and surrounds, Kalbarri NP, Western Australia",
+      "user_login": "thebeachcomber",
+      "filename": "arctotheca-calendula_02_inat-220306262.jpeg"
+    },
+    {
+      "photo_id": 404150259,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/404150259/large.jpeg",
+      "observation_id": 227795711,
+      "observation_url": "https://www.inaturalist.org/observations/227795711",
+      "observed_on": "2024-07-07",
+      "place_guess": "Alcabre, Vigo, Cangas, Pontevedra, Spain",
+      "user_login": "bobwardell",
+      "filename": "arctotheca-calendula_03_inat-404150259.jpeg"
+    },
+    {
+      "photo_id": 440550437,
+      "license": "cc-by",
+      "attribution": "(c) Hilary Rose Dawson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/440550437/large.jpeg",
+      "observation_id": 246741299,
+      "observation_url": "https://www.inaturalist.org/observations/246741299",
+      "observed_on": "2024-10-11",
+      "place_guess": "Bluebell St, O'Connor, ACT, AU",
+      "user_login": "rosawoodsii",
+      "filename": "arctotheca-calendula_04_inat-440550437.jpeg"
+    },
+    {
+      "photo_id": 327278629,
+      "license": "cc-by",
+      "attribution": "(c) Pieter Huybrechts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327278629/large.jpeg",
+      "observation_id": 187177170,
+      "observation_url": "https://www.inaturalist.org/observations/187177170",
+      "observed_on": "2023-10-11",
+      "place_guess": "Port Arthur TAS 7182, Australia",
+      "user_login": "pieterhuy",
+      "filename": "arctotheca-calendula_05_inat-327278629.jpeg"
+    }
+  ]
+}

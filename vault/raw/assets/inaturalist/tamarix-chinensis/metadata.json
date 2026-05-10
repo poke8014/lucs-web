@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Tamarix chinensis",
+  "taxon_id": 1560974,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 117931700,
+      "license": "cc-by",
+      "attribution": "(c) CK2AZ, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117931700/large.jpg",
+      "observation_id": 72342013,
+      "observation_url": "https://www.inaturalist.org/observations/72342013",
+      "observed_on": "2021-03-25",
+      "place_guess": "Lake Mead National Recreation Area, Boulder City, NV, US",
+      "user_login": "ck2az",
+      "filename": "tamarix-chinensis_01_inat-117931700.jpg"
+    },
+    {
+      "photo_id": 10360689,
+      "license": "cc-by",
+      "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10360689/large.jpg",
+      "observation_id": 7863951,
+      "observation_url": "https://www.inaturalist.org/observations/7863951",
+      "observed_on": "2017-09-10",
+      "place_guess": "Anza-Borrego Desert State Park, Borrego Springs, CA, US",
+      "user_login": "thunefeld",
+      "filename": "tamarix-chinensis_02_inat-10360689.jpg"
+    },
+    {
+      "photo_id": 87045601,
+      "license": "cc-by",
+      "attribution": "(c) johnyochum, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87045601/large.jpeg",
+      "observation_id": 54696038,
+      "observation_url": "https://www.inaturalist.org/observations/54696038",
+      "observed_on": "2009-03-31",
+      "place_guess": "Bell County, TX, USA",
+      "user_login": "johnyochum",
+      "filename": "tamarix-chinensis_03_inat-87045601.jpeg"
+    },
+    {
+      "photo_id": 275128359,
+      "license": "cc-by",
+      "attribution": "(c) \u041c\u0430\u0440\u0438\u043d\u0430 \u0421\u0430\u0434\u044b\u043a\u043e\u0432\u0430, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275128359/large.jpeg",
+      "observation_id": 159253144,
+      "observation_url": "https://www.inaturalist.org/observations/159253144",
+      "observed_on": "2023-04-30",
+      "place_guess": "\u0427\u0435\u0440\u043d\u043e\u0437\u0435\u043c\u0435\u043b\u044c\u0441\u043a\u0438\u0439 \u0440-\u043d, \u0420\u0435\u0441\u043f. \u041a\u0430\u043b\u043c\u044b\u043a\u0438\u044f, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "marina_sad",
+      "filename": "tamarix-chinensis_04_inat-275128359.jpeg"
+    },
+    {
+      "photo_id": 61956297,
+      "license": "cc-by",
+      "attribution": "(c) Bill Levine, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61956297/large.jpeg",
+      "observation_id": 39048142,
+      "observation_url": "https://www.inaturalist.org/observations/39048142",
+      "observed_on": "2020-02-21",
+      "place_guess": "Los Cabos, Baja California Sur, Mexico",
+      "user_login": "blevine",
+      "filename": "tamarix-chinensis_05_inat-61956297.jpeg"
+    }
+  ]
+}

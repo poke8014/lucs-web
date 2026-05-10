@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Dipsacus fullonum",
+  "taxon_id": 56002,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 355923589,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355923589/large.jpeg",
+      "observation_id": 201612584,
+      "observation_url": "https://www.inaturalist.org/observations/201612584",
+      "observed_on": "2024-03-07",
+      "place_guess": "Washougal, WA 98671, USA",
+      "user_login": "littlelegofan",
+      "filename": "dipsacus-fullonum_01_inat-355923589.jpeg"
+    },
+    {
+      "photo_id": 435803337,
+      "license": "cc-by",
+      "attribution": "(c) Rafael Medina, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435803337/large.jpeg",
+      "observation_id": 244322996,
+      "observation_url": "https://www.inaturalist.org/observations/244322996",
+      "observed_on": "2024-09-27",
+      "place_guess": "24718 Astorga, Le\u00f3n, Espa\u00f1a",
+      "user_login": "rmedina",
+      "filename": "dipsacus-fullonum_02_inat-435803337.jpeg"
+    },
+    {
+      "photo_id": 239752832,
+      "license": "cc-by",
+      "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/239752832/large.jpeg",
+      "observation_id": 140095834,
+      "observation_url": "https://www.inaturalist.org/observations/140095834",
+      "observed_on": "2022-10-26",
+      "place_guess": "Provincia di Ancona, Italia",
+      "user_login": "gianni_del_bufalo",
+      "filename": "dipsacus-fullonum_03_inat-239752832.jpeg"
+    },
+    {
+      "photo_id": 238499059,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/238499059/large.jpeg",
+      "observation_id": 139442338,
+      "observation_url": "https://www.inaturalist.org/observations/139442338",
+      "observed_on": "2022-10-20",
+      "place_guess": "Ballenstedt, Deutschland",
+      "user_login": "amigolimax",
+      "filename": "dipsacus-fullonum_04_inat-238499059.jpeg"
+    },
+    {
+      "photo_id": 604466210,
+      "license": "cc-by",
+      "attribution": "(c) Nick Butcher, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/604466210/large.jpg",
+      "observation_id": 333000242,
+      "observation_url": "https://www.inaturalist.org/observations/333000242",
+      "observed_on": "2026-01-01",
+      "place_guess": "Clanage Road, Bristol, England, GB",
+      "user_login": "nick37158",
+      "filename": "dipsacus-fullonum_05_inat-604466210.jpg"
+    }
+  ]
+}

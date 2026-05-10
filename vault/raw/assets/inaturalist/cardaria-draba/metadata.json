@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Lepidium draba",
+  "taxon_id": 63352,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 75414030,
+      "license": "cc-by",
+      "attribution": "(c) euanmck, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75414030/large.jpeg",
+      "observation_id": 47548133,
+      "observation_url": "https://www.inaturalist.org/observations/47548133",
+      "observed_on": "2020-05-27",
+      "place_guess": "Village Hall, Grundisburgh, Woodbridge IP13 6TJ, UK",
+      "user_login": "euanmck",
+      "filename": "cardaria-draba_01_inat-75414030.jpeg"
+    },
+    {
+      "photo_id": 17017121,
+      "license": "cc-by",
+      "attribution": "(c) Conrad Altmann, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17017121/large.jpg",
+      "observation_id": 11888058,
+      "observation_url": "https://www.inaturalist.org/observations/11888058",
+      "observed_on": "2018-04-30",
+      "place_guess": "Cluj, , Cluj, RO",
+      "user_login": "conradaltmann",
+      "filename": "cardaria-draba_02_inat-17017121.jpg"
+    },
+    {
+      "photo_id": 196322773,
+      "license": "cc-by",
+      "attribution": "(c) Andre Hosper, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196322773/large.jpg",
+      "observation_id": 116311465,
+      "observation_url": "https://www.inaturalist.org/observations/116311465",
+      "observed_on": "2022-05-09",
+      "place_guess": "Lassithihoogvlakte, Oropedio Lasithiou, Lasithi, GR",
+      "user_login": "ahospers",
+      "filename": "cardaria-draba_03_inat-196322773.jpg"
+    },
+    {
+      "photo_id": 484880660,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484880660/large.jpeg",
+      "observation_id": 269662489,
+      "observation_url": "https://www.inaturalist.org/observations/269662489",
+      "observed_on": "2025-04-10",
+      "place_guess": "\u03a4\u03bf\u03c0\u03b9\u03ba\u03ae \u039a\u03bf\u03b9\u03bd\u03cc\u03c4\u03b7\u03c4\u03b1 \u0391\u03b3\u03af\u03bf\u03c5 \u039c\u03ac\u03bc\u03b1\u03bd\u03c4\u03bf\u03c2, \u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+      "user_login": "athan40170",
+      "filename": "cardaria-draba_04_inat-484880660.jpeg"
+    },
+    {
+      "photo_id": 75686839,
+      "license": "cc-by",
+      "attribution": "(c) Oleg Kosterin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75686839/large.jpg",
+      "observation_id": 47713334,
+      "observation_url": "https://www.inaturalist.org/observations/47713334",
+      "observed_on": "2020-05-24",
+      "place_guess": "Russia, Novosibirsk Province, Iskitim District, the railroad at the 67 km station",
+      "user_login": "oleg_kosterin",
+      "filename": "cardaria-draba_05_inat-75686839.jpg"
+    }
+  ]
+}

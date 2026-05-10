@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Bromus madritensis ssp. rubens",
+  "taxon_id": 59210,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 33902272,
+      "license": "cc-by",
+      "attribution": "(c) Andre Hosper, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33902272/large.jpg",
+      "observation_id": 21881885,
+      "observation_url": "https://www.inaturalist.org/observations/21881885",
+      "observed_on": "2019-04-01",
+      "place_guess": "8700, Olh\u00e3o, Faro, PT",
+      "user_login": "ahospers",
+      "filename": "bromus-madritensis-ssp-rubens_01_inat-33902272.jpg"
+    },
+    {
+      "photo_id": 181655403,
+      "license": "cc-by",
+      "attribution": "(c) Eric Knight, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181655403/large.jpeg",
+      "observation_id": 107949775,
+      "observation_url": "https://www.inaturalist.org/observations/107949775",
+      "observed_on": "2022-03-04",
+      "place_guess": "DC Ranch, Scottsdale, AZ 85255, USA",
+      "user_login": "knightericm",
+      "filename": "bromus-madritensis-ssp-rubens_02_inat-181655403.jpeg"
+    },
+    {
+      "photo_id": 6768765,
+      "license": "cc-by",
+      "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6768765/large.jpg",
+      "observation_id": 5493529,
+      "observation_url": "https://www.inaturalist.org/observations/5493529",
+      "observed_on": "2017-03-28",
+      "place_guess": "Anza-Borrego Desert State Park, Borrego Springs, CA, US",
+      "user_login": "thunefeld",
+      "filename": "bromus-madritensis-ssp-rubens_03_inat-6768765.jpg"
+    },
+    {
+      "photo_id": 33902301,
+      "license": "cc-by",
+      "attribution": "(c) Andre Hosper, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33902301/large.jpg",
+      "observation_id": 21881885,
+      "observation_url": "https://www.inaturalist.org/observations/21881885",
+      "observed_on": "2019-04-01",
+      "place_guess": "8700, Olh\u00e3o, Faro, PT",
+      "user_login": "ahospers",
+      "filename": "bromus-madritensis-ssp-rubens_04_inat-33902301.jpg"
+    },
+    {
+      "photo_id": 181655445,
+      "license": "cc-by",
+      "attribution": "(c) Eric Knight, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181655445/large.jpeg",
+      "observation_id": 107949775,
+      "observation_url": "https://www.inaturalist.org/observations/107949775",
+      "observed_on": "2022-03-04",
+      "place_guess": "DC Ranch, Scottsdale, AZ 85255, USA",
+      "user_login": "knightericm",
+      "filename": "bromus-madritensis-ssp-rubens_05_inat-181655445.jpeg"
+    }
+  ]
+}

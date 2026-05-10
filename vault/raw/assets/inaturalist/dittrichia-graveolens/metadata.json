@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Dittrichia graveolens",
+  "taxon_id": 58822,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 566883407,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566883407/large.jpg",
+      "observation_id": 313889339,
+      "observation_url": "https://www.inaturalist.org/observations/313889339",
+      "observed_on": "2025-09-14",
+      "place_guess": "South Side, Scranton, PA 18505, USA",
+      "user_login": "matthias55",
+      "filename": "dittrichia-graveolens_01_inat-566883407.jpg"
+    },
+    {
+      "photo_id": 26266747,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26266747/large.jpeg",
+      "observation_id": 17306783,
+      "observation_url": "https://www.inaturalist.org/observations/17306783",
+      "observed_on": "2018-10-07",
+      "place_guess": "Marin Municipal Water District Watershed, Marin County, US-CA, US",
+      "user_login": "rockybajada",
+      "filename": "dittrichia-graveolens_02_inat-26266747.jpeg"
+    },
+    {
+      "photo_id": 26519934,
+      "license": "cc-by",
+      "attribution": "(c) Andre Hosper, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26519934/large.jpg",
+      "observation_id": 17446117,
+      "observation_url": "https://www.inaturalist.org/observations/17446117",
+      "observed_on": "2018-10-12",
+      "place_guess": "Landgoed Schaarsbergen, Arnhem, Gelderland, NL",
+      "user_login": "ahospers",
+      "filename": "dittrichia-graveolens_03_inat-26519934.jpg"
+    },
+    {
+      "photo_id": 33164834,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33164834/large.jpeg",
+      "observation_id": 21436036,
+      "observation_url": "https://www.inaturalist.org/observations/21436036",
+      "observed_on": "2019-03-20",
+      "place_guess": "Brushy Peak Regional Preserve, Alameda County, US-CA, US",
+      "user_login": "kueda",
+      "filename": "dittrichia-graveolens_04_inat-33164834.jpeg"
+    },
+    {
+      "photo_id": 430785535,
+      "license": "cc-by",
+      "attribution": "(c) Amelia Tauber, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/430785535/large.jpeg",
+      "observation_id": 241694259,
+      "observation_url": "https://www.inaturalist.org/observations/241694259",
+      "observed_on": "2024-09-13",
+      "place_guess": "East City, Sacramento, CA, US",
+      "user_login": "antrozousamelia",
+      "filename": "dittrichia-graveolens_05_inat-430785535.jpeg"
+    }
+  ]
+}

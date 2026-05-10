@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Isatis tinctoria",
+  "taxon_id": 77509,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 19337538,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19337538/large.jpg",
+      "observation_id": 13222215,
+      "observation_url": "https://www.inaturalist.org/observations/13222215",
+      "observed_on": "2018-06-07",
+      "place_guess": "Erindale Park, Mississauga, ON, CA",
+      "user_login": "reuvenm",
+      "filename": "isatis-tinctoria_01_inat-19337538.jpg"
+    },
+    {
+      "photo_id": 12742970,
+      "license": "cc-by",
+      "attribution": "(c) aroche, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/12742970/large.jpg",
+      "observation_id": 9381472,
+      "observation_url": "https://www.inaturalist.org/observations/9381472",
+      "observed_on": "2008-05-02",
+      "place_guess": "53424 Remagen, Allemagne",
+      "user_login": "aroche",
+      "filename": "isatis-tinctoria_02_inat-12742970.jpg"
+    },
+    {
+      "photo_id": 278908849,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278908849/large.jpg",
+      "observation_id": 161360848,
+      "observation_url": "https://www.inaturalist.org/observations/161360848",
+      "observed_on": "2023-05-01",
+      "place_guess": "Zerkten, Marrakesh-Safi, MA",
+      "user_login": "jeanpaulboerekamps",
+      "filename": "isatis-tinctoria_03_inat-278908849.jpg"
+    },
+    {
+      "photo_id": 279325752,
+      "license": "cc-by",
+      "attribution": "(c) Wolfgang Jauch, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279325752/large.jpeg",
+      "observation_id": 161593079,
+      "observation_url": "https://www.inaturalist.org/observations/161593079",
+      "observed_on": "2023-05-14",
+      "place_guess": "88471 Laupheim, Deutschland",
+      "user_login": "epsilon",
+      "filename": "isatis-tinctoria_04_inat-279325752.jpeg"
+    },
+    {
+      "photo_id": 508433656,
+      "license": "cc-by",
+      "attribution": "(c) Tony KM, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/508433656/large.jpg",
+      "observation_id": 281475333,
+      "observation_url": "https://www.inaturalist.org/observations/281475333",
+      "observed_on": "2025-04-24",
+      "place_guess": "Riesling-Weinstra\u00dfe, Trier, Rheinland-Pfalz, DE",
+      "user_login": "t0nb0",
+      "filename": "isatis-tinctoria_05_inat-508433656.jpg"
+    }
+  ]
+}

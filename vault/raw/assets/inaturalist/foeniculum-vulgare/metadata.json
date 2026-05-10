@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Foeniculum vulgare",
+  "taxon_id": 53052,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 46278367,
+      "license": "cc-by",
+      "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46278367/large.jpg",
+      "observation_id": 29647273,
+      "observation_url": "https://www.inaturalist.org/observations/29647273",
+      "observed_on": "2019-07-26",
+      "place_guess": "White Point Nature Preserve & Education Center, Los Angeles, CA, US",
+      "user_login": "redrovertracy",
+      "filename": "foeniculum-vulgare_01_inat-46278367.jpg"
+    },
+    {
+      "photo_id": 347124012,
+      "license": "cc-by",
+      "attribution": "(c) Rosalie Lawrence, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/347124012/large.jpeg",
+      "observation_id": 197131583,
+      "observation_url": "https://www.inaturalist.org/observations/197131583",
+      "observed_on": "2024-01-20",
+      "place_guess": "Stop 14B West Beach Rd - South side, West Beach SA 5024, Australia",
+      "user_login": "orchidrose",
+      "filename": "foeniculum-vulgare_02_inat-347124012.jpeg"
+    },
+    {
+      "photo_id": 74707191,
+      "license": "cc-by",
+      "attribution": "(c) Dave Richardson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74707191/large.jpg",
+      "observation_id": 47105551,
+      "observation_url": "https://www.inaturalist.org/observations/47105551",
+      "observed_on": "2020-05-24",
+      "place_guess": "Nooitgedacht Avenue, Stellenbosch, WC, ZA",
+      "user_login": "daverichardson",
+      "filename": "foeniculum-vulgare_03_inat-74707191.jpg"
+    },
+    {
+      "photo_id": 216910898,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216910898/large.jpeg",
+      "observation_id": 127748017,
+      "observation_url": "https://www.inaturalist.org/observations/127748017",
+      "observed_on": "2022-07-24",
+      "place_guess": "Corona, CA 92880, USA",
+      "user_login": "vreinkymov",
+      "filename": "foeniculum-vulgare_04_inat-216910898.jpeg"
+    },
+    {
+      "photo_id": 340076640,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340076640/large.jpeg",
+      "observation_id": 193586357,
+      "observation_url": "https://www.inaturalist.org/observations/193586357",
+      "observed_on": "2023-12-09",
+      "place_guess": "Overberg, Western Cape, South Africa",
+      "user_login": "shauns",
+      "filename": "foeniculum-vulgare_05_inat-340076640.jpeg"
+    }
+  ]
+}

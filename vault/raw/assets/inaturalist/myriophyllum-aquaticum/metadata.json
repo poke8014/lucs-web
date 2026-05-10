@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Myriophyllum aquaticum",
+  "taxon_id": 60202,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 472606425,
+      "license": "cc-by",
+      "attribution": "(c) WATANABE Hitoshi \u6e21\u8fba\u4ec1, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472606425/large.jpeg",
+      "observation_id": 263107810,
+      "observation_url": "https://www.inaturalist.org/observations/263107810",
+      "observed_on": "2025-02-26",
+      "place_guess": "\u65e5\u672c \u3012331-0052",
+      "user_login": "tbc_watanabe",
+      "filename": "myriophyllum-aquaticum_01_inat-472606425.jpeg"
+    },
+    {
+      "photo_id": 592853044,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/592853044/large.jpg",
+      "observation_id": 327259315,
+      "observation_url": "https://www.inaturalist.org/observations/327259315",
+      "observed_on": "2025-11-16",
+      "place_guess": "Surrey, BC, Canada",
+      "user_login": "quillipede",
+      "filename": "myriophyllum-aquaticum_02_inat-592853044.jpg"
+    },
+    {
+      "photo_id": 296571126,
+      "license": "cc-by",
+      "attribution": "(c) Dominic, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/296571126/large.jpeg",
+      "observation_id": 170951441,
+      "observation_url": "https://www.inaturalist.org/observations/170951441",
+      "observed_on": "2023-07-02",
+      "place_guess": "Bellevue, Nashville, TN, USA",
+      "user_login": "dominic",
+      "filename": "myriophyllum-aquaticum_03_inat-296571126.jpeg"
+    },
+    {
+      "photo_id": 170983578,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170983578/large.jpeg",
+      "observation_id": 102304303,
+      "observation_url": "https://www.inaturalist.org/observations/102304303",
+      "observed_on": "2021-11-29",
+      "place_guess": "Hayden, AL 35079, USA",
+      "user_login": "kzoebel",
+      "filename": "myriophyllum-aquaticum_04_inat-170983578.jpeg"
+    },
+    {
+      "photo_id": 177023609,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/177023609/large.jpeg",
+      "observation_id": 105497929,
+      "observation_url": "https://www.inaturalist.org/observations/105497929",
+      "observed_on": "2021-11-27",
+      "place_guess": "\u53f0\u7063\u9ad8\u96c4\u5e02\u9f13\u5c71\u5340\u9ad8\u96c4",
+      "user_login": "leaf0605",
+      "filename": "myriophyllum-aquaticum_05_inat-177023609.jpeg"
+    }
+  ]
+}

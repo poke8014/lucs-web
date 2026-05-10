@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Mentha pulegium",
+  "taxon_id": 57116,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 607923121,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607923121/large.jpg",
+      "observation_id": 334725457,
+      "observation_url": "https://www.inaturalist.org/observations/334725457",
+      "observed_on": "2016-08-20",
+      "place_guess": "Tent\u00fagal, Montemor-o-Velho, 3140, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "mentha-pulegium_01_inat-607923121.jpg"
+    },
+    {
+      "photo_id": 2336851,
+      "license": "cc-by",
+      "attribution": "(c) botanygirl, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2336851/large.JPG",
+      "observation_id": 1913590,
+      "observation_url": "https://www.inaturalist.org/observations/1913590",
+      "observed_on": "2015-08-28",
+      "place_guess": "Stan Sayres Memorial Park, Colombia City, WA",
+      "user_login": "botanygirl",
+      "filename": "mentha-pulegium_02_inat-2336851.JPG"
+    },
+    {
+      "photo_id": 286083207,
+      "license": "cc-by",
+      "attribution": "(c) Denis Bastianelli, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286083207/large.jpeg",
+      "observation_id": 165276546,
+      "observation_url": "https://www.inaturalist.org/observations/165276546",
+      "observed_on": "2023-06-03",
+      "place_guess": "34270 Les Matelles, France",
+      "user_login": "dbastia",
+      "filename": "mentha-pulegium_03_inat-286083207.jpeg"
+    },
+    {
+      "photo_id": 318031781,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/318031781/large.jpeg",
+      "observation_id": 182407512,
+      "observation_url": "https://www.inaturalist.org/observations/182407512",
+      "observed_on": "2023-08-25",
+      "place_guess": "Vancouver, WA 98660, USA",
+      "user_login": "littlelegofan",
+      "filename": "mentha-pulegium_04_inat-318031781.jpeg"
+    },
+    {
+      "photo_id": 454483370,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454483370/large.jpg",
+      "observation_id": 253786499,
+      "observation_url": "https://www.inaturalist.org/observations/253786499",
+      "observed_on": "2024-09-08",
+      "place_guess": "Pullman, WA 99163, USA",
+      "user_login": "walterfertig",
+      "filename": "mentha-pulegium_05_inat-454483370.jpg"
+    }
+  ]
+}

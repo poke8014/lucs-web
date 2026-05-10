@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Carpobrotus edulis",
+  "taxon_id": 49322,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 257990822,
+      "license": "cc-by",
+      "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257990822/large.jpg",
+      "observation_id": 149696878,
+      "observation_url": "https://www.inaturalist.org/observations/149696878",
+      "observed_on": "2023-02-25",
+      "place_guess": "Frederick-Schoonover Park, Marina, CA, US",
+      "user_login": "hkibak",
+      "filename": "carpobrotus-edulis_01_inat-257990822.jpg"
+    },
+    {
+      "photo_id": 465365724,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465365724/large.jpg",
+      "observation_id": 259263668,
+      "observation_url": "https://www.inaturalist.org/observations/259263668",
+      "observed_on": "1998-05-24",
+      "place_guess": "Figueira da Foz, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "carpobrotus-edulis_02_inat-465365724.jpg"
+    },
+    {
+      "photo_id": 1322080,
+      "license": "cc-by",
+      "attribution": "(c) 101595408250610106310, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1322080/large.JPG",
+      "observation_id": 1054099,
+      "observation_url": "https://www.inaturalist.org/observations/1054099",
+      "observed_on": "2014-11-02",
+      "place_guess": "Dockweiler State Beach, Los Angeles, CA, US",
+      "user_login": "justin2",
+      "filename": "carpobrotus-edulis_03_inat-1322080.JPG"
+    },
+    {
+      "photo_id": 558463452,
+      "license": "cc-by",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558463452/large.jpg",
+      "observation_id": 309477438,
+      "observation_url": "https://www.inaturalist.org/observations/309477438",
+      "observed_on": "2025-08-27",
+      "place_guess": "Vagos, Aveiro, Portugal",
+      "user_login": "duarte",
+      "filename": "carpobrotus-edulis_04_inat-558463452.jpg"
+    },
+    {
+      "photo_id": 162246886,
+      "license": "cc-by",
+      "attribution": "(c) Michael Andresek, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/162246886/large.jpeg",
+      "observation_id": 97546013,
+      "observation_url": "https://www.inaturalist.org/observations/97546013",
+      "observed_on": "2021-06-23",
+      "place_guess": "S\u00fcdliche \u00c4g\u00e4is, Griechenland",
+      "user_login": "michael_baden",
+      "filename": "carpobrotus-edulis_05_inat-162246886.jpeg"
+    }
+  ]
+}

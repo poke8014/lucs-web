@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Hedera canariensis",
+  "taxon_id": 64113,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 124426681,
+      "license": "cc-by",
+      "attribution": "(c) Elliot Greiner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124426681/large.jpg",
+      "observation_id": 76046161,
+      "observation_url": "https://www.inaturalist.org/observations/76046161",
+      "observed_on": "2021-04-30",
+      "place_guess": "34th St, Oakland, CA, US",
+      "user_login": "elliotgreiner",
+      "filename": "hedera-canariensis_01_inat-124426681.jpg"
+    },
+    {
+      "photo_id": 76838499,
+      "license": "cc-by",
+      "attribution": "(c) Dave Richardson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76838499/large.jpg",
+      "observation_id": 48425190,
+      "observation_url": "https://www.inaturalist.org/observations/48425190",
+      "observed_on": "2020-06-04",
+      "place_guess": "Dorp Street, Stellenbosch, WC, ZA",
+      "user_login": "daverichardson",
+      "filename": "hedera-canariensis_02_inat-76838499.jpg"
+    },
+    {
+      "photo_id": 358047469,
+      "license": "cc-by",
+      "attribution": "(c) Amelie Jorns, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/358047469/large.jpeg",
+      "observation_id": 202632385,
+      "observation_url": "https://www.inaturalist.org/observations/202632385",
+      "observed_on": "2024-03-16",
+      "place_guess": "Los Batanes, 38294, Santa Cruz de Tenerife, Spanien",
+      "user_login": "amselie",
+      "filename": "hedera-canariensis_03_inat-358047469.jpeg"
+    },
+    {
+      "photo_id": 338785838,
+      "license": "cc-by",
+      "attribution": "(c) Ben Jobson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338785838/large.jpeg",
+      "observation_id": 192921096,
+      "observation_url": "https://www.inaturalist.org/observations/192921096",
+      "observed_on": "2023-12-03",
+      "place_guess": "38415 Los Realejos, Santa Cruz de Tenerife, Spain",
+      "user_login": "benjobson",
+      "filename": "hedera-canariensis_04_inat-338785838.jpeg"
+    },
+    {
+      "photo_id": 5994450,
+      "license": "cc-by",
+      "attribution": "(c) Murray Dawson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5994450/large.jpeg",
+      "observation_id": 4921369,
+      "observation_url": "https://www.inaturalist.org/observations/4921369",
+      "observed_on": "2016-10-11",
+      "place_guess": "Jackson Bay 7886, New Zealand",
+      "user_login": "murray_dawson",
+      "filename": "hedera-canariensis_05_inat-5994450.jpeg"
+    }
+  ]
+}

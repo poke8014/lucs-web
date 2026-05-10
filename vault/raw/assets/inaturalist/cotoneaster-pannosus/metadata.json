@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cotoneaster pannosus",
+  "taxon_id": 53375,
+  "photos_taxon_id": 53375,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 126580971,
+      "license": "cc-by",
+      "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126580971/large.jpg",
+      "observation_id": 77400505,
+      "observation_url": "https://www.inaturalist.org/observations/77400505",
+      "observed_on": "2021-05-04",
+      "place_guess": "Santa Catalina Island, CA, US",
+      "user_login": "sulavanderplank",
+      "filename": "cotoneaster-pannosus_01_inat-126580971.jpg"
+    },
+    {
+      "photo_id": 126581005,
+      "license": "cc-by",
+      "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126581005/large.jpg",
+      "observation_id": 77400505,
+      "observation_url": "https://www.inaturalist.org/observations/77400505",
+      "observed_on": "2021-05-04",
+      "place_guess": "Santa Catalina Island, CA, US",
+      "user_login": "sulavanderplank",
+      "filename": "cotoneaster-pannosus_02_inat-126581005.jpg"
+    },
+    {
+      "photo_id": 126581039,
+      "license": "cc-by",
+      "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126581039/large.jpg",
+      "observation_id": 77400505,
+      "observation_url": "https://www.inaturalist.org/observations/77400505",
+      "observed_on": "2021-05-04",
+      "place_guess": "Santa Catalina Island, CA, US",
+      "user_login": "sulavanderplank",
+      "filename": "cotoneaster-pannosus_03_inat-126581039.jpg"
+    },
+    {
+      "photo_id": 137948741,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/137948741/large.jpg",
+      "observation_id": 83963422,
+      "observation_url": "https://www.inaturalist.org/observations/83963422",
+      "observed_on": "2021-06-21",
+      "place_guess": "Sant Mateu de Bages, Barcelona, ES",
+      "user_login": "peresol",
+      "filename": "cotoneaster-pannosus_04_inat-137948741.jpg"
+    },
+    {
+      "photo_id": 376082132,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376082132/large.jpeg",
+      "observation_id": 212813776,
+      "observation_url": "https://www.inaturalist.org/observations/212813776",
+      "observed_on": "2024-05-02",
+      "place_guess": "Westbourne Park SA 5041, Australia",
+      "user_login": "insiderelic",
+      "filename": "cotoneaster-pannosus_05_inat-376082132.jpeg"
+    }
+  ]
+}

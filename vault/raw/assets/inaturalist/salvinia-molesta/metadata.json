@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Salvinia molesta",
+  "taxon_id": 78976,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 15595408,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15595408/large.jpeg",
+      "observation_id": 11049385,
+      "observation_url": "https://www.inaturalist.org/observations/11049385",
+      "observed_on": "2018-03-31",
+      "place_guess": "Kat River Circuit South Cape DC, South Africa",
+      "user_login": "outramps-tanniedi",
+      "filename": "salvinia-molesta_01_inat-15595408.jpeg"
+    },
+    {
+      "photo_id": 481248881,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481248881/large.jpg",
+      "observation_id": 267774094,
+      "observation_url": "https://www.inaturalist.org/observations/267774094",
+      "observed_on": "2025-03-30",
+      "place_guess": "Brisbane QLD, Australia",
+      "user_login": "rich_fuller",
+      "filename": "salvinia-molesta_02_inat-481248881.jpg"
+    },
+    {
+      "photo_id": 373541794,
+      "license": "cc-by",
+      "attribution": "(c) Patr\u00edcia Mees, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373541794/large.jpeg",
+      "observation_id": 211264052,
+      "observation_url": "https://www.inaturalist.org/observations/211264052",
+      "observed_on": "2024-04-28",
+      "place_guess": "Timb\u00f3 - SC, Brasil",
+      "user_login": "patricia_mees",
+      "filename": "salvinia-molesta_03_inat-373541794.jpeg"
+    },
+    {
+      "photo_id": 39028206,
+      "license": "cc-by",
+      "attribution": "(c) Will McFarland, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39028206/large.jpeg",
+      "observation_id": 25211848,
+      "observation_url": "https://www.inaturalist.org/observations/25211848",
+      "observed_on": "2019-05-15",
+      "place_guess": "29468 Paquet Rd, Lacombe, LA 70445, USA",
+      "user_login": "williammcfarland",
+      "filename": "salvinia-molesta_04_inat-39028206.jpeg"
+    },
+    {
+      "photo_id": 66244609,
+      "license": "cc-by",
+      "attribution": "(c) Jody Shugart, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66244609/large.jpeg",
+      "observation_id": 41753279,
+      "observation_url": "https://www.inaturalist.org/observations/41753279",
+      "observed_on": "2020-04-05",
+      "place_guess": "Lacombe, LA 70445, USA",
+      "user_login": "terrapinjoe",
+      "filename": "salvinia-molesta_05_inat-66244609.jpeg"
+    }
+  ]
+}

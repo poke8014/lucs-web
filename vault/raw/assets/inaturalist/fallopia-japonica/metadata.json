@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Fallopia japonica",
+  "taxon_id": 914922,
+  "photos_taxon_id": 914922,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 159952609,
+      "license": "cc-by",
+      "attribution": "(c) Tyler Ekholm, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159952609/large.jpeg",
+      "observation_id": 96293827,
+      "observation_url": "https://www.inaturalist.org/observations/96293827",
+      "observed_on": "2021-09-26",
+      "place_guess": "Bristol, RI 02809, USA",
+      "user_login": "chickenparmesan24",
+      "filename": "fallopia-japonica_01_inat-159952609.jpeg"
+    },
+    {
+      "photo_id": 2206539,
+      "license": "cc-by",
+      "attribution": "(c) naturalist charlie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2206539/large.jpg",
+      "observation_id": 1818747,
+      "observation_url": "https://www.inaturalist.org/observations/1818747",
+      "observed_on": "2015-07-28",
+      "place_guess": "Washington County, US-VT, US",
+      "user_login": "charlie",
+      "filename": "fallopia-japonica_02_inat-2206539.jpg"
+    },
+    {
+      "photo_id": 281726055,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/281726055/large.jpeg",
+      "observation_id": 162913738,
+      "observation_url": "https://www.inaturalist.org/observations/162913738",
+      "observed_on": "2023-05-20",
+      "place_guess": "First Hill, Seattle, WA, USA",
+      "user_login": "funnieanimals",
+      "filename": "fallopia-japonica_03_inat-281726055.jpeg"
+    },
+    {
+      "photo_id": 91694351,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Cahen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91694351/large.jpeg",
+      "observation_id": 57490888,
+      "observation_url": "https://www.inaturalist.org/observations/57490888",
+      "observed_on": "2020-08-24",
+      "place_guess": "Haringey, England, United Kingdom",
+      "user_login": "danielcahen",
+      "filename": "fallopia-japonica_04_inat-91694351.jpeg"
+    },
+    {
+      "photo_id": 282627011,
+      "license": "cc-by",
+      "attribution": "(c) Tom Pollard, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282627011/large.jpg",
+      "observation_id": 163408683,
+      "observation_url": "https://www.inaturalist.org/observations/163408683",
+      "observed_on": "2023-05-23",
+      "place_guess": "South Mountain Reservation, Millburn, NJ, US",
+      "user_login": "tpollard",
+      "filename": "fallopia-japonica_05_inat-282627011.jpg"
+    }
+  ]
+}

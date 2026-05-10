@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Limonium duriusculum",
+  "taxon_id": 77753,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 354689410,
+      "license": "cc-by",
+      "attribution": "(c) Bryce Johnson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/354689410/large.jpeg",
+      "observation_id": 200975231,
+      "observation_url": "https://www.inaturalist.org/observations/200975231",
+      "observed_on": "2024-03-01",
+      "place_guess": "Ocean Beach, San Diego, CA, USA",
+      "user_login": "bryce_john",
+      "filename": "limonium-duriusculum_01_inat-354689410.jpeg"
+    },
+    {
+      "photo_id": 453883824,
+      "license": "cc-by",
+      "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/453883824/large.jpeg",
+      "observation_id": 253482834,
+      "observation_url": "https://www.inaturalist.org/observations/253482834",
+      "observed_on": "2024-11-28",
+      "place_guess": "Corella, Newport Beach, CA, US",
+      "user_login": "salvmell",
+      "filename": "limonium-duriusculum_02_inat-453883824.jpeg"
+    },
+    {
+      "photo_id": 436200701,
+      "license": "cc-by",
+      "attribution": "(c) Augustin Soulard, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/436200701/large.jpg",
+      "observation_id": 244535732,
+      "observation_url": "https://www.inaturalist.org/observations/244535732",
+      "observed_on": "2024-09-28",
+      "place_guess": "13220 Ch\u00e2teauneuf-les-Martigues, France",
+      "user_login": "augustinsoulard",
+      "filename": "limonium-duriusculum_03_inat-436200701.jpg"
+    },
+    {
+      "photo_id": 41969374,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41969374/large.jpg",
+      "observation_id": 27000616,
+      "observation_url": "https://www.inaturalist.org/observations/27000616",
+      "observed_on": "2019-06-11",
+      "place_guess": "Carpinteria Salt Marsh Reserve, Carpinteria, CA, US",
+      "user_login": "serpophaga",
+      "filename": "limonium-duriusculum_04_inat-41969374.jpg"
+    },
+    {
+      "photo_id": 464062191,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464062191/large.jpg",
+      "observation_id": 258599671,
+      "observation_url": "https://www.inaturalist.org/observations/258599671",
+      "observed_on": "2025-01-15",
+      "place_guess": "Antonio Pkwy, Mission Viejo, CA, US",
+      "user_login": "jsriley1984",
+      "filename": "limonium-duriusculum_05_inat-464062191.jpg"
+    }
+  ]
+}

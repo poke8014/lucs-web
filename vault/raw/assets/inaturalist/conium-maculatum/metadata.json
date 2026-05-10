@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Conium maculatum",
+  "taxon_id": 52998,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 110667602,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110667602/large.jpg",
+      "observation_id": 68359341,
+      "observation_url": "https://www.inaturalist.org/observations/68359341",
+      "observed_on": "2021-01-19",
+      "place_guess": "Oakland, CA, USA",
+      "user_login": "alan_rockefeller",
+      "filename": "conium-maculatum_01_inat-110667602.jpg"
+    },
+    {
+      "photo_id": 39636139,
+      "license": "cc-by",
+      "attribution": "(c) Sandy Wolkenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39636139/large.jpg",
+      "observation_id": 25579621,
+      "observation_url": "https://www.inaturalist.org/observations/25579621",
+      "observed_on": "2019-05-22",
+      "place_guess": "80 Fycke Ln, Teaneck, NJ, US",
+      "user_login": "sadawolk",
+      "filename": "conium-maculatum_02_inat-39636139.jpg"
+    },
+    {
+      "photo_id": 30657064,
+      "license": "cc-by",
+      "attribution": "(c) \u042e\u0440\u0438\u0439 \u0414\u0430\u043d\u0438\u043b\u0435\u0432\u0441\u043a\u0438\u0439 (Yuriy Danilevsky), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30657064/large.jpg",
+      "observation_id": 19880546,
+      "observation_url": "https://www.inaturalist.org/observations/19880546",
+      "observed_on": "2017-06-26",
+      "place_guess": "\u0423\u0441\u0442\u044c-\u041b\u0430\u0431\u0438\u043d\u0441\u043a, \u041a\u0440\u0430\u0441\u043d\u043e\u0434\u0430\u0440\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "yuriydanilevsky",
+      "filename": "conium-maculatum_03_inat-30657064.jpg"
+    },
+    {
+      "photo_id": 134902257,
+      "license": "cc-by",
+      "attribution": "(c) Michelle W. \uff08\u937e\u5049\u744b\uff09, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134902257/large.jpeg",
+      "observation_id": 82205706,
+      "observation_url": "https://www.inaturalist.org/observations/82205706",
+      "observed_on": "2021-06-06",
+      "place_guess": "Cedar Park, TX, USA",
+      "user_login": "pufferchung",
+      "filename": "conium-maculatum_04_inat-134902257.jpeg"
+    },
+    {
+      "photo_id": 357544461,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/357544461/large.jpeg",
+      "observation_id": 202447808,
+      "observation_url": "https://www.inaturalist.org/observations/202447808",
+      "observed_on": "2024-03-14",
+      "place_guess": "Los Angeles, CA, USA",
+      "user_login": "dblanco",
+      "filename": "conium-maculatum_05_inat-357544461.jpeg"
+    }
+  ]
+}

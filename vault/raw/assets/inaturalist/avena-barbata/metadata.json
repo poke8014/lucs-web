@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Avena barbata",
+  "taxon_id": 52696,
+  "photos_taxon_id": 52696,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 636918778,
+      "license": "cc-by",
+      "attribution": "(c) Roberto Daniel Avila, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/636918778/large.jpg",
+      "observation_id": 349169950,
+      "observation_url": "https://www.inaturalist.org/observations/349169950",
+      "observed_on": "2026-04-11",
+      "place_guess": "Santa Monica Mountains National Recreation Area, Topanga, CA, US",
+      "user_login": "robertodesu",
+      "filename": "avena-barbata_01_inat-636918778.jpg"
+    },
+    {
+      "photo_id": 134415493,
+      "license": "cc-by",
+      "attribution": "(c) Amy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134415493/large.jpeg",
+      "observation_id": 81928985,
+      "observation_url": "https://www.inaturalist.org/observations/81928985",
+      "observed_on": "2021-06-06",
+      "place_guess": "Limestone-Whiting Wilderness Park, Orange, California, United States",
+      "user_login": "arboretum_amy",
+      "filename": "avena-barbata_02_inat-134415493.jpeg"
+    },
+    {
+      "photo_id": 16497226,
+      "license": "cc-by",
+      "attribution": "(c) Martin Purdy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16497226/large.jpg",
+      "observation_id": 11553497,
+      "observation_url": "https://www.inaturalist.org/observations/11553497",
+      "observed_on": "2018-04-27",
+      "place_guess": "San Clemente Island Underwater Range, , CA, US",
+      "user_login": "mdpurdy",
+      "filename": "avena-barbata_03_inat-16497226.jpg"
+    },
+    {
+      "photo_id": 132382479,
+      "license": "cc-by",
+      "attribution": "(c) Jeff, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132382479/large.jpg",
+      "observation_id": 80756633,
+      "observation_url": "https://www.inaturalist.org/observations/80756633",
+      "observed_on": "2021-05-26",
+      "place_guess": "Altadena, CA, USA",
+      "user_login": "jpmckibben",
+      "filename": "avena-barbata_04_inat-132382479.jpg"
+    },
+    {
+      "photo_id": 273045646,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273045646/large.jpg",
+      "observation_id": 157955319,
+      "observation_url": "https://www.inaturalist.org/observations/157955319",
+      "observed_on": "2023-04-29",
+      "place_guess": "Cook Ln, Dixon, CA, US",
+      "user_login": "serpophaga",
+      "filename": "avena-barbata_05_inat-273045646.jpg"
+    }
+  ]
+}

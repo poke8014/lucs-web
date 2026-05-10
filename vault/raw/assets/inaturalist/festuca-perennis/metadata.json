@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Festuca perennis",
+  "taxon_id": 52801,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 79134409,
+      "license": "cc-by",
+      "attribution": "(c) katunchik, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79134409/large.jpg",
+      "observation_id": 49842552,
+      "observation_url": "https://www.inaturalist.org/observations/49842552",
+      "observed_on": "2020-06-16",
+      "place_guess": "Southern Administrative Okrug, Moscow, Russia",
+      "user_login": "katya",
+      "filename": "festuca-perennis_01_inat-79134409.jpg"
+    },
+    {
+      "photo_id": 273899906,
+      "license": "cc-by",
+      "attribution": "(c) Alex Abair, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273899906/large.jpg",
+      "observation_id": 158487970,
+      "observation_url": "https://www.inaturalist.org/observations/158487970",
+      "observed_on": "2023-04-30",
+      "place_guess": "Gainesville, FL, USA",
+      "user_login": "alex_abair",
+      "filename": "festuca-perennis_02_inat-273899906.jpg"
+    },
+    {
+      "photo_id": 339277821,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/339277821/large.jpg",
+      "observation_id": 193162202,
+      "observation_url": "https://www.inaturalist.org/observations/193162202",
+      "observed_on": "2023-12-06",
+      "place_guess": "Wadeson Park Recreation Reserve, Hokitika, West Coast, NZ",
+      "user_login": "imnobeer",
+      "filename": "festuca-perennis_03_inat-339277821.jpg"
+    },
+    {
+      "photo_id": 334732435,
+      "license": "cc-by",
+      "attribution": "(c) Joe Dillon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/334732435/large.jpeg",
+      "observation_id": 190886728,
+      "observation_url": "https://www.inaturalist.org/observations/190886728",
+      "observed_on": "2023-11-13",
+      "place_guess": "Aro Valley, Wellington, New Zealand",
+      "user_login": "joedillon",
+      "filename": "festuca-perennis_04_inat-334732435.jpeg"
+    },
+    {
+      "photo_id": 226162954,
+      "license": "cc-by",
+      "attribution": "(c) \u0412\u0430\u043b\u0435\u0440\u0438\u044f \u041a\u043e\u0432\u0430\u043b\u0435\u0432\u0430, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226162954/large.jpeg",
+      "observation_id": 132830804,
+      "observation_url": "https://www.inaturalist.org/observations/132830804",
+      "observed_on": "2022-08-29",
+      "place_guess": "\u041f\u043b\u043e\u0442\u0438\u043d\u0430, \u0418\u0432\u0430\u043d\u043e\u0432\u043e, \u0418\u0432\u0430\u043d\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f, 153027",
+      "user_login": "valerkov",
+      "filename": "festuca-perennis_05_inat-226162954.jpeg"
+    }
+  ]
+}

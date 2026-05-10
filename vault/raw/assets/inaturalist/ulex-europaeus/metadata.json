@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Ulex europaeus",
+  "taxon_id": 51751,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 246484833,
+      "license": "cc-by",
+      "attribution": "(c) Murray Dawson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/246484833/large.jpeg",
+      "observation_id": 143696986,
+      "observation_url": "https://www.inaturalist.org/observations/143696986",
+      "observed_on": "2022-12-01",
+      "place_guess": "Mount Cargill, New Zealand",
+      "user_login": "murray_dawson",
+      "filename": "ulex-europaeus_01_inat-246484833.jpeg"
+    },
+    {
+      "photo_id": 275450371,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275450371/large.jpeg",
+      "observation_id": 159441639,
+      "observation_url": "https://www.inaturalist.org/observations/159441639",
+      "observed_on": "2023-04-30",
+      "place_guess": "Rimrose Valley Country Park, Glenwyllin Road, Waterloo, Merseyside, UK",
+      "user_login": "steve_mcwilliam",
+      "filename": "ulex-europaeus_02_inat-275450371.jpeg"
+    },
+    {
+      "photo_id": 448891851,
+      "license": "cc-by",
+      "attribution": "(c) Ross McCallum, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448891851/large.jpeg",
+      "observation_id": 250934359,
+      "observation_url": "https://www.inaturalist.org/observations/250934359",
+      "observed_on": "2024-11-04",
+      "place_guess": "South Croydon CR2, UK",
+      "user_login": "ross291",
+      "filename": "ulex-europaeus_03_inat-448891851.jpeg"
+    },
+    {
+      "photo_id": 23187125,
+      "license": "cc-by",
+      "attribution": "(c) B. Phalan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23187125/large.jpg",
+      "observation_id": 15455521,
+      "observation_url": "https://www.inaturalist.org/observations/15455521",
+      "observed_on": "2018-08-14",
+      "place_guess": "Bahana, Bahana, Co. Wicklow, IE",
+      "user_login": "deboas",
+      "filename": "ulex-europaeus_04_inat-23187125.jpg"
+    },
+    {
+      "photo_id": 577373313,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577373313/large.jpg",
+      "observation_id": 319407903,
+      "observation_url": "https://www.inaturalist.org/observations/319407903",
+      "observed_on": "2003-08-26",
+      "place_guess": "3880 Ovar, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "ulex-europaeus_05_inat-577373313.jpg"
+    }
+  ]
+}

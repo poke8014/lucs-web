@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Saccharum ravennae",
+  "taxon_id": 534935,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 234440350,
+      "license": "cc-by",
+      "attribution": "(c) Lyrae, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234440350/large.jpg",
+      "observation_id": 137288219,
+      "observation_url": "https://www.inaturalist.org/observations/137288219",
+      "observed_on": "2022-10-01",
+      "place_guess": "Meade, Kansas, United States",
+      "user_login": "lyrae",
+      "filename": "saccharum-ravennae_01_inat-234440350.jpg"
+    },
+    {
+      "photo_id": 1426527,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1426527/large.JPG",
+      "observation_id": 1134375,
+      "observation_url": "https://www.inaturalist.org/observations/1134375",
+      "observed_on": "2012-10-20",
+      "place_guess": "Tarrant County, US-TX, US",
+      "user_login": "sambiology",
+      "filename": "saccharum-ravennae_02_inat-1426527.JPG"
+    },
+    {
+      "photo_id": 234440377,
+      "license": "cc-by",
+      "attribution": "(c) Lyrae, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/234440377/large.jpg",
+      "observation_id": 137288219,
+      "observation_url": "https://www.inaturalist.org/observations/137288219",
+      "observed_on": "2022-10-01",
+      "place_guess": "Meade, Kansas, United States",
+      "user_login": "lyrae",
+      "filename": "saccharum-ravennae_03_inat-234440377.jpg"
+    },
+    {
+      "photo_id": 1426528,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1426528/large.JPG",
+      "observation_id": 1134375,
+      "observation_url": "https://www.inaturalist.org/observations/1134375",
+      "observed_on": "2012-10-20",
+      "place_guess": "Tarrant County, US-TX, US",
+      "user_login": "sambiology",
+      "filename": "saccharum-ravennae_04_inat-1426528.JPG"
+    },
+    {
+      "photo_id": 1426529,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1426529/large.JPG",
+      "observation_id": 1134375,
+      "observation_url": "https://www.inaturalist.org/observations/1134375",
+      "observed_on": "2012-10-20",
+      "place_guess": "Tarrant County, US-TX, US",
+      "user_login": "sambiology",
+      "filename": "saccharum-ravennae_05_inat-1426529.JPG"
+    }
+  ]
+}

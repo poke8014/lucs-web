@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Spartina densiflora",
+  "taxon_id": 772990,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 60506961,
+      "license": "cc-by",
+      "attribution": "(c) Florencia Grattarola, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60506961/large.jpeg",
+      "observation_id": 38101293,
+      "observation_url": "https://www.inaturalist.org/observations/38101293",
+      "observed_on": "2020-01-25",
+      "place_guess": "20303 Playa Verde, Maldonado Department, Uruguay",
+      "user_login": "flo_grattarola",
+      "filename": "spartina-densiflora_01_inat-60506961.jpeg"
+    },
+    {
+      "photo_id": 60506977,
+      "license": "cc-by",
+      "attribution": "(c) Florencia Grattarola, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60506977/large.jpeg",
+      "observation_id": 38101293,
+      "observation_url": "https://www.inaturalist.org/observations/38101293",
+      "observed_on": "2020-01-25",
+      "place_guess": "20303 Playa Verde, Maldonado Department, Uruguay",
+      "user_login": "flo_grattarola",
+      "filename": "spartina-densiflora_02_inat-60506977.jpeg"
+    },
+    {
+      "photo_id": 60506968,
+      "license": "cc-by",
+      "attribution": "(c) Florencia Grattarola, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60506968/large.jpeg",
+      "observation_id": 38101293,
+      "observation_url": "https://www.inaturalist.org/observations/38101293",
+      "observed_on": "2020-01-25",
+      "place_guess": "20303 Playa Verde, Maldonado Department, Uruguay",
+      "user_login": "flo_grattarola",
+      "filename": "spartina-densiflora_03_inat-60506968.jpeg"
+    },
+    {
+      "photo_id": 60508298,
+      "license": "cc-by",
+      "attribution": "(c) Florencia Grattarola, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60508298/large.jpeg",
+      "observation_id": 38101293,
+      "observation_url": "https://www.inaturalist.org/observations/38101293",
+      "observed_on": "2020-01-25",
+      "place_guess": "20303 Playa Verde, Maldonado Department, Uruguay",
+      "user_login": "flo_grattarola",
+      "filename": "spartina-densiflora_04_inat-60508298.jpeg"
+    },
+    {
+      "photo_id": 60508299,
+      "license": "cc-by",
+      "attribution": "(c) Florencia Grattarola, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60508299/large.jpeg",
+      "observation_id": 38101293,
+      "observation_url": "https://www.inaturalist.org/observations/38101293",
+      "observed_on": "2020-01-25",
+      "place_guess": "20303 Playa Verde, Maldonado Department, Uruguay",
+      "user_login": "flo_grattarola",
+      "filename": "spartina-densiflora_05_inat-60508299.jpeg"
+    }
+  ]
+}

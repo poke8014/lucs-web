@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Fallopia sachalinensis",
+  "taxon_id": 593040,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 124886369,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124886369/large.jpg",
+      "observation_id": 76345373,
+      "observation_url": "https://www.inaturalist.org/observations/76345373",
+      "observed_on": "2021-05-01",
+      "place_guess": "Feltonville, Philadelphia, PA, USA",
+      "user_login": "barbhauckmah",
+      "filename": "polygonum-sachalinense_01_inat-124886369.jpg"
+    },
+    {
+      "photo_id": 316490913,
+      "license": "cc-by",
+      "attribution": "(c) Zachary Dankowicz, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316490913/large.jpg",
+      "observation_id": 181615410,
+      "observation_url": "https://www.inaturalist.org/observations/181615410",
+      "observed_on": "2023-08-04",
+      "place_guess": "\u00d6stermalm, Stockholm, Sverige",
+      "user_login": "zdanko",
+      "filename": "polygonum-sachalinense_02_inat-316490913.jpg"
+    },
+    {
+      "photo_id": 89043445,
+      "license": "cc-by",
+      "attribution": "(c) evgeniq_benihanov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89043445/large.jpeg",
+      "observation_id": 55901037,
+      "observation_url": "https://www.inaturalist.org/observations/55901037",
+      "observed_on": "2020-08-04",
+      "place_guess": "\u0422\u0443\u043b\u0430, \u0422\u0443\u043b\u044c\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f, 300004",
+      "user_login": "evgeniq_benihanov",
+      "filename": "polygonum-sachalinense_03_inat-89043445.jpeg"
+    },
+    {
+      "photo_id": 386711699,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386711699/large.jpeg",
+      "observation_id": 218533188,
+      "observation_url": "https://www.inaturalist.org/observations/218533188",
+      "observed_on": "2024-05-26",
+      "place_guess": "Qu\u00e9bec, QC G1W 3B2, Canada",
+      "user_login": "marc_aurele",
+      "filename": "polygonum-sachalinense_04_inat-386711699.jpeg"
+    },
+    {
+      "photo_id": 333847030,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/333847030/large.jpeg",
+      "observation_id": 190430394,
+      "observation_url": "https://www.inaturalist.org/observations/190430394",
+      "observed_on": "2023-11-09",
+      "place_guess": "Strandon, New Plymouth 4312, New Zealand",
+      "user_login": "kris_c",
+      "filename": "polygonum-sachalinense_05_inat-333847030.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Senecio glomeratus",
+  "taxon_id": 60981,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 377558398,
+      "license": "cc-by",
+      "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/377558398/large.jpg",
+      "observation_id": 213631397,
+      "observation_url": "https://www.inaturalist.org/observations/213631397",
+      "observed_on": "2024-04-27",
+      "place_guess": "Christchurch including Banks Peninsula, Canterbury, New Zealand",
+      "user_login": "jon_sullivan",
+      "filename": "senecio-glomeratus_01_inat-377558398.jpg"
+    },
+    {
+      "photo_id": 441611439,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441611439/large.jpeg",
+      "observation_id": 247278550,
+      "observation_url": "https://www.inaturalist.org/observations/247278550",
+      "observed_on": "2024-07-26",
+      "place_guess": "TRMANMAR1 Tanekaha Ridge, Eskdale Forest",
+      "user_login": "kaipatiki_naturewatch",
+      "filename": "senecio-glomeratus_02_inat-441611439.jpeg"
+    },
+    {
+      "photo_id": 1441863,
+      "license": "cc-by",
+      "attribution": "(c) Joe Potter Butler, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1441863/large.jpg",
+      "observation_id": 1145438,
+      "observation_url": "https://www.inaturalist.org/observations/1145438",
+      "observed_on": "2014-12-24",
+      "place_guess": "Christchurch including Banks Peninsula, NZ-CA, NZ",
+      "user_login": "joepb",
+      "filename": "senecio-glomeratus_03_inat-1441863.jpg"
+    },
+    {
+      "photo_id": 377558709,
+      "license": "cc-by",
+      "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/377558709/large.jpg",
+      "observation_id": 213631397,
+      "observation_url": "https://www.inaturalist.org/observations/213631397",
+      "observed_on": "2024-04-27",
+      "place_guess": "Christchurch including Banks Peninsula, Canterbury, New Zealand",
+      "user_login": "jon_sullivan",
+      "filename": "senecio-glomeratus_04_inat-377558709.jpg"
+    },
+    {
+      "photo_id": 441611449,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/441611449/large.jpeg",
+      "observation_id": 247278550,
+      "observation_url": "https://www.inaturalist.org/observations/247278550",
+      "observed_on": "2024-07-26",
+      "place_guess": "TRMANMAR1 Tanekaha Ridge, Eskdale Forest",
+      "user_login": "kaipatiki_naturewatch",
+      "filename": "senecio-glomeratus_05_inat-441611449.jpeg"
+    }
+  ]
+}

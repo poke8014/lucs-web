@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Centaurea stoebe ssp. australis",
+  "taxon_id": 521869,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 48164,
+      "license": "cc-by",
+      "attribution": "(c) naturalist charlie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48164/large.jpg",
+      "observation_id": 26849,
+      "observation_url": "https://www.inaturalist.org/observations/26849",
+      "observed_on": "2011-08-03",
+      "place_guess": "44.00354766845703, -73.1494140625",
+      "user_login": "charlie",
+      "filename": "centaurea-stoebe_01_inat-48164.jpg"
+    },
+    {
+      "photo_id": 326404654,
+      "license": "cc-by",
+      "attribution": "(c) bernhard_hiller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/326404654/large.jpeg",
+      "observation_id": 186739240,
+      "observation_url": "https://www.inaturalist.org/observations/186739240",
+      "observed_on": "2023-10-08",
+      "place_guess": "Traisen, Deutschland",
+      "user_login": "bernhard_hiller",
+      "filename": "centaurea-stoebe_02_inat-326404654.jpeg"
+    },
+    {
+      "photo_id": 399157123,
+      "license": "cc-by",
+      "attribution": "(c) arthur_haendler, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399157123/large.jpg",
+      "observation_id": 225155833,
+      "observation_url": "https://www.inaturalist.org/observations/225155833",
+      "observed_on": "2024-06-25",
+      "place_guess": "64 Darmstadt, Deutschland",
+      "user_login": "arthur_haendler",
+      "filename": "centaurea-stoebe_03_inat-399157123.jpg"
+    },
+    {
+      "photo_id": 23538528,
+      "license": "cc-by",
+      "attribution": "(c) Ron Burkert, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23538528/large.jpeg",
+      "observation_id": 15758701,
+      "observation_url": "https://www.inaturalist.org/observations/15758701",
+      "observed_on": "2018-08-19",
+      "place_guess": "Montour Trail & Washington County line, PA, USA",
+      "user_login": "rpburkert",
+      "filename": "centaurea-stoebe_04_inat-23538528.jpeg"
+    },
+    {
+      "photo_id": 102195413,
+      "license": "cc-by",
+      "attribution": "(c) scaup, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102195413/large.jpg",
+      "observation_id": 63653445,
+      "observation_url": "https://www.inaturalist.org/observations/63653445",
+      "observed_on": "2020-10-25",
+      "place_guess": "E Main St, Antigonish, NS, CA",
+      "user_login": "scaup",
+      "filename": "centaurea-stoebe_05_inat-102195413.jpg"
+    }
+  ]
+}

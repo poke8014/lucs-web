@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Zostera japonica",
+  "taxon_id": 79558,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 418430528,
+      "license": "cc-by",
+      "attribution": "(c) Fern, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418430528/large.jpeg",
+      "observation_id": 235291367,
+      "observation_url": "https://www.inaturalist.org/observations/235291367",
+      "observed_on": "2024-08-11",
+      "place_guess": "North Saanich, BC, Canada",
+      "user_login": "chaoticrystal",
+      "filename": "zostera-japonica_01_inat-418430528.jpeg"
+    },
+    {
+      "photo_id": 413853359,
+      "license": "cc-by",
+      "attribution": "(c) \u66fe\u6631\u627f Yu-Cheng Zeng, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/413853359/large.jpeg",
+      "observation_id": 232912470,
+      "observation_url": "https://www.inaturalist.org/observations/232912470",
+      "observed_on": "2024-07-18",
+      "place_guess": "Kinmen, TW-FK, TW",
+      "user_login": "forestmimi",
+      "filename": "zostera-japonica_02_inat-413853359.jpeg"
+    },
+    {
+      "photo_id": 406611915,
+      "license": "cc-by",
+      "attribution": "(c) Senna Bryce Robeson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/406611915/large.jpeg",
+      "observation_id": 229090666,
+      "observation_url": "https://www.inaturalist.org/observations/229090666",
+      "observed_on": "2024-07-09",
+      "place_guess": "Greater Vancouver, CA-BC, CA",
+      "user_login": "sbrobeson",
+      "filename": "zostera-japonica_03_inat-406611915.jpeg"
+    },
+    {
+      "photo_id": 64839789,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64839789/large.jpeg",
+      "observation_id": 40898419,
+      "observation_url": "https://www.inaturalist.org/observations/40898419",
+      "observed_on": "2020-03-27",
+      "place_guess": "Comox Valley, BC, Canada",
+      "user_login": "rambryum",
+      "filename": "zostera-japonica_04_inat-64839789.jpeg"
+    },
+    {
+      "photo_id": 399394253,
+      "license": "cc-by",
+      "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/399394253/large.jpg",
+      "observation_id": 225279591,
+      "observation_url": "https://www.inaturalist.org/observations/225279591",
+      "observed_on": "2024-06-23",
+      "place_guess": "Point Whitehorn, Whatcom County, WA, USA",
+      "user_login": "frondsinhighplaces",
+      "filename": "zostera-japonica_05_inat-399394253.jpg"
+    }
+  ]
+}

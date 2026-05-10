@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Pennisetum setaceum",
+  "taxon_id": 430581,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 164996037,
+      "license": "cc-by",
+      "attribution": "(c) Lauu, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164996037/large.jpg",
+      "observation_id": 112753545,
+      "observation_url": "https://www.inaturalist.org/observations/112753545",
+      "observed_on": "2021-10-22",
+      "place_guess": "Am\u00e9rica, Provincia de Buenos Aires, Argentina",
+      "user_login": "laurabm2020",
+      "filename": "pennisetum-setaceum_01_inat-164996037.jpg"
+    },
+    {
+      "photo_id": 338915132,
+      "license": "cc-by",
+      "attribution": "(c) Cayman Lanzone, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/338915132/large.jpg",
+      "observation_id": 192987722,
+      "observation_url": "https://www.inaturalist.org/observations/192987722",
+      "observed_on": "2023-12-03",
+      "place_guess": "Santa Catalina Island, Avalon, CA, US",
+      "user_login": "calzones",
+      "filename": "pennisetum-setaceum_02_inat-338915132.jpg"
+    },
+    {
+      "photo_id": 321117593,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321117593/large.jpeg",
+      "observation_id": 184002859,
+      "observation_url": "https://www.inaturalist.org/observations/184002859",
+      "observed_on": "2023-09-19",
+      "place_guess": "95021 Aci Castello, Katania, W\u0142ochy",
+      "user_login": "mirela88",
+      "filename": "pennisetum-setaceum_03_inat-321117593.jpeg"
+    },
+    {
+      "photo_id": 363324888,
+      "license": "cc-by",
+      "attribution": "(c) Paul Hoekman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363324888/large.jpeg",
+      "observation_id": 205474751,
+      "observation_url": "https://www.inaturalist.org/observations/205474751",
+      "observed_on": "2024-04-04",
+      "place_guess": "Syferfontein 51-Ir, Johannesburg, South Africa",
+      "user_login": "phoekman",
+      "filename": "pennisetum-setaceum_04_inat-363324888.jpeg"
+    },
+    {
+      "photo_id": 437590183,
+      "license": "cc-by",
+      "attribution": "(c) Dave Richardson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/437590183/large.jpeg",
+      "observation_id": 245243221,
+      "observation_url": "https://www.inaturalist.org/observations/245243221",
+      "observed_on": "2024-10-02",
+      "place_guess": "Stellenbosch Rural, Stellenbosch, WC, ZA",
+      "user_login": "daverichardson",
+      "filename": "pennisetum-setaceum_05_inat-437590183.jpeg"
+    }
+  ]
+}

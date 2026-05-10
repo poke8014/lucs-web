@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Vinca major",
+  "taxon_id": 53326,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 477110867,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Cahen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477110867/large.jpg",
+      "observation_id": 265606625,
+      "observation_url": "https://www.inaturalist.org/observations/265606625",
+      "observed_on": "2025-03-16",
+      "place_guess": "Harlesden, London NW10, UK",
+      "user_login": "danielcahen",
+      "filename": "vinca-major_01_inat-477110867.jpg"
+    },
+    {
+      "photo_id": 624609236,
+      "license": "cc-by",
+      "attribution": "(c) Matthew Vosper, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624609236/large.jpg",
+      "observation_id": 342954531,
+      "observation_url": "https://www.inaturalist.org/observations/342954531",
+      "observed_on": "2026-03-10",
+      "place_guess": "Keyworth, Nottingham NG12, UK",
+      "user_login": "matthewvosper",
+      "filename": "vinca-major_02_inat-624609236.jpg"
+    },
+    {
+      "photo_id": 462544595,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462544595/large.jpg",
+      "observation_id": 257821819,
+      "observation_url": "https://www.inaturalist.org/observations/257821819",
+      "observed_on": "2000-06-10",
+      "place_guess": "3670 Alcofra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "vinca-major_03_inat-462544595.jpg"
+    },
+    {
+      "photo_id": 363668275,
+      "license": "cc-by",
+      "attribution": "(c) Roman A. Lagazyuk (\u0420\u043e\u043c\u0430\u043d \u0410. \u041b\u0430\u0433\u0430\u0437\u044e\u043a), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363668275/large.jpeg",
+      "observation_id": 205657636,
+      "observation_url": "https://www.inaturalist.org/observations/205657636",
+      "observed_on": "2024-04-06",
+      "place_guess": "Ievpatoriis'ka, UA-KR, UA",
+      "user_login": "ro_ko",
+      "filename": "vinca-major_04_inat-363668275.jpeg"
+    },
+    {
+      "photo_id": 283992451,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283992451/large.jpg",
+      "observation_id": 164151653,
+      "observation_url": "https://www.inaturalist.org/observations/164151653",
+      "observed_on": "2023-05-24",
+      "place_guess": "Coconino National Forest, Sedona, AZ, US",
+      "user_login": "normherr",
+      "filename": "vinca-major_05_inat-283992451.jpg"
+    }
+  ]
+}

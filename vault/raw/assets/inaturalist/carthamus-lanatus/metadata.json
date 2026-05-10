@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Carthamus lanatus",
+  "taxon_id": 64232,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 615297340,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/615297340/large.jpg",
+      "observation_id": 338353028,
+      "observation_url": "https://www.inaturalist.org/observations/338353028",
+      "observed_on": "2018-06-15",
+      "place_guess": "7830 Vila Verde de Ficalho, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "carthamus-lanatus_01_inat-615297340.jpg"
+    },
+    {
+      "photo_id": 84302138,
+      "license": "cc-by",
+      "attribution": "(c) Alex, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/84302138/large.jpg",
+      "observation_id": 53013590,
+      "observation_url": "https://www.inaturalist.org/observations/53013590",
+      "observed_on": "2020-07-10",
+      "place_guess": "2080 Kawana Terrace, Santa Rosa, CA 95404, USA",
+      "user_login": "arlenedevitt",
+      "filename": "carthamus-lanatus_02_inat-84302138.jpg"
+    },
+    {
+      "photo_id": 85776032,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85776032/large.jpg",
+      "observation_id": 53920987,
+      "observation_url": "https://www.inaturalist.org/observations/53920987",
+      "observed_on": "2020-07-21",
+      "place_guess": "Strawn, TX, US",
+      "user_login": "sambiology",
+      "filename": "carthamus-lanatus_03_inat-85776032.jpg"
+    },
+    {
+      "photo_id": 82183852,
+      "license": "cc-by",
+      "attribution": "(c) Annika Lindqvist, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/82183852/large.jpeg",
+      "observation_id": 51716159,
+      "observation_url": "https://www.inaturalist.org/observations/51716159",
+      "observed_on": "2020-06-26",
+      "place_guess": "Colorado Bend State Park, San Saba Co., TX, USA",
+      "user_login": "annikaml",
+      "filename": "carthamus-lanatus_04_inat-82183852.jpeg"
+    },
+    {
+      "photo_id": 42960402,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/42960402/large.jpeg",
+      "observation_id": 27599762,
+      "observation_url": "https://www.inaturalist.org/observations/27599762",
+      "observed_on": "2019-06-24",
+      "place_guess": "Los Osos, Baywood-Los Osos, CA 93402, USA",
+      "user_login": "aheyman1",
+      "filename": "carthamus-lanatus_05_inat-42960402.jpeg"
+    }
+  ]
+}

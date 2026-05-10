@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Schinus terebinthifolia",
+  "taxon_id": 130872,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 205024033,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205024033/large.jpg",
+      "observation_id": 121173745,
+      "observation_url": "https://www.inaturalist.org/observations/121173745",
+      "observed_on": "2022-06-10",
+      "place_guess": "Pines Blvd, Pembroke Pines, FL, US",
+      "user_login": "buggybuddy",
+      "filename": "schinus-terebinthifolius_01_inat-205024033.jpg"
+    },
+    {
+      "photo_id": 448037447,
+      "license": "cc-by",
+      "attribution": "(c) Ricardo Jaimes-L\u00f3pez, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448037447/large.jpeg",
+      "observation_id": 250506633,
+      "observation_url": "https://www.inaturalist.org/observations/250506633",
+      "observed_on": "2024-11-03",
+      "place_guess": "Matamoros, Tamps., MX",
+      "user_login": "entrelasramas",
+      "filename": "schinus-terebinthifolius_02_inat-448037447.jpeg"
+    },
+    {
+      "photo_id": 276988416,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276988416/large.jpeg",
+      "observation_id": 160305083,
+      "observation_url": "https://www.inaturalist.org/observations/160305083",
+      "observed_on": "2023-04-30",
+      "place_guess": "Grootvadersbosch Garden Route",
+      "user_login": "outramps-tanniedi",
+      "filename": "schinus-terebinthifolius_03_inat-276988416.jpeg"
+    },
+    {
+      "photo_id": 222498585,
+      "license": "cc-by",
+      "attribution": "(c) David F. Belmonte, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/222498585/large.jpg",
+      "observation_id": 130804079,
+      "observation_url": "https://www.inaturalist.org/observations/130804079",
+      "observed_on": "2022-08-13",
+      "place_guess": "Cuenca media del R\u00edo Lur\u00edn, Lima, Per\u00fa",
+      "user_login": "davidfbelmonte",
+      "filename": "schinus-terebinthifolius_04_inat-222498585.jpg"
+    },
+    {
+      "photo_id": 543138437,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/543138437/large.jpg",
+      "observation_id": 301413419,
+      "observation_url": "https://www.inaturalist.org/observations/301413419",
+      "observed_on": "2025-07-26",
+      "place_guess": "Fund Viuda, Lur\u00edn 15823, Per\u00fa",
+      "user_login": "ruthgo",
+      "filename": "schinus-terebinthifolius_05_inat-543138437.jpg"
+    }
+  ]
+}

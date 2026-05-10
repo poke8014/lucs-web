@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Ailanthus altissima",
+  "taxon_id": 57278,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 151105808,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151105808/large.jpg",
+      "observation_id": 91361855,
+      "observation_url": "https://www.inaturalist.org/observations/91361855",
+      "observed_on": "2021-08-15",
+      "place_guess": "Vernon, NJ, US",
+      "user_login": "chrismerck",
+      "filename": "ailanthus-altissima_01_inat-151105808.jpg"
+    },
+    {
+      "photo_id": 215759282,
+      "license": "cc-by",
+      "attribution": "(c) John Abrams, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215759282/large.jpeg",
+      "observation_id": 127112855,
+      "observation_url": "https://www.inaturalist.org/observations/127112855",
+      "observed_on": "2022-07-20",
+      "place_guess": "Berea, KY 40403, USA",
+      "user_login": "john_abrams",
+      "filename": "ailanthus-altissima_02_inat-215759282.jpeg"
+    },
+    {
+      "photo_id": 475353743,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/475353743/large.jpeg",
+      "observation_id": 264709649,
+      "observation_url": "https://www.inaturalist.org/observations/264709649",
+      "observed_on": "1999-08-14",
+      "place_guess": "Sesimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "ailanthus-altissima_03_inat-475353743.jpeg"
+    },
+    {
+      "photo_id": 201848259,
+      "license": "cc-by",
+      "attribution": "(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201848259/large.jpg",
+      "observation_id": 119405889,
+      "observation_url": "https://www.inaturalist.org/observations/119405889",
+      "observed_on": "2022-05-29",
+      "place_guess": "Manhattan, New York, NY, US",
+      "user_login": "elaphrornis",
+      "filename": "ailanthus-altissima_04_inat-201848259.jpg"
+    },
+    {
+      "photo_id": 21438926,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21438926/large.jpg",
+      "observation_id": 14411246,
+      "observation_url": "https://www.inaturalist.org/observations/14411246",
+      "observed_on": "2018-07-16",
+      "place_guess": "2081\u20132099 Broadway, New York, NY, US",
+      "user_login": "danielatha",
+      "filename": "ailanthus-altissima_05_inat-21438926.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Ficus carica",
+  "taxon_id": 60218,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 236955328,
+      "license": "cc-by",
+      "attribution": "(c) Claude Kolwelter, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/236955328/large.jpg",
+      "observation_id": 138617881,
+      "observation_url": "https://www.inaturalist.org/observations/138617881",
+      "observed_on": "2022-09-25",
+      "place_guess": "8650 Sagres, Portugal",
+      "user_login": "claudekolwelter",
+      "filename": "ficus-carica_01_inat-236955328.jpg"
+    },
+    {
+      "photo_id": 364785497,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/364785497/large.jpg",
+      "observation_id": 206257391,
+      "observation_url": "https://www.inaturalist.org/observations/206257391",
+      "observed_on": "2021-08-02",
+      "place_guess": "Hakk\u00e2ri Merkez/Hakkari, \u0422\u0443\u0440\u0446\u0438\u044f",
+      "user_login": "dmitrylyskov",
+      "filename": "ficus-carica_02_inat-364785497.jpg"
+    },
+    {
+      "photo_id": 558102445,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/558102445/large.jpg",
+      "observation_id": 309292077,
+      "observation_url": "https://www.inaturalist.org/observations/309292077",
+      "observed_on": "2010-05-13",
+      "place_guess": "Castelo Mendo, 6355 Almeida, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "ficus-carica_03_inat-558102445.jpg"
+    },
+    {
+      "photo_id": 91700261,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Cahen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/91700261/large.jpeg",
+      "observation_id": 57493297,
+      "observation_url": "https://www.inaturalist.org/observations/57493297",
+      "observed_on": "2020-08-24",
+      "place_guess": "Haringey, England, United Kingdom",
+      "user_login": "danielcahen",
+      "filename": "ficus-carica_04_inat-91700261.jpeg"
+    },
+    {
+      "photo_id": 231943220,
+      "license": "cc-by",
+      "attribution": "(c) nberhe, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/231943220/large.jpg",
+      "observation_id": 135943700,
+      "observation_url": "https://www.inaturalist.org/observations/135943700",
+      "observed_on": "2022-07-04",
+      "place_guess": "Asmara City, ER-AN, ER",
+      "user_login": "nberhe",
+      "filename": "ficus-carica_05_inat-231943220.jpg"
+    }
+  ]
+}

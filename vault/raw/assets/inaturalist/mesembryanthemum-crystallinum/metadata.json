@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Mesembryanthemum crystallinum",
+  "taxon_id": 49319,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 343974356,
+      "license": "cc-by",
+      "attribution": "(c) Riccardo Rocca, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343974356/large.jpg",
+      "observation_id": 195511279,
+      "observation_url": "https://www.inaturalist.org/observations/195511279",
+      "observed_on": "2023-12-17",
+      "place_guess": "Lanzarote, Tinajo, La Palma, ES",
+      "user_login": "riccardo80",
+      "filename": "mesembryanthemum-crystallinum_01_inat-343974356.jpg"
+    },
+    {
+      "photo_id": 2649382,
+      "license": "cc-by",
+      "attribution": "(c) Tom and T Herman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2649382/large.JPG",
+      "observation_id": 2378162,
+      "observation_url": "https://www.inaturalist.org/observations/2378162",
+      "observed_on": "2015-11-13",
+      "place_guess": "San Diego County, US-CA, US",
+      "user_login": "th92105",
+      "filename": "mesembryanthemum-crystallinum_02_inat-2649382.JPG"
+    },
+    {
+      "photo_id": 591455594,
+      "license": "cc-by",
+      "attribution": "(c) Cochi Gonz\u00e1lez, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591455594/large.jpg",
+      "observation_id": 326557258,
+      "observation_url": "https://www.inaturalist.org/observations/326557258",
+      "observed_on": "2025-11-05",
+      "place_guess": "Taltal, Antofagasta, Chile",
+      "user_login": "amigodelaniebla",
+      "filename": "mesembryanthemum-crystallinum_03_inat-591455594.jpg"
+    },
+    {
+      "photo_id": 75595,
+      "license": "cc-by",
+      "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75595/large.jpg",
+      "observation_id": 46975,
+      "observation_url": "https://www.inaturalist.org/observations/46975",
+      "observed_on": "2011-08-12",
+      "place_guess": "Seal Beach, California, United States",
+      "user_login": "jon_sullivan",
+      "filename": "mesembryanthemum-crystallinum_04_inat-75595.jpg"
+    },
+    {
+      "photo_id": 221213146,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/221213146/large.jpeg",
+      "observation_id": 130108971,
+      "observation_url": "https://www.inaturalist.org/observations/130108971",
+      "observed_on": "2022-08-09",
+      "place_guess": "Jable de Famara, Las Palmas, Spain",
+      "user_login": "radrat",
+      "filename": "mesembryanthemum-crystallinum_05_inat-221213146.jpeg"
+    }
+  ]
+}

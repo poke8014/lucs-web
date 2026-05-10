@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cytisus striatus",
+  "taxon_id": 76598,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 607779668,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607779668/large.jpg",
+      "observation_id": 334655875,
+      "observation_url": "https://www.inaturalist.org/observations/334655875",
+      "observed_on": "2017-04-22",
+      "place_guess": "Sernancelhe, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "cytisus-striatus_01_inat-607779668.jpg"
+    },
+    {
+      "photo_id": 172508553,
+      "license": "cc-by",
+      "attribution": "(c) Cesar Ormazabal, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172508553/large.jpeg",
+      "observation_id": 103115732,
+      "observation_url": "https://www.inaturalist.org/observations/103115732",
+      "observed_on": "2021-11-26",
+      "place_guess": "Sector Puerto Maguillines, Constituci\u00f3n, Maule, Chile",
+      "user_login": "cesar383",
+      "filename": "cytisus-striatus_02_inat-172508553.jpeg"
+    },
+    {
+      "photo_id": 606190609,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606190609/large.jpg",
+      "observation_id": 333874202,
+      "observation_url": "https://www.inaturalist.org/observations/333874202",
+      "observed_on": "2005-06-16",
+      "place_guess": "Bigorne, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "cytisus-striatus_03_inat-606190609.jpg"
+    },
+    {
+      "photo_id": 608289258,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608289258/large.jpg",
+      "observation_id": 334904878,
+      "observation_url": "https://www.inaturalist.org/observations/334904878",
+      "observed_on": "2017-05-13",
+      "place_guess": "Quinta de Paulo Lopes, Sernancelhe, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "cytisus-striatus_04_inat-608289258.jpg"
+    },
+    {
+      "photo_id": 608289379,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608289379/large.jpg",
+      "observation_id": 334904878,
+      "observation_url": "https://www.inaturalist.org/observations/334904878",
+      "observed_on": "2017-05-13",
+      "place_guess": "Quinta de Paulo Lopes, Sernancelhe, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "cytisus-striatus_05_inat-608289379.jpg"
+    }
+  ]
+}

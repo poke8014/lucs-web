@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Linaria dalmatica ssp. dalmatica",
+  "taxon_id": 77776,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 214011528,
+      "license": "cc-by",
+      "attribution": "(c) Dustin Snider, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214011528/large.jpg",
+      "observation_id": 126150999,
+      "observation_url": "https://www.inaturalist.org/observations/126150999",
+      "observed_on": "2022-07-13",
+      "place_guess": "1 Ave S, Lethbridge, AB, CA",
+      "user_login": "dustin777",
+      "filename": "linaria-dalmatica-ssp-dalmatica_01_inat-214011528.jpg"
+    },
+    {
+      "photo_id": 11239274,
+      "license": "cc-by",
+      "attribution": "(c) Kostas Zontanos, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11239274/large.jpeg",
+      "observation_id": 8437808,
+      "observation_url": "https://www.inaturalist.org/observations/8437808",
+      "observed_on": "2014-08-16",
+      "place_guess": "\u0394\u03c5\u03c4\u03b9\u03ba\u03ae \u039c\u03b1\u03ba\u03b5\u03b4\u03bf\u03bd\u03af\u03b1, \u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+      "user_login": "kostaszontanos",
+      "filename": "linaria-dalmatica-ssp-dalmatica_02_inat-11239274.jpeg"
+    },
+    {
+      "photo_id": 624077426,
+      "license": "cc-by",
+      "attribution": "(c) Daughter Dad, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/624077426/large.jpg",
+      "observation_id": 342678517,
+      "observation_url": "https://www.inaturalist.org/observations/342678517",
+      "observed_on": "2026-03-11",
+      "place_guess": "Midvale, UT, USA",
+      "user_login": "daughterdad",
+      "filename": "linaria-dalmatica-ssp-dalmatica_03_inat-624077426.jpg"
+    },
+    {
+      "photo_id": 35226039,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35226039/large.jpg",
+      "observation_id": 22731675,
+      "observation_url": "https://www.inaturalist.org/observations/22731675",
+      "observed_on": "2019-04-19",
+      "place_guess": "696\u2013760 Crowsnest Hwy, , BC, CA",
+      "user_login": "benkeen",
+      "filename": "linaria-dalmatica-ssp-dalmatica_04_inat-35226039.jpg"
+    },
+    {
+      "photo_id": 11239288,
+      "license": "cc-by",
+      "attribution": "(c) Kostas Zontanos, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11239288/large.jpeg",
+      "observation_id": 8437808,
+      "observation_url": "https://www.inaturalist.org/observations/8437808",
+      "observed_on": "2014-08-16",
+      "place_guess": "\u0394\u03c5\u03c4\u03b9\u03ba\u03ae \u039c\u03b1\u03ba\u03b5\u03b4\u03bf\u03bd\u03af\u03b1, \u0395\u03bb\u03bb\u03ac\u03b4\u03b1",
+      "user_login": "kostaszontanos",
+      "filename": "linaria-dalmatica-ssp-dalmatica_05_inat-11239288.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Rubus armeniacus",
+  "taxon_id": 61317,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 111457578,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111457578/large.jpeg",
+      "observation_id": 68781335,
+      "observation_url": "https://www.inaturalist.org/observations/68781335",
+      "observed_on": "2021-01-29",
+      "place_guess": "DeSoto, TX 75115, USA",
+      "user_login": "sambiology",
+      "filename": "rubus-armeniacus_01_inat-111457578.jpeg"
+    },
+    {
+      "photo_id": 299115290,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299115290/large.jpeg",
+      "observation_id": 172317807,
+      "observation_url": "https://www.inaturalist.org/observations/172317807",
+      "observed_on": "2023-07-08",
+      "place_guess": "Pickerings Pasture, Mersey View Road, Hale Bank, Widnes, Halton, UK",
+      "user_login": "steve_mcwilliam",
+      "filename": "rubus-armeniacus_02_inat-299115290.jpeg"
+    },
+    {
+      "photo_id": 299010044,
+      "license": "cc-by",
+      "attribution": "(c) Pinnacles National Park, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/299010044/large.jpeg",
+      "observation_id": 172266217,
+      "observation_url": "https://www.inaturalist.org/observations/172266217",
+      "observed_on": "2023-06-06",
+      "place_guess": "San Benito County, CA, USA",
+      "user_login": "pinnaclesnp",
+      "filename": "rubus-armeniacus_03_inat-299010044.jpeg"
+    },
+    {
+      "photo_id": 79481484,
+      "license": "cc-by",
+      "attribution": "(c) Alex Zorach, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79481484/large.jpeg",
+      "observation_id": 50055729,
+      "observation_url": "https://www.inaturalist.org/observations/50055729",
+      "observed_on": "2020-06-18",
+      "place_guess": "Newark Rail Station, Newark, DE 19716, USA",
+      "user_login": "cazort",
+      "filename": "rubus-armeniacus_04_inat-79481484.jpeg"
+    },
+    {
+      "photo_id": 2216416,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2216416/large.jpg",
+      "observation_id": 1826477,
+      "observation_url": "https://www.inaturalist.org/observations/1826477",
+      "observed_on": "2015-08-02",
+      "place_guess": "Joaquin Miller Park, Alameda County, US-CA, US",
+      "user_login": "twsummer",
+      "filename": "rubus-armeniacus_05_inat-2216416.jpg"
+    }
+  ]
+}

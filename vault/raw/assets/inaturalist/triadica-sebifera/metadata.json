@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Triadica sebifera",
+  "taxon_id": 79388,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 5370728,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5370728/large.jpeg",
+      "observation_id": 4456636,
+      "observation_url": "https://www.inaturalist.org/observations/4456636",
+      "observed_on": "2016-10-29",
+      "place_guess": "Gardens Park, Dalworthington Gardens, Texas",
+      "user_login": "sambiology",
+      "filename": "triadica-sebifera_01_inat-5370728.jpeg"
+    },
+    {
+      "photo_id": 435580524,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435580524/large.jpeg",
+      "observation_id": 244205180,
+      "observation_url": "https://www.inaturalist.org/observations/244205180",
+      "observed_on": "2024-09-26",
+      "place_guess": "Stephen F. Austin State University, Nacogdoches, TX, US",
+      "user_login": "natgrace18",
+      "filename": "triadica-sebifera_02_inat-435580524.jpeg"
+    },
+    {
+      "photo_id": 401041738,
+      "license": "cc-by",
+      "attribution": "(c) WATANABE Hitoshi \u6e21\u8fba\u4ec1, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401041738/large.jpeg",
+      "observation_id": 226150889,
+      "observation_url": "https://www.inaturalist.org/observations/226150889",
+      "observed_on": "2024-06-29",
+      "place_guess": "\u65e5\u672c\u3001\u6771\u4eac\u90fd\u591a\u6469\u5e02\u95a2\u6238\uff16\u4e01\u76ee \u591a\u6469\u30cb\u30e5\u30fc\u30bf\u30a6\u30f3",
+      "user_login": "tbc_watanabe",
+      "filename": "triadica-sebifera_03_inat-401041738.jpeg"
+    },
+    {
+      "photo_id": 169814909,
+      "license": "cc-by",
+      "attribution": "(c) Justin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169814909/large.jpeg",
+      "observation_id": 101675793,
+      "observation_url": "https://www.inaturalist.org/observations/101675793",
+      "observed_on": "2021-11-21",
+      "place_guess": "Fair Oaks, CA, USA",
+      "user_login": "justin2",
+      "filename": "triadica-sebifera_04_inat-169814909.jpeg"
+    },
+    {
+      "photo_id": 631255818,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/631255818/large.jpg",
+      "observation_id": 346309933,
+      "observation_url": "https://www.inaturalist.org/observations/346309933",
+      "observed_on": "2026-03-27",
+      "place_guess": "Magnolia Park/Blueberry Hill, Savannah, GA 31406, USA",
+      "user_login": "nonbinary-naturalist",
+      "filename": "triadica-sebifera_05_inat-631255818.jpg"
+    }
+  ]
+}

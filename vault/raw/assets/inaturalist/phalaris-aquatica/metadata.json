@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Phalaris aquatica",
+  "taxon_id": 57188,
+  "photos_taxon_id": 57188,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 393690102,
+      "license": "cc-by",
+      "attribution": "(c) Eric Knight, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393690102/large.jpg",
+      "observation_id": 222264319,
+      "observation_url": "https://www.inaturalist.org/observations/222264319",
+      "observed_on": "2024-06-10",
+      "place_guess": "Santa Clarita, CA, USA",
+      "user_login": "knightericm",
+      "filename": "phalaris-aquatica_01_inat-393690102.jpg"
+    },
+    {
+      "photo_id": 393690108,
+      "license": "cc-by",
+      "attribution": "(c) Eric Knight, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393690108/large.jpg",
+      "observation_id": 222264319,
+      "observation_url": "https://www.inaturalist.org/observations/222264319",
+      "observed_on": "2024-06-10",
+      "place_guess": "Santa Clarita, CA, USA",
+      "user_login": "knightericm",
+      "filename": "phalaris-aquatica_02_inat-393690108.jpg"
+    },
+    {
+      "photo_id": 393690121,
+      "license": "cc-by",
+      "attribution": "(c) Eric Knight, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393690121/large.jpg",
+      "observation_id": 222264319,
+      "observation_url": "https://www.inaturalist.org/observations/222264319",
+      "observed_on": "2024-06-10",
+      "place_guess": "Santa Clarita, CA, USA",
+      "user_login": "knightericm",
+      "filename": "phalaris-aquatica_03_inat-393690121.jpg"
+    },
+    {
+      "photo_id": 9568706,
+      "license": "cc-by",
+      "attribution": "(c) David Fischer, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9568706/large.jpg",
+      "observation_id": 7375538,
+      "observation_url": "https://www.inaturalist.org/observations/7375538",
+      "observed_on": "2017-08-05",
+      "place_guess": "Shingle Springs, CA 95682, USA",
+      "user_login": "david_fischer",
+      "filename": "phalaris-aquatica_04_inat-9568706.jpg"
+    },
+    {
+      "photo_id": 2378113,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2378113/large.jpg",
+      "observation_id": 1939786,
+      "observation_url": "https://www.inaturalist.org/observations/1939786",
+      "observed_on": "2015-09-12",
+      "place_guess": "Hood Mountain Regional Park",
+      "user_login": "rockybajada",
+      "filename": "phalaris-aquatica_05_inat-2378113.jpg"
+    }
+  ]
+}

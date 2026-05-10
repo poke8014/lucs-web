@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Rumex acetosella",
+  "taxon_id": 53195,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 288214435,
+      "license": "cc-by",
+      "attribution": "(c) Kieran Hanrahan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/288214435/large.jpg",
+      "observation_id": 166433783,
+      "observation_url": "https://www.inaturalist.org/observations/166433783",
+      "observed_on": "2023-06-06",
+      "place_guess": "Fremont-Winema National Forests, Bly, OR, US",
+      "user_login": "kierandh",
+      "filename": "rumex-acetosella_01_inat-288214435.jpg"
+    },
+    {
+      "photo_id": 465497051,
+      "license": "cc-by",
+      "attribution": "(c) Saryu Mae \u524d \u671d\u7409, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465497051/large.jpeg",
+      "observation_id": 259330367,
+      "observation_url": "https://www.inaturalist.org/observations/259330367",
+      "observed_on": "2024-11-01",
+      "place_guess": "North Shore, Hauraki, Auckland, New Zealand",
+      "user_login": "invertebratist",
+      "filename": "rumex-acetosella_02_inat-465497051.jpeg"
+    },
+    {
+      "photo_id": 41315995,
+      "license": "cc-by",
+      "attribution": "(c) Peter Eriksen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41315995/large.jpg",
+      "observation_id": 26600485,
+      "observation_url": "https://www.inaturalist.org/observations/26600485",
+      "observed_on": "2019-06-08",
+      "place_guess": "Ejnar Nielsens Vej 15, Gjern, Midtjylland, DK",
+      "user_login": "petereriksen",
+      "filename": "rumex-acetosella_03_inat-41315995.jpg"
+    },
+    {
+      "photo_id": 40802105,
+      "license": "cc-by",
+      "attribution": "(c) Roger Rittmaster, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40802105/large.jpeg",
+      "observation_id": 26285641,
+      "observation_url": "https://www.inaturalist.org/observations/26285641",
+      "observed_on": "2019-06-01",
+      "place_guess": "Camden, ME, USA",
+      "user_login": "rogerritt",
+      "filename": "rumex-acetosella_04_inat-40802105.jpeg"
+    },
+    {
+      "photo_id": 20407601,
+      "license": "cc-by",
+      "attribution": "(c) Benoit Renaud, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20407601/large.jpeg",
+      "observation_id": 13829977,
+      "observation_url": "https://www.inaturalist.org/observations/13829977",
+      "observed_on": "2018-06-27",
+      "place_guess": "500 Rue Omer Deserres, Sainte-Anne-des-Plaines, QC J0N 1H0, Canada",
+      "user_login": "benoitrenaud",
+      "filename": "rumex-acetosella_05_inat-20407601.jpeg"
+    }
+  ]
+}

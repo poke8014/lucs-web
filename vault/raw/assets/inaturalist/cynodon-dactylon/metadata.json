@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Cynodon dactylon",
+  "taxon_id": 58371,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 85816005,
+      "license": "cc-by",
+      "attribution": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/85816005/large.jpeg",
+      "observation_id": 53947002,
+      "observation_url": "https://www.inaturalist.org/observations/53947002",
+      "observed_on": "2020-07-19",
+      "place_guess": "Steglitz-Zehlendorf, Berlin, Germany",
+      "user_login": "alexis_orion",
+      "filename": "cynodon-dactylon_01_inat-85816005.jpeg"
+    },
+    {
+      "photo_id": 72933692,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72933692/large.jpg",
+      "observation_id": 45980991,
+      "observation_url": "https://www.inaturalist.org/observations/45980991",
+      "observed_on": "2020-05-14",
+      "place_guess": "Lake Rd, Belton, TX, US",
+      "user_login": "lanechaffin",
+      "filename": "cynodon-dactylon_02_inat-72933692.jpg"
+    },
+    {
+      "photo_id": 192632147,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192632147/large.jpeg",
+      "observation_id": 114051027,
+      "observation_url": "https://www.inaturalist.org/observations/114051027",
+      "observed_on": "2022-05-01",
+      "place_guess": "Brooklands, Christchurch, New Zealand",
+      "user_login": "thomas_ferguson",
+      "filename": "cynodon-dactylon_03_inat-192632147.jpeg"
+    },
+    {
+      "photo_id": 196333583,
+      "license": "cc-by",
+      "attribution": "(c) Yves Bas, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196333583/large.jpeg",
+      "observation_id": 116317710,
+      "observation_url": "https://www.inaturalist.org/observations/116317710",
+      "observed_on": "2022-05-09",
+      "place_guess": "La Can\u00e9e 731 31, Gr\u00e8ce",
+      "user_login": "yvesbas",
+      "filename": "cynodon-dactylon_04_inat-196333583.jpeg"
+    },
+    {
+      "photo_id": 280589062,
+      "license": "cc-by",
+      "attribution": "(c) CK2AZ, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280589062/large.jpg",
+      "observation_id": 162280578,
+      "observation_url": "https://www.inaturalist.org/observations/162280578",
+      "observed_on": "2023-05-17",
+      "place_guess": "U.S. Army Fort Huachuca, Sierra Vista, AZ, US",
+      "user_login": "ck2az",
+      "filename": "cynodon-dactylon_05_inat-280589062.jpg"
+    }
+  ]
+}

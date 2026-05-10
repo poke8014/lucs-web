@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Hordeum murinum",
+  "taxon_id": 52796,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 243320634,
+      "license": "cc-by",
+      "attribution": "(c) Noah How, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243320634/large.jpeg",
+      "observation_id": 141969092,
+      "observation_url": "https://www.inaturalist.org/observations/141969092",
+      "observed_on": "2022-11-10",
+      "place_guess": "Capital, British Columbia, Canada",
+      "user_login": "nhow",
+      "filename": "horderum-murinum_01_inat-243320634.jpeg"
+    },
+    {
+      "photo_id": 653870857,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/653870857/large.jpg",
+      "observation_id": 358434865,
+      "observation_url": "https://www.inaturalist.org/observations/358434865",
+      "observed_on": "2026-04-22",
+      "place_guess": "Aveiro, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "horderum-murinum_02_inat-653870857.jpg"
+    },
+    {
+      "photo_id": 405021126,
+      "license": "cc-by",
+      "attribution": "(c) Joss Carr, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405021126/large.jpg",
+      "observation_id": 228252675,
+      "observation_url": "https://www.inaturalist.org/observations/228252675",
+      "observed_on": "2024-07-03",
+      "place_guess": "Forest Road, London, England, GB",
+      "user_login": "josscarr",
+      "filename": "horderum-murinum_03_inat-405021126.jpg"
+    },
+    {
+      "photo_id": 65208487,
+      "license": "cc-by",
+      "attribution": "(c) Elly Poretsky, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65208487/large.jpeg",
+      "observation_id": 41123405,
+      "observation_url": "https://www.inaturalist.org/observations/41123405",
+      "observed_on": "2020-03-31",
+      "place_guess": "Pacific Hall, San Diego, CA 92161, USA",
+      "user_login": "eporetsky",
+      "filename": "horderum-murinum_04_inat-65208487.jpeg"
+    },
+    {
+      "photo_id": 506680869,
+      "license": "cc-by",
+      "attribution": "(c) Elizabete Marchante, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506680869/large.jpg",
+      "observation_id": 282033968,
+      "observation_url": "https://www.inaturalist.org/observations/282033968",
+      "observed_on": "2025-05-18",
+      "place_guess": "3030-329 Coimbra, Portugal",
+      "user_login": "emarchante",
+      "filename": "horderum-murinum_05_inat-506680869.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Onopordum acanthium",
+  "taxon_id": 78259,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 368292212,
+      "license": "cc-by",
+      "attribution": "(c) Andrew R., some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368292212/large.jpg",
+      "observation_id": 208184518,
+      "observation_url": "https://www.inaturalist.org/observations/208184518",
+      "observed_on": "2024-04-10",
+      "place_guess": "\u041f\u0435\u0440\u0432\u043e\u043c\u0430\u0439\u0441\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u0411\u0438\u0448\u043a\u0435\u043a, \u041a\u044b\u0440\u0433\u044b\u0437\u0441\u0442\u0430\u043d",
+      "user_login": "escol",
+      "filename": "onopordum-acanthium_01_inat-368292212.jpg"
+    },
+    {
+      "photo_id": 532805713,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532805713/large.jpg",
+      "observation_id": 295933328,
+      "observation_url": "https://www.inaturalist.org/observations/295933328",
+      "observed_on": "2003-07-03",
+      "place_guess": "Bragan\u00e7a, 5300, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "onopordum-acanthium_02_inat-532805713.jpg"
+    },
+    {
+      "photo_id": 525131071,
+      "license": "cc-by",
+      "attribution": "(c) Dietmar K. L. Moser, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/525131071/large.jpg",
+      "observation_id": 291848065,
+      "observation_url": "https://www.inaturalist.org/observations/291848065",
+      "observed_on": "2025-06-22",
+      "place_guess": "95 Bayreuth-Frankengut, Deutschland",
+      "user_login": "diet_mar",
+      "filename": "onopordum-acanthium_03_inat-525131071.jpg"
+    },
+    {
+      "photo_id": 315024031,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315024031/large.jpeg",
+      "observation_id": 180811942,
+      "observation_url": "https://www.inaturalist.org/observations/180811942",
+      "observed_on": "2023-08-16",
+      "place_guess": "48400 Fraissinet-de-Fourques, France",
+      "user_login": "xavier07_",
+      "filename": "onopordum-acanthium_04_inat-315024031.jpeg"
+    },
+    {
+      "photo_id": 38069830,
+      "license": "cc-by",
+      "attribution": "(c) Ace, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38069830/large.jpg",
+      "observation_id": 24621374,
+      "observation_url": "https://www.inaturalist.org/observations/24621374",
+      "observed_on": "2019-05-05",
+      "place_guess": "1075 E 6600 S, Murray, UT, US",
+      "user_login": "acerigley",
+      "filename": "onopordum-acanthium_05_inat-38069830.jpg"
+    }
+  ]
+}

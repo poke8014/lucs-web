@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Myoporum laetum",
+  "taxon_id": 63611,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 454354356,
+      "license": "cc-by",
+      "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454354356/large.jpg",
+      "observation_id": 253720905,
+      "observation_url": "https://www.inaturalist.org/observations/253720905",
+      "observed_on": "2024-11-30",
+      "place_guess": "Cashmere, Christchurch 8022, New Zealand",
+      "user_login": "jon_sullivan",
+      "filename": "myoporum-laetum_01_inat-454354356.jpg"
+    },
+    {
+      "photo_id": 161786352,
+      "license": "cc-by",
+      "attribution": "(c) Garth Harwood, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/161786352/large.jpeg",
+      "observation_id": 97297354,
+      "observation_url": "https://www.inaturalist.org/observations/97297354",
+      "observed_on": "2021-10-05",
+      "place_guess": "Pescadero, CA, USA",
+      "user_login": "garth_harwood",
+      "filename": "myoporum-laetum_02_inat-161786352.jpeg"
+    },
+    {
+      "photo_id": 174059893,
+      "license": "cc-by",
+      "attribution": "(c) mcstanley, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174059893/large.jpg",
+      "observation_id": 103924266,
+      "observation_url": "https://www.inaturalist.org/observations/103924266",
+      "observed_on": "2021-12-30",
+      "place_guess": "Waitaki (otago), Hampden, Otago, NZ",
+      "user_login": "mcstanley",
+      "filename": "myoporum-laetum_03_inat-174059893.jpg"
+    },
+    {
+      "photo_id": 451487072,
+      "license": "cc-by",
+      "attribution": "(c) Saryu Mae \u524d \u671d\u7409, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/451487072/large.jpeg",
+      "observation_id": 252260626,
+      "observation_url": "https://www.inaturalist.org/observations/252260626",
+      "observed_on": "2024-10-04",
+      "place_guess": "Maitai, Nelson 7010, New Zealand",
+      "user_login": "invertebratist",
+      "filename": "myoporum-laetum_04_inat-451487072.jpeg"
+    },
+    {
+      "photo_id": 323651025,
+      "license": "cc-by",
+      "attribution": "(c) Tom Beard, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323651025/large.jpg",
+      "observation_id": 185327287,
+      "observation_url": "https://www.inaturalist.org/observations/185327287",
+      "observed_on": "2023-09-22",
+      "place_guess": "Sinclair Park, Wellington, Wellington, NZ",
+      "user_login": "tom_beard",
+      "filename": "myoporum-laetum_05_inat-323651025.jpg"
+    }
+  ]
+}

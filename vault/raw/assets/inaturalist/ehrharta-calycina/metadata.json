@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Ehrharta calycina",
+  "taxon_id": 76766,
+  "photos_taxon_id": 76766,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 101476887,
+      "license": "cc-by",
+      "attribution": "(c) Dave Richardson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101476887/large.jpg",
+      "observation_id": 63248922,
+      "observation_url": "https://www.inaturalist.org/observations/63248922",
+      "observed_on": "2020-10-22",
+      "place_guess": "Stellenbosch, WC, ZA",
+      "user_login": "daverichardson",
+      "filename": "ehrharta-calycina_01_inat-101476887.jpg"
+    },
+    {
+      "photo_id": 101476904,
+      "license": "cc-by",
+      "attribution": "(c) Dave Richardson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/101476904/large.jpg",
+      "observation_id": 63248922,
+      "observation_url": "https://www.inaturalist.org/observations/63248922",
+      "observed_on": "2020-10-22",
+      "place_guess": "Stellenbosch, WC, ZA",
+      "user_login": "daverichardson",
+      "filename": "ehrharta-calycina_02_inat-101476904.jpg"
+    },
+    {
+      "photo_id": 586559012,
+      "license": "cc-by",
+      "attribution": "(c) Ann Bentley, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/586559012/large.jpg",
+      "observation_id": 324104073,
+      "observation_url": "https://www.inaturalist.org/observations/324104073",
+      "observed_on": "2025-10-22",
+      "place_guess": "Manjimup WA 6258, Australia",
+      "user_login": "annbentley",
+      "filename": "ehrharta-calycina_03_inat-586559012.jpg"
+    },
+    {
+      "photo_id": 618233739,
+      "license": "cc-by",
+      "attribution": "(c) etw, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/618233739/large.jpg",
+      "observation_id": 339806739,
+      "observation_url": "https://www.inaturalist.org/observations/339806739",
+      "observed_on": "2026-02-22",
+      "place_guess": "Trabuco Canyon, CA, USA",
+      "user_login": "etw",
+      "filename": "ehrharta-calycina_04_inat-618233739.jpg"
+    },
+    {
+      "photo_id": 423032939,
+      "license": "cc-by",
+      "attribution": "(c) Jo Roberts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423032939/large.jpeg",
+      "observation_id": 237664792,
+      "observation_url": "https://www.inaturalist.org/observations/237664792",
+      "observed_on": "2024-08-24",
+      "place_guess": "Namakwa, ZA-NC, ZA",
+      "user_login": "bacchusrock",
+      "filename": "ehrharta-calycina_05_inat-423032939.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Clematis vitalba",
+  "taxon_id": 160697,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 510827665,
+      "license": "cc-by",
+      "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/510827665/large.jpg",
+      "observation_id": 284249957,
+      "observation_url": "https://www.inaturalist.org/observations/284249957",
+      "observed_on": "2025-05-26",
+      "place_guess": "60126 Ancona AN, Italia",
+      "user_login": "gianni_del_bufalo",
+      "filename": "clematis-vitalba_01_inat-510827665.jpg"
+    },
+    {
+      "photo_id": 110623199,
+      "license": "cc-by",
+      "attribution": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110623199/large.jpeg",
+      "observation_id": 68335670,
+      "observation_url": "https://www.inaturalist.org/observations/68335670",
+      "observed_on": "2021-01-16",
+      "place_guess": "Berliner Innenstadt, Berlin, Germany",
+      "user_login": "alexis_orion",
+      "filename": "clematis-vitalba_02_inat-110623199.jpeg"
+    },
+    {
+      "photo_id": 526225798,
+      "license": "cc-by",
+      "attribution": "(c) Elliot Greiner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/526225798/large.jpg",
+      "observation_id": 292421658,
+      "observation_url": "https://www.inaturalist.org/observations/292421658",
+      "observed_on": "2025-06-24",
+      "place_guess": "Grassistra\u00dfe, Leipzig, Saxony, DE",
+      "user_login": "elliotgreiner",
+      "filename": "clematis-vitalba_03_inat-526225798.jpg"
+    },
+    {
+      "photo_id": 104120755,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/104120755/large.jpeg",
+      "observation_id": 64747066,
+      "observation_url": "https://www.inaturalist.org/observations/64747066",
+      "observed_on": "2020-11-12",
+      "place_guess": "Ox Lane area, Tarbock Green, Prescot, Liverpool, Merseyside, UK",
+      "user_login": "steve_mcwilliam",
+      "filename": "clematis-vitalba_04_inat-104120755.jpeg"
+    },
+    {
+      "photo_id": 421654263,
+      "license": "cc-by",
+      "attribution": "(c) Pto, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421654263/large.jpeg",
+      "observation_id": 236965195,
+      "observation_url": "https://www.inaturalist.org/observations/236965195",
+      "observed_on": "2024-06-22",
+      "place_guess": "93170 Bagnolet, France",
+      "user_login": "luzerne-alfalfa",
+      "filename": "clematis-vitalba_05_inat-421654263.jpeg"
+    }
+  ]
+}

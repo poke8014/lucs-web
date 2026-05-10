@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Dipsacus sativus",
+  "taxon_id": 53028,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 251787379,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251787379/large.jpeg",
+      "observation_id": 146450305,
+      "observation_url": "https://www.inaturalist.org/observations/146450305",
+      "observed_on": "2023-01-12",
+      "place_guess": "Wildcat Canyon Regional Park, Contra Costa County, US-CA, US",
+      "user_login": "alan_rockefeller",
+      "filename": "dipsacus-sativus_01_inat-251787379.jpeg"
+    },
+    {
+      "photo_id": 186166929,
+      "license": "cc-by",
+      "attribution": "(c) P Holroyd, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186166929/large.jpeg",
+      "observation_id": 110365295,
+      "observation_url": "https://www.inaturalist.org/observations/110365295",
+      "observed_on": "2022-04-03",
+      "place_guess": "Orinda, CA 94563, USA",
+      "user_login": "pholroyd",
+      "filename": "dipsacus-sativus_02_inat-186166929.jpeg"
+    },
+    {
+      "photo_id": 251787385,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251787385/large.jpeg",
+      "observation_id": 146450305,
+      "observation_url": "https://www.inaturalist.org/observations/146450305",
+      "observed_on": "2023-01-12",
+      "place_guess": "Wildcat Canyon Regional Park, Contra Costa County, US-CA, US",
+      "user_login": "alan_rockefeller",
+      "filename": "dipsacus-sativus_03_inat-251787385.jpeg"
+    },
+    {
+      "photo_id": 251787395,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/251787395/large.jpeg",
+      "observation_id": 146450305,
+      "observation_url": "https://www.inaturalist.org/observations/146450305",
+      "observed_on": "2023-01-12",
+      "place_guess": "Wildcat Canyon Regional Park, Contra Costa County, US-CA, US",
+      "user_login": "alan_rockefeller",
+      "filename": "dipsacus-sativus_04_inat-251787395.jpeg"
+    },
+    {
+      "photo_id": 186166944,
+      "license": "cc-by",
+      "attribution": "(c) P Holroyd, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186166944/large.jpeg",
+      "observation_id": 110365295,
+      "observation_url": "https://www.inaturalist.org/observations/110365295",
+      "observed_on": "2022-04-03",
+      "place_guess": "Orinda, CA 94563, USA",
+      "user_login": "pholroyd",
+      "filename": "dipsacus-sativus_05_inat-186166944.jpeg"
+    }
+  ]
+}

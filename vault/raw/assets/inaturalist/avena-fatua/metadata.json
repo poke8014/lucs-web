@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Avena fatua",
+  "taxon_id": 52698,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 65309053,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/65309053/large.jpeg",
+      "observation_id": 41183231,
+      "observation_url": "https://www.inaturalist.org/observations/41183231",
+      "observed_on": "2020-04-01",
+      "place_guess": "Thousand Oaks, CA 91320, USA",
+      "user_login": "fake_id",
+      "filename": "avena-fatua_01_inat-65309053.jpeg"
+    },
+    {
+      "photo_id": 141853686,
+      "license": "cc-by",
+      "attribution": "(c) KAnatoliy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/141853686/large.jpeg",
+      "observation_id": 86137968,
+      "observation_url": "https://www.inaturalist.org/observations/86137968",
+      "observed_on": "2021-07-08",
+      "place_guess": "\u0420\u043e\u0441\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f, 346885",
+      "user_login": "anatoliy7",
+      "filename": "avena-fatua_02_inat-141853686.jpeg"
+    },
+    {
+      "photo_id": 448200146,
+      "license": "cc-by",
+      "attribution": "(c) hadynrmurray, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448200146/large.jpeg",
+      "observation_id": 250588022,
+      "observation_url": "https://www.inaturalist.org/observations/250588022",
+      "observed_on": "2024-11-05",
+      "place_guess": "A1, Dunbar, Scotland, GB",
+      "user_login": "hadynrmurray",
+      "filename": "avena-fatua_03_inat-448200146.jpeg"
+    },
+    {
+      "photo_id": 330635515,
+      "license": "cc-by",
+      "attribution": "(c) Thomas Mesaglio, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/330635515/large.jpeg",
+      "observation_id": 188841298,
+      "observation_url": "https://www.inaturalist.org/observations/188841298",
+      "observed_on": "2023-10-17",
+      "place_guess": "Hopetoun, Western Australia",
+      "user_login": "thebeachcomber",
+      "filename": "avena-fatua_04_inat-330635515.jpeg"
+    },
+    {
+      "photo_id": 359154256,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/359154256/large.jpeg",
+      "observation_id": 203291317,
+      "observation_url": "https://www.inaturalist.org/observations/203291317",
+      "observed_on": "2024-03-20",
+      "place_guess": "Pima County, US-AZ, US",
+      "user_login": "gambolingquail",
+      "filename": "avena-fatua_05_inat-359154256.jpeg"
+    }
+  ]
+}

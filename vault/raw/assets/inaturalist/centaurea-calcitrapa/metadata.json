@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Centaurea calcitrapa",
+  "taxon_id": 56865,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 2999077,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2999077/large.jpg",
+      "observation_id": 2669151,
+      "observation_url": "https://www.inaturalist.org/observations/2669151",
+      "observed_on": "2016-02-07",
+      "place_guess": "Hawkes Bay, Havelock North, Te Mata Peak Road, Te Mata Peak",
+      "user_login": "pjd1",
+      "filename": "centaurea-calcitrapa_01_inat-2999077.jpg"
+    },
+    {
+      "photo_id": 2109167,
+      "license": "cc-by",
+      "attribution": "(c) naturalist charlie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2109167/large.jpg",
+      "observation_id": 1739407,
+      "observation_url": "https://www.inaturalist.org/observations/1739407",
+      "observed_on": "2015-07-09",
+      "place_guess": null,
+      "user_login": "charlie",
+      "filename": "centaurea-calcitrapa_02_inat-2109167.jpg"
+    },
+    {
+      "photo_id": 577413559,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/577413559/large.jpg",
+      "observation_id": 319429400,
+      "observation_url": "https://www.inaturalist.org/observations/319429400",
+      "observed_on": "2004-07-29",
+      "place_guess": "Vimioso, 5230, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "centaurea-calcitrapa_03_inat-577413559.jpg"
+    },
+    {
+      "photo_id": 173097243,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173097243/large.jpeg",
+      "observation_id": 103427927,
+      "observation_url": "https://www.inaturalist.org/observations/103427927",
+      "observed_on": "2021-12-17",
+      "place_guess": "Constituci\u00f3n, Santa Fe, Argentina",
+      "user_login": "fede_munoz",
+      "filename": "centaurea-calcitrapa_04_inat-173097243.jpeg"
+    },
+    {
+      "photo_id": 506962541,
+      "license": "cc-by",
+      "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506962541/large.jpg",
+      "observation_id": 282189182,
+      "observation_url": "https://www.inaturalist.org/observations/282189182",
+      "observed_on": "2025-05-18",
+      "place_guess": "Castro Marim, Faro, Portugal",
+      "user_login": "duarte",
+      "filename": "centaurea-calcitrapa_05_inat-506962541.jpg"
+    }
+  ]
+}

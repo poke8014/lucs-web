@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Chrysanthemoides monilifera ssp. monilifera",
+  "taxon_id": 600447,
+  "photos_taxon_id": 600447,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 249795421,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249795421/large.jpeg",
+      "observation_id": 145435035,
+      "observation_url": "https://www.inaturalist.org/observations/145435035",
+      "observed_on": "2022-12-30",
+      "place_guess": "Eden, Western Cape, South Africa",
+      "user_login": "shauns",
+      "filename": "chrysanthemoides-monilifera-ssp-monilifera_01_inat-249795421.jpeg"
+    },
+    {
+      "photo_id": 473126621,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473126621/large.jpeg",
+      "observation_id": 263368729,
+      "observation_url": "https://www.inaturalist.org/observations/263368729",
+      "observed_on": "2025-02-28",
+      "place_guess": "Stop 41 Mt Barker Rd - North side, Aldgate SA 5154, Australia",
+      "user_login": "insiderelic",
+      "filename": "chrysanthemoides-monilifera-ssp-monilifera_02_inat-473126621.jpeg"
+    },
+    {
+      "photo_id": 46408017,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46408017/large.jpeg",
+      "observation_id": 29726926,
+      "observation_url": "https://www.inaturalist.org/observations/29726926",
+      "observed_on": "2019-07-26",
+      "place_guess": "Kwanokuthula, 6600, South Africa",
+      "user_login": "shauns",
+      "filename": "chrysanthemoides-monilifera-ssp-monilifera_03_inat-46408017.jpeg"
+    },
+    {
+      "photo_id": 433129594,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433129594/large.jpeg",
+      "observation_id": 242949403,
+      "observation_url": "https://www.inaturalist.org/observations/242949403",
+      "observed_on": "2024-09-20",
+      "place_guess": "Garden Route District Municipality, South Africa",
+      "user_login": "shauns",
+      "filename": "chrysanthemoides-monilifera-ssp-monilifera_04_inat-433129594.jpeg"
+    },
+    {
+      "photo_id": 80107630,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80107630/large.jpeg",
+      "observation_id": 50452745,
+      "observation_url": "https://www.inaturalist.org/observations/50452745",
+      "observed_on": "2020-06-21",
+      "place_guess": "Montague Pass",
+      "user_login": "shauns",
+      "filename": "chrysanthemoides-monilifera-ssp-monilifera_05_inat-80107630.jpeg"
+    }
+  ]
+}

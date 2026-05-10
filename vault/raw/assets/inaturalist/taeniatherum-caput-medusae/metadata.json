@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Elymus caput-medusae",
+  "taxon_id": 169522,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 295199764,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295199764/large.jpg",
+      "observation_id": 170217506,
+      "observation_url": "https://www.inaturalist.org/observations/170217506",
+      "observed_on": "2023-06-26",
+      "place_guess": "Ahjumawi Lava Springs State Park, McArthur, CA, US",
+      "user_login": "grnleaf",
+      "filename": "taeniatherum-caput-medusae_01_inat-295199764.jpg"
+    },
+    {
+      "photo_id": 80167442,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80167442/large.jpeg",
+      "observation_id": 50489305,
+      "observation_url": "https://www.inaturalist.org/observations/50489305",
+      "observed_on": "2020-06-20",
+      "place_guess": "San Diego County, Cleveland National Forest, US-CA, US",
+      "user_login": "amthinkia",
+      "filename": "taeniatherum-caput-medusae_02_inat-80167442.jpeg"
+    },
+    {
+      "photo_id": 545990073,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545990073/large.jpg",
+      "observation_id": 302943144,
+      "observation_url": "https://www.inaturalist.org/observations/302943144",
+      "observed_on": "2025-08-01",
+      "place_guess": "CA-299, Bieber, CA, US",
+      "user_login": "aheyman1",
+      "filename": "taeniatherum-caput-medusae_03_inat-545990073.jpg"
+    },
+    {
+      "photo_id": 295199780,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295199780/large.jpg",
+      "observation_id": 170217506,
+      "observation_url": "https://www.inaturalist.org/observations/170217506",
+      "observed_on": "2023-06-26",
+      "place_guess": "Ahjumawi Lava Springs State Park, McArthur, CA, US",
+      "user_login": "grnleaf",
+      "filename": "taeniatherum-caput-medusae_04_inat-295199780.jpg"
+    },
+    {
+      "photo_id": 80167472,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80167472/large.jpeg",
+      "observation_id": 50489305,
+      "observation_url": "https://www.inaturalist.org/observations/50489305",
+      "observed_on": "2020-06-20",
+      "place_guess": "San Diego County, Cleveland National Forest, US-CA, US",
+      "user_login": "amthinkia",
+      "filename": "taeniatherum-caput-medusae_05_inat-80167472.jpeg"
+    }
+  ]
+}

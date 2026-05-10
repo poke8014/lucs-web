@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Tamarix parviflora",
+  "taxon_id": 56011,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 191826067,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191826067/large.jpeg",
+      "observation_id": 113568072,
+      "observation_url": "https://www.inaturalist.org/observations/113568072",
+      "observed_on": "2022-04-29",
+      "place_guess": "Marine Garden, Marine Crescent, Crosby, Liverpool, Merseyside, UK",
+      "user_login": "steve_mcwilliam",
+      "filename": "tamarix-parviflora-plant_01_inat-191826067.jpeg"
+    },
+    {
+      "photo_id": 60958397,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/60958397/large.jpg",
+      "observation_id": 38361640,
+      "observation_url": "https://www.inaturalist.org/observations/38361640",
+      "observed_on": "2020-02-06",
+      "place_guess": "MacGregor Point Provincial Park, Saugeen Shores, ON, CA",
+      "user_login": "kat_the_nat",
+      "filename": "tamarix-parviflora-plant_02_inat-60958397.jpg"
+    },
+    {
+      "photo_id": 195959955,
+      "license": "cc-by",
+      "attribution": "(c) Ethan Lutterer, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/195959955/large.jpeg",
+      "observation_id": 116106921,
+      "observation_url": "https://www.inaturalist.org/observations/116106921",
+      "observed_on": "2022-05-08",
+      "place_guess": "Nurseries, Peterborough PE7 1PD, UK",
+      "user_login": "ethan119",
+      "filename": "tamarix-parviflora-plant_03_inat-195959955.jpeg"
+    },
+    {
+      "photo_id": 189277353,
+      "license": "cc-by",
+      "attribution": "(c) WATANABE Hitoshi \u6e21\u8fba\u4ec1, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189277353/large.jpg",
+      "observation_id": 112076351,
+      "observation_url": "https://www.inaturalist.org/observations/112076351",
+      "observed_on": "2022-04-19",
+      "place_guess": "Albania, DKNP",
+      "user_login": "tbc_watanabe",
+      "filename": "tamarix-parviflora-plant_04_inat-189277353.jpg"
+    },
+    {
+      "photo_id": 489355031,
+      "license": "cc-by",
+      "attribution": "(c) Dena, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/489355031/large.jpg",
+      "observation_id": 270856147,
+      "observation_url": "https://www.inaturalist.org/observations/270856147",
+      "observed_on": "2025-04-16",
+      "place_guess": "Fair Ave, Santa Cruz, CA, US",
+      "user_login": "dena-s",
+      "filename": "tamarix-parviflora-plant_05_inat-489355031.jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Colocasia esculenta",
+  "taxon_id": 122835,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 37576651,
+      "license": "cc-by",
+      "attribution": "(c) Adriana Nelly Correa Sandoval, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37576651/large.jpeg",
+      "observation_id": 24301407,
+      "observation_url": "https://www.inaturalist.org/observations/24301407",
+      "observed_on": "2019-04-28",
+      "place_guess": "Sin Nombre de Col 36, Guadalupe, N.L., Mexico",
+      "user_login": "adriananelly",
+      "filename": "colocasia-esculenta_01_inat-37576651.jpeg"
+    },
+    {
+      "photo_id": 83961184,
+      "license": "cc-by",
+      "attribution": "(c) Dave Richardson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/83961184/large.jpg",
+      "observation_id": 52804166,
+      "observation_url": "https://www.inaturalist.org/observations/52804166",
+      "observed_on": "2020-07-12",
+      "place_guess": "Stellenbosch, WC, ZA",
+      "user_login": "daverichardson",
+      "filename": "colocasia-esculenta_02_inat-83961184.jpg"
+    },
+    {
+      "photo_id": 626780063,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626780063/large.jpg",
+      "observation_id": 344025679,
+      "observation_url": "https://www.inaturalist.org/observations/344025679",
+      "observed_on": "2026-03-13",
+      "place_guess": "Cruz Quebrada-Dafundo, 1495 Cruz Quebrada, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "colocasia-esculenta_03_inat-626780063.jpg"
+    },
+    {
+      "photo_id": 52470792,
+      "license": "cc-by",
+      "attribution": "(c) Sue Ann Kendall, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52470792/large.jpg",
+      "observation_id": 33409264,
+      "observation_url": "https://www.inaturalist.org/observations/33409264",
+      "observed_on": "2019-09-25",
+      "place_guess": "W 35th St, Austin, TX, US",
+      "user_login": "sunasak",
+      "filename": "colocasia-esculenta_04_inat-52470792.jpg"
+    },
+    {
+      "photo_id": 342729445,
+      "license": "cc-by",
+      "attribution": "(c) Ethan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342729445/large.jpg",
+      "observation_id": 194902596,
+      "observation_url": "https://www.inaturalist.org/observations/194902596",
+      "observed_on": "2023-12-26",
+      "place_guess": "Pleasant Grove Reservoir, Plant City, FL, US",
+      "user_login": "captainmantis37",
+      "filename": "colocasia-esculenta_05_inat-342729445.jpg"
+    }
+  ]
+}

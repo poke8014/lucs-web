@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Spartina anglica",
+  "taxon_id": 772983,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 432352115,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432352115/large.jpeg",
+      "observation_id": 242522410,
+      "observation_url": "https://www.inaturalist.org/observations/242522410",
+      "observed_on": "2024-09-18",
+      "place_guess": "Jetty Island, Everett, WA, US",
+      "user_login": "shaheenpage",
+      "filename": "spartina-anglica_01_inat-432352115.jpeg"
+    },
+    {
+      "photo_id": 593918603,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Lee, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/593918603/large.jpg",
+      "observation_id": 327803833,
+      "observation_url": "https://www.inaturalist.org/observations/327803833",
+      "observed_on": "2025-11-23",
+      "place_guess": "\u014ct\u0101huhu, Auckland, New Zealand",
+      "user_login": "shaun-lee",
+      "filename": "spartina-anglica_02_inat-593918603.jpg"
+    },
+    {
+      "photo_id": 432420801,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432420801/large.jpeg",
+      "observation_id": 242522410,
+      "observation_url": "https://www.inaturalist.org/observations/242522410",
+      "observed_on": "2024-09-18",
+      "place_guess": "Jetty Island, Everett, WA, US",
+      "user_login": "shaheenpage",
+      "filename": "spartina-anglica_03_inat-432420801.jpeg"
+    },
+    {
+      "photo_id": 432352162,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432352162/large.jpeg",
+      "observation_id": 242522410,
+      "observation_url": "https://www.inaturalist.org/observations/242522410",
+      "observed_on": "2024-09-18",
+      "place_guess": "Jetty Island, Everett, WA, US",
+      "user_login": "shaheenpage",
+      "filename": "spartina-anglica_04_inat-432352162.jpeg"
+    },
+    {
+      "photo_id": 432352210,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432352210/large.jpeg",
+      "observation_id": 242522410,
+      "observation_url": "https://www.inaturalist.org/observations/242522410",
+      "observed_on": "2024-09-18",
+      "place_guess": "Jetty Island, Everett, WA, US",
+      "user_login": "shaheenpage",
+      "filename": "spartina-anglica_05_inat-432352210.jpeg"
+    }
+  ]
+}

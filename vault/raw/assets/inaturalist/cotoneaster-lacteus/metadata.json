@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cotoneaster lacteus",
+  "taxon_id": 411074,
+  "photos_taxon_id": 411074,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 34266354,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34266354/large.jpeg",
+      "observation_id": 22133578,
+      "observation_url": "https://www.inaturalist.org/observations/22133578",
+      "observed_on": "2019-04-05",
+      "place_guess": "Canterbury, AU-NS, AU",
+      "user_login": "jamesray",
+      "filename": "cotoneaster-lacteus_01_inat-34266354.jpeg"
+    },
+    {
+      "photo_id": 127906259,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/127906259/large.jpg",
+      "observation_id": 78177073,
+      "observation_url": "https://www.inaturalist.org/observations/78177073",
+      "observed_on": "2021-05-10",
+      "place_guess": "Selwyn, Bankside, Canterbury, NZ",
+      "user_login": "gregs",
+      "filename": "cotoneaster-lacteus_02_inat-127906259.jpg"
+    },
+    {
+      "photo_id": 34266374,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34266374/large.jpeg",
+      "observation_id": 22133578,
+      "observation_url": "https://www.inaturalist.org/observations/22133578",
+      "observed_on": "2019-04-05",
+      "place_guess": "Canterbury, AU-NS, AU",
+      "user_login": "jamesray",
+      "filename": "cotoneaster-lacteus_03_inat-34266374.jpeg"
+    },
+    {
+      "photo_id": 34266391,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34266391/large.jpeg",
+      "observation_id": 22133578,
+      "observation_url": "https://www.inaturalist.org/observations/22133578",
+      "observed_on": "2019-04-05",
+      "place_guess": "Canterbury, AU-NS, AU",
+      "user_login": "jamesray",
+      "filename": "cotoneaster-lacteus_04_inat-34266391.jpeg"
+    },
+    {
+      "photo_id": 6814996,
+      "license": "cc-by",
+      "attribution": "(c) naturewatchwidow, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6814996/large.jpeg",
+      "observation_id": 5523847,
+      "observation_url": "https://www.inaturalist.org/observations/5523847",
+      "observed_on": "2017-04-01",
+      "place_guess": "Ohariu Wellington 6037",
+      "user_login": "naturewatchwidow",
+      "filename": "cotoneaster-lacteus_05_inat-6814996.jpeg"
+    }
+  ]
+}

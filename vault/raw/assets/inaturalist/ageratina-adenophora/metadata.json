@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Ageratina adenophora",
+  "taxon_id": 64114,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 172396451,
+      "license": "cc-by",
+      "attribution": "(c) V\u00edtor Jorge, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172396451/large.jpeg",
+      "observation_id": 103054395,
+      "observation_url": "https://www.inaturalist.org/observations/103054395",
+      "observed_on": "2021-12-12",
+      "place_guess": "Sitio Praia, T\u00e1bua Rbr, Funchal, 9350 Ponta do Sol, Portugal",
+      "user_login": "vitorjcj",
+      "filename": "ageratina-adenophora_01_inat-172396451.jpeg"
+    },
+    {
+      "photo_id": 552525423,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/552525423/large.jpg",
+      "observation_id": 306387150,
+      "observation_url": "https://www.inaturalist.org/observations/306387150",
+      "observed_on": "2025-06-16",
+      "place_guess": "3000-009 Coimbra (S\u00e9 Nova), Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "ageratina-adenophora_02_inat-552525423.jpg"
+    },
+    {
+      "photo_id": 189796687,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/189796687/large.jpg",
+      "observation_id": 112363860,
+      "observation_url": "https://www.inaturalist.org/observations/112363860",
+      "observed_on": "2022-04-20",
+      "place_guess": "King Mountain Open Space Preserve, Mill Valley, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "ageratina-adenophora_03_inat-189796687.jpg"
+    },
+    {
+      "photo_id": 172396460,
+      "license": "cc-by",
+      "attribution": "(c) V\u00edtor Jorge, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172396460/large.jpeg",
+      "observation_id": 103054395,
+      "observation_url": "https://www.inaturalist.org/observations/103054395",
+      "observed_on": "2021-12-12",
+      "place_guess": "Sitio Praia, T\u00e1bua Rbr, Funchal, 9350 Ponta do Sol, Portugal",
+      "user_login": "vitorjcj",
+      "filename": "ageratina-adenophora_04_inat-172396460.jpeg"
+    },
+    {
+      "photo_id": 172396474,
+      "license": "cc-by",
+      "attribution": "(c) V\u00edtor Jorge, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/172396474/large.jpeg",
+      "observation_id": 103054395,
+      "observation_url": "https://www.inaturalist.org/observations/103054395",
+      "observed_on": "2021-12-12",
+      "place_guess": "Sitio Praia, T\u00e1bua Rbr, Funchal, 9350 Ponta do Sol, Portugal",
+      "user_login": "vitorjcj",
+      "filename": "ageratina-adenophora_05_inat-172396474.jpeg"
+    }
+  ]
+}

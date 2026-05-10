@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Carrichtera annua",
+  "taxon_id": 76132,
+  "photos_taxon_id": 76132,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 63185050,
+      "license": "cc-by",
+      "attribution": "(c) desertnaturalist, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63185050/large.jpg",
+      "observation_id": 39802128,
+      "observation_url": "https://www.inaturalist.org/observations/39802128",
+      "observed_on": "2020-03-09",
+      "place_guess": "Neo Chorio, Cyprus",
+      "user_login": "desertnaturalist",
+      "filename": "carrichtera-annua_01_inat-63185050.jpg"
+    },
+    {
+      "photo_id": 474713501,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/474713501/large.jpeg",
+      "observation_id": 264243629,
+      "observation_url": "https://www.inaturalist.org/observations/264243629",
+      "observed_on": "2025-03-07",
+      "place_guess": "30368 Cartagena, Murcia, Spain",
+      "user_login": "dixgab",
+      "filename": "carrichtera-annua_02_inat-474713501.jpeg"
+    },
+    {
+      "photo_id": 608400921,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608400921/large.jpg",
+      "observation_id": 334934615,
+      "observation_url": "https://www.inaturalist.org/observations/334934615",
+      "observed_on": "2026-01-16",
+      "place_guess": "X77V+3F, 35570 La Asomada, Las Palmas, Hiszpania",
+      "user_login": "mirela88",
+      "filename": "carrichtera-annua_03_inat-608400921.jpg"
+    },
+    {
+      "photo_id": 73922175,
+      "license": "cc-by",
+      "attribution": "(c) Chris Lindorff, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/73922175/large.jpeg",
+      "observation_id": 46607577,
+      "observation_url": "https://www.inaturalist.org/observations/46607577",
+      "observed_on": "2011-11-06",
+      "place_guess": "Mildura - Pt B, AU-VI, AU",
+      "user_login": "chrislindorff",
+      "filename": "carrichtera-annua_04_inat-73922175.jpeg"
+    },
+    {
+      "photo_id": 361510114,
+      "license": "cc-by",
+      "attribution": "(c) Ralf, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361510114/large.jpeg",
+      "observation_id": 204476399,
+      "observation_url": "https://www.inaturalist.org/observations/204476399",
+      "observed_on": "2024-03-29",
+      "place_guess": "Las Palmas, ES-CN, ES",
+      "user_login": "ahorn_",
+      "filename": "carrichtera-annua_05_inat-361510114.jpeg"
+    }
+  ]
+}

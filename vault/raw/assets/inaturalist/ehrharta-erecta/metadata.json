@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Ehrharta erecta",
+  "taxon_id": 64140,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 541352864,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541352864/large.jpg",
+      "observation_id": 300449817,
+      "observation_url": "https://www.inaturalist.org/observations/300449817",
+      "observed_on": "2013-03-20",
+      "place_guess": "3000-009 Coimbra (S\u00e9 Nova), Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "ehrharta-erecta_01_inat-541352864.jpg"
+    },
+    {
+      "photo_id": 7493472,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7493472/large.jpg",
+      "observation_id": 5992344,
+      "observation_url": "https://www.inaturalist.org/observations/5992344",
+      "observed_on": "2017-04-10",
+      "place_guess": "Kapiti Island Nature Reserve, northern coast near Tokahaki",
+      "user_login": "pjd1",
+      "filename": "ehrharta-erecta_02_inat-7493472.jpg"
+    },
+    {
+      "photo_id": 106821480,
+      "license": "cc-by",
+      "attribution": "(c) Jacqui Geux, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106821480/large.jpeg",
+      "observation_id": 66284927,
+      "observation_url": "https://www.inaturalist.org/observations/66284927",
+      "observed_on": "2020-12-06",
+      "place_guess": "Western Bay of Plenty District, Bay of Plenty, New Zealand",
+      "user_login": "jacqui-nz",
+      "filename": "ehrharta-erecta_03_inat-106821480.jpeg"
+    },
+    {
+      "photo_id": 109496692,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109496692/large.jpg",
+      "observation_id": 67725521,
+      "observation_url": "https://www.inaturalist.org/observations/67725521",
+      "observed_on": "2021-01-07",
+      "place_guess": "Grand Union canal, London, UK",
+      "user_login": "pilmar",
+      "filename": "ehrharta-erecta_04_inat-109496692.jpg"
+    },
+    {
+      "photo_id": 181739207,
+      "license": "cc-by",
+      "attribution": "(c) Saryu Mae \u524d \u671d\u7409, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181739207/large.jpeg",
+      "observation_id": 108004915,
+      "observation_url": "https://www.inaturalist.org/observations/108004915",
+      "observed_on": "2022-02-28",
+      "place_guess": "by Whau River, Avondale, West Auckland, New Zealand",
+      "user_login": "invertebratist",
+      "filename": "ehrharta-erecta_05_inat-181739207.jpeg"
+    }
+  ]
+}

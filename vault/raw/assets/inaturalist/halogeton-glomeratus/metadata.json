@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Halogeton glomeratus",
+  "taxon_id": 77331,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 433654024,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433654024/large.jpeg",
+      "observation_id": 243211820,
+      "observation_url": "https://www.inaturalist.org/observations/243211820",
+      "observed_on": "2024-09-17",
+      "place_guess": "Wayne County, UT, USA",
+      "user_login": "craigmartin",
+      "filename": "halogeton-glomeratus_01_inat-433654024.jpeg"
+    },
+    {
+      "photo_id": 108257831,
+      "license": "cc-by",
+      "attribution": "(c) John Brew, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108257831/large.jpg",
+      "observation_id": 67063168,
+      "observation_url": "https://www.inaturalist.org/observations/67063168",
+      "observed_on": "2020-10-09",
+      "place_guess": "Lockhart Basin Rd, Moab, UT, US",
+      "user_login": "brewbooks",
+      "filename": "halogeton-glomeratus_02_inat-108257831.jpg"
+    },
+    {
+      "photo_id": 508576328,
+      "license": "cc-by",
+      "attribution": "(c) Anders Hastings, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/508576328/large.jpg",
+      "observation_id": 283050624,
+      "observation_url": "https://www.inaturalist.org/observations/283050624",
+      "observed_on": "2025-05-21",
+      "place_guess": "Carbon County, WY, USA",
+      "user_login": "andershastings",
+      "filename": "halogeton-glomeratus_03_inat-508576328.jpg"
+    },
+    {
+      "photo_id": 232165921,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232165921/large.jpeg",
+      "observation_id": 136064927,
+      "observation_url": "https://www.inaturalist.org/observations/136064927",
+      "observed_on": "2022-09-22",
+      "place_guess": "Sinclair, WY 82334, USA",
+      "user_login": "alan_rockefeller",
+      "filename": "halogeton-glomeratus_04_inat-232165921.jpeg"
+    },
+    {
+      "photo_id": 563955062,
+      "license": "cc-by",
+      "attribution": "(c) P Holroyd, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/563955062/large.jpg",
+      "observation_id": 312361878,
+      "observation_url": "https://www.inaturalist.org/observations/312361878",
+      "observed_on": "2025-09-07",
+      "place_guess": "Vernal, UT 84078, USA",
+      "user_login": "pholroyd",
+      "filename": "halogeton-glomeratus_05_inat-563955062.jpg"
+    }
+  ]
+}

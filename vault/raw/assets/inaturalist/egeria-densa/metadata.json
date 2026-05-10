@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Egeria densa",
+  "taxon_id": 1555600,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 184805256,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184805256/large.jpeg",
+      "observation_id": 109630606,
+      "observation_url": "https://www.inaturalist.org/observations/109630606",
+      "observed_on": "2022-02-27",
+      "place_guess": "\u53f0\u7063\u5f70\u5316\u7e23",
+      "user_login": "leaf0605",
+      "filename": "egeria-densa_01_inat-184805256.jpeg"
+    },
+    {
+      "photo_id": 124479108,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124479108/large.jpeg",
+      "observation_id": 76092674,
+      "observation_url": "https://www.inaturalist.org/observations/76092674",
+      "observed_on": "2015-06-19",
+      "place_guess": "\u65e5\u672c\u3001\u3012783-0093 \u9ad8\u77e5\u770c\u5357\u56fd\u5e02\u7269\u90e8  \u9ad8\u77e5\u5927\u5b66\u7269\u90e8\u30ad\u30e3\u30f3\u30d1\u30b9",
+      "user_login": "heikindai_87",
+      "filename": "egeria-densa_02_inat-124479108.jpeg"
+    },
+    {
+      "photo_id": 455169265,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455169265/large.jpeg",
+      "observation_id": 254150777,
+      "observation_url": "https://www.inaturalist.org/observations/254150777",
+      "observed_on": "2012-05-15",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "egeria-densa_03_inat-455169265.jpeg"
+    },
+    {
+      "photo_id": 326540769,
+      "license": "cc-by",
+      "attribution": "(c) gwt2102, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/326540769/large.jpg",
+      "observation_id": 186807409,
+      "observation_url": "https://www.inaturalist.org/observations/186807409",
+      "observed_on": "2023-10-08",
+      "place_guess": "Ken Lockwood Gorge Wldlf Mgt Area, Califon, NJ, US",
+      "user_login": "gwt2102",
+      "filename": "egeria-densa_04_inat-326540769.jpg"
+    },
+    {
+      "photo_id": 396359008,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396359008/large.jpeg",
+      "observation_id": 223678135,
+      "observation_url": "https://www.inaturalist.org/observations/223678135",
+      "observed_on": "2024-06-15",
+      "place_guess": "Durango, Dgo., M\u00e9xico",
+      "user_login": "mar_y_sierra_silvestre",
+      "filename": "egeria-densa_05_inat-396359008.jpeg"
+    }
+  ]
+}

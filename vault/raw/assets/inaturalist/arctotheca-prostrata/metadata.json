@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Arctotheca prostrata",
+  "taxon_id": 75549,
+  "photos_taxon_id": 75549,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 7374925,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7374925/large.jpeg",
+      "observation_id": 5912634,
+      "observation_url": "https://www.inaturalist.org/observations/5912634",
+      "observed_on": "2017-04-20",
+      "place_guess": "Marin County, CA, USA",
+      "user_login": "lotusmorning",
+      "filename": "arctotheca-prostrata_01_inat-7374925.jpeg"
+    },
+    {
+      "photo_id": 10261737,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10261737/large.jpg",
+      "observation_id": 7803370,
+      "observation_url": "https://www.inaturalist.org/observations/7803370",
+      "observed_on": "2017-09-04",
+      "place_guess": "Hacienda Park, La Habra Heights, CA, US",
+      "user_login": "glmory",
+      "filename": "arctotheca-prostrata_02_inat-10261737.jpg"
+    },
+    {
+      "photo_id": 16448,
+      "license": "cc-by",
+      "attribution": "(c) folini, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16448/large.jpg",
+      "observation_id": 7411,
+      "observation_url": "https://www.inaturalist.org/observations/7411",
+      "observed_on": "2010-04-25",
+      "place_guess": "Marin Headlands, Marin county, CA",
+      "user_login": "folini",
+      "filename": "arctotheca-prostrata_03_inat-16448.jpg"
+    },
+    {
+      "photo_id": 133144149,
+      "license": "cc-by",
+      "attribution": "(c) Dave Richardson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133144149/large.jpg",
+      "observation_id": 81189509,
+      "observation_url": "https://www.inaturalist.org/observations/81189509",
+      "observed_on": "2021-06-01",
+      "place_guess": "Banghoek, Stellenbosch, WC, ZA",
+      "user_login": "daverichardson",
+      "filename": "arctotheca-prostrata_04_inat-133144149.jpg"
+    },
+    {
+      "photo_id": 126898349,
+      "license": "cc-by",
+      "attribution": "(c) Shaun Swanepoel, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126898349/large.jpeg",
+      "observation_id": 77586447,
+      "observation_url": "https://www.inaturalist.org/observations/77586447",
+      "observed_on": "2021-05-02",
+      "place_guess": "Southern Cross, Groot Brakrivier, 6525, South Africa",
+      "user_login": "shauns",
+      "filename": "arctotheca-prostrata_05_inat-126898349.jpeg"
+    }
+  ]
+}

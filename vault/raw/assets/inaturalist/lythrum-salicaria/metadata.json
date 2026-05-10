@@ -1,0 +1,70 @@
+{
+  "scientific_name": "Lythrum salicaria",
+  "taxon_id": 61321,
+  "fetched_at": "2026-05-08",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 455514822,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455514822/large.jpg",
+      "observation_id": 254323147,
+      "observation_url": "https://www.inaturalist.org/observations/254323147",
+      "observed_on": "1998-08-16",
+      "place_guess": "Montemor-o-Velho, 3140, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "lythrum-salicaria_01_inat-455514822.jpg"
+    },
+    {
+      "photo_id": 429362243,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429362243/large.jpeg",
+      "observation_id": 240952570,
+      "observation_url": "https://www.inaturalist.org/observations/240952570",
+      "observed_on": "2024-09-10",
+      "place_guess": "Glens Falls, NY 12801, USA",
+      "user_login": "w_mark_c",
+      "filename": "lythrum-salicaria_02_inat-429362243.jpeg"
+    },
+    {
+      "photo_id": 149447445,
+      "license": "cc-by",
+      "attribution": "(c) \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440 \u0414\u0432\u043e\u0440\u043a\u0438\u043d, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/149447445/large.jpeg",
+      "observation_id": 90425005,
+      "observation_url": "https://www.inaturalist.org/observations/90425005",
+      "observed_on": "2021-08-08",
+      "place_guess": "\u041c\u043e\u0441\u043a\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f, 142007",
+      "user_login": "vladimir_dvorkin",
+      "filename": "lythrum-salicaria_03_inat-149447445.jpeg"
+    },
+    {
+      "photo_id": 588266396,
+      "license": "cc-by",
+      "attribution": "(c) Daughter Dad, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/588266396/large.jpg",
+      "observation_id": 324957458,
+      "observation_url": "https://www.inaturalist.org/observations/324957458",
+      "observed_on": "2025-07-17",
+      "place_guess": "Grant County, WI, USA",
+      "user_login": "daughterdad",
+      "filename": "lythrum-salicaria_04_inat-588266396.jpg"
+    },
+    {
+      "photo_id": 419779415,
+      "license": "cc-by",
+      "attribution": "(c) Zachary M.C., some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419779415/large.jpeg",
+      "observation_id": 235992166,
+      "observation_url": "https://www.inaturalist.org/observations/235992166",
+      "observed_on": "2024-08-15",
+      "place_guess": "University of Washington, Seattle, WA, USA",
+      "user_login": "orobanchaceae_or_bust",
+      "filename": "lythrum-salicaria_05_inat-419779415.jpeg"
+    }
+  ]
+}

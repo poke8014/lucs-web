@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cortaderia jubata",
+  "taxon_id": 52714,
+  "photos_taxon_id": 52714,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-09",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 176947457,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176947457/large.jpg",
+      "observation_id": 105458333,
+      "observation_url": "https://www.inaturalist.org/observations/105458333",
+      "observed_on": "2019-02-08",
+      "place_guess": "Valle Grande, Jujuy, Argentina",
+      "user_login": "hhulsberg",
+      "filename": "cortaderia-jubata_01_inat-176947457.jpg"
+    },
+    {
+      "photo_id": 1356631,
+      "license": "cc-by",
+      "attribution": "(c) Tim Park, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1356631/large.jpg",
+      "observation_id": 1071728,
+      "observation_url": "https://www.inaturalist.org/observations/1071728",
+      "observed_on": "2014-10-27",
+      "place_guess": "2583, Hunua, Auckland, NZ",
+      "user_login": "parkecology",
+      "filename": "cortaderia-jubata_02_inat-1356631.jpg"
+    },
+    {
+      "photo_id": 34774787,
+      "license": "cc-by",
+      "attribution": "(c) Callan Bird, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34774787/large.jpg",
+      "observation_id": 22452144,
+      "observation_url": "https://www.inaturalist.org/observations/22452144",
+      "observed_on": "2019-04-14",
+      "place_guess": "Coyle Park, Point Chevalier, Auckland, New Zealand",
+      "user_login": "birdcall",
+      "filename": "cortaderia-jubata_03_inat-34774787.jpg"
+    },
+    {
+      "photo_id": 578371484,
+      "license": "cc-by",
+      "attribution": "(c) Liadan Dickie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/578371484/large.jpg",
+      "observation_id": 319925976,
+      "observation_url": "https://www.inaturalist.org/observations/319925976",
+      "observed_on": "2025-04-26",
+      "place_guess": "Sawyers Arms Rd, Christchurch, Canterbury, NZ",
+      "user_login": "fuligogirl",
+      "filename": "cortaderia-jubata_04_inat-578371484.jpg"
+    },
+    {
+      "photo_id": 1181226,
+      "license": "cc-by",
+      "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1181226/large.jpg",
+      "observation_id": 943894,
+      "observation_url": "https://www.inaturalist.org/observations/943894",
+      "observed_on": "2002-02-04",
+      "place_guess": "Rotoehu, Bay of Plenty, New Zealand",
+      "user_login": "jon_sullivan",
+      "filename": "cortaderia-jubata_05_inat-1181226.jpg"
+    }
+  ]
+}
