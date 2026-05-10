@@ -6,9 +6,18 @@ Deployment and operations configuration.
 
 - **Hosting**: Vercel (auto-deploy from `main` branch)
 - **CI**: GitHub Actions (`.github/workflows/ci.yml`) — lint + typecheck on push/PR to main
-- **Database**: PostgreSQL (local Docker for dev, Supabase/Neon for staging)
-- **DNS**: `scrapaholic.lucttang.dev` subdomain pointed to Vercel
+- **Database**: Supabase (Postgres) planned for the pollinator garden app — not yet wired up
 - **Env vars**: see `.env.example` at project root
+
+## Branching Strategy
+
+Every task gets its own feature branch off `main`. No direct commits to `main`.
+
+1. Branch from `main` for any change (feature, fix, doc, refactor).
+2. Run the pre-deploy checks below locally before opening a PR / merging.
+3. Merge to `main` only after the branch is tested and the checks pass.
+
+`main` is what Vercel auto-deploys, so it should always be in a shippable state.
 
 ## Pre-Deploy Workflow
 
