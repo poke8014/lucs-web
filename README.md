@@ -9,8 +9,6 @@ Personal brand website.
 | Massage | `/` | lucttang.dev | Tang Therapeutics — massage services, availability, Calendly booking |
 | Personal | — | lucttang.dev | Portfolio for software employers (coming soon) |
 
-> **Archived:** Scrapaholic (clinical product verification engine) was archived on 2026-05-07. The `/scrapaholic` route still serves on `scrapaholic.lucttang.dev`, but no new development is planned. See `archive/scrapaholic/` for the original planning, docs, and scripts.
-
 ## Tech Stack
 
 - **Framework**: Next.js 16 (App Router) + TypeScript
