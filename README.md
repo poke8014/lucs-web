@@ -6,8 +6,10 @@ Personal brand website.
 
 | Site | Route | Domain | Description |
 |------|-------|--------|-------------|
-| Massage | `/` | lucttang.dev | Tang Therapeutics — massage services, availability, Calendly booking |
-| Personal | — | lucttang.dev | Portfolio for software employers (coming soon) |
+| Landing | `/` | lucttang.dev | About me + index of active projects |
+| Massage | `/tangtherapeutics` | lucttang.dev | Tang Therapeutics — massage services, availability, Calendly booking |
+| Sunshower | `/sunshower` | lucttang.dev | Native CA pollinator garden, in progress |
+| Cleanup plan | `/sunshower/cleanup-plan` | lucttang.dev | Weed identification + removal planner (sunshower) |
 
 ## Tech Stack
 
@@ -31,7 +33,7 @@ cp .env.example .env
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) for the massage site.
+Open [http://localhost:3000](http://localhost:3000) for the landing page.
 
 ## Scripts
 
