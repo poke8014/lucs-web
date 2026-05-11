@@ -1,0 +1,70 @@
+# Current Project — Sunshower
+
+## What we are building
+
+Sunshower is a guide-and-tool for new gardeners to plan, prepare, plant, and maintain a native California pollinator garden. Audience: **any starting yard state** (overgrown weedy lot, bare dirt, existing-but-tired garden) and **any experience level** (first-time gardeners through experienced ones new to natives). The thesis is "right plant, right place" interpreted ecologically — native plants supporting the native pollinators that co-evolved with them ([vault/concepts/right-plant-right-place.md](../../vault/concepts/right-plant-right-place.md)).
+
+**User-zero:** Luc, gardening on his own yard in the San Jose foothills (Santa Clara County, near the Santa Cruz Mountains). The wiki and the app must immediately help his real journey, with other users joining in as the knowledge base grows.
+
+**Scope (v1):** Native pollinator garden only. Fruits, vegetables, pest/disease ID, watering trackers, and community features come later.
+
+## What good looks like
+
+A successful Sunshower experience:
+
+- A user lands on `/sunshower` and **sees the journey** — a literal trail (stepping stones / waypoint markers) across Cleanup → Selection → Planning → Care, all inside one persistent three.js scene.
+- They can **traverse linearly** (the obvious flow for first-timers) **or jump straight to a step** (advanced users skipping ahead).
+- The reference experience is [persepolis.getty.edu](https://persepolis.getty.edu/) — single-canvas, scroll-driven WebGL with a chapter overlay for direct jumps. See [REFERENCES.md](REFERENCES.md) for the full breakdown.
+- Each phase reads as **content-rich and trustworthy**, sourced from authoritative CA-native references (Cal-IPC, Calscape, UC ANR, WRIC), with citations back to wiki pages.
+- Recommendations are **regional, not generic** — Bay Area zone 9b should not get the same advice as Sacramento Valley.
+
+## Phases (one-line summary)
+
+The app is organized around the sequence a gardener actually moves through, not by feature taxonomy. Detailed phase content lives in [phases.md](phases.md).
+
+| Phase | Goal | Status |
+|---|---|---|
+| **1. Cleanup & prep** | Identify what's in the yard, decide keep/remove, prep beds for planting. | **Active** — sourcing now. |
+| **2. Plant selection & sourcing** | Choose natives for the user's site; find them at nurseries. | Foundations in place. |
+| **3. Garden planning tools** | Lay out beds, place plants, design for bloom succession. | Concept work started. |
+| **4. Ongoing care** | Seasonal calendar, lifecycle care, alerts. | Future. |
+
+Phases overlap in research and content — but the **content order and UX entry point** mirror this sequence.
+
+## Tech stack (one-line summary)
+
+Next.js (App Router) + Tailwind + Vercel; Obsidian-managed markdown vault (`vault/`) feeds Supabase (Postgres) on build; three.js + react-three-fiber drives the `/sunshower` scene with a persistent canvas at the route layout. Detail in [tech-stack.md](tech-stack.md).
+
+## What to avoid
+
+- **Generic gardening advice that fails for CA natives.** "Amend with compost" and "1 inch of water per week" are dangerously wrong for drought-adapted natives. Default to CA-native sources over generic horticulture sources.
+- **Coarse regionalization.** "California native" is a 12-ecoregion oversimplification. Surface ecoregion-level when the data supports it (Central West, Sierra Nevada foothills, etc.).
+- **Forcing finalized layouts.** Phase 3's UX should encourage iteration — "5 to 20 bubble drawings" not "one committed layout" ([vault/concepts/bubble-drawing.md](../../vault/concepts/bubble-drawing.md)).
+- **Locking the journey to one direction.** Some users land mid-flow. Always provide a jump-to-step affordance alongside linear traversal — the Persepolis chapter overlay is the model.
+- **Pre-creating empty taxonomy in `vault/`** — folders appear as sources justify them, not preemptively.
+- **Pre-emptive multi-state generalization.** v1 is CA-only; resist data-model decisions made "for other states later." Detail in [tech-stack.md](tech-stack.md).
+- **Personal yard observations in `vault/`** — those are future blog content. Luc's user-zero notes go elsewhere.
+
+## Open questions
+
+- Primary plant-info backbone: Calscape, Calflora, iNaturalist, USDA PLANTS, or a combination?
+- Regional filtering granularity: city, ZIP, or ecoregion?
+- Should the layout planner integrate with satellite/map view of the user's yard?
+- When two authoritative sources disagree on whether a plant is native to a region, how does the app present the conflict?
+- Boundary cases — a Bay Area user straddling oak woodland and coastal sage scrub: how is that surfaced?
+- Cultivar vs species page handling — when natives come in, cultivars often have reduced pollinator value.
+- Microclimate tagging within ecoregions — frontmatter field, sub-region pages, or body prose?
+
+## Related documents
+
+- [CLAUDE.md](CLAUDE.md) — identity and rules
+- [REFERENCES.md](REFERENCES.md) — vision, inspiration, principles
+- [phases.md](phases.md) — Phase 1–4 detail
+- [tech-stack.md](tech-stack.md) — stack, navigation pattern, database, multi-state scaling
+- [resources.md](resources.md) — phase-by-phase source catalog
+- [../sunshower_backlog.md](../sunshower_backlog.md) — current task tracker
+- [../sunshower_gui_mvp.md](../sunshower_gui_mvp.md) — Phase 1 GUI MVP backlog
+
+---
+
+*Last updated: 2026-05-11*

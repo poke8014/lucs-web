@@ -3,7 +3,6 @@ import Link from "next/link";
 const PROJECTS = [
   { href: "/tangtherapeutics", label: "Tang Therapeutics", note: "massage & bodywork" },
   { href: "/sunshower", label: "sunshower", note: "native CA pollinator garden, in progress" },
-  { href: "/sunshower/cleanup-plan", label: "sunshower — cleanup plan", note: "weed identification & removal planner" },
 ];
 
 export default function HomePage() {

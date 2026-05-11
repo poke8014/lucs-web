@@ -5,23 +5,40 @@ All application code lives here.
 ## Layout
 
 ```
-src {
-  app {
-    layout.tsx, globals.css,
-    (personal) {},
-    (massage) { layout.tsx, page.tsx }
-  }
-}
+src/
+  app/
+    layout.tsx          # root layout (shared <html>, fonts, metadata)
+    page.tsx            # / — landing page (project index)
+    globals.css
+    tangtherapeutics/   # /tangtherapeutics — Tang Therapeutics massage business
+      layout.tsx
+      page.tsx
+    sunshower/          # /sunshower — Pollinator garden project hub
+      layout.tsx
+      page.tsx
+      Scene.tsx         # three.js scene component
+      cleanup-plan/     # /sunshower/cleanup-plan — Phase 1 MVP
+        page.tsx
+        plan.ts
+        resolver.ts
+        types.ts
 ```
 
-## Route groups
+## Routing
 
-- `(personal)` and `(massage)` share the root layout but have independent pages, layouts, and components.
+Each site is a regular App Router segment under `src/app/`. Per-segment `layout.tsx` files scope fonts and metadata to that segment. There are no route groups currently.
+
+## Active project — Sunshower
+
+The Sunshower project lives under [app/sunshower/](app/sunshower/). Project plan and architecture are in [../planning/sunshower/](../planning/sunshower/) — start with [CONTEXT.md](../planning/sunshower/CONTEXT.md).
+
+The planned navigation pattern for `/sunshower` (visible-path with numbered stops, persistent `<Canvas>` at the route layout, chapter-overlay jumps) is documented in [../planning/sunshower/tech-stack.md](../planning/sunshower/tech-stack.md#navigation-pattern-planned).
 
 ## Scripts
 
 Available in `package.json`:
-- `npm run dev` — local dev server
+
+- `npm run dev` — local dev server (Turbopack)
 - `npm run build` — `next build`
 - `npm run lint` — ESLint
 - `npm run typecheck` — `tsc --noEmit`

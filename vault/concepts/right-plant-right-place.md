@@ -12,7 +12,7 @@ last_updated: 2026-05-07
 
 The principle that a plant's success — and its ecological contribution — depends on whether it is matched to the place it's planted.
 
-This is the **thesis statement** of the pollinator garden app. Every other concept in this wiki is, in some way, in service of helping a gardener answer: *what is the right plant for this place?*
+This is the **thesis statement** of Sunshower. Every other concept in this wiki is, in some way, in service of helping a gardener answer: *what is the right plant for this place?*
 
 ## Two layers
 
@@ -48,7 +48,7 @@ A garden of thriving non-native ornamentals satisfies the horticultural layer. I
 
 ## Why this is the thesis
 
-The pollinator garden app exists because:
+Sunshower exists because:
 
 - Native pollinator populations are declining.
 - A primary driver is loss of native plant habitat.

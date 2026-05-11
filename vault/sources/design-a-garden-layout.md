@@ -17,7 +17,7 @@ last_updated: 2026-05-07
 
 ## What this source contributes
 
-A beginner-friendly, process-oriented walkthrough of laying out a residential garden *before* picking plants. Generic landscape design — not native-CA-specific, not pollinator-specific. Its value is **planning workflow** that informs the pollinator garden app's site-setup and layout-iteration UX, not its plant data.
+A beginner-friendly, process-oriented walkthrough of laying out a residential garden *before* picking plants. Generic landscape design — not native-CA-specific, not pollinator-specific. Its value is **planning workflow** that informs Sunshower's site-setup and layout-iteration UX, not its plant data.
 
 Core argument: plant selection is step 9 (last), not step 1. Most beginner gardeners invert this and end up with plants in wrong conditions or wrong places.
 

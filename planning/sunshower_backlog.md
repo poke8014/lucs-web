@@ -1,6 +1,6 @@
-# Pollinator Garden App — Backlog
+# Sunshower — Backlog
 
-Coarse-grained task tracker for the [pollinator garden app project](pollinator_garden_app.md). Domain-level entries, not individual tickets. The goal is multi-agent / multi-session coordination — one place to see what's done, in flight, queued, and blocked.
+Coarse-grained task tracker for the [Sunshower project](sunshower.md). Domain-level entries, not individual tickets. The goal is multi-agent / multi-session coordination — one place to see what's done, in flight, queued, and blocked.
 
 **Last updated:** 2026-05-09 — absorbed iNaturalist photo-fetch follow-ups (formerly tracked in 59.md): T1 synonym spot-check ✅, T2 photos wired into plant pages ✅, T3 partial top-up ✅, T4 vault/log.md entry ✅, T5 git tracking decision ✅.
 
@@ -91,6 +91,7 @@ The structured layer — vault frontmatter is the source of truth; Supabase is d
 - 🧊 Plant selection UI — given site conditions, suggest native plants (Phase 2).
 - 🧊 Authentication / user yards (one user → many plant inventories per yard).
 - 📋 **Three.js landing/hero scene for the garden app entry page.** Stylized native CA flora + pollinator motif (bees, butterflies, hummingbirds) — sets visual identity for the app subdomain and serves as the low-risk place to build three.js muscle before Phase 3 needs it structurally. Constraints: single canvas, lazy-loaded, mobile-friendly, mind LCP/bundle budget. Avoid generic "vibey portfolio" aesthetic — motif should be specifically native-CA / pollinator. Independent of MVP feature work.
+- 📋 **Visible-path navigation across the four phases.** Render Cleanup → Selection → Planning → Care as a literal trail (stepping stones / waypoint markers) inside the `/sunshower` three.js scene. Each stop is a clickable hotspot routing to its phase; camera tweens on linear traversal, direct jumps short-circuit to the target. Persistent `<Canvas>` at the route layout so the scene doesn't remount on navigation. Pair with a HUD breadcrumb / chapter-overlay so deep-linked users can jump without learning the metaphor. Reference experience: [persepolis.getty.edu](https://persepolis.getty.edu/) — single-canvas scroll-driven WebGL with chapter overlay. Pattern + inspiration sites in [planning/sunshower/tech-stack.md → Navigation pattern](sunshower/tech-stack.md#navigation-pattern-planned) and [REFERENCES.md](sunshower/REFERENCES.md). Depends on landing-scene canvas work above (shared persistent-canvas plumbing).
 - 🧊 **Phase 3 bed layout planner — three.js as the structural rendering layer.** Mature plant footprints, height layering (back-to-front by size), sun/shade overlays, and bloom-succession scrubbing across seasons. This is where 3D earns its weight functionally; the landing scene above is the warm-up. Defer until Phase 1 cleanup workflow is shipped.
 
 ## Scrapaholic retirement
@@ -115,7 +116,7 @@ Scripts live in [.firecrawl/](../.firecrawl/) for now (gitignored — promote to
 
 ## Documentation
 
-- ✅ [Project outline](pollinator_garden_app.md)
+- ✅ [Project home — planning/sunshower/](sunshower/) (split 2026-05-11 from the original [sunshower.md](sunshower.md) outline)
 - ✅ [Vault schema (vault/CLAUDE.md)](../vault/CLAUDE.md)
 - ✅ This backlog
 - 🧊 Architecture decision record (ADR) folder — if we accumulate enough non-obvious design decisions to warrant it.

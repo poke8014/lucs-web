@@ -1,6 +1,6 @@
-# Pollinator Garden Vault
+# Sunshower Vault
 
-Knowledge base for the native California pollinator garden app, structured as an LLM-maintained wiki ([Karpathy's LLM Wiki pattern](./llm-wiki.md)).
+Knowledge base for Sunshower (native California pollinator garden app), structured as an LLM-maintained wiki ([Karpathy's LLM Wiki pattern](./llm-wiki.md)).
 
 ## How this works
 

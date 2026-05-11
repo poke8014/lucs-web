@@ -1,6 +1,6 @@
-# Pollinator Garden Wiki — Schema
+# Sunshower Wiki — Schema
 
-This vault implements the [LLM Wiki pattern](./llm-wiki.md): an LLM-maintained, persistent, interlinked knowledge base for the native California pollinator garden app project.
+This vault implements the [LLM Wiki pattern](./llm-wiki.md): an LLM-maintained, persistent, interlinked knowledge base for the Sunshower project (native California pollinator garden app).
 
 **Domain:** Native California pollinator gardening — plants, pollinators, design frameworks, regions, nurseries, ecological concepts.
 
