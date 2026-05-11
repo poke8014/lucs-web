@@ -35,6 +35,11 @@ export type Match = {
   matchedOn: string
 }
 
+export type Pick = {
+  slug: string
+  matchedOn: string
+}
+
 export type ResolvedRow = {
   id: string
   rawInput: string

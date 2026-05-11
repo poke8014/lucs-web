@@ -1,5 +1,5 @@
 import plantsData from '../../../data/plants.json'
-import type { Match, Plant } from './types'
+import type { Plant } from './types'
 
 const PLANTS = plantsData as Plant[]
 
@@ -41,60 +41,62 @@ function levenshtein(a: string, b: string): number {
   return prev[b.length]
 }
 
-const FUZZY_LIMIT = 5
+export type SearchResult = { plant: Plant; matchedOn: string }
 
-export function resolveName(input: string): Match[] {
-  const q = normalize(input)
+type SearchHit = SearchResult & { rank: number; distance: number }
+
+export function searchPlants(query: string, limit = 12): SearchResult[] {
+  const q = normalize(query)
   if (!q) return []
 
-  const exact: Match[] = []
-  const partial: Match[] = []
-  const fuzzy: { match: Match; distance: number }[] = []
-  const seen = new Set<string>()
+  const hits = new Map<string, SearchHit>()
 
   for (const entry of INDEX) {
+    let rank: number
+    let distance = 0
     if (entry.key === q) {
-      if (!seen.has(entry.plant.slug)) {
-        exact.push({ plant: entry.plant, confidence: 'exact', matchedOn: entry.original })
-        seen.add(entry.plant.slug)
+      rank = 0
+    } else if (entry.key.startsWith(q)) {
+      rank = 1
+    } else if (entry.key.includes(q)) {
+      rank = 2
+    } else if (q.length >= 4) {
+      const d = levenshtein(q, entry.key)
+      if (d <= 2 && d < entry.key.length) {
+        rank = 3
+        distance = d
+      } else {
+        continue
       }
+    } else {
+      continue
     }
-  }
-
-  if (exact.length > 0) return exact
-
-  for (const entry of INDEX) {
-    if (seen.has(entry.plant.slug)) continue
-    if (entry.key.includes(q) || q.includes(entry.key)) {
-      partial.push({ plant: entry.plant, confidence: 'partial', matchedOn: entry.original })
-      seen.add(entry.plant.slug)
-    }
-  }
-
-  for (const entry of INDEX) {
-    if (seen.has(entry.plant.slug)) continue
-    const d = levenshtein(q, entry.key)
-    if (d <= 2 && d < entry.key.length) {
-      fuzzy.push({
-        match: { plant: entry.plant, confidence: 'fuzzy', matchedOn: entry.original },
-        distance: d,
+    const existing = hits.get(entry.plant.slug)
+    if (
+      !existing ||
+      rank < existing.rank ||
+      (rank === existing.rank && distance < existing.distance)
+    ) {
+      hits.set(entry.plant.slug, {
+        plant: entry.plant,
+        matchedOn: entry.original,
+        rank,
+        distance,
       })
-      seen.add(entry.plant.slug)
     }
   }
 
-  fuzzy.sort((a, b) => a.distance - b.distance)
-
-  return [...partial, ...fuzzy.map((f) => f.match)].slice(0, FUZZY_LIMIT)
+  return [...hits.values()]
+    .sort(
+      (a, b) =>
+        a.rank - b.rank ||
+        a.distance - b.distance ||
+        a.plant.scientific_name.localeCompare(b.plant.scientific_name),
+    )
+    .slice(0, limit)
+    .map(({ plant, matchedOn }) => ({ plant, matchedOn }))
 }
 
 export function plantBySlug(slug: string): Plant | undefined {
   return PLANTS.find((p) => p.slug === slug)
-}
-
-export function parseInputList(raw: string): string[] {
-  return raw
-    .split(/[\n,]+/)
-    .map((s) => s.trim())
-    .filter(Boolean)
 }
