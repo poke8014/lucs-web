@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Scene from "./Scene";
 
 export const metadata: Metadata = {
@@ -28,6 +29,12 @@ export default function SunshowerPage() {
             Native California plants, the pollinators that co-evolved with
             them, and the slow work of pulling weeds before the rains come.
           </p>
+          <Link
+            href="/sunshower/cleanup-plan"
+            className="pointer-events-auto mt-6 inline-flex items-center gap-2 text-sm uppercase tracking-[0.18em] text-[#2a1d10]/80 underline-offset-4 hover:text-[#2a1d10] hover:underline"
+          >
+            cleanup plan <span aria-hidden>→</span>
+          </Link>
         </div>
       </div>
     </main>

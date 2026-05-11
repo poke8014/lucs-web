@@ -38,7 +38,7 @@ This argues directly *against* committing to a single layout in a planning tool,
 - It's not a planting plan — plant selection happens *after* the layout is settled.
 - It's not a single artifact — a plan that took one sketch is a plan that wasn't iterated.
 
-## Implications for the pollinator garden app
+## Implications for Sunshower
 
 - Layout creation should be lightweight: drag bubbles, name them, resize them, duplicate the whole canvas to fork an idea.
 - Saving 10 named drafts ("v3 — moved patio south") should feel as natural as saving one.

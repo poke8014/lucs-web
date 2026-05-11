@@ -6,7 +6,7 @@ Deployment and operations configuration.
 
 - **Hosting**: Vercel (auto-deploy from `main` branch)
 - **CI**: GitHub Actions (`.github/workflows/ci.yml`) — lint + typecheck on push/PR to main
-- **Database**: Supabase (Postgres) planned for the pollinator garden app — not yet wired up
+- **Database**: Supabase (Postgres) planned for Sunshower — not yet wired up. Schema sketched in [../planning/sunshower/tech-stack.md](../planning/sunshower/tech-stack.md#database-architecture).
 - **Env vars**: see `.env.example` at project root
 
 ## Branching Strategy

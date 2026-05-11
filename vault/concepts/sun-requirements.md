@@ -32,7 +32,7 @@ Direct sun = unshaded sun reaching the plant. The clock matters too:
 - **Morning sun** is gentler. Many "part shade" plants tolerate full morning + afternoon shade.
 - **Afternoon sun** in inland California is the harshest. Hot-afternoon exposure can stress plants rated for full sun in milder climates.
 
-This means **a yard's sun map is not just hours-per-day** — it's hours-and-when. The pollinator app's sun input should accept timing, not just a total.
+This means **a yard's sun map is not just hours-per-day** — it's hours-and-when. Sunshower's sun input should accept timing, not just a total.
 
 ## Maps to plant frontmatter
 
