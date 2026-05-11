@@ -27,9 +27,6 @@ npm install
 cp .env.example .env
 # Fill in API keys (see .env.example for descriptions)
 
-# Generate Prisma client
-npx prisma generate
-
 # Run dev server
 npm run dev
 ```
@@ -41,7 +38,7 @@ Open [http://localhost:3000](http://localhost:3000) for the massage site.
 | Command | Description |
 |---------|-------------|
 | `npm run dev` | Start local dev server |
-| `npm run build` | Generate Prisma client + build for production |
+| `npm run build` | Build for production |
 | `npm run lint` | Run ESLint |
 | `npm run typecheck` | Run `tsc --noEmit` |
 

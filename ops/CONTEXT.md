@@ -25,7 +25,7 @@ Before pushing to `main`, run checks locally to catch issues early:
 
 1. `npm run lint` — ESLint
 2. `npm run typecheck` — `tsc --noEmit`
-3. `npm run build` — full production build (includes `prisma generate`)
+3. `npm run build` — full production build
 
 If all three pass locally, push. Vercel auto-deploys from `main`; GitHub Actions runs CI in parallel.
 
@@ -40,5 +40,5 @@ After pushing, check the CI pipeline:
 ## Debugging a Failed Deploy
 
 1. Run `gh run view <run-id> --log-failed` to see only the failed step output.
-2. Identify which step failed (lint, typecheck, or prisma generate) and fix locally.
+2. Identify which step failed (lint or typecheck) and fix locally.
 3. Do not push again until the fix passes the same local pre-deploy checks above.
