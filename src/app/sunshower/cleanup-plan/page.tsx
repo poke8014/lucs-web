@@ -1,9 +1,11 @@
 'use client'
 
 import { useMemo, useState } from 'react'
-import { parseInputList, plantBySlug, resolveName } from './resolver'
+import PhotoLightbox from './PhotoLightbox'
+import PlantPicker from './PlantPicker'
+import { plantBySlug } from './resolver'
 import { buildPlan } from './plan'
-import type { Match, ResolvedRow } from './types'
+import type { Match, Pick, Plant, ResolvedRow } from './types'
 
 type Step = 'input' | 'confirm' | 'plan'
 
@@ -29,27 +31,30 @@ const CONFIDENCE_LABEL: Record<Match['confidence'], string> = {
   fuzzy: 'Closest match',
 }
 
-function rowFromInput(raw: string): ResolvedRow {
-  const candidates = resolveName(raw)
-  const exact = candidates.find((c) => c.confidence === 'exact')
+function rowFromPick(plant: Plant, matchedOn: string): ResolvedRow {
   return {
     id: crypto.randomUUID(),
-    rawInput: raw,
-    candidates,
-    selectedSlug: exact ? exact.plant.slug : (candidates[0]?.plant.slug ?? null),
-    status: exact ? 'kept' : 'unresolved',
+    rawInput: matchedOn,
+    candidates: [{ plant, confidence: 'exact', matchedOn }],
+    selectedSlug: plant.slug,
+    status: 'kept',
   }
 }
 
 export default function CleanupPlanPage() {
   const [step, setStep] = useState<Step>('input')
-  const [rawInput, setRawInput] = useState('')
+  const [picks, setPicks] = useState<Pick[]>([])
   const [rows, setRows] = useState<ResolvedRow[]>([])
 
   function startConfirm() {
-    const names = parseInputList(rawInput)
-    if (names.length === 0) return
-    setRows(names.map(rowFromInput))
+    if (picks.length === 0) return
+    const newRows = picks
+      .map((pick) => {
+        const plant = plantBySlug(pick.slug)
+        return plant ? rowFromPick(plant, pick.matchedOn) : null
+      })
+      .filter((r): r is ResolvedRow => Boolean(r))
+    setRows(newRows)
     setStep('confirm')
   }
 
@@ -77,7 +82,7 @@ export default function CleanupPlanPage() {
   function reset() {
     setStep('input')
     setRows([])
-    setRawInput('')
+    setPicks([])
   }
 
   return (
@@ -90,10 +95,10 @@ export default function CleanupPlanPage() {
           Build a weed-removal plan for your yard
         </h1>
         <p className="mt-3 max-w-2xl text-stone-600">
-          Paste the plant names you&rsquo;ve identified in your yard
-          (iNaturalist is the easiest tool for this) and we&rsquo;ll match each
-          one against the Cal-IPC top-tier invasive list, confirm with photos,
-          and propose a removal order.
+          Pick the plants you&rsquo;ve identified in your yard (iNaturalist is
+          the easiest tool for spotting them) from the Cal-IPC top-tier
+          invasive list, confirm with photos, and we&rsquo;ll propose a
+          removal order.
         </p>
       </header>
 
@@ -101,8 +106,8 @@ export default function CleanupPlanPage() {
 
       {step === 'input' && (
         <InputSection
-          value={rawInput}
-          onChange={setRawInput}
+          selectedPicks={picks}
+          onChange={setPicks}
           onSubmit={startConfirm}
         />
       )}
@@ -155,44 +160,32 @@ function Stepper({ current }: { current: Step }) {
 }
 
 function InputSection({
-  value,
+  selectedPicks,
   onChange,
   onSubmit,
 }: {
-  value: string
-  onChange: (s: string) => void
+  selectedPicks: Pick[]
+  onChange: (picks: Pick[]) => void
   onSubmit: () => void
 }) {
   return (
     <section>
-      <label
-        htmlFor="weed-list"
-        className="mb-2 block text-sm font-medium text-stone-700"
-      >
-        Plant names (one per line, or comma-separated)
-      </label>
-      <textarea
-        id="weed-list"
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-        rows={10}
-        className="w-full rounded-md border border-stone-300 bg-white p-4 font-mono text-sm focus:border-emerald-600 focus:outline-none"
-        placeholder={
-          'Cytisus scoparius\nHimalayan blackberry\nfennel\nEnglish ivy'
-        }
-      />
-      <div className="mt-4 flex items-center justify-between">
+      <p className="mb-2 block text-sm font-medium text-stone-700">
+        Plants you&rsquo;ve identified in your yard
+      </p>
+      <PlantPicker selectedPicks={selectedPicks} onChange={onChange} />
+      <div className="mt-4 flex items-center justify-between gap-4">
         <p className="text-xs text-stone-500">
-          Scientific or common names both work. We&rsquo;ll show matches for
-          you to confirm.
+          Search by scientific or common name. We&rsquo;ll show photos to
+          confirm on the next step.
         </p>
         <button
           type="button"
           onClick={onSubmit}
-          disabled={value.trim().length === 0}
-          className="rounded-md bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800 disabled:cursor-not-allowed disabled:bg-stone-300"
+          disabled={selectedPicks.length === 0}
+          className="flex-none rounded-md bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800 disabled:cursor-not-allowed disabled:bg-stone-300"
         >
-          Match these
+          Confirm picks ({selectedPicks.length})
         </button>
       </div>
     </section>
@@ -260,8 +253,10 @@ function ConfirmRow({
   onPick: (id: string, slug: string) => void
   onDrop: (id: string) => void
 }) {
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null)
   const selected = row.candidates.find((c) => c.plant.slug === row.selectedSlug)
-  const photo = selected?.plant.photos[0]
+  const photos = selected?.plant.photos ?? []
+  const photo = photos[0]
 
   if (row.candidates.length === 0) {
     return (
@@ -291,15 +286,29 @@ function ConfirmRow({
     <li className="rounded-md border border-stone-200 bg-white p-4">
       <div className="flex items-start gap-4">
         {photo ? (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={photo.url}
-            alt={selected?.plant.scientific_name ?? ''}
-            className="h-24 w-24 flex-none rounded-md object-cover"
-            loading="lazy"
-          />
+          <div className="flex flex-none flex-col items-center gap-1">
+            <button
+              type="button"
+              onClick={() => setLightboxIndex(0)}
+              aria-label={`View photos of ${selected?.plant.scientific_name ?? 'plant'}`}
+              className="block overflow-hidden rounded-md"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={photo.url}
+                alt={selected?.plant.scientific_name ?? ''}
+                className="h-40 w-40 object-cover transition hover:opacity-90"
+                loading="lazy"
+              />
+            </button>
+            {photos.length > 1 && (
+              <p className="text-xs text-stone-500">
+                {photos.length} photos — click to enlarge
+              </p>
+            )}
+          </div>
         ) : (
-          <div className="h-24 w-24 flex-none rounded-md bg-stone-100" />
+          <div className="h-40 w-40 flex-none rounded-md bg-stone-100" />
         )}
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
@@ -385,6 +394,15 @@ function ConfirmRow({
           </button>
         </div>
       </div>
+      {selected && lightboxIndex !== null && (
+        <PhotoLightbox
+          photos={photos}
+          index={lightboxIndex}
+          onIndexChange={setLightboxIndex}
+          caption={selected.plant.scientific_name}
+          onClose={() => setLightboxIndex(null)}
+        />
+      )}
     </li>
   )
 }

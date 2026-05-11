@@ -16,7 +16,7 @@ Builds on the existing [/cleanup-plan](../src/app/sunshower/cleanup-plan/page.ts
 
 ## Round 1 — parallelizable
 
-### Agent A — Autocomplete plant picker
+### Agent A — Autocomplete plant picker ✅ (2026-05-11)
 - **Goal:** replace the textarea on the input step with a multi-select autocomplete over the 137-plant DB. Type "fenn" → see *Foeniculum vulgare — fennel* with photo thumb → select. Chips list shows picks. Common + scientific names both searchable.
 - **Owns:**
   - [src/app/sunshower/cleanup-plan/page.tsx](../src/app/sunshower/cleanup-plan/page.tsx) — input step only
@@ -24,6 +24,7 @@ Builds on the existing [/cleanup-plan](../src/app/sunshower/cleanup-plan/page.ts
   - Reuse `resolveName` in [resolver.ts](../src/app/sunshower/cleanup-plan/resolver.ts) (may export an autocomplete-friendly variant)
 - **Depends on:** nothing
 - **DoD:** pick 3 plants → confirm + plan steps still work end-to-end. Free-text paste removed.
+- **Shipped:** PR #4. `searchPlants(query, limit)` replaces `resolveName` as the autocomplete-friendly variant; `resolveName` + `parseInputList` removed (only callers were in `page.tsx`). New [PlantPicker.tsx](../src/app/sunshower/cleanup-plan/PlantPicker.tsx) with keyboard nav, photo thumbs, and matched-term disambiguation in the dropdown (shows e.g. *Hordeum murinum · foxtail* when search hits a non-primary common name). New `Pick` type threads the matched term into the confirm row's "You typed:" label. Bonus: new [PhotoLightbox.tsx](../src/app/sunshower/cleanup-plan/PhotoLightbox.tsx) — clicking a confirm photo opens a full-viewport viewer that scrolls through all 3 photos per plant with keyboard nav + attribution.
 
 ### Agent B — Per-plant removal-method data
 - **Goal:** enrich plant records with plant-specific `removal_method` + `removal_notes[]` so plans show real per-species differences (broom ≠ blackberry ≠ ivy ≠ fennel) instead of the current 3 generic spread-mechanism patterns in [plan.ts](../src/app/sunshower/cleanup-plan/plan.ts). Source from UC IPM / Cal-IPC management notes for ~30 most-likely-in-a-CA-yard invasives.
