@@ -2,7 +2,7 @@
 
 Coarse-grained task tracker for the [Sunshower project](sunshower.md). Domain-level entries, not individual tickets. The goal is multi-agent / multi-session coordination — one place to see what's done, in flight, queued, and blocked.
 
-**Last updated:** 2026-05-09 — absorbed iNaturalist photo-fetch follow-ups (formerly tracked in 59.md): T1 synonym spot-check ✅, T2 photos wired into plant pages ✅, T3 partial top-up ✅, T4 vault/log.md entry ✅, T5 git tracking decision ✅.
+**Last updated:** 2026-05-11 — Agent A (autocomplete plant picker) shipped in PR #4; user-zero MVP moves from 📋 to 🚧.
 
 ## Conventions
 
@@ -81,12 +81,13 @@ The structured layer — vault frontmatter is the source of truth; Supabase is d
 
 ## App / UI
 
-- 📋 **User-zero MVP — weed list → confirmed list → attack plan.** Phase 1 entry point. Three steps:
-  1. **Input.** User pastes a list of plant names (scientific or common) collected from their yard. iNaturalist is the offline ID tool for this step — not embedded in the app yet.
-  2. **Confirm.** For each name, app resolves it against the plant database and renders photos (iNat first, Cal-IPC for reference) so the user verifies each entry matches what's actually in their yard. Per-row keep/edit/drop.
+- 🚧 **User-zero MVP — pick list → confirmed list → attack plan.** Phase 1 entry point. Three steps:
+  1. **Input.** ✅ User picks plants identified in their yard from an autocomplete over the 137-plant Cal-IPC DB (search by scientific name, common name, or alias; results show photo thumbs and disambiguate the matched term). iNaturalist is the offline ID tool for this step — not embedded in the app yet. Shipped in PR #4 (Agent A).
+  2. **Confirm.** For each pick, app renders photos so the user verifies each entry matches what's actually in their yard. Clicking a photo opens a lightbox with all photos for that plant. Per-row keep/drop.
   3. **Plan.** Generated from the confirmed list: removal sequence ordered by Cal-IPC rating × spread mechanism × season; per-weed method (sheet mulch / solarize / manual / targeted herbicide); CA timing windows; disposal/reinfestation notes; handoff to Phase 2 plant selection.
   - Depends on: iNat photos wired into plant pages (✅ done — see Photo sourcing section), WRIC ingest for management content, Phase-1 management concepts. Can ship with stubbed plan content while those land.
   - Out of scope for MVP: in-app photo recognition, satellite/yard map overlay, multi-yard accounts, login.
+  - See [planning/sunshower_gui_mvp.md](sunshower_gui_mvp.md) for the per-agent breakdown of the remaining work.
 - 🧊 In-app identification flow — user uploads a photo or describes plant; app does the matching (replaces the offline iNat step in the MVP above).
 - 🧊 Plant selection UI — given site conditions, suggest native plants (Phase 2).
 - 🧊 Authentication / user yards (one user → many plant inventories per yard).
