@@ -12,10 +12,12 @@ Luc's Web — landing page for future software employers and massage clients, an
 ```
 
 ## Sites
-- **(personal)** — Portfolio for software employers: projects, skills, contact
-- **(massage)** — Client-facing massage business: services, booking, about
+- **/** — Landing page: about me + index of active projects
+- **/tangtherapeutics** — Tang Therapeutics massage business: services, booking, about
+- **/sunshower** — Pollinator garden project hub (scene + planning tools)
+  - **/sunshower/cleanup-plan** — Weed identification + removal planner
 
-Route groups `(personal)` and `(massage)` share the root layout but have independent pages, layouts, and components nested within each group.
+Each site is a regular App Router segment under `src/app/`. Per-segment layouts (e.g. [src/app/tangtherapeutics/layout.tsx](src/app/tangtherapeutics/layout.tsx), [src/app/sunshower/layout.tsx](src/app/sunshower/layout.tsx)) scope fonts and metadata to that segment.
 
 ## Active Project — Pollinator Garden App
 Native California pollinator garden planning tool.
