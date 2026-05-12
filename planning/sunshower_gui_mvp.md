@@ -26,14 +26,18 @@ Builds on the existing [/cleanup-plan](../src/app/sunshower/cleanup-plan/page.ts
 - **DoD:** pick 3 plants → confirm + plan steps still work end-to-end. Free-text paste removed.
 - **Shipped:** PR #4. `searchPlants(query, limit)` replaces `resolveName` as the autocomplete-friendly variant; `resolveName` + `parseInputList` removed (only callers were in `page.tsx`). New [PlantPicker.tsx](../src/app/sunshower/cleanup-plan/PlantPicker.tsx) with keyboard nav, photo thumbs, and matched-term disambiguation in the dropdown (shows e.g. *Hordeum murinum · foxtail* when search hits a non-primary common name). New `Pick` type threads the matched term into the confirm row's "You typed:" label. Bonus: new [PhotoLightbox.tsx](../src/app/sunshower/cleanup-plan/PhotoLightbox.tsx) — clicking a confirm photo opens a full-viewport viewer that scrolls through all 3 photos per plant with keyboard nav + attribution.
 
-### Agent B — Per-plant removal-method data
-- **Goal:** enrich plant records with plant-specific `removal_method` + `removal_notes[]` so plans show real per-species differences (broom ≠ blackberry ≠ ivy ≠ fennel) instead of the current 3 generic spread-mechanism patterns in [plan.ts](../src/app/sunshower/cleanup-plan/plan.ts). Source from UC IPM / Cal-IPC management notes for ~30 most-likely-in-a-CA-yard invasives.
+### Agent B — Per-plant removal-method data ✅ (2026-05-11)
+- **Goal:** enrich plant records with plant-specific `removal_method` + `removal_notes[]` so plans show real per-species differences (broom ≠ blackberry ≠ ivy ≠ fennel) instead of the current 4 generic spread-mechanism patterns in [plan.ts](../src/app/sunshower/cleanup-plan/plan.ts) (`methodFor` only branches on veg/seed markers). Source from UC IPM / Cal-IPC management notes for ~30 most-likely-in-a-CA-yard invasives.
+- **Why current plan reads generic:** [plan.ts:44-57](../src/app/sunshower/cleanup-plan/plan.ts#L44-L57) consults only `spread_mechanisms`; no `removal_method` field exists in [types.ts](../src/app/sunshower/cleanup-plan/types.ts) or `plants.json`. Confirmed data gap, not a logic bug.
+- **Shape sketch (for D to consume):** `removal_method` should be a **canonical key** (e.g. `hand_pull`, `dig_root_crown`, `cut_stump_paint`, `smother_sheet_mulch`, `mow_then_solarize`) so D can group plants by shared method. `removal_notes[]` carries plant-specific cautions ("blackberry canes re-root from tip layering", "fennel taproot snaps — get the crown").
 - **Owns:**
   - [src/data/plants.json](../src/data/plants.json) — schema extension
   - [types.ts](../src/app/sunshower/cleanup-plan/types.ts) — add fields
-  - Small note in `vault/` documenting sources used
+  - Small note in `vault/` documenting sources used + the canonical method vocabulary chosen
 - **Depends on:** nothing (data work)
-- **DoD:** 30+ plants have plant-specific methods + caution strings; type schema updated.
+- **DoD:** 30+ plants have plant-specific methods + caution strings; type schema updated; method values drawn from a documented closed vocabulary so D can group on them.
+- **Shipped:** new `RemovalMethod` union in [types.ts](../src/app/sunshower/cleanup-plan/types.ts) with 10 canonical keys (`hand_pull`, `dig_taproot`, `cut_stump_herbicide`, `cane_cut_dig_crown`, `pull_vine_dig_crown`, `dig_rhizome_complete`, `dig_bulb_complete`, `sheet_mulch_smother`, `mow_before_seed`, `solarize_summer`). 38 yard-relevant plants annotated in [plants.json](../src/data/plants.json) via [vault/scripts/apply_removal_methods.py](../vault/scripts/apply_removal_methods.py); remaining 99 carry `removal_method: null` + `removal_notes: []`. Distribution oversamples broom (5), brome/oat/foxtail (5), vine (4), thistle (3), clumping grass (5) so Agent D's grouped output has real groups. Vocabulary + source attribution at [vault/synthesis/invasive-removal-methods.md](../vault/synthesis/invasive-removal-methods.md). Note for D: keys above differ slightly from the original sketch — `dig_root_crown` split into `dig_taproot` / `cane_cut_dig_crown` / `dig_rhizome_complete` / `dig_bulb_complete` since the actions diverge meaningfully.
+- **Citations follow-up (2026-05-11):** added `removal_sources: string[]` field on Plant; scraped the full 274-PDF WRIC archive via [vault/scripts/scrape_wric.py](../vault/scripts/scrape_wric.py) into [vault/raw/articles/wric/](../vault/raw/articles/wric/); backfilled per-plant citations via [vault/scripts/backfill_removal_sources.py](../vault/scripts/backfill_removal_sources.py) (36 direct + 1 congener + 1 no-source — stinknet, post-dates the 2013 book). WRIC dataset meta-page at [vault/sources/wric.md](../vault/sources/wric.md). The v0 synthesized `removal_notes[]` are unchanged in this pass; rewriting them against canonical WRIC text is the next follow-up (Agent B v3).
 
 ### Agent C — Site context (lean)
 - **Goal:** tiny "tell us about your yard" step between confirm and plan. **One field for MVP:** yard state (overgrown / partially planted / mostly bare). Drives the generic prep section in the plan. Zip/sun/water deferred — no outputs use them yet.
@@ -57,16 +61,18 @@ Builds on the existing [/cleanup-plan](../src/app/sunshower/cleanup-plan/page.ts
 
 ## Round 2 — after B and C land
 
-### Agent D — Expanded plan output
+### Agent D — Expanded plan output (yard-wide, grouped)
+- **Framing:** the plan is a **plan for the yard**, not a list of plant detail cards. Once a user confirms their picks, they want a sequence of removal actions to take across the whole yard. Plants with overlapping methods get one shared instruction; plant-specific gotchas surface as bullets under that group.
 - **Goal:** restructure the plan step into three sections:
-  1. **Remove** — per-plant detailed method (Agent B data) + plant-specific cautions
-  2. **Prep the area for planting** — generic guidance driven by yard state (Agent C): cleanup-method recommendation, "don't compost rhizome fragments", "leave existing trees alone", what "ready to plant" looks like
-  3. **Coming next** — explicit placeholder for timing/soil-prep/plant selection (deferred items)
+  1. **Remove (grouped by method)** — group confirmed plants by their `removal_method` key (Agent B). One method heading per group ("Cut-stump and paint with herbicide", "Hand-pull before seed set", "Dig root crown and bag fragments"), the affected plants listed under it, with each plant's `removal_notes[]` shown as plant-specific cautions beneath. A plant with no group-mates still appears under its method heading — single-item "groups" are fine. Order groups by Cal-IPC severity of the worst plant in the group, then by group size.
+  2. **Prep the area for planting** — generic guidance driven by yard state (Agent C): cleanup-method recommendation, "don't compost rhizome fragments", "leave existing trees alone", what "ready to plant" looks like.
+  3. **Coming next** — explicit placeholder for timing/soil-prep/plant selection (deferred items).
+- **Anti-goal:** no per-plant detail card / no "plant + photo + method" repeating block. Photos can stay on the confirm step; the plan step is action-first.
 - **Owns:**
   - PlanSection in [page.tsx](../src/app/sunshower/cleanup-plan/page.tsx)
-  - [plan.ts](../src/app/sunshower/cleanup-plan/plan.ts) — rework `buildPlan` for new fields + context
-- **Depends on:** B (data shape), C (context type)
-- **DoD:** plan shows per-plant methods that visibly differ; prep section reads as useful, not boilerplate.
+  - [plan.ts](../src/app/sunshower/cleanup-plan/plan.ts) — rework `buildPlan` to return method-grouped output (`{ method, methodLabel, plants: { plant, notes[] }[] }[]`) rather than the current flat `PlanItem[]`
+- **Depends on:** B (data shape + canonical method vocabulary), C (context type)
+- **DoD:** confirming 3+ plants that share a method produces one grouped action with per-plant caution bullets — not three near-identical cards. Prep section reads as useful, not boilerplate.
 
 ---
 

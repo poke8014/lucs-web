@@ -63,6 +63,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/105538206"
       }
+    ],
+    "removal_method": "cut_stump_herbicide",
+    "removal_notes": [
+      "Resprouts vigorously from cut stumps and from root suckers — paint the cut surface with concentrated glyphosate or triclopyr within minutes of cutting.",
+      "Seedbank persists for decades; expect seedlings for many years after the parent tree is gone.",
+      "Do not chip without bagging — fresh fragments can re-root in moist soil."
+    ],
+    "removal_sources": [
+      "wric/Acacia"
     ]
   },
   {
@@ -125,7 +134,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/279333667"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ageratina-adenophora",
@@ -205,7 +217,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/112363860"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ailanthus-altissima",
@@ -283,6 +298,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/264709649"
       }
+    ],
+    "removal_method": "cut_stump_herbicide",
+    "removal_notes": [
+      "Cutting alone triggers an explosion of root suckers — never cut without immediately treating the stump with triclopyr.",
+      "Smaller stems can be basal-bark treated without cutting first.",
+      "Wear gloves: the sap is a skin irritant and the crushed leaves smell foul."
+    ],
+    "removal_sources": [
+      "wric/Ailanthus"
     ]
   },
   {
@@ -347,7 +371,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/88194613"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "alliaria-petiolata",
@@ -413,6 +440,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/110236725"
       }
+    ],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Biennial — pull rosettes any time, dig bolting plants before seed set.",
+      "Bag and landfill: cut stalks finish maturing viable seed inside the pile, so don't compost."
+    ],
+    "removal_sources": [
+      "wric/Alliaria"
     ]
   },
   {
@@ -474,7 +509,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/118565543"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ammophila-arenaria",
@@ -530,7 +568,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/337932022"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "arctotheca-calendula",
@@ -595,7 +636,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/227795711"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "arctotheca-prostrata",
@@ -661,7 +705,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/7411"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "arundo-donax",
@@ -731,6 +778,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/50178228"
       }
+    ],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Every node and rhizome fragment re-roots — never chip or leave cuttings on bare soil.",
+      "Mature stands resist hand-digging; cut-stump with concentrated glyphosate on freshly-cut canes is the practical method, repeated annually for 2–3 years.",
+      "Pile cut material on a tarp and bag for landfill — do not green-bin."
+    ],
+    "removal_sources": [
+      "wric/Arundo"
     ]
   },
   {
@@ -807,7 +863,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/258406793"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "asphodelus-fistulosus",
@@ -873,7 +932,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/260125744"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "atriplex-semibaccata",
@@ -940,7 +1002,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/38351139"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "avena-barbata",
@@ -1010,7 +1075,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/11553497"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "avena-fatua",
@@ -1082,6 +1150,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/250588022"
       }
+    ],
+    "removal_method": "mow_before_seed",
+    "removal_notes": [
+      "First-pass mow in March/April catches the bulk of bolters.",
+      "A second pass 3–4 weeks later catches stragglers from late tillers.",
+      "Spikelets are barbed — clean shoes and gear before leaving the site."
+    ],
+    "removal_sources": [
+      "wric/Avena_barbata-fatua"
     ]
   },
   {
@@ -1149,7 +1226,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/281739376"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "brachypodium-sylvaticum",
@@ -1208,7 +1288,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/16128066"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "brassica-nigra",
@@ -1279,6 +1362,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/665886"
       }
+    ],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Pull when soil is moist and before pods yellow — once pods are tan, seed is already viable.",
+      "Annual: a single clean pass in early spring plus a follow-up sweep can eliminate seed input for the year."
+    ],
+    "removal_sources": [
+      "wric/Brassica_nigra"
     ]
   },
   {
@@ -1351,7 +1442,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/150727821"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "bromus-diandrus",
@@ -1446,6 +1540,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/355945453"
       }
+    ],
+    "removal_method": "mow_before_seed",
+    "removal_notes": [
+      "Mow or weed-whack at the late boot stage — just as awns emerge but before they harden.",
+      "Once awns turn tan, cutting re-seeds the site; time the work carefully.",
+      "Mulch heavily after the spring flush to shade out next year's seedbank."
+    ],
+    "removal_sources": [
+      "wric/Bromus_diandrus-madritensis-tectorum"
     ]
   },
   {
@@ -1526,6 +1629,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/5493529"
       }
+    ],
+    "removal_method": "mow_before_seed",
+    "removal_notes": [
+      "Red brome shares cheatgrass's wildfire risk — same urgency window.",
+      "Mow at boot stage; flame-weeding can substitute on small bare patches."
+    ],
+    "removal_sources": [
+      "wric/Bromus_diandrus-madritensis-tectorum"
     ]
   },
   {
@@ -1600,6 +1711,14 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/79900524"
       }
+    ],
+    "removal_method": "mow_before_seed",
+    "removal_notes": [
+      "Cheatgrass dries to a fire hazard by May — clear before the dry-down window.",
+      "Seedbank is shallow but dense; aggressive shading with mulch or a cover crop accelerates depletion."
+    ],
+    "removal_sources": [
+      "wric/Bromus_diandrus-madritensis-tectorum"
     ]
   },
   {
@@ -1668,7 +1787,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/255341814"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "carduus-pycnocephalus",
@@ -1739,6 +1861,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/116522921"
       }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Italian thistle bolts fast in spring — catch rosettes early, before stems lignify.",
+      "Sever the taproot below the crown; cutting at ground level lets crowns resprout.",
+      "Wear eye protection — flower heads bristle with stiff spines."
+    ],
+    "removal_sources": [
+      "wric/Carduus_acanthoides-nutans-pycnocephalus-tenuiflorus"
     ]
   },
   {
@@ -1804,7 +1935,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/212455386"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "carpobrotus-edulis",
@@ -1866,6 +2000,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/1054099"
       }
+    ],
+    "removal_method": "sheet_mulch_smother",
+    "removal_notes": [
+      "Iceplant rolls back like a heavy carpet — start at one edge and peel toward the other, lifting the entire mat.",
+      "Stems hold water for weeks — drain on a tarp before bagging, or solarize the mat in place under clear plastic.",
+      "Re-survey the lifted area for 12 months; broken stems re-root from any soil contact."
+    ],
+    "removal_sources": [
+      "wric/Carpobrotus"
     ]
   },
   {
@@ -1925,7 +2068,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/334934615"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "carthamus-lanatus",
@@ -1996,7 +2142,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/53920987"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "centaurea-calcitrapa",
@@ -2059,7 +2208,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/319429400"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "centaurea-diffusa",
@@ -2129,7 +2281,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/311104266"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "centaurea-jacea-ssp-pratensis",
@@ -2189,7 +2344,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/7279724"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "centaurea-melitensis",
@@ -2258,7 +2416,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/147014203"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "centaurea-solstitialis",
@@ -2327,6 +2488,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/29980981"
       }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Yellow starthistle has a sharp taproot — sever 2–4 inches below the crown with a shovel.",
+      "Work before mid-bloom; once spines harden, mechanical control becomes painful and seed is already maturing.",
+      "Seedbank lasts 3–10 years; plan multi-year follow-up."
+    ],
+    "removal_sources": [
+      "wric/Centaurea_solstitialis"
     ]
   },
   {
@@ -2403,7 +2573,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/225155833"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "centaurea-virgata-var-squarrosa",
@@ -2467,7 +2640,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/300196438"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "chondrilla-juncea",
@@ -2541,7 +2717,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/87516388"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "chrysanthemoides-monilifera-ssp-monilifera",
@@ -2608,7 +2787,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/29726926"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "cirsium-arvense",
@@ -2685,7 +2867,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/126375188"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "cirsium-vulgare",
@@ -2767,6 +2952,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/111992206"
       }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Biennial — first-year rosettes pull easily after rain; flowering stalks need a shovel through the crown.",
+      "Plumes carry seed long distances — bag heads rather than leaving cut stalks on site."
+    ],
+    "removal_sources": [
+      "wric/Cirsium_vulgare"
     ]
   },
   {
@@ -2833,6 +3026,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/292421658"
       }
+    ],
+    "removal_method": "pull_vine_dig_crown",
+    "removal_notes": [
+      "Sever main vines from the root crown, then trace each rooted layer outward — old man's beard layers wherever stems touch soil.",
+      "Excavate the woody root crown; the plant resprouts otherwise.",
+      "Wind-dispersed feathery seeds — work before seed set in late summer."
+    ],
+    "removal_sources": [
+      "wric/Clematis"
     ]
   },
   {
@@ -2899,7 +3101,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/344025679"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "conium-maculatum",
@@ -2971,6 +3176,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/19880546"
       }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "All parts toxic — wear gloves and long sleeves, avoid touching your face, and wash tools and clothes after the session.",
+      "Biennial: hand-pull first-year rosettes; dig the taproot on second-year flowering plants before seed set.",
+      "Do not burn or chip — smoke and dust carry the alkaloids."
+    ],
+    "removal_sources": [
+      "wric/Conium"
     ]
   },
   {
@@ -3041,6 +3255,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/22452144"
       }
+    ],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Cut and bag flower plumes first — each plume carries hundreds of thousands of wind-dispersed seeds.",
+      "Excavate the entire root mass with a shovel or mattock; partial digs trigger vigorous regrowth.",
+      "Plume edges are razor-sharp — wear long sleeves and eye protection."
+    ],
+    "removal_sources": [
+      "wric/Cortaderia_jubata-selloana"
     ]
   },
   {
@@ -3114,6 +3337,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/253079658"
       }
+    ],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Managed identically to jubatagrass.",
+      "Often planted as an ornamental — confirm the entire clump before digging, including drift from neighboring landscaped plantings."
+    ],
+    "removal_sources": [
+      "wric/Cortaderia_jubata-selloana"
     ]
   },
   {
@@ -3179,7 +3410,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/191553578"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "cotoneaster-lacteus",
@@ -3242,7 +3476,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/22133578"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "cotoneaster-pannosus",
@@ -3304,6 +3541,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/77400505"
       }
+    ],
+    "removal_method": "cut_stump_herbicide",
+    "removal_notes": [
+      "Resprouts from the base and from root crowns; cut-stump and paint with herbicide, or grub the crown out entirely.",
+      "Birds eat and spread the berries — survey 50+ feet downwind each year for seedlings.",
+      "Closely related C. franchetii and C. lacteus are managed identically."
+    ],
+    "removal_sources": [
+      "wric/Cotoneaster"
     ]
   },
   {
@@ -3372,6 +3618,15 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/103639376"
       }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Massive woody taproot — dig deep and sever cleanly below the crown.",
+      "Spines on leaves and bracts; wear eye protection.",
+      "Cut and bag flower heads first; heads continue to mature seed after cutting."
+    ],
+    "removal_sources": [
+      "wric/Cynara"
     ]
   },
   {
@@ -3455,6 +3710,14 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/114051027"
       }
+    ],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Bermuda grass spreads by stolons above ground and rhizomes below — both must be lifted completely.",
+      "Fragments as small as half an inch re-root; sheet-mulch alone often fails — combine with summer solarization."
+    ],
+    "removal_sources": [
+      "wric/Cynodon"
     ]
   },
   {
@@ -3533,7 +3796,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/4104202"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "cynosurus-echinatus",
@@ -3609,7 +3875,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/74981971"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "cytisus-scoparius",
@@ -3683,6 +3952,16 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/189219123"
       }
+    ],
+    "removal_method": "cut_stump_herbicide",
+    "removal_notes": [
+      "Pull seedlings and young plants under 3 ft with a weed wrench when soil is moist — no herbicide needed for those.",
+      "Cut established plants close to the ground and paint the stump with glyphosate; cutting without painting guarantees vigorous resprouts.",
+      "Seedbank can last 60–80 years — flag the site for annual seedling sweeps for at least a decade.",
+      "Work before pods ripen (typically May) so you don't broadcast seed while working."
+    ],
+    "removal_sources": [
+      "wric/Cytisus"
     ]
   },
   {
@@ -3750,6 +4029,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/333874202"
       }
+    ],
+    "removal_method": "cut_stump_herbicide",
+    "removal_notes": [
+      "Manage identically to Scotch broom: weed-wrench small plants, cut-stump and paint older stems.",
+      "Long-lived seedbank — plan multi-year follow-up sweeps."
+    ],
+    "removal_sources": [
+      "wric/Cytisus"
     ]
   },
   {
@@ -3826,6 +4113,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/144577740"
       }
+    ],
+    "removal_method": "pull_vine_dig_crown",
+    "removal_notes": [
+      "Cape-ivy spreads almost entirely vegetatively — every node and root fragment must be lifted, not yanked.",
+      "Do not rake or pull aggressively: snapping stems seeds the site with fragments.",
+      "Bag all material and landfill — never green-bin or compost."
+    ],
+    "removal_sources": [
+      "wric/Delairea"
     ]
   },
   {
@@ -3899,6 +4195,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/140095834"
       }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Biennial — first-year rosettes hand-pull easily; once a flowering stalk appears, dig the taproot.",
+      "Spiny seedheads cling to clothing and equipment — bag heads before they dry."
+    ],
+    "removal_sources": [
+      "wric/Dipsacus_fullonum-laciniatus-sativus"
     ]
   },
   {
@@ -3972,7 +4276,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/146450305"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "dittrichia-graveolens",
@@ -4041,7 +4348,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/17446117"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "egeria-densa",
@@ -4103,7 +4413,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/254150777"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ehrharta-calycina",
@@ -4183,7 +4496,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/324104073"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ehrharta-erecta",
@@ -4264,7 +4580,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/66284927"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "eichhornia-crassipes",
@@ -4335,7 +4654,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/18390548"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "elaeagnus-angustifolia",
@@ -4404,7 +4726,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/262422687"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "taeniatherum-caput-medusae",
@@ -4471,7 +4796,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/302943144"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "emex-spinosa",
@@ -4528,7 +4856,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/256879238"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "euphorbia-esula",
@@ -4600,7 +4931,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/85379480"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "fallopia-japonica",
@@ -4663,7 +4997,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/162913738"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "polygonum-sachalinense",
@@ -4726,7 +5063,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/55901037"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "festuca-arundinacea",
@@ -4817,7 +5157,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/187127381"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "vulpia-myuros",
@@ -4898,7 +5241,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/95423386"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "festuca-perennis",
@@ -4970,7 +5316,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/193162202"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ficus-carica",
@@ -5034,7 +5383,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/309292077"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "foeniculum-vulgare",
@@ -5110,6 +5462,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/47105551"
       }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "The taproot snaps cleanly an inch below the crown when pulled — dig 6–12 inches deep to lift the full crown.",
+      "Resprouts from any remaining crown tissue; flag and re-dig stragglers next season.",
+      "Cut flowering stalks first and bag — once stalks are down the digging is faster and seed set is interrupted."
+    ],
+    "removal_sources": [
+      "wric/Foeniculum"
     ]
   },
   {
@@ -5169,7 +5530,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/39303731"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "retama-monosperma",
@@ -5228,7 +5592,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/274037684"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "genista-monspessulana",
@@ -5310,6 +5677,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/33304690"
       }
+    ],
+    "removal_method": "cut_stump_herbicide",
+    "removal_notes": [
+      "French broom resprouts more aggressively than Scotch — stump painting is more important here, not less.",
+      "Soft stems pull easily when young; a weed wrench works up to ~4 ft tall.",
+      "Cut just before flowering peak (typically April) to limit seed input that year."
+    ],
+    "removal_sources": [
+      "wric/Genista"
     ]
   },
   {
@@ -5377,7 +5753,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/323393708"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "halogeton-glomeratus",
@@ -5443,7 +5822,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/283050624"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "hedera-canariensis",
@@ -5506,6 +5888,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/202632385"
       }
+    ],
+    "removal_method": "pull_vine_dig_crown",
+    "removal_notes": [
+      "Treated identically to English ivy but stems are thicker — use loppers for trunk-climbers.",
+      "Faster ground spread; re-survey at 6-month intervals after pulling."
+    ],
+    "removal_sources": [
+      "wric/Hedera_canariensis-helix-hibernica"
     ]
   },
   {
@@ -5574,6 +5964,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/226428310"
       }
+    ],
+    "removal_method": "pull_vine_dig_crown",
+    "removal_notes": [
+      "Sever vines climbing trees at chest height and again at ankle height — leave the aerial parts to die in place rather than ripping them off the bark.",
+      "On the ground, pull or dig every rooted node; any fragment touching soil re-roots.",
+      "Bag, don't compost — stems survive home compost piles and re-root in the finished pile."
+    ],
+    "removal_sources": [
+      "wric/Hedera_canariensis-helix-hibernica"
     ]
   },
   {
@@ -5656,6 +6055,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/161321849"
       }
+    ],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Short-pod mustard re-grows from the crown if cut — uproot rather than mow.",
+      "Multi-flush bloomer; expect to revisit the site every 3–4 weeks through spring."
+    ],
+    "removal_sources": [
+      "wric/Hirschfeldia"
     ]
   },
   {
@@ -5728,7 +6135,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/122223621"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "hordeum-marinum",
@@ -5807,7 +6217,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/218222882"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "horderum-murinum",
@@ -5892,6 +6305,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/228252675"
       }
+    ],
+    "removal_method": "mow_before_seed",
+    "removal_notes": [
+      "Foxtail awns embed in pets' ears, paws, and gums — clear before plants dry, especially around walkways.",
+      "Mow at boot stage; once awns are tan, mowing scatters them."
+    ],
+    "removal_sources": [
+      "wric/Hordeum_marinum-murinum"
     ]
   },
   {
@@ -5969,7 +6390,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/167102845"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "hypericum-canariense",
@@ -6031,7 +6455,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/201929276"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "hypochaeris-radicata",
@@ -6104,7 +6531,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/354773757"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "isatis-tinctoria",
@@ -6164,7 +6594,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/161360848"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "lepidium-chalepense",
@@ -6253,7 +6686,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/318554783"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "cardaria-draba",
@@ -6326,7 +6762,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/116311465"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "lepidium-latifolium",
@@ -6408,6 +6847,15 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/318996759"
       }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Pepperweed spreads from deep rhizomes as well as the taproot — repeated digging in the same spot is normal for 3+ seasons.",
+      "Even small root fragments resprout; sift soil where practical and bag all debris.",
+      "Cutting flowers slows seed input but does not weaken the rhizome — pair cutting with digging."
+    ],
+    "removal_sources": [
+      "wric/Lepidium_latifolium"
     ]
   },
   {
@@ -6492,7 +6940,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/120805932"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "limnobium-laevigatum",
@@ -6554,7 +7005,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/140595384"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "limonium-duriusculum",
@@ -6618,7 +7072,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/244535732"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "linaria-dalmatica-ssp-dalmatica",
@@ -6695,7 +7152,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/342678517"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "linaria-vulgaris",
@@ -6772,7 +7232,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/54948861"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ludwigia-hexapetala",
@@ -6837,7 +7300,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/681894"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ludwigia-peploides",
@@ -6902,7 +7368,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/85215252"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "lythrum-hyssopifolium",
@@ -6979,7 +7448,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/80703101"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "lythrum-salicaria",
@@ -7047,7 +7519,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/90425005"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "mentha-pulegium",
@@ -7126,7 +7601,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/165276546"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "mesembryanthemum-crystallinum",
@@ -7187,7 +7665,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/326557258"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "myoporum-laetum",
@@ -7254,7 +7735,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/103924266"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "myriophyllum-aquaticum",
@@ -7327,7 +7811,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/170951441"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "myriophyllum-spicatum",
@@ -7395,7 +7882,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/295613361"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "nicotiana-glauca",
@@ -7460,7 +7950,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/48835982"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "oncosiphon-piluliferum",
@@ -7535,7 +8028,14 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/208541621"
       }
-    ]
+    ],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Stinknet is severely allergenic — wear gloves, long sleeves, and a respirator on dry days; the dust triggers asthma and rashes.",
+      "Pull when soil is moist and bag immediately; do not mow or weed-whack dry plants.",
+      "Aggressive new invader — report sightings to your county ag commissioner."
+    ],
+    "removal_sources": []
   },
   {
     "slug": "onopordum-acanthium",
@@ -7612,7 +8112,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/291848065"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "oxalis-pes-caprae",
@@ -7680,6 +8183,15 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/264935998"
       }
+    ],
+    "removal_method": "dig_bulb_complete",
+    "removal_notes": [
+      "Bermuda buttercup forms a chain of small bulbs underground — every bulblet left behind regrows.",
+      "Sift soil through hardware cloth in heavily infested beds; foliar work alone fails.",
+      "Pull foliage during bloom (Jan–Mar) to weaken the bulbs, then dig in the following autumn when fresh bulbs are easy to spot."
+    ],
+    "removal_sources": [
+      "wric/Oxalis"
     ]
   },
   {
@@ -7756,6 +8268,14 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/184002859"
       }
+    ],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Fountain grass spreads by seed and from clump fragments — extract the entire crown.",
+      "Cut and bag flower heads before digging; mature seed dispersal is wind-driven and prolific."
+    ],
+    "removal_sources": [
+      "wric/Pennisetum_setaceum"
     ]
   },
   {
@@ -7834,7 +8354,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/222264319"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "potamogeton-crispus",
@@ -7903,7 +8426,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/156270078"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "acroptilon-repens",
@@ -7989,7 +8515,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/126794451"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "rubus-armeniacus",
@@ -8071,6 +8600,16 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/172266217"
       }
+    ],
+    "removal_method": "cane_cut_dig_crown",
+    "removal_notes": [
+      "Cut all canes back to stubs, then mattock or dig out each woody root crown — cutting alone produces a denser thicket.",
+      "Cane tips that touch soil re-root as new crowns; trace and dig every tip-rooted node.",
+      "Wear leather sleeves; thorns shred standard gardening gloves.",
+      "Bag canes for landfill — chipping or home composting can scatter live nodes."
+    ],
+    "removal_sources": [
+      "wric/Rubus"
     ]
   },
   {
@@ -8149,7 +8688,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/26600485"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "saccharum-ravennae",
@@ -8217,7 +8759,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/137288219"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "salsola-soda",
@@ -8274,7 +8819,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/140488600"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "salvinia-molesta",
@@ -8349,7 +8897,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/211264052"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "schinus-terebinthifolius",
@@ -8416,7 +8967,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/160305083"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "senecio-glomeratus",
@@ -8499,7 +9053,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/1145438"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "sesbania-punicea",
@@ -8569,7 +9126,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/83935352"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "spartina-alterniflora-x-spartina-foliosa",
@@ -8625,7 +9185,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/89499672"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "spartina-anglica",
@@ -8680,7 +9243,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/242522410"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "spartina-densiflora",
@@ -8737,7 +9303,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/38101293"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "spartium-junceum",
@@ -8809,6 +9378,14 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/116952638"
       }
+    ],
+    "removal_method": "cut_stump_herbicide",
+    "removal_notes": [
+      "Stems are nearly leafless and rush-like — cut-stump with concentrated glyphosate is the dependable approach.",
+      "Frequently survives a single cut; treat any green resprout the following season."
+    ],
+    "removal_sources": [
+      "wric/Spartium"
     ]
   },
   {
@@ -8870,7 +9447,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/202443087"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "tamarix-chinensis",
@@ -8943,7 +9523,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/54696038"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "tamarix-gallica",
@@ -9010,7 +9593,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/95902581"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "tamarix-parviflora-plant",
@@ -9086,7 +9672,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/116106921"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "tamarix-ramosissima",
@@ -9163,7 +9752,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/159253144"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "tanacetum-vulgare",
@@ -9234,7 +9826,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/253764740"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "torilis-arvensis",
@@ -9298,7 +9893,10 @@
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/264736523"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "triadica-sebifera",
@@ -9367,7 +9965,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/226150889"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "ulex-europaeus",
@@ -9440,6 +10041,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/250934359"
       }
+    ],
+    "removal_method": "cut_stump_herbicide",
+    "removal_notes": [
+      "Gorse spines puncture leather — wear thick gloves and eye protection.",
+      "Cut-stump with triclopyr; expect resprouts and re-treat at year 1 and year 2.",
+      "Pods explode in summer heat, scattering seed — work in spring or shortly after a winter rain."
+    ],
+    "removal_sources": [
+      "wric/Ulex"
     ]
   },
   {
@@ -9515,6 +10125,15 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/257821819"
       }
+    ],
+    "removal_method": "sheet_mulch_smother",
+    "removal_notes": [
+      "Cardboard plus 4–6 inches of mulch, kept in place 9–12 months — periwinkle is patient.",
+      "Trace runners under the cardboard at the perimeter; new shoots surface where the mulch is thinnest.",
+      "Stems re-root from every node — don't drag debris through clean areas."
+    ],
+    "removal_sources": [
+      "wric/Vinca"
     ]
   },
   {
@@ -9579,7 +10198,10 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/191426723"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   },
   {
     "slug": "zostera-japonica",
@@ -9639,6 +10261,9 @@
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/229090666"
       }
-    ]
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": []
   }
 ]
