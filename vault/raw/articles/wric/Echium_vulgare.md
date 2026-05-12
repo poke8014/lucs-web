@@ -1,0 +1,41 @@
+<!-- Source: WRIC weed management notes
+     Box file: Echium_vulgare.pdf
+     Box file id: 2053586169358
+     Box share: https://ucdavis.app.box.com/s/t266vkfh1ym7bb7j57k5ufkrv9vrby3v/file/2053586169358
+     Download URL (302 -> public.boxcloud.com): https://ucdavis.box.com/index.php?rm=box_download_shared_file&shared_name=t266vkfh1ym7bb7j57k5ufkrv9vrby3v&file_id=f_2053586169358
+     Final content URL (short-lived): https://public.boxcloud.com/d/1/b1!dBfzoxNd11Xv5gCo9XlYyUjjGsC2bsaajRuMuaflcw2-JYY1inNNlLUYyTzrbsheU9jqKn3Q6tuj0RcODnK8GUwh3p01M8MHy1wNHGX1bWKnjzuJm5OLvujcf2dC8eT-DNVtLzxJ7zJBQZQwhMClqiGOB_L2wfDtgViIegaEI647_4HGnks2DRrSFjc_7hyTSN-En3CxkHYwP11oDFf4kKLsIFh8jVKYV-SDS6fIUJmrablAWbYMDAMGUvxBjsR7Ns6tld3oHs9GPkqSqg1i0ohYwRoHdAEU429Ym8PPKow4uAr7mfOoG_3RUl7b6PRxsVKQNU3ZewY0d71I8AE1YZTXCZif_zzjzLX7v8qZdYYYjTWcKbGFk6x1Ok_curgbBbug65GbuFYPm4_Xaw0tZ8Tzd0bNue-cBk17AaNw5gexz70J1fb9w7KZ_780PXZmXeTk7wPIZR3DF1rV9NPkI8Of1ZYGYuzINQS5vng-Y0VfMwg3oIrUsg17sIXNNj9h6-hfL6ZAckp1PeE_po_5ViFvr0rfPGaPl_cPfzkhlenlypVoERN5Ke8uf9bZ6WDcuvy-N2nEYhaTHliJKAqGpYeK1yr2NyKYYVZJVGKUoyb4GPmO5Ql1DptywYQ_uaL6BY--kMskeY6z14V4yndhdzpRY564x1VCJuRQ2HYOwID6QMGjji4w3znj8rEXHAEDWUdOcp_oPDRUYdH--dIEaLQP5hldmnDpN1eZRUYkoEAff9pPMQH5m1HeqTw20E6tNlT0OUeqSGh3gbNaWUmQiOL2IQDUptejy7APQSvDYLZBAhwpSq-lni-yb5I6EclEZerPn0kJOKogzqQCFKOdJ5khCAYtMvIfLafto9uMoQwR4lB_F5GBLIl7h17RHPszDWTFhFyW6DPoI-Q9u9Fhzp6G3NKFHMhJtJpMwCLbB1dwfQmX31HQ2oURbJsD-xZDt6pQTp3bKKRoz5H0EZtwpCAIJr5eG3WhF6RPOElSsoNY_vf6Om1110OVK9yOt-kHpEBtogJ-fACM1zxUXcHHlg9t9IHaWcOayDiI5KGYqWswhlXRMW5l64BwKZRAy3eveqnnvxaWcZYVREuAjWkKoyzKiS7AKzcidUFsy-wd6_P0SSTW3ycVspvmsekPgVcoxVwnzcwVoGLS23wpORVcA0Q52FmKoVwVABPARiqZcfzvaY9BfOluOAERKQmQZw2ui9VfZiRej2qR9x1wV1xUNygJbp-2LtEQUP3QocL74P3WFkX3Fgrjxt0EKreSuJouoKHZWv6vJCo2-l5EtFNqAJ2q3tb8_cBNC8OE5rrj2VCZuuUr3j7IYx5GQl-AODyZxteICMDGEeaJJuInxiPYjvq2dqk_BZUkkrXYNd3PNKpu6FkGnbYXPHgKtAwrXu4etvvnxYSH_ZsjxRCXpg../download
+     Content-Type: application/pdf
+     Scraped via: firecrawl scrape
+-->
+
+A **WEED REPORT** from the book Weed Control in Natural Areas in the Western United States
+
+**This WEED REPORT does not constitute a formal recommendation. When using herbicides always read the label, and when in** **doubt consult your farm advisor or county agent.**
+
+**This WEED REPORT is an excerpt from the book Weed Control in Natural Areas in the Western United States and is available** **wholesale through the UC Weed Research & Information Center (wric.ucdavis.edu) or retail through the Western Society of** **Weed Science (wsweedscience.org) or the California Invasive Species Council (cal-ipc.org).**
+
+## Echium vulgare L.
+
+# Blueweed (sometimes called vipers bugloss)
+
+### Family: Boraginaceae
+
+### Range: Recorded in all western states except Nevada, Arizona, and
+
+California. **Habitat: Open woodlands, pastures, and roadsides.** **Origin: Native to Europe and west-central Asia. Apparently** escaped from cultivation as an ornamental. **Impacts: Outcompetes pasture and grassland vegetation and** quickly becomes the dominant species. **Western states listed as Noxious Weed: Montana, Washington**
+
+Blueweed is a taprooted, upright biennial or short-lived perennial reaching 1 to 3 ft tall. The basal leaves are 3 to 10 inches long and about 1 inch wide and oblanceolate on short petioles; upper leaves become smaller and sessile on the stem. Both the leaves and stems are covered in rough hairs, and the stem is often flecked with black spots. The inflorescences are long with many side branches, each scorpion-tailed in appearance. Flowers are borne near the uncoiling tips, and are bright blue to pink. The petals are about 1 inch long and trumpet-shaped with five unequal lobes. All five stamens usually extend beyond the petal tips, although one is usually shorter than the others. True vipers bugloss (Echium plantagineum) is closely related and similar in appearance, but it bears flowers with only two exerted stamens. Each blueweed flower produces four brown to tan nutlets, each about ¼-inch long, five-sided to teardrop-shaped, and covered with wart-like tubercles. Plants reproduce only by seed, which disperse primarily by falling to the ground below the parent plant. The seeds are hard-coated and survive ingestion by livestock. The seed longevity in the soil is expected to be similar to vipers bugloss (Echium plantagineum). In that case, a small proportion of the seeds can remain dormant in the soil seedbank for up to 5 years or more.
+
+**NON-CHEMICAL CONTROL** **Mechanical** Blueweed spreads exclusively by seed, so hand weed control must be employed before flowering and seed (pulling, cutting, set to control the species. Hand pulling is generally not appropriate when controlling large infestations. disking) Hand control is best employed when soil is moist and plants are still in the rosette stage. It is important to remove the entire root system, or the plant will resprout. Mowing will not generally kill the plants, and may even be counterproductive, as this plant is often found in pastures and rangelands where too-frequent mowing will harm forage grasses. **Cultural Grazing can be a contributing factor to the spread of blueweed since this plant invades over-grazed or** **poorly managed pastures and rangelands.** **Maintaining forage lands in a healthy, competitive state will be helpful in preventing new infestations of** **blueweed. Blueweed is generally not palatable to livestock, but is not reported as being toxic.** **Biological There are no known biological control agents to aid in the control of blueweed.**
+
+**CHEMICAL CONTROL** The following specific use information is based on reports by researchers and land managers. Other trade names may be available, and other compounds may also be labeled for this weed. Directions for use may vary between brands; see label before use. Herbicides are listed by mode of action and then alphabetically. The
+order of herbicide listing is not reflective of the order of efficacy or preference.
+
+| GROWTH REGULATORS |  |
+| --- | --- |
+| 2,-4-DSeveral names | Rate:2.1 qt product/acre(2 lb a.e./acre)Timing:Postemergence.Spring is best to control seedlings,but treatments can be made in mid-summer to autumn for established plants.Remarks:2,4-D alone is usually not adequate to completely control borage species.It is most often used in combination or sequence with other herbicides.Use with0.25%v/vnon-ionic surfactant to improve control. |
+| AROMATIC AMINO ACID INHIBITORS |  |
+| GlyphosateRoundup,AccordXRT II,and others | Rate:Broadcast treatment:6 to 22 oz product(RoundupProMax)/acre(0.21to0.77lb a.e./acre).Spot treatment:1 to 2%v/v solution.Wiper treatment:33 to 50% of concentrated product.Timing:Postemergence.Broadcast applications should be applied from late spring to mid-summer to kill blueweed before seeding.Remarks:It may be necessary to make follow-up application in subsequent years to control germinating seedlings.Glyphosate can also injure forage grasses,so this product is best applied for control of pure stands or on otherwise bare ground(such as along roadsides).Use with0.25%v/vnon-ionic surfactant to improve control.Wiper applications to bolted plants have been helpful to control vipers bugloss in Australia,and should also work on blueweed,but application should be made when weeds are taller than forage grasses. |
+| BRANCHED-CHAIN AMINO ACID INHIBITORS |  |
+| ChlorsulfuronTelar | Rate:1 to 1.5oz product/acre(0.75to1.125oza.i./acre)Timing:Preemergence or postemergence.Treatment in autumn should provide control through spring.Remarks:Use with0.25%v/vnon-ionic surfactant to improve postemergence control. |
+| MetsulfuronEscort | Rate:1 to 2oz product/acre(0.6to1.2oza.i./acre)Timing:Postemergence.Spring is best to control seedlings,but treatments can be made in mid-summer to autumn for established plants.Remarks:Repeat applications will likely be necessary.Use with0.25%v/vnon-ionic surfactant to improve control.Resistance to sulfonylurea herbicides(metsulfuron and chlorsulfuron(Telar))has been documented for vipers bugloss in Australia.Tank mixtures or sequential treatments with herbicides with other modes of action are recommended to delay onset of resistance in blueweed.Metsulfuron is not registered for use in California. |

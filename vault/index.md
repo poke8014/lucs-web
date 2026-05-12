@@ -195,7 +195,9 @@ The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/ca
 - [[sources/flower-gardening-for-beginners]] — Pretty Purple Door (Amy Fedele, 2020). Foundational beginner gardening — zones, life cycles, sun, soil, spacing, water, frost. *7 new wiki pages + 1 updated.*
 
 ### Datasets
-- [[sources/calipc]] — California Invasive Plant Council Inventory. 137 top-tier plants ingested (44 High + 93 Moderate). Profile + PAF documents at `raw/articles/calipc/`. Deferred: Limited tier, Watch tier (PRE), photos, WRIC management notes.
+- [[sources/calipc]] — California Invasive Plant Council Inventory. 137 top-tier plants ingested (44 High + 93 Moderate). Profile + PAF documents at `raw/articles/calipc/`. Deferred: Limited tier, Watch tier (PRE), photos.
+- [[sources/wric]] — UC Davis Weed Research and Information Center *Weed Reports*. 274 PDFs covering A–Z (no K/Q/Y) natural-area weeds, scraped via firecrawl to `raw/articles/wric/`. Canonical management-method source; book reference DiTomaso et al. 2013.
 
 ## Synthesis
 - [[synthesis/calipc-top-tier-overview]] — Cross-cutting patterns across the 137 Cal-IPC top-tier invasives. Rating distribution, spread mechanism frequency, habitat distribution, the foothills-priority subset (~86 plants for Luc's South Bay yard).
+- [[synthesis/invasive-removal-methods]] — Closed vocabulary of `removal_method` keys consumed by the cleanup-plan app. Vocabulary + per-plant assignments for the initial 38 yard-relevant invasives; source attribution (UC IPM / WRIC / Cal-IPC).

@@ -4,6 +4,19 @@ Append-only chronological record of operations on the wiki. Format defined in [C
 
 Categories: `ingest`, `query`, `lint`, `synthesis`, `refactor`.
 
+## [2026-05-11] ingest | WRIC weed reports — full archive (274 PDFs)
+Source: UC Davis Weed Research and Information Center, *Weed Control in Natural Areas in the Western United States* (DiTomaso et al. 2013), distributed as per-genus PDFs on the Box archive (linked from `raw/pdfs/wric/_index.md`).
+Pages touched: sources/wric (created), synthesis/invasive-removal-methods (sources section rewritten to cite WRIC + drop hedge), index.md (added wric dataset pointer; calipc dataset entry updated to remove "WRIC management notes" from its deferred list).
+Adjacent code: src/app/sunshower/cleanup-plan/types.ts (`removal_sources: string[]` added to Plant), src/data/plants.json (36 plants annotated with WRIC citation slugs, 1 with congener citation, 1 with no source — stinknet, post-dates 2013 book), vault/scripts/scrape_wric.py (firecrawl scrape harness), vault/scripts/backfill_removal_sources.py (slug → WRIC PDF mapping).
+Method: Box viewer URLs return JS-app HTML; the working pattern is `https://ucdavis.box.com/index.php?rm=box_download_shared_file&shared_name=<share>&file_id=f_<id>` which 302s to a short-lived public.boxcloud.com PDF URL. firecrawl-scrape parses these cleanly at ~1 credit each. Total cost: ~274 credits; ~5 minutes wall time at concurrency=4. Output: vault/raw/articles/wric/*.md (274 files).
+Notes: The 7 PDFs already locally downloaded on 2026-05-08 (Cytisus, Foeniculum, Genista, Hedera, Rubus, Spartium, Ulex) carry a ✓ marker in `_index.md` which the parser initially skipped; regex fixed and re-run. Per-plant rewrites of `removal_notes[]` against canonical WRIC text are deferred to a follow-up — this entry ships the citation infrastructure (scrape, source page, schema field, backfilled slugs) without rewriting the synthesized v0 notes.
+
+## [2026-05-11] synthesis | invasive removal methods vocabulary
+Pages touched: synthesis/invasive-removal-methods (created), index.md (updated).
+Adjacent code: src/app/sunshower/cleanup-plan/types.ts (`RemovalMethod` union added), src/data/plants.json (38 plants annotated with `removal_method` + `removal_notes`), vault/scripts/apply_removal_methods.py (migration script).
+Method distribution across the annotated 38: cut_stump_herbicide ×8, dig_taproot ×8, dig_rhizome_complete ×5, mow_before_seed ×5, pull_vine_dig_crown ×4, hand_pull ×4, sheet_mulch_smother ×2, cane_cut_dig_crown ×1, dig_bulb_complete ×1. `solarize_summer` reserved in vocabulary, no primary assignments (referenced as follow-up in iceplant/Bermuda-grass notes).
+Source attribution: synthesized from UC IPM + WRIC + Cal-IPC consensus. WRIC PDFs downloaded but not text-ingested (AES-encrypted per 2026-05-08 entry); upgrade `removal_notes` against canonical WRIC text when those PDFs are processed.
+
 ## [2026-05-08] lint | full vault sweep
 Pages touched: vault/CLAUDE.md (schema relaxed — `bloom_season` now omitted for invasives), concepts/sun-requirements (status stub→draft), concepts/site-inventory (status stub→draft).
 Findings: ghost file `Amy Fedele.md` deleted (Obsidian artifact from raw-article frontmatter wikilink). No orphans, no contradictions, no index drift. Cal-IPC plant stubs all missing `bloom_season` — resolved by schema relaxation rather than backfill (not needed for invasive-only vault tier). Hub-page candidates noted for future: Jepson, UC Davis WRIC.

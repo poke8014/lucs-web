@@ -7,6 +7,18 @@ export type Photo = {
   observation_url: string
 }
 
+export type RemovalMethod =
+  | 'hand_pull'
+  | 'dig_taproot'
+  | 'cut_stump_herbicide'
+  | 'cane_cut_dig_crown'
+  | 'pull_vine_dig_crown'
+  | 'dig_rhizome_complete'
+  | 'dig_bulb_complete'
+  | 'sheet_mulch_smother'
+  | 'mow_before_seed'
+  | 'solarize_summer'
+
 export type Plant = {
   slug: string
   scientific_name: string
@@ -27,6 +39,9 @@ export type Plant = {
   habitat_types: string[]
   jepson_regions: string[]
   photos: Photo[]
+  removal_method: RemovalMethod | null
+  removal_notes: string[]
+  removal_sources: string[]
 }
 
 export type Match = {
