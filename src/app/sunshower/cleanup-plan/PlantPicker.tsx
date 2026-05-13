@@ -88,7 +88,7 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
           {selectedPlants.map((p) => (
             <li
               key={p.slug}
-              className="flex items-center gap-2 rounded-full border border-emerald-300 bg-emerald-50 py-1 pl-1 pr-2 text-sm"
+              className="flex items-center gap-2 rounded-full border border-emerald-800/40 bg-emerald-50/80 py-1 pl-1 pr-2 text-sm text-[#2a1d10] backdrop-blur-sm"
             >
               {p.photos[0] ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -98,17 +98,19 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
                   className="h-6 w-6 flex-none rounded-full object-cover"
                 />
               ) : (
-                <span className="h-6 w-6 flex-none rounded-full bg-stone-200" />
+                <span className="h-6 w-6 flex-none rounded-full bg-[#2a1d10]/15" />
               )}
               <span className="italic">{p.scientific_name}</span>
               {p.common_names[0] && (
-                <span className="text-stone-600">· {p.common_names[0]}</span>
+                <span className="text-[#2a1d10]/70">
+                  · {p.common_names[0]}
+                </span>
               )}
               <button
                 type="button"
                 aria-label={`Remove ${p.scientific_name}`}
                 onClick={() => remove(p.slug)}
-                className="ml-1 rounded-full px-1.5 text-stone-500 hover:bg-emerald-100 hover:text-stone-900"
+                className="ml-1 rounded-full px-1.5 text-[#2a1d10]/60 hover:bg-emerald-100/80 hover:text-[#2a1d10]"
               >
                 ×
               </button>
@@ -129,7 +131,7 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
         onFocus={() => setOpen(true)}
         onKeyDown={onKeyDown}
         placeholder="Type a plant name — e.g. fennel, blackberry, Cytisus…"
-        className="w-full rounded-md border border-stone-300 bg-white p-3 text-sm focus:border-emerald-600 focus:outline-none"
+        className="w-full rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/90 p-3 text-sm text-[#2a1d10] placeholder:text-[#2a1d10]/50 focus:border-emerald-800 focus:bg-[#fff6df] focus:outline-none"
         autoComplete="off"
         role="combobox"
         aria-expanded={showDropdown}
@@ -138,9 +140,9 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
       />
 
       {showDropdown && (
-        <div className="absolute z-10 mt-1 w-full overflow-hidden rounded-md border border-stone-200 bg-white shadow-lg">
+        <div className="absolute z-10 mt-1 w-full overflow-hidden rounded-md border border-[#2a1d10]/20 bg-[#fff6df]/95 shadow-lg backdrop-blur-sm">
           {results.length === 0 ? (
-            <p className="p-4 text-sm text-stone-500">
+            <p className="p-4 text-sm text-[#2a1d10]/60">
               No match in the Cal-IPC top-tier list (137 plants). It may be a
               native, a non-native that&rsquo;s not flagged as invasive, or
               outside our coverage so far.
@@ -165,8 +167,10 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
                       onMouseEnter={() => setHighlight(i)}
                       onClick={() => add(p.slug, matchedOn)}
                       className={
-                        'flex w-full items-center gap-3 p-2 text-left ' +
-                        (i === safeHighlight ? 'bg-emerald-50' : 'bg-white')
+                        'flex w-full items-center gap-3 p-2 text-left text-[#2a1d10] ' +
+                        (i === safeHighlight
+                          ? 'bg-emerald-100/60'
+                          : 'bg-transparent')
                       }
                     >
                       {p.photos[0] ? (
@@ -178,20 +182,20 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
                           loading="lazy"
                         />
                       ) : (
-                        <span className="h-10 w-10 flex-none rounded bg-stone-100" />
+                        <span className="h-10 w-10 flex-none rounded bg-[#2a1d10]/10" />
                       )}
                       <span className="min-w-0 flex-1">
                         <span className="block truncate text-sm">
                           <span className="italic">{p.scientific_name}</span>
                           {secondary && (
-                            <span className="text-stone-600">
+                            <span className="text-[#2a1d10]/70">
                               {' '}
                               · {secondary}
                             </span>
                           )}
                         </span>
                         {p.cal_ipc_rating && (
-                          <span className="text-xs text-stone-500">
+                          <span className="text-xs text-[#2a1d10]/60">
                             Cal-IPC {p.cal_ipc_rating}
                           </span>
                         )}

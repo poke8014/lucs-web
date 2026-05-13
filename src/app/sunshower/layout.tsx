@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Scene from './Scene'
 
 export const metadata: Metadata = {
   title: 'Pollinator Garden — Native CA Garden Planner',
@@ -11,5 +12,10 @@ export default function PollinatorLayout({
 }: {
   children: React.ReactNode
 }) {
-  return <div className="min-h-screen bg-stone-50 text-stone-900">{children}</div>
+  return (
+    <div className="relative h-dvh w-full overflow-hidden bg-[#f7e9c9] text-[#2a1d10]">
+      <Scene />
+      {children}
+    </div>
+  )
 }
