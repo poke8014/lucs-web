@@ -3,11 +3,12 @@ type: plant
 title: Alliaria petiolata (garlic mustard)
 aliases: [garlic mustard, hedge garlic, Jack-by-the-edge, Alliaria alliaria, Alliaria officinalis, Erysimum alliaria, Sisymbrium alliaria]
 tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/alliaria-petiolata-profile.md
   - raw/articles/calipc/alliaria-petiolata-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Alliaria.md
+last_updated: 2026-05-12
 
 scientific_name: Alliaria petiolata
 common_names: [garlic mustard, hedge garlic, Jack-by-the-edge]
@@ -36,7 +37,46 @@ invasive:
 
 Garlic mustard ( Alliaria petiolata) is an herbaceous biennial forb (family Brassicaceae) that was first detected in 2020 and 2022 in two isolated streamside localities in southern and northern California. Native to Europe and northern Africa, this species has naturalized in central and eastern Asia, Australia, New Zealand, and many parts of North America. Garlic mustard grows as an understory herb of woodlands and forests, forming a loose rosette of kidney-shaped leaves in its first year and bolting to flower in its second year. Stem leaves are lanceolate and toothed; flowers are white with four petals; seeds are small and can be easily spread. Plants can grow to over 1 m at flowering. Garlic mustard can be differentiated from other similar plants by its leaf shape and the strong garlic odor of its foliage. It is an aggressive invader of moist woodlands and forests, where it outcompetes and overtops native understory vegetation. Roots and foliage appear to have allelopathic properties that further impact surrounding plants. Individual plants can produce from 600 – ca. 7000 seeds. This plant is listed as a noxious weed in several states in the eastern USA, as well as in Washington, Oregon, Utah, and, more recently, California. It was probably originally introduced as a culinary herb.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** biennial or short-lived perennial to 3 ft tall. First-year plants form a rosette; **second-year plants bolt, flower, and set seed** then die.
+- **Basal leaves:** **kidney-shaped** with toothed margins.
+- **Stem leaves:** more **triangular** in outline, alternate, petiolate, toothed.
+- **Smell test (key field ID):** **garlicky odor when foliage is crushed** — this is the diagnostic feature.
+- **Taproot:** **distinctively S-shaped** just under the soil surface (also called a "fishhook" or "L-shaped" root).
+- **Flowers:** small white, 4 petals (~¼ in long), 6 stamens, alternating up the stem in a raceme.
+- **Seed pods:** slender 2.5-in siliques that split longitudinally at maturity.
+- **Reproduction:** seed only. Up to **8,000 seeds per plant**, mostly falling near the parent.
+- **Seedbank:** seeds remain viable **up to 5 years**.
+- **Hazards:** considered **allelopathic** — produces phytotoxins that suppress neighboring plants and interfere with mycorrhizal associations in forest understories.
+- **Habitat in California:** rare so far in CA; more problematic in eastern US forests. Forest understories, parklands, rights-of-way, riparian / floodplain.
+
+## Remove
+
+Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull).
+
+- **Dig or hand-pull individual plants or small stands.** Remove as much root as possible. **Be careful not to break the root** — fragments can resprout.
+- **Loose or coarse soils:** hand-pulling works well.
+- **Heavy soils:** hand-pulling causes substantial root fragmentation. Use a digging tool instead, or expect to re-treat resprouts.
+- **Second-year bolted plants:** stems are easily grasped and pulled.
+- **Hand-digging is impractical** for well-established or extensive infestations — chemical control becomes the main option.
+- **Mowing** can reduce or eliminate seed production. **Cut plants as low as practical** to limit growth of flowering stalks from below the cut. Don't cut too early (no effect) or too late (mowing scatters ripening seed pods).
+- **Cultivation** of first-year plants or before flowering of second-year plants is effective.
+- **Plastic or fabric mulching** can suppress germination and growth.
+- **Foliar herbicides** (most require multiple applications over several years):
+  - **Glyphosate** 2–4 pt/acre or 1–3% v/v spot — applied **postemergence to rosettes in late fall or early spring**. Winter application reduces injury to native perennials.
+  - **Triclopyr** 8 oz/acre or 1.25–2.5% v/v (Garlon 4 Ultra), postemergence to rosettes in spring.
+  - **2,4-D** 1 pt/acre — broadleaf-selective but **not particularly effective** on garlic mustard per WRIC.
+  - **Imazapic, metsulfuron, sulfometuron, sulfosulfuron** — pre/early postemergence in fall or early spring. Most are not California-registered.
+- **Prescribed burning** for 2 consecutive years can control rosettes — but if fires are not hot enough, plants survive and seedlings establish on the bare ground left behind.
+- **No biocontrol** agents currently available in CA. Six insects have been identified as candidates in the eastern US.
+
+## Prevent
+
+- **Multi-year commitment** — 5-year seedbank means a single year of seed set creates work for several years to come.
+- **Healthy turf or dense ground cover** in parks and gardens discourages seed germination.
+- **Most animals find garlic mustard unpalatable**, and goats can impart unpleasant garlic flavor to milk — so don't expect grazing to provide control.
+- **Garlic mustard is edible for humans** — invasive but not toxic; foraging is sometimes promoted in eastern US as a control tactic.
 
 ## Why it's a problem
 
@@ -99,4 +139,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/alliaria-petiolata-profile.md`
 - PAF: `raw/articles/calipc/alliaria-petiolata-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Alliaria.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

@@ -1,5 +1,6 @@
 'use client'
 
+import Link from 'next/link'
 import { useMemo, useState } from 'react'
 import PhotoLightbox from './PhotoLightbox'
 import PlantPicker from './PlantPicker'
@@ -8,6 +9,11 @@ import { buildPlan } from './plan'
 import type { Match, Pick, Plant, ResolvedRow } from './types'
 
 type Step = 'input' | 'confirm' | 'plan'
+
+const PANEL =
+  'rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/85 shadow-sm backdrop-blur-sm'
+const PANEL_INSET = PANEL + ' p-4'
+const PANEL_LARGE = PANEL + ' p-5'
 
 const RATING_LABEL: Record<string, string> = {
   high: 'Cal-IPC High',
@@ -86,15 +92,27 @@ export default function CleanupPlanPage() {
   }
 
   return (
-    <main className="mx-auto max-w-4xl px-6 py-12">
+    <main className="pointer-events-auto absolute inset-0 overflow-y-auto">
+      <div className="mx-auto max-w-4xl px-6 py-10 sm:py-14">
+      <div className="mb-8 flex items-center justify-between text-xs uppercase tracking-[0.18em] text-[#2a1d10]/70">
+        <Link
+          href="/sunshower"
+          className="hover:text-[#2a1d10] hover:underline underline-offset-4"
+        >
+          ← sunshower
+        </Link>
+        <span className="hidden sm:inline">phase 1 · cleanup</span>
+      </div>
       <header className="mb-10">
-        <p className="text-sm uppercase tracking-wider text-emerald-700">
+        <p className="text-xs uppercase tracking-[0.18em] text-emerald-800/80">
           Pollinator Garden — Phase 1: Cleanup
         </p>
-        <h1 className="mt-2 text-3xl font-semibold tracking-tight">
-          Build a weed-removal plan for your yard
+        <h1 className="mt-2 font-serif text-4xl leading-[0.95] tracking-tight text-[#2a1d10] sm:text-5xl">
+          Build a weed-removal
+          <br />
+          plan for your yard.
         </h1>
-        <p className="mt-3 max-w-2xl text-stone-600">
+        <p className="mt-4 max-w-2xl text-[#2a1d10]/75">
           Pick the plants you&rsquo;ve identified in your yard (iNaturalist is
           the easiest tool for spotting them) from the Cal-IPC top-tier
           invasive list, confirm with photos, and we&rsquo;ll propose a
@@ -130,6 +148,7 @@ export default function CleanupPlanPage() {
           onReset={reset}
         />
       )}
+      </div>
     </main>
   )
 }
@@ -148,8 +167,8 @@ function Stepper({ current }: { current: Step }) {
           className={
             'rounded-full border px-3 py-1 ' +
             (current === s.id
-              ? 'border-emerald-600 bg-emerald-600 text-white'
-              : 'border-stone-300 bg-white text-stone-500')
+              ? 'border-[#2a1d10] bg-[#2a1d10] text-[#f7e9c9]'
+              : 'border-[#2a1d10]/25 bg-[#fff6df]/80 text-[#2a1d10]/60')
           }
         >
           {s.label}
@@ -170,12 +189,12 @@ function InputSection({
 }) {
   return (
     <section>
-      <p className="mb-2 block text-sm font-medium text-stone-700">
+      <p className="mb-2 block text-sm font-medium text-[#2a1d10]/80">
         Plants you&rsquo;ve identified in your yard
       </p>
       <PlantPicker selectedPicks={selectedPicks} onChange={onChange} />
       <div className="mt-4 flex items-center justify-between gap-4">
-        <p className="text-xs text-stone-500">
+        <p className="text-xs text-[#2a1d10]/60">
           Search by scientific or common name. We&rsquo;ll show photos to
           confirm on the next step.
         </p>
@@ -183,7 +202,7 @@ function InputSection({
           type="button"
           onClick={onSubmit}
           disabled={selectedPicks.length === 0}
-          className="flex-none rounded-md bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800 disabled:cursor-not-allowed disabled:bg-stone-300"
+          className="flex-none rounded-md bg-[#2a1d10] px-4 py-2 text-sm font-medium text-[#f7e9c9] hover:bg-[#3d2a18] disabled:cursor-not-allowed disabled:bg-[#2a1d10]/30"
         >
           Confirm picks ({selectedPicks.length})
         </button>
@@ -210,7 +229,9 @@ function ConfirmSection({
   const visible = rows.filter((r) => r.status !== 'dropped')
   return (
     <section>
-      <h2 className="mb-4 text-xl font-semibold">Confirm each match</h2>
+      <h2 className="mb-4 font-serif text-2xl text-[#2a1d10]">
+        Confirm each match
+      </h2>
       <ul className="space-y-4">
         {visible.map((row) => (
           <ConfirmRow key={row.id} row={row} onPick={onPick} onDrop={onDrop} />
@@ -218,7 +239,7 @@ function ConfirmSection({
       </ul>
 
       {visible.length === 0 && (
-        <p className="rounded-md border border-stone-200 bg-white p-6 text-stone-600">
+        <p className={PANEL + ' p-6 text-[#2a1d10]/70'}>
           No rows left. Go back and add some plant names.
         </p>
       )}
@@ -227,7 +248,7 @@ function ConfirmSection({
         <button
           type="button"
           onClick={onBack}
-          className="text-sm text-stone-600 hover:text-stone-900"
+          className="text-sm text-[#2a1d10]/70 hover:text-[#2a1d10]"
         >
           ← Edit list
         </button>
@@ -235,7 +256,7 @@ function ConfirmSection({
           type="button"
           onClick={onContinue}
           disabled={keptCount === 0}
-          className="rounded-md bg-emerald-700 px-4 py-2 text-sm font-medium text-white hover:bg-emerald-800 disabled:cursor-not-allowed disabled:bg-stone-300"
+          className="rounded-md bg-[#2a1d10] px-4 py-2 text-sm font-medium text-[#f7e9c9] hover:bg-[#3d2a18] disabled:cursor-not-allowed disabled:bg-[#2a1d10]/30"
         >
           Generate plan ({keptCount})
         </button>
@@ -260,11 +281,11 @@ function ConfirmRow({
 
   if (row.candidates.length === 0) {
     return (
-      <li className="rounded-md border border-amber-200 bg-amber-50 p-4">
+      <li className="rounded-lg border border-amber-300/60 bg-amber-50/85 p-4 backdrop-blur-sm">
         <div className="flex items-start justify-between gap-4">
           <div>
             <p className="font-mono text-sm">{row.rawInput}</p>
-            <p className="mt-1 text-sm text-amber-800">
+            <p className="mt-1 text-sm text-amber-900">
               No match in the Cal-IPC top-tier list (137 plants). It may be a
               native, a non-native that&rsquo;s not flagged as invasive, or
               outside our coverage so far.
@@ -273,7 +294,7 @@ function ConfirmRow({
           <button
             type="button"
             onClick={() => onDrop(row.id)}
-            className="text-sm text-stone-500 hover:text-stone-900"
+            className="text-sm text-[#2a1d10]/60 hover:text-[#2a1d10]"
           >
             Drop
           </button>
@@ -283,7 +304,7 @@ function ConfirmRow({
   }
 
   return (
-    <li className="rounded-md border border-stone-200 bg-white p-4">
+    <li className={PANEL_INSET}>
       <div className="flex items-start gap-4">
         {photo ? (
           <div className="flex flex-none flex-col items-center gap-1">
@@ -312,20 +333,20 @@ function ConfirmRow({
         )}
         <div className="min-w-0 flex-1">
           <div className="flex items-center gap-2">
-            <p className="text-xs uppercase tracking-wide text-stone-500">
+            <p className="text-xs uppercase tracking-wide text-[#2a1d10]/55">
               You typed: {row.rawInput}
             </p>
             {selected && (
-              <span className="rounded-full bg-stone-100 px-2 py-0.5 text-xs text-stone-600">
+              <span className="rounded-full bg-[#2a1d10]/10 px-2 py-0.5 text-xs text-[#2a1d10]/70">
                 {CONFIDENCE_LABEL[selected.confidence]}
               </span>
             )}
           </div>
           {selected && (
-            <p className="mt-1 text-base">
+            <p className="mt-1 text-base text-[#2a1d10]">
               <span className="italic">{selected.plant.scientific_name}</span>
               {selected.plant.common_names[0] && (
-                <span className="text-stone-600">
+                <span className="text-[#2a1d10]/70">
                   {' '}
                   · {selected.plant.common_names[0]}
                 </span>
@@ -344,14 +365,14 @@ function ConfirmRow({
           )}
           {row.candidates.length > 1 && (
             <div className="mt-3">
-              <label className="text-xs text-stone-500">
+              <label className="text-xs text-[#2a1d10]/60">
                 {row.candidates.length} possible matches — pick the one in your
                 yard:
               </label>
               <select
                 value={row.selectedSlug ?? ''}
                 onChange={(e) => onPick(row.id, e.target.value)}
-                className="mt-1 block w-full rounded-md border border-stone-300 bg-white p-2 text-sm"
+                className="mt-1 block w-full rounded-md border border-[#2a1d10]/25 bg-[#fff6df] p-2 text-sm"
               >
                 {row.candidates.map((c) => (
                   <option key={c.plant.slug} value={c.plant.slug}>
@@ -365,7 +386,7 @@ function ConfirmRow({
             </div>
           )}
           {photo && (
-            <p className="mt-2 text-xs text-stone-400">
+            <p className="mt-2 text-xs text-[#2a1d10]/50">
               Photo: {photo.attribution}
             </p>
           )}
@@ -375,20 +396,20 @@ function ConfirmRow({
             <button
               type="button"
               onClick={() => onPick(row.id, row.selectedSlug!)}
-              className="rounded-md border border-emerald-700 px-3 py-1 text-sm text-emerald-700 hover:bg-emerald-50"
+              className="rounded-md border border-emerald-800/70 px-3 py-1 text-sm text-emerald-900 hover:bg-emerald-50/60"
             >
               Confirm
             </button>
           )}
           {row.status === 'kept' && (
-            <span className="rounded-md bg-emerald-100 px-3 py-1 text-center text-sm text-emerald-900">
+            <span className="rounded-md bg-emerald-100/80 px-3 py-1 text-center text-sm text-emerald-900">
               Kept ✓
             </span>
           )}
           <button
             type="button"
             onClick={() => onDrop(row.id)}
-            className="text-sm text-stone-500 hover:text-stone-900"
+            className="text-sm text-[#2a1d10]/60 hover:text-[#2a1d10]"
           >
             Drop
           </button>
@@ -418,10 +439,10 @@ function PlanSection({
 }) {
   return (
     <section>
-      <h2 className="mb-2 text-xl font-semibold">
+      <h2 className="mb-2 font-serif text-2xl text-[#2a1d10]">
         Removal plan ({plan.length})
       </h2>
-      <p className="mb-6 max-w-2xl rounded-md border border-stone-200 bg-stone-100 p-4 text-sm text-stone-700">
+      <p className={'mb-6 max-w-2xl text-sm text-[#2a1d10]/75 ' + PANEL_INSET}>
         Ordered by Cal-IPC rating (highest threat first), then prioritizing
         plants that spread vegetatively (where mowing or pulling can make
         things worse). Detailed per-plant management notes (UC Davis WRIC) are
@@ -432,10 +453,10 @@ function PlanSection({
         {plan.map((item, idx) => (
           <li
             key={item.plant.slug}
-            className="rounded-md border border-stone-200 bg-white p-5"
+            className={PANEL_LARGE}
           >
             <div className="flex items-start gap-4">
-              <span className="flex h-8 w-8 flex-none items-center justify-center rounded-full bg-stone-900 text-sm font-medium text-white">
+              <span className="flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[#2a1d10] text-sm font-medium text-[#f7e9c9]">
                 {idx + 1}
               </span>
               {item.plant.photos[0] && (
@@ -448,10 +469,10 @@ function PlanSection({
                 />
               )}
               <div className="min-w-0 flex-1">
-                <p className="text-base">
+                <p className="text-base text-[#2a1d10]">
                   <span className="italic">{item.plant.scientific_name}</span>
                   {item.plant.common_names[0] && (
-                    <span className="text-stone-600">
+                    <span className="text-[#2a1d10]/70">
                       {' '}
                       · {item.plant.common_names[0]}
                     </span>
@@ -468,13 +489,13 @@ function PlanSection({
                   </span>
                 )}
                 {item.warnings.length > 0 && (
-                  <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-stone-700">
+                  <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-[#2a1d10]/80">
                     {item.warnings.map((w) => (
                       <li key={w}>{w}</li>
                     ))}
                   </ul>
                 )}
-                <p className="mt-3 text-sm font-medium text-stone-900">
+                <p className="mt-3 text-sm font-medium text-[#2a1d10]">
                   Method: {item.method}
                 </p>
               </div>
@@ -487,14 +508,14 @@ function PlanSection({
         <button
           type="button"
           onClick={onBack}
-          className="text-sm text-stone-600 hover:text-stone-900"
+          className="text-sm text-[#2a1d10]/70 hover:text-[#2a1d10]"
         >
           ← Back to confirm
         </button>
         <button
           type="button"
           onClick={onReset}
-          className="rounded-md border border-stone-300 px-4 py-2 text-sm font-medium hover:bg-stone-50"
+          className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/70 px-4 py-2 text-sm font-medium text-[#2a1d10] hover:bg-[#fff6df]"
         >
           Start over
         </button>

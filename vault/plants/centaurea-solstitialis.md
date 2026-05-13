@@ -3,11 +3,12 @@ type: plant
 title: Centaurea solstitialis (yellow starthistle)
 aliases: [yellow starthistle]
 tags: [invasive, calipc-high]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/centaurea-solstitialis-profile.md
   - raw/articles/calipc/centaurea-solstitialis-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Centaurea_solstitialis.md
+last_updated: 2026-05-11
 
 scientific_name: Centaurea solstitialis
 common_names: [yellow starthistle]
@@ -36,7 +37,44 @@ invasive:
 
 Centaurea solstitialis (yellow starthistle) is a bushy winter annual (family Asteraceae) from the Mediterranean region in Europe that has invaded over 12 million acres in California. Yellow starthistle inhabits open hills, grasslands, open woodlands, fields, roadsides, and rangelands, and it is considered one of the most serious rangeland weeds in the state. It propagates rapidly by seed, and a large plant can produce nearly 75,000 seeds. Plants are gray-green in color and produce yellow flower heads armed with stiff, long spines in late June and July. Several insects from the Mediterranean region, including weevils and flies, have been employed as biocontrol agents for yellow starthistle with minor success.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** winter annual (occasionally biennial), simple to bushy, with stiff wiry stems up to 6 ft tall.
+- **Rosette:** dense basal rosette through mid-spring; rosette leaves wither by flowering time.
+- **Stem leaves:** alternate; mature foliage **grayish-to-bluish-green, densely covered with fine white cottony hairs**. **Leaf bases form wings along the stems** (key field ID).
+- **Taproot:** can extend **>6 ft deep**, letting plants tap soil moisture inaccessible to annual grasses — this is why starthistle outlasts grasses into summer.
+- **Flowerheads:** solitary at stem tips, with numerous yellow disk flowers. **The phyllaries bear stiff, straw-colored central spines 10–25 mm long** — the diagnostic feature.
+- **Seeds:** two types — outer ring is dull dark brown (no pappus, often stays in head); inner ring is glossy gray-tan with slender white pappus 2–5 mm long.
+- **Seedbank:** survives up to ~10 years under certain conditions; **few seeds survive beyond 4 years** in typical CA soils.
+- **Toxicity:** unidentified compound causes **nigropallidal encephalomalacia ("chewing disease")** in horses — keep horses off infested pastures.
+
+## Remove
+
+Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_taproot).
+
+- **Hand-pull / hoe / string-trim** small patches at the **early flowering** stage — plants are easy to recognize and lower leaves have senesced. Detach all aboveground stem material; even a 2-inch piece with attached leaves can recover. In areas with competing vegetation, plants are more brittle and don't recover when stems break.
+- **Once plants are bolted but spines have hardened**, work becomes painful — and seed dispersal is starting. Bag pulled plants for off-site disposal.
+- **Mowing** is effective only when **2–5% of seedheads are in bloom**. Mow below the lowest branches.
+  - Mowing **too early** removes competing grass cover and promotes vigorous regrowth.
+  - Mowing **too late** scatters seed.
+  - Best: mow once at early flowering, again 4–6 weeks later at the floral bud stage.
+  - **High-branching plants** are controlled with a single well-timed mow; **sprawling low-branching plants cannot be controlled by mowing alone.**
+- **Tillage** before viable seed set is highly effective (this is why starthistle is rare in cropland). Not appropriate in wildlands due to soil disturbance.
+- **Prescribed burning** at very early flowering — fuel is dried annual grass thatch, starthistle is green and hasn't set seed. 2–3 consecutive year burns can substantially deplete the seedbank. Burns at other times *enhance* starthistle survival.
+- **Foliar herbicides** (per WRIC):
+  - **Aminopyralid (Milestone)** 4–5 oz/acre — one of the most effective; broadleaf-selective, safe on grasses.
+  - **Clopyralid (Transline)** 0.25–0.67 pt/acre on rosettes.
+  - **Glyphosate** 1.5–2% v/v spot from bolting to early flowering (good for late-season selective work via wiper).
+  - **2,4-D** 0.5–4 pt/acre on rosettes (lower cost; less effective than aminopyralid).
+- **Biocontrol:** six insects established (3 weevils, 3 flies); together they reduce seed production 43–76%. Not sufficient as sole control but useful as part of integrated program. *Eustenopus villosus* and *Chaetorellia succinea* are the most effective.
+- **Grazing:** sheep, goats, cattle can graze plants from bolt to spine emergence; goats continue through flowering. Continue for 3+ years to deplete seedbank in severe infestations.
+
+## Prevent
+
+- **Multi-year commitment.** Effective management requires controlling current population AND suppressing seed production for at least 2–3 years (the effective soil seed life).
+- **Establish dense desirable vegetation** — a competitive spring canopy is the single biggest factor reducing starthistle dominance.
+- **Mowing skeletons in fall before first rains** can form a mulch that suppresses germination — a useful "tail" pass.
+- **Don't mow too early** — destroying spring grass cover before starthistle bolts makes the next-year problem worse.
 
 ## Why it's a problem
 
@@ -102,4 +140,6 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/centaurea-solstitialis-profile.md`
 - PAF: `raw/articles/calipc/centaurea-solstitialis-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Centaurea_solstitialis.md`
+- UC IPM Pest Note: `raw/articles/ucipm-residential/yellow-starthistle.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

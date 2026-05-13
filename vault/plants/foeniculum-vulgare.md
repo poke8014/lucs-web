@@ -3,11 +3,12 @@ type: plant
 title: Foeniculum vulgare (fennel)
 aliases: [fennel, sweet fennel, sweet anise]
 tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/foeniculum-vulgare-profile.md
   - raw/articles/calipc/foeniculum-vulgare-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Foeniculum.md
+last_updated: 2026-05-11
 
 scientific_name: Foeniculum vulgare
 common_names: [fennel, sweet fennel, sweet anise]
@@ -36,7 +37,38 @@ invasive:
 
 Foeniculum vulgare (fennel) is an erect perennial herb (family Apiaceae). Although the plant is very common throughout the state, dense local populations have been reported from Santa Cruz Island, in fields around the San Francisco Bay region, Palos Verdes Peninsula (Los Angeles County), and Camp Pendleton (San Diego County). It can drastically alter the composition and structure of many plant communities, including grasslands, coastal scrub, riparian, and wetland communities. It is still unclear whether culinary varieties of fennel are invasive.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** aromatic perennial herb with a **deep, thick taproot**. Can grow to 10 ft tall.
+- **Leaves:** finely dissected into numerous thread-like segments — distinctive feathery appearance.
+- **Smell test:** strong licorice / anise scent, especially when crushed. This is the most reliable field ID.
+- **Flowers:** small yellow flowers in flat-topped compound umbels.
+- **Fruit:** separates into two halves (mericarps) at maturity. Seeds dispersed by water, soil movement, animals, vehicles, and as a seed contaminant.
+- **Seedbank:** seeds survive several years under field conditions.
+- **Wild vs cultivated:** weedy invasive form is the wild *F. vulgare*; cultivated bulb-fennel and dill-style varieties are **seldom invasive** per WRIC, though the distinction breaks down where bulb-fennel escapes from gardens.
+- **Resprout vector:** root and crown fragments occasionally regenerate during flooding, mudslides, or mechanical disturbance — be deliberate about disposal.
+
+## Remove
+
+Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_taproot).
+
+- **Cut flowering stalks first** and bag them — once stalks are down, the digging is faster and seed set is interrupted.
+- **Dig out the entire taproot and crown:** the taproot snaps cleanly an inch or two below the crown when pulled, so dig 6–12 in deep with a shovel or mattock. Anything left in the crown resprouts.
+- **Slashing as an alternative** (per WRIC): slashing **just before flowering** may kill the plant outright. If it survives, slashing prevents seed set; repeat on regrowth.
+- **Triclopyr is the standard herbicide for fennel control** (more effective than 2,4-D):
+  - Spot foliar: 0.5–1% v/v solution of Garlon 4 Ultra or Garlon 3A + surfactant.
+  - **Timing window: postemergence on fully developed leaves *before* flowering** — the wet-season window in CA is late February to early March. Effectiveness drops once the plant has bolted.
+- **Glyphosate** also effective (2–5% v/v spot treatment); can be combined with triclopyr at 1 lb a.e./acre each.
+- **What doesn't work alone:**
+  - **Burning alone** — plants quickly recover. But a **fall burn followed by herbicide the next two springs** has reduced fennel cover in restoration studies.
+  - **Grazing** — most livestock won't eat fennel, and where they do, they help spread seed.
+
+## Prevent
+
+- **Multi-year follow-up.** Flag and re-dig stragglers next season — fennel resprouts from any remaining crown tissue.
+- **Clean equipment after working in infested areas** — seeds spread by vehicles, boots, and tools.
+- **Dispose of root and crown material away from drainage** — fragments can regenerate during flood events or mudslides.
+- **Avoid soil disturbance** near established infestations — disturbance triggers dense stands.
 
 ## Why it's a problem
 
@@ -100,4 +132,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/foeniculum-vulgare-profile.md`
 - PAF: `raw/articles/calipc/foeniculum-vulgare-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Foeniculum.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

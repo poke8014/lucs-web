@@ -1,7 +1,9 @@
 "use client";
 
-import { Canvas, useFrame } from "@react-three/fiber";
-import { useEffect, useRef } from "react";
+import { Html } from "@react-three/drei";
+import { Canvas, useFrame, type ThreeEvent } from "@react-three/fiber";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useMemo, useRef, useState } from "react";
 import * as THREE from "three";
 
 const RAIN_COUNT = 600;
@@ -64,7 +66,177 @@ function Sun() {
   );
 }
 
+function Ground() {
+  return (
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.55, 0]}>
+      <planeGeometry args={[40, 18]} />
+      <meshBasicMaterial color="#d8b483" />
+    </mesh>
+  );
+}
+
+type TuftSpec = {
+  position: [number, number, number];
+  scale: number;
+  hue: number;
+  blades: { x: number; rot: number; height: number }[];
+  sway: number;
+};
+
+const TUFTS: TuftSpec[] = [
+  { position: [-4, -0.55, -1], scale: 0.9, hue: 0, sway: 0.2, blades: bladePattern(7) },
+  { position: [-2.2, -0.55, 0.4], scale: 1.05, hue: 0.05, sway: 0.6, blades: bladePattern(8) },
+  { position: [-0.6, -0.55, -0.6], scale: 0.85, hue: -0.04, sway: 1.1, blades: bladePattern(6) },
+  { position: [0.7, -0.55, 0.8], scale: 1, hue: 0.02, sway: 1.6, blades: bladePattern(7) },
+  { position: [3.2, -0.55, -0.4], scale: 0.95, hue: -0.02, sway: 2.0, blades: bladePattern(7) },
+  { position: [4.6, -0.55, 0.6], scale: 1.1, hue: 0.04, sway: 2.4, blades: bladePattern(8) },
+];
+
+function bladePattern(n: number) {
+  const blades: { x: number; rot: number; height: number }[] = [];
+  for (let i = 0; i < n; i++) {
+    const t = i / Math.max(n - 1, 1);
+    blades.push({
+      x: (t - 0.5) * 0.42,
+      rot: (t - 0.5) * 0.35,
+      height: 0.32 + ((i * 37) % 11) / 40,
+    });
+  }
+  return blades;
+}
+
+function WeedTuft({ spec }: { spec: TuftSpec }) {
+  const groupRef = useRef<THREE.Group>(null);
+  useFrame((state) => {
+    if (!groupRef.current) return;
+    const t = state.clock.elapsedTime;
+    groupRef.current.rotation.z = Math.sin(t * 0.8 + spec.sway) * 0.04;
+  });
+  const color = useMemo(() => {
+    const base = new THREE.Color("#6f8a3a");
+    base.offsetHSL(spec.hue, 0, 0);
+    return base;
+  }, [spec.hue]);
+
+  return (
+    <group ref={groupRef} position={spec.position} scale={spec.scale}>
+      {spec.blades.map((b, i) => (
+        <mesh
+          key={i}
+          position={[b.x, b.height / 2, 0]}
+          rotation={[0, 0, b.rot]}
+        >
+          <coneGeometry args={[0.045, b.height, 4]} />
+          <meshBasicMaterial color={color} />
+        </mesh>
+      ))}
+    </group>
+  );
+}
+
+function Weeds() {
+  return (
+    <group>
+      {TUFTS.map((spec, i) => (
+        <WeedTuft key={i} spec={spec} />
+      ))}
+    </group>
+  );
+}
+
+function Shovel({ onActivate }: { onActivate: () => void }) {
+  const groupRef = useRef<THREE.Group>(null);
+  const [hovered, setHovered] = useState(false);
+
+  useFrame((state) => {
+    if (!groupRef.current) return;
+    const t = state.clock.elapsedTime;
+    const targetScale = hovered ? 1.08 : 1;
+    const current = groupRef.current.scale.x;
+    const next = current + (targetScale - current) * 0.15;
+    groupRef.current.scale.setScalar(next);
+    groupRef.current.position.y = -0.45 + Math.sin(t * 1.2) * 0.015;
+  });
+
+  useEffect(() => {
+    if (typeof document === "undefined") return;
+    document.body.style.cursor = hovered ? "pointer" : "";
+    return () => {
+      document.body.style.cursor = "";
+    };
+  }, [hovered]);
+
+  const handleColor = hovered ? "#8a5a2b" : "#7a4f25";
+  const bladeColor = hovered ? "#d6cdb4" : "#bdb39a";
+
+  function pointerOver(e: ThreeEvent<PointerEvent>) {
+    e.stopPropagation();
+    setHovered(true);
+  }
+  function pointerOut(e: ThreeEvent<PointerEvent>) {
+    e.stopPropagation();
+    setHovered(false);
+  }
+  function click(e: ThreeEvent<MouseEvent>) {
+    e.stopPropagation();
+    onActivate();
+  }
+
+  return (
+    <group
+      ref={groupRef}
+      position={[1.9, -0.45, 0.5]}
+      rotation={[0, 0, -0.32]}
+      onPointerOver={pointerOver}
+      onPointerOut={pointerOut}
+      onClick={click}
+    >
+      {/* handle */}
+      <mesh position={[0, 0.7, 0]}>
+        <boxGeometry args={[0.07, 1.5, 0.07]} />
+        <meshBasicMaterial color={handleColor} />
+      </mesh>
+      {/* grip */}
+      <mesh position={[0, 1.5, 0]}>
+        <boxGeometry args={[0.26, 0.08, 0.08]} />
+        <meshBasicMaterial color={handleColor} />
+      </mesh>
+      {/* socket */}
+      <mesh position={[0, -0.08, 0]}>
+        <boxGeometry args={[0.11, 0.18, 0.11]} />
+        <meshBasicMaterial color={bladeColor} />
+      </mesh>
+      {/* blade */}
+      <mesh position={[0, -0.45, 0]} rotation={[0, 0, Math.PI]}>
+        <coneGeometry args={[0.22, 0.5, 4]} />
+        <meshBasicMaterial color={bladeColor} />
+      </mesh>
+      <Html
+        position={[0, 1.85, 0]}
+        center
+        distanceFactor={6}
+        style={{ pointerEvents: "none", userSelect: "none" }}
+      >
+        <span
+          className={
+            "whitespace-nowrap rounded-full border px-3 py-1 font-mono text-[10px] uppercase tracking-[0.18em] transition " +
+            (hovered
+              ? "border-[#2a1d10] bg-[#2a1d10] text-[#f7e9c9]"
+              : "border-[#2a1d10]/40 bg-[#f7e9c9]/80 text-[#2a1d10]/80")
+          }
+        >
+          cleanup plan
+        </span>
+      </Html>
+    </group>
+  );
+}
+
 export default function Scene() {
+  const router = useRouter();
+  const pathname = usePathname();
+  const onLanding = pathname === "/sunshower";
+
   return (
     <Canvas
       className="absolute inset-0"
@@ -78,6 +250,11 @@ export default function Scene() {
       <directionalLight position={[3, 4, 2]} intensity={0.8} color="#ffd27a" />
       <Sun />
       <Rain />
+      <Ground />
+      <Weeds />
+      {onLanding && (
+        <Shovel onActivate={() => router.push("/sunshower/cleanup-plan")} />
+      )}
     </Canvas>
   );
 }

@@ -3,11 +3,12 @@ type: plant
 title: Carduus pycnocephalus (Italian thistle)
 aliases: [Italian thistle]
 tags: [invasive, calipc-moderate]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/carduus-pycnocephalus-profile.md
   - raw/articles/calipc/carduus-pycnocephalus-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Carduus_acanthoides-nutans-pycnocephalus-tenuiflorus.md
+last_updated: 2026-05-11
 
 scientific_name: Carduus pycnocephalus
 common_names: [Italian thistle]
@@ -36,7 +37,37 @@ invasive:
 
 Carduus pycnocephalus (Italian thistle) is a winter annual forb (family Asteraceae) that is native to the Mediterranean region of southern Europe, northern Africa, western Asia. It is widely distributed in disturbed open sites, roadsides, pastures, annual grasslands, and waste areas across much of California. Plants grow up to 20 dm, are often slightly woolly, and narrowly winged along stems and spined. Flower heads typically occur in clusters of 2-5. Phyllary (flower head scale) margins are not scarious, unlike its close relative, C. tenuiflorus. Italian thistle can facilitate fire spread and frequency by providing fuels in some habitats and creates monocultures that reduce native seedling recruitment and survival. It is a host species for the introduced weevil, Rhinocilus conicus, which also attacks native thistles.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** winter annual or biennial thistle, 1–6 ft tall at maturity. Forms a rosette in its first season.
+- **Stems:** branched, with stiff prickles.
+- **Leaves:** deeply lobed, spiny, with white-woolly undersides.
+- **Flowers (key field ID):** **cylindrical (not hemispherical) purple-to-pink flowerheads**, clustered at stem tips. This distinguishes *Carduus pycnocephalus* and *C. tenuiflorus* (slenderflower thistle) from musk and plumeless thistles, which have classic round/dome-shaped heads.
+- **Bloom:** spring–summer (April–June in coastal CA).
+- **Reproduction:** seed only. Most seeds fall near the parent plant; some wind-disperse to greater distances.
+- **Seedbank:** seeds **rarely persist more than a few years** in the soil — short compared to brooms or yellow starthistle.
+
+## Remove
+
+Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_taproot).
+
+- **Cultivate or hand-pull when plants are small** — easiest when soil is moist and before spines harden.
+- **Mowing during flowering** can greatly reduce seed production, but a single mow is **rarely sufficient**: plants bloom asynchronously over a 4–7 week window. Repeat mows at weekly intervals across the bloom period.
+- **Timing:** wait until plants bolt and are just about to flower. **Mowing before plants are fully bolted lets them regrow.** Plants cut 4 days after first flowers open can still produce viable seed.
+- **Sever the root below the soil surface** for any mechanical pass; remove all attached leaves to prevent recovery.
+- **Foliar herbicides** in the rosette stage (per WRIC):
+  - 2,4-D 1–2 qt product/acre (rosette stage).
+  - Aminopyralid (Milestone) 4–5 oz/acre — one of the most effective for Carduus species.
+  - Clopyralid (Transline) 0.25–1.33 pt/acre.
+  - Several premixes (Forefront HL, Opensight, Capstone) target rosette through bolting stages.
+- **Biocontrol:** the thistle head weevil (*Rhinocyllus conicus*) is established and attacks Carduus species but is not particularly effective on Italian thistle specifically.
+
+## Prevent
+
+- **Short seedbank is the lever** — 2–3 years of preventing seed set can substantially deplete a population. Don't let a single year of seed set slip through.
+- **Establish competitive perennial vegetation** — Carduus species compete poorly with healthy established grasses.
+- **Sheep eat the rosettes, goats eat the flowerheads** — confined grazing in early stages can suppress an infestation.
+- **A flamer can kill individual plants** where grass fires aren't hot enough to kill the root crown.
 
 ## Why it's a problem
 
@@ -108,4 +139,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/carduus-pycnocephalus-profile.md`
 - PAF: `raw/articles/calipc/carduus-pycnocephalus-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Carduus_acanthoides-nutans-pycnocephalus-tenuiflorus.md` (covers four Carduus species jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

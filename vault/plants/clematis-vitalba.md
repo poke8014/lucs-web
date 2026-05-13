@@ -3,11 +3,12 @@ type: plant
 title: Clematis vitalba (old man's beard)
 aliases: [old man's beard, traveler's joy, Anemone vitalba]
 tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/clematis-vitalba-profile.md
   - raw/articles/calipc/clematis-vitalba-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Clematis.md
+last_updated: 2026-05-12
 
 scientific_name: Clematis vitalba
 common_names: [old man's beard, traveler's joy]
@@ -36,7 +37,39 @@ invasive:
 
 Clematis vitalba (old man’s beard) is a vine (family Ranunculaceae) with white flowers and oval-shaped leaves found in the central coast ranges of California. It is native to the United Kingdom. It favors forests and woodlands. It spreads via seeds and roots. Means of dispersal include water, wind, humans and animals.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** woody, perennial, deciduous climbing vine to 100+ ft in length, draping over trees and shrubs.
+- **Leaves:** opposite, **pinnately compound with 5 leaflets** (sometimes 3). Leaflets are toothed or entire, 1–3 in long.
+- **Flowers:** small, white-to-cream, fragrant, in axillary panicles. Bloom in summer (July–August in CA).
+- **Seedheads (key field ID):** **silvery, feathery, plume-like seed heads** persist into winter — this is the "old man's beard" appearance and the diagnostic feature.
+- **Reproduction:** primarily by seed; **also regenerates from stem fragments** (per WRIC). Wind-dispersed seeds travel long distances.
+- **Hazards:** smothers and breaks tree limbs via accumulated weight; alters canopy structure in riparian and oak woodland systems.
+
+## Remove
+
+Default method: [`pull_vine_dig_crown`](../synthesis/invasive-removal-methods.md#pull_vine_dig_crown).
+
+- **Note:** No WRIC narrative pest report exists for *Clematis vitalba* — only a treatment-options table. The recipe follows the standard climbing-vine playbook.
+- **Hand-pulling, digging, or grubbing** is rated "Good" by WRIC — but **roots must be removed from site or they regenerate from stem fragments**. This is a critical step: cut vine debris left on damp soil re-roots.
+- **Cutting alone is poor** for established plants (except seedlings); roots and stem fragments persist.
+- **Mowing not effective** for the same reason.
+- **Tillage** rated "Fair" by WRIC — fragments roots and spreads the problem if not paired with chemical follow-up.
+- **Climbing tree vines:** sever the vine at ground level with a saw; cut again at chest height. Leave aerial parts to die in place and fall in the next dry period — same pattern as for [[plants/hedera-helix]].
+- **Foliar / cut-stem herbicides** (per WRIC treatment table, all rated Excellent or Good):
+  - **Glyphosate** (E) — foliar to leaves of climbing vines; cut-stem with concentrate; the standard residential option.
+  - **Triclopyr** (G) — broadleaf-selective; good for sites with desirable grasses underneath.
+  - **2,4-D, aminopyralid, picloram, imazapyr, imazapic** all rated Excellent (some not California-registered).
+  - **Clopyralid, metsulfuron** rated Good.
+- **Cultural: grazing** — sheep will feed on seedlings and young vines at ground level (rated Good per WRIC).
+- **No biological control** agents available.
+
+## Prevent
+
+- **Bag and dispose of cut vine material off-site** — fragments root readily from any node touching damp soil.
+- **Watch for re-sprouts at every node** along cut vine debris paths.
+- **Wind-dispersed seed** — eradicating one infestation doesn't prevent neighborhood re-introduction.
+- **Cut climbing vines from trees** even if leaving ground-cover patches for later — accumulated weight breaks branches.
 
 ## Why it's a problem
 
@@ -102,4 +135,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/clematis-vitalba-profile.md`
 - PAF: `raw/articles/calipc/clematis-vitalba-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Clematis.md` (treatment-options table only; no narrative pest report)
+- Datasets: [[sources/calipc]], [[sources/wric]]

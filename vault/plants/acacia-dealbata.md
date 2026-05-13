@@ -3,11 +3,12 @@ type: plant
 title: Acacia dealbata (silver wattle)
 aliases: [silver wattle, Acacia decurrens var. dealbata]
 tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/acacia-dealbata-profile.md
   - raw/articles/calipc/acacia-dealbata-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Acacia.md  # congener — file covers A. melanoxylon; A. dealbata managed similarly
+last_updated: 2026-05-11
 
 scientific_name: Acacia dealbata
 common_names: [silver wattle]
@@ -36,7 +37,36 @@ invasive:
 
 Acacia dealbata (silver wattle) is a tree (family Fabaceae) found in the coastal ranges, San Francisco Bay area, and south coast of California. It favors disturbed places in coastal prairies, riparian areas and coniferous forests. It is native to Australia. Silver wattle is often confused with green wattle ( Acacia decurrens), but is distinguishable by the small, silvery hairs that grow on its twigs. It spreads via rhizomes and seeds, and easily resprouts after being cut. Acacia dealbata changes soil chemistry by fixing nitrogen, and the plants’ fallen leaves may have allelopathic effects that prevent the growth of native understory plants. Like many Acacias, silver wattle is commonly planted as an ornamental. View the [Jepson Herbarium video](https://www.youtube.com/watch?v=bf9s1ZJxCnw) to help identify Acacia species.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** evergreen tree, typically 30–50 ft tall.
+- **Leaves:** bipinnately compound with very fine silvery-gray feathery leaflets — the "silver wattle" name comes from this silvery sheen.
+- **Flowers:** small bright yellow puffball clusters in late winter to early spring (one of the earliest-flowering trees in CA).
+- **Pods:** small, flat, brown, similar to other acacias.
+- **Spreads:** by seed and vigorously by root suckers from a spreading root system. **Resprouts from the base after cutting** — this is the key management constraint.
+- **Note:** No species-specific WRIC report; the genus-level Acacia.md WRIC file covers *A. melanoxylon* (black acacia) — the management approach for *A. dealbata* is the same per Cal-IPC and the silver-wattle congener listing in the Acacia WRIC summary.
+
+## Remove
+
+Default method: [`cut_stump_herbicide`](../synthesis/invasive-removal-methods.md#cut_stump_herbicide).
+
+- **Seedlings:** hand-pull when soil is moist.
+- **Saplings / small trees:** weed wrench or woody-weed extractor. Extract the entire root or stump-sprouting will occur.
+- **Established trees:** cut at ground level; **immediately paint cut stump with herbicide**. The plant resprouts vigorously from the base if not chemically treated.
+- **Cut-stump herbicide** (paint within minutes of cutting):
+  - **Triclopyr** is the most effective per WRIC (Excellent rating). Garlon 4 Ultra 20–25% in oil carrier for basal cut-stump, or Garlon 3A undiluted or 50% in water.
+  - **Glyphosate** also effective (Good for foliar, Excellent for cut-stump). 25% in water for cut-stump.
+  - **Picloram and tebuthiuron** are excellent but restricted-use / not California-registered.
+  - **Imazapyr** is typically poor on legume species per WRIC (Acacia is in Fabaceae).
+- **Fire stimulates recruitment** — burning makes things worse on its own.
+- **Heavy equipment removal**: no information available per WRIC; would create the same soil-disturbance + sucker-from-fragments risk.
+
+## Prevent
+
+- **Watch for root suckers** for years after the parent is felled — the spreading root system can produce new shoots well after the main tree is gone.
+- **Soil disturbance triggers sucker formation** — minimize disturbance during cleanup.
+- **Don't replant the site immediately** — wait through one growing season to identify and treat resprouts.
+- **Early-flowering ornamental value made this plant popular** in older CA landscapes; mature stand-alone trees on residential lots are common. Confirm any silver-leaved Acacia on a property is *dealbata* (invasive) vs another non-invasive Acacia.
 
 ## Why it's a problem
 
@@ -102,4 +132,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/acacia-dealbata-profile.md`
 - PAF: `raw/articles/calipc/acacia-dealbata-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC (congener): `raw/articles/wric/Acacia.md` (file covers *A. melanoxylon*; *A. dealbata* managed similarly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

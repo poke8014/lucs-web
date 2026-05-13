@@ -6,7 +6,7 @@ Catalog of every page in the wiki. Maintained by Claude on every ingest.
 
 ### Invasives
 
-The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/calipc-top-tier-overview]] for cross-cutting patterns and the foothills-priority subset. Source dataset: [[sources/calipc]]. **Most plant pages are stubs** — frontmatter is fully populated for queries; Identify / Remove / Prevent body sections await UC Davis WRIC ingest. Curated pilot: [[plants/arctotheca-prostrata]].
+The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/calipc-top-tier-overview]] for cross-cutting patterns and the foothills-priority subset. Source dataset: [[sources/calipc]]. **All 38 annotated plants (those with `removal_method` in `plants.json`) now have status: draft** — Identify / Remove / Prevent body sections written from WRIC + UC IPM. The remaining ~99 plants (aquatic, salt-marsh, coastal-dune, remote-rangeland invasives outside the residential cleanup-plan scope) remain status: stub pending future inventory expansion. Curated pilot: [[plants/arctotheca-prostrata]].
 
 #### Cal-IPC High (44 plants)
 
@@ -197,7 +197,8 @@ The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/ca
 ### Datasets
 - [[sources/calipc]] — California Invasive Plant Council Inventory. 137 top-tier plants ingested (44 High + 93 Moderate). Profile + PAF documents at `raw/articles/calipc/`. Deferred: Limited tier, Watch tier (PRE), photos.
 - [[sources/wric]] — UC Davis Weed Research and Information Center *Weed Reports*. 274 PDFs covering A–Z (no K/Q/Y) natural-area weeds, scraped via firecrawl to `raw/articles/wric/`. Canonical management-method source; book reference DiTomaso et al. 2013.
+- UC IPM Pest Notes (weed-relevant subset, 34 pages, ingested 2026-05-11) — UC Statewide IPM Program home-and-landscape weed series. 28 per-species pages at `raw/articles/ucipm-residential/`, 6 cross-cutting method pages at `raw/articles/ucipm-general/`. Residential-focused complement to WRIC's natural-areas focus. Source meta-page deferred (no `sources/ucipm.md` yet).
 
 ## Synthesis
 - [[synthesis/calipc-top-tier-overview]] — Cross-cutting patterns across the 137 Cal-IPC top-tier invasives. Rating distribution, spread mechanism frequency, habitat distribution, the foothills-priority subset (~86 plants for Luc's South Bay yard).
-- [[synthesis/invasive-removal-methods]] — Closed vocabulary of `removal_method` keys consumed by the cleanup-plan app. Vocabulary + per-plant assignments for the initial 38 yard-relevant invasives; source attribution (UC IPM / WRIC / Cal-IPC).
+- [[synthesis/invasive-removal-methods]] — Closed vocabulary of `removal_method` keys consumed by the cleanup-plan app. Vocabulary + per-plant assignments for the initial 38, plus a UC IPM-grounded "Method playbook" (per-method when/how/limits with concrete herbicide dilutions and timing windows) and per-species deltas for the 10 plants with direct UC IPM coverage.

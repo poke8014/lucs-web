@@ -3,11 +3,12 @@ type: plant
 title: Lepidium latifolium (perennial pepperweed)
 aliases: [perennial pepperweed, tall whitetop, broadleaved pepperweed, "Cardaria latifolia (L.) Spach"]
 tags: [invasive, calipc-high, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/lepidium-latifolium-profile.md
   - raw/articles/calipc/lepidium-latifolium-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Lepidium_latifolium.md
+last_updated: 2026-05-11
 
 scientific_name: Lepidium latifolium
 common_names: [perennial pepperweed, tall whitetop, broadleaved pepperweed]
@@ -36,7 +37,42 @@ invasive:
 
 Lepidium latifolium (perennial pepperweed, tall whitetop) is a perennial herb (family Brassicaceae) that is native to Eurasia and found in moist or seasonally wet sites throughout California. Perennial pepperweed grows very aggressively, forming dense colonies that exclude native species. It reproduces both by seed and vegetatively from its roots and small root fragments. Seeds and root fragments are spread easily by flooding and soil movement, and seeds stick to tires, shoes, and animals, making continued dispersion difficult to avoid. Perennial pepperweed also increases soil salinity, reducing germination of many desirable species. It is a state-listed noxious weed in California and many other western states.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** erect perennial up to 6 ft tall. Crown and lower stems are weakly woody.
+- **Foliage:** hairless, **green to gray-green, often dusted with powdery white** caused by a rust fungus.
+- **Basal leaves:** larger and wider than stem leaves — up to 1 ft long and 4 in wide, with serrate margins.
+- **Roots (the management constraint):** long, thick, minimally branched, **vigorously creeping**. Most are in the top 2 ft of soil but **some penetrate to 10 ft or more**. **Root fragments as small as 0.5–1 in long regenerate.** Roots spread laterally up to 10 ft from the visible plant.
+- **Inflorescence:** rounded-to-pyramidal panicle of numerous small white four-petaled flowers — the "tall whitetop" common name describes the visual.
+- **Seed pods:** ~2 mm, small reddish-brown seeds (~1 mm).
+- **Seedbank:** seeds **do not appear to remain viable for extended periods** — perennial pepperweed reproduces primarily **vegetatively** from roots and root fragments. Large root fragments can survive on the soil surface for extended periods.
+- **Aboveground habit:** aboveground parts typically die in late fall/winter, leaving dead stems and thatch that can persist for years.
+- **Ecological harm:** roots extract salts from deep soil and deposit them on the surface, suppressing germination of salt-sensitive species. Riparian infestations also weaken streambanks.
+
+## Remove
+
+Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_taproot) — but treat as a **rhizome problem**, not a taproot problem. Mechanical-only removal almost never works on established stands.
+
+- **Seedlings** are easy to control by hand-pulling or tillage — but seedlings are rarely encountered because the plant prefers vegetative spread.
+- **Cultivation and tillage typically increase infestations** by dispersing root fragments. **Clean equipment after any work in infested areas.**
+- **Mowing alone stimulates resprouting** — but is useful for **removing accumulated thatch** so subsequent herbicide reaches the plants.
+- **The proven sequence** (per WRIC): **mow at the bolting / flower-bud stage**, then apply herbicide to resprouting shoots **once they have reached the flower bud stage again**. Herbicide timing at flower bud is critical — applications at rosette or early bolting are far less effective.
+- **Foliar herbicides** at flower-bud stage:
+  - Glyphosate 2–4 qt/acre (1.5–2% v/v spot, or 2% for ornamental landscape use). UC IPM Pest Note describes the residential pattern: glyphosate spot, then 2–6 month wait for resprouts to re-treat, then dense replanting.
+  - Chlorsulfuron (Telar) 1–2.6 oz/acre — **most effective herbicide for pepperweed per UC IPM**, provides 1–3 years of >90% control. Has soil residual; not for sensitive crops.
+  - 2,4-D 2 qt/acre at rosette to flowering. Multiple applications needed.
+  - Imazapyr (Habitat) 1–2 qt/acre for aquatic sites. Nonselective, long residual.
+- **Black-plastic tarping for 2 full growing seasons** can exhaust root reserves (per UC IPM Pest Note). **The tarp must extend at least 10 ft past the visible patch** because lateral roots reach that far. Less inconsistent than annual solarization for this species.
+- **Seasonal flooding for 6+ months** during the growing season can significantly reduce populations (anecdotal per WRIC).
+- **No biocontrol agents currently available** — under evaluation.
+
+## Prevent
+
+- **Plan for multiple years of intensive management.** Established pepperweed is one of the most persistent invasives in this inventory.
+- **Establish dense competitive vegetation** after control — perennial grasses (or turf in residential settings) form a sod barrier that slows reinvasion.
+- **For the replanting sequence** (UC IPM): herbicide → 2–6 month wait → re-treat resprouts → landscape fabric + closely-spaced perennials.
+- **Don't move soil from infested sites** — root fragments and seed can hide in straw, hay bales, mulch, and equipment.
+- **Riparian risk:** root fragments wash downstream during floods. Watch downstream sites for years after upstream eradication.
 
 ## Why it's a problem
 
@@ -96,4 +132,6 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/lepidium-latifolium-profile.md`
 - PAF: `raw/articles/calipc/lepidium-latifolium-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Lepidium_latifolium.md`
+- UC IPM Pest Note: `raw/articles/ucipm-residential/perennial-pepperweed.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

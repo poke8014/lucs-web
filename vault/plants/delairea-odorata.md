@@ -3,11 +3,12 @@ type: plant
 title: Delairea odorata (Cape-ivy)
 aliases: [Cape-ivy, German ivy, Italian ivy, ivy groundsel, parlor ivy, water ivy, Senecio mikanioides]
 tags: [invasive, calipc-high, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/delairea-odorata-profile.md
   - raw/articles/calipc/delairea-odorata-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Delairea.md
+last_updated: 2026-05-12
 
 scientific_name: Delairea odorata
 common_names: [Cape-ivy, German ivy, Italian ivy, ivy groundsel, parlor ivy, water ivy]
@@ -36,7 +37,41 @@ invasive:
 
 Delairea odorata (=Senecio mikaniodes) (Cape-ivy, German-ivy) is a perennial vine (family Asteraceae) found along the coast of California and in the San Gabriel Mountains. Cape-ivy is especially problematic in coastal riparian areas, though it may also invade inland riparian areas, moist forests, and oak woodlands. Vines are known to form dense mats of vegetation over trees and shrubs, killing plants underneath. It is toxic to animals and fish can be killed when plant materials are soaking in waterways. Stem, rhizome and stolon fragments resprout if left in the ground after treatment. Can occasionally reproduce by seeds in some areas.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** fleshy perennial vine, stems to ~30 ft long.
+- **Leaves:** **glossy green, hairless, alternate, broadly deltate to "ivy-shaped"** (5–9 lobes), 1–4 in long. **Resembles ivy but is in Asteraceae, not Araliaceae** — the lobed leaf form is convergent. Foliage is evergreen in mild climates.
+- **Flowers:** **yellow** (key field ID separating from true ivies, which have greenish flowers) in clusters; bloom in winter.
+- **Fruit:** small achenes 2–3 mm with a pappus / crown of hairs.
+- **Reproduction:** **primarily vegetatively** from fragments of rhizomes, stolons, and stems. **A stem fragment as small as 1 inch (with a node) generates a new plant.** Even small dying-stem fragments resprout (with ~1/3 reduced regeneration rate).
+- **Seeds:** most produced seeds are not viable, but **some viable seeds develop in CA and Oregon** and can wind-disperse long distances.
+- **Habitat preference:** moist sites year-round, deep shade or cloudy conditions. **Does not tolerate full sunlight.** Tolerates serpentine; established plants survive drought.
+- **Hazards:** **pyrrolizidine alkaloid (PA) toxins** — liver-toxic to animals; **fish can be killed when plant materials soak in waterways**.
+
+## Remove
+
+Default method: [`pull_vine_dig_crown`](../synthesis/invasive-removal-methods.md#pull_vine_dig_crown).
+
+- **Critical:** **stem fragments regenerate from a single node.** Every fragment must be removed from the site or contained on impermeable surface to dry. Bag and properly dispose.
+- **Manual removal of plants including roots and rhizomes** before viable seed develops can control accessible infestations. Follow-up removal of resprouts is essential.
+- **The "rug rolling" technique** (per WRIC): in large patches, cut all stems at ground level and roll the Cape-ivy up like a rug. The aboveground mat lifts cleanly. Belowground tissues will resprout, but with the canopy gone you can detect and spot-treat new sprouts without contacting desirable plants.
+- **DO NOT MOW** — fragments scatter and regenerate (same rule as for [[plants/hedera-helix]]).
+- **Cut before flowering** to reduce seed production and deplete energy reserves. Repeated cuts over years (without herbicide) can eventually exhaust the plant.
+- **Foliar herbicides** (per WRIC):
+  - **Glyphosate** 1–2% v/v spot (Roundup ProMax in water), or 1% glyphosate + 0.5% triclopyr (Garlon 4 Ultra) + silicone surfactant — combination gives better control.
+  - **Triclopyr** 0.5–1% v/v (Garlon 4 Ultra) for broadleaf-selective treatment where desirable grasses are underneath.
+  - **Clopyralid** 0.5% v/v + surfactant (used successfully on Cape-ivy in Australia).
+  - **Wiper applicator** with 33–50% glyphosate concentrate where selectivity is needed.
+  - Best timing: late summer or early fall when plants are growing rapidly.
+- **Biocontrol in development:** USDA-ARS has been researching since 1998. Stem-boring moth (*Digitivalva delaireae*) and gall-forming fly (*Parafreutreta regalis*) are most promising; in final testing as of 2013. Not yet released.
+- **No effective cultural controls** — toxic to livestock so grazing isn't an option; burning isn't effective.
+
+## Prevent
+
+- **Bag every fragment** — composting and on-site disposal both fail because of the 1-inch-node regeneration.
+- **Watch shaded riparian corridors** in coastal CA — Cape-ivy doesn't tolerate full sun, so it spreads through deep-shade riparian and coastal forest understories.
+- **Don't allow plant material to soak in waterways** — releases PA toxins lethal to fish.
+- **Wear gloves** — PAs are toxic; minimize skin contact during work.
 
 ## Why it's a problem
 
@@ -96,4 +131,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/delairea-odorata-profile.md`
 - PAF: `raw/articles/calipc/delairea-odorata-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Delairea.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

@@ -3,11 +3,12 @@ type: plant
 title: Avena fatua (wild oats)
 aliases: [wild oats]
 tags: [invasive, calipc-moderate]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/avena-fatua-profile.md
   - raw/articles/calipc/avena-fatua-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Avena_barbata-fatua.md
+last_updated: 2026-05-11
 
 scientific_name: Avena fatua
 common_names: [wild oats]
@@ -36,7 +37,34 @@ invasive:
 
 Avena fatua (wild oat) is a winter annual grass (family Poaceae) that is a common agricultural weed. It grows in most grassland sites within the state, particularly in sandy/poor soils, often on the road verges. It is one of the annual grasses that was introduced as a forage species and has replaced the native perennial grasses. This oat is native to Eurasia.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** erect cool-season annual grass, sturdy, up to ~4 ft tall.
+- **Stems:** round in cross-section, hairless or nearly so.
+- **Leaves:** flat, rolled in the bud, up to 8 in long. Often **twist counter-clockwise**. A few soft hairs at the base of the blade. **Large membranous ligule** with rounded, jagged top; no auricles.
+- **Flower head:** open, branched, **spikelets hang like pendants** from the flowering branches. Blooms March–June.
+- **Seeds:** hairy at the base with a circular scar at attachment point. **Awns 1–2 in long, bent once, twisted below the bend** — this is the field distinction from cultivated oats.
+- **Roots:** extensive fibrous root system.
+- **Seedbank:** seeds dormant 1+ years depending on biotype; **cold-climate biotypes can survive 10+ years** in soil.
+
+## Remove
+
+Default method: [`mow_before_seed`](../synthesis/invasive-removal-methods.md#mow_before_seed).
+
+- **Small infestations:** hand-pull. Plants come up easily when soil is moist.
+- **Mowing before seed-set** is the primary tool for moderate-to-heavy infestations. Time the mow to **just after flower initiation but before seed maturity** (typically late April / May in the Bay Area).
+- **Tillage** on open ground before planting works during the germination window and before seed set. Repeat 2-3× over the season for accumulated seedbank.
+- **Burning windrows of straw immediately after cutting** can reduce seed viability — wild oat seeds are not heat-tolerant.
+- **Two-pass tillage:** till once in spring to stimulate germination, then till again to kill seedlings. Pair with a preemergent or postemergent herbicide for subsequent recruitment.
+- **Grass-selective herbicides** (clethodim, fluazifop, sethoxydim) for sites where selective grass control is desired.
+- **Note: ACCase-resistant populations exist** — if grass-selective herbicides fail, this is likely why.
+
+## Prevent
+
+- **Don't burn after seed drop** — burning at that point increases wild oats the following season by clearing competing vegetation.
+- **Establish competitive perennial vegetation** on pastures and grasslands — wild oats are suppressed by dense perennial cover.
+- **Clean equipment** — seeds cling to fur, clothing, and tools.
+- **Cold-climate biotypes have decadal seedbank** — multi-year follow-up plan even after a clean mow-and-clear.
 
 ## Why it's a problem
 
@@ -97,4 +125,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/avena-fatua-profile.md`
 - PAF: `raw/articles/calipc/avena-fatua-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Avena_barbata-fatua.md` (covers *A. fatua* and *A. barbata* jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

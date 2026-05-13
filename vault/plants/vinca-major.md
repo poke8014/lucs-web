@@ -3,11 +3,12 @@ type: plant
 title: Vinca major (periwinkle)
 aliases: [periwinkle, bigleaf periwinkle, greater periwinkle, blue periwinkle, myrtle, Vinca pubescenes, Vinca major var.variegata]
 tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/vinca-major-profile.md
   - raw/articles/calipc/vinca-major-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Vinca.md
+last_updated: 2026-05-12
 
 scientific_name: Vinca major
 common_names: [periwinkle, bigleaf periwinkle, greater periwinkle, blue periwinkle, myrtle]
@@ -36,7 +37,38 @@ invasive:
 
 Vinca major (periwinkle) is a spreading perennial vine or ground cover (family Apocynaceae) with dark green stems that contain milky latex. In California it is rapidly spreading in most coastal counties, foothill woodlands, the Central Valley, and even desert areas. Periwinkle has escaped from garden plantings, and lowers species diversity and disrupts native plant communities. Riparian zones are particularly sensitive. Fragments of periwinkle vines can break, wash downstream, and start new invasions.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** herbaceous perennial groundcover with **milky sap**. Trailing stems to 3 ft long; ascending-to-erect flower-bearing stems to 1.5 ft tall.
+- **Leaves:** **dark glossy green, 2–3 in long, oval and slightly pointed at the tip**. Opposite arrangement.
+- **Flowers (key field ID):** **showy lavender-blue funnel-shaped solitary flowers** (~1.5 in across). Bloom in spring.
+- **Reproduction:** **considered sterile in California** — only a few documented seedlings ever encountered. Reproduction is essentially 100% **vegetative from trailing stems that root at the tips and from stem fragments**.
+- **Habitat:** riparian corridors, moist woodlands, forest margins, coastal habitats, disturbed sites, **old homesteads**. Best in shaded moist conditions but tolerates full sun, drought, clay, and slightly alkaline soils. Foliage frost-damaged below freezing.
+- **Hazards:** milky latex makes the plant **unpalatable to grazing animals**. Some Apocynaceae are extremely toxic; poisoning by *Vinca major* itself is poorly documented but the safest assumption is "treat as toxic."
+- **Ecological harm:** **becoming a dominant woodland understory** in many areas of California. Infestations around old homesteads have been present for many years and serve as nurseries for further spread.
+
+## Remove
+
+Default method: [`sheet_mulch_smother`](../synthesis/invasive-removal-methods.md#sheet_mulch_smother) for large mats; hand removal for small patches.
+
+- **Hand-pulling** is very effective if **all stems, root nodes, and stolons** are removed. **Repeated removal efforts over multiple years** may allow desirable vegetation to colonize the cleared area.
+- **Mowing or cutting is NOT recommended** — *Vinca* resprouts and establishes readily from stem fragments. Same rule as for [[plants/hedera-helix]] and [[plants/delairea-odorata]].
+- **Stem fragments root readily** when left on damp soil; bag all cuttings.
+- **Foliar herbicides:**
+  - **Glyphosate** 2.5–5 qt/acre or 25% v/v for low-volume / thinline treatment — postemergence in late summer or early fall when plants are growing rapidly.
+  - **Triclopyr** 1.12–2.25 pt/acre Garlon 4 Ultra + 1% surfactant, or 25% v/v low-volume treatment. **Spring applications provide the best control** for triclopyr. Garlon 4 Ultra is broadleaf-selective.
+  - **Wiper treatment** with 25% Garlon 4 Ultra + 20% crop oil — high selectivity in mixed plantings.
+- **Burning is NOT effective.**
+- **Grazing is NOT effective** — milky latex makes the plant unpalatable.
+- **No biocontrol** — *Vinca major* is still a very common urban groundcover, so no biocontrol program has been developed.
+
+## Prevent
+
+- **Bag and dispose of cuttings off-site** — stem fragments re-root in finished compost.
+- **Watch riparian corridors downstream of established infestations** — water currents fragment stems and carry them downstream, where they may lodge and root.
+- **Old homestead sites** are persistent landscape-scale seed/fragment sources — eradicating one patch doesn't address upstream propagule sources.
+- **Still widely available in CA nurseries** as an ornamental groundcover. PlantRight tracks decreasing nursery availability (from ~16% of nurseries in 2011 to ~3% in 2016 per the [UC IPM Invasive Plants PN](../raw/articles/ucipm-general/invasive-plants.md)) — voluntary nursery avoidance is working but the species is still sold.
+- **Cultivar warning:** the variegated form (*Vinca major* var. *variegata*) is also invasive — variegation doesn't reduce invasiveness.
 
 ## Why it's a problem
 
@@ -99,4 +131,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/vinca-major-profile.md`
 - PAF: `raw/articles/calipc/vinca-major-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Vinca.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]
