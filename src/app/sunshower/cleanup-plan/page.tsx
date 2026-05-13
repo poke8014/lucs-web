@@ -437,67 +437,91 @@ function PlanSection({
   onBack: () => void
   onReset: () => void
 }) {
+  const plantCount = plan.reduce((n, g) => n + g.plants.length, 0)
   return (
     <section>
       <h2 className="mb-2 font-serif text-2xl text-[#2a1d10]">
-        Removal plan ({plan.length})
+        Removal plan — {plan.length} {plan.length === 1 ? 'action' : 'actions'},{' '}
+        {plantCount} {plantCount === 1 ? 'plant' : 'plants'}
       </h2>
       <p className={'mb-6 max-w-2xl text-sm text-[#2a1d10]/75 ' + PANEL_INSET}>
-        Ordered by Cal-IPC rating (highest threat first), then prioritizing
-        plants that spread vegetatively (where mowing or pulling can make
-        things worse). Detailed per-plant management notes (UC Davis WRIC) are
-        coming — for now, methods reflect spread mechanism only.
+        Grouped by removal method so plants needing the same physical action
+        share one card. Actions are ordered by Cal-IPC severity of the worst
+        plant in each group. Per-plant cautions below each plant are sourced
+        from UC Davis WRIC and UC IPM Pest Notes.
       </p>
 
       <ol className="space-y-6">
-        {plan.map((item, idx) => (
+        {plan.map((group, idx) => (
           <li
-            key={item.plant.slug}
+            key={group.method ?? '__undocumented__'}
             className={PANEL_LARGE}
           >
             <div className="flex items-start gap-4">
               <span className="flex h-8 w-8 flex-none items-center justify-center rounded-full bg-[#2a1d10] text-sm font-medium text-[#f7e9c9]">
                 {idx + 1}
               </span>
-              {item.plant.photos[0] && (
-                // eslint-disable-next-line @next/next/no-img-element
-                <img
-                  src={item.plant.photos[0].url}
-                  alt={item.plant.scientific_name}
-                  className="h-20 w-20 flex-none rounded-md object-cover"
-                  loading="lazy"
-                />
-              )}
               <div className="min-w-0 flex-1">
-                <p className="text-base text-[#2a1d10]">
-                  <span className="italic">{item.plant.scientific_name}</span>
-                  {item.plant.common_names[0] && (
-                    <span className="text-[#2a1d10]/70">
-                      {' '}
-                      · {item.plant.common_names[0]}
-                    </span>
-                  )}
+                <p className="text-xs uppercase tracking-[0.14em] text-[#2a1d10]/60">
+                  Action {idx + 1} ·{' '}
+                  {group.plants.length === 1
+                    ? '1 plant'
+                    : `${group.plants.length} plants`}
                 </p>
-                {item.plant.cal_ipc_rating && (
-                  <span
-                    className={
-                      'mt-1 inline-block rounded-full border px-2 py-0.5 text-xs ' +
-                      RATING_BADGE[item.plant.cal_ipc_rating]
-                    }
-                  >
-                    {RATING_LABEL[item.plant.cal_ipc_rating]}
-                  </span>
-                )}
-                {item.warnings.length > 0 && (
-                  <ul className="mt-3 list-disc space-y-1 pl-5 text-sm text-[#2a1d10]/80">
-                    {item.warnings.map((w) => (
-                      <li key={w}>{w}</li>
-                    ))}
-                  </ul>
-                )}
-                <p className="mt-3 text-sm font-medium text-[#2a1d10]">
-                  Method: {item.method}
-                </p>
+                <h3 className="mt-1 font-serif text-xl leading-snug text-[#2a1d10]">
+                  {group.methodLabel}
+                </h3>
+
+                <ul className="mt-4 space-y-4">
+                  {group.plants.map(({ plant, notes }) => (
+                    <li
+                      key={plant.slug}
+                      className="border-t border-[#2a1d10]/10 pt-4 first:border-t-0 first:pt-0"
+                    >
+                      <div className="flex items-start gap-3">
+                        {plant.photos[0] && (
+                          // eslint-disable-next-line @next/next/no-img-element
+                          <img
+                            src={plant.photos[0].url}
+                            alt={plant.scientific_name}
+                            className="h-14 w-14 flex-none rounded-md object-cover"
+                            loading="lazy"
+                          />
+                        )}
+                        <div className="min-w-0 flex-1">
+                          <p className="text-sm text-[#2a1d10]">
+                            <span className="italic">
+                              {plant.scientific_name}
+                            </span>
+                            {plant.common_names[0] && (
+                              <span className="text-[#2a1d10]/70">
+                                {' '}
+                                · {plant.common_names[0]}
+                              </span>
+                            )}
+                          </p>
+                          {plant.cal_ipc_rating && (
+                            <span
+                              className={
+                                'mt-1 inline-block rounded-full border px-2 py-0.5 text-xs ' +
+                                RATING_BADGE[plant.cal_ipc_rating]
+                              }
+                            >
+                              {RATING_LABEL[plant.cal_ipc_rating]}
+                            </span>
+                          )}
+                          {notes.length > 0 && (
+                            <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-[#2a1d10]/80">
+                              {notes.map((n) => (
+                                <li key={n}>{n}</li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      </div>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </li>
