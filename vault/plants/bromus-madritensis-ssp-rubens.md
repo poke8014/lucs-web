@@ -3,11 +3,12 @@ type: plant
 title: Bromus madritensis ssp. rubens (red brome)
 aliases: [red brome, foxtail chess, Bromus rubens]
 tags: [invasive, calipc-high]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/bromus-madritensis-ssp-rubens-profile.md
   - raw/articles/calipc/bromus-madritensis-ssp-rubens-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Bromus_diandrus-madritensis-tectorum.md
+last_updated: 2026-05-11
 
 scientific_name: Bromus madritensis ssp. rubens
 common_names: [red brome, foxtail chess]
@@ -36,7 +37,32 @@ invasive:
 
 Bromus madritensis ssp. rubens (= B. rubens) (red brome) is a cool-season annual grass (family Poaceae) found throughout California, especially in the southern part of the state. Red brome invades disturbed areas, roadsides, agricultural fields, rangelands, and forestry sites, in addition to native communities. Red brome is spreading rapidly in desert shrublands, pinyon pine-juniper communities, three-needle pine woodlands, and coastal scrub, where it increases fire frequency and converts habitat to annual grassland. It is native to southern and western Europe.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** cool-season annual grass; mature plants typically 0.5–2 ft tall (shorter than ripgut brome).
+- **Inflorescence:** dense, **deep reddish-purple at maturity** — by far the most reddish of the three weedy bromes. The dark-red panicle is the most reliable field ID for this species.
+- **Awns:** stiff and sharp, intermediate length between ripgut and downy brome.
+- **Bloom:** spring (March–May); matures slightly earlier than ripgut.
+- **Range:** spreading rapidly through SoCal desert shrublands, pinyon-juniper communities, three-needle pine woodlands, and coastal scrub. Most problematic of the three bromes in arid systems.
+- **Seedbank:** typically 2–3 years; some seeds survive up to 5.
+
+## Remove
+
+Default method: [`mow_before_seed`](../synthesis/invasive-removal-methods.md#mow_before_seed).
+
+- **Hand-pull or hoe** small patches **in early spring before seeds ripen**.
+- **Mowing** has the same caveats as for ripgut brome: time mow shortly after flower initiation but before seed maturity; ~2 inch cut height; repeated every 3 weeks for sustained suppression.
+- **Burning is NOT recommended** for red brome on its own — red brome **matures earlier than ripgut**, so by the time burns are practical, seed has already dispersed and burning increases populations the next season.
+- **Burning works only as part of an integrated 2–3 year program** (per WRIC): spring burn → winter reseeding native perennials → early spring herbicide.
+- **Shallow cultivation** after main germination flush, repeat later, removes most seedlings.
+- **Grass-selective herbicides** (clethodim, fluazifop) where selective control is needed; glyphosate at seedling stage where non-selective is acceptable.
+
+## Prevent
+
+- **In arid systems where red brome dominates, burning alone makes things worse.** Plan burns as one element of a multi-tool sequence, not the lead intervention.
+- **Reseed cleared sites with competitive vegetation** — bare ground after fire is exactly the condition red brome thrives in.
+- **Clean equipment** between sites — seeds disperse on clothing, fur, vehicles.
+- **Red brome is a fire promoter** in arid native systems — invaded areas often shift from fire-sensitive native vegetation to permanent annual grassland.
 
 ## Why it's a problem
 
@@ -93,4 +119,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/bromus-madritensis-ssp-rubens-profile.md`
 - PAF: `raw/articles/calipc/bromus-madritensis-ssp-rubens-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Bromus_diandrus-madritensis-tectorum.md` (covers all three weedy Bromus species jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

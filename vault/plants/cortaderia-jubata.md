@@ -3,11 +3,12 @@ type: plant
 title: Cortaderia jubata (jubatagrass)
 aliases: [jubatagrass, pink pampasgrass, Cortaderia atacamensis]
 tags: [invasive, calipc-high, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/cortaderia-jubata-profile.md
   - raw/articles/calipc/cortaderia-jubata-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Cortaderia_jubata-selloana.md
+last_updated: 2026-05-12
 
 scientific_name: Cortaderia jubata
 common_names: [jubatagrass, pink pampasgrass]
@@ -36,7 +37,39 @@ invasive:
 
 Cortaderia jubata (jubatagrass) is a large perennial grass (family Poaceae) found along the coast of California and in the Coast Ranges. Jubatagrass favors dunes, bluffs, and disturbed areas, including inland areas where temperatures are moderated by fog. It was introduced as an ornamental plant and for erosion control. It is native to northern Argentina, and along the Andes of Bolivia, Peru, and Ecuador. Each plume produces up to 100,000 seeds that are widely dispersed by wind and develop without fertilization. Jubatagrass quickly colonizes bare ground, but establishment is generally poor where the seedlings must compete with other grasses or sedges.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** large, densely tufted perennial grass with **long basal leaves** and tall plume-like inflorescences.
+- **Plumes:** 1–3 ft long, **often pinkish-to-purplish tinge** (vs the silvery-cream of *C. selloana*). The pinkish tint at maturity is the field ID separator.
+- **Tussock shape:** smaller and less erect than *C. selloana*; less of a fountain shape.
+- **Leaves (HAZARD):** **sharply serrated margins that easily cut skin** — heavy leather gloves and long sleeves are non-negotiable.
+- **Roots:** dense fibrous roots from **shallow short lateral rhizomes**.
+- **Reproduction (key difference from selloana):** **all plants are female and develop seed without fertilization (apomixis)** — every plant is a seed producer; no need for male-female proximity. This is why jubatagrass is the more widespread of the two in California.
+- **Seed output:** up to **100,000 seeds per plume**, wind-dispersed up to ~20 miles.
+- **Seedbank:** seeds survive **<6 months** in field conditions — no persistent seedbank to deplete.
+
+## Remove
+
+Default method: [`dig_rhizome_complete`](../synthesis/invasive-removal-methods.md#dig_rhizome_complete).
+
+- **Hand-pull seedlings** to prevent establishment.
+- **Established clumps:** Pulaski, mattock, or shovel. **Remove the entire crown and top section of the roots** — without complete removal, the plant resprouts.
+- **Don't leave detached plants on bare moist soil** — they can re-root. Turn removed clumps upside-down to dry the roots in the air, or off-site disposal.
+- **Use a chainsaw or weed-eater** to expose the base of the plant; this makes removal of the crown safer (less reach into the cutting leaves) and disposal more manageable.
+- **Cut plumes before seed dispersal** to prevent broadcast — but plants that have plumes removed may produce more during the flowering season, so this is a stopgap, not a control.
+- **Heavy equipment** (excavators, backhoes) is very effective and selective for large infestations, but labor- and cost-intensive.
+- **Foliar glyphosate** is the most consistent chemical control (per WRIC): 2–3.3 qt/acre broadcast or 2% v/v spot; **8% v/v low-volume** treatment was best in trials. Apply **late summer or fall after flowering** when herbicide moves to rhizomes.
+- **Wiper applicator** with 33–50% glyphosate concentrate on every tiller is an alternative that minimizes off-target damage.
+- **Fluazifop** and other grass-selective herbicides were inconsistent in WRIC trials.
+- **No biocontrol** agents available.
+- **Burning and grazing not typically effective** in North America.
+
+## Prevent
+
+- **Soil disturbance promotes invasion.** Bare ground from fire, landslides, or human activity is exactly the condition jubatagrass thrives in. Mulch or revegetate bare sites promptly.
+- **No persistent seedbank**, but **prolific annual seed production from every plant** — if any clump is left to flower, the next year brings new infestations within ~20 miles.
+- **Watch for wind-blown seedlings** especially downwind of known infestations.
+- **Apomictic reproduction** (every plant produces seed without a mate) means there's no "containment by isolation" — a single jubatagrass on a property is a downwind seed source.
 
 ## Why it's a problem
 
@@ -105,4 +138,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/cortaderia-jubata-profile.md`
 - PAF: `raw/articles/calipc/cortaderia-jubata-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Cortaderia_jubata-selloana.md` (covers both Cortaderia species jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

@@ -3,11 +3,12 @@ type: plant
 title: Dipsacus fullonum (wild teasel)
 aliases: [wild teasel, common teasel, card thistle, Fuller's teasel, Dipsacus sylvestris Huds. Dipsacus fullonum var. sativus is reserved for cultivated teasel.]
 tags: [invasive, calipc-moderate]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/dipsacus-fullonum-profile.md
   - raw/articles/calipc/dipsacus-fullonum-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Dipsacus_fullonum-laciniatus-sativus.md
+last_updated: 2026-05-11
 
 scientific_name: Dipsacus fullonum
 common_names: [wild teasel, common teasel, card thistle, Fuller's teasel]
@@ -36,7 +37,39 @@ invasive:
 
 Dipsacus fullonum (wild teasel) is a biennial forb/herb (family Dipsacaceae) that is native to Eurasia and northern Africa and naturalized across much of the United States and Canada. It can grow up to 2.5 m and is characterized by its prickly stems, leaves, and inflorescences, lanceolate leaves that are typically fused in pairs around the stem at their base, and spiny ovoid inflorescences with purple flowers that mature in whorls. Receptacle bracts are typically long and upcurved rather than spreading and reflexed, as in Dipsacus sativus. The cultivated form of wild teasel was historically used to card wool and is used in flower arrangements. Wild teasel can form dense stands that are impenetrable to humans and livestock and can outcompete native vegetation in meadows, stream sides, and other moist environments.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** biennial, annual, or short-lived perennial. Over 6 ft tall when bolted.
+- **Stems:** **coarse, straight, ridged with stiff prickles**. Branches are opposite and ascending.
+- **Rosette leaves:** veined, wrinkled-looking, with stiff prickles on the lower midrib. Form a thick fleshy taproot quickly.
+- **Stem leaves:** opposite, sessile, **fused at the base around the stem**, lanceolate — the fused leaf bases form a water-holding cup around the stem at each node (distinctive).
+- **Flowerheads (key field ID):** **egg-shaped, 1.5–4 in long, with long spiny receptacle bracts that are often longer than the flowers**. The flowers themselves are tiny and ring around the egg-shaped head in a band that progresses up and down the head over time. Dried teasel heads are sold in floral arrangements — a clue to escapes near old gardens.
+- **Bloom:** summer.
+- **Reproduction:** seed only. A plant produces **>2,000 seeds**; 30–80% germinate the next spring. Dispersal is primarily near the parent.
+- **Seedbank:** seeds viable for **at least 2 years**.
+
+## Remove
+
+Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_taproot).
+
+- **WRIC commitment:** annual control treatments **usually needed for 4–6 years** until viable soil seeds become sparse.
+- **Small infestations:** dig or hand-pull **before flowering**. **Sever the root below the soil surface** — leaves attached to the crown will let it regrow.
+- **Mowing alone is usually ineffective** — the root crown resprouts and flowers after being cut. Repeated mowing can work but must be frequent enough to prevent flowering of regrowth.
+- **Tillage** controls emerged plants but stimulates new germination.
+- **Foliar herbicides** (rosette to bolting stage):
+  - 2,4-D 1–2 qt/acre, often tank-mixed with chlorsulfuron or dicamba — alone, results are inconsistent.
+  - Aminopyralid (Milestone) 4–7 oz/acre, postemergence rosette to young bolting; **>90% control in university trials** when applied to rosettes.
+  - Clopyralid (Transline) 0.67–1.33 pt/acre; also >90% control on rosettes; shorter soil residual than aminopyralid.
+  - Glyphosate 1–2 qt/acre or 1.5% spot from rosette to early bolting (good for replanted areas — no residual).
+- **Fire is not effective control** and often stimulates teasel density the next season. Can be used to remove old growth so subsequent herbicide reaches the rosettes.
+- **No biocontrol agents** currently available; USDA program recently initiated.
+
+## Prevent
+
+- **Commit to the 4–6 year horizon** — teasel is one of the longer-haul taproot herbs because its seedbank doesn't deplete in a single year.
+- **Establish competitive vegetation** — teasel can invade healthy perennial grass stands in moist areas, so don't assume good ground cover prevents establishment.
+- **Watch riparian zones, ditches, and old garden sites** — these are the typical invasion vectors.
+- **Don't bring home dried teasel heads from cut-flower / craft sources** unless they are confirmed sterile — they can carry viable seed.
 
 ## Why it's a problem
 
@@ -102,4 +135,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/dipsacus-fullonum-profile.md`
 - PAF: `raw/articles/calipc/dipsacus-fullonum-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Dipsacus_fullonum-laciniatus-sativus.md` (covers all three Dipsacus species jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

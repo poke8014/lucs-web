@@ -3,11 +3,12 @@ type: plant
 title: Cirsium vulgare (bull thistle)
 aliases: [bull thistle, Carduus lanceolatus, Cirsium lanceolatum]
 tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/cirsium-vulgare-profile.md
   - raw/articles/calipc/cirsium-vulgare-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Cirsium_vulgare.md
+last_updated: 2026-05-11
 
 scientific_name: Cirsium vulgare
 common_names: [bull thistle]
@@ -36,7 +37,38 @@ invasive:
 
 Cirsium vulgare (bull thistle) is a perennial or biennial forb (family Asteraceae) Bull thistle is widespread in California and is most common in coastal grasslands, along edges of fresh and brackish marshes, and in meadows and mesic forest openings in the mountains below 7,000 feet (2,120 m). It is most troublesome in recently or repeatedly disturbed areas such as pastures, overgrazed rangelands, recently burned forests and forest clearcuts, and along roads, ditches, and fences. Bull thistle reproduces and spreads entirely by seeds. Besides out-competing native plant species for water, nutrients, and space, the presence of bull thistle in hay decreases feeding value and lowers market price. Cirsium vulgare is native to Europe, western Asia, and northern Africa. It is thought to have been introduced to the eastern United States during colonial times and the western United States in the late 1800s. It is currently found in all 50 states.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** biennial thistle. Rosette first year, bolting stem the second year, then dies. Stems can be 3–7 ft tall.
+- **Leaves:** deeply lobed with sharp spines on lobe tips; upper surface bristly-hairy, underside lightly woolly.
+- **Flowerheads:** **solitary (sometimes clustered), pink-magenta, 1.5–2 in wide and 1–2 in long**. **Large spiny bracts surround the seedheads.**
+- **Bloom:** summer.
+- **Reproduction:** **seed only** despite the `vegetative-spreader` tag elsewhere — WRIC confirms bull thistle reproduces and spreads entirely from seeds. Heavy producer: 100–300 seeds per flowerhead, 1 to 400+ flowerheads per plant.
+- **Seeds:** feathery pappus, but it detaches at maturity so most seeds fall within a few feet of the parent plant — not a long-distance disperser.
+- **Seedbank:** most seeds germinate or die in the first year; seeds buried ≥6 in can survive **up to 3 years** — relatively short.
+
+## Remove
+
+Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_taproot).
+
+- **Tillage, hoeing, hand-pulling** are effective **as long as done before flowering**. Sever the root below the soil surface; no leaves can remain attached or the plant will recover.
+- **Mowing** is effective only **immediately before flowering or when plants are just starting to flower**.
+  - **Too early:** plants regrow and produce seed.
+  - **Too late:** plants set viable seed.
+  - **Wide maturity variation in a population** means a single mow is usually insufficient — repeat across the growing season.
+- **Foliar herbicides** at the rosette stage:
+  - 2,4-D 1.6–2.1 qt/acre (cheap; broadleaf-selective; may need repeat applications).
+  - Aminopyralid (Milestone) 3–5 oz/acre, postemergence in spring or to fall seedlings (more effective than 2,4-D, longer soil residual).
+  - Clopyralid (Transline) 0.67–1.33 pt/acre on rapidly growing plants up to bud stage.
+  - Triclopyr 0.25–1 gal/acre (Garlon 4 Ultra) up to bud stage.
+- **Biocontrol:** bull thistle gall fly (*Urophora stylata*) not yet established in California. Thistle head weevil (*Rhinocyllus conicus*) is widely established and attacks many thistle species including some natives — caution.
+
+## Prevent
+
+- **Short seedbank (≤3 years)** is the lever — 3 years of zero seed set will substantially deplete an infestation.
+- **Sheep, goats, and horses (not cattle)** will eat young plants. Goats avoid the foliage but eat the flowerheads, which can prevent seed dispersal entirely.
+- **Don't rely on light sheep grazing alone** — it can selectively reduce competing plants and *increase* bull thistle.
+- **Fire is unreliable** — only mature plants combust well, and by then seed may have dispersed. Burning *can* be useful to clear standing dead material so subsequent herbicide treatment is effective.
 
 ## Why it's a problem
 
@@ -102,4 +134,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/cirsium-vulgare-profile.md`
 - PAF: `raw/articles/calipc/cirsium-vulgare-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Cirsium_vulgare.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

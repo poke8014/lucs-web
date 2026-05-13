@@ -3,11 +3,12 @@ type: plant
 title: Pennisetum setaceum (crimson fountain grass)
 aliases: [crimson fountain grass, purple fountain grass, tender fountain grass, Pennisetum ruppelii, Phalaris setaceum]
 tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/pennisetum-setaceum-profile.md
   - raw/articles/calipc/pennisetum-setaceum-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Pennisetum_setaceum.md
+last_updated: 2026-05-12
 
 scientific_name: Pennisetum setaceum
 common_names: [crimson fountain grass, purple fountain grass, tender fountain grass]
@@ -36,7 +37,41 @@ invasive:
 
 Pennisetum setaceum (crimson fountaingrass) is a coarse tufted perennial grass (family Poaceae). It primarily grows along the southern California coast. Crimson fountaingrass is well adapted to fire, and plants can recover to pre-burn density, even increase in density, following a burn. It is cultivated as an ornamental, but the red cultivar is sterile and not considered invasive.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** fire-adapted warm-climate tufted perennial bunchgrass to 4 ft tall.
+- **Leaves:** narrow (8–13 in long), folded or flat, glabrous to sparsely short-hairy, **with a pronounced midvein on the underside**. The collar margin has long white hairs.
+- **Inflorescences (key field ID):** **showy purplish spike-like panicles** that are lax or slightly drooping. 4–12 in long, 1.5–2 in wide. Numerous, unequal, straight purplish bristles 0.75–1.5 in long give the panicle a brushy appearance.
+- **Spikelets:** 4–7 mm long, with the bristles attached.
+- **Bloom:** late spring.
+- **Reproduction:** primarily by **apomictic seed** (asexual seed production — every plant is a seed source); to a smaller degree by sexual pollination. Seeds disperse with wind or by clinging to fur, feathers, feet.
+- **Seedbank:** in Hawaii, seeds survive ~6 years in soil. Individual plants can live **20+ years**.
+- **Hardiness:** does not survive prolonged freezing. Common as an ornamental annual in cold-winter areas; the 'Rubrum' and 'Eaton Canyon' cultivars usually don't produce viable seed.
+- **Habitat:** disturbed sites, roadsides, undisturbed coastal dunes, coastal sage scrub, warm desert shrubland. Grows in rock crevices and pavement cracks.
+- **Hazards:** **fire promoter** in desert systems — contributes to shrubland-to-grassland conversion via periodic fire that kills native shrubs.
+
+## Remove
+
+Default method: [`dig_rhizome_complete`](../synthesis/invasive-removal-methods.md#dig_rhizome_complete) — applied to bunchgrass clumps rather than spreading rhizomes (this species is tufted, not strongly rhizomatous).
+
+- **Hand removal** is feasible because of the bunchgrass form. Small infestations: uproot or cut with weed-eaters. **Pick, shovel, or mattock** for plants with basal diameter >6 in.
+- **Cut inflorescences first** if present — bag and dispose to prevent seed dispersal during removal.
+- **Repeat hand removal at 1–2 month intervals** through the growing season; monitor for seedlings continuously thereafter.
+- **Mowing is NOT effective** — the plant regrows from the base. Tillage is impractical in most habitats and not likely to succeed.
+- **Foliar herbicides:**
+  - **Glyphosate** 1–4 qt/acre or 1–2% v/v spot or **33–50% wiper** treatment. Best at flowering stage for translocation to rhizomes. Glyphosate is **not as consistent** as some other herbicides for this species per WRIC.
+  - **Fluazifop** 1–1.5 oz product/acre — grass-selective. Repeat applications often needed within a single season.
+  - **Sethoxydim** 1–2.5 pt/acre, grass-selective.
+  - **Imazapyr** 4–6 pt/acre (Habitat) — broad-spectrum, long residual.
+- **Fire makes things worse:** plants recover quickly after burning, and population density may **increase** after a burn.
+- **No biocontrol** agents available — still widely planted as ornamental.
+
+## Prevent
+
+- **Voluntary nursery avoidance.** Crimson fountain grass is still a popular landscape ornamental — recommending sterile cultivars or native bunchgrass alternatives is the single biggest prevention lever. See PlantRight recommendations.
+- **Apomictic seed production** means **every plant is a source** — no isolation strategy works.
+- **Watch wind-blown seedlings** downwind of cultivated plantings, especially near coastal scrub, dune, or desert habitats.
+- **Don't burn near fountain grass infestations** as a control tactic — it accelerates the fire-grass feedback loop.
 
 ## Why it's a problem
 
@@ -96,4 +131,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/pennisetum-setaceum-profile.md`
 - PAF: `raw/articles/calipc/pennisetum-setaceum-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Pennisetum_setaceum.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

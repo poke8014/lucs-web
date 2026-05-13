@@ -3,11 +3,12 @@ type: plant
 title: Hirschfeldia incana (short-pod mustard)
 aliases: [short-pod mustard, Mediterranean mustard, summer mustard, Greek mustard, Brassica geniculata, Sinapsis geniculata, Sinapsis incana]
 tags: [invasive, calipc-moderate]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/hirschfeldia-incana-profile.md
   - raw/articles/calipc/hirschfeldia-incana-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Hirschfeldia.md
+last_updated: 2026-05-12
 
 scientific_name: Hirschfeldia incana
 common_names: [short-pod mustard, Mediterranean mustard, summer mustard, Greek mustard]
@@ -36,7 +37,38 @@ invasive:
 
 Hirschfeldia incana(short-pod mustard, summer mustard) is a biennial or short-lived perennial forb (family Brassicaceae) that is native to the Mediterranean. It is shorter in stature than black mustard (<40 dm) and highly branched, with soft-haired, pinnately-lobed leaves, yellow flowers, and short (<1.7 cm) seed pods that are appressed to stems. Short-pod mustard can suppress native vegetation through rapid growth and shading and flourishes in disturbed conditions and recently burned lands. It occurs on roadsides and other disturbed habitat, in shrublands, and in grasslands.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** **biennial or short-lived perennial** (occasionally winter annual), 3–4 ft tall. The perennial habit distinguishes this from most other CA mustards which are annual.
+- **Lower leaves:** obovate, irregularly pinnately-lobed and toothed, with the **terminal lobe larger than the lateral lobes** on a long stalk. Basal leaves form a rosette.
+- **Stem leaves:** do **not** clasp the stem (key field ID separating from some other mustards).
+- **Hairs:** **stem bases are moderately to densely covered with stiff, downward-directed hairs**; basal leaves are densely covered with stiff grayish hairs (the "incana" species name means "hoary").
+- **Flowers:** **pale yellow** — not as bright as black mustard or other CA mustards. This dull-yellow flower color is a field identifier.
+- **Pods:** short (hence "short-pod mustard"), held close to the stem.
+- **Reproduction:** seed only.
+- **Habitat:** disturbed places, roadsides, fields, pastures, agronomic crops, orchards, vineyards, ditch banks, dry washes. **Becoming more problematic in wildland areas of southern California.**
+
+## Remove
+
+Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull).
+
+- **Manual removal or cultivation before seed develops** — particularly at the seedling stage — controls populations.
+- **Repeat over years** to eventually exhaust the seedbank.
+- **Note: shortpod mustard's perennial habit** means individual plants can persist longer than the typical 1–2 year cycle of other mustards. Pulled plants leave a root crown that can resprout — be thorough.
+- **Few herbicides give effective control** per WRIC — many herbicides used on annual and biennial mustards are **less effective** on this perennial species:
+  - **Glyphosate** 1–2 pt/acre — provides only **suppression**, not control.
+  - **Chlorsulfuron** 0.25–0.5 oz/acre, pre- to early-postemergence — most effective preemergence; less effective in arid environments.
+  - **Sulfometuron** 0.5 oz/acre — pre- to early-postemergence to small plants.
+  - **Chlorsulfuron is noted by WRIC as effective on "most mustards EXCEPT shortpod mustard"** — so don't assume mustard-class recommendations apply here.
+- **Neither grazing nor prescribed burning has been tested** for this species; **not expected to be effective**.
+- **No biocontrol** — close relationship to cultivated Brassicaceae.
+
+## Prevent
+
+- **Treat shortpod mustard as a different problem than other mustards.** The perennial habit and lower herbicide susceptibility mean tactics that work on black mustard or garlic mustard may fail here. Plan for repeated cultivation and herbicide trials.
+- **Catch seedlings early** — easier and more effective than treating established plants.
+- **Don't assume Cal-IPC mustard-class strategies transfer** — this species has its own resistance profile.
+- **Southern California wildlands are the spread frontier** — watch for new infestations along roadsides and ditch banks in those areas.
 
 ## Why it's a problem
 
@@ -99,4 +131,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/hirschfeldia-incana-profile.md`
 - PAF: `raw/articles/calipc/hirschfeldia-incana-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Hirschfeldia.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

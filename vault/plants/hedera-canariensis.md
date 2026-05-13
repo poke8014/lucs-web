@@ -3,11 +3,12 @@ type: plant
 title: Hedera canariensis (Algerian ivy)
 aliases: [Algerian ivy]
 tags: [invasive, calipc-high, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/hedera-canariensis-profile.md
   - raw/articles/calipc/hedera-canariensis-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Hedera_canariensis-helix-hibernica.md
+last_updated: 2026-05-12
 
 scientific_name: Hedera canariensis
 common_names: [Algerian ivy]
@@ -36,7 +37,42 @@ invasive:
 
 Hedera canariensis (Algerian ivy) is a perennial woody vine (family Araliaceae) that is native to the Canary Islands and the Mediterranean coast of North Africa. It is found throughout California along the coast, and is less widespread than its close relative English ivy. Algerian ivy grows vigorously in forests where nothing else seems able to compete and inhibits regeneration of understory plants, including forest wildflowers and new trees and shrubs.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** fast-growing perennial evergreen woody vine, like English ivy. Can live **100+ years**.
+- **Two growth forms:** juvenile (vine, climbing/spreading); adult reproductive (erect, shrubby, non-climbing). Same dual-form biology as [[plants/hedera-helix]].
+- **Leaves (key field distinction from H. helix):** **larger, less-lobed, glossier leaves**. Algerian ivy leaves can reach 6+ in across with shallower lobes; English ivy leaves are smaller and more obviously three-lobed.
+- **Leaf surface:** smooth upper, sometimes glabrous below — Algerian ivy is less hairy on the underside than H. helix.
+- **Flowers:** in fall (umbels of small greenish-yellow flowers).
+- **Fruit:** dark blue to black berries, 4–8 mm, bird-dispersed.
+- **Reproduction:** seed (adult plants) and **vegetatively from juvenile stem fragments** — any stem fragment in contact with moist soil regenerates.
+- **WRIC note:** the WRIC file `Hedera_canariensis-helix-hibernica.md` covers all three Hedera species jointly; management is identical.
+
+## Remove
+
+Default method: [`pull_vine_dig_crown`](../synthesis/invasive-removal-methods.md#pull_vine_dig_crown). **See [[plants/hedera-helix]] for the full playbook** — identical for Algerian ivy.
+
+- **Ground cover:** pull individual stems off the ground; **essential to remove all runners** — every node re-roots.
+- **Stem fragments regenerate from soil contact** — keep cut debris off moist soil. **Bag, don't compost.**
+- **Mowing or cutting alone is not recommended** — fragments scatter and regenerate.
+- **Climbing trees:** cut at ground level and chest height; let aerial parts die in place over the next hot/dry period.
+- **Cut-stump herbicide** (paint within minutes of cutting):
+  - Triclopyr (Garlon 3A) undiluted or 33% in water.
+  - Triclopyr ester (Garlon 4 Ultra) 20% in water.
+  - Glyphosate 41% → 25% v/v in water.
+  - **Stem injection** ("drill and fill") with 100% Garlon 3A or Garlon 4 Ultra for large mature plants climbing trees.
+- **Foliar spray** (active growth, late summer / early fall):
+  - Triclopyr 2–5% v/v + surfactant.
+  - Glyphosate 2–4% v/v.
+- **Blowtorch** can work but must be **repeated** until reserves are exhausted.
+- **Older plants** generally don't resprout from roots; **younger plants** do — be more thorough digging out young plants.
+
+## Prevent
+
+- **Gloves and long sleeves are standard.** Hedera sap dermatitis affects ~10% of the population.
+- **Bag cuttings; don't compost** — stems re-root in finished compost.
+- **Watch tree-climbing infestations.** Trees with significant ivy become wind-susceptible from added weight.
+- **Most cultivars sold as landscape ornamentals.** Algerian ivy is still widely available in CA garden centers; PlantRight recommends sterile or non-invasive alternatives.
 
 ## Why it's a problem
 
@@ -99,4 +135,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/hedera-canariensis-profile.md`
 - PAF: `raw/articles/calipc/hedera-canariensis-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Hedera_canariensis-helix-hibernica.md` (covers all three Hedera species jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

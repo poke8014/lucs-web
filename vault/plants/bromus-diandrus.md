@@ -3,11 +3,12 @@ type: plant
 title: Bromus diandrus (ripgut brome)
 aliases: [ripgut brome, great brome, ripgut grass, B. rigidus, B. rigidus var gussonei, B. gussonei]
 tags: [invasive, calipc-moderate]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/bromus-diandrus-profile.md
   - raw/articles/calipc/bromus-diandrus-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Bromus_diandrus-madritensis-tectorum.md
+last_updated: 2026-05-11
 
 scientific_name: Bromus diandrus
 common_names: [ripgut brome, great brome, ripgut grass]
@@ -36,7 +37,34 @@ invasive:
 
 Bromus diandrus (ripgut brome) is an annual grass (family Poaceae) found throughout California and other western states. Ripgut brome is one of several European annual grasses that have displaced much of the native grass throughout California. Ripgut brome becomes very dry and flammable during the dry season, increasing wildfire frequency. Increased wildfire frequency leads to conversion of shrubland and woodland to grassland. Ripgut brome is reported to hybridize with two other invasive grasses: downy brome ( Bromus tectorum) and red brome ( Bromus madritensis). Brome seeds may spread great distances via water and soil movement and by clinging to animals and people.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** cool-season annual grass; mature plants 1–4 ft tall.
+- **Inflorescence:** open, branched panicle with large drooping spikelets. Becomes reddish-to-purplish as it matures.
+- **Awns:** **long, stiff, very sharp** (this is the "ripgut" name — awns rip the gut of grazing animals and easily lodge in pets' paws, ears, and noses). Awns are longer than red brome or downy brome.
+- **Bloom:** spring (April–June), with seed dispersal soon after.
+- **Distinguish from red brome and downy brome:** ripgut has the largest, most open panicle and longest awns. Red brome is shorter with smaller, denser, dark-red inflorescences. Downy brome (cheatgrass) is softer, hairy ("downy"), with smaller drooping seedheads.
+- **Seedbank:** seeds typically survive 2–3 years in soil; some up to 5 years.
+
+## Remove
+
+Default method: [`mow_before_seed`](../synthesis/invasive-removal-methods.md#mow_before_seed).
+
+- **Hand-pull or hoe** individual plants or small patches **in early spring before seeds ripen** — soil must be moist.
+- **Mowing** is not first-choice (cut too early and plants regrow), but works **when timed shortly after flower initiation, before seeds mature**. Mow to ~2 inches; remove bolting stems.
+- **Repeated mowing every 3 weeks** can eliminate seed production in areas where herbicide isn't acceptable.
+- **Shallow cultivation** after the main flush of germination, then a second pass a little later, eliminates most seedlings.
+- **Deep tillage** in fall or early spring buries seeds and helps reduce establishment (in agricultural settings).
+- **Ripgut brome is susceptible to burning** if timed correctly: **late spring, before seeds mature and heads shatter**. Burns after seed dispersal **increase** ripgut populations next season.
+- **Integrated 2–3 year program** (per WRIC): spring burn → winter reseeding with native perennial grasses → early spring herbicide.
+- **Grass-selective herbicides** (clethodim, fluazifop) and non-selective (glyphosate at seedling stage) are options where herbicide is acceptable.
+
+## Prevent
+
+- **Never burn after seed drop** — that worsens the infestation.
+- **Avoid overgrazing and soil disturbance** — both reduce desirable forage and favor brome dominance.
+- **Reseed cleared sites with competitive perennial grasses** — bare ground refills with brome from the persistent seedbank.
+- **Hybridizes with red brome and downy brome** — sites with one *Bromus* species often acquire others; expect the species mix to shift over time.
 
 ## Why it's a problem
 
@@ -99,4 +127,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/bromus-diandrus-profile.md`
 - PAF: `raw/articles/calipc/bromus-diandrus-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Bromus_diandrus-madritensis-tectorum.md` (covers all three weedy Bromus species jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

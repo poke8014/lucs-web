@@ -3,11 +3,12 @@ type: plant
 title: Genista monspessulana (French broom)
 aliases: [French broom, soft broom, canary broom, Montepellier broom, Cytisus monpsessulana, C. racemosus, C. canariensis, Gensita monspessulana, Teline monspessulana]
 tags: [invasive, calipc-high, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/genista-monspessulana-profile.md
   - raw/articles/calipc/genista-monspessulana-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Genista.md
+last_updated: 2026-05-11
 
 scientific_name: Genista monspessulana
 common_names: [French broom, soft broom, canary broom, Montepellier broom]
@@ -36,7 +37,37 @@ invasive:
 
 Genista monspessulana (French broom) is a perennial shrub (family Fabaceae) from the Mediterranean region and the Azores that was introduced as an ornamental along with Scotch and Spanish broom. In California, it now occurs across the state, including the Coast Ranges, Sierra Nevada foothills, Transverse Ranges, Channel Islands and San Francisco Bay area. French broom is an aggressive invader, forming dense stands that exclude native plants and wildlife. It is unpalatable to most livestock except goats and increases fire hazard by increasing ladder fuels. Plants produce copious amounts of long-lived seed that sprout with soil disturbance. Plants may also resprout from their root crown if cut or grazed.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** upright evergreen shrub, commonly < 10 ft tall.
+- **Stems:** green, erect, dense, covered with silky silvery hairs.
+- **Leaves:** three leaflets, 0.4–0.8 in long, oblong-to-obovate, sparsely-to-densely covered with silky silver hairs on both surfaces. **Leafier overall than Scotch or Spanish broom** — this is the key field distinction.
+- **Flowers:** yellow pea-shaped, in dense clusters of 4–10 on short axillary shoots.
+- **Pods:** 0.5–1 in long, dark brown when mature, **densely covered with appressed long silky hairs**, ejecting 5–8 seeds.
+- **First flowering:** 18 months–3 years of age.
+- **Seedbank:** up to 30 years viability per WRIC; the [UC IPM Brooms PN](../raw/articles/ucipm-residential/brooms.md) treats French broom seedbank as similarly long-lived.
+
+## Remove
+
+Default method: [`cut_stump_herbicide`](../synthesis/invasive-removal-methods.md#cut_stump_herbicide).
+
+- **Critical delta vs Scotch broom:** WRIC notes that hand-pulling is **generally not effective on established French broom** — only seedlings and very small shrubs come out cleanly. Use a weed wrench / woody-weed extractor for anything beyond seedlings.
+- **Established shrubs:** cut at ground level. French broom resprouts even more aggressively than Scotch broom — cut-stump herbicide is essential, not optional.
+- **Timing for energy depletion:** cut **in spring before flowering** (April–May in the Bay Area). This is the inverse of the Scotch-broom late-dry-season recommendation — French broom flowers earlier, so the energy-depletion window is earlier too.
+- **Cut-stump herbicide** (paint within minutes of cutting):
+  - Triclopyr ester (Garlon 4 Ultra) → 20% v/v in water for basal cut stump.
+  - Triclopyr amine (Garlon 3A) → undiluted, or 50% in water.
+  - Glyphosate 41% → 1 part product : 3 parts water (≈25%).
+- **Foliar spray** (active growth, April–July per PN-Brooms):
+  - Triclopyr ester 0.75–1.5% + surfactant.
+  - Glyphosate 1.5–2% v/v of 41% concentrate.
+- **What doesn't work:** burning alone (increases population by removing competitors and releasing nutrients); no USDA-approved biocontrol exists for French broom — the Scotch broom bruchid attacks it but provides only partial control.
+
+## Prevent
+
+- **Plan multi-year follow-up.** 30-year seedbank means annual seedling sweeps for at least a decade after clearing.
+- **Soil disturbance triggers the seedbank** — cut-stump where possible; reserve digging for sites already cleared and being actively rehabilitated.
+- **Confined goat grazing** controls resprouts after cutting; goats are unusually selective and will strip flowers if trained.
 
 ## Why it's a problem
 
@@ -102,4 +133,6 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/genista-monspessulana-profile.md`
 - PAF: `raw/articles/calipc/genista-monspessulana-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Genista.md`
+- UC IPM Pest Note: `raw/articles/ucipm-residential/brooms.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

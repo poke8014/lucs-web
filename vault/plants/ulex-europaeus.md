@@ -3,11 +3,12 @@ type: plant
 title: Ulex europaeus (gorse)
 aliases: [gorse, common gorse, furze, prickly broom, Ulex europaea]
 tags: [invasive, calipc-high, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/ulex-europaeus-profile.md
   - raw/articles/calipc/ulex-europaeus-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Ulex.md
+last_updated: 2026-05-11
 
 scientific_name: Ulex europaeus
 common_names: [gorse, common gorse, furze, prickly broom]
@@ -36,7 +37,40 @@ invasive:
 
 Ulex europaeus (gorse) is a woody leguminous shrub (family Fabaceae). In California Ulex europaeus can be found in coastal counties and the northern Sierra Nevada foothills. It invades infertile or disturbed sites, sand dunes, gravel bars, fence rows, overgrazed pastures, logged areas, and burned-over areas. Besides becoming a significant fire hazard, it can successfully out compete native plants in part because of its association with nitrogen-fixing bacteria, which facilitate its colonization of nitrogen-poor soils.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** dense, spiny, **evergreen** shrub to 5 ft tall — shorter and squatter than the *Cytisus* / *Spartium* brooms.
+- **Spines (key field ID):** stems terminate in **green spines 1.5–2.5 in long**. Mature shrubs appear leafless; leaves are modified into **stiff, curved, awl-like spines 0.25–1 in long** ending in sharp yellow points. Juvenile plants have soft grey-green stems with trifoliate leaves before transitioning to spines.
+- **Flowers:** bright yellow, pea-shaped, on the stems among the spines.
+- **Pods:** small (0.5–0.75 in), hairy, black when mature. Pods eject seeds several feet on drying.
+- **Roots:** extensive lateral root system with nitrogen-fixing nodules.
+- **Flammability:** plants contain **2–4% flammable oils**; mature thickets are a serious fire hazard — soil is often bare between plants, increasing erosion on cleared slopes too.
+- **First flowering:** 18 months–3 years. Plants live up to 30 years; seedbank up to 30 years.
+- **Range:** coastal CA counties and northern Sierra Nevada foothills; best on acidic soils, tolerates serpentine but not high-calcium soils.
+
+## Remove
+
+Default method: [`cut_stump_herbicide`](../synthesis/invasive-removal-methods.md#cut_stump_herbicide).
+
+- **Safety first:** thick leather gloves and eye protection — gorse spines puncture standard work gloves.
+- **Hand-pulling** works only on seedlings; ineffective on established shrubs.
+- **Cut shrubs at ground level** with power or manual saws. Cut **before flowering** to reduce seed input and deplete energy reserves. Resprouts are common — combine with cut-stump herbicide or commit to multiple cuts over years.
+- **Cut-stump herbicide** (paint within minutes of cutting):
+  - Triclopyr 61% (Garlon 4 Ultra) → 25% in 75% oil carrier, OR undiluted Garlon 3A, OR 50% Garlon 3A in water.
+  - Glyphosate 41% → undiluted or 50% v/v in water.
+  - Best applied in late summer / early fall or dormant season.
+- **Foliar spray** (active growth, late summer / early fall):
+  - Triclopyr ester 0.5–2% v/v + surfactant.
+  - Glyphosate 1.5–2% v/v of 41% concentrate (spray-to-wet) or 5–10% (low-volume).
+- **Biocontrol available:** the **gorse seed weevil** (*Exapion ulicis*) and **spider mite** (*Tetranychus lintearius*) are established in California. The weevil destroys ~35% of seed annually but doesn't kill mature plants; heavy mite infestations (visible dense webbing on foliage) can kill branches.
+- **Best documented control sequence** (per WRIC): burn first, then graze with goats (or 2:1 goats:sheep) at ≥10 animals/acre for 4–5 years. Once animals removed, new seedlings must be controlled.
+
+## Prevent
+
+- **Pods explode in summer heat**, scattering seed several feet — work in **spring or shortly after winter rain** to avoid broadcasting seed while cutting.
+- **30-year seedbank** dictates timeline; expect to re-treat resprouts and seedlings at year 1 and year 2.
+- **Don't burn alone** — burning stimulates a flush of seedling germination after the first rains. Follow burns with herbicide.
+- **Goats / sheep grazing** is effective for resprout control if maintained over years; gorse spines deter most other livestock.
 
 ## Why it's a problem
 
@@ -96,4 +130,6 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/ulex-europaeus-profile.md`
 - PAF: `raw/articles/calipc/ulex-europaeus-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Ulex.md`
+- UC IPM Pest Note: `raw/articles/ucipm-residential/brooms.md`
+- Datasets: [[sources/calipc]], [[sources/wric]]

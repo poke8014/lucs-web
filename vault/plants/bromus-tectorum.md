@@ -3,11 +3,12 @@ type: plant
 title: Bromus tectorum (cheatgrass)
 aliases: [cheatgrass, downy brome]
 tags: [invasive, calipc-high]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/bromus-tectorum-profile.md
   - raw/articles/calipc/bromus-tectorum-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Bromus_diandrus-madritensis-tectorum.md
+last_updated: 2026-05-11
 
 scientific_name: Bromus tectorum
 common_names: [cheatgrass, downy brome]
@@ -36,7 +37,35 @@ invasive:
 
 Bromus tectorum (downy brome, cheatgrass) is an annual grass (family Poaceae). It is the dominant grass on sagebrush ( Artemisia species) rangelands on the Modoc Plateau in northeastern California and along the eastern Sierra Nevada to Owens Valley. This weed overcrowds native grasslands and croplands. Replacement of native grasses by cheatgrass increases the frequency and extent of wildfires. It is native to the Mediterranean region.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** cool-season annual grass, 6 in–2 ft tall.
+- **Texture (key field ID):** **soft, hairy, "downy" appearance** — leaves and sheaths covered in fine soft hairs. This is the field distinction from ripgut and red brome, which have stiffer, less hairy foliage.
+- **Inflorescence:** open, drooping panicle of small spikelets. Becomes purplish-to-purple at maturity.
+- **Awns:** present and stiff but shorter and softer than ripgut.
+- **Bloom:** spring (April–June), with seed dispersal soon after.
+- **Range:** dominant grass on sagebrush rangelands of the Modoc Plateau (NE California) and along the eastern Sierra Nevada to Owens Valley. The most widespread of the three weedy bromes nationwide.
+- **Fire ecology:** invaded sagebrush systems shift from a 60–100 year fire cycle to a **3–5 year cycle** under cheatgrass dominance.
+- **Seedbank:** typically 2–3 years; some seeds up to 5 years.
+
+## Remove
+
+Default method: [`mow_before_seed`](../synthesis/invasive-removal-methods.md#mow_before_seed).
+
+- **Hand-pull or hoe** small patches **in early spring before seeds ripen**.
+- **Mowing** can reduce seed production if timed shortly after flower initiation, before seed maturity. Mow to ~2 inches. Repeated mowing (every 3 weeks) for sustained suppression.
+- **Burning is NOT a good first-line tool** for cheatgrass — like red brome, downy brome matures early so burns typically post-date seed dispersal and **increase** populations the next season.
+- **Integrated 2–3 year program** (per WRIC): spring burn → winter reseeding with native perennial grasses → early spring application of herbicide. Tactic order matters.
+- **Shallow cultivation** after the main flush of germination, then again later, eliminates most seedlings.
+- **Grass-selective herbicides** (clethodim, fluazifop, imazapic) and pre-emergents (rimsulfuron, sulfometuron). Plateau (imazapic) has favorable selectivity but is **not registered for use in California**.
+- **Biocontrol research:** *Pseudomonas fluorescens* strain D7, a Washington-soil rhizobacterium, inhibits germinating cheatgrass — promising but field efficacy across western US still being studied.
+
+## Prevent
+
+- **Don't burn alone** in cheatgrass-dominated systems — burning before seedbank depletion accelerates the cheatgrass-fire feedback loop.
+- **Reseed with native perennial grasses immediately** after any clearing — the bare-ground state after fire is exactly the condition cheatgrass thrives in.
+- **Avoid soil disturbance and overgrazing** — both favor cheatgrass over native perennials.
+- **Long-term outlook:** in heavily invaded systems, the goal is usually slowing the cheatgrass-fire feedback rather than eradication. Site-by-site restoration with persistent reseeding is the realistic path.
 
 ## Why it's a problem
 
@@ -99,4 +128,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/bromus-tectorum-profile.md`
 - PAF: `raw/articles/calipc/bromus-tectorum-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Bromus_diandrus-madritensis-tectorum.md` (covers all three weedy Bromus species jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

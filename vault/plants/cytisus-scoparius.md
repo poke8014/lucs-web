@@ -3,11 +3,12 @@ type: plant
 title: Cytisus scoparius (Scotch broom)
 aliases: [Scotch broom, English broom, common broom, Sarathamnus scoparius, Spartium scoparius]
 tags: [invasive, calipc-high, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/cytisus-scoparius-profile.md
   - raw/articles/calipc/cytisus-scoparius-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Cytisus.md
+last_updated: 2026-05-11
 
 scientific_name: Cytisus scoparius
 common_names: [Scotch broom, English broom, common broom]
@@ -36,7 +37,38 @@ invasive:
 
 Cytisus scoparius (Scotch broom) is a perennial shrub (family Fabaceae), which grows in sunny sites with dry sandy soil, and spreads rapidly through pastures, borders of forests, and roadsides. Cytisus scoparius can be found from the coast to the Sierra foothills. This weed crowds out native species, has a seedbank that can remain dormant for up to 80 years, diminishes habitat for grazing animals, and increases risk for wildland fires. It is native to northern Africa and parts of Europe.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** fast-growing deciduous shrub, 5–10 ft tall.
+- **Stems:** 5-angled / ridged, often star-shaped in cross-section. New twigs green, erect, wavy-haired; older stems smooth and woody.
+- **Leaves:** lower leaves have three alternately-arranged leaflets; upper leaves simple and unstalked. Leaflets < 1/3 in long, widest at the tip.
+- **Flowers:** bright yellow (occasionally maroon), pea-shaped, single or in pairs in leaf axils. First flowering at 18 months–3 years of age.
+- **Pods:** small, flat, 0.75–2 in long, dark brown / black with hairs along the margin. Pods snap open when mature and **eject seeds several feet** from the plant.
+- **Seedbank:** WRIC reports up to 30 years viability; [UC IPM Brooms PN](../raw/articles/ucipm-residential/brooms.md) reports up to 60–80 years for established stands. Treat as multi-decade either way.
+- **Distinguish from Genista monspessulana (French broom):** French broom is leafier overall, with three larger leaflets densely covered in silky silver hairs on both surfaces; Scotch broom is sparsely leafy with mostly angular green stems doing the photosynthesis.
+
+## Remove
+
+Default method: [`cut_stump_herbicide`](../synthesis/invasive-removal-methods.md#cut_stump_herbicide).
+
+- **Small plants (seedlings, < ~3 ft):** hand-pull or pop out with a weed wrench / woody-weed extractor when soil is moist. Extract the entire root — fragments resprout.
+- **Established shrubs:** cut at ground level with loppers, a saw, or a chainsaw. Cutting alone almost always produces resprouts; combine with cut-stump herbicide *or* commit to repeat cuts over several years.
+- **Timing for energy depletion:** cut **at the beginning of the dry season** (late spring in the Bay Area). Cuts at other times of year drive more vigorous resprouting.
+- **Cut-stump herbicide** (paint within minutes of cutting):
+  - Triclopyr 61% (Garlon 4 Ultra) → 1 part product : 4 parts water (≈20% solution).
+  - Triclopyr amine 44% (Garlon 3A) → undiluted, or 50% in water.
+  - Glyphosate 41% → 1 part product : 3 parts water (≈25%).
+- **Foliar spray** (active growth, late summer / early fall):
+  - Triclopyr ester 0.75–1.5% v/v + surfactant.
+  - Glyphosate 1.5–2% v/v of 41% concentrate.
+- **What doesn't work:** burning alone (releases nutrients and triggers seedbank germination), grazing alone except with goats confined to small areas, and mowing without follow-up.
+
+## Prevent
+
+- **Plan multi-year follow-up.** Sweep the site annually for at least a decade after clearing — long-lived seedbank is the dominant constraint.
+- **Minimize soil disturbance** during and after removal. Digging brings buried seed to the surface where it germinates.
+- **Don't burn alone.** Burning can be useful only as part of a sequence with herbicide follow-up.
+- **Confined goat grazing** is an option for resprout control after cutting — broom foliage is mildly toxic and unpalatable to most other livestock.
 
 ## Why it's a problem
 
@@ -102,4 +134,6 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/cytisus-scoparius-profile.md`
 - PAF: `raw/articles/calipc/cytisus-scoparius-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Cytisus.md` (covers *C. scoparius* only)
+- UC IPM Pest Note: `raw/articles/ucipm-residential/brooms.md` (covers all five Cal-IPC broom genera together)
+- Datasets: [[sources/calipc]], [[sources/wric]]

@@ -3,11 +3,12 @@ type: plant
 title: Cotoneaster pannosus (silverleaf _Cotoneaster_)
 aliases: [silverleaf _Cotoneaster_, velvet _Cotoneaster_, C. pannosus Franch.]
 tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/cotoneaster-pannosus-profile.md
   - raw/articles/calipc/cotoneaster-pannosus-paf.md
-last_updated: 2026-05-08
+  - raw/articles/wric/Cotoneaster.md
+last_updated: 2026-05-12
 
 scientific_name: Cotoneaster pannosus
 common_names: [silverleaf _Cotoneaster_, velvet _Cotoneaster_]
@@ -36,7 +37,35 @@ invasive:
 
 Cotoneaster pannosus (silverleaf Cotoneaster) is an evergreen shrub (family Rosaceae) found along the central and north coast of California, as well as in the northern South Coast Ranges and the Transverse Ranges. Silverleaf Cotoneaster has small, leathery, ovate leaves with hairy white undersides, white flowers arranged in clusters, and red fruits. It was introduced from China as an ornamental plant, and has escaped cultivation. It is found in disturbed places, especially near residential sites, as well as undisturbed coastal scrub, grassland and forests. Each plant can produce thousands of fruits every year, which are distributed by birds, small mammals, water movement and human activities. Mechanical removal of the shrubs can provide good control, but follow-up is needed, as the plants may resprout from the roots.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** evergreen-to-semi-evergreen shrub, usually <10 ft tall (occasionally taller).
+- **Leaves:** simple alternate. **Upper surface dull, mostly hairless. Lower surface covered with woolly silvery-white hairs** — the "silverleaf" / "velvet" name.
+- **Flowers:** white, five-petaled, in smaller tightly-clustered inflorescences (vs the larger flower clusters of *C. lacteus*).
+- **Fruit:** **red berry-like pomes** in dense clusters in fall and winter. Birds eat and disperse the seeds — seeds require scarification + cold to germinate, so passage through bird digestion is the primary recruitment vector.
+- **Field distinction:** vs *C. franchetii* (orange cotoneaster) — *C. pannosus* has white flowers and red berries; *C. franchetii* has pink-rose flowers and orange-red berries. vs *C. lacteus* — *C. lacteus* has larger flower clusters and similar red berries; mostly distinguished by inflorescence size.
+- **WRIC note:** all three Cotoneaster species are treated together with the same management guidance.
+
+## Remove
+
+Default method: [`cut_stump_herbicide`](../synthesis/invasive-removal-methods.md#cut_stump_herbicide).
+
+- **Seedlings and small plants:** hand-pull. Easy when young.
+- **Established shrubs:** manual removal works **only if you completely remove the roots** — stumps and roots resprout. Use a shovel or mattock around the root ball.
+- **Cut-stump herbicide** is the standard for established plants — apply within minutes of cutting in **late summer or fall** for best translocation:
+  - **Triclopyr** is the most effective per WRIC. Garlon 4 Ultra undiluted concentrate, or Garlon 3A undiluted, applied to the cut cambium.
+  - **Glyphosate** 40–100% concentrate as alternative.
+  - **Picloram** undiluted for cut-stump (restricted-use; not California-registered).
+- **Basal bark treatment:** 25% Garlon 4 Ultra solution in oil carrier.
+- **Foliar spray** as backup: 5% glyphosate (Roundup ProMax) to leaves; little WRIC data on foliar for Cotoneaster but should be effective on young plants.
+- **No known biocontrol** agents — many cultivated Cotoneaster species are popular ornamentals, so there's no biocontrol program.
+- **No known cultural controls** developed.
+
+## Prevent
+
+- **Birds disperse seeds widely** — eradicating one plant on a property doesn't prevent re-establishment from neighborhood ornamental plantings.
+- **Check nursery sources:** Cotoneaster species are still sold as ornamentals; choose non-invasive alternatives (see [PlantRight](https://plantright.org/) recommendations).
+- **Late-summer / fall cut-stump timing** matters more here than for some species — that's when carbohydrate translocation is downward, so the herbicide moves into roots.
 
 ## Why it's a problem
 
@@ -91,4 +120,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/cotoneaster-pannosus-profile.md`
 - PAF: `raw/articles/calipc/cotoneaster-pannosus-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: `raw/articles/wric/Cotoneaster.md` (covers all three Cotoneaster species jointly)
+- Datasets: [[sources/calipc]], [[sources/wric]]

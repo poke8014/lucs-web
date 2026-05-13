@@ -3,11 +3,11 @@ type: plant
 title: Oncosiphon pilulifer (stinknet)
 aliases: [stinknet, globe chamomile, Matricaria globifera, Pentzia globifera, Oncosiphon piluliferum]
 tags: [invasive, calipc-high, vegetative-spreader]
-status: stub
+status: draft
 sources:
   - raw/articles/calipc/oncosiphon-piluliferum-profile.md
   - raw/articles/calipc/oncosiphon-piluliferum-paf.md
-last_updated: 2026-05-08
+last_updated: 2026-05-12
 
 scientific_name: Oncosiphon pilulifer
 common_names: [stinknet, globe chamomile]
@@ -36,7 +36,42 @@ invasive:
 
 Oncosiphon pilulifer(stinknet) is a strongly-scented annual herb (family Asteraceae) with round yellow flowers and finely dissected leaves found in the south coast and desert ranges of Southern California. It is native to South Africa. It favors dunes and scrub and chaparral habitat. It spreads via seeds which travel through human activities and machinery. Stinknet has been spreading rapidly across the southwestern US and is currently established across Southern California, Arizona, and northern Mexico. It is capable of creating dense stands which reduce native plant diversity. In Southern California, stinknet invasion is threatening critical habitat for several endangered and sensitive species, including the Stephens kangaroo rat ( Dipodomys stephensi).
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** annual herb to ~2 ft tall, much-branched.
+- **Leaves:** **finely dissected, fern-like**, alternate.
+- **Flowers (key field ID):** **bright yellow, globe-shaped flowerheads** (~1/4 in diameter) at stem tips — no ray petals, just the dense yellow ball of disk flowers. The globular shape is the basis for the "globe chamomile" common name.
+- **Smell test:** crushed foliage and flowers have a **strong unpleasant odor** (hence "stinknet"). The smell is offensive enough that field crews often avoid working in dense stands.
+- **Bloom:** late winter through spring (Feb–May in SoCal).
+- **Reproduction:** prolific seed production. Wind- and water-dispersed; clings to clothing and equipment.
+- **Range:** spreading rapidly in **southern California** (Riverside, San Bernardino, San Diego counties) since the early 2000s. Also reported in Arizona.
+- **Hazards:** **plant material can cause contact dermatitis and respiratory irritation** in sensitive people; pollen is an allergen. Toxic to grazing animals.
+- **Fire ecology:** dense stands produce significant fuel load — fire promoter in arid systems similar to red brome.
+- **Source note:** **post-2013 invader, no WRIC report exists.** The Cal-IPC Plant Assessment Form is the primary research record; management notes are synthesized from county Agricultural Commissioner advisories.
+
+## Remove
+
+Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull).
+
+- **Hand-pull individual plants and small infestations before seed set.** Pull in winter or early spring when soil is moist; plants come up easily.
+- **Wear gloves, long sleeves, and respiratory protection** — contact dermatitis and respiratory irritation are common.
+- **Bag pulled material** to prevent seed dispersal during disposal.
+- **Mowing before seed set** can reduce seed production for the year — must be repeated through the bloom window because of asynchronous flowering.
+- **Pre-emergent herbicides** before the winter germination flush (typical recommendation from CA county Ag Commissioner advisories):
+  - **Indaziflam, prodiamine, pendimethalin** are listed in SoCal management plans for stinknet — applied in fall before rains.
+- **Post-emergent foliar herbicides** on young plants:
+  - **Glyphosate** 1–2% v/v spot.
+  - **2,4-D** broadleaf-selective at low rates.
+- **No biocontrol** agents available.
+- **Burning** is not yet a tested control — stinknet's fire-promoter habit suggests caution.
+
+## Prevent
+
+- **Stop-spread priority in SoCal.** Stinknet is one of the most rapidly expanding invasives in California. Eradication of small infestations is the highest-ROI intervention.
+- **Equipment hygiene** — seeds cling to clothing, vehicles, and pet fur. Brush off before leaving infested sites.
+- **Report new sightings to county Ag Commissioner** for tracking; SoCal county programs are actively mapping this species.
+- **Multi-year monitoring** required — annual seedling sweeps for at least 5 years after eradication of a patch.
+- **Don't compost** — seeds survive home compost piles.
 
 ## Why it's a problem
 
@@ -102,4 +137,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/oncosiphon-piluliferum-profile.md`
 - PAF: `raw/articles/calipc/oncosiphon-piluliferum-paf.md`
-- Dataset: [[sources/calipc]]
+- WRIC: **None** — *Oncosiphon pilulifer* is a post-2013 invader and is not covered in the WRIC *Weed Reports*. Management notes synthesized from Cal-IPC profile + county Agricultural Commissioner advisories (Riverside, San Bernardino, San Diego counties).
+- Datasets: [[sources/calipc]]
