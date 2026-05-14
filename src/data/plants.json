@@ -72,6 +72,11 @@
     ],
     "removal_sources": [
       "wric/Acacia"
+    ],
+    "removal_timing_window": "Late spring–summer (cut in dry season)",
+    "requires_followup_years": 25,
+    "safety_flags": [
+      "fragment_spreader"
     ]
   },
   {
@@ -137,7 +142,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ageratina-adenophora",
@@ -220,7 +228,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ailanthus-altissima",
@@ -307,6 +318,11 @@
     ],
     "removal_sources": [
       "wric/Ailanthus"
+    ],
+    "removal_timing_window": "Late summer (active translocation to roots)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "irritant_sap"
     ]
   },
   {
@@ -374,7 +390,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "alliaria-petiolata",
@@ -448,7 +467,10 @@
     ],
     "removal_sources": [
       "wric/Alliaria"
-    ]
+    ],
+    "removal_timing_window": "Spring rosette → before May seed set",
+    "requires_followup_years": 5,
+    "safety_flags": []
   },
   {
     "slug": "alternanthera-philoxeroides",
@@ -512,7 +534,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ammophila-arenaria",
@@ -571,7 +596,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "arctotheca-calendula",
@@ -639,7 +667,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "arctotheca-prostrata",
@@ -708,7 +739,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "arundo-donax",
@@ -787,6 +821,12 @@
     ],
     "removal_sources": [
       "wric/Arundo"
+    ],
+    "removal_timing_window": "Late summer (rhizome resources low)",
+    "requires_followup_years": 10,
+    "safety_flags": [
+      "fragment_spreader",
+      "do_not_burn"
     ]
   },
   {
@@ -866,7 +906,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "asphodelus-fistulosus",
@@ -935,7 +978,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "atriplex-semibaccata",
@@ -1005,7 +1051,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "avena-barbata",
@@ -1078,7 +1127,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "avena-fatua",
@@ -1159,6 +1211,11 @@
     ],
     "removal_sources": [
       "wric/Avena_barbata-fatua"
+    ],
+    "removal_timing_window": "March–April (boot stage)",
+    "requires_followup_years": 3,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -1229,7 +1286,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "brachypodium-sylvaticum",
@@ -1291,7 +1351,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "brassica-nigra",
@@ -1370,6 +1433,11 @@
     ],
     "removal_sources": [
       "wric/Brassica_nigra"
+    ],
+    "removal_timing_window": "February–March (before pods yellow)",
+    "requires_followup_years": 50,
+    "safety_flags": [
+      "allergenic_pollen"
     ]
   },
   {
@@ -1445,7 +1513,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "bromus-diandrus",
@@ -1549,6 +1620,11 @@
     ],
     "removal_sources": [
       "wric/Bromus_diandrus-madritensis-tectorum"
+    ],
+    "removal_timing_window": "April (boot stage, before awns harden)",
+    "requires_followup_years": 3,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -1637,6 +1713,12 @@
     ],
     "removal_sources": [
       "wric/Bromus_diandrus-madritensis-tectorum"
+    ],
+    "removal_timing_window": "March–April (boot stage)",
+    "requires_followup_years": 3,
+    "safety_flags": [
+      "spines_thorns",
+      "do_not_burn"
     ]
   },
   {
@@ -1719,6 +1801,12 @@
     ],
     "removal_sources": [
       "wric/Bromus_diandrus-madritensis-tectorum"
+    ],
+    "removal_timing_window": "April–May (before May dry-down)",
+    "requires_followup_years": 3,
+    "safety_flags": [
+      "spines_thorns",
+      "do_not_burn"
     ]
   },
   {
@@ -1790,7 +1878,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "carduus-pycnocephalus",
@@ -1870,6 +1961,11 @@
     ],
     "removal_sources": [
       "wric/Carduus_acanthoides-nutans-pycnocephalus-tenuiflorus"
+    ],
+    "removal_timing_window": "Spring rosette (before stems lignify)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -1938,7 +2034,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "carpobrotus-edulis",
@@ -2009,6 +2108,11 @@
     ],
     "removal_sources": [
       "wric/Carpobrotus"
+    ],
+    "removal_timing_window": "Any cool month (avoid summer scorch under cardboard)",
+    "requires_followup_years": 1,
+    "safety_flags": [
+      "fragment_spreader"
     ]
   },
   {
@@ -2071,7 +2175,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "carthamus-lanatus",
@@ -2145,7 +2252,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "centaurea-calcitrapa",
@@ -2211,7 +2321,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "centaurea-diffusa",
@@ -2284,7 +2397,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "centaurea-jacea-ssp-pratensis",
@@ -2347,7 +2463,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "centaurea-melitensis",
@@ -2419,7 +2538,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "centaurea-solstitialis",
@@ -2497,6 +2619,11 @@
     ],
     "removal_sources": [
       "wric/Centaurea_solstitialis"
+    ],
+    "removal_timing_window": "May–June (bolt, before mid-bloom)",
+    "requires_followup_years": 10,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -2576,7 +2703,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "centaurea-virgata-var-squarrosa",
@@ -2643,7 +2773,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "chondrilla-juncea",
@@ -2720,7 +2853,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "chrysanthemoides-monilifera-ssp-monilifera",
@@ -2790,7 +2926,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "cirsium-arvense",
@@ -2870,7 +3009,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "cirsium-vulgare",
@@ -2960,6 +3102,11 @@
     ],
     "removal_sources": [
       "wric/Cirsium_vulgare"
+    ],
+    "removal_timing_window": "Spring rosette → April–June flowering stalks",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -3035,6 +3182,12 @@
     ],
     "removal_sources": [
       "wric/Clematis"
+    ],
+    "removal_timing_window": "Any cool month (before late-summer seed)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "irritant_sap",
+      "fragment_spreader"
     ]
   },
   {
@@ -3104,7 +3257,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "conium-maculatum",
@@ -3185,6 +3341,12 @@
     ],
     "removal_sources": [
       "wric/Conium"
+    ],
+    "removal_timing_window": "February–April (rosette → bolt, before seed)",
+    "requires_followup_years": 6,
+    "safety_flags": [
+      "toxic_handling",
+      "do_not_burn"
     ]
   },
   {
@@ -3264,6 +3426,12 @@
     ],
     "removal_sources": [
       "wric/Cortaderia_jubata-selloana"
+    ],
+    "removal_timing_window": "Any time (easier when soil is moist in winter)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "spines_thorns",
+      "fragment_spreader"
     ]
   },
   {
@@ -3345,6 +3513,12 @@
     ],
     "removal_sources": [
       "wric/Cortaderia_jubata-selloana"
+    ],
+    "removal_timing_window": "Any time (easier when soil is moist in winter)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "spines_thorns",
+      "fragment_spreader"
     ]
   },
   {
@@ -3413,7 +3587,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "cotoneaster-lacteus",
@@ -3479,7 +3656,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "cotoneaster-pannosus",
@@ -3550,7 +3730,10 @@
     ],
     "removal_sources": [
       "wric/Cotoneaster"
-    ]
+    ],
+    "removal_timing_window": "Late spring–summer (any time, really)",
+    "requires_followup_years": 10,
+    "safety_flags": []
   },
   {
     "slug": "cynara-cardunculus",
@@ -3627,6 +3810,11 @@
     ],
     "removal_sources": [
       "wric/Cynara"
+    ],
+    "removal_timing_window": "Spring rosette → May (before seed set)",
+    "requires_followup_years": 10,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -3718,6 +3906,12 @@
     ],
     "removal_sources": [
       "wric/Cynodon"
+    ],
+    "removal_timing_window": "Summer (combine digging with solarization)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "fragment_spreader",
+      "do_not_mow"
     ]
   },
   {
@@ -3799,7 +3993,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "cynosurus-echinatus",
@@ -3878,7 +4075,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "cytisus-scoparius",
@@ -3962,6 +4162,11 @@
     ],
     "removal_sources": [
       "wric/Cytisus"
+    ],
+    "removal_timing_window": "May–June (before pods ripen)",
+    "requires_followup_years": 60,
+    "safety_flags": [
+      "do_not_burn"
     ]
   },
   {
@@ -4037,6 +4242,11 @@
     ],
     "removal_sources": [
       "wric/Cytisus"
+    ],
+    "removal_timing_window": "May–June (before pods ripen)",
+    "requires_followup_years": 60,
+    "safety_flags": [
+      "do_not_burn"
     ]
   },
   {
@@ -4122,6 +4332,12 @@
     ],
     "removal_sources": [
       "wric/Delairea"
+    ],
+    "removal_timing_window": "Any cool month (winter–spring)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "fragment_spreader",
+      "do_not_mow"
     ]
   },
   {
@@ -4203,6 +4419,11 @@
     ],
     "removal_sources": [
       "wric/Dipsacus_fullonum-laciniatus-sativus"
+    ],
+    "removal_timing_window": "Spring rosette → before bolt",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -4279,7 +4500,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "dittrichia-graveolens",
@@ -4351,7 +4575,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "egeria-densa",
@@ -4416,7 +4643,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ehrharta-calycina",
@@ -4499,7 +4729,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ehrharta-erecta",
@@ -4583,7 +4816,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "eichhornia-crassipes",
@@ -4657,7 +4893,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "elaeagnus-angustifolia",
@@ -4729,7 +4968,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "taeniatherum-caput-medusae",
@@ -4799,7 +5041,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "emex-spinosa",
@@ -4859,7 +5104,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "euphorbia-esula",
@@ -4934,7 +5182,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "fallopia-japonica",
@@ -5000,7 +5251,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "polygonum-sachalinense",
@@ -5066,7 +5320,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "festuca-arundinacea",
@@ -5160,7 +5417,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "vulpia-myuros",
@@ -5244,7 +5504,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "festuca-perennis",
@@ -5319,7 +5582,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ficus-carica",
@@ -5386,7 +5652,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "foeniculum-vulgare",
@@ -5471,6 +5740,11 @@
     ],
     "removal_sources": [
       "wric/Foeniculum"
+    ],
+    "removal_timing_window": "February–March (soil still moist)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "fragment_spreader"
     ]
   },
   {
@@ -5533,7 +5807,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "retama-monosperma",
@@ -5595,7 +5872,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "genista-monspessulana",
@@ -5686,6 +5966,11 @@
     ],
     "removal_sources": [
       "wric/Genista"
+    ],
+    "removal_timing_window": "April (just before flowering peak)",
+    "requires_followup_years": 60,
+    "safety_flags": [
+      "do_not_burn"
     ]
   },
   {
@@ -5756,7 +6041,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "halogeton-glomeratus",
@@ -5825,7 +6113,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "hedera-canariensis",
@@ -5896,6 +6187,13 @@
     ],
     "removal_sources": [
       "wric/Hedera_canariensis-helix-hibernica"
+    ],
+    "removal_timing_window": "Any cool month",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "irritant_sap",
+      "fragment_spreader",
+      "do_not_mow"
     ]
   },
   {
@@ -5973,6 +6271,13 @@
     ],
     "removal_sources": [
       "wric/Hedera_canariensis-helix-hibernica"
+    ],
+    "removal_timing_window": "Any cool month",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "irritant_sap",
+      "fragment_spreader",
+      "do_not_mow"
     ]
   },
   {
@@ -6063,6 +6368,11 @@
     ],
     "removal_sources": [
       "wric/Hirschfeldia"
+    ],
+    "removal_timing_window": "Spring (revisit every 3–4 weeks)",
+    "requires_followup_years": 10,
+    "safety_flags": [
+      "allergenic_pollen"
     ]
   },
   {
@@ -6138,7 +6448,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "hordeum-marinum",
@@ -6220,7 +6533,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "horderum-murinum",
@@ -6313,6 +6629,11 @@
     ],
     "removal_sources": [
       "wric/Hordeum_marinum-murinum"
+    ],
+    "removal_timing_window": "April (boot stage, before awns turn tan)",
+    "requires_followup_years": 3,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -6393,7 +6714,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "hypericum-canariense",
@@ -6458,7 +6782,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "hypochaeris-radicata",
@@ -6534,7 +6861,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "isatis-tinctoria",
@@ -6597,7 +6927,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "lepidium-chalepense",
@@ -6689,7 +7022,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "cardaria-draba",
@@ -6765,7 +7101,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "lepidium-latifolium",
@@ -6856,6 +7195,11 @@
     ],
     "removal_sources": [
       "wric/Lepidium_latifolium"
+    ],
+    "removal_timing_window": "May–June (bud → flowering)",
+    "requires_followup_years": 10,
+    "safety_flags": [
+      "fragment_spreader"
     ]
   },
   {
@@ -6943,7 +7287,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "limnobium-laevigatum",
@@ -7008,7 +7355,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "limonium-duriusculum",
@@ -7075,7 +7425,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "linaria-dalmatica-ssp-dalmatica",
@@ -7155,7 +7508,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "linaria-vulgaris",
@@ -7235,7 +7591,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ludwigia-hexapetala",
@@ -7303,7 +7662,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ludwigia-peploides",
@@ -7371,7 +7733,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "lythrum-hyssopifolium",
@@ -7451,7 +7816,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "lythrum-salicaria",
@@ -7522,7 +7890,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "mentha-pulegium",
@@ -7604,7 +7975,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "mesembryanthemum-crystallinum",
@@ -7668,7 +8042,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "myoporum-laetum",
@@ -7738,7 +8115,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "myriophyllum-aquaticum",
@@ -7814,7 +8194,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "myriophyllum-spicatum",
@@ -7885,7 +8268,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "nicotiana-glauca",
@@ -7953,7 +8339,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "oncosiphon-piluliferum",
@@ -8035,7 +8424,14 @@
       "Pull when soil is moist and bag immediately; do not mow or weed-whack dry plants.",
       "Aggressive new invader — report sightings to your county ag commissioner."
     ],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": "February–April (before seed set, soil moist)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "irritant_sap",
+      "allergenic_pollen",
+      "do_not_mow"
+    ]
   },
   {
     "slug": "onopordum-acanthium",
@@ -8115,7 +8511,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "oxalis-pes-caprae",
@@ -8192,6 +8591,11 @@
     ],
     "removal_sources": [
       "wric/Oxalis"
+    ],
+    "removal_timing_window": "Autumn dig (fresh bulbs visible) + Jan–March foliage pulls",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "fragment_spreader"
     ]
   },
   {
@@ -8276,6 +8680,11 @@
     ],
     "removal_sources": [
       "wric/Pennisetum_setaceum"
+    ],
+    "removal_timing_window": "Before seed dispersal (late spring)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "spines_thorns"
     ]
   },
   {
@@ -8357,7 +8766,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "potamogeton-crispus",
@@ -8429,7 +8841,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "acroptilon-repens",
@@ -8518,7 +8933,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "rubus-armeniacus",
@@ -8610,6 +9028,12 @@
     ],
     "removal_sources": [
       "wric/Rubus"
+    ],
+    "removal_timing_window": "Late summer–early fall (foliar herbicide window)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "spines_thorns",
+      "fragment_spreader"
     ]
   },
   {
@@ -8691,7 +9115,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "saccharum-ravennae",
@@ -8762,7 +9189,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "salsola-soda",
@@ -8822,7 +9252,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "salvinia-molesta",
@@ -8900,7 +9333,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "schinus-terebinthifolius",
@@ -8970,7 +9406,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "senecio-glomeratus",
@@ -9056,7 +9495,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "sesbania-punicea",
@@ -9129,7 +9571,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "spartina-alterniflora-x-spartina-foliosa",
@@ -9188,7 +9633,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "spartina-anglica",
@@ -9246,7 +9694,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "spartina-densiflora",
@@ -9306,7 +9757,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "spartium-junceum",
@@ -9386,6 +9840,11 @@
     ],
     "removal_sources": [
       "wric/Spartium"
+    ],
+    "removal_timing_window": "May–June (before pods ripen)",
+    "requires_followup_years": 30,
+    "safety_flags": [
+      "do_not_burn"
     ]
   },
   {
@@ -9450,7 +9909,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "tamarix-chinensis",
@@ -9526,7 +9988,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "tamarix-gallica",
@@ -9596,7 +10061,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "tamarix-parviflora-plant",
@@ -9675,7 +10143,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "tamarix-ramosissima",
@@ -9755,7 +10226,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "tanacetum-vulgare",
@@ -9829,7 +10303,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "torilis-arvensis",
@@ -9896,7 +10373,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "triadica-sebifera",
@@ -9968,7 +10448,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "ulex-europaeus",
@@ -10050,6 +10533,12 @@
     ],
     "removal_sources": [
       "wric/Ulex"
+    ],
+    "removal_timing_window": "Spring, or shortly after winter rain",
+    "requires_followup_years": 30,
+    "safety_flags": [
+      "spines_thorns",
+      "do_not_burn"
     ]
   },
   {
@@ -10134,6 +10623,11 @@
     ],
     "removal_sources": [
       "wric/Vinca"
+    ],
+    "removal_timing_window": "Any cool month (cardboard down before summer)",
+    "requires_followup_years": 2,
+    "safety_flags": [
+      "fragment_spreader"
     ]
   },
   {
@@ -10201,7 +10695,10 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "zostera-japonica",
@@ -10264,6 +10761,9 @@
     ],
     "removal_method": null,
     "removal_notes": [],
-    "removal_sources": []
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   }
 ]
