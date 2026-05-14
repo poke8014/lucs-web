@@ -5,7 +5,8 @@ import { useMemo, useState } from 'react'
 import PhotoLightbox from './PhotoLightbox'
 import PlantPicker from './PlantPicker'
 import { plantBySlug } from './resolver'
-import { buildPlan } from './plan'
+import { buildPlan, buildSummary, type CleanupSummary } from './plan'
+import { thumbUrl } from './photoUrl'
 import type { Match, Pick, Plant, ResolvedRow } from './types'
 
 type Step = 'input' | 'confirm' | 'plan'
@@ -84,6 +85,7 @@ export default function CleanupPlanPage() {
   }, [rows])
 
   const plan = useMemo(() => buildPlan(keptPlants), [keptPlants])
+  const summary = useMemo(() => buildSummary(keptPlants), [keptPlants])
 
   function reset() {
     setStep('input')
@@ -93,8 +95,8 @@ export default function CleanupPlanPage() {
 
   return (
     <main className="pointer-events-auto absolute inset-0 overflow-y-auto">
-      <div className="mx-auto max-w-4xl px-6 py-10 sm:py-14">
-      <div className="mb-8 flex items-center justify-between text-xs uppercase tracking-[0.18em] text-[#2a1d10]/70">
+      <div className="mx-auto max-w-4xl px-6 py-6 sm:py-10">
+      <div className="mb-6 flex items-center justify-between text-xs uppercase tracking-[0.18em] text-[#2a1d10]/70">
         <Link
           href="/sunshower"
           className="hover:text-[#2a1d10] hover:underline underline-offset-4"
@@ -103,16 +105,16 @@ export default function CleanupPlanPage() {
         </Link>
         <span className="hidden sm:inline">phase 1 · cleanup</span>
       </div>
-      <header className="mb-10">
+      <header className="mb-6 sm:mb-8">
         <p className="text-xs uppercase tracking-[0.18em] text-emerald-800/80">
           Pollinator Garden — Phase 1: Cleanup
         </p>
-        <h1 className="mt-2 font-serif text-4xl leading-[0.95] tracking-tight text-[#2a1d10] sm:text-5xl">
+        <h1 className="mt-2 font-serif text-3xl leading-[0.95] tracking-tight text-[#2a1d10] sm:text-5xl">
           Build a weed-removal
           <br />
           plan for your yard.
         </h1>
-        <p className="mt-4 max-w-2xl text-[#2a1d10]/75">
+        <p className="mt-3 max-w-2xl text-sm text-[#2a1d10]/75 sm:text-base">
           Pick the plants you&rsquo;ve identified in your yard (iNaturalist is
           the easiest tool for spotting them) from the Cal-IPC top-tier
           invasive list, confirm with photos, and we&rsquo;ll propose a
@@ -144,6 +146,7 @@ export default function CleanupPlanPage() {
       {step === 'plan' && (
         <PlanSection
           plan={plan}
+          summary={summary}
           onBack={() => setStep('confirm')}
           onReset={reset}
         />
@@ -160,7 +163,7 @@ function Stepper({ current }: { current: Step }) {
     { id: 'plan', label: '3. Plan' },
   ]
   return (
-    <ol className="mb-8 flex gap-2 text-sm">
+    <ol className="mb-6 flex gap-2 text-sm">
       {steps.map((s) => (
         <li
           key={s.id}
@@ -316,7 +319,7 @@ function ConfirmRow({
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={photo.url}
+                src={thumbUrl(photo.url)}
                 alt={selected?.plant.scientific_name ?? ''}
                 className="h-40 w-40 object-cover transition hover:opacity-90"
                 loading="lazy"
@@ -430,10 +433,12 @@ function ConfirmRow({
 
 function PlanSection({
   plan,
+  summary,
   onBack,
   onReset,
 }: {
   plan: ReturnType<typeof buildPlan>
+  summary: CleanupSummary
   onBack: () => void
   onReset: () => void
 }) {
@@ -451,6 +456,11 @@ function PlanSection({
         from UC Davis WRIC and UC IPM Pest Notes.
       </p>
 
+      <SummarySection summary={summary} />
+
+      <h3 className="mb-3 mt-8 font-serif text-xl text-[#2a1d10]">
+        Action plan
+      </h3>
       <ol className="space-y-6">
         {plan.map((group, idx) => (
           <li
@@ -482,7 +492,7 @@ function PlanSection({
                         {plant.photos[0] && (
                           // eslint-disable-next-line @next/next/no-img-element
                           <img
-                            src={plant.photos[0].url}
+                            src={thumbUrl(plant.photos[0].url)}
                             alt={plant.scientific_name}
                             className="h-14 w-14 flex-none rounded-md object-cover"
                             loading="lazy"
@@ -545,5 +555,106 @@ function PlanSection({
         </button>
       </div>
     </section>
+  )
+}
+
+function SummarySection({ summary }: { summary: CleanupSummary }) {
+  const { tools, timing, cautions, followup } = summary
+  const hasAnything =
+    tools.length > 0 ||
+    timing.length > 0 ||
+    cautions.length > 0 ||
+    followup.length > 0
+  if (!hasAnything) return null
+
+  return (
+    <div className="mb-2 grid gap-4 sm:grid-cols-2">
+      {timing.length > 0 && (
+        <SummaryCard title="When to act" icon="📅">
+          <ul className="space-y-2">
+            {timing.map((g) => (
+              <li key={g.window}>
+                <p className="text-sm font-medium text-[#2a1d10]">{g.window}</p>
+                <p className="text-sm text-[#2a1d10]/75">
+                  {g.plants
+                    .map(
+                      (p) => p.common_name ?? p.scientific_name,
+                    )
+                    .join(', ')}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </SummaryCard>
+      )}
+
+      {tools.length > 0 && (
+        <SummaryCard title="What you'll need" icon="🛠">
+          <ul className="list-disc space-y-1 pl-5 text-sm text-[#2a1d10]/85">
+            {tools.map((t) => (
+              <li key={t}>{t}</li>
+            ))}
+          </ul>
+        </SummaryCard>
+      )}
+
+      {cautions.length > 0 && (
+        <SummaryCard title="Yard-wide cautions" icon="⚠️" tone="warning">
+          <ul className="list-disc space-y-1.5 pl-5 text-sm text-amber-950/90">
+            {cautions.map((c) => (
+              <li key={c}>{c}</li>
+            ))}
+          </ul>
+        </SummaryCard>
+      )}
+
+      {followup.length > 0 && (
+        <SummaryCard title="Multi-year follow-up" icon="⏳">
+          <ul className="space-y-2">
+            {followup.map((g) => (
+              <li key={g.years}>
+                <p className="text-sm font-medium text-[#2a1d10]">
+                  {g.years}+ years
+                </p>
+                <p className="text-sm text-[#2a1d10]/75">
+                  Sweep annually for{' '}
+                  {g.plants
+                    .map((p) => p.common_name ?? p.scientific_name)
+                    .join(', ')}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </SummaryCard>
+      )}
+    </div>
+  )
+}
+
+function SummaryCard({
+  title,
+  icon,
+  tone = 'neutral',
+  children,
+}: {
+  title: string
+  icon: string
+  tone?: 'neutral' | 'warning'
+  children: React.ReactNode
+}) {
+  const wrapper =
+    tone === 'warning'
+      ? 'rounded-lg border border-amber-400/60 bg-amber-50/85 p-4 backdrop-blur-sm'
+      : PANEL_INSET
+  return (
+    <div className={wrapper}>
+      <p className="mb-2 text-xs font-medium uppercase tracking-[0.14em] text-[#2a1d10]/70">
+        <span className="mr-1.5" aria-hidden>
+          {icon}
+        </span>
+        {title}
+      </p>
+      {children}
+    </div>
   )
 }

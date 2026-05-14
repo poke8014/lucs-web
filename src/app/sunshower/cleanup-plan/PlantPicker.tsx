@@ -3,6 +3,7 @@
 import { useEffect, useId, useMemo, useRef, useState } from 'react'
 import type { KeyboardEvent } from 'react'
 import { plantBySlug, searchPlants } from './resolver'
+import { thumbUrl } from './photoUrl'
 import type { Pick, Plant } from './types'
 
 type Props = {
@@ -21,6 +22,12 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
   const inputId = useId()
   const listboxId = useId()
   const containerRef = useRef<HTMLDivElement>(null)
+  const inputRef = useRef<HTMLInputElement>(null)
+  const optionRefs = useRef<(HTMLLIElement | null)[]>([])
+  // Dynamic cap on the dropdown's max-height — keeps it inside the viewport
+  // regardless of where the input sits. 0 means "unmeasured yet" so we fall
+  // back to the static cap on the very first paint to avoid a flash.
+  const [dropdownMaxHeight, setDropdownMaxHeight] = useState(0)
 
   const selectedPlants = useMemo(
     () =>
@@ -49,6 +56,37 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
     document.addEventListener('mousedown', onDocClick)
     return () => document.removeEventListener('mousedown', onDocClick)
   }, [])
+
+  // Keep the keyboard-highlighted option in view as the user arrows past
+  // the visible window of the dropdown.
+  useEffect(() => {
+    optionRefs.current[safeHighlight]?.scrollIntoView({ block: 'nearest' })
+  }, [safeHighlight])
+
+  // Cap the dropdown's max-height to the space remaining below the input,
+  // minus a margin so it doesn't butt against the page edge. Recomputes on
+  // window resize and on any scroll event in the page (capture phase, since
+  // scroll doesn't bubble — the cleanup-plan main element is the actual
+  // scroll container).
+  const showDropdown = open && query.trim().length > 0
+  useEffect(() => {
+    if (!showDropdown) return
+    function update() {
+      const rect = inputRef.current?.getBoundingClientRect()
+      if (!rect) return
+      const margin = 24 // breathing room between the dropdown and the page bottom
+      const gap = 4 // matches the dropdown's mt-1
+      const available = window.innerHeight - rect.bottom - gap - margin
+      setDropdownMaxHeight(Math.max(120, Math.min(320, available)))
+    }
+    update()
+    window.addEventListener('resize', update)
+    window.addEventListener('scroll', update, true)
+    return () => {
+      window.removeEventListener('resize', update)
+      window.removeEventListener('scroll', update, true)
+    }
+  }, [showDropdown, results.length])
 
   function add(slug: string, matchedOn: string) {
     if (selectedSlugs.includes(slug)) return
@@ -79,8 +117,6 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
     }
   }
 
-  const showDropdown = open && query.trim().length > 0
-
   return (
     <div ref={containerRef} className="relative">
       {selectedPlants.length > 0 && (
@@ -93,7 +129,7 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
               {p.photos[0] ? (
                 // eslint-disable-next-line @next/next/no-img-element
                 <img
-                  src={p.photos[0].url}
+                  src={thumbUrl(p.photos[0].url)}
                   alt=""
                   className="h-6 w-6 flex-none rounded-full object-cover"
                 />
@@ -121,6 +157,7 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
 
       <input
         id={inputId}
+        ref={inputRef}
         type="text"
         value={query}
         onChange={(e) => {
@@ -149,7 +186,12 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
             </p>
           ) : (
             <ul
-              className="max-h-80 overflow-y-auto"
+              className="overflow-y-auto py-1"
+              style={{
+                maxHeight: dropdownMaxHeight
+                  ? `${dropdownMaxHeight}px`
+                  : 'min(20rem, 60dvh)',
+              }}
               id={listboxId}
               role="listbox"
             >
@@ -159,6 +201,9 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
                 return (
                   <li
                     key={p.slug}
+                    ref={(el) => {
+                      optionRefs.current[i] = el
+                    }}
                     role="option"
                     aria-selected={i === safeHighlight}
                   >
@@ -167,7 +212,7 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
                       onMouseEnter={() => setHighlight(i)}
                       onClick={() => add(p.slug, matchedOn)}
                       className={
-                        'flex w-full items-center gap-3 p-2 text-left text-[#2a1d10] ' +
+                        'flex w-full items-center gap-3 px-3 py-2.5 text-left text-[#2a1d10] ' +
                         (i === safeHighlight
                           ? 'bg-emerald-100/60'
                           : 'bg-transparent')
@@ -176,7 +221,7 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
                       {p.photos[0] ? (
                         // eslint-disable-next-line @next/next/no-img-element
                         <img
-                          src={p.photos[0].url}
+                          src={thumbUrl(p.photos[0].url)}
                           alt=""
                           className="h-10 w-10 flex-none rounded object-cover"
                           loading="lazy"

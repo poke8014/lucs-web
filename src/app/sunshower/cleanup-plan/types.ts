@@ -19,6 +19,17 @@ export type RemovalMethod =
   | 'mow_before_seed'
   | 'solarize_summer'
 
+// Closed vocabulary for yard-wide cautions (Layer B summary).
+// Each flag maps to a human-readable caution string in plan.ts.
+export type SafetyFlag =
+  | 'fragment_spreader' // every cut piece can re-root → bag, don't compost/chip loose
+  | 'spines_thorns' // physical hazard → thick gloves + eye protection
+  | 'irritant_sap' // skin/eye irritation → gloves + long sleeves
+  | 'toxic_handling' // toxic to humans/pets → full PPE; don't burn (e.g. poison-hemlock)
+  | 'do_not_burn' // burning releases toxic smoke OR cues seedbank germination
+  | 'do_not_mow' // mowing fragments and spreads
+  | 'allergenic_pollen' // wind-borne pollen / sneeze trigger
+
 export type Plant = {
   slug: string
   scientific_name: string
@@ -42,6 +53,17 @@ export type Plant = {
   removal_method: RemovalMethod | null
   removal_notes: string[]
   removal_sources: string[]
+  // Layer B fields — populated for the 38 annotated plants only.
+  // `removal_timing_window` is a short natural-language window
+  // ("May–June", "Feb–March", "any cool month") so the summary can
+  // cluster plants by when to act. `requires_followup_years` is a
+  // single integer used to surface multi-year follow-up cautions
+  // (decadal seedbanks etc.). `safety_flags[]` rolls up to yard-wide
+  // PPE / disposal cautions. All three fields default to null/empty
+  // for plants without removal_method.
+  removal_timing_window: string | null
+  requires_followup_years: number | null
+  safety_flags: SafetyFlag[]
 }
 
 export type Match = {
