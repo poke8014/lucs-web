@@ -66,9 +66,10 @@
     ],
     "removal_method": "cut_stump_herbicide",
     "removal_notes": [
-      "Resprouts vigorously from cut stumps and from root suckers — paint the cut surface with concentrated glyphosate or triclopyr within minutes of cutting.",
-      "Seedbank persists for decades; expect seedlings for many years after the parent tree is gone.",
-      "Do not chip without bagging — fresh fragments can re-root in moist soil."
+      "Seedlings hand-pull; saplings extract with a weed wrench when soil is moist — any root fragment left behind suckers.",
+      "Cut established trees at ground level and paint the stump within minutes with Garlon 4 Ultra 20–25% in oil carrier, or 25% glyphosate in water. Cutting without herbicide produces a thicket of root suckers.",
+      "The spreading root system can send up shoots well after the parent is gone — watch the surrounding area for at least one growing season before replanting.",
+      "Don't burn alone — fire stimulates seedling recruitment."
     ],
     "removal_sources": [
       "wric/Acacia"
@@ -312,9 +313,11 @@
     ],
     "removal_method": "cut_stump_herbicide",
     "removal_notes": [
-      "Cutting alone triggers an explosion of root suckers — never cut without immediately treating the stump with triclopyr.",
-      "Smaller stems can be basal-bark treated without cutting first.",
-      "Wear gloves: the sap is a skin irritant and the crushed leaves smell foul."
+      "Never cut tree-of-heaven without an herbicide plan — uncut roots throw up a thicket of suckers, often worse than the original tree.",
+      "Most effective treatment is stem injection (\"drill and fill\") with undiluted imazapyr — 1 ml per hack, one hack per 3 inches of stem diameter, mid-June to mid-September.",
+      "Cut-stump alternative: paint with Garlon 4 Ultra 20–25% in oil, or undiluted glyphosate concentrate, within minutes of cutting.",
+      "Suckers can appear up to 50 ft from the felled tree — track and re-treat new shoots for 1–2 years.",
+      "Don't move soil from infested sites — root fragments establish elsewhere."
     ],
     "removal_sources": [
       "wric/Ailanthus"
@@ -462,8 +465,11 @@
     ],
     "removal_method": "hand_pull",
     "removal_notes": [
-      "Biennial — pull rosettes any time, dig bolting plants before seed set.",
-      "Bag and landfill: cut stalks finish maturing viable seed inside the pile, so don't compost."
+      "Hand-pull or dig before May seed set — the S-shaped taproot wants to snap, so loosen soil first and ease plants up so root fragments don't stay behind.",
+      "On heavy clay, switch to a digging tool — pull-snapped roots resprout.",
+      "Second-year bolted plants come out easily by the stem; pull them before pods ripen.",
+      "If mowing, cut as low as practical — too high lets flowering stalks form from below the cut, too late scatters seed pods.",
+      "5-year seedbank — one missed year of seed set creates several years of follow-up."
     ],
     "removal_sources": [
       "wric/Alliaria"
@@ -815,9 +821,11 @@
     ],
     "removal_method": "dig_rhizome_complete",
     "removal_notes": [
-      "Every node and rhizome fragment re-roots — never chip or leave cuttings on bare soil.",
-      "Mature stands resist hand-digging; cut-stump with concentrated glyphosate on freshly-cut canes is the practical method, repeated annually for 2–3 years.",
-      "Pile cut material on a tarp and bag for landfill — do not green-bin."
+      "Every rhizome fragment regrows — mechanical removal must extract the whole rhizome mass, not just the visible canes.",
+      "Cut all canes near the base with a chainsaw, then paint each fresh stump within 1–2 minutes with undiluted glyphosate concentrate — WRIC's gold-standard recipe, near-complete control with no resprouts.",
+      "Foliar follow-up on regrowth at 6–8 ft: 2% v/v glyphosate mid-summer to fall, after flowering. Plan 2–3 years of treatment for larger stands.",
+      "Don't compost or pile cut canes — every node re-roots in moist soil. Chip or burn on site.",
+      "Giant reed doesn't produce viable seed in North America — every infestation traces back to a transplanted rhizome or stem fragment."
     ],
     "removal_sources": [
       "wric/Arundo"
@@ -1205,9 +1213,11 @@
     ],
     "removal_method": "mow_before_seed",
     "removal_notes": [
-      "First-pass mow in March/April catches the bulk of bolters.",
-      "A second pass 3–4 weeks later catches stragglers from late tillers.",
-      "Spikelets are barbed — clean shoes and gear before leaving the site."
+      "Mow once at boot stage (late April / May in the Bay Area) — just after flower initiation, before seed maturity.",
+      "Hand-pull small infestations when soil is moist — plants come up easily.",
+      "On tilled ground, till once in spring to trigger germination, then till again to kill the seedlings.",
+      "Don't burn after seed has dropped — that clears competition and worsens next year's stand.",
+      "Cold-climate biotypes carry 10+ year seedbanks — plan multi-year sweeps even after a clean year."
     ],
     "removal_sources": [
       "wric/Avena_barbata-fatua"
@@ -1428,8 +1438,11 @@
     ],
     "removal_method": "hand_pull",
     "removal_notes": [
-      "Pull when soil is moist and before pods yellow — once pods are tan, seed is already viable.",
-      "Annual: a single clean pass in early spring plus a follow-up sweep can eliminate seed input for the year."
+      "Hand-pull or hoe before pods ripen — soil moist makes the work easy.",
+      "Keep tillage shallow — deep tillage buries seed where the 50-year seedbank survives much longer.",
+      "Foliar 2,4-D at 1–2 pt/acre on small actively-growing plants is cheap and effective; glyphosate gives only fair control on mustards.",
+      "Don't burn alone — the fire-mustard feedback increases next year's stand. Reseed with competitive cover after clearing.",
+      "Plan for decades, not seasons — black mustard's deeply buried seed is one of the longest-lived in the inventory."
     ],
     "removal_sources": [
       "wric/Brassica_nigra"
@@ -1614,9 +1627,11 @@
     ],
     "removal_method": "mow_before_seed",
     "removal_notes": [
-      "Mow or weed-whack at the late boot stage — just as awns emerge but before they harden.",
-      "Once awns turn tan, cutting re-seeds the site; time the work carefully.",
-      "Mulch heavily after the spring flush to shade out next year's seedbank."
+      "Mow at boot stage (April) shortly after flower initiation but before awns harden — cut to ~2 inches.",
+      "Hand-pull or hoe small patches in early spring while plants are young.",
+      "Repeated mowing every 3 weeks suppresses populations where herbicide isn't acceptable.",
+      "A well-timed burn before seeds mature can knock back the population — burning after seed drop makes things worse.",
+      "Reseed cleared sites with competitive perennial grasses; bare ground refills from the seedbank."
     ],
     "removal_sources": [
       "wric/Bromus_diandrus-madritensis-tectorum"
@@ -1708,8 +1723,11 @@
     ],
     "removal_method": "mow_before_seed",
     "removal_notes": [
-      "Red brome shares cheatgrass's wildfire risk — same urgency window.",
-      "Mow at boot stage; flame-weeding can substitute on small bare patches."
+      "Mow at boot stage shortly after flower initiation, before seed maturity — same window as ripgut brome, slightly earlier.",
+      "Hand-pull or hoe small patches in early spring before awns harden.",
+      "Don't lead with burning — red brome matures early, so most burns post-date seed dispersal and make the next year worse.",
+      "For larger infestations, use a 2–3 year integrated program: spring burn → winter reseed natives → early spring herbicide.",
+      "Clean equipment between sites; seeds cling to clothing, fur, and tires."
     ],
     "removal_sources": [
       "wric/Bromus_diandrus-madritensis-tectorum"
@@ -1796,8 +1814,11 @@
     ],
     "removal_method": "mow_before_seed",
     "removal_notes": [
-      "Cheatgrass dries to a fire hazard by May — clear before the dry-down window.",
-      "Seedbank is shallow but dense; aggressive shading with mulch or a cover crop accelerates depletion."
+      "Mow at boot stage just after flower initiation, before seeds harden — cut to ~2 inches.",
+      "Hand-pull or hoe small patches in early spring while plants are young.",
+      "Don't burn first — cheatgrass matures early and a single burn typically increases populations next year.",
+      "Reseed with native perennial grasses immediately after any clearing; bare post-fire ground is the condition cheatgrass thrives in.",
+      "Long-term outlook in heavily invaded sites is slowing the cheatgrass-fire feedback, not eradication."
     ],
     "removal_sources": [
       "wric/Bromus_diandrus-madritensis-tectorum"
@@ -1955,9 +1976,10 @@
     ],
     "removal_method": "dig_taproot",
     "removal_notes": [
-      "Italian thistle bolts fast in spring — catch rosettes early, before stems lignify.",
-      "Sever the taproot below the crown; cutting at ground level lets crowns resprout.",
-      "Wear eye protection — flower heads bristle with stiff spines."
+      "Hand-pull or hoe rosettes when soil is moist and spines are still soft — sever the root below the soil surface.",
+      "Mow just as plants bolt and are about to flower — too early lets them regrow, too late scatters seed.",
+      "Plants bloom asynchronously over 4–7 weeks; a single mow rarely catches everything — repeat weekly across the bloom window.",
+      "2–3 years of zero seed set can substantially deplete the population — short seedbank is the lever."
     ],
     "removal_sources": [
       "wric/Carduus_acanthoides-nutans-pycnocephalus-tenuiflorus"
@@ -2102,9 +2124,11 @@
     ],
     "removal_method": "sheet_mulch_smother",
     "removal_notes": [
-      "Iceplant rolls back like a heavy carpet — start at one edge and peel toward the other, lifting the entire mat.",
-      "Stems hold water for weeks — drain on a tarp before bagging, or solarize the mat in place under clear plastic.",
-      "Re-survey the lifted area for 12 months; broken stems re-root from any soil contact."
+      "Roll up large mats like a carpet — labor-intensive but selective and very effective.",
+      "Critical: every node re-roots on damp soil. Flip pulled mats upside-down to dry, or remove from site; leave one and you'll repeat the work.",
+      "Burying completely with soil kills the plant — useful in dune-restoration contexts where sand is being replaced.",
+      "Foliar 1.5–2% glyphosate + 1% surfactant via shielded sprayer or wiper minimizes off-target damage.",
+      "After clearing, also remove the dead-debris layer — it carries iceplant and other weed seeds and enriches sandy soil."
     ],
     "removal_sources": [
       "wric/Carpobrotus"
@@ -2613,9 +2637,11 @@
     ],
     "removal_method": "dig_taproot",
     "removal_notes": [
-      "Yellow starthistle has a sharp taproot — sever 2–4 inches below the crown with a shovel.",
-      "Work before mid-bloom; once spines harden, mechanical control becomes painful and seed is already maturing.",
-      "Seedbank lasts 3–10 years; plan multi-year follow-up."
+      "Hand-pull / hoe / string-trim at early flowering — easy to spot, lower leaves senesced, and dispersal hasn't started. Detach all aboveground material; even a 2-inch piece with attached leaves can recover.",
+      "Mow only when 2–5% of seedheads are in bloom, cutting below the lowest branches — too early stimulates regrowth, too late scatters seed.",
+      "Aminopyralid (Milestone) 4–5 oz/acre is the most effective herbicide; clopyralid and 2,4-D on rosettes are cheaper alternatives.",
+      "Burn at very early flowering for 2–3 consecutive years to deplete the seedbank — burning at any other time enhances starthistle.",
+      "Keep horses off infested pastures — starthistle causes nigropallidal encephalomalacia (\"chewing disease\")."
     ],
     "removal_sources": [
       "wric/Centaurea_solstitialis"
@@ -3097,8 +3123,11 @@
     ],
     "removal_method": "dig_taproot",
     "removal_notes": [
-      "Biennial — first-year rosettes pull easily after rain; flowering stalks need a shovel through the crown.",
-      "Plumes carry seed long distances — bag heads rather than leaving cut stalks on site."
+      "Hand-pull, hoe, or dig rosettes before bolting — sever the root below the soil surface; leave no leaves attached or the crown regrows.",
+      "Mow immediately before flowering or when plants are just starting to flower — too early regrows, too late goes to seed.",
+      "Foliar aminopyralid (Milestone) 3–5 oz/acre on rosettes is the most effective herbicide; 2,4-D works and is cheaper.",
+      "Plants bloom asynchronously — a single mow rarely catches all plants; repeat across the season.",
+      "Short seedbank (~3 years) means 3 years of zero seed set substantially knocks down infestations."
     ],
     "removal_sources": [
       "wric/Cirsium_vulgare"
@@ -3176,9 +3205,11 @@
     ],
     "removal_method": "pull_vine_dig_crown",
     "removal_notes": [
-      "Sever main vines from the root crown, then trace each rooted layer outward — old man's beard layers wherever stems touch soil.",
-      "Excavate the woody root crown; the plant resprouts otherwise.",
-      "Wind-dispersed feathery seeds — work before seed set in late summer."
+      "Sever climbing vines at ground level and again at chest height — leave the aerial parts to die back in place; ripping live vines off bark damages the tree.",
+      "Dig out every root and stem fragment — debris left on damp soil re-roots from any node.",
+      "Don't mow — fragments scatter and regenerate.",
+      "Foliar glyphosate (cut-stem or foliar) is the standard residential option; triclopyr 0.5–1% is the broadleaf-selective alternative where desirable grasses are underneath.",
+      "Wind-dispersed seed means even a clean property re-infests from neighbors — plan ongoing seedling sweeps."
     ],
     "removal_sources": [
       "wric/Clematis"
@@ -3335,9 +3366,11 @@
     ],
     "removal_method": "dig_taproot",
     "removal_notes": [
-      "All parts toxic — wear gloves and long sleeves, avoid touching your face, and wash tools and clothes after the session.",
-      "Biennial: hand-pull first-year rosettes; dig the taproot on second-year flowering plants before seed set.",
-      "Do not burn or chip — smoke and dust carry the alkaloids."
+      "Toxicity is the first concern: gloves, long sleeves, no eating or touching your face during work. Wash hands and tools after every session.",
+      "Hand-dig the entire taproot; pull first-year rosettes in winter / early spring while soil is moist.",
+      "Don't burn — alkaloid toxins go into the smoke. Don't graze; even dried plant material stays toxic for years.",
+      "Cutting alone is ineffective — plants throw up new seed stalks in the same season.",
+      "Expect a ~3 year seedbank — repeated mowing after bolting but before flowering depletes taproot reserves when digging isn't feasible."
     ],
     "removal_sources": [
       "wric/Conium"
@@ -3420,9 +3453,11 @@
     ],
     "removal_method": "dig_rhizome_complete",
     "removal_notes": [
-      "Cut and bag flower plumes first — each plume carries hundreds of thousands of wind-dispersed seeds.",
-      "Excavate the entire root mass with a shovel or mattock; partial digs trigger vigorous regrowth.",
-      "Plume edges are razor-sharp — wear long sleeves and eye protection."
+      "Wear heavy leather gloves and long sleeves — the leaf margins cut skin like razors.",
+      "Cut foliage low with a chainsaw or weed-eater first, then dig the entire crown and top section of roots with a Pulaski or mattock.",
+      "Detached plants re-root on moist soil — flip them upside-down to dry, or haul off-site.",
+      "Foliar glyphosate works after flowering when reserves move to rhizomes: 8% v/v low-volume is the best-tested rate; 2% v/v spot is the lighter option.",
+      "Every plant produces seed without a mate (apomixis) — one missed plume seeds a 20-mile radius."
     ],
     "removal_sources": [
       "wric/Cortaderia_jubata-selloana"
@@ -3508,8 +3543,10 @@
     ],
     "removal_method": "dig_rhizome_complete",
     "removal_notes": [
-      "Managed identically to jubatagrass.",
-      "Often planted as an ornamental — confirm the entire clump before digging, including drift from neighboring landscaped plantings."
+      "Same playbook as jubatagrass — heavy leather gloves, chainsaw the foliage, dig out the entire crown and roots.",
+      "Detached plants re-root on moist soil — flip upside-down or remove from site.",
+      "Foliar glyphosate after flowering (late summer / fall) is the most consistent control: 8% v/v low-volume, or 33–50% via wiper on every tiller.",
+      "Plants are dioecious — older nursery stock was all female and slow to spread, but newer seed-grown stock seeds prolifically once a male is nearby."
     ],
     "removal_sources": [
       "wric/Cortaderia_jubata-selloana"
@@ -3724,9 +3761,10 @@
     ],
     "removal_method": "cut_stump_herbicide",
     "removal_notes": [
-      "Resprouts from the base and from root crowns; cut-stump and paint with herbicide, or grub the crown out entirely.",
-      "Birds eat and spread the berries — survey 50+ feet downwind each year for seedlings.",
-      "Closely related C. franchetii and C. lacteus are managed identically."
+      "Seedlings and small plants hand-pull; established shrubs need cut-stump herbicide — partial root removal alone resprouts.",
+      "Cut close to the ground, then paint the stump within minutes with undiluted Garlon 4 Ultra or Garlon 3A. Late-summer / fall timing translocates herbicide into the roots.",
+      "Glyphosate at 40–100% concentrate is the alternative on the stump.",
+      "Birds disperse seed widely — eradicating one plant doesn't prevent re-establishment from neighborhood ornamental plantings. Plan annual seedling sweeps."
     ],
     "removal_sources": [
       "wric/Cotoneaster"
@@ -3804,9 +3842,11 @@
     ],
     "removal_method": "dig_taproot",
     "removal_notes": [
-      "Massive woody taproot — dig deep and sever cleanly below the crown.",
-      "Spines on leaves and bracts; wear eye protection.",
-      "Cut and bag flower heads first; heads continue to mature seed after cutting."
+      "Dig out a large portion of the deep taproot — anything left regrows. Mattock, post-hole digger, or shovel; the depth is the labor.",
+      "Cut flowering stems before maturity to interrupt seed input, even when you can't dig the whole root.",
+      "Foliar aminopyralid (Milestone) 5–7 oz/acre in winter to spring before bolting — most effective chemical option; clopyralid and triclopyr also work on rosettes.",
+      "One-pass disturbance is worse than none — bulldozing fragments roots and spreads the plant. Plan a controlled multi-pass approach.",
+      "Don't burn alone — kills the standing dead but not the perennial taproot."
     ],
     "removal_sources": [
       "wric/Cynara"
@@ -3901,8 +3941,11 @@
     ],
     "removal_method": "dig_rhizome_complete",
     "removal_notes": [
-      "Bermuda grass spreads by stolons above ground and rhizomes below — both must be lifted completely.",
-      "Fragments as small as half an inch re-root; sheet-mulch alone often fails — combine with summer solarization."
+      "Pull every rhizome and stolon — the canonical fragments-regenerate weed; tilling without follow-through propagates it.",
+      "Till in dry summer weather to expose rhizomes to sun-drying or freezing. Apply no water during drying.",
+      "Don't mow short — high mowing (~3 inches) actually shifts the competitive balance against Bermuda grass.",
+      "Foliar glyphosate at 2% v/v spot in late spring through summer when plants are actively growing — don't mow for 2–3 weeks before spraying so there's more leaf area for uptake.",
+      "Solarize small patches under clear plastic over moist soil for 6+ weeks in summer — rhizomes concentrated in the top 2 inches are within heat range."
     ],
     "removal_sources": [
       "wric/Cynodon"
@@ -4155,10 +4198,11 @@
     ],
     "removal_method": "cut_stump_herbicide",
     "removal_notes": [
-      "Pull seedlings and young plants under 3 ft with a weed wrench when soil is moist — no herbicide needed for those.",
-      "Cut established plants close to the ground and paint the stump with glyphosate; cutting without painting guarantees vigorous resprouts.",
-      "Seedbank can last 60–80 years — flag the site for annual seedling sweeps for at least a decade.",
-      "Work before pods ripen (typically May) so you don't broadcast seed while working."
+      "Pull seedlings and plants under ~3 ft with a weed wrench when soil is moist — no herbicide needed for those.",
+      "Cut established shrubs at ground level at the start of the dry season (late spring) and paint the stump within minutes with Garlon 4 Ultra 1:4 in water (~20%) or 25% glyphosate. Cutting without herbicide produces vigorous resprouts.",
+      "Foliar option for active growth (late summer / early fall): triclopyr ester 0.75–1.5% + surfactant, or 1.5–2% glyphosate of 41% concentrate.",
+      "Work before pods ripen (typically May) so you don't broadcast seed while cutting.",
+      "Don't burn — fire triggers seedbank germination. Plan annual seedling sweeps for at least a decade."
     ],
     "removal_sources": [
       "wric/Cytisus"
@@ -4237,8 +4281,11 @@
     ],
     "removal_method": "cut_stump_herbicide",
     "removal_notes": [
-      "Manage identically to Scotch broom: weed-wrench small plants, cut-stump and paint older stems.",
-      "Long-lived seedbank — plan multi-year follow-up sweeps."
+      "Manage identically to Scotch broom — same hand-pull / wrench / cut-stump playbook.",
+      "Cut at the start of the dry season; paint the stump within minutes with Garlon 4 Ultra 1:4 in water (~20%) or 25% glyphosate.",
+      "Foliar option (active growth): triclopyr ester 0.75–1.5% + surfactant, or 1.5–2% glyphosate of 41% concentrate.",
+      "Soil disturbance triggers the long-lived seedbank — favor cut-stump over digging.",
+      "Don't burn — the seedbank germinates after fire."
     ],
     "removal_sources": [
       "wric/Cytisus"
@@ -4326,9 +4373,11 @@
     ],
     "removal_method": "pull_vine_dig_crown",
     "removal_notes": [
-      "Cape-ivy spreads almost entirely vegetatively — every node and root fragment must be lifted, not yanked.",
-      "Do not rake or pull aggressively: snapping stems seeds the site with fragments.",
-      "Bag all material and landfill — never green-bin or compost."
+      "A stem fragment as small as 1 inch with a node regenerates — every piece must come off-site or onto an impermeable surface to dry.",
+      "Use the \"rug rolling\" technique on large patches: cut all stems at ground level and roll the canopy up like a rug. Belowground tissue still needs follow-up.",
+      "Don't mow — fragments scatter and regenerate.",
+      "Foliar option: 1–2% glyphosate v/v, or 1% glyphosate + 0.5% triclopyr + silicone surfactant for better control. Late summer / early fall is the best window.",
+      "Don't let plant material soak in waterways — releases pyrrolizidine alkaloids that kill fish."
     ],
     "removal_sources": [
       "wric/Delairea"
@@ -4414,8 +4463,11 @@
     ],
     "removal_method": "dig_taproot",
     "removal_notes": [
-      "Biennial — first-year rosettes hand-pull easily; once a flowering stalk appears, dig the taproot.",
-      "Spiny seedheads cling to clothing and equipment — bag heads before they dry."
+      "Dig or hand-pull rosettes before bolting — sever the root below the soil surface; leaves left attached let the crown regrow.",
+      "Plan a 4–6 year horizon — annual control until the seedbank meaningfully depletes.",
+      "Mowing alone often fails — the root crown resprouts and reflowers. Frequent repeated mows can work if regrowth never sets seed.",
+      "Foliar aminopyralid (Milestone) or clopyralid (Transline) on rosettes gives >90% control in trials; glyphosate at 1.5% v/v works where no residual is wanted.",
+      "Don't bring home dried teasel heads from cut-flower or craft sources unless they're confirmed sterile."
     ],
     "removal_sources": [
       "wric/Dipsacus_fullonum-laciniatus-sativus"
@@ -5734,9 +5786,11 @@
     ],
     "removal_method": "dig_taproot",
     "removal_notes": [
-      "The taproot snaps cleanly an inch below the crown when pulled — dig 6–12 inches deep to lift the full crown.",
-      "Resprouts from any remaining crown tissue; flag and re-dig stragglers next season.",
-      "Cut flowering stalks first and bag — once stalks are down the digging is faster and seed set is interrupted."
+      "Cut flowering stalks first and bag them — once down, the digging is faster and seed set is interrupted.",
+      "Dig the entire taproot and crown: the root snaps cleanly an inch or two below the crown when pulled, so go 6–12 inches deep. Any crown tissue left resprouts.",
+      "Triclopyr is the standard herbicide for fennel: spot foliar 0.5–1% Garlon 4 Ultra + surfactant on fully developed leaves *before* flowering — late February to early March in CA.",
+      "Don't burn alone — plants recover quickly; a fall burn followed by 2 years of spring herbicide is what works.",
+      "Don't graze — most livestock won't eat fennel and the few that do help spread seed."
     ],
     "removal_sources": [
       "wric/Foeniculum"
@@ -5960,9 +6014,11 @@
     ],
     "removal_method": "cut_stump_herbicide",
     "removal_notes": [
-      "French broom resprouts more aggressively than Scotch — stump painting is more important here, not less.",
-      "Soft stems pull easily when young; a weed wrench works up to ~4 ft tall.",
-      "Cut just before flowering peak (typically April) to limit seed input that year."
+      "Hand-pulling rarely works once plants are established — use a weed wrench for anything past seedling stage.",
+      "Cut shrubs in spring before flowering (April–May in the Bay Area) — French broom flowers earlier than Scotch, so the energy-depletion window is earlier. Paint each cut stump within minutes with Garlon 4 Ultra 20% v/v in water or 25% glyphosate.",
+      "Foliar (active growth, April–July): triclopyr ester 0.75–1.5% + surfactant, or 1.5–2% glyphosate of 41% concentrate.",
+      "Don't burn alone — adds competitive nutrients and the seedbank germinates after fire.",
+      "Plan a decade of annual seedling sweeps; the seedbank persists 30+ years."
     ],
     "removal_sources": [
       "wric/Genista"
@@ -6182,8 +6238,11 @@
     ],
     "removal_method": "pull_vine_dig_crown",
     "removal_notes": [
-      "Treated identically to English ivy but stems are thicker — use loppers for trunk-climbers.",
-      "Faster ground spread; re-survey at 6-month intervals after pulling."
+      "Pull every runner on ground cover — each node re-roots on damp soil. Bag, don't compost; stems re-root in finished compost.",
+      "For climbing trees, sever at ground level and chest height — leave aerial parts to die in place and fall in the next hot/dry period.",
+      "Don't mow — fragments scatter and regenerate.",
+      "Cut-stump herbicide: undiluted Garlon 3A (or 33% in water), Garlon 4 Ultra 20% v/v in water, or 25% glyphosate. For large vines climbing trees, drill-and-fill with 100% Garlon.",
+      "Sap causes contact dermatitis in ~10% of people — gloves and long sleeves are standard."
     ],
     "removal_sources": [
       "wric/Hedera_canariensis-helix-hibernica"
@@ -6265,9 +6324,11 @@
     ],
     "removal_method": "pull_vine_dig_crown",
     "removal_notes": [
-      "Sever vines climbing trees at chest height and again at ankle height — leave the aerial parts to die in place rather than ripping them off the bark.",
-      "On the ground, pull or dig every rooted node; any fragment touching soil re-roots.",
-      "Bag, don't compost — stems survive home compost piles and re-root in the finished pile."
+      "On ground cover, pull every runner — each node re-roots. Bag cuttings; stems survive home compost and re-root in the finished pile.",
+      "For climbing trees, cut at ground level and chest height with a saw, then leave the aerial parts to die back; don't rip them off the bark.",
+      "Don't mow or cut-and-leave — fragments scatter and regenerate. This contradicts a common landscaper instinct.",
+      "Cut-stump herbicide: undiluted Garlon 3A (or 33% in water), Garlon 4 Ultra 20% v/v, or 25% glyphosate. Drill-and-fill for large mature vines on trees.",
+      "Sap causes contact dermatitis in ~10% of people; berries and foliage are toxic if ingested in quantity."
     ],
     "removal_sources": [
       "wric/Hedera_canariensis-helix-hibernica"
@@ -6363,8 +6424,10 @@
     ],
     "removal_method": "hand_pull",
     "removal_notes": [
-      "Short-pod mustard re-grows from the crown if cut — uproot rather than mow.",
-      "Multi-flush bloomer; expect to revisit the site every 3–4 weeks through spring."
+      "Pull or cultivate seedlings before seeds develop — this perennial leaves a root crown that can resprout, so dig the crown thoroughly.",
+      "Treat shortpod mustard as a different problem from black or garlic mustard — chlorsulfuron, which works on most mustards, explicitly fails on this species.",
+      "Glyphosate at 1–2 pt/acre only suppresses, not controls — plan repeat applications and combine with manual removal.",
+      "Catch seedlings early; established plants are much harder to knock back."
     ],
     "removal_sources": [
       "wric/Hirschfeldia"
@@ -6624,8 +6687,10 @@
     ],
     "removal_method": "mow_before_seed",
     "removal_notes": [
-      "Foxtail awns embed in pets' ears, paws, and gums — clear before plants dry, especially around walkways.",
-      "Mow at boot stage; once awns are tan, mowing scatters them."
+      "Hand-pull or hoe small patches before awns harden — once seedheads dry, work becomes painful and pets pick up \"foxtails.\"",
+      "Mow at ripe-seed stage before seeds disperse — a well-timed burn at the same stage is unusually effective for this species (a single burn knocks cover from 90% to <5% for ~3 years).",
+      "For pet-friendly yards, clip seedheads before they dry — sharp awns lodge in paws, ears, and noses.",
+      "Tillage works on emerged plants but stimulates more germination — pair with herbicide follow-up."
     ],
     "removal_sources": [
       "wric/Hordeum_marinum-murinum"
@@ -7189,9 +7254,11 @@
     ],
     "removal_method": "dig_taproot",
     "removal_notes": [
-      "Pepperweed spreads from deep rhizomes as well as the taproot — repeated digging in the same spot is normal for 3+ seasons.",
-      "Even small root fragments resprout; sift soil where practical and bag all debris.",
-      "Cutting flowers slows seed input but does not weaken the rhizome — pair cutting with digging."
+      "Pepperweed is a rhizome problem, not a taproot problem — root fragments as small as 0.5–1 inch regenerate, and roots spread 10+ ft laterally. Mechanical-only removal almost never works on established stands.",
+      "The proven sequence: mow at the bolting / flower-bud stage, then apply herbicide to resprouts once they reach flower bud again. Bud-stage timing matters; earlier applications largely fail.",
+      "Foliar chlorsulfuron (Telar) 1–2.6 oz/acre is the most effective herbicide per UC IPM — 1–3 years of >90% control. Glyphosate 1.5–2% v/v spot is the standard residential option, then wait 2–6 months and re-treat resprouts.",
+      "For tarping, the cover must extend 10+ ft past the visible patch to catch lateral roots — and stay down for 2 full growing seasons.",
+      "Don't till — fragmenting roots disperses the plant. Clean equipment after any work in infested areas."
     ],
     "removal_sources": [
       "wric/Lepidium_latifolium"
@@ -8420,9 +8487,11 @@
     ],
     "removal_method": "hand_pull",
     "removal_notes": [
-      "Stinknet is severely allergenic — wear gloves, long sleeves, and a respirator on dry days; the dust triggers asthma and rashes.",
-      "Pull when soil is moist and bag immediately; do not mow or weed-whack dry plants.",
-      "Aggressive new invader — report sightings to your county ag commissioner."
+      "Hand-pull in winter or early spring before seed set; plants come up easily when soil is moist.",
+      "Wear gloves, long sleeves, and a dust mask — contact dermatitis and respiratory irritation are common; pollen is allergenic.",
+      "Bag pulled material — seeds disperse easily during disposal, and home compost won't kill them.",
+      "Don't mow — bloom is asynchronous and dust release in dry weather is severe.",
+      "Stop-spread priority in SoCal — eradicate small infestations now and plan 5 years of seedling sweeps; report new sightings to the county Ag Commissioner."
     ],
     "removal_sources": [],
     "removal_timing_window": "February–April (before seed set, soil moist)",
@@ -8585,9 +8654,11 @@
     ],
     "removal_method": "dig_bulb_complete",
     "removal_notes": [
-      "Bermuda buttercup forms a chain of small bulbs underground — every bulblet left behind regrows.",
-      "Sift soil through hardware cloth in heavily infested beds; foliar work alone fails.",
-      "Pull foliage during bloom (Jan–Mar) to weaken the bulbs, then dig in the following autumn when fresh bulbs are easy to spot."
+      "Bermuda buttercup forms a chain of small bulbs underground — every bulblet left behind regrows. Dig in autumn when fresh bulbs are easy to spot and the rosette is just emerging.",
+      "Sift soil through hardware cloth in heavily infested beds — pulling foliage alone takes years to deplete bulb reserves.",
+      "Pulling foliage during bloom (Jan–Mar) weakens bulbs before the autumn dig.",
+      "Solarize cleared beds under clear plastic over moist soil for 4+ weeks in June–August before replanting.",
+      "Don't compost garden trimmings with Oxalis — bulbs survive home compost piles."
     ],
     "removal_sources": [
       "wric/Oxalis"
@@ -8675,8 +8746,11 @@
     ],
     "removal_method": "dig_rhizome_complete",
     "removal_notes": [
-      "Fountain grass spreads by seed and from clump fragments — extract the entire crown.",
-      "Cut and bag flower heads before digging; mature seed dispersal is wind-driven and prolific."
+      "Hand-pull seedlings; uproot bunchgrass clumps with shovel, pick, or mattock for plants with basal diameter >6 in.",
+      "Cut and bag the inflorescences first if present — every plant is a seed source (apomictic).",
+      "Repeat removal at 1–2 month intervals through the growing season; seedlings keep emerging.",
+      "Don't mow — the plant regrows from the base. Don't burn — density often increases after a fire.",
+      "Foliar glyphosate 1–2% v/v at flowering, or grass-selective fluazifop / sethoxydim — glyphosate is less consistent for this species, so expect repeat applications."
     ],
     "removal_sources": [
       "wric/Pennisetum_setaceum"
@@ -9021,10 +9095,11 @@
     ],
     "removal_method": "cane_cut_dig_crown",
     "removal_notes": [
-      "Cut all canes back to stubs, then mattock or dig out each woody root crown — cutting alone produces a denser thicket.",
-      "Cane tips that touch soil re-root as new crowns; trace and dig every tip-rooted node.",
-      "Wear leather sleeves; thorns shred standard gardening gloves.",
-      "Bag canes for landfill — chipping or home composting can scatter live nodes."
+      "Cut all canes back to stubs with loppers — leather sleeves required, the thorns shred standard garden gloves.",
+      "Dig every woody root crown with a Pulaski or mattock — cutting alone produces a denser thicket the next season.",
+      "Trace every cane tip that touched soil and dig the rooted node; each is a new crown.",
+      "Cut-stump herbicide on stubs (within minutes): Garlon 4 Ultra 1:4 in water (~20%) or 25% glyphosate. Or foliar 1–1.5% glyphosate in late summer / early fall after flowering.",
+      "Bag canes for landfill — chipping or home composting scatters live nodes that re-root."
     ],
     "removal_sources": [
       "wric/Rubus"
@@ -9835,8 +9910,11 @@
     ],
     "removal_method": "cut_stump_herbicide",
     "removal_notes": [
-      "Stems are nearly leafless and rush-like — cut-stump with concentrated glyphosate is the dependable approach.",
-      "Frequently survives a single cut; treat any green resprout the following season."
+      "Hand-pull seedlings only; weed wrench or saw for established plants.",
+      "Cut at ground level at the end of the dry season, then paint the stump within minutes with Garlon 4 Ultra 20% v/v in water or undiluted Garlon 3A, or 25–50% glyphosate.",
+      "Foliar option (late summer / early fall): triclopyr ester 0.75–1.5% + surfactant, or 1.5–2% glyphosate of 41% concentrate.",
+      "Stems stay nearly leafless — flag cut stumps so you can find resprouts in subsequent visits.",
+      "Don't burn — seedbank germinates after fire. Plan 10+ years of annual seedling sweeps."
     ],
     "removal_sources": [
       "wric/Spartium"
@@ -10527,9 +10605,11 @@
     ],
     "removal_method": "cut_stump_herbicide",
     "removal_notes": [
-      "Gorse spines puncture leather — wear thick gloves and eye protection.",
-      "Cut-stump with triclopyr; expect resprouts and re-treat at year 1 and year 2.",
-      "Pods explode in summer heat, scattering seed — work in spring or shortly after a winter rain."
+      "Spines puncture standard gloves — wear heavy leather gloves and eye protection.",
+      "Hand-pull seedlings only. For established shrubs, cut at ground level before flowering, then paint the stump within minutes with Garlon 4 Ultra 25% in oil, undiluted Garlon 3A, or undiluted glyphosate concentrate.",
+      "Foliar (active growth, late summer / early fall): triclopyr ester 0.5–2% + surfactant, or 1.5–2% glyphosate of 41% concentrate.",
+      "Work in spring or shortly after winter rain — pods explode in summer heat and broadcast seed while you cut.",
+      "Don't burn alone — burning triggers a flush of seedling germination from the 30-year seedbank."
     ],
     "removal_sources": [
       "wric/Ulex"
@@ -10617,9 +10697,11 @@
     ],
     "removal_method": "sheet_mulch_smother",
     "removal_notes": [
-      "Cardboard plus 4–6 inches of mulch, kept in place 9–12 months — periwinkle is patient.",
-      "Trace runners under the cardboard at the perimeter; new shoots surface where the mulch is thinnest.",
-      "Stems re-root from every node — don't drag debris through clean areas."
+      "Hand-pull every stem, node, and stolon — vinca is sterile in CA so the entire infestation is connected; repeated removal over multiple years finally clears it.",
+      "Don't mow — stem fragments root on damp soil and re-establish in days.",
+      "Bag cuttings; stems re-root in finished compost.",
+      "Foliar option: glyphosate 25% v/v low-volume or triclopyr (Garlon 4 Ultra) 25% v/v low-volume — spring applications give the best control with triclopyr.",
+      "Riparian sites: fragments wash downstream and lodge; check downstream areas for years after upstream clearing."
     ],
     "removal_sources": [
       "wric/Vinca"
