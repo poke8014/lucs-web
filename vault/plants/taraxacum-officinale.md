@@ -55,6 +55,25 @@ Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_tap
 - **Wind-dispersed seed travels miles** — eradicating dandelions in your yard doesn't prevent re-introduction from the neighborhood. Expect ongoing seedling sweeps every spring and fall.
 - **Dandelion is edible**: leaves in salads, roots as tea. If you're keeping a small patch for foraging, sever flower stalks before seed set to limit downwind spread.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/taraxacum-officinale/taraxacum-officinale_01_inat-464238758.jpg)
+*(c) Daughter Dad, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/258709999)*
+
+![](../raw/assets/inaturalist/taraxacum-officinale/taraxacum-officinale_02_inat-74720709.jpg)
+*(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/47114973)*
+
+![](../raw/assets/inaturalist/taraxacum-officinale/taraxacum-officinale_03_inat-102788333.jpg)
+*(c) Sandy Wolkenberg, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/63986592)*
+
+![](../raw/assets/inaturalist/taraxacum-officinale/taraxacum-officinale_04_inat-5371402.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/4457179)*
+
+![](../raw/assets/inaturalist/taraxacum-officinale/taraxacum-officinale_05_inat-40586286.jpeg)
+*(c) Syd Cannings, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/26154895)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/dandelion.md` (PN 7469)

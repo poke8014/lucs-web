@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Phytolacca americana",
+  "taxon_id": 48599,
+  "photos_taxon_id": 48599,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 53608908,
+      "license": "cc-by",
+      "attribution": "(c) Sandy Wolkenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/53608908/large.jpg",
+      "observation_id": 34090760,
+      "observation_url": "https://www.inaturalist.org/observations/34090760",
+      "observed_on": "2019-10-08",
+      "place_guess": "Elizabeth Ave, Teaneck, NJ, US",
+      "user_login": "sadawolk",
+      "filename": "phytolacca-americana_01_inat-53608908.jpg"
+    },
+    {
+      "photo_id": 232616939,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/232616939/large.jpeg",
+      "observation_id": 136311622,
+      "observation_url": "https://www.inaturalist.org/observations/136311622",
+      "observed_on": "2022-09-07",
+      "place_guess": "Allegheny, Pennsylvania, United States",
+      "user_login": "surlyaardvark",
+      "filename": "phytolacca-americana_02_inat-232616939.jpeg"
+    },
+    {
+      "photo_id": 433258660,
+      "license": "cc-by",
+      "attribution": "(c) sblumen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433258660/large.jpeg",
+      "observation_id": 243003319,
+      "observation_url": "https://www.inaturalist.org/observations/243003319",
+      "observed_on": "2024-09-02",
+      "place_guess": "Wakulla County, FL, USA",
+      "user_login": "sblumen",
+      "filename": "phytolacca-americana_03_inat-433258660.jpeg"
+    },
+    {
+      "photo_id": 610283649,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610283649/large.jpg",
+      "observation_id": 335889591,
+      "observation_url": "https://www.inaturalist.org/observations/335889591",
+      "observed_on": "2014-08-13",
+      "place_guess": "Reigadinha, Pinhel, 6400, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "phytolacca-americana_04_inat-610283649.jpg"
+    },
+    {
+      "photo_id": 476887980,
+      "license": "cc-by",
+      "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/476887980/large.jpg",
+      "observation_id": 265491487,
+      "observation_url": "https://www.inaturalist.org/observations/265491487",
+      "observed_on": "2025-03-15",
+      "place_guess": "Acacia Park, Fullerton, CA, US",
+      "user_login": "salvmell",
+      "filename": "phytolacca-americana_05_inat-476887980.jpg"
+    }
+  ]
+}

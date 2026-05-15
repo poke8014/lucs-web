@@ -71,6 +71,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Manage host-weed populations** — field bindweed and Russian thistle are dodder hosts, so they feed dodder populations even when crops are dodder-free.
 - **20+ year seedbank** in chronically infested sites means long-term commitment to control.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cuscuta-pentagona/cuscuta-pentagona_01_inat-9618573.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/7406194)*
+
+![](../raw/assets/inaturalist/cuscuta-pentagona/cuscuta-pentagona_02_inat-410337998.jpeg)
+*(c) Bryce, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/231063106)*
+
+![](../raw/assets/inaturalist/cuscuta-pentagona/cuscuta-pentagona_03_inat-224660242.jpg)
+*(c) Dilrukshan Priyantha Wijesinghe, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/131965831)*
+
+![](../raw/assets/inaturalist/cuscuta-pentagona/cuscuta-pentagona_04_inat-323461195.jpeg)
+*(c) Dominic, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/185230394)*
+
+![](../raw/assets/inaturalist/cuscuta-pentagona/cuscuta-pentagona_05_inat-299150537.jpg)
+*(c) gonodactylus, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/172329958)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/dodder.md` (PN 7496) — covers native *Cuscuta* spp. plus *Cuscuta japonica*.

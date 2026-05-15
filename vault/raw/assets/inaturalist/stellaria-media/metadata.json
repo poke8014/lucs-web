@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Stellaria media",
+  "taxon_id": 1087592,
+  "photos_taxon_id": 1087592,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 30290453,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30290453/large.jpg",
+      "observation_id": 19666935,
+      "observation_url": "https://www.inaturalist.org/observations/19666935",
+      "observed_on": "2019-01-15",
+      "place_guess": "Grauwyler Park, Dallas, TX, US",
+      "user_login": "sambiology",
+      "filename": "stellaria-media_01_inat-30290453.jpg"
+    },
+    {
+      "photo_id": 237851193,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/237851193/large.jpeg",
+      "observation_id": 139100654,
+      "observation_url": "https://www.inaturalist.org/observations/139100654",
+      "observed_on": "2022-10-17",
+      "place_guess": "2722 Luxembourg",
+      "user_login": "paul_luap",
+      "filename": "stellaria-media_02_inat-237851193.jpeg"
+    },
+    {
+      "photo_id": 393361232,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393361232/large.jpeg",
+      "observation_id": 222086868,
+      "observation_url": "https://www.inaturalist.org/observations/222086868",
+      "observed_on": "2024-06-09",
+      "place_guess": "\u0421\u0430\u0440\u0430\u0442\u043e\u0432\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f, 412309",
+      "user_login": "evgeniya2301",
+      "filename": "stellaria-media_03_inat-393361232.jpeg"
+    },
+    {
+      "photo_id": 14772260,
+      "license": "cc-by",
+      "attribution": "(c) Justin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/14772260/large.jpeg",
+      "observation_id": 10595713,
+      "observation_url": "https://www.inaturalist.org/observations/10595713",
+      "observed_on": "2018-03-30",
+      "place_guess": "23004 Dog Bar Rd, Grass Valley, CA 95949, USA",
+      "user_login": "justin2",
+      "filename": "stellaria-media_04_inat-14772260.jpeg"
+    },
+    {
+      "photo_id": 628810249,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628810249/large.jpg",
+      "observation_id": 345070295,
+      "observation_url": "https://www.inaturalist.org/observations/345070295",
+      "observed_on": "2026-03-25",
+      "place_guess": "Homarska, Glamo\u010d, Federacija Bosne i Hercegovine, BA",
+      "user_login": "ubovich",
+      "filename": "stellaria-media_05_inat-628810249.jpg"
+    }
+  ]
+}

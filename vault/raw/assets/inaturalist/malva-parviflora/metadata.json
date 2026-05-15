@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Malva parviflora",
+  "taxon_id": 58202,
+  "photos_taxon_id": 58202,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 320032422,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Donnelly, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320032422/large.jpg",
+      "observation_id": 183438050,
+      "observation_url": "https://www.inaturalist.org/observations/183438050",
+      "observed_on": "2023-09-15",
+      "place_guess": "Coalinga, CA, US",
+      "user_login": "rynaturalist",
+      "filename": "malva-parviflora_01_inat-320032422.jpg"
+    },
+    {
+      "photo_id": 1707199,
+      "license": "cc-by",
+      "attribution": "(c) Jesse Rorabaugh, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1707199/large.JPG",
+      "observation_id": 1381552,
+      "observation_url": "https://www.inaturalist.org/observations/1381552",
+      "observed_on": "2015-04-08",
+      "place_guess": "Los Angeles, California, United States",
+      "user_login": "glmory",
+      "filename": "malva-parviflora_02_inat-1707199.JPG"
+    },
+    {
+      "photo_id": 171150429,
+      "license": "cc-by",
+      "attribution": "(c) Michele Jones, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171150429/large.jpg",
+      "observation_id": 102393785,
+      "observation_url": "https://www.inaturalist.org/observations/102393785",
+      "observed_on": "2021-12-01",
+      "place_guess": "San Bernardino, California, United States",
+      "user_login": "beetle_mch",
+      "filename": "malva-parviflora_03_inat-171150429.jpg"
+    },
+    {
+      "photo_id": 320032449,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Donnelly, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320032449/large.jpg",
+      "observation_id": 183438050,
+      "observation_url": "https://www.inaturalist.org/observations/183438050",
+      "observed_on": "2023-09-15",
+      "place_guess": "Coalinga, CA, US",
+      "user_login": "rynaturalist",
+      "filename": "malva-parviflora_04_inat-320032449.jpg"
+    },
+    {
+      "photo_id": 320032470,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Donnelly, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320032470/large.jpg",
+      "observation_id": 183438050,
+      "observation_url": "https://www.inaturalist.org/observations/183438050",
+      "observed_on": "2023-09-15",
+      "place_guess": "Coalinga, CA, US",
+      "user_login": "rynaturalist",
+      "filename": "malva-parviflora_05_inat-320032470.jpg"
+    }
+  ]
+}

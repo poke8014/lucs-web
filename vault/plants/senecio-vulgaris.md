@@ -58,6 +58,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Keep horses, cattle, and pigs away from infested areas** — small repeated doses cause chronic liver damage even when animals avoid the plant in normal forage.
 - **Herbicide resistance:** this was one of the first weeds in California to develop resistance to common agricultural herbicides. If chemical control isn't working, mechanical removal is the more reliable path anyway.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/senecio-vulgaris/senecio-vulgaris_01_inat-341602840.jpeg)
+*(c) Tom Norton, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/194349207)*
+
+![](../raw/assets/inaturalist/senecio-vulgaris/senecio-vulgaris_02_inat-6249267.jpeg)
+*(c) Sam Kieschnick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5087441)*
+
+![](../raw/assets/inaturalist/senecio-vulgaris/senecio-vulgaris_03_inat-58855598.jpg)
+*(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/37155696)*
+
+![](../raw/assets/inaturalist/senecio-vulgaris/senecio-vulgaris_04_inat-614222966.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/337830288)*
+
+![](../raw/assets/inaturalist/senecio-vulgaris/senecio-vulgaris_05_inat-477920015.jpeg)
+*(c) Arnim Littek, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/266019935)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/common-groundsel.md` (PN 74130)

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Polygonum aviculare",
+  "taxon_id": 1290817,
+  "photos_taxon_id": 1290817,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 86809109,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/86809109/large.jpg",
+      "observation_id": 54553951,
+      "observation_url": "https://www.inaturalist.org/observations/54553951",
+      "observed_on": "2020-07-27",
+      "place_guess": "East Fort Worth, Fort Worth, TX, US",
+      "user_login": "sambiology",
+      "filename": "polygonum-aviculare_01_inat-86809109.jpg"
+    },
+    {
+      "photo_id": 610315649,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610315649/large.jpg",
+      "observation_id": 335905058,
+      "observation_url": "https://www.inaturalist.org/observations/335905058",
+      "observed_on": "2014-08-13",
+      "place_guess": "Pinhel, 6400, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "polygonum-aviculare_02_inat-610315649.jpg"
+    },
+    {
+      "photo_id": 313702661,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/313702661/large.jpg",
+      "observation_id": 180129191,
+      "observation_url": "https://www.inaturalist.org/observations/180129191",
+      "observed_on": "2023-07-23",
+      "place_guess": "South Central Omaha, Omaha, NE, USA",
+      "user_login": "regnierda",
+      "filename": "polygonum-aviculare_03_inat-313702661.jpg"
+    },
+    {
+      "photo_id": 50835648,
+      "license": "cc-by",
+      "attribution": "(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50835648/large.jpeg",
+      "observation_id": 32414248,
+      "observation_url": "https://www.inaturalist.org/observations/32414248",
+      "observed_on": "2019-09-07",
+      "place_guess": "Berliner Innenstadt, Berlin, Germany",
+      "user_login": "alexis_orion",
+      "filename": "polygonum-aviculare_04_inat-50835648.jpeg"
+    },
+    {
+      "photo_id": 156705262,
+      "license": "cc-by",
+      "attribution": "(c) florawhite, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/156705262/large.jpeg",
+      "observation_id": 94434837,
+      "observation_url": "https://www.inaturalist.org/observations/94434837",
+      "observed_on": "2021-09-11",
+      "place_guess": "Hatfield, MO 64458, USA",
+      "user_login": "florawhite",
+      "filename": "polygonum-aviculare_05_inat-156705262.jpeg"
+    }
+  ]
+}

@@ -62,6 +62,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Burclover burs travel on pet fur and socks** — they're a re-introduction vector once you've cleared a patch. Brush pets after walks through infested neighborhood areas.
 - **Sweetclover blooms can be 5 ft tall** in unmowed corners; remove before bolting if you don't want them tall and seedy.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/trifolium-repens/trifolium-repens_01_inat-392307181.jpeg)
+*(c) Tom Norton, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/221521630)*
+
+![](../raw/assets/inaturalist/trifolium-repens/trifolium-repens_02_inat-378243876.jpg)
+*(c) winston12345, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/214014488)*
+
+![](../raw/assets/inaturalist/trifolium-repens/trifolium-repens_03_inat-35104390.jpg)
+*(c) Leila Dasher, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/22655873)*
+
+![](../raw/assets/inaturalist/trifolium-repens/trifolium-repens_04_inat-77103478.jpg)
+*(c) Sandy Wolkenberg, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/48588712)*
+
+![](../raw/assets/inaturalist/trifolium-repens/trifolium-repens_05_inat-178725362.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/106397808)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/clovers.md` (PN 7490) — covers *Trifolium*, *Medicago*, and *Melilotus* genera jointly.

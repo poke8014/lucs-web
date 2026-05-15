@@ -91,6 +91,25 @@ Default method: [`pull_vine_dig_crown`](../synthesis/invasive-removal-methods.md
 
 Poison-oak is the only native plant in the Sunshower cleanup-plan picker (per the [[feedback-sunshower-weed-scope]] direction). It's included because **homeowners routinely remove it from yards for safety reasons** — the cleanup-plan covers "plants you want gone," not just non-native invasives. The plant page carries `nativity: native` (not `invasive`) so structured queries can distinguish it from the rest.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/toxicodendron-diversilobum/toxicodendron-diversilobum_01_inat-9648.jpg)
+*(c) Franco Folini, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5215)*
+
+![](../raw/assets/inaturalist/toxicodendron-diversilobum/toxicodendron-diversilobum_02_inat-454324728.jpeg)
+*(c) Matt Benjamin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/253705932)*
+
+![](../raw/assets/inaturalist/toxicodendron-diversilobum/toxicodendron-diversilobum_03_inat-482986998.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/268681104)*
+
+![](../raw/assets/inaturalist/toxicodendron-diversilobum/toxicodendron-diversilobum_04_inat-379100486.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/214476181)*
+
+![](../raw/assets/inaturalist/toxicodendron-diversilobum/toxicodendron-diversilobum_05_inat-524190744.jpg)
+*(c) Simone Littledale, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/291346365)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/poison-oak.md` (PN 7431)

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Galium aparine",
+  "taxon_id": 1403902,
+  "photos_taxon_id": 1403902,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 587930311,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/587930311/large.jpg",
+      "observation_id": 324788630,
+      "observation_url": "https://www.inaturalist.org/observations/324788630",
+      "observed_on": "2005-05-03",
+      "place_guess": "Lisboa, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "galium-aparine_01_inat-587930311.jpg"
+    },
+    {
+      "photo_id": 176099067,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176099067/large.jpeg",
+      "observation_id": 105015175,
+      "observation_url": "https://www.inaturalist.org/observations/105015175",
+      "observed_on": "2022-01-15",
+      "place_guess": "Washington, US",
+      "user_login": "littlelegofan",
+      "filename": "galium-aparine_02_inat-176099067.jpeg"
+    },
+    {
+      "photo_id": 243422154,
+      "license": "cc-by",
+      "attribution": "(c) Richard Littauer, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243422154/large.jpg",
+      "observation_id": 142022208,
+      "observation_url": "https://www.inaturalist.org/observations/142022208",
+      "observed_on": "2022-11-14",
+      "place_guess": "Horowhenua, Manawatu-Wanganui, New Zealand",
+      "user_login": "richardlitt",
+      "filename": "galium-aparine_03_inat-243422154.jpg"
+    },
+    {
+      "photo_id": 632719204,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/632719204/large.jpg",
+      "observation_id": 347050612,
+      "observation_url": "https://www.inaturalist.org/observations/347050612",
+      "observed_on": "2026-04-02",
+      "place_guess": "McKenzie Rd, Abbotsford, BC, CA",
+      "user_login": "tristan-plicata",
+      "filename": "galium-aparine_04_inat-632719204.jpg"
+    },
+    {
+      "photo_id": 495613769,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/495613769/large.jpg",
+      "observation_id": 275902563,
+      "observation_url": "https://www.inaturalist.org/observations/275902563",
+      "observed_on": "2025-04-28",
+      "place_guess": "Hillsboro, TX, US",
+      "user_login": "sambiology",
+      "filename": "galium-aparine_05_inat-495613769.jpg"
+    }
+  ]
+}

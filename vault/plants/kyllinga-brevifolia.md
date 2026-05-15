@@ -58,6 +58,25 @@ Default method: [`dig_rhizome_complete`](../synthesis/invasive-removal-methods.m
 - **Maintain dense, vigorous turf and ornamental plantings** that shade the soil — seedling establishment fails under thick competition.
 - **Once kyllinga reaches ~40% of turf**, eradication is impractical and **complete renovation** is the path forward.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/kyllinga-brevifolia/kyllinga-brevifolia_01_inat-279966967.jpeg)
+*(c) Thomas Mesaglio, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/161943538)*
+
+![](../raw/assets/inaturalist/kyllinga-brevifolia/kyllinga-brevifolia_02_inat-279297663.jpg)
+*(c) 胡正恆(Jackson Hu), some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/161576991)*
+
+![](../raw/assets/inaturalist/kyllinga-brevifolia/kyllinga-brevifolia_03_inat-487358756.jpeg)
+*(c) Scott W. Gavins, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/270963527)*
+
+![](../raw/assets/inaturalist/kyllinga-brevifolia/kyllinga-brevifolia_04_inat-602893010.jpg)
+*(c) Hannah Rogers, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/332233973)*
+
+![](../raw/assets/inaturalist/kyllinga-brevifolia/kyllinga-brevifolia_05_inat-609794549.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/335649341)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/green-kyllinga.md` (PN 7459)

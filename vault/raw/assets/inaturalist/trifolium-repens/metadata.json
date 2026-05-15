@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Trifolium repens",
+  "taxon_id": 55745,
+  "photos_taxon_id": 55745,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 392307181,
+      "license": "cc-by",
+      "attribution": "(c) Tom Norton, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392307181/large.jpeg",
+      "observation_id": 221521630,
+      "observation_url": "https://www.inaturalist.org/observations/221521630",
+      "observed_on": "2024-06-08",
+      "place_guess": "North Avenue at Heineberg Road, Burlington, VT 05408, USA",
+      "user_login": "tsn",
+      "filename": "trifolium-repens_01_inat-392307181.jpeg"
+    },
+    {
+      "photo_id": 378243876,
+      "license": "cc-by",
+      "attribution": "(c) winston12345, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378243876/large.jpg",
+      "observation_id": 214014488,
+      "observation_url": "https://www.inaturalist.org/observations/214014488",
+      "observed_on": "2024-05-06",
+      "place_guess": "Gaston Day School, Gastonia, NC, US",
+      "user_login": "winston12345",
+      "filename": "trifolium-repens_02_inat-378243876.jpg"
+    },
+    {
+      "photo_id": 35104390,
+      "license": "cc-by",
+      "attribution": "(c) Leila Dasher, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35104390/large.jpg",
+      "observation_id": 22655873,
+      "observation_url": "https://www.inaturalist.org/observations/22655873",
+      "observed_on": "2018-03-17",
+      "place_guess": "Georgia, US",
+      "user_login": "supertiger",
+      "filename": "trifolium-repens_03_inat-35104390.jpg"
+    },
+    {
+      "photo_id": 77103478,
+      "license": "cc-by",
+      "attribution": "(c) Sandy Wolkenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77103478/large.jpg",
+      "observation_id": 48588712,
+      "observation_url": "https://www.inaturalist.org/observations/48588712",
+      "observed_on": "2020-06-05",
+      "place_guess": "Queen Anne Rd, Teaneck, NJ, US",
+      "user_login": "sadawolk",
+      "filename": "trifolium-repens_04_inat-77103478.jpg"
+    },
+    {
+      "photo_id": 178725362,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178725362/large.jpg",
+      "observation_id": 106397808,
+      "observation_url": "https://www.inaturalist.org/observations/106397808",
+      "observed_on": "2022-02-08",
+      "place_guess": "NW 99th Way, Pembroke Pines, FL, US",
+      "user_login": "buggybuddy",
+      "filename": "trifolium-repens_05_inat-178725362.jpg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Plantago major",
+  "taxon_id": 58961,
+  "photos_taxon_id": 58961,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 205592455,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/205592455/large.jpeg",
+      "observation_id": 121494688,
+      "observation_url": "https://www.inaturalist.org/observations/121494688",
+      "observed_on": "2022-06-12",
+      "place_guess": "Corona, CA 92880, USA",
+      "user_login": "vreinkymov",
+      "filename": "plantago-major_01_inat-205592455.jpeg"
+    },
+    {
+      "photo_id": 96609861,
+      "license": "cc-by",
+      "attribution": "(c) \u042e\u043b\u0438\u044f, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96609861/large.jpeg",
+      "observation_id": 60418443,
+      "observation_url": "https://www.inaturalist.org/observations/60418443",
+      "observed_on": "2020-09-22",
+      "place_guess": "\u0418\u0440\u043a\u0443\u0442\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f, 665821",
+      "user_login": "wrrite",
+      "filename": "plantago-major_02_inat-96609861.jpeg"
+    },
+    {
+      "photo_id": 108088386,
+      "license": "cc-by",
+      "attribution": "(c) Elliot Greiner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/108088386/large.jpg",
+      "observation_id": 66970871,
+      "observation_url": "https://www.inaturalist.org/observations/66970871",
+      "observed_on": "2020-12-23",
+      "place_guess": "The University of Chicago, Chicago, IL, US",
+      "user_login": "elliotgreiner",
+      "filename": "plantago-major_03_inat-108088386.jpg"
+    },
+    {
+      "photo_id": 50700930,
+      "license": "cc-by",
+      "attribution": "(c) Aleksey Shumkov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50700930/large.jpeg",
+      "observation_id": 32332684,
+      "observation_url": "https://www.inaturalist.org/observations/32332684",
+      "observed_on": "2019-09-07",
+      "place_guess": "\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u0441\u043a\u0438\u0439 \u0440-\u043d, \u041f\u0435\u0440\u043c\u0441\u043a\u0438\u0439 \u043a\u0440\u0430\u0439, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "naturalist1691",
+      "filename": "plantago-major_04_inat-50700930.jpeg"
+    },
+    {
+      "photo_id": 41759085,
+      "license": "cc-by",
+      "attribution": "(c) Andrew Garn, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41759085/large.jpg",
+      "observation_id": 26876092,
+      "observation_url": "https://www.inaturalist.org/observations/26876092",
+      "observed_on": "2019-06-11",
+      "place_guess": "The Battery, New York, NY, US",
+      "user_login": "andrewgarn",
+      "filename": "plantago-major_05_inat-41759085.jpg"
+    }
+  ]
+}

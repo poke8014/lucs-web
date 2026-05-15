@@ -70,6 +70,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Don't compost nettle in livestock-accessible areas** without thorough drying — sting hairs persist on dried plant material.
 - **Both species are edible when cooked** (sting hairs are inactivated by steaming/boiling) — relevant for foraging gardens; not a control method.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/urtica-urens/urtica-urens_01_inat-323560352.jpg)
+*(c) Алёна Осипова, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/185277834)*
+
+![](../raw/assets/inaturalist/urtica-urens/urtica-urens_02_inat-369060791.jpg)
+*(c) Henry Miller, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/208583469)*
+
+![](../raw/assets/inaturalist/urtica-urens/urtica-urens_03_inat-6302116.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/5122741)*
+
+![](../raw/assets/inaturalist/urtica-urens/urtica-urens_04_inat-33435867.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/21600044)*
+
+![](../raw/assets/inaturalist/urtica-urens/urtica-urens_05_inat-240741001.jpg)
+*(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/140624118)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/burning-and-stinging-nettles.md` (PN 74146) — covers *Urtica urens* and *Urtica dioica*.

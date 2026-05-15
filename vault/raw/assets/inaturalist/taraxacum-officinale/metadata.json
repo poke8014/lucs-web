@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Taraxacum officinale",
+  "taxon_id": 47602,
+  "photos_taxon_id": 47602,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 464238758,
+      "license": "cc-by",
+      "attribution": "(c) Daughter Dad, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/464238758/large.jpg",
+      "observation_id": 258709999,
+      "observation_url": "https://www.inaturalist.org/observations/258709999",
+      "observed_on": "2024-06-28",
+      "place_guess": "Cariboo, BC, Canada",
+      "user_login": "daughterdad",
+      "filename": "taraxacum-officinale_01_inat-464238758.jpg"
+    },
+    {
+      "photo_id": 74720709,
+      "license": "cc-by",
+      "attribution": "(c) \u0413\u0435\u043e\u0440\u0433\u0438\u0439 \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043e\u0432 (Georgy Vinogradov), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74720709/large.jpg",
+      "observation_id": 47114973,
+      "observation_url": "https://www.inaturalist.org/observations/47114973",
+      "observed_on": "2019-05-06",
+      "place_guess": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, \u041c\u043e\u0441\u043a\u0432\u0430, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "prokhozhyj",
+      "filename": "taraxacum-officinale_02_inat-74720709.jpg"
+    },
+    {
+      "photo_id": 102788333,
+      "license": "cc-by",
+      "attribution": "(c) Sandy Wolkenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102788333/large.jpg",
+      "observation_id": 63986592,
+      "observation_url": "https://www.inaturalist.org/observations/63986592",
+      "observed_on": "2020-11-01",
+      "place_guess": "Richard Rodda Community Center, Teaneck, NJ, US",
+      "user_login": "sadawolk",
+      "filename": "taraxacum-officinale_03_inat-102788333.jpg"
+    },
+    {
+      "photo_id": 5371402,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5371402/large.jpg",
+      "observation_id": 4457179,
+      "observation_url": "https://www.inaturalist.org/observations/4457179",
+      "observed_on": "2016-10-29",
+      "place_guess": "New Jersey, US",
+      "user_login": "schoenitz",
+      "filename": "taraxacum-officinale_04_inat-5371402.jpg"
+    },
+    {
+      "photo_id": 40586286,
+      "license": "cc-by",
+      "attribution": "(c) Syd Cannings, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/40586286/large.jpeg",
+      "observation_id": 26154895,
+      "observation_url": "https://www.inaturalist.org/observations/26154895",
+      "observed_on": "2019-05-31",
+      "place_guess": "Whitehorse, YT, Canada",
+      "user_login": "sydcannings",
+      "filename": "taraxacum-officinale_05_inat-40586286.jpeg"
+    }
+  ]
+}

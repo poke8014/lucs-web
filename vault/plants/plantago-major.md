@@ -59,6 +59,25 @@ Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_tap
 - **Clean equipment** to avoid spreading seed and vegetative fragments.
 - **Plantain is edible** (young leaves used in traditional medicine) — if you're maintaining a small foraging patch, cut flowering stalks before seed set.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/plantago-major/plantago-major_01_inat-205592455.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/121494688)*
+
+![](../raw/assets/inaturalist/plantago-major/plantago-major_02_inat-96609861.jpeg)
+*(c) Юлия, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/60418443)*
+
+![](../raw/assets/inaturalist/plantago-major/plantago-major_03_inat-108088386.jpg)
+*(c) Elliot Greiner, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/66970871)*
+
+![](../raw/assets/inaturalist/plantago-major/plantago-major_04_inat-50700930.jpeg)
+*(c) Aleksey Shumkov, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/32332684)*
+
+![](../raw/assets/inaturalist/plantago-major/plantago-major_05_inat-41759085.jpg)
+*(c) Andrew Garn, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/26876092)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/plantains.md` (PN 7478) — covers *P. major* and *P. lanceolata* jointly.

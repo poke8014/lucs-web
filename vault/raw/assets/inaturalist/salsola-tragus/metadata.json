@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Salsola tragus",
+  "taxon_id": 57896,
+  "photos_taxon_id": 57896,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 261738043,
+      "license": "cc-by",
+      "attribution": "(c) Kevin Faccenda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261738043/large.jpeg",
+      "observation_id": 151677225,
+      "observation_url": "https://www.inaturalist.org/observations/151677225",
+      "observed_on": "2023-03-13",
+      "place_guess": "Ewa, Ewa Beach, HI, USA",
+      "user_login": "kevinfaccenda",
+      "filename": "salsola-tragus_01_inat-261738043.jpeg"
+    },
+    {
+      "photo_id": 79766197,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79766197/large.jpeg",
+      "observation_id": 50231032,
+      "observation_url": "https://www.inaturalist.org/observations/50231032",
+      "observed_on": "2020-06-19",
+      "place_guess": "Osoyoos, BC V0H, Canada",
+      "user_login": "benkeen",
+      "filename": "salsola-tragus_02_inat-79766197.jpeg"
+    },
+    {
+      "photo_id": 79766219,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79766219/large.jpeg",
+      "observation_id": 50231032,
+      "observation_url": "https://www.inaturalist.org/observations/50231032",
+      "observed_on": "2020-06-19",
+      "place_guess": "Osoyoos, BC V0H, Canada",
+      "user_login": "benkeen",
+      "filename": "salsola-tragus_03_inat-79766219.jpeg"
+    },
+    {
+      "photo_id": 36295062,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36295062/large.jpg",
+      "observation_id": 23437098,
+      "observation_url": "https://www.inaturalist.org/observations/23437098",
+      "observed_on": "2019-04-27",
+      "place_guess": "Cabrillo National Monument, San Diego, CA, US",
+      "user_login": "steph_taylor",
+      "filename": "salsola-tragus_04_inat-36295062.jpg"
+    },
+    {
+      "photo_id": 43060317,
+      "license": "cc-by",
+      "attribution": "(c) Eric Knight, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43060317/large.jpeg",
+      "observation_id": 27661046,
+      "observation_url": "https://www.inaturalist.org/observations/27661046",
+      "observed_on": "2019-06-25",
+      "place_guess": "Phoenix, AZ 85042, USA",
+      "user_login": "knightericm",
+      "filename": "salsola-tragus_05_inat-43060317.jpeg"
+    }
+  ]
+}
