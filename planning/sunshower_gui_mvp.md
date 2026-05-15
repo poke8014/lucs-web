@@ -22,14 +22,26 @@ PR #4. Multi-select autocomplete over the 137-plant DB replaces the free-text te
 ### Agent B — Per-plant removal-method data ✅ (2026-05-11)
 New `RemovalMethod` union in [types.ts](../src/app/sunshower/cleanup-plan/types.ts) with 10 canonical keys (`hand_pull`, `dig_taproot`, `cut_stump_herbicide`, `cane_cut_dig_crown`, `pull_vine_dig_crown`, `dig_rhizome_complete`, `dig_bulb_complete`, `sheet_mulch_smother`, `mow_before_seed`, `solarize_summer`). 38 yard-relevant plants annotated in [plants.json](../src/data/plants.json) via [vault/scripts/apply_removal_methods.py](../vault/scripts/apply_removal_methods.py); remaining 99 carry `removal_method: null`. Distribution oversamples broom, brome/oat/foxtail, vine, thistle, and clumping grass so Agent D's grouped output has real groups. Vocabulary + sources at [vault/synthesis/invasive-removal-methods.md](../vault/synthesis/invasive-removal-methods.md). Citations follow-up: added `removal_sources: string[]` on Plant; scraped the full 274-PDF WRIC corpus via [vault/scripts/scrape_wric.py](../vault/scripts/scrape_wric.py); backfilled per-plant citations via [vault/scripts/backfill_removal_sources.py](../vault/scripts/backfill_removal_sources.py) (36 direct + 1 congener + 1 no-source). v0 `removal_notes[]` unchanged in this pass — rewriting against canonical WRIC text is **Layer C** in the [backlog](sunshower_backlog.md#cleanup-plan-rendering--wiring-the-wricuc-ipm-data-into-the-user-facing-plan-added-2026-05-12).
 
-### Agent C — Site context (lean)
-- **Goal:** tiny "tell us about your yard" step between confirm and plan. **One field for MVP:** yard state (overgrown / partially planted / mostly bare). Drives the generic prep section in the plan. Zip/sun/water deferred — no outputs use them yet.
+### Agent C — Homepage yard-state router
+*Reframed 2026-05-15 (was: "Site context (lean)" — a step inside cleanup-plan). The yard-state question is now the app's front door instead of an internal cleanup-plan step.*
+
+- **Goal:** Gentle phase-routing prompt on `/sunshower`. Question: *"How's your yard looking today?"* with **cycling placeholder examples** in the text field — sample answers fade in/out (e.g., *"overgrown with weeds…"* → *"mostly bare dirt…"* → *"partially planted, needs help…"* → *"established, just want to care for it…"*). On submit, the entered text is matched to a yard state which routes the user to the appropriate phase. Free-text is fine for MVP — the matcher can be keyword-based (overgrown/weedy → cleanup; bare/empty/dirt → site-inventory; partial → cleanup-with-care; established/mature → care).
+- **Routes (MVP):**
+  - *Overgrown / weedy* → `/sunshower/cleanup-plan` (today's flow, with yard state pre-populated)
+  - *Mostly bare* → "Coming soon" interstitial linking to [vault/concepts/site-inventory.md](../vault/concepts/site-inventory.md) (full walkthrough is a follow-up backlog item)
+  - *Partially planted* → `/sunshower/cleanup-plan` with a care/selective-cleanup framing
+  - *Established* → "Coming soon" interstitial linking to existing Care-relevant wiki pages ([vault/concepts/watering.md](../vault/concepts/watering.md), [vault/concepts/pruning.md](../vault/concepts/pruning.md), [vault/concepts/composting.md](../vault/concepts/composting.md)) — Phase 4 content is a wiki + app gap (see [backlog](sunshower_backlog.md#beginner-gardening-ideas-added-2026-05-15)).
 - **Owns:**
-  - [page.tsx](../src/app/sunshower/cleanup-plan/page.tsx) — new step
-  - New `SiteContext.tsx`
-  - [types.ts](../src/app/sunshower/cleanup-plan/types.ts) — add `SiteContext` type
-- **Depends on:** nothing
-- **DoD:** 4-step flow (input → confirm → context → plan); context persists into plan generation.
+  - [src/app/sunshower/page.tsx](../src/app/sunshower/page.tsx) — the landing now leads with the prompt. Open design Q: does the prompt sit as a chrome overlay on top of the persistent three.js scene, or does it occupy a hero block above the scene with the shovel hotspot still accessible below? Recommend the latter for MVP — preserves the existing direct-entry path for repeat users.
+  - New `YardStateRouter.tsx` — input + cycling-placeholder animation + keyword matcher + redirect.
+  - [src/app/sunshower/cleanup-plan/page.tsx](../src/app/sunshower/cleanup-plan/page.tsx) — read yard state from URL query param (e.g. `?yard=overgrown`) or session storage. The previously-planned "Site context" step between confirm and plan is **gone** — yard state arrives with the user.
+  - [types.ts](../src/app/sunshower/cleanup-plan/types.ts) — add `YardState = 'overgrown' | 'partial' | 'bare' | 'established'` and a `matchYardState(input: string): YardState` helper.
+- **Open design qs:**
+  - Returning users with a known yard state — skip the prompt or always show? Recommend: show on `/sunshower` always (cheap, no auth yet), but `/sunshower/cleanup-plan` works standalone for deep links.
+  - Cycling-placeholder timing — 2-3s per phrase feels right; pause on focus.
+  - If the input doesn't match any known state, default route to cleanup-plan (the current behavior) with a gentle prompt explaining why.
+- **Depends on:** nothing (unblocks Agent D's "prep for planting" section).
+- **DoD:** Landing shows the routing prompt; entering yard state navigates to the correct phase with state preserved; cleanup-plan flow returns to its original 3 steps (input → confirm → plan) since the context step moved upstream.
 
 ### Agent E — Entry/landing ✅ (2026-05-11)
 Shipped via the rebrand + persistent-canvas commits. [src/app/sunshower/page.tsx](../src/app/sunshower/page.tsx) is the "a garden, in progress" landing inside the persistent three.js scene; the shovel hotspot routes to `/sunshower/cleanup-plan`. Root [src/app/page.tsx](../src/app/page.tsx) now lists active projects in a dropdown nav linking to `/sunshower` and `/tangtherapeutics`. The richer four-phase trail (Cleanup → Selection → Planning → Care) lives in the backlog under "Visible-path navigation across the four phases".
@@ -51,7 +63,7 @@ Shipped via the rebrand + persistent-canvas commits. [src/app/sunshower/page.tsx
 
 ## Open scope questions before dispatching
 
-1. **Reframe Agent C as a homepage router?** The beginner-gardening ingest on 2026-05-15 surfaced a bigger framing: yard state belongs at `/sunshower` as a "How's your yard looking today?" prompt that **routes** the user to the right phase (overgrown → cleanup, mostly bare → site inventory → selection, established → care). See [sunshower/CONTEXT.md](sunshower/CONTEXT.md#ideas-surfaced-from-beginner-gardening-ingest-2026-05-15). If we go this route, Agent C as currently scoped (a step *inside* cleanup-plan) gets absorbed — the user arrives at cleanup-plan with yard state already known. Decision blocks Agent D's "prep for planting" section.
+*(none open — Agent C's reframe to a homepage router was resolved 2026-05-15; the previous "Site context (lean)" step inside cleanup-plan is no longer in scope.)*
 
 ---
 
