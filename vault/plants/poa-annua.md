@@ -55,6 +55,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Skip fertilization during fall germination peak** — fertilizing then encourages the annual bluegrass flush.
 - **Coastal / cool-summer areas:** annual bluegrass persists year-round. In warmer inland areas it usually dies in summer heat — letting you reseed clean turf into the gap.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/poa-annua/poa-annua_01_inat-611301321.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/336400891)*
+
+![](../raw/assets/inaturalist/poa-annua/poa-annua_02_inat-248427051.jpg)
+*(c) Eric Lamb, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/144708295)*
+
+![](../raw/assets/inaturalist/poa-annua/poa-annua_03_inat-200471828.jpg)
+*(c) Wang.QG, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/118638135)*
+
+![](../raw/assets/inaturalist/poa-annua/poa-annua_04_inat-72100893.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/45467665)*
+
+![](../raw/assets/inaturalist/poa-annua/poa-annua_05_inat-126619453.jpg)
+*(c) Jon Sullivan, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/77422818)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/annual-bluegrass.md` (PN 7464)

@@ -68,6 +68,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Don't move soil from infested sites** without solarizing or sifting.
 - **Watch sidewalk cracks and bare-soil edges** — spurge invades exactly the marginal spaces dense planting hasn't filled.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/euphorbia-maculata/euphorbia-maculata_01_inat-411858.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/330468)*
+
+![](../raw/assets/inaturalist/euphorbia-maculata/euphorbia-maculata_02_inat-214338323.jpeg)
+*(c) Eric Knight, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/126013226)*
+
+![](../raw/assets/inaturalist/euphorbia-maculata/euphorbia-maculata_03_inat-110885052.jpeg)
+*(c) Thomas Mesaglio, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/68475508)*
+
+![](../raw/assets/inaturalist/euphorbia-maculata/euphorbia-maculata_04_inat-291498785.jpg)
+*(c) Cricket Raspet, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/168216379)*
+
+![](../raw/assets/inaturalist/euphorbia-maculata/euphorbia-maculata_05_inat-74314351.jpeg)
+*(c) Astra, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/46858660)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/spotted-spurge-and-other-spurges.md` (PN 7445) — covers *E. maculata* plus 6 congeners with shared management.

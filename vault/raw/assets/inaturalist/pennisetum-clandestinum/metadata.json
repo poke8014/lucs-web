@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Pennisetum clandestinum",
+  "taxon_id": 60298,
+  "photos_taxon_id": 60298,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 398462717,
+      "license": "cc-by",
+      "attribution": "(c) Patricio Novoa, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/398462717/large.jpeg",
+      "observation_id": 224793778,
+      "observation_url": "https://www.inaturalist.org/observations/224793778",
+      "observed_on": "2017-08-18",
+      "place_guess": "Easter Island, Valpara\u00edso, Chile",
+      "user_login": "patricio_novoa",
+      "filename": "pennisetum-clandestinum_01_inat-398462717.jpeg"
+    },
+    {
+      "photo_id": 28881812,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/28881812/large.jpg",
+      "observation_id": 18830308,
+      "observation_url": "https://www.inaturalist.org/observations/18830308",
+      "observed_on": "2018-05-26",
+      "place_guess": "GGAPRpath Gahnia Grove, Eskdale Forest",
+      "user_login": "kaipatiki_naturewatch",
+      "filename": "pennisetum-clandestinum_02_inat-28881812.jpg"
+    },
+    {
+      "photo_id": 171936471,
+      "license": "cc-by",
+      "attribution": "(c) Drepanostoma, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/171936471/large.jpg",
+      "observation_id": 102806937,
+      "observation_url": "https://www.inaturalist.org/observations/102806937",
+      "observed_on": "2012-05-31",
+      "place_guess": "07041 Alghero, Province of Sassari, Italy",
+      "user_login": "martinbishop",
+      "filename": "pennisetum-clandestinum_03_inat-171936471.jpg"
+    },
+    {
+      "photo_id": 519412076,
+      "license": "cc-by",
+      "attribution": "(c) Elizabete Marchante, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519412076/large.jpg",
+      "observation_id": 288809162,
+      "observation_url": "https://www.inaturalist.org/observations/288809162",
+      "observed_on": "2025-06-11",
+      "place_guess": "Coimbra, PT-CO, PT",
+      "user_login": "emarchante",
+      "filename": "pennisetum-clandestinum_04_inat-519412076.jpg"
+    },
+    {
+      "photo_id": 5715396,
+      "license": "cc-by",
+      "attribution": "(c) Riley Pollom, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5715396/large.jpeg",
+      "observation_id": 4727154,
+      "observation_url": "https://www.inaturalist.org/observations/4727154",
+      "observed_on": "2016-11-29",
+      "place_guess": "Haleakala, Haleakala National Park, Maui County, US-HI, US",
+      "user_login": "rileypollom",
+      "filename": "pennisetum-clandestinum_05_inat-5715396.jpeg"
+    }
+  ]
+}

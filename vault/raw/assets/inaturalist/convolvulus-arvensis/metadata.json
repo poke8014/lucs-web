@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Convolvulus arvensis",
+  "taxon_id": 53021,
+  "photos_taxon_id": 53021,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 555587287,
+      "license": "cc-by",
+      "attribution": "(c) William Stephens, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/555587287/large.jpg",
+      "observation_id": 307980960,
+      "observation_url": "https://www.inaturalist.org/observations/307980960",
+      "observed_on": "2025-08-21",
+      "place_guess": "Bedford, England, GB",
+      "user_login": "william_stephens",
+      "filename": "convolvulus-arvensis_01_inat-555587287.jpg"
+    },
+    {
+      "photo_id": 284426169,
+      "license": "cc-by",
+      "attribution": "(c) Sylvain G\u00e9rard, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/284426169/large.jpeg",
+      "observation_id": 164388185,
+      "observation_url": "https://www.inaturalist.org/observations/164388185",
+      "observed_on": "2023-05-29",
+      "place_guess": "Aude, Languedoc-Roussillon, FR",
+      "user_login": "sylvaingerard",
+      "filename": "convolvulus-arvensis_02_inat-284426169.jpeg"
+    },
+    {
+      "photo_id": 309447350,
+      "license": "cc-by",
+      "attribution": "(c) crseaquist, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/309447350/large.jpeg",
+      "observation_id": 177888155,
+      "observation_url": "https://www.inaturalist.org/observations/177888155",
+      "observed_on": "2023-07-27",
+      "place_guess": "Briscoe County, TX, USA",
+      "user_login": "crseaquist",
+      "filename": "convolvulus-arvensis_03_inat-309447350.jpeg"
+    },
+    {
+      "photo_id": 46974379,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46974379/large.jpg",
+      "observation_id": 30079756,
+      "observation_url": "https://www.inaturalist.org/observations/30079756",
+      "observed_on": "2019-07-08",
+      "place_guess": "Golden Gate National Recreation Area, Nicasio, CA, US",
+      "user_login": "marcus_t",
+      "filename": "convolvulus-arvensis_04_inat-46974379.jpg"
+    },
+    {
+      "photo_id": 193794725,
+      "license": "cc-by",
+      "attribution": "(c) Michael Warner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193794725/large.jpeg",
+      "observation_id": 114789483,
+      "observation_url": "https://www.inaturalist.org/observations/114789483",
+      "observed_on": "2022-05-01",
+      "place_guess": "Contra Costa County, CA, USA",
+      "user_login": "ouzel",
+      "filename": "convolvulus-arvensis_05_inat-193794725.jpeg"
+    }
+  ]
+}

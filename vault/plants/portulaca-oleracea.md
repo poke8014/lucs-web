@@ -57,6 +57,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Monitor uninfested sites after each irrigation or rain** and destroy seedlings before they set seed.
 - **Edible:** purslane is a nutritious salad green (omega-3 fatty acids, antioxidants). If you have a tolerated patch, pull it for the kitchen before flowering — denies the seed crop.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/portulaca-oleracea/portulaca-oleracea_01_inat-52692762.jpg)
+*(c) Георгий Виноградов (Georgy Vinogradov), some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/33545414)*
+
+![](../raw/assets/inaturalist/portulaca-oleracea/portulaca-oleracea_02_inat-50733034.jpeg)
+*(c) Michele Jones, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/32352393)*
+
+![](../raw/assets/inaturalist/portulaca-oleracea/portulaca-oleracea_03_inat-322169791.jpg)
+*(c) Sam Kieschnick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/184555384)*
+
+![](../raw/assets/inaturalist/portulaca-oleracea/portulaca-oleracea_04_inat-596741354.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/329228821)*
+
+![](../raw/assets/inaturalist/portulaca-oleracea/portulaca-oleracea_05_inat-159162375.jpg)
+*(c) caymanmatt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/95846501)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/common-purslane.md` (PN 7461)

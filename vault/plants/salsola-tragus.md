@@ -69,6 +69,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Don't disturb dry soil unnecessarily** — disking compacted vacant lots creates exactly the niche Russian thistle thrives in.
 - **Short seedbank (1–2 years) is the long-term lever** — two consecutive years of preventing seed set substantially clears an infestation.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/salsola-tragus/salsola-tragus_01_inat-261738043.jpeg)
+*(c) Kevin Faccenda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/151677225)*
+
+![](../raw/assets/inaturalist/salsola-tragus/salsola-tragus_02_inat-79766197.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/50231032)*
+
+![](../raw/assets/inaturalist/salsola-tragus/salsola-tragus_03_inat-79766219.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/50231032)*
+
+![](../raw/assets/inaturalist/salsola-tragus/salsola-tragus_04_inat-36295062.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/23437098)*
+
+![](../raw/assets/inaturalist/salsola-tragus/salsola-tragus_05_inat-43060317.jpeg)
+*(c) Eric Knight, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/27661046)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/russian-thistle.md` (PN 7486)

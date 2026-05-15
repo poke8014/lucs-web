@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Paspalum dilatatum",
+  "taxon_id": 60295,
+  "photos_taxon_id": 60295,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 419371498,
+      "license": "cc-by",
+      "attribution": "(c) Nathan Aaron, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419371498/large.jpeg",
+      "observation_id": 235783020,
+      "observation_url": "https://www.inaturalist.org/observations/235783020",
+      "observed_on": "2024-08-14",
+      "place_guess": "SSR-AD, Dexter, MO, US",
+      "user_login": "nathanaaron",
+      "filename": "paspalum-dilatatum_01_inat-419371498.jpeg"
+    },
+    {
+      "photo_id": 524766006,
+      "license": "cc-by",
+      "attribution": "(c) Cleveland Powell, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/524766006/large.jpg",
+      "observation_id": 291655558,
+      "observation_url": "https://www.inaturalist.org/observations/291655558",
+      "observed_on": "2025-06-21",
+      "place_guess": "Aransus NWR - Interpretive Center, Austwell, TX 77950, USA",
+      "user_login": "prairie_rambler",
+      "filename": "paspalum-dilatatum_02_inat-524766006.jpg"
+    },
+    {
+      "photo_id": 182177289,
+      "license": "cc-by",
+      "attribution": "(c) Saryu Mae \u524d \u671d\u7409, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182177289/large.jpeg",
+      "observation_id": 108226087,
+      "observation_url": "https://www.inaturalist.org/observations/108226087",
+      "observed_on": "2022-03-05",
+      "place_guess": "Great North Rd, New Lynn, West Auckland, New Zealand",
+      "user_login": "invertebratist",
+      "filename": "paspalum-dilatatum_03_inat-182177289.jpeg"
+    },
+    {
+      "photo_id": 341102503,
+      "license": "cc-by",
+      "attribution": "(c) Golfopolikayak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341102503/large.jpg",
+      "observation_id": 194105060,
+      "observation_url": "https://www.inaturalist.org/observations/194105060",
+      "observed_on": "2023-12-14",
+      "place_guess": "Provincia di Cosenza, Italia",
+      "user_login": "golfopolikayakl",
+      "filename": "paspalum-dilatatum_04_inat-341102503.jpg"
+    },
+    {
+      "photo_id": 223403099,
+      "license": "cc-by",
+      "attribution": "(c) Joseph McPhail, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/223403099/large.jpg",
+      "observation_id": 131290249,
+      "observation_url": "https://www.inaturalist.org/observations/131290249",
+      "observed_on": "2022-08-17",
+      "place_guess": "Sunny Meadow Dr, Jonesboro, AR, US",
+      "user_login": "thebirdnerd",
+      "filename": "paspalum-dilatatum_05_inat-223403099.jpg"
+    }
+  ]
+}

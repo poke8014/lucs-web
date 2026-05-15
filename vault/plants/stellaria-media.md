@@ -56,6 +56,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Common chickweed hosts insect pests** (lygus, thrips) and **plant viruses** (tomato spotted wilt, cucumber mosaic) — extra reason to keep it out of vegetable gardens.
 - **Mature seeds need no dormancy period** — they germinate as soon as they hit moist soil. Removing fruiting plants before seed disperses is the single highest-leverage action.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/stellaria-media/stellaria-media_01_inat-30290453.jpg)
+*(c) Sam Kieschnick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/19666935)*
+
+![](../raw/assets/inaturalist/stellaria-media/stellaria-media_02_inat-237851193.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/139100654)*
+
+![](../raw/assets/inaturalist/stellaria-media/stellaria-media_03_inat-393361232.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/222086868)*
+
+![](../raw/assets/inaturalist/stellaria-media/stellaria-media_04_inat-14772260.jpeg)
+*(c) Justin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/10595713)*
+
+![](../raw/assets/inaturalist/stellaria-media/stellaria-media_05_inat-628810249.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/345070295)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/chickweeds.md` (PN 74129) — covers *Stellaria media*, *Cerastium glomeratum*, *Cerastium fontanum* ssp. *vulgare*.

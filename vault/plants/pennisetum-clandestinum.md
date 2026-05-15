@@ -61,6 +61,25 @@ Default method: [`dig_rhizome_complete`](../synthesis/invasive-removal-methods.m
 - **Don't irrigate after cultivation** in infested beds — that's the propagation step.
 - **Watch ditch banks, fence rows, and the edges of orchards** — kikuyu invades wherever water plus warmth plus disturbed soil meet.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/pennisetum-clandestinum/pennisetum-clandestinum_01_inat-398462717.jpeg)
+*(c) Patricio Novoa, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/224793778)*
+
+![](../raw/assets/inaturalist/pennisetum-clandestinum/pennisetum-clandestinum_02_inat-28881812.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/18830308)*
+
+![](../raw/assets/inaturalist/pennisetum-clandestinum/pennisetum-clandestinum_03_inat-171936471.jpg)
+*(c) Drepanostoma, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/102806937)*
+
+![](../raw/assets/inaturalist/pennisetum-clandestinum/pennisetum-clandestinum_04_inat-519412076.jpg)
+*(c) Elizabete Marchante, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/288809162)*
+
+![](../raw/assets/inaturalist/pennisetum-clandestinum/pennisetum-clandestinum_05_inat-5715396.jpeg)
+*(c) Riley Pollom, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/4727154)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/kikuyugrass.md` (PN 7458)

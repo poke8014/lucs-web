@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Poa annua",
+  "taxon_id": 52808,
+  "photos_taxon_id": 52808,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 611301321,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/611301321/large.jpg",
+      "observation_id": 336400891,
+      "observation_url": "https://www.inaturalist.org/observations/336400891",
+      "observed_on": "2015-03-23",
+      "place_guess": "Belver, Carrazeda de Ansi\u00e3es, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "poa-annua_01_inat-611301321.jpg"
+    },
+    {
+      "photo_id": 248427051,
+      "license": "cc-by",
+      "attribution": "(c) Eric Lamb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248427051/large.jpg",
+      "observation_id": 144708295,
+      "observation_url": "https://www.inaturalist.org/observations/144708295",
+      "observed_on": "2022-06-12",
+      "place_guess": "Haultain, Saskatoon, SK S7H, Canada",
+      "user_login": "eric_lamb",
+      "filename": "poa-annua_02_inat-248427051.jpg"
+    },
+    {
+      "photo_id": 200471828,
+      "license": "cc-by",
+      "attribution": "(c) Wang.QG, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200471828/large.jpg",
+      "observation_id": 118638135,
+      "observation_url": "https://www.inaturalist.org/observations/118638135",
+      "observed_on": "2022-05-07",
+      "place_guess": "Shanghai, CN-SH, CN",
+      "user_login": "wangqg",
+      "filename": "poa-annua_03_inat-200471828.jpg"
+    },
+    {
+      "photo_id": 72100893,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72100893/large.jpg",
+      "observation_id": 45467665,
+      "observation_url": "https://www.inaturalist.org/observations/45467665",
+      "observed_on": "2020-05-09",
+      "place_guess": "Landkreis Marburg-Biedenkopf, Hesse, Germany",
+      "user_login": "bobwardell",
+      "filename": "poa-annua_04_inat-72100893.jpg"
+    },
+    {
+      "photo_id": 126619453,
+      "license": "cc-by",
+      "attribution": "(c) Jon Sullivan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126619453/large.jpg",
+      "observation_id": 77422818,
+      "observation_url": "https://www.inaturalist.org/observations/77422818",
+      "observed_on": "2021-05-03",
+      "place_guess": "Christchurch including Banks Peninsula, Canterbury, New Zealand",
+      "user_login": "jon_sullivan",
+      "filename": "poa-annua_05_inat-126619453.jpg"
+    }
+  ]
+}

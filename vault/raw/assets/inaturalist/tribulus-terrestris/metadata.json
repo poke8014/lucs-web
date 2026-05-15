@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Tribulus terrestris",
+  "taxon_id": 64238,
+  "photos_taxon_id": 64238,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 596736893,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596736893/large.jpg",
+      "observation_id": 329226697,
+      "observation_url": "https://www.inaturalist.org/observations/329226697",
+      "observed_on": "2015-06-11",
+      "place_guess": "Prazo, Vila Nova de Foz Coa, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "tribulus-terrestris_01_inat-596736893.jpg"
+    },
+    {
+      "photo_id": 152619752,
+      "license": "cc-by",
+      "attribution": "(c) Brandon Corder, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152619752/large.jpeg",
+      "observation_id": 92199614,
+      "observation_url": "https://www.inaturalist.org/observations/92199614",
+      "observed_on": "2021-08-21",
+      "place_guess": "Randolph, Illinois, United States",
+      "user_login": "brandoncorder",
+      "filename": "tribulus-terrestris_02_inat-152619752.jpeg"
+    },
+    {
+      "photo_id": 21756256,
+      "license": "cc-by",
+      "attribution": "(c) Cheng-Tao Lin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21756256/large.jpg",
+      "observation_id": 14596290,
+      "observation_url": "https://www.inaturalist.org/observations/14596290",
+      "observed_on": "2015-09-07",
+      "place_guess": "Wang'an, Wang\u2019an Township, Penghu County, Taiwan 882",
+      "user_login": "mutolisp",
+      "filename": "tribulus-terrestris_03_inat-21756256.jpg"
+    },
+    {
+      "photo_id": 61947231,
+      "license": "cc-by",
+      "attribution": "(c) Robert Taylor, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/61947231/large.jpg",
+      "observation_id": 39047784,
+      "observation_url": "https://www.inaturalist.org/observations/39047784",
+      "observed_on": "2020-01-15",
+      "place_guess": "Ngamiland North, Botswana",
+      "user_login": "robert_taylor",
+      "filename": "tribulus-terrestris_04_inat-61947231.jpg"
+    },
+    {
+      "photo_id": 165615896,
+      "license": "cc-by",
+      "attribution": "(c) pavlaki1968, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165615896/large.jpg",
+      "observation_id": 99359630,
+      "observation_url": "https://www.inaturalist.org/observations/99359630",
+      "observed_on": "2021-10-25",
+      "place_guess": "Teatro di Dioniso, Atene, Atene, GR",
+      "user_login": "pavlaki1968",
+      "filename": "tribulus-terrestris_05_inat-165615896.jpg"
+    }
+  ]
+}

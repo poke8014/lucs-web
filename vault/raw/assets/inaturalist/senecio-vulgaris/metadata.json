@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Senecio vulgaris",
+  "taxon_id": 53211,
+  "photos_taxon_id": 53211,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 341602840,
+      "license": "cc-by",
+      "attribution": "(c) Tom Norton, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341602840/large.jpeg",
+      "observation_id": 194349207,
+      "observation_url": "https://www.inaturalist.org/observations/194349207",
+      "observed_on": "2023-12-18",
+      "place_guess": "Burlington, VT 05408, USA",
+      "user_login": "tsn",
+      "filename": "senecio-vulgaris_01_inat-341602840.jpeg"
+    },
+    {
+      "photo_id": 6249267,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6249267/large.jpeg",
+      "observation_id": 5087441,
+      "observation_url": "https://www.inaturalist.org/observations/5087441",
+      "observed_on": "2017-02-10",
+      "place_guess": "Rockwood Park, Fort Worth, Texas",
+      "user_login": "sambiology",
+      "filename": "senecio-vulgaris_02_inat-6249267.jpeg"
+    },
+    {
+      "photo_id": 58855598,
+      "license": "cc-by",
+      "attribution": "(c) \u0413\u0435\u043e\u0440\u0433\u0438\u0439 \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043e\u0432 (Georgy Vinogradov), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/58855598/large.jpg",
+      "observation_id": 37155696,
+      "observation_url": "https://www.inaturalist.org/observations/37155696",
+      "observed_on": "2020-01-01",
+      "place_guess": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, \u041c\u043e\u0441\u043a\u0432\u0430, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "prokhozhyj",
+      "filename": "senecio-vulgaris_03_inat-58855598.jpg"
+    },
+    {
+      "photo_id": 614222966,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/614222966/large.jpg",
+      "observation_id": 337830288,
+      "observation_url": "https://www.inaturalist.org/observations/337830288",
+      "observed_on": "2026-02-08",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "senecio-vulgaris_04_inat-614222966.jpg"
+    },
+    {
+      "photo_id": 477920015,
+      "license": "cc-by",
+      "attribution": "(c) Arnim Littek, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/477920015/large.jpeg",
+      "observation_id": 266019935,
+      "observation_url": "https://www.inaturalist.org/observations/266019935",
+      "observed_on": "2025-03-13",
+      "place_guess": "Tolaga Bay, New Zealand",
+      "user_login": "arnim",
+      "filename": "senecio-vulgaris_05_inat-477920015.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Urtica urens",
+  "taxon_id": 53315,
+  "photos_taxon_id": 53315,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 323560352,
+      "license": "cc-by",
+      "attribution": "(c) \u0410\u043b\u0451\u043d\u0430 \u041e\u0441\u0438\u043f\u043e\u0432\u0430, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323560352/large.jpg",
+      "observation_id": 185277834,
+      "observation_url": "https://www.inaturalist.org/observations/185277834",
+      "observed_on": "2023-09-28",
+      "place_guess": "\u0425\u043e\u043b\u043e\u0434\u0438\u043b\u044c\u043d\u0430\u044f \u0443\u043b\u0438\u0446\u0430, \u0422\u044e\u043c\u0435\u043d\u044c, \u0422\u044e\u043c\u0435\u043d\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, RU",
+      "user_login": "alyona_osipova",
+      "filename": "urtica-urens_01_inat-323560352.jpg"
+    },
+    {
+      "photo_id": 369060791,
+      "license": "cc-by",
+      "attribution": "(c) Henry Miller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369060791/large.jpg",
+      "observation_id": 208583469,
+      "observation_url": "https://www.inaturalist.org/observations/208583469",
+      "observed_on": "2024-04-21",
+      "place_guess": "Gunnersbury Park & Museum, London, England, GB",
+      "user_login": "henrymillerplants",
+      "filename": "urtica-urens_02_inat-369060791.jpg"
+    },
+    {
+      "photo_id": 6302116,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6302116/large.jpg",
+      "observation_id": 5122741,
+      "observation_url": "https://www.inaturalist.org/observations/5122741",
+      "observed_on": "2017-02-16",
+      "place_guess": "Los Angeles, California, United States",
+      "user_login": "glmory",
+      "filename": "urtica-urens_03_inat-6302116.jpg"
+    },
+    {
+      "photo_id": 33435867,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33435867/large.jpg",
+      "observation_id": 21600044,
+      "observation_url": "https://www.inaturalist.org/observations/21600044",
+      "observed_on": "2019-03-25",
+      "place_guess": "Kosleckweg 24, Berlin, Berlin, DE",
+      "user_login": "mister_bumble",
+      "filename": "urtica-urens_04_inat-33435867.jpg"
+    },
+    {
+      "photo_id": 240741001,
+      "license": "cc-by",
+      "attribution": "(c) \u0413\u0435\u043e\u0440\u0433\u0438\u0439 \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043e\u0432 (Georgy Vinogradov), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240741001/large.jpg",
+      "observation_id": 140624118,
+      "observation_url": "https://www.inaturalist.org/observations/140624118",
+      "observed_on": "2022-10-31",
+      "place_guess": "\u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, \u041c\u043e\u0441\u043a\u0432\u0430, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "prokhozhyj",
+      "filename": "urtica-urens_05_inat-240741001.jpg"
+    }
+  ]
+}

@@ -60,6 +60,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Catch seedlings early** in fall and again in late winter — those are the two germination peaks.
 - **Bedstraw is a foraging plant** in traditional uses (roasted seeds substitute for coffee, young leaves brewed as tea, roots produce red dye) — relevant only if you're actively maintaining a small patch; otherwise removal is the standard call.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/galium-aparine/galium-aparine_01_inat-587930311.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/324788630)*
+
+![](../raw/assets/inaturalist/galium-aparine/galium-aparine_02_inat-176099067.jpeg)
+*(c) Gavin Slater, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/105015175)*
+
+![](../raw/assets/inaturalist/galium-aparine/galium-aparine_03_inat-243422154.jpg)
+*(c) Richard Littauer, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/142022208)*
+
+![](../raw/assets/inaturalist/galium-aparine/galium-aparine_04_inat-632719204.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/347050612)*
+
+![](../raw/assets/inaturalist/galium-aparine/galium-aparine_05_inat-495613769.jpg)
+*(c) Sam Kieschnick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/275902563)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/catchweed-bedstraw.md` (PN 74154)

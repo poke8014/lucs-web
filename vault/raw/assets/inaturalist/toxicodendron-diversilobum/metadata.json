@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Toxicodendron diversilobum",
+  "taxon_id": 51080,
+  "photos_taxon_id": 51080,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 9648,
+      "license": "cc-by",
+      "attribution": "(c) Franco Folini, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9648/large.jpg",
+      "observation_id": 5215,
+      "observation_url": "https://www.inaturalist.org/observations/5215",
+      "observed_on": "2008-01-26",
+      "place_guess": "San Francisco, California, United States",
+      "user_login": "folini",
+      "filename": "toxicodendron-diversilobum_01_inat-9648.jpg"
+    },
+    {
+      "photo_id": 454324728,
+      "license": "cc-by",
+      "attribution": "(c) Matt Benjamin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454324728/large.jpeg",
+      "observation_id": 253705932,
+      "observation_url": "https://www.inaturalist.org/observations/253705932",
+      "observed_on": "2024-11-30",
+      "place_guess": "Whittemore Gulch Trail, Redwood City, CA, US",
+      "user_login": "mattbsf",
+      "filename": "toxicodendron-diversilobum_02_inat-454324728.jpeg"
+    },
+    {
+      "photo_id": 482986998,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482986998/large.jpg",
+      "observation_id": 268681104,
+      "observation_url": "https://www.inaturalist.org/observations/268681104",
+      "observed_on": "2025-04-04",
+      "place_guess": "Almaden Quicksilver County Park, San Jose, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "toxicodendron-diversilobum_03_inat-482986998.jpg"
+    },
+    {
+      "photo_id": 379100486,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/379100486/large.jpeg",
+      "observation_id": 214476181,
+      "observation_url": "https://www.inaturalist.org/observations/214476181",
+      "observed_on": "2024-05-04",
+      "place_guess": "Cowichan Valley, British Columbia, Canada",
+      "user_login": "shanebustapbj",
+      "filename": "toxicodendron-diversilobum_04_inat-379100486.jpeg"
+    },
+    {
+      "photo_id": 524190744,
+      "license": "cc-by",
+      "attribution": "(c) Simone Littledale, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/524190744/large.jpg",
+      "observation_id": 291346365,
+      "observation_url": "https://www.inaturalist.org/observations/291346365",
+      "observed_on": "2025-06-20",
+      "place_guess": "Victoria, BC V9E 2C8, Canada",
+      "user_login": "simonele",
+      "filename": "toxicodendron-diversilobum_05_inat-524190744.jpg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Euphorbia maculata",
+  "taxon_id": 58893,
+  "photos_taxon_id": 58893,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 411858,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/411858/large.jpg",
+      "observation_id": 330468,
+      "observation_url": "https://www.inaturalist.org/observations/330468",
+      "observed_on": "2012-08-03",
+      "place_guess": "Beltsville, Maryland, United States",
+      "user_login": "sdroege",
+      "filename": "euphorbia-maculata_01_inat-411858.jpg"
+    },
+    {
+      "photo_id": 214338323,
+      "license": "cc-by",
+      "attribution": "(c) Eric Knight, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214338323/large.jpeg",
+      "observation_id": 126013226,
+      "observation_url": "https://www.inaturalist.org/observations/126013226",
+      "observed_on": "2022-07-12",
+      "place_guess": "Columbus, GA, USA",
+      "user_login": "knightericm",
+      "filename": "euphorbia-maculata_02_inat-214338323.jpeg"
+    },
+    {
+      "photo_id": 110885052,
+      "license": "cc-by",
+      "attribution": "(c) Thomas Mesaglio, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110885052/large.jpeg",
+      "observation_id": 68475508,
+      "observation_url": "https://www.inaturalist.org/observations/68475508",
+      "observed_on": "2021-01-23",
+      "place_guess": "along Duck River and edge of Everley Park, boundary between Chester Hill and Auburn, Sydney, New South Wales",
+      "user_login": "thebeachcomber",
+      "filename": "euphorbia-maculata_03_inat-110885052.jpeg"
+    },
+    {
+      "photo_id": 291498785,
+      "license": "cc-by",
+      "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/291498785/large.jpg",
+      "observation_id": 168216379,
+      "observation_url": "https://www.inaturalist.org/observations/168216379",
+      "observed_on": "2023-06-18",
+      "place_guess": "Naval Base Ventura County - Point Mugu, Oxnard, CA, US",
+      "user_login": "chilipossum",
+      "filename": "euphorbia-maculata_04_inat-291498785.jpg"
+    },
+    {
+      "photo_id": 74314351,
+      "license": "cc-by",
+      "attribution": "(c) Astra, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/74314351/large.jpeg",
+      "observation_id": 46858660,
+      "observation_url": "https://www.inaturalist.org/observations/46858660",
+      "observed_on": "2020-05-22",
+      "place_guess": "Petah Tikva, Israel",
+      "user_login": "astra_the_dragon",
+      "filename": "euphorbia-maculata_05_inat-74314351.jpeg"
+    }
+  ]
+}

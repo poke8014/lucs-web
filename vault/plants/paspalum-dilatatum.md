@@ -58,6 +58,25 @@ Default method: [`dig_rhizome_complete`](../synthesis/invasive-removal-methods.m
 - **Don't use soil from infested sites** to fill low or bare lawn spots.
 - **In infested areas, delay or minimize spring aeration** — small open holes are where new seedlings establish.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/paspalum-dilatatum/paspalum-dilatatum_01_inat-419371498.jpeg)
+*(c) Nathan Aaron, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/235783020)*
+
+![](../raw/assets/inaturalist/paspalum-dilatatum/paspalum-dilatatum_02_inat-524766006.jpg)
+*(c) Cleveland Powell, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/291655558)*
+
+![](../raw/assets/inaturalist/paspalum-dilatatum/paspalum-dilatatum_03_inat-182177289.jpeg)
+*(c) Saryu Mae 前 朝琉, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/108226087)*
+
+![](../raw/assets/inaturalist/paspalum-dilatatum/paspalum-dilatatum_04_inat-341102503.jpg)
+*(c) Golfopolikayak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/194105060)*
+
+![](../raw/assets/inaturalist/paspalum-dilatatum/paspalum-dilatatum_05_inat-223403099.jpg)
+*(c) Joseph McPhail, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/131290249)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/dallisgrass.md` (PN 7491)

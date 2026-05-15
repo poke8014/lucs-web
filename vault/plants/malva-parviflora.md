@@ -63,6 +63,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Establish dense competitive plantings** — mallow seedlings struggle under shade.
 - **Don't expect glyphosate to fix this** — plan mechanical removal as the primary tactic in residential settings.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/malva-parviflora/malva-parviflora_01_inat-320032422.jpg)
+*(c) Ryan Donnelly, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/183438050)*
+
+![](../raw/assets/inaturalist/malva-parviflora/malva-parviflora_02_inat-1707199.JPG)
+*(c) Jesse Rorabaugh, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/1381552)*
+
+![](../raw/assets/inaturalist/malva-parviflora/malva-parviflora_03_inat-171150429.jpg)
+*(c) Michele Jones, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/102393785)*
+
+![](../raw/assets/inaturalist/malva-parviflora/malva-parviflora_04_inat-320032449.jpg)
+*(c) Ryan Donnelly, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/183438050)*
+
+![](../raw/assets/inaturalist/malva-parviflora/malva-parviflora_05_inat-320032470.jpg)
+*(c) Ryan Donnelly, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/183438050)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/mallows.md` (PN 74127) — covers *M. parviflora* and *M. neglecta* jointly.

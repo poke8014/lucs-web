@@ -64,6 +64,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Aerate compacted sites and plant competitive vegetation** — puncturevine retreats from well-vegetated soil.
 - **5-year seedbank** means persistent monitoring is the long-term play; not a single-season fix.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/tribulus-terrestris/tribulus-terrestris_01_inat-596736893.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/329226697)*
+
+![](../raw/assets/inaturalist/tribulus-terrestris/tribulus-terrestris_02_inat-152619752.jpeg)
+*(c) Brandon Corder, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/92199614)*
+
+![](../raw/assets/inaturalist/tribulus-terrestris/tribulus-terrestris_03_inat-21756256.jpg)
+*(c) Cheng-Tao Lin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/14596290)*
+
+![](../raw/assets/inaturalist/tribulus-terrestris/tribulus-terrestris_04_inat-61947231.jpg)
+*(c) Robert Taylor, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/39047784)*
+
+![](../raw/assets/inaturalist/tribulus-terrestris/tribulus-terrestris_05_inat-165615896.jpg)
+*(c) pavlaki1968, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/99359630)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/puncturevine.md` (PN 74128)

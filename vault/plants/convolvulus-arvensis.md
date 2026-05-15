@@ -56,6 +56,25 @@ Default method: [`dig_rhizome_complete`](../synthesis/invasive-removal-methods.m
 - **No single-season fix exists.** Plan an **integrated multi-year program**: prevent seed production → reduce stored carbohydrates by deep tillage / repeated cutting → shade-out with competitive plantings or mulch → herbicide on regrowth. Constant vigilance is the work.
 - **Bindweed grows through landscape fabric** if there are holes for plants or gaps at the edges. Plan the cover layout assuming the bindweed will find every seam.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/convolvulus-arvensis/convolvulus-arvensis_01_inat-555587287.jpg)
+*(c) William Stephens, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/307980960)*
+
+![](../raw/assets/inaturalist/convolvulus-arvensis/convolvulus-arvensis_02_inat-284426169.jpeg)
+*(c) Sylvain Gérard, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/164388185)*
+
+![](../raw/assets/inaturalist/convolvulus-arvensis/convolvulus-arvensis_03_inat-309447350.jpeg)
+*(c) crseaquist, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/177888155)*
+
+![](../raw/assets/inaturalist/convolvulus-arvensis/convolvulus-arvensis_04_inat-46974379.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/30079756)*
+
+![](../raw/assets/inaturalist/convolvulus-arvensis/convolvulus-arvensis_05_inat-193794725.jpeg)
+*(c) Michael Warner, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/114789483)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/field-bindweed.md` (PN 7462)

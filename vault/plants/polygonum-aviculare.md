@@ -58,6 +58,25 @@ Default method: [`hand_pull`](../synthesis/invasive-removal-methods.md#hand_pull
 - **Knotweed is a host for parasitic dodder (*Cuscuta*)** and some plant diseases (powdery mildew) — extra reason to keep it out of vegetable beds.
 - **Flowers attract some predatory beneficial insects** — minor ecological benefit, not enough to outweigh the weediness in residential settings.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/polygonum-aviculare/polygonum-aviculare_01_inat-86809109.jpg)
+*(c) Sam Kieschnick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/54553951)*
+
+![](../raw/assets/inaturalist/polygonum-aviculare/polygonum-aviculare_02_inat-610315649.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/335905058)*
+
+![](../raw/assets/inaturalist/polygonum-aviculare/polygonum-aviculare_03_inat-313702661.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/180129191)*
+
+![](../raw/assets/inaturalist/polygonum-aviculare/polygonum-aviculare_04_inat-50835648.jpeg)
+*(c) Alexis Tinker-Tsavalas, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/32414248)*
+
+![](../raw/assets/inaturalist/polygonum-aviculare/polygonum-aviculare_05_inat-156705262.jpeg)
+*(c) florawhite, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/94434837)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/common-knotweed.md` (PN 7484)

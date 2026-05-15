@@ -60,6 +60,25 @@ Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_tap
 - **Keep curious children away from pokeweed berries** — they're attractive but toxic. Pets are generally less interested but should still be supervised around pokeweed.
 - **Don't try to eat pokeweed** unless you're following a tested traditional recipe with multiple blanchings — raw or undercooked plant material is genuinely dangerous.
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/phytolacca-americana/phytolacca-americana_01_inat-53608908.jpg)
+*(c) Sandy Wolkenberg, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/34090760)*
+
+![](../raw/assets/inaturalist/phytolacca-americana/phytolacca-americana_02_inat-232616939.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/136311622)*
+
+![](../raw/assets/inaturalist/phytolacca-americana/phytolacca-americana_03_inat-433258660.jpeg)
+*(c) sblumen, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/243003319)*
+
+![](../raw/assets/inaturalist/phytolacca-americana/phytolacca-americana_04_inat-610283649.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/335889591)*
+
+![](../raw/assets/inaturalist/phytolacca-americana/phytolacca-americana_05_inat-476887980.jpg)
+*(c) mel letterman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/265491487)*
+
 ## Sources
 
 - UC IPM Pest Note: `raw/articles/ucipm-residential/pokeweed.md` (PN 74173)

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Portulaca oleracea",
+  "taxon_id": 1571188,
+  "photos_taxon_id": 1571188,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-15",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 52692762,
+      "license": "cc-by",
+      "attribution": "(c) \u0413\u0435\u043e\u0440\u0433\u0438\u0439 \u0412\u0438\u043d\u043e\u0433\u0440\u0430\u0434\u043e\u0432 (Georgy Vinogradov), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52692762/large.jpg",
+      "observation_id": 33545414,
+      "observation_url": "https://www.inaturalist.org/observations/33545414",
+      "observed_on": "2019-09-28",
+      "place_guess": "\u041a\u0438\u0442\u0430\u0439-\u0433\u043e\u0440\u043e\u0434, \u041c\u043e\u0441\u043a\u0432\u0430, \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "prokhozhyj",
+      "filename": "portulaca-oleracea_01_inat-52692762.jpg"
+    },
+    {
+      "photo_id": 50733034,
+      "license": "cc-by",
+      "attribution": "(c) Michele Jones, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50733034/large.jpeg",
+      "observation_id": 32352393,
+      "observation_url": "https://www.inaturalist.org/observations/32352393",
+      "observed_on": "2019-09-06",
+      "place_guess": "University, Riverside, CA 92507, USA",
+      "user_login": "beetle_mch",
+      "filename": "portulaca-oleracea_02_inat-50733034.jpeg"
+    },
+    {
+      "photo_id": 322169791,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322169791/large.jpg",
+      "observation_id": 184555384,
+      "observation_url": "https://www.inaturalist.org/observations/184555384",
+      "observed_on": "2023-09-23",
+      "place_guess": "Meadowbrook Blvd, Fort Worth, TX, US",
+      "user_login": "sambiology",
+      "filename": "portulaca-oleracea_03_inat-322169791.jpg"
+    },
+    {
+      "photo_id": 596741354,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/596741354/large.jpg",
+      "observation_id": 329228821,
+      "observation_url": "https://www.inaturalist.org/observations/329228821",
+      "observed_on": "2023-08-31",
+      "place_guess": "Nelas, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "portulaca-oleracea_04_inat-596741354.jpg"
+    },
+    {
+      "photo_id": 159162375,
+      "license": "cc-by",
+      "attribution": "(c) caymanmatt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159162375/large.jpg",
+      "observation_id": 95846501,
+      "observation_url": "https://www.inaturalist.org/observations/95846501",
+      "observed_on": "2021-09-17",
+      "place_guess": "Cayman Brac, KY",
+      "user_login": "caymanmatt",
+      "filename": "portulaca-oleracea_05_inat-159162375.jpg"
+    }
+  ]
+}
