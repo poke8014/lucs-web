@@ -93,6 +93,35 @@ export default function CleanupPlanPage() {
     setPicks([])
   }
 
+  const STEP_ORDER: Step[] = ['input', 'confirm', 'plan']
+
+  function canNavigateTo(target: Step): boolean {
+    if (target === step) return false
+    const targetIdx = STEP_ORDER.indexOf(target)
+    const currentIdx = STEP_ORDER.indexOf(step)
+    if (targetIdx < currentIdx) return true
+    if (targetIdx === currentIdx + 1) {
+      if (step === 'input') return picks.length > 0
+      if (step === 'confirm') return keptPlants.length > 0
+    }
+    return false
+  }
+
+  function goToStep(target: Step) {
+    if (target === 'confirm' && step === 'input') {
+      startConfirm()
+      return
+    }
+    if (target === 'input') {
+      setPicks(
+        rows
+          .filter((r) => r.status !== 'dropped' && r.selectedSlug)
+          .map((r) => ({ slug: r.selectedSlug!, matchedOn: r.rawInput })),
+      )
+    }
+    setStep(target)
+  }
+
   return (
     <main className="pointer-events-auto absolute inset-0 overflow-y-auto">
       <div className="mx-auto max-w-4xl px-6 py-6 sm:py-10">
@@ -122,7 +151,11 @@ export default function CleanupPlanPage() {
         </p>
       </header>
 
-      <Stepper current={step} />
+      <Stepper
+        current={step}
+        onNavigate={goToStep}
+        canNavigateTo={canNavigateTo}
+      />
 
       {step === 'input' && (
         <InputSection
@@ -137,7 +170,7 @@ export default function CleanupPlanPage() {
           rows={rows}
           onPick={pickCandidate}
           onDrop={dropRow}
-          onBack={() => setStep('input')}
+          onBack={() => goToStep('input')}
           onContinue={() => setStep('plan')}
           keptCount={keptPlants.length}
         />
@@ -156,7 +189,15 @@ export default function CleanupPlanPage() {
   )
 }
 
-function Stepper({ current }: { current: Step }) {
+function Stepper({
+  current,
+  onNavigate,
+  canNavigateTo,
+}: {
+  current: Step
+  onNavigate: (target: Step) => void
+  canNavigateTo: (target: Step) => boolean
+}) {
   const steps: { id: Step; label: string }[] = [
     { id: 'input', label: '1. Input' },
     { id: 'confirm', label: '2. Confirm' },
@@ -164,19 +205,29 @@ function Stepper({ current }: { current: Step }) {
   ]
   return (
     <ol className="mb-6 flex gap-2 text-sm">
-      {steps.map((s) => (
-        <li
-          key={s.id}
-          className={
-            'rounded-full border px-3 py-1 ' +
-            (current === s.id
-              ? 'border-[#2a1d10] bg-[#2a1d10] text-[#f7e9c9]'
-              : 'border-[#2a1d10]/25 bg-[#fff6df]/80 text-[#2a1d10]/60')
-          }
-        >
-          {s.label}
-        </li>
-      ))}
+      {steps.map((s) => {
+        const isCurrent = s.id === current
+        const clickable = canNavigateTo(s.id)
+        const base = 'rounded-full border px-3 py-1 transition '
+        const style = isCurrent
+          ? 'border-[#2a1d10] bg-[#2a1d10] text-[#f7e9c9]'
+          : clickable
+            ? 'border-[#2a1d10]/40 bg-[#fff6df]/80 text-[#2a1d10]/75 cursor-pointer hover:border-[#2a1d10] hover:text-[#2a1d10]'
+            : 'border-[#2a1d10]/25 bg-[#fff6df]/80 text-[#2a1d10]/40 cursor-not-allowed'
+        return (
+          <li key={s.id}>
+            <button
+              type="button"
+              onClick={() => clickable && onNavigate(s.id)}
+              disabled={!clickable}
+              aria-current={isCurrent ? 'step' : undefined}
+              className={base + style}
+            >
+              {s.label}
+            </button>
+          </li>
+        )
+      })}
     </ol>
   )
 }
