@@ -340,9 +340,9 @@ function ConfirmRow({
           <div>
             <p className="font-mono text-sm">{row.rawInput}</p>
             <p className="mt-1 text-sm text-amber-900">
-              No match in the Cal-IPC top-tier list (137 plants). It may be a
-              native, a non-native that&rsquo;s not flagged as invasive, or
-              outside our coverage so far.
+              No match in our weed catalog (158 plants — Cal-IPC invasives +
+              UC IPM residential weeds). It may be a native, a non-native
+              that&rsquo;s not flagged, or outside our coverage so far.
             </p>
           </div>
           <button
