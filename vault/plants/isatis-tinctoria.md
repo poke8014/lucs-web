@@ -1,13 +1,14 @@
 ---
 type: plant
 title: Isatis tinctoria (dyer's woad)
-aliases: [dyer's woad]
-tags: [invasive, calipc-moderate, vegetative-spreader]
-status: stub
+aliases: [dyer's woad, Marlahan mustard]
+tags: [invasive, calipc-moderate, vegetative-spreader, residential-weed]
+status: draft
 sources:
   - raw/articles/calipc/isatis-tinctoria-profile.md
   - raw/articles/calipc/isatis-tinctoria-paf.md
-last_updated: 2026-05-08
+  - raw/articles/ucipm-residential/dyers-woad.md
+last_updated: 2026-05-14
 
 scientific_name: Isatis tinctoria
 common_names: [dyer's woad]
@@ -36,7 +37,38 @@ invasive:
 
 Isatis tinctoria (dyer’s woad) is a winter biennial or short-lived annual herb/forb (family Brassicaceae). Plants are highly competitive and often grow in dense colonies. It can be found distributed among the Klamath, Cascade, and North Coast Ranges, northern & central Sierra Nevada, Modoc Plateau, and northern San Francisco Bay region. Dyer’s woad is a noxious weed of rangeland, agronomic crops, and undisturbed natural areas.
 
-> ⚠ Stub page — generated from Cal-IPC profile + PAF only. Identify / Remove / Prevent sections will be populated once UC Davis WRIC management notes and photos are ingested.
+## Identify
+
+- **Form:** biennial / short-lived perennial mustard, 1–4 ft tall (usually under 3 ft). Rosette in year 1; bolts, flowers, and seeds in year 2.
+- **Leaves (key field ID):** **prominent whitish midvein on the upper side of blue-green leaf blades** — distinctive and useful for early ID before flowering.
+- **Flowers:** small bright-yellow mustard flowers in May–June.
+- **Seedpods (silicles):** **1/2 to 3/4 in long**, **gradually turn from yellowish-green to purplish-brown or black at maturity**. Distinctive — most mustards have linear siliques, not these short dark drooping pods.
+- **Taproot:** **5+ ft long.** With the rosette habit close to soil, plants severed at ground level **regrow** from the root crown.
+- **Reproduction:** seed only; 350–500+ seeds per plant. Seeds **viable 8+ years in soil** when protected inside silicles.
+- **Range in California:** introduced in Scott Valley (Siskiyou County), where it's called "Marlahan mustard." Now established in the Klamath, Cascade, and North Coast Ranges, northern/central Sierra Nevada, Modoc Plateau, and northern San Francisco Bay. Out-competes native grasses in northern California rangeland.
+
+## Remove
+
+Default method: [`dig_taproot`](../synthesis/invasive-removal-methods.md#dig_taproot).
+
+- **Hand-pull or dig individual plants** in small infestations. **Stems break off when pulling** because of the deep taproot — hand-hoeing through the crown is often more effective than pulling.
+- **Commit to 2–3 years of repeated removal** in any infested area. Continue until the seedbank meaningfully depletes (8+ year viability).
+- **If flowers or seedpods are present**, uproot, bag, and remove from site. Some seeds germinate even from green pods.
+- **Mowing** delays flowering but **plants typically resprout** — need 1–2 more cuts before they finally fail to set seed.
+- **Solar tenting** (immersing seed-bearing skeleton plants in water-filled plastic bags for several weeks in summer) inactivates seeds at remote infestations where you can't transport debris off-site.
+- **Postemergent herbicides** (apply before flowering — applications during flowering can still allow some viable seed):
+  - **2,4-D:** 2–3 qt/acre on seedlings or rosettes, or 1% solution spot-treat. Not soil-active. Doesn't inhibit seed set if applied to flowering plants.
+  - **Chlorsulfuron** (licensed-applicator only): more effective than 2,4-D; both pre- and post-emergence activity. 1–1.33 oz product/acre best at preemergence-to-rosette.
+  - **2,4-D + chlorsulfuron** combination is highly effective.
+  - **Glyphosate** controls dyer's woad but is non-selective; broadcast use kills surrounding vegetation. Spot-treat with a marking dye to track coverage in large areas.
+- **California-specific note:** fall treatments work well in other states but **less so in California** due to dry late-season weather that limits herbicide uptake.
+
+## Prevent
+
+- **Treat dyer's woad as a stop-spread priority in northern California.** Small new infestations are far easier to eradicate than established stands. A B-listed California noxious weed.
+- **Monitor and sanitize equipment, hay bales, grain lots, and pack-animal feed** moving from infested to clean areas — the major spread vectors. Increasingly common in forested sites via contaminated feed brought in for pack animals.
+- **Most livestock and wildlife don't graze dyer's woad** — no grazing-based control option.
+- **A pathogenic rust fungus is under research as a biocontrol** — reduces vigor and seed production but won't eradicate.
 
 ## Why it's a problem
 
@@ -99,4 +131,5 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 
 - Profile: `raw/articles/calipc/isatis-tinctoria-profile.md`
 - PAF: `raw/articles/calipc/isatis-tinctoria-paf.md`
-- Dataset: [[sources/calipc]]
+- UC IPM Pest Note: `raw/articles/ucipm-residential/dyers-woad.md` (PN 74175)
+- Datasets: [[sources/calipc]], [[sources/ucipm-residential]]

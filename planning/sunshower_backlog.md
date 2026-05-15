@@ -2,7 +2,7 @@
 
 Coarse-grained task tracker for the [Sunshower project](sunshower.md). Domain-level entries, not individual tickets. The goal is multi-agent / multi-session coordination — one place to see what's done, in flight, queued, and blocked.
 
-**Last updated:** 2026-05-14 — Layer C landed on `feat/cleanup-plan-notes-refresh` (WRIC + UC IPM-grounded `removal_notes[]` refresh across all 38 annotated plants — herbicide dilutions, timing windows, what-doesn't-work warnings). Scrapaholic retirement closed out — `/scrapaholic` fully removed from `main`, archive lives on the `archive/scrapaholic` branch.
+**Last updated:** 2026-05-14 — UC IPM Residential Pest Notes full rollout landed on `feat/ucipm-weed-ingest`: 21 new residential-weed wiki pages plus 1 Cal-IPC stub upgrade (dyer's woad). Cleanup-plan scope expansion ([[feedback-sunshower-weed-scope]]) implemented. Layer C of the prior `feat/cleanup-plan-notes-refresh` PR closed out on 2026-05-14 (PR #9).
 
 ## Conventions
 
@@ -49,6 +49,19 @@ Two-tier strategy: **research photos** (already in `vault/raw/assets/calipc/` fr
 - ✅ **iNat partial top-up** — added `--allow-duplicate-users` flag to `vault/scripts/fetch_inaturalist_photos.py`. Two changes lifted the 19 stuck slugs: (1) relax the per-photographer dedup, (2) merge `popular=true` results with the unfiltered research-grade query (the original fetch only fell back to unfiltered when popular was empty — for partials, popular returned a few obs and we never reached the broader pool). Idempotent on `photo_id`. All 19 reached 5/5; 137/137 plants now at full coverage. (2026-05-09)
 - 📋 Wikimedia Commons fallback — for plants where iNat top-up still leaves gaps (genuine CC photographer scarcity). Wikimedia tends to have consistently clean licensing and good botanical reference shots; smaller but complementary coverage to iNat.
 - 🧊 Photo attribution UI surface — when users see a photo in the app, the photographer name + license needs to render. Out of scope until UI work begins; flagging now so the data layer captures attribution from the start (already captured in iNat `metadata.json`).
+
+## Common weed ingest (UC IPM Residential Pest Notes)
+
+Project-level scope expansion (2026-05-14): cleanup-plan covers **plants gardeners want out of their yard**, not just Cal-IPC-rated invasives. The average gardener doesn't sort by invasive vs. not. See [vault/sources/ucipm-residential.md](../vault/sources/ucipm-residential.md) for the dataset meta-page.
+
+- ✅ Scrape pipeline + 28 Pest Notes → `vault/raw/articles/ucipm-residential/`. 10 overlap with Cal-IPC plants (already cited inline in [[plants/cytisus-scoparius]] et al.); 22 cover residential weeds not in the Cal-IPC inventory. (2026-05-13)
+- ✅ Scrape pipeline + 7 cross-cutting management docs → `vault/raw/articles/ucipm-general/` (soil solarization, lawn-weed mgmt, landscape weed mgmt, woody-weed invaders, rose-bed weeds, invasive-plants intro). (2026-05-13)
+- ✅ Source meta-page [[sources/ucipm-residential]] documenting scope, document structure, citation, and nativity-handling for non-Cal-IPC weeds. (2026-05-14)
+- ✅ **Pilot wiki ingest** — first 5 residential weeds (dandelion, field-bindweed, common-purslane, mallows, spotted-spurge) covering distinct biologies. Validated the template before the full rollout. (2026-05-14)
+- ✅ **Full wiki ingest** — 16 remaining residential weeds + native-reference poison-oak (21 total new plant pages: annual-bluegrass, burning/stinging-nettles, catchweed-bedstraw, chickweeds, clovers, common-groundsel, common-knotweed, dallisgrass, dodder, green-kyllinga, kikuyugrass, plantains, pokeweed, puncturevine, russian-thistle, poison-oak). Plus dyer's woad (*Isatis tinctoria* — Cal-IPC stub upgraded to draft with UC IPM management content). (2026-05-14)
+- 📋 **Sync new weeds to `plants.json`** — same Layer A/B/C wiring as Cal-IPC plants: `removal_method`, `removal_notes[]`, `removal_timing_window`, `requires_followup_years`, `safety_flags[]`. Picker DB grows from 137 to ~158 plants once wired in (137 Cal-IPC + 21 new non-Cal-IPC; dyer's woad already counted in 137). May require a new `removal_method` enum value for dodder (parasitic plant — different model than the existing methods).
+- 📋 **iNat photo pull for new weeds** — separate pass once `plants.json` sync starts; same recipe as the Cal-IPC 137-plant pull. Wikimedia Commons fallback may be more practical for some cosmopolitan weeds (dandelion, chickweed, plantain).
+- 🧊 **Cross-cutting concepts page: "disturbed-soil weeds — what they're telling you"** — Russian thistle, puncturevine, knotweed, kikuyugrass, dyer's woad, dodder all have UC IPM management notes that point to upstream soil conditions (compaction, bare disturbed soil) as the fix. Pattern noted in the 2026-05-14 rollout log; promote to a concepts page when a few more plants accumulate.
 
 ## Native plant ingest
 

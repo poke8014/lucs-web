@@ -151,6 +151,34 @@ The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/ca
 - [[plants/washingtonia-robusta]] — Washingtonia robusta (Mexican fan palm)
 - [[plants/zostera-japonica]] — Zostera japonica (dwarf eelgrass)
 
+### Residential weeds (non-Cal-IPC)
+
+Common garden weeds that aren't on the Cal-IPC inventory but show up routinely in California yards. Ingested from [[sources/ucipm-residential]] under the cleanup-plan scope expansion ([[feedback-sunshower-weed-scope]]). Treated as `nativity: invasive` for picker purposes (`invasive:` Cal-IPC frontmatter block omitted — no PAF data). Native exception: poison-oak carries `nativity: native` — included because homeowners routinely remove it for safety reasons, but it's a valuable native plant in wildland contexts.
+
+- [[plants/convolvulus-arvensis]] — Convolvulus arvensis (field bindweed)
+- [[plants/cuscuta-pentagona]] — Cuscuta pentagona (field dodder) — covers other native *Cuscuta* spp. + Japanese dodder
+- [[plants/euphorbia-maculata]] — Euphorbia maculata (spotted spurge) — covers 6 congeneric weed spurges
+- [[plants/galium-aparine]] — Galium aparine (catchweed bedstraw / cleavers)
+- [[plants/kyllinga-brevifolia]] — Kyllinga brevifolia (green kyllinga)
+- [[plants/malva-parviflora]] — Malva parviflora (little mallow / cheeseweed) — covers *M. neglecta* as a congener
+- [[plants/paspalum-dilatatum]] — Paspalum dilatatum (dallisgrass)
+- [[plants/pennisetum-clandestinum]] — Pennisetum clandestinum (kikuyugrass)
+- [[plants/phytolacca-americana]] — Phytolacca americana (American pokeweed)
+- [[plants/plantago-major]] — Plantago major (broadleaf plantain) — covers *P. lanceolata* (buckhorn plantain)
+- [[plants/poa-annua]] — Poa annua (annual bluegrass)
+- [[plants/polygonum-aviculare]] — Polygonum aviculare (common knotweed)
+- [[plants/portulaca-oleracea]] — Portulaca oleracea (common purslane)
+- [[plants/salsola-tragus]] — Salsola tragus (Russian thistle / tumbleweed)
+- [[plants/senecio-vulgaris]] — Senecio vulgaris (common groundsel)
+- [[plants/stellaria-media]] — Stellaria media (common chickweed) — covers *Cerastium* spp. (sticky and mouseear chickweed)
+- [[plants/taraxacum-officinale]] — Taraxacum officinale (dandelion)
+- [[plants/toxicodendron-diversilobum]] — Toxicodendron diversilobum (Pacific poison-oak) — **native; included for safety-removal reference**
+- [[plants/tribulus-terrestris]] — Tribulus terrestris (puncturevine / goathead)
+- [[plants/trifolium-repens]] — Trifolium repens (white clover) — covers *Medicago* spp. (black medic, California burclover) and *Melilotus* spp. (sweetclovers)
+- [[plants/urtica-urens]] — Urtica urens (burning nettle) — covers *U. dioica* (stinging nettle, native)
+
+Dyer's woad (*Isatis tinctoria*) is in the Cal-IPC list above but has also been upgraded with UC IPM Pest Note management content as part of this rollout — see [[plants/isatis-tinctoria]].
+
 ## Pollinators
 *(none yet)*
 
@@ -197,7 +225,7 @@ The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/ca
 ### Datasets
 - [[sources/calipc]] — California Invasive Plant Council Inventory. 137 top-tier plants ingested (44 High + 93 Moderate). Profile + PAF documents at `raw/articles/calipc/`. Deferred: Limited tier, Watch tier (PRE), photos.
 - [[sources/wric]] — UC Davis Weed Research and Information Center *Weed Reports*. 274 PDFs covering A–Z (no K/Q/Y) natural-area weeds, scraped via firecrawl to `raw/articles/wric/`. Canonical management-method source; book reference DiTomaso et al. 2013.
-- UC IPM Pest Notes (weed-relevant subset, 34 pages, ingested 2026-05-11) — UC Statewide IPM Program home-and-landscape weed series. 28 per-species pages at `raw/articles/ucipm-residential/`, 6 cross-cutting method pages at `raw/articles/ucipm-general/`. Residential-focused complement to WRIC's natural-areas focus. Source meta-page deferred (no `sources/ucipm.md` yet).
+- [[sources/ucipm-residential]] — UC Statewide IPM Program home-and-landscape weed series (28 per-species Pest Notes + 7 cross-cutting management documents). Residential-focused complement to WRIC. Unlocks the cleanup-plan scope expansion: "plants gardeners want gone" beyond Cal-IPC invasives.
 
 ## Synthesis
 - [[synthesis/calipc-top-tier-overview]] — Cross-cutting patterns across the 137 Cal-IPC top-tier invasives. Rating distribution, spread mechanism frequency, habitat distribution, the foothills-priority subset (~86 plants for Luc's South Bay yard).
