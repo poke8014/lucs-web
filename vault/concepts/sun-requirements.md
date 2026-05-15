@@ -4,8 +4,11 @@ title: Sun Requirements
 aliases: ["sun exposure", "full sun", "part sun", "shade", "sun levels"]
 tags: [sun, plant-selection, plant-care, general-gardening]
 status: draft
-sources: [raw/articles/design-a-garden-layout.md, raw/articles/flower-gardening-for-beginners.md]
-last_updated: 2026-05-08
+sources:
+  - raw/articles/design-a-garden-layout.md
+  - raw/articles/flower-gardening-for-beginners.md
+  - "raw/articles/How to Determine Sun Exposure In Your Yard.md"
+last_updated: 2026-05-15
 ---
 
 # Sun Requirements
@@ -25,6 +28,20 @@ The terminology is consistent across the sources ingested so far:
 | **Shade** | ≤ 3 hours | "Full shade" sometimes means *no* direct sun but bright indirect light. "Deep shade" means low light all day — far fewer plants tolerate this. |
 
 These thresholds are **rule-of-thumb** — published plant tags use the same vocabulary but the boundaries blur in practice. A "part sun" plant in a hot inland zone may need afternoon shade; the same plant on the foggy coast may handle full sun.
+
+## A 5-tier refinement (nursery vocabulary)
+
+US nurseries — especially in hotter climates like Arizona and inland California — often use a finer 5-category vocabulary on plant tags that splits the part-sun middle by *when* the sun arrives and whether trees soften it:
+
+| Label | What it means |
+|---|---|
+| **Full sun** | Direct sun most of the day. Equivalent to ≥6h. |
+| **Morning sun, afternoon shade** | Direct sun before midday, then shaded. Easier on plants than the reverse. |
+| **Morning shade, afternoon sun** | Shaded morning, direct sun in the heat of the day. The harshest "part sun." |
+| **Dappled shade** | Sun filtered through a tree canopy that sways/breaks — bright but never direct. |
+| **Full shade** | Little to no direct sun all day; often bright indirect light, not deep gloom. |
+
+For plant frontmatter, the 3-tier `full | part | shade` schema is sufficient. The 5-tier vocabulary matters in **two places**: interpreting US nursery plant tags accurately, and matching plants to inland-California positions where the morning-vs-afternoon distinction can be the difference between thriving and scorching.
 
 ## What "direct sun" means
 
@@ -48,3 +65,4 @@ The schema's plant `sun:` field uses values `full | part | shade`, matching the 
 
 - [[sources/design-a-garden-layout]] — Amy Fedele (2023). Introduces sun-mapping during site inventory; defines full sun (≥6h) and full shade (<3h).
 - [[sources/flower-gardening-for-beginners]] — Amy Fedele (2020). Adds part-sun (3-6h) middle category. Otherwise consistent.
+- [[sources/summerwinds-sun-exposure]] — SummerWinds Nursery (Arizona). Source of the 5-tier nursery vocabulary; reinforces hot-climate practical handling of morning-vs-afternoon sun.

@@ -1,11 +1,14 @@
 ---
 type: concept
 title: Soil Basics
-aliases: ["soil types", "soil texture", "soil pH", "soil testing"]
+aliases: ["soil types", "soil texture", "soil pH", "soil testing", "ericaceous", "calciole", "calcifuge"]
 tags: [soil, plant-selection, plant-care, general-gardening]
-status: stub
-sources: [raw/articles/flower-gardening-for-beginners.md]
-last_updated: 2026-05-07
+status: draft
+sources:
+  - raw/articles/flower-gardening-for-beginners.md
+  - "raw/articles/Soil pH level explained.md"
+  - "raw/articles/Gardening for beginners.md"
+last_updated: 2026-05-15
 ---
 
 # Soil Basics
@@ -28,14 +31,40 @@ For California natives specifically, **sharp drainage matters more than richness
 
 ## Soil pH
 
-Soil pH is measured on a 0-14 scale; 7 is neutral, below 7 is acidic, above 7 is alkaline. Most garden plants prefer **6.0-7.0** (slightly acidic to neutral), but plant tolerances vary widely.
+Soil pH is measured on a 0-14 scale; 7 is neutral, below 7 is acidic, above 7 is alkaline. Most garden plants prefer **6.0-7.0** (slightly acidic to neutral), but plant tolerances vary widely. Most temperate-region soils fall between roughly 4.5 and 8.
 
-Test options:
-- **Home pH kit** — quick reading at the bench. Adequate for relative comparisons.
+### Plant adaptation vocabulary
+
+Plants have specialized over evolutionary time for particular pH ranges, and the corresponding terminology shows up on plant tags and gardening books:
+
+- **Ericaceous / calcifuge** — adapted to acidic soils; struggle on alkaline soils. Examples: rhododendrons, camellias, heathers, blueberries.
+- **Calciole** — adapted to alkaline / lime-rich soils; struggle on acid soils. Examples: lavender, lilac, honeysuckle, clematis.
+
+The competitive advantage: by specializing for extreme soils, these plants have fewer competitors in the niches they occupy.
+
+### Recognizing pH mismatch
+
+A plant in the wrong pH soil shows it. Common signs:
+- **Chlorosis** (yellowing leaves) — nutrient availability changes with pH; iron is scarce in alkaline soils, calcium scarce in acidic soils.
+- **Stunted growth.**
+- **Curled or distorted leaves.**
+
+These are diagnostic for *the plant*, not the soil — different plants in the same bed may show no symptoms because their preferences match.
+
+### Finding your soil pH
+
+- **Indicator plants** — the lowest-friction first pass. Look at what's growing well in your yard and in nearby established gardens. Healthy rhododendrons / camellias / heathers / conifers (Scot's pine, larch) → soil is acidic. Healthy lavender / lilac / clematis / honeysuckle → soil is alkaline.
+- **Home pH kit** — cheap, quick reading at the bench. Adequate for relative comparisons.
 - **Mail-in lab test** — more precise; usually includes nutrient levels (N, P, K) and sometimes texture analysis.
 - **Local agricultural extension service** — in California, UC Cooperative Extension county offices may offer testing free or cheap.
 
 Soil pH varies by region and even by yard. California has both naturally acidic (redwood forest understory) and naturally alkaline (parts of inland valley) soils.
+
+### Don't try to change pH at landscape scale
+
+Per [[sources/gardenersworld-soil-ph]]: changing soil pH across a whole yard is expensive, slow, and unreliable. The recommended path is to *work with the pH you have* — choose plants that match — and use **containers or raised beds** with bought media (ericaceous compost for acid-loving plants) when you want to grow plants outside your soil's native range.
+
+A practical asymmetry: **raising pH (adding lime) is easier than lowering it** (sulfur or ferrous sulfate). If your soil is mildly acidic and you want neutral, that's tractable. The reverse generally isn't.
 
 ## "Amend or choose"
 
@@ -66,3 +95,5 @@ To be normalized when a structured source (Calscape, Las Pilitas) gets ingested.
 ## Sources
 
 - [[sources/flower-gardening-for-beginners]] — Amy Fedele (2020). Introduces texture (sandy vs. clay), the squeeze test, and the "choose plants for soil, don't amend" principle.
+- [[sources/gardenersworld-soil-ph]] — BBC Gardeners' World Magazine. Adds the ericaceous/calcifuge vs. calciole vocabulary, mismatch symptoms (chlorosis / stunting / leaf curl), indicator-plant diagnostic, the "don't change pH at scale" recommendation, and the raise-easier-than-lower asymmetry.
+- [[sources/gardenersworld-beginner-tips]] — BBC Gardeners' World Magazine. Brief mention of reading neighboring plants for soil-pH clues; treatment is developed in the dedicated pH source above.

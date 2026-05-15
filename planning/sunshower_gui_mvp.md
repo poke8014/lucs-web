@@ -51,7 +51,7 @@ Shipped via the rebrand + persistent-canvas commits. [src/app/sunshower/page.tsx
 
 ## Open scope questions before dispatching
 
-1. **Cut Agent C?** One yard-state field still adds a step. Honest take: worth keeping — "prep for planting" advice that ignores yard state will read as generic. Zero-input is a defensible MVP shortcut though.
+1. **Reframe Agent C as a homepage router?** The beginner-gardening ingest on 2026-05-15 surfaced a bigger framing: yard state belongs at `/sunshower` as a "How's your yard looking today?" prompt that **routes** the user to the right phase (overgrown → cleanup, mostly bare → site inventory → selection, established → care). See [sunshower/CONTEXT.md](sunshower/CONTEXT.md#ideas-surfaced-from-beginner-gardening-ingest-2026-05-15). If we go this route, Agent C as currently scoped (a step *inside* cleanup-plan) gets absorbed — the user arrives at cleanup-plan with yard state already known. Decision blocks Agent D's "prep for planting" section.
 
 ---
 

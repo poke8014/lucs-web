@@ -4,8 +4,12 @@ title: Site Inventory
 aliases: ["site analysis", "yard analysis", "site survey notes"]
 tags: [layout, general-design, planning-process]
 status: draft
-sources: [raw/articles/design-a-garden-layout.md, raw/articles/flower-gardening-for-beginners.md]
-last_updated: 2026-05-08
+sources:
+  - raw/articles/design-a-garden-layout.md
+  - raw/articles/flower-gardening-for-beginners.md
+  - "raw/articles/A beginner's guide to designing a garden.md"
+  - "raw/articles/How to Determine Sun Exposure In Your Yard.md"
+last_updated: 2026-05-15
 ---
 
 # Site Inventory
@@ -30,7 +34,17 @@ For a pollinator garden specifically, the inventory determines which microclimat
 
 ### Sun and aspect
 - **Sun map** — which areas of the yard get how much direct sun, and at what time of day. See [[concepts/sun-requirements]] for the threshold definitions and what "full / part / shade" mean on the plant side.
-- **North arrow** — establishes the property's *aspect* (which direction it faces). South-facing slopes warm earlier; north-facing stay cooler/moister.
+- **North arrow** — establishes the property's *aspect* (which direction it faces). South-facing slopes warm earlier; north-facing stay cooler/moister. Easiest way to determine aspect: open your phone's compass app, stand at the back of the yard facing out, and read the bearing.
+
+#### Producing the sun map: the hourly-photo method
+
+A practical, low-friction technique to actually generate the sun map on a sunny day:
+1. Set an alarm on your phone every hour from ~8am to 8pm.
+2. Each time it goes off, take a wide photo of the yard from the same vantage point.
+3. At the end of the day, compare the photos and trace which areas are sunlit vs. shaded at each hour.
+4. Mark up the inventory drawing with labeled zones: **full sun**, **morning sun / afternoon shade**, **morning shade / afternoon sun**, **dappled shade**, **full shade**. (See [[concepts/sun-requirements#a-5-tier-refinement-nursery-vocabulary|the 5-tier vocabulary]].)
+
+The result is a sun map drawn from observed reality rather than guessed from cardinal direction alone, and it captures the morning-vs-afternoon distinction that matters most for inland-California afternoon-sun stress.
 
 ### Wind
 - Prevailing wind direction. In the US, prevailing winds typically blow west→east (worth verifying for your region — coastal CA has its own patterns).
@@ -65,3 +79,5 @@ The inventory is a drawing, not a list. Make a measured base plan first, then la
 
 - [[sources/design-a-garden-layout]] — Pretty Purple Door, Amy Fedele (2023). Primary source — the site-inventory framework, sun-mapping, wind, slope, sightlines.
 - [[sources/flower-gardening-for-beginners]] — Pretty Purple Door, Amy Fedele (2020). Corroborates sun thresholds and the broader "right plant, right place" framing.
+- [[sources/littleterracedhouse-designing-a-garden]] — Little Terraced House (2021). Compass-app technique for aspect; sun-tracking over the course of a day; wind exposure for sheltered vs. exposed gardens.
+- [[sources/summerwinds-sun-exposure]] — SummerWinds Nursery. The hourly-photo technique for producing a sun map; the 5-tier sun-zone vocabulary.

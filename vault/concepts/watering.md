@@ -3,9 +3,11 @@ type: concept
 title: Watering
 aliases: ["irrigation", "supplemental water", "watering basics"]
 tags: [watering, plant-care, general-gardening]
-status: stub
-sources: [raw/articles/flower-gardening-for-beginners.md]
-last_updated: 2026-05-07
+status: draft
+sources:
+  - raw/articles/flower-gardening-for-beginners.md
+  - "raw/articles/Gardening for beginners.md"
+last_updated: 2026-05-15
 ---
 
 # Watering
@@ -21,6 +23,21 @@ Conversion to volume:
 - For a 50 sq ft bed: 1" ≈ 30 gallons/week.
 
 Practical timing trick: fill a 5-gallon bucket with your watering tool (hose, can, or drip line on a timer) and time how long it takes. Then you know the duration that delivers a known volume — no guesswork.
+
+## Technique: water the rootball, not the leaves
+
+Beyond volume, *how* you deliver the water matters at least as much. Two operational rules from [[sources/gardenersworld-beginner-tips]]:
+
+- **Water the rootball, not the leaves.** Roots absorb water; foliage doesn't. Wetting foliage wastes water and can encourage some fungal diseases.
+- **One deep soak per week beats a shallow daily sprinkle.** Frequent shallow watering encourages plants to root near the surface, which makes them *less* drought-tolerant and worse at finding their own water. A weekly deep soak trains roots downward.
+
+These two rules apply broadly. The "deep, infrequent" rule applies *especially* hard to mature drought-tolerant plants and to most established California natives — the opposite watering pattern from what the rule of thumb otherwise implies.
+
+## Feeding (briefly)
+
+[[sources/gardenersworld-beginner-tips]] recommends feeding regularly during the growing season (spring/summer), roughly fortnightly, with extra feeding for plants in containers (which have a limited nutrient reservoir).
+
+This is **generic UK-context advice that should not be applied blindly to California natives.** Many CA natives evolved on lean soils and can be *harmed* by feeding — fertilizer encourages weak, soft growth that's more vulnerable to pests, disease, and frost. A CA-native-specific feeding page is overdue and should be written when a CA-native source covers the topic.
 
 ## Establishment period
 
@@ -56,3 +73,4 @@ This page deliberately keeps the 1"/week rule with explicit caveats. A native-CA
 ## Sources
 
 - [[sources/flower-gardening-for-beginners]] — Amy Fedele (2020). Provides the 1"/week rule, the gallons-per-square-foot conversion, and the bucket-timing trick.
+- [[sources/gardenersworld-beginner-tips]] — BBC Gardeners' World Magazine. Adds the **water-the-rootball-not-leaves** rule and the **weekly-soak-beats-daily-sprinkle** rule. Source also recommends fortnightly feeding in growing season — captured here with the explicit CA-native caveat.

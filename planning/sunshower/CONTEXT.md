@@ -45,6 +45,17 @@ Next.js (App Router) + Tailwind + Vercel; Obsidian-managed markdown vault (`vaul
 - **Pre-emptive multi-state generalization.** v1 is CA-only; resist data-model decisions made "for other states later." Detail in [tech-stack.md](tech-stack.md).
 - **Personal yard observations in `vault/`** — those are future blog content. Luc's user-zero notes go elsewhere.
 
+## Ideas surfaced from beginner-gardening ingest (2026-05-15)
+
+Sourced from four beginner-gardening articles ingested 2026-05-15 (Little Terraced House design guide, BBC Gardeners' World tips + soil pH, Summerwinds sun-mapping). Expansion vectors, not yet committed scope.
+
+- **Phase routing at the homepage.** The `/sunshower` entry currently lands straight on the cleanup-plan hotspot. Better: a gentle prompt — *"How's your yard looking today?"* with cycling placeholder examples — that routes the user to the right phase. Overgrown → cleanup. Partially planted → care + opportunistic cleanup. Mostly bare → site inventory → selection. Established → care. Yard state stops being a cleanup-tool input and becomes the app's front door. May reshape or absorb the Agent C task in [../sunshower_gui_mvp.md](../sunshower_gui_mvp.md).
+- **Parallel tracks: passive mapping + active removal.** A user can map their landscape with us while actively working in the yard removing weeds. The two are complementary — one is desk-or-window work, the other is gloves-on. The app should keep both kinds of tasks live at once rather than forcing strict phase serialization. Cleanup tasks and site-inventory tasks can coexist as a checklist that spans indoors and out.
+- **Friendly-to-natives, not aggressive-to-weeds.** Lean the tone toward *supporting native plants and pollinators* rather than *destroying invasives*. The plant-classification distinction — Cal-IPC invasive vs. harmless residential weed vs. native — is the lever: a common weed that isn't ecologically harmful doesn't need the same urgency-language as a Cal-IPC High invasive. Tone change affects copy in [/sunshower/cleanup-plan](../../src/app/sunshower/cleanup-plan/page.tsx) and the landing page.
+- **Soil/pH lives in yard-prep, not as its own tool.** Exposed during cleanup/prep when the user is already mapping the yard. pH indicator plants (rhodos/camellias → acidic, lavender/honeysuckle → alkaline) make this a low-friction observational input rather than a "go buy a test kit" step.
+- **Phase 4 (Care) is the biggest content gap.** Watering technique (rootball weekly, not leaves daily), feeding cadence, pruning, pest tolerance, mulch timing — all covered by ingested beginner sources but missing from the app. Homepage phase-routing will surface this fast: a user with an established yard has no destination today.
+- **Site-inventory walkthrough belongs in the app.** The wiki has the concept ([../../vault/concepts/site-inventory.md](../../vault/concepts/site-inventory.md)) but the app doesn't expose it. Lives between cleanup and selection, and is reusable from any phase route since selection and care both depend on it.
+
 ## Open questions
 
 - Primary plant-info backbone: Calscape, Calflora, iNaturalist, USDA PLANTS, or a combination?
