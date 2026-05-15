@@ -5,10 +5,10 @@ Source candidates for ingest, organized by phase. ✅ = already ingested into [v
 ## Phase 1 — Cleanup & weed identification
 
 - **Cal-IPC (California Invasive Plant Council)** — [cal-ipc.org](https://www.cal-ipc.org) — authoritative CA invasive inventory with severity ratings. **Highest phase-1 priority.** Top-tier (137 plants) ingested ✅.
-- **UC IPM (UC Integrated Pest Management)** — weed photo gallery and management notes. [ipm.ucanr.edu](https://ipm.ucanr.edu)
+- **UC IPM (UC Integrated Pest Management)** — weed photo gallery and management notes. [ipm.ucanr.edu](https://ipm.ucanr.edu) — Residential Pest Notes (21 weeds) ingested ✅.
 - **UC ANR — My Front Yard Pollinator Garden** — real-world Bay Area native conversion using cardboard sheet mulching. [ucanr.edu](https://ucanr.edu/blog/spill-beans/article/my-front-yard-pollinator-garden)
 - **WRIC (Weed Research and Information Center, UC Davis)** — short-term/long-term removal guidance that Cal-IPC PAFs omit. First-pass scrape landed for foothills invasives (7 PDFs); full archive catalogued. Ingest pending (PDFs are AES-encrypted, need PDF-aware extraction step).
-- **iNaturalist** — used as a *tool* (in-yard plant ID), not a clipping. Photo pull complete (626 photos for the 137 Cal-IPC invasives) ✅. Outputs from iNat sessions feed plant page creation.
+- **iNaturalist** — used as a *tool* (in-yard plant ID), not a clipping. Photo pull complete (158/158 picker rows at 5 photos each — 137 Cal-IPC invasives + 21 UC IPM residential weeds) ✅. Outputs from iNat sessions feed plant page creation.
 - **Cal-IPC Bay Area / Santa Clara County subset** — region-specific invasive prioritization for Luc's location.
 
 ## Phase 2 — CA native plant data

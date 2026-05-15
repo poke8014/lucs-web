@@ -27,8 +27,8 @@ const METHOD_LABEL: Record<RemovalMethod, string> = {
 const UNDOCUMENTED_LABEL = 'Method not yet documented for these plants'
 
 // Fallback caution strings for plants that don't yet have a `removal_method`
-// assigned (99 of 137 as of the Agent B rollout). Derived from spread
-// mechanisms so the user still gets something concrete to act on.
+// assigned (98 of 158 as of 2026-05-15). Derived from spread mechanisms so
+// the user still gets something concrete to act on.
 const HUMAN_VECTOR_MARKERS = new Set([
   'mowing',
   'dumping',
