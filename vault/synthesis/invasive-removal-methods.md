@@ -5,14 +5,16 @@ aliases: [removal vocabulary, removal_method keys]
 tags: [invasives, removal, app-data, vocabulary]
 status: draft
 sources: []
-last_updated: 2026-05-11
+last_updated: 2026-05-15
 ---
 
 # Invasive removal methods — canonical vocabulary
 
 This page defines the closed vocabulary of `removal_method` values used by the
 Sunshower cleanup-plan app, and records the source attribution + per-plant
-assignments for the initial annotated subset (38 plants).
+assignments for the annotated subset (60 plants as of 2026-05-15: the original
+38 Cal-IPC pilot + 22 UC IPM residential weeds added in the May 2026 scope
+expansion — see [[sources/ucipm-residential]] and [[feedback-sunshower-weed-scope]]).
 
 The vocabulary lives in code at [src/app/sunshower/cleanup-plan/types.ts](../../src/app/sunshower/cleanup-plan/types.ts)
 (`RemovalMethod` union) and the per-plant data lives in
@@ -45,11 +47,20 @@ user's perspective, even if Cal-IPC's profiles describe them differently.
 | `sheet_mulch_smother`     | Smother under heavy cardboard and mulch      | Mat-forming groundcovers without deep taproots                                          |
 | `mow_before_seed`         | Mow repeatedly just before seed set          | Annual grasses and herbs managed by repeated cutting before seed maturity               |
 | `solarize_summer`         | Solarize under clear plastic in summer       | Reserved: clear plastic over moist soil, June–September, as a follow-up pass            |
+| `prune_host_below_attachment` | Prune host plant below the parasite's attachment point | Parasitic plants (Cuscuta spp. — dodder) where the action targets the *host*, not the weed |
 
 `solarize_summer` is in the vocabulary but no plant currently uses it as its
 primary method. It is referenced in `removal_notes[]` for several plants as
 a recommended follow-up. It stays in the union so Agent D and later work can
 recognize it without a schema change.
+
+`prune_host_below_attachment` was added 2026-05-15 to model dodder (*Cuscuta*).
+The action is unique enough that bucketing dodder under `hand_pull` would
+obscure that the right move once haustoria embed is to **prune the host
+plant**, not the parasite — pulling the dodder leaves haustoria behind that
+regenerate. Currently used only by [[plants/cuscuta-pentagona]]; the bucket
+would also fit native *Cuscuta* spp. and (with care, see plant page)
+*Cuscuta japonica*.
 
 ## Method playbook (per UC IPM)
 
@@ -191,6 +202,24 @@ and [`ucipm-residential/`](../raw/articles/ucipm-residential/).
   shaded sites may not reach lethal temperatures.
 - **Sources:** [PN-Soil Solarization](../raw/articles/ucipm-general/soil-solarization-for-gardens-and-landscapes.md).
 
+### `prune_host_below_attachment`
+- **When:** as soon as the parasite is detected. The "5–10 day window"
+  before haustoria embed is the easier intervention — at that stage the
+  yellow-orange dodder seedling can simply be hand-pulled or shallow-
+  cultivated (use `hand_pull` for that case). Once haustoria embed, the
+  prune-the-host step becomes the only structurally correct removal.
+- **How:** with bypass pruners, cut the host plant **1/8–1/4 inch below
+  the dodder attachment point**. Bag everything cut for trash, not
+  compost — freshly removed dodder fragments can re-attach to new hosts
+  if dropped on healthy tissue.
+- **Limits:** **Japanese dodder** (*Cuscuta japonica*) is under California
+  state eradication program — don't attempt DIY removal; call the county
+  Agricultural Commissioner. Solarization fails on dodder seed (hard
+  coat); composting actually does more damage to the seedbank because
+  pile temperatures run higher. Plan a **20+ year horizon** for any
+  chronically infested site.
+- **Sources:** [PN-Dodder](../raw/articles/ucipm-residential/dodder.md).
+
 ## Sources
 
 Per-plant method assignments and `removal_notes[]` are grounded in the WRIC
@@ -320,6 +349,49 @@ in the same row should produce a coherent shared action in the cleanup plan.
 
 ### `dig_bulb_complete` (1)
 - *Oxalis pes-caprae* — Bermuda buttercup
+
+## May 2026 residential-weed expansion (+22)
+
+Added 2026-05-15 from [[sources/ucipm-residential]]. These are the
+non-Cal-IPC weeds that homeowners actually pull out of yards — per
+[[feedback-sunshower-weed-scope]] the cleanup-plan covers "plants you
+want gone," not only Cal-IPC-rated invasives. Includes one Cal-IPC
+overlap, *Isatis tinctoria* (dyer's woad), which was previously a stub
+and now carries Layer A/B/C; and one **native**, *Toxicodendron
+diversilobum* (Pacific poison-oak), included for safety-removal only —
+see its plant page for the inclusion rationale.
+
+### `hand_pull` (+12)
+- *Euphorbia maculata* — spotted spurge (covers 6 weedy spurge congeners)
+- *Galium aparine* — catchweed bedstraw / cleavers
+- *Malva parviflora* — little mallow / cheeseweed (covers *M. neglecta*)
+- *Poa annua* — annual bluegrass
+- *Polygonum aviculare* — common knotweed (soil-compaction indicator)
+- *Portulaca oleracea* — common purslane
+- *Salsola tragus* — Russian thistle / tumbleweed
+- *Senecio vulgaris* — common groundsel
+- *Stellaria media* — common chickweed (covers *Cerastium* spp.)
+- *Tribulus terrestris* — puncturevine / goathead
+- *Trifolium repens* — white clover (covers *Medicago* + *Melilotus* spp.)
+- *Urtica urens* — burning nettle (covers native *U. dioica*)
+
+### `dig_taproot` (+4)
+- *Isatis tinctoria* — dyer's woad *(Cal-IPC overlap; previously stub, now annotated)*
+- *Phytolacca americana* — American pokeweed
+- *Plantago major* — broadleaf plantain (covers *P. lanceolata* — buckhorn)
+- *Taraxacum officinale* — common dandelion
+
+### `dig_rhizome_complete` (+4)
+- *Convolvulus arvensis* — field bindweed
+- *Kyllinga brevifolia* — green kyllinga
+- *Paspalum dilatatum* — dallisgrass
+- *Pennisetum clandestinum* — kikuyugrass
+
+### `pull_vine_dig_crown` (+1)
+- *Toxicodendron diversilobum* — Pacific poison-oak *(native; included for safety-removal only)*
+
+### `prune_host_below_attachment` (+1)
+- *Cuscuta pentagona* — field dodder (parasitic; covers other native *Cuscuta* spp. + Japanese dodder with caveats — see plant page)
 
 ## Per-species deltas — UC IPM vs current `removal_notes`
 

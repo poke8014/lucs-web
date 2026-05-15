@@ -6,7 +6,7 @@ Catalog of every page in the wiki. Maintained by Claude on every ingest.
 
 ### Invasives
 
-The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/calipc-top-tier-overview]] for cross-cutting patterns and the foothills-priority subset. Source dataset: [[sources/calipc]]. **All 38 annotated plants (those with `removal_method` in `plants.json`) now have status: draft** — Identify / Remove / Prevent body sections written from WRIC + UC IPM. The remaining ~99 plants (aquatic, salt-marsh, coastal-dune, remote-rangeland invasives outside the residential cleanup-plan scope) remain status: stub pending future inventory expansion. Curated pilot: [[plants/arctotheca-prostrata]].
+The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/calipc-top-tier-overview]] for cross-cutting patterns and the foothills-priority subset. Source dataset: [[sources/calipc]]. **39 of the 137 Cal-IPC plants are annotated** (those with `removal_method` in `plants.json`) at status: draft — Identify / Remove / Prevent body sections written from WRIC + UC IPM. (The 60-plant annotated subset includes those 39 Cal-IPC plants + 21 non-Cal-IPC residential weeds — see below.) The remaining ~98 Cal-IPC plants (aquatic, salt-marsh, coastal-dune, remote-rangeland invasives outside the residential cleanup-plan scope) remain status: stub pending future inventory expansion. Curated pilot: [[plants/arctotheca-prostrata]].
 
 #### Cal-IPC High (44 plants)
 
@@ -154,6 +154,8 @@ The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/ca
 ### Residential weeds (non-Cal-IPC)
 
 Common garden weeds that aren't on the Cal-IPC inventory but show up routinely in California yards. Ingested from [[sources/ucipm-residential]] under the cleanup-plan scope expansion ([[feedback-sunshower-weed-scope]]). Treated as `nativity: invasive` for picker purposes (`invasive:` Cal-IPC frontmatter block omitted — no PAF data). Native exception: poison-oak carries `nativity: native` — included because homeowners routinely remove it for safety reasons, but it's a valuable native plant in wildland contexts.
+
+All 21 residential weed pages (plus the *Isatis tinctoria* Cal-IPC overlap) now also have full Layer A/B/C + `removal_sources` wiring in `plants.json` as of 2026-05-15 — see [[synthesis/invasive-removal-methods]] for the per-method roster. Picker DB grew 137 → 158 plants; annotated subset 38 → 60.
 
 - [[plants/convolvulus-arvensis]] — Convolvulus arvensis (field bindweed)
 - [[plants/cuscuta-pentagona]] — Cuscuta pentagona (field dodder) — covers other native *Cuscuta* spp. + Japanese dodder

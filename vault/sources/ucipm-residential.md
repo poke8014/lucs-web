@@ -5,7 +5,7 @@ aliases: [UC IPM, UC Statewide IPM, UC ANR Pest Notes, ipm.ucanr.edu]
 tags: [dataset, weeds, removal, residential]
 status: stable
 sources: []
-last_updated: 2026-05-14
+last_updated: 2026-05-15
 ---
 
 # UC IPM Pest Notes — Residential weed series
@@ -87,8 +87,14 @@ Each Pest Note includes its own recommended citation in the publication-informat
 
 > Wilen, C.A., O'Connell, R.A., and Kogan, M. 2018. *Pest Notes: Dandelion.* UC ANR Publication 7469. UC Statewide Integrated Pest Management Program.
 
+## plants.json wiring (completed 2026-05-15)
+
+Layer A/B/C and `removal_sources` for the 22 plants (21 new + *Isatis tinctoria* upgrade) landed via the same per-layer apply scripts used for the original Cal-IPC pilot, plus a new `vault/scripts/add_ucipm_weed_entries.py` that creates the base rows from wiki frontmatter. *Toxicodendron diversilobum* (Pacific poison-oak) is the only `nativity: native` entry in the cleanup-plan picker — see plant page for the safety-removal inclusion rationale. *Cuscuta pentagona* (dodder) introduced a new `RemovalMethod` enum value — `prune_host_below_attachment` — because the parasite action targets the *host*, not the weed; bucketing it under `hand_pull` would obscure the right move. Vocabulary details: [[synthesis/invasive-removal-methods]].
+
+Source citations follow the pattern `ucipm-residential/<page-slug>` and resolve to [`vault/raw/articles/ucipm-residential/<page-slug>.md`](../raw/articles/ucipm-residential/). For the 10 Cal-IPC overlap plants (brooms × 5, yellow starthistle, poison hemlock, perennial pepperweed, Bermuda buttercup, Himalayan blackberry), the UC IPM citation is appended to the existing WRIC citation rather than replacing it — both layers are kept; user-facing render prefers the residential one.
+
 ## Deferred
 
-- **Wikimedia / iNat photos for the new weeds.** Cal-IPC plants got photo coverage from the 2026-05-08 iNat pull; the 22 new weeds need a separate iNat pass once their wiki pages land.
-- **Lawn-vs-landscape signal in `plants.json`.** UC IPM splits management by lawn / turf vs. ornamental landscape vs. bare ground. Current `removal_method` doesn't carry that distinction. Pilot first; revisit if the omission hurts user-facing copy.
-- **Cross-cutting `ucipm-general` documents.** The 7 management documents (soil solarization, weed-mgmt-in-lawns, etc.) inform concept pages ([[concepts/sheet-mulching]], [[concepts/solarization]], etc.) rather than per-plant pages. Tackled in the Phase-1 management concepts ticket.
+- **Wikimedia / iNat photos for the new weeds.** Cal-IPC plants got photo coverage from the 2026-05-08 iNat pull; the 22 new weeds need a separate iNat pass with Wikimedia Commons as the likely fallback for cosmopolitan species (the data layer is ready; just no photos yet).
+- **Lawn-vs-landscape signal in `plants.json`.** UC IPM splits management by lawn / turf vs. ornamental landscape vs. bare ground. Current `removal_method` doesn't carry that distinction. Revisit if the omission hurts user-facing copy.
+- **Cross-cutting `ucipm-general` documents.** The 6 management documents (soil solarization, weed-mgmt-in-lawns, etc.) inform concept pages ([[concepts/sheet-mulching]], [[concepts/solarization]], etc.) rather than per-plant pages. Iceboxed pending the Phase-1 management concepts ticket.

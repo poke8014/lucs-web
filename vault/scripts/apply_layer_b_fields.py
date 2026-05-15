@@ -241,6 +241,118 @@ DATA: dict[str, dict] = {
         "followup_years": 5,
         "flags": ["fragment_spreader"],
     },
+
+    # --- UC IPM residential weeds (May 2026 cleanup-plan scope expansion) ---
+    "convolvulus-arvensis": {
+        "timing": "Fall (active growth, root translocation)",
+        "followup_years": 60,
+        "flags": ["fragment_spreader"],
+    },
+    "cuscuta-pentagona": {
+        "timing": "Spring–summer seedling stage (5–10 day pre-attachment window)",
+        "followup_years": 20,
+        "flags": ["fragment_spreader"],
+    },
+    "euphorbia-maculata": {
+        "timing": "Spring–early summer (before 5-week flowering)",
+        "followup_years": 2,
+        "flags": ["irritant_sap", "do_not_mow"],
+    },
+    "galium-aparine": {
+        "timing": "February–March (damp soil, before flowering)",
+        "followup_years": 3,
+        "flags": [],
+    },
+    "isatis-tinctoria": {
+        "timing": "Spring rosette → May (before seed pods)",
+        "followup_years": 8,
+        "flags": [],
+    },
+    "kyllinga-brevifolia": {
+        "timing": "April–October (active growth)",
+        "followup_years": 5,
+        "flags": ["fragment_spreader", "do_not_mow"],
+    },
+    "malva-parviflora": {
+        "timing": "Within 4 weeks of germination (fall–winter rains)",
+        "followup_years": 10,
+        "flags": [],
+    },
+    "paspalum-dilatatum": {
+        "timing": "Spring–summer (before rhizome spread)",
+        "followup_years": 5,
+        "flags": ["fragment_spreader", "do_not_mow"],
+    },
+    "pennisetum-clandestinum": {
+        "timing": "Any time (moist soil) for mechanical; March for preemergent",
+        "followup_years": 5,
+        "flags": ["fragment_spreader", "do_not_mow"],
+    },
+    "phytolacca-americana": {
+        "timing": "April–August (foliar herbicide window)",
+        "followup_years": 50,
+        "flags": ["toxic_handling", "do_not_burn"],
+    },
+    "plantago-major": {
+        "timing": "Fall (best herbicide window) or anytime mechanical",
+        "followup_years": 5,
+        "flags": [],
+    },
+    "poa-annua": {
+        "timing": "Fall–winter (germination peak, before seed)",
+        "followup_years": 3,
+        "flags": [],
+    },
+    "polygonum-aviculare": {
+        "timing": "Spring (before mat sets)",
+        "followup_years": 3,
+        "flags": [],
+    },
+    "portulaca-oleracea": {
+        "timing": "Spring–summer (after each irrigation); July–August for solarization",
+        "followup_years": 40,
+        "flags": ["fragment_spreader"],
+    },
+    "salsola-tragus": {
+        "timing": "Spring (early growth, before lignification)",
+        "followup_years": 2,
+        "flags": ["spines_thorns", "irritant_sap", "do_not_burn", "allergenic_pollen"],
+    },
+    "senecio-vulgaris": {
+        "timing": "Fall–early summer (continuous; before flowering)",
+        "followup_years": 1,
+        "flags": ["toxic_handling"],
+    },
+    "stellaria-media": {
+        "timing": "Late fall–early spring (before 5–6 week flower)",
+        "followup_years": 8,
+        "flags": ["fragment_spreader"],
+    },
+    "taraxacum-officinale": {
+        "timing": "Year-round in mild CA (focus spring + fall)",
+        "followup_years": 3,
+        "flags": [],
+    },
+    "toxicodendron-diversilobum": {
+        "timing": "Early spring or late fall (moist soil); late spring–early summer for foliar",
+        "followup_years": 2,
+        "flags": ["irritant_sap", "do_not_burn", "do_not_mow", "fragment_spreader"],
+    },
+    "tribulus-terrestris": {
+        "timing": "Before/at flowering (3 weeks from germination)",
+        "followup_years": 5,
+        "flags": ["spines_thorns"],
+    },
+    "trifolium-repens": {
+        "timing": "Fall (cool-season germination)",
+        "followup_years": 5,
+        "flags": [],
+    },
+    "urtica-urens": {
+        "timing": "Spring (before flowering)",
+        "followup_years": 5,
+        "flags": ["irritant_sap"],
+    },
 }
 
 
