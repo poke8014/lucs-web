@@ -190,20 +190,27 @@ Dyer's woad (*Isatis tinctoria*) is in the Cal-IPC list above but has also been 
 - [[concepts/right-plant-right-place]] — The project's thesis: native CA plants in their native context, supporting native pollinators. Both horticultural and ecological readings. *2 sources.*
 
 ### Site & layout
-- [[concepts/site-inventory]] — Systematic mapping of yard conditions (sun, wind, slope, utilities, sightlines, privacy) before any layout decision. *2 sources.*
+- [[concepts/site-inventory]] — Systematic mapping of yard conditions (sun, wind, slope, utilities, sightlines, privacy) before any layout decision. Hourly-photo sun-mapping method added 2026-05-15. *4 sources.*
+- [[concepts/garden-zoning]] — Dividing the yard into named functional "rooms" (cooking, sitting, growing, utility, wildlife) after site inventory and before planting. Includes the "work logically, plant last" sequencing. *1 source.*
 - [[concepts/bubble-drawing]] — Low-fidelity iterative layout sketch; cheap iteration over a single committed plan. *1 source.*
 - [[concepts/softscape-hardscape-ratio]] — Rule-of-thumb 1/3 planted to 2/3 open; flagged as possibly higher for pollinator gardens. *1 source.*
 
 ### Plant selection
 - [[concepts/usda-hardiness-zones]] — USDA winter-cold zone system; how to read a zone tag and what it doesn't tell you. *1 source.*
 - [[concepts/plant-life-cycles]] — Perennial / annual / biennial classification; biennial section is a stub. *1 source.*
-- [[concepts/sun-requirements]] — Plant-side sun needs (full ≥6h, part 3-6h, shade ≤3h); pairs with site-inventory's sun map. *2 sources.*
-- [[concepts/soil-basics]] — Soil texture, pH, the squeeze test, and the "amend less, choose better" principle. *1 source.*
+- [[concepts/sun-requirements]] — Plant-side sun needs (full ≥6h, part 3-6h, shade ≤3h); 5-tier nursery-vocabulary refinement added 2026-05-15. *3 sources.*
+- [[concepts/soil-basics]] — Soil texture, pH (ericaceous/calciole, indicator plants, mismatch symptoms, don't-change-at-scale), squeeze test, "amend less, choose better". *3 sources.*
 - [[concepts/plant-spacing]] — Radius math, foundation offsets, planting for mature size. *1 source.*
 
 ### Plant care
-- [[concepts/watering]] — 1"/week rule, establishment period; flagged as possibly inappropriate for established CA natives. *1 source.*
+- [[concepts/watering]] — 1"/week rule + rootball-not-leaves technique + weekly-soak-beats-daily-sprinkle; flagged as inappropriate for established CA natives. *2 sources.*
+- [[concepts/planting-technique]] — Rootball depth, weed-and-prep, the start-small + cardboard suppression trick, "work logically, plant last". *2 sources.*
 - [[concepts/frost-and-cold-protection]] — Last-frost-date timing, "delicate" zone-edge plants, frost cloth. *1 source.*
+- [[concepts/composting]] — Stub. Year-long breakdown → use as mulch; CA-native caveat. *1 source.*
+- [[concepts/pruning]] — Stub. Timing varies by plant; pollinator-garden default leaves stems standing through winter. *1 source.*
+
+### Ecology & ethos
+- [[concepts/wildlife-coexistence]] — Tolerate-and-share stance, no `-cides`, no plastic turf, the food chain as the system. The friendly-to-natives tone direction for Sunshower copy. *2 sources.*
 
 ### Invasives & management
 - [[concepts/cal-ipc-scoring]] — Cal-IPC's A/B/C/D × Impact/Invasiveness/Distribution scoring vocabulary; rating tiers (High/Moderate/Limited/Watch/Alert). *1 source.*
@@ -223,6 +230,10 @@ Dyer's woad (*Isatis tinctoria*) is in the Cal-IPC list above but has also been 
 ### Articles
 - [[sources/design-a-garden-layout]] — Pretty Purple Door (Amy Fedele, 2023). Generic 9-step landscape layout walkthrough. *3 wiki pages.*
 - [[sources/flower-gardening-for-beginners]] — Pretty Purple Door (Amy Fedele, 2020). Foundational beginner gardening — zones, life cycles, sun, soil, spacing, water, frost. *7 new wiki pages + 1 updated.*
+- [[sources/littleterracedhouse-designing-a-garden]] — Little Terraced House, Melissa (2021). UK garden-design narrative; functional zoning, "work logically — plant last," strong wildlife/no-`-cides` stance. *5 wiki pages.*
+- [[sources/gardenersworld-beginner-tips]] — BBC Gardeners' World Magazine. 10-tip beginner primer; rootball-flush planting depth, weekly soak vs. daily sprinkle, start-small + cardboard suppression, composting, pruning, wildlife. *4 wiki pages.*
+- [[sources/summerwinds-sun-exposure]] — SummerWinds Nursery (Arizona). Sun-mapping methodology; 5-tier nursery vocabulary; hourly-photo technique. *2 wiki pages updated.*
+- [[sources/gardenersworld-soil-ph]] — BBC Gardeners' World Magazine. Soil pH explainer; ericaceous/calciole vocabulary, indicator plants, mismatch symptoms, "don't change pH at scale". *1 wiki page updated.*
 
 ### Datasets
 - [[sources/calipc]] — California Invasive Plant Council Inventory. 137 top-tier plants ingested (44 High + 93 Moderate). Profile + PAF documents at `raw/articles/calipc/`. Deferred: Limited tier, Watch tier (PRE), photos.
