@@ -81,6 +81,98 @@
     ]
   },
   {
+    "slug": "acroptilon-repens",
+    "scientific_name": "Rhaponticum repens",
+    "common_names": [
+      "Russian knapweed",
+      "hardheads",
+      "creeping knapweed",
+      "mountain bluet",
+      "Turkestan thistle"
+    ],
+    "aliases": [
+      "Russian knapweed",
+      "hardheads",
+      "creeping knapweed",
+      "mountain bluet",
+      "Turkestan thistle",
+      "Acroptilon repens",
+      "Centaurea repens"
+    ],
+    "nativity": "invasive",
+    "plant_type": null,
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": "moderate",
+    "cdfa_rating": "B*",
+    "impact_score": "B",
+    "invasiveness_score": "B",
+    "distribution_score": "B",
+    "spread_mechanisms": [
+      "rapid_maturity",
+      "abundant_seed",
+      "seeds_annually",
+      "long_lived_seedbank",
+      "self_and_cross_pollinated",
+      "vegetative_structures",
+      "fragments",
+      "resprouts"
+    ],
+    "habitat_types": [
+      "great_basin_scrub",
+      "valley_foothill_grassland",
+      "great_basin_grassland",
+      "riparian_forest",
+      "riparian_woodland",
+      "pinyon_juniper_woodland",
+      "broadleaved_upland_forest",
+      "lower_montane_coniferous_forest"
+    ],
+    "jepson_regions": [
+      "CA Floristic Province",
+      "Cascade Range",
+      "Central West",
+      "Great Valley",
+      "Northwest",
+      "Sierra Nevada",
+      "Southwest",
+      "Great Basin Province",
+      "Modoc Plateau",
+      "Sierra Nevada East",
+      "Desert Province",
+      "Mojave Desert",
+      "Sonoran Desert"
+    ],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215177824/large.jpg",
+        "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/126794451"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393970800/large.jpeg",
+        "attribution": "(c) Yana, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/222406615"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215177835/large.jpg",
+        "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/126794451"
+      }
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
+  },
+  {
     "slug": "aegilops-triuncialis",
     "scientific_name": "Aegilops triuncialis",
     "common_names": [
@@ -1831,6 +1923,85 @@
     ]
   },
   {
+    "slug": "cardaria-draba",
+    "scientific_name": "Lepidium draba",
+    "common_names": [
+      "heart-podded hoary cress",
+      "whitetop"
+    ],
+    "aliases": [
+      "heart-podded hoary cress",
+      "whitetop",
+      "Cardaria draba"
+    ],
+    "nativity": "invasive",
+    "plant_type": null,
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": "moderate",
+    "cdfa_rating": "-*",
+    "impact_score": "B",
+    "invasiveness_score": "B",
+    "distribution_score": "B",
+    "spread_mechanisms": [
+      "rapid_maturity",
+      "abundant_seed",
+      "seeds_annually",
+      "vegetative_structures",
+      "resprouts"
+    ],
+    "habitat_types": [
+      "coastal_prairie",
+      "valley_foothill_grassland",
+      "vernal_pool",
+      "meadow_seep",
+      "riparian_forest",
+      "riparian_woodland"
+    ],
+    "jepson_regions": [
+      "CA Floristic Province",
+      "Cascade Range",
+      "Central West",
+      "Great Valley",
+      "Northwest",
+      "Sierra Nevada",
+      "Southwest",
+      "Great Basin Province",
+      "Modoc Plateau",
+      "Sierra Nevada East",
+      "Desert Province",
+      "Mojave Desert"
+    ],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75414030/large.jpeg",
+        "attribution": "(c) euanmck, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/47548133"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17017121/large.jpg",
+        "attribution": "(c) Conrad Altmann, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/11888058"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196322773/large.jpg",
+        "attribution": "(c) Andre Hosper, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/116311465"
+      }
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
+  },
+  {
     "slug": "carduus-nutans",
     "scientific_name": "Carduus nutans",
     "common_names": [
@@ -2644,7 +2815,8 @@
       "Keep horses off infested pastures — starthistle causes nigropallidal encephalomalacia (\"chewing disease\")."
     ],
     "removal_sources": [
-      "wric/Centaurea_solstitialis"
+      "wric/Centaurea_solstitialis",
+      "ucipm-residential/yellow-starthistle"
     ],
     "removal_timing_window": "May–June (bolt, before mid-bloom)",
     "requires_followup_years": 10,
@@ -3373,13 +3545,62 @@
       "Expect a ~3 year seedbank — repeated mowing after bolting but before flowering depletes taproot reserves when digging isn't feasible."
     ],
     "removal_sources": [
-      "wric/Conium"
+      "wric/Conium",
+      "ucipm-residential/poison-hemlock"
     ],
     "removal_timing_window": "February–April (rosette → bolt, before seed)",
     "requires_followup_years": 6,
     "safety_flags": [
       "toxic_handling",
       "do_not_burn"
+    ]
+  },
+  {
+    "slug": "convolvulus-arvensis",
+    "scientific_name": "Convolvulus arvensis",
+    "common_names": [
+      "field bindweed",
+      "perennial morningglory",
+      "creeping jenny"
+    ],
+    "aliases": [
+      "field bindweed",
+      "perennial morningglory",
+      "creeping jenny",
+      "bellbine",
+      "sheepbine",
+      "cornbind"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": null,
+    "width_ft": null,
+    "water": "low",
+    "sun": "full",
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Catch seedlings within the first 3–4 weeks after germination — once perennial root buds form, mechanical removal stops working.",
+      "Light-blocking covers (cardboard + 4–6 in mulch, or landscape fabric with full edge overlap) are the most effective non-chemical control — but complete death takes 3–5 years and bindweed finds every seam.",
+      "Don't till casually — 2-inch root fragments regenerate and one-pass tillage scatters them across the bed.",
+      "Glyphosate 2% v/v on actively growing plants in fall is the systemic chemical option; paint onto leaves resting on newspaper to keep it off desirables.",
+      "60-year seedbank — plan an integrated multi-year program (prevent seed → reduce reserves → shade out → spot herbicide). No single-season fix exists."
+    ],
+    "removal_sources": [
+      "ucipm-residential/field-bindweed"
+    ],
+    "removal_timing_window": "Fall (active growth, root translocation)",
+    "requires_followup_years": 60,
+    "safety_flags": [
+      "fragment_spreader"
     ]
   },
   {
@@ -3772,6 +3993,59 @@
     "removal_timing_window": "Late spring–summer (any time, really)",
     "requires_followup_years": 10,
     "safety_flags": []
+  },
+  {
+    "slug": "cuscuta-pentagona",
+    "scientific_name": "Cuscuta pentagona",
+    "common_names": [
+      "field dodder",
+      "dodder"
+    ],
+    "aliases": [
+      "field dodder",
+      "Cuscuta campestris",
+      "swamp dodder",
+      "Cuscuta gronovii",
+      "Cuscuta indecora",
+      "Japanese dodder",
+      "Cuscuta japonica",
+      "dodder",
+      "devil's hair",
+      "witch's hair",
+      "strangleweed"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "prune_host_below_attachment",
+    "removal_notes": [
+      "Native dodder: catch yellow-orange seedlings within the 5–10 day window before haustoria embed in a host. Hand-pull or shallow-cultivate while plants are still rootless.",
+      "Once attached, prune the host plant 1/8–1/4 inch below the dodder attachment point — pulling only the dodder leaves embedded haustoria that regenerate new dodder.",
+      "Don't drop pulled dodder on healthy hosts — fragments form fresh attachments. Bag and dispose in trash, do not compost.",
+      "Japanese dodder (*C. japonica*, thicker spaghetti-like stems, attacks trees/shrubs) is under California eradication program — don't try to control it yourself; call your county Agricultural Commissioner.",
+      "Solarization fails on dodder seed (hard coat); composting is actually more effective because piles reach higher temperatures. Trifluralin preemergent works in chronic-infestation beds.",
+      "20+ year seedbank — long-term commitment in any infested site."
+    ],
+    "removal_sources": [
+      "ucipm-residential/dodder"
+    ],
+    "removal_timing_window": "Spring–summer seedling stage (5–10 day pre-attachment window)",
+    "requires_followup_years": 20,
+    "safety_flags": [
+      "fragment_spreader"
+    ]
   },
   {
     "slug": "cynara-cardunculus",
@@ -4205,7 +4479,8 @@
       "Don't burn — fire triggers seedbank germination. Plan annual seedling sweeps for at least a decade."
     ],
     "removal_sources": [
-      "wric/Cytisus"
+      "wric/Cytisus",
+      "ucipm-residential/brooms"
     ],
     "removal_timing_window": "May–June (before pods ripen)",
     "requires_followup_years": 60,
@@ -4288,7 +4563,8 @@
       "Don't burn — the seedbank germinates after fire."
     ],
     "removal_sources": [
-      "wric/Cytisus"
+      "wric/Cytisus",
+      "ucipm-residential/brooms"
     ],
     "removal_timing_window": "May–June (before pods ripen)",
     "requires_followup_years": 60,
@@ -5026,79 +5302,6 @@
     "safety_flags": []
   },
   {
-    "slug": "taeniatherum-caput-medusae",
-    "scientific_name": "Elymus caput-medusae",
-    "common_names": [
-      "medusahead"
-    ],
-    "aliases": [
-      "medusahead",
-      "Taeniatherum caput-medusae"
-    ],
-    "nativity": "invasive",
-    "plant_type": null,
-    "height_ft": null,
-    "width_ft": null,
-    "water": null,
-    "sun": null,
-    "cal_ipc_rating": "high",
-    "cdfa_rating": "-*",
-    "impact_score": "A",
-    "invasiveness_score": "A",
-    "distribution_score": "A",
-    "spread_mechanisms": [
-      "rapid_maturity",
-      "abundant_seed",
-      "seeds_annually",
-      "self_and_cross_pollinated",
-      "vehicles_equipment",
-      "livestock_dispersed"
-    ],
-    "habitat_types": [
-      "coastal_scrub",
-      "great_basin_scrub",
-      "chaparral",
-      "coastal_prairie",
-      "valley_foothill_grassland",
-      "cismontane_woodland"
-    ],
-    "jepson_regions": [
-      "Cascade Range",
-      "Great Valley",
-      "Northwest",
-      "Sierra Nevada",
-      "Southwest",
-      "Modoc Plateau",
-      "Sierra Nevada East"
-    ],
-    "photos": [
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295199764/large.jpg",
-        "attribution": "no rights reserved",
-        "license": "cc0",
-        "observation_url": "https://www.inaturalist.org/observations/170217506"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80167442/large.jpeg",
-        "attribution": "no rights reserved",
-        "license": "cc0",
-        "observation_url": "https://www.inaturalist.org/observations/50489305"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545990073/large.jpg",
-        "attribution": "no rights reserved",
-        "license": "cc0",
-        "observation_url": "https://www.inaturalist.org/observations/302943144"
-      }
-    ],
-    "removal_method": null,
-    "removal_notes": [],
-    "removal_sources": [],
-    "removal_timing_window": null,
-    "requires_followup_years": null,
-    "safety_flags": []
-  },
-  {
     "slug": "emex-spinosa",
     "scientific_name": "Emex spinosa",
     "common_names": [
@@ -5240,6 +5443,54 @@
     "safety_flags": []
   },
   {
+    "slug": "euphorbia-maculata",
+    "scientific_name": "Euphorbia maculata",
+    "common_names": [
+      "spotted spurge",
+      "prostrate spurge",
+      "milk purslane"
+    ],
+    "aliases": [
+      "spotted spurge",
+      "Chamaesyce maculata",
+      "prostrate spurge",
+      "milk purslane"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": null,
+    "width_ft": 3,
+    "water": null,
+    "sun": "full",
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Wear gloves — milky white sap is a skin / eye irritant and is toxic to grazing animals.",
+      "Hand-pull young plants before 5-week germination-to-seed cycle completes. Plants often break at the stem; get the taproot when possible.",
+      "Don't bother mowing — plants grow flat below the blade.",
+      "2+ inches of organic mulch (3–4 in for coarse bark) is the most effective non-chemical control — spurge seeds need light.",
+      "Solarization is highly effective: clear plastic over moist soil, 4–6 weeks during July–August. Don't cultivate afterward — brings up deeper seeds.",
+      "Postemergent home-gardener options: 2,4-D/MCPP/dicamba combinations on small seedlings only (mature plants resist), triclopyr (Turflon), spot glyphosate in non-turf areas."
+    ],
+    "removal_sources": [
+      "ucipm-residential/spotted-spurge-and-other-spurges"
+    ],
+    "removal_timing_window": "Spring–early summer (before 5-week flowering)",
+    "requires_followup_years": 2,
+    "safety_flags": [
+      "irritant_sap",
+      "do_not_mow"
+    ]
+  },
+  {
     "slug": "fallopia-japonica",
     "scientific_name": "Fallopia japonica",
     "common_names": [
@@ -5299,75 +5550,6 @@
         "attribution": "no rights reserved",
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/162913738"
-      }
-    ],
-    "removal_method": null,
-    "removal_notes": [],
-    "removal_sources": [],
-    "removal_timing_window": null,
-    "requires_followup_years": null,
-    "safety_flags": []
-  },
-  {
-    "slug": "polygonum-sachalinense",
-    "scientific_name": "Fallopia sachalinensis",
-    "common_names": [
-      "giant knotweed",
-      "sakhalin knotweed",
-      "sacaline"
-    ],
-    "aliases": [
-      "giant knotweed",
-      "sakhalin knotweed",
-      "sacaline",
-      "Polygonum sachalinense",
-      "Reynoutia sachalinensis"
-    ],
-    "nativity": "invasive",
-    "plant_type": null,
-    "height_ft": null,
-    "width_ft": null,
-    "water": null,
-    "sun": null,
-    "cal_ipc_rating": "moderate",
-    "cdfa_rating": "A*",
-    "impact_score": "B",
-    "invasiveness_score": "B",
-    "distribution_score": "D",
-    "spread_mechanisms": [
-      "rapid_maturity",
-      "vegetative_structures",
-      "fragments",
-      "resprouts",
-      "vehicles_equipment"
-    ],
-    "habitat_types": [
-      "coastal_bluff_scrub",
-      "coastal_scrub"
-    ],
-    "jepson_regions": [
-      "Central West",
-      "Northwest",
-      "Sierra Nevada East"
-    ],
-    "photos": [
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124886369/large.jpg",
-        "attribution": "no rights reserved",
-        "license": "cc0",
-        "observation_url": "https://www.inaturalist.org/observations/76345373"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316490913/large.jpg",
-        "attribution": "(c) Zachary Dankowicz, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/181615410"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89043445/large.jpeg",
-        "attribution": "(c) evgeniq_benihanov, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/55901037"
       }
     ],
     "removal_method": null,
@@ -5465,93 +5647,6 @@
         "attribution": "no rights reserved",
         "license": "cc0",
         "observation_url": "https://www.inaturalist.org/observations/187127381"
-      }
-    ],
-    "removal_method": null,
-    "removal_notes": [],
-    "removal_sources": [],
-    "removal_timing_window": null,
-    "requires_followup_years": null,
-    "safety_flags": []
-  },
-  {
-    "slug": "vulpia-myuros",
-    "scientific_name": "Festuca myuros",
-    "common_names": [
-      "rat-tail fescue",
-      "red-tailed fescue",
-      "sixweeksgrass",
-      "zorro annual fescue"
-    ],
-    "aliases": [
-      "rat-tail fescue",
-      "red-tailed fescue",
-      "sixweeksgrass",
-      "zorro annual fescue",
-      "Vulpia myuros"
-    ],
-    "nativity": "invasive",
-    "plant_type": null,
-    "height_ft": null,
-    "width_ft": null,
-    "water": null,
-    "sun": null,
-    "cal_ipc_rating": "moderate",
-    "cdfa_rating": "none",
-    "impact_score": "B",
-    "invasiveness_score": "B",
-    "distribution_score": "A",
-    "spread_mechanisms": [
-      "rapid_maturity",
-      "abundant_seed",
-      "seeds_annually",
-      "self_and_cross_pollinated"
-    ],
-    "habitat_types": [
-      "great_basin_scrub",
-      "chaparral",
-      "coastal_prairie",
-      "valley_foothill_grassland",
-      "vernal_pool",
-      "meadow_seep",
-      "riparian_woodland",
-      "cismontane_woodland",
-      "lower_montane_coniferous_forest",
-      "upper_montane_coniferous_forest"
-    ],
-    "jepson_regions": [
-      "CA Floristic Province",
-      "Cascade Range",
-      "Central West",
-      "Great Valley",
-      "Northwest",
-      "Sierra Nevada",
-      "Southwest",
-      "Great Basin Province",
-      "Modoc Plateau",
-      "Sierra Nevada East",
-      "Desert Province",
-      "Mojave Desert",
-      "Sonoran Desert"
-    ],
-    "photos": [
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414377/large.jpg",
-        "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/95423386"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414385/large.jpg",
-        "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/95423386"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414393/large.jpg",
-        "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/95423386"
       }
     ],
     "removal_method": null,
@@ -5802,6 +5897,53 @@
     ]
   },
   {
+    "slug": "galium-aparine",
+    "scientific_name": "Galium aparine",
+    "common_names": [
+      "catchweed bedstraw",
+      "cleavers",
+      "stickywilly"
+    ],
+    "aliases": [
+      "catchweed bedstraw",
+      "cleavers",
+      "bedstraw",
+      "stickywilly",
+      "velcro plant",
+      "goosegrass"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": 6,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Hand-pull or hoe when soil is damp, in early spring before plants flower — comes up easily before stems sprawl.",
+      "Don't cut at 2–3 inches — UC IPM notes that cutting at that height actually increases biomass production up to 30% vs. uncut. Pull fully or leave alone.",
+      "Mulch (bark, wood chips, leaf litter, gravel) reduces seedling emergence; light inhibits germination on the surface.",
+      "Home-gardener postemergents: glyphosate (broad-spectrum), 2,4-D / dicamba / MCPA (partial), clove-oil burndown on young plants.",
+      "Brush pets after walks through bedstraw-infested areas — hook hairs on stems and fruit are the introduction vector to clean yards.",
+      "Short ~3-year seedbank — consistent prevention of seed set substantially clears infestations."
+    ],
+    "removal_sources": [
+      "ucipm-residential/catchweed-bedstraw"
+    ],
+    "removal_timing_window": "February–March (damp soil, before flowering)",
+    "requires_followup_years": 3,
+    "safety_flags": []
+  },
+  {
     "slug": "gazania-linearis",
     "scientific_name": "Gazania linearis",
     "common_names": [
@@ -5857,71 +5999,6 @@
         "attribution": "(c) Tyler Bishop, some rights reserved (CC BY)",
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/39303731"
-      }
-    ],
-    "removal_method": null,
-    "removal_notes": [],
-    "removal_sources": [],
-    "removal_timing_window": null,
-    "requires_followup_years": null,
-    "safety_flags": []
-  },
-  {
-    "slug": "retama-monosperma",
-    "scientific_name": "Genista monosperma",
-    "common_names": [
-      "bridal veil broom"
-    ],
-    "aliases": [
-      "bridal veil broom",
-      "Retama monosperma",
-      "Spartium monosperma",
-      "Lygos monosperma"
-    ],
-    "nativity": "invasive",
-    "plant_type": null,
-    "height_ft": null,
-    "width_ft": null,
-    "water": null,
-    "sun": null,
-    "cal_ipc_rating": "moderate",
-    "cdfa_rating": "-*",
-    "impact_score": "B",
-    "invasiveness_score": "B",
-    "distribution_score": "C",
-    "spread_mechanisms": [
-      "abundant_seed",
-      "extended_seeding",
-      "vegetative_structures",
-      "fragments",
-      "horticultural"
-    ],
-    "habitat_types": [
-      "coastal_scrub",
-      "coastal_prairie"
-    ],
-    "jepson_regions": [
-      "Great Valley",
-      "Southwest"
-    ],
-    "photos": [
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173295351/large.jpg",
-        "attribution": "(c) Oleg Kosterin, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/103529533"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384832406/large.jpeg",
-        "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/217528689"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492726044/large.jpeg",
-        "attribution": "(c) Corin, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/274037684"
       }
     ],
     "removal_method": null,
@@ -6021,7 +6098,8 @@
       "Plan a decade of annual seedling sweeps; the seedbank persists 30+ years."
     ],
     "removal_sources": [
-      "wric/Genista"
+      "wric/Genista",
+      "ucipm-residential/brooms"
     ],
     "removal_timing_window": "April (just before flowering peak)",
     "requires_followup_years": 60,
@@ -6517,91 +6595,6 @@
     "safety_flags": []
   },
   {
-    "slug": "hordeum-marinum",
-    "scientific_name": "Hordeum marinum",
-    "common_names": [
-      "Mediterranean barley",
-      "seaside barley"
-    ],
-    "aliases": [
-      "Mediterranean barley",
-      "seaside barley",
-      "H. marinum ssp. gussoneanum",
-      "H. geniculatum",
-      "H. gussoneanum. H. hystrix",
-      "Critesion geniculatum",
-      "C. hystrix",
-      "C. marinum"
-    ],
-    "nativity": "invasive",
-    "plant_type": null,
-    "height_ft": null,
-    "width_ft": null,
-    "water": null,
-    "sun": null,
-    "cal_ipc_rating": "moderate",
-    "cdfa_rating": "none",
-    "impact_score": "C",
-    "invasiveness_score": "B",
-    "distribution_score": "A",
-    "spread_mechanisms": [
-      "rapid_maturity",
-      "abundant_seed",
-      "seeds_annually",
-      "vehicles_equipment"
-    ],
-    "habitat_types": [
-      "coastal_bluff_scrub",
-      "coastal_scrub",
-      "great_basin_scrub",
-      "chaparral",
-      "coastal_prairie",
-      "valley_foothill_grassland",
-      "vernal_pool",
-      "meadow_seep",
-      "cismontane_woodland",
-      "lower_montane_coniferous_forest"
-    ],
-    "jepson_regions": [
-      "CA Floristic Province",
-      "Cascade Range",
-      "Central West",
-      "Great Valley",
-      "Northwest",
-      "Sierra Nevada",
-      "Southwest",
-      "Great Basin Province",
-      "Modoc Plateau",
-      "Sierra Nevada East"
-    ],
-    "photos": [
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34858235/large.jpeg",
-        "attribution": "(c) D Defreese, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/22500364"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204205755/large.jpg",
-        "attribution": "(c) crothfels, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/120718865"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386128529/large.jpeg",
-        "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/218222882"
-      }
-    ],
-    "removal_method": null,
-    "removal_notes": [],
-    "removal_sources": [],
-    "removal_timing_window": null,
-    "requires_followup_years": null,
-    "safety_flags": []
-  },
-  {
     "slug": "horderum-murinum",
     "scientific_name": "Hordeum murinum",
     "common_names": [
@@ -6700,6 +6693,91 @@
     "safety_flags": [
       "spines_thorns"
     ]
+  },
+  {
+    "slug": "hordeum-marinum",
+    "scientific_name": "Hordeum marinum",
+    "common_names": [
+      "Mediterranean barley",
+      "seaside barley"
+    ],
+    "aliases": [
+      "Mediterranean barley",
+      "seaside barley",
+      "H. marinum ssp. gussoneanum",
+      "H. geniculatum",
+      "H. gussoneanum. H. hystrix",
+      "Critesion geniculatum",
+      "C. hystrix",
+      "C. marinum"
+    ],
+    "nativity": "invasive",
+    "plant_type": null,
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": "moderate",
+    "cdfa_rating": "none",
+    "impact_score": "C",
+    "invasiveness_score": "B",
+    "distribution_score": "A",
+    "spread_mechanisms": [
+      "rapid_maturity",
+      "abundant_seed",
+      "seeds_annually",
+      "vehicles_equipment"
+    ],
+    "habitat_types": [
+      "coastal_bluff_scrub",
+      "coastal_scrub",
+      "great_basin_scrub",
+      "chaparral",
+      "coastal_prairie",
+      "valley_foothill_grassland",
+      "vernal_pool",
+      "meadow_seep",
+      "cismontane_woodland",
+      "lower_montane_coniferous_forest"
+    ],
+    "jepson_regions": [
+      "CA Floristic Province",
+      "Cascade Range",
+      "Central West",
+      "Great Valley",
+      "Northwest",
+      "Sierra Nevada",
+      "Southwest",
+      "Great Basin Province",
+      "Modoc Plateau",
+      "Sierra Nevada East"
+    ],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34858235/large.jpeg",
+        "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/22500364"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204205755/large.jpg",
+        "attribution": "(c) crothfels, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/120718865"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386128529/large.jpeg",
+        "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/218222882"
+      }
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "hydrilla-verticillata",
@@ -6990,12 +7068,65 @@
         "observation_url": "https://www.inaturalist.org/observations/161360848"
       }
     ],
-    "removal_method": null,
-    "removal_notes": [],
-    "removal_sources": [],
-    "removal_timing_window": null,
-    "requires_followup_years": null,
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Hand-hoe through the crown rather than pulling — stems break off because of the 5+ ft taproot, leaving the crown to resprout.",
+      "If flowers or seedpods are present, uproot, bag, and remove from site — some seeds germinate even from green pods.",
+      "Mowing delays flowering but plants typically resprout; need 1–2 more cuts before they fail to set seed.",
+      "Postemergent (before flowering): 2,4-D at 1% spot solution on seedlings/rosettes, or 2-3 qt/acre. Chlorsulfuron (licensed-only) is more effective. 2,4-D + chlorsulfuron combination is highly effective.",
+      "California-specific: fall treatments work less well than in other states due to dry late-season weather limiting herbicide uptake.",
+      "8+ year seedbank — commit to 2–3 years of repeated removal in any infested area."
+    ],
+    "removal_sources": [
+      "ucipm-residential/dyers-woad"
+    ],
+    "removal_timing_window": "Spring rosette → May (before seed pods)",
+    "requires_followup_years": 8,
     "safety_flags": []
+  },
+  {
+    "slug": "kyllinga-brevifolia",
+    "scientific_name": "Kyllinga brevifolia",
+    "common_names": [
+      "green kyllinga"
+    ],
+    "aliases": [
+      "green kyllinga",
+      "false-green kyllinga"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Catch new patches small and grub them out — dig the entire plant including all rhizomes. Monitor for several months afterward.",
+      "Don't casually hoe or cultivate — chopping fragments rhizomes into pieces that re-establish. Hoeing followed by irrigation is essentially propagation.",
+      "Fix overwatering — wet conditions favor kyllinga. Reduce irrigation or improve drainage in low spots.",
+      "Landscape fabric with full overlap (covered with bark to slow UV breakdown) is the durable bed option. Organic mulch alone is generally not effective — rhizomes push through.",
+      "In turf: halosulfuron in two sequential applications is the most effective postemergent per UC IPM. Spot glyphosate kills surrounding turf — leaves bare spots needing overseeding.",
+      "Once kyllinga reaches ~40% of turf, eradication is impractical — plan complete renovation rather than chasing patches."
+    ],
+    "removal_sources": [
+      "ucipm-residential/green-kyllinga"
+    ],
+    "removal_timing_window": "April–October (active growth)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "fragment_spreader",
+      "do_not_mow"
+    ]
   },
   {
     "slug": "lepidium-chalepense",
@@ -7083,85 +7214,6 @@
         "attribution": "(c) Jared Shorma, some rights reserved (CC BY)",
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/318554783"
-      }
-    ],
-    "removal_method": null,
-    "removal_notes": [],
-    "removal_sources": [],
-    "removal_timing_window": null,
-    "requires_followup_years": null,
-    "safety_flags": []
-  },
-  {
-    "slug": "cardaria-draba",
-    "scientific_name": "Lepidium draba",
-    "common_names": [
-      "heart-podded hoary cress",
-      "whitetop"
-    ],
-    "aliases": [
-      "heart-podded hoary cress",
-      "whitetop",
-      "Cardaria draba"
-    ],
-    "nativity": "invasive",
-    "plant_type": null,
-    "height_ft": null,
-    "width_ft": null,
-    "water": null,
-    "sun": null,
-    "cal_ipc_rating": "moderate",
-    "cdfa_rating": "-*",
-    "impact_score": "B",
-    "invasiveness_score": "B",
-    "distribution_score": "B",
-    "spread_mechanisms": [
-      "rapid_maturity",
-      "abundant_seed",
-      "seeds_annually",
-      "vegetative_structures",
-      "resprouts"
-    ],
-    "habitat_types": [
-      "coastal_prairie",
-      "valley_foothill_grassland",
-      "vernal_pool",
-      "meadow_seep",
-      "riparian_forest",
-      "riparian_woodland"
-    ],
-    "jepson_regions": [
-      "CA Floristic Province",
-      "Cascade Range",
-      "Central West",
-      "Great Valley",
-      "Northwest",
-      "Sierra Nevada",
-      "Southwest",
-      "Great Basin Province",
-      "Modoc Plateau",
-      "Sierra Nevada East",
-      "Desert Province",
-      "Mojave Desert"
-    ],
-    "photos": [
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75414030/large.jpeg",
-        "attribution": "(c) euanmck, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/47548133"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17017121/large.jpg",
-        "attribution": "(c) Conrad Altmann, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/11888058"
-      },
-      {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196322773/large.jpg",
-        "attribution": "(c) Andre Hosper, some rights reserved (CC BY)",
-        "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/116311465"
       }
     ],
     "removal_method": null,
@@ -7261,7 +7313,8 @@
       "Don't till — fragmenting roots disperses the plant. Clean equipment after any work in infested areas."
     ],
     "removal_sources": [
-      "wric/Lepidium_latifolium"
+      "wric/Lepidium_latifolium",
+      "ucipm-residential/perennial-pepperweed"
     ],
     "removal_timing_window": "May–June (bud → flowering)",
     "requires_followup_years": 10,
@@ -7963,6 +8016,51 @@
     "safety_flags": []
   },
   {
+    "slug": "malva-parviflora",
+    "scientific_name": "Malva parviflora",
+    "common_names": [
+      "little mallow",
+      "cheeseweed"
+    ],
+    "aliases": [
+      "little mallow",
+      "cheeseweed",
+      "small-flowered mallow",
+      "Malva neglecta",
+      "common mallow"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": 5,
+    "width_ft": null,
+    "water": null,
+    "sun": "full",
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Pull or hoe while plants have four or fewer true leaves — once the taproot lignifies (within weeks), hand removal stops working.",
+      "Don't mow — plants have viable buds on stems below the blade. Common mallow's prostrate habit is especially mower-resistant.",
+      "Shallow cultivation that severs the taproot below the soil line is effective when plants are young and numerous.",
+      "3+ inches of bark or wood-chip mulch suppresses germination — maintain depth as it breaks down.",
+      "Glyphosate is ineffective on mallow — one of the few weeds it doesn't control. Plan mechanical removal as the primary tactic.",
+      "Solarization and flaming also don't work; remove plants before the 15-day flower-to-seed window completes."
+    ],
+    "removal_sources": [
+      "ucipm-residential/mallows"
+    ],
+    "removal_timing_window": "Within 4 weeks of germination (fall–winter rains)",
+    "requires_followup_years": 10,
+    "safety_flags": []
+  },
+  {
     "slug": "mentha-pulegium",
     "scientific_name": "Mentha pulegium",
     "common_names": [
@@ -8661,12 +8759,100 @@
       "Don't compost garden trimmings with Oxalis — bulbs survive home compost piles."
     ],
     "removal_sources": [
-      "wric/Oxalis"
+      "wric/Oxalis",
+      "ucipm-residential/creeping-woodsorrel-and-bermuda-buttercup"
     ],
     "removal_timing_window": "Autumn dig (fresh bulbs visible) + Jan–March foliage pulls",
     "requires_followup_years": 5,
     "safety_flags": [
       "fragment_spreader"
+    ]
+  },
+  {
+    "slug": "paspalum-dilatatum",
+    "scientific_name": "Paspalum dilatatum",
+    "common_names": [
+      "dallisgrass"
+    ],
+    "aliases": [
+      "dallisgrass"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": 5,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Dig out young plants before they form rhizomes or seed. Mature clumps also dig, but rhizome fragments left behind regrow — dig generously around the visible plant.",
+      "Don't bother mowing — flowering stalks grow flat enough to escape mower blades.",
+      "Maintain competitive turf at optimum mowing height with consistent irrigation; dallisgrass invades low-maintenance lawns with infrequent deep watering.",
+      "Selective postemergent options are licensed-applicator-only (foramsulfuron, thiencarbazone, sulfosulfuron) and require 3 applications across 2–3 years.",
+      "Cool-season turf: essentially no selective option. Fluazifop (Fusilade II) on fine/tall fescue only.",
+      "Spot glyphosate is the practical homeowner option — kills surrounding turf, leaves bare spots needing overseeding. For severe infestations, full renovation is more efficient than spot-treating dozens of clumps."
+    ],
+    "removal_sources": [
+      "ucipm-residential/dallisgrass"
+    ],
+    "removal_timing_window": "Spring–summer (before rhizome spread)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "fragment_spreader",
+      "do_not_mow"
+    ]
+  },
+  {
+    "slug": "pennisetum-clandestinum",
+    "scientific_name": "Pennisetum clandestinum",
+    "common_names": [
+      "kikuyugrass"
+    ],
+    "aliases": [
+      "kikuyugrass",
+      "Cenchrus clandestinus"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "dig_rhizome_complete",
+    "removal_notes": [
+      "Catch new patches small — once established, kikuyu is one of the hardest weeds in California to dislodge.",
+      "Don't cultivate/hoe casually — chopping rhizomes scatters fragments that re-root, especially if irrigation follows. The hoeing-then-watering sequence is essentially propagation.",
+      "Strong landscape fabric with full edge overlap can work; organic mulch alone is too permeable — kikuyu pushes rhizomes through.",
+      "Solarization (clear plastic, moist soil, 4–6 weeks in mid-July to mid-September) works inland; unlikely to work coastally because seasonal fog limits heat.",
+      "In ornamental beds: hand-pull + spot glyphosate. Sethoxydim and fluazifop are grass-selective home-gardener options that won't harm broadleaf ornamentals.",
+      "If ≥40% of the lawn is kikuyu, UC IPM advises maintaining it as the turf species rather than fighting it — that's how hard it is to dislodge."
+    ],
+    "removal_sources": [
+      "ucipm-residential/kikuyugrass"
+    ],
+    "removal_timing_window": "Any time (moist soil) for mechanical; March for preemergent",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "fragment_spreader",
+      "do_not_mow"
     ]
   },
   {
@@ -8846,6 +9032,311 @@
     "safety_flags": []
   },
   {
+    "slug": "phytolacca-americana",
+    "scientific_name": "Phytolacca americana",
+    "common_names": [
+      "American pokeweed",
+      "pokeweed"
+    ],
+    "aliases": [
+      "pokeweed",
+      "American pokeweed",
+      "poke salad",
+      "poke sallet",
+      "pokeberry",
+      "inkberry",
+      "American nightshade",
+      "scoke",
+      "pigeonberry"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": 10,
+    "width_ft": 5,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Pull young plants by hand at the seedling stage; dig established plants with a shovel for the large fleshy taproot — easier in spring/fall when soil is moist.",
+      "Bag ripe berries before removing mature plants — every berry is a packet of seeds viable up to 50 years. Don't compost — seeds survive home compost.",
+      "All parts toxic (saponins + oxalates) — wear gloves, avoid touching your face, keep children and curious pets away from the berries.",
+      "Don't burn — smoke from toxic plant material is hazardous.",
+      "Foliar herbicides (April–August, actively growing): glyphosate 2–3% spray-to-wet (~2.5–4 oz of 41% per gallon), or triclopyr 0.75–1% (~1–1.25 oz of 61% per gallon, broadleaf-selective). Use amine forms over 80°F.",
+      "Monitor below trees, fence rows, and bird perches — bird-dispersed seed establishes new plants under canopies year after year."
+    ],
+    "removal_sources": [
+      "ucipm-residential/pokeweed"
+    ],
+    "removal_timing_window": "April–August (foliar herbicide window)",
+    "requires_followup_years": 50,
+    "safety_flags": [
+      "toxic_handling",
+      "do_not_burn"
+    ]
+  },
+  {
+    "slug": "plantago-major",
+    "scientific_name": "Plantago major",
+    "common_names": [
+      "broadleaf plantain",
+      "common plantain"
+    ],
+    "aliases": [
+      "broadleaf plantain",
+      "common plantain",
+      "dooryard plantain",
+      "Plantago lanceolata",
+      "buckhorn plantain",
+      "narrow-leaf plantain",
+      "ribwort plantain",
+      "English plantain",
+      "ribgrass"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Hand-pull or dig mature plants — must remove the entire crown (and taproot for buckhorn) or it regenerates.",
+      "Don't bother mowing — the rosette and seed stalks both stay too low to be cut.",
+      "Address the underlying soil condition: broadleaf plantain → compaction + alkalinity + low N; buckhorn → dry + low fertility. Fix the soil and competitive grass outcompetes plantain.",
+      "Postemergent turf herbicides (best in fall): 2,4-D works best for mature plants — repeat applications often needed. Triclopyr, dicamba, MCPA, mecoprop, carfentrazone, mesotrione also work.",
+      "Quinclorac gives fair control on buckhorn, poor on broadleaf.",
+      "2–4 in organic mulch (or fabric + cover mulch) controls seedlings; reapply as it degrades."
+    ],
+    "removal_sources": [
+      "ucipm-residential/plantains"
+    ],
+    "removal_timing_window": "Fall (best herbicide window) or anytime mechanical",
+    "requires_followup_years": 5,
+    "safety_flags": []
+  },
+  {
+    "slug": "poa-annua",
+    "scientific_name": "Poa annua",
+    "common_names": [
+      "annual bluegrass"
+    ],
+    "aliases": [
+      "annual bluegrass",
+      "Poa",
+      "annual meadow-grass"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Pull or hoe solitary plants before they seed; open spots quickly re-flush from the seedbank so monitor and remove repeatedly.",
+      "2–3 in organic mulch (or fabric + bark) suppresses germination — seeds need light.",
+      "Maintain dense competitive turf with deep + infrequent irrigation. Annual bluegrass thrives in thin or overwatered lawns.",
+      "Preemergent (a few weeks before fall germination, when soil temps drop below 70°F): benefin, bensulide, dithiopyr, oryzalin, oxadiazon, pendimethalin, prodiamine — multiple home-gardener-available options.",
+      "Postemergent options are limited; most that work are licensed-applicator + warm-season-turf only (foramsulfuron, sulfosulfuron, trifloxysulfuron).",
+      "In severe infestations, complete renovation (kill everything with glyphosate, replant in late spring/summer with competitive turf, fall preemergent) is often more effective than chasing the weed."
+    ],
+    "removal_sources": [
+      "ucipm-residential/annual-bluegrass"
+    ],
+    "removal_timing_window": "Fall–winter (germination peak, before seed)",
+    "requires_followup_years": 3,
+    "safety_flags": []
+  },
+  {
+    "slug": "polygonum-aviculare",
+    "scientific_name": "Polygonum aviculare",
+    "common_names": [
+      "common knotweed",
+      "prostrate knotweed",
+      "wiregrass"
+    ],
+    "aliases": [
+      "common knotweed",
+      "Polygonum arenastrum",
+      "wiregrass",
+      "wireweed",
+      "matweed",
+      "doorweed",
+      "prostrate knotweed"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": null,
+    "width_ft": 4,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Aerate or loosen compacted soil — the highest-leverage move, because knotweed only thrives where compaction has killed off competitors.",
+      "Reduce traffic with fences/hedges; install rock or pavement where foot traffic is unavoidable.",
+      "Hand-pull or hoe with a swivel hoe — the taproot lifts cleanly when soil is moist.",
+      "3–4 in coarse organic mulch (or fabric + bark/rock) prevents seedling establishment. Avoid finely-shredded mulch — seeds germinate in it.",
+      "Postemergent home-gardener herbicides on young plants (under 3 in diameter): glyphosate, pelargonic acid, 2,4-D. Dicamba in turf only.",
+      "Knotweed is a host for parasitic dodder and powdery mildew — extra reason to keep it out of vegetable beds."
+    ],
+    "removal_sources": [
+      "ucipm-residential/common-knotweed"
+    ],
+    "removal_timing_window": "Spring (before mat sets)",
+    "requires_followup_years": 3,
+    "safety_flags": []
+  },
+  {
+    "slug": "polygonum-sachalinense",
+    "scientific_name": "Fallopia sachalinensis",
+    "common_names": [
+      "giant knotweed",
+      "sakhalin knotweed",
+      "sacaline"
+    ],
+    "aliases": [
+      "giant knotweed",
+      "sakhalin knotweed",
+      "sacaline",
+      "Polygonum sachalinense",
+      "Reynoutia sachalinensis"
+    ],
+    "nativity": "invasive",
+    "plant_type": null,
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": "moderate",
+    "cdfa_rating": "A*",
+    "impact_score": "B",
+    "invasiveness_score": "B",
+    "distribution_score": "D",
+    "spread_mechanisms": [
+      "rapid_maturity",
+      "vegetative_structures",
+      "fragments",
+      "resprouts",
+      "vehicles_equipment"
+    ],
+    "habitat_types": [
+      "coastal_bluff_scrub",
+      "coastal_scrub"
+    ],
+    "jepson_regions": [
+      "Central West",
+      "Northwest",
+      "Sierra Nevada East"
+    ],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124886369/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/76345373"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/316490913/large.jpg",
+        "attribution": "(c) Zachary Dankowicz, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/181615410"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/89043445/large.jpeg",
+        "attribution": "(c) evgeniq_benihanov, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/55901037"
+      }
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
+  },
+  {
+    "slug": "portulaca-oleracea",
+    "scientific_name": "Portulaca oleracea",
+    "common_names": [
+      "common purslane",
+      "verdolaga"
+    ],
+    "aliases": [
+      "common purslane",
+      "verdolaga",
+      "pursley"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": "full",
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Hand-pull seedlings when small — easiest after an irrigation when soil is moist.",
+      "Don't leave pulled or hoed plants on damp soil — stems re-root within days. Remove from site or dry on a hard surface before disposal. Bag plants with flowers already forming.",
+      "3+ in organic mulch (porous fabric for irrigated beds) starves seeds of light — purslane germinates only at the surface.",
+      "Solarization (clear plastic over moist soil, July–August) is one of the most effective non-chemical controls. Don't cultivate afterward — brings up deeper seeds.",
+      "In turf: dicamba, MCPP, 2,4-D, MSMA are effective home-gardener postemergents. In ornamental beds, mulch + spot glyphosate.",
+      "240,000 seeds per plant + 5–40 year viability — prevention is the primary tool. Clean equipment between infested and clean beds."
+    ],
+    "removal_sources": [
+      "ucipm-residential/common-purslane"
+    ],
+    "removal_timing_window": "Spring–summer (after each irrigation); July–August for solarization",
+    "requires_followup_years": 40,
+    "safety_flags": [
+      "fragment_spreader"
+    ]
+  },
+  {
     "slug": "potamogeton-crispus",
     "scientific_name": "Potamogeton crispus",
     "common_names": [
@@ -8921,23 +9412,16 @@
     "safety_flags": []
   },
   {
-    "slug": "acroptilon-repens",
-    "scientific_name": "Rhaponticum repens",
+    "slug": "retama-monosperma",
+    "scientific_name": "Genista monosperma",
     "common_names": [
-      "Russian knapweed",
-      "hardheads",
-      "creeping knapweed",
-      "mountain bluet",
-      "Turkestan thistle"
+      "bridal veil broom"
     ],
     "aliases": [
-      "Russian knapweed",
-      "hardheads",
-      "creeping knapweed",
-      "mountain bluet",
-      "Turkestan thistle",
-      "Acroptilon repens",
-      "Centaurea repens"
+      "bridal veil broom",
+      "Retama monosperma",
+      "Spartium monosperma",
+      "Lygos monosperma"
     ],
     "nativity": "invasive",
     "plant_type": null,
@@ -8946,63 +9430,43 @@
     "water": null,
     "sun": null,
     "cal_ipc_rating": "moderate",
-    "cdfa_rating": "B*",
+    "cdfa_rating": "-*",
     "impact_score": "B",
     "invasiveness_score": "B",
-    "distribution_score": "B",
+    "distribution_score": "C",
     "spread_mechanisms": [
-      "rapid_maturity",
       "abundant_seed",
-      "seeds_annually",
-      "long_lived_seedbank",
-      "self_and_cross_pollinated",
+      "extended_seeding",
       "vegetative_structures",
       "fragments",
-      "resprouts"
+      "horticultural"
     ],
     "habitat_types": [
-      "great_basin_scrub",
-      "valley_foothill_grassland",
-      "great_basin_grassland",
-      "riparian_forest",
-      "riparian_woodland",
-      "pinyon_juniper_woodland",
-      "broadleaved_upland_forest",
-      "lower_montane_coniferous_forest"
+      "coastal_scrub",
+      "coastal_prairie"
     ],
     "jepson_regions": [
-      "CA Floristic Province",
-      "Cascade Range",
-      "Central West",
       "Great Valley",
-      "Northwest",
-      "Sierra Nevada",
-      "Southwest",
-      "Great Basin Province",
-      "Modoc Plateau",
-      "Sierra Nevada East",
-      "Desert Province",
-      "Mojave Desert",
-      "Sonoran Desert"
+      "Southwest"
     ],
     "photos": [
       {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215177824/large.jpg",
-        "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173295351/large.jpg",
+        "attribution": "(c) Oleg Kosterin, some rights reserved (CC BY)",
         "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/126794451"
+        "observation_url": "https://www.inaturalist.org/observations/103529533"
       },
       {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393970800/large.jpeg",
-        "attribution": "(c) Yana, some rights reserved (CC BY)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384832406/large.jpeg",
+        "attribution": "(c) Duarte Frade, some rights reserved (CC BY)",
         "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/222406615"
+        "observation_url": "https://www.inaturalist.org/observations/217528689"
       },
       {
-        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/215177835/large.jpg",
-        "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/492726044/large.jpeg",
+        "attribution": "(c) Corin, some rights reserved (CC BY)",
         "license": "cc-by",
-        "observation_url": "https://www.inaturalist.org/observations/126794451"
+        "observation_url": "https://www.inaturalist.org/observations/274037684"
       }
     ],
     "removal_method": null,
@@ -9102,7 +9566,8 @@
       "Bag canes for landfill — chipping or home composting scatters live nodes that re-root."
     ],
     "removal_sources": [
-      "wric/Rubus"
+      "wric/Rubus",
+      "ucipm-residential/wild-blackberries"
     ],
     "removal_timing_window": "Late summer–early fall (foliar herbicide window)",
     "requires_followup_years": 5,
@@ -9331,6 +9796,56 @@
     "removal_timing_window": null,
     "requires_followup_years": null,
     "safety_flags": []
+  },
+  {
+    "slug": "salsola-tragus",
+    "scientific_name": "Salsola tragus",
+    "common_names": [
+      "Russian thistle",
+      "tumbleweed"
+    ],
+    "aliases": [
+      "Russian thistle",
+      "tumbleweed",
+      "Salsola kali",
+      "Salsola ryanii",
+      "Salsola paulsenii"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": null,
+    "width_ft": 6,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Pull young plants while small, before stems lignify and leaves get spiny. Wear gloves at later stages — plant material causes skin irritation.",
+      "Mow at first bloom to prevent seed set — timing is critical (too early → regrowth; too late → seeds form).",
+      "Don't disturb soil in already-vacant areas — loose soil is exactly what Russian thistle needs to germinate. Plant competitive desirable vegetation.",
+      "Dispose of mature tumbleweeds against fences/structures before they break loose in fall — clearing them removes the fire hazard and prevents next year's seed dispersal.",
+      "Flame weeding seedlings/rosettes after rain (high humidity, wet vegetation) is effective. Never with dry surroundings — major fire risk.",
+      "Russian thistle has evolved resistance to chlorsulfuron, sulfometuron, and glyphosate within a few years of repeated single-herbicide use — rotate modes of action. Short 1–2 year seedbank is the long-term lever."
+    ],
+    "removal_sources": [
+      "ucipm-residential/russian-thistle"
+    ],
+    "removal_timing_window": "Spring (early growth, before lignification)",
+    "requires_followup_years": 2,
+    "safety_flags": [
+      "spines_thorns",
+      "irritant_sap",
+      "do_not_burn",
+      "allergenic_pollen"
+    ]
   },
   {
     "slug": "salvinia-molesta",
@@ -9574,6 +10089,50 @@
     "removal_timing_window": null,
     "requires_followup_years": null,
     "safety_flags": []
+  },
+  {
+    "slug": "senecio-vulgaris",
+    "scientific_name": "Senecio vulgaris",
+    "common_names": [
+      "common groundsel",
+      "old-man-of-the-spring"
+    ],
+    "aliases": [
+      "common groundsel",
+      "old-man-of-the-spring"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": 2,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Eliminate plants before they flower. Even pulled or cut plants can mature seeds from open flowers — bag flowering plants and remove from the site rather than leaving on the ground.",
+      "Hand-pull, hoe, or shallow-cultivate while plants are young. Monitor from early fall through early summer.",
+      "Coarse, medium-size, 3+ in mulch is highly effective. Avoid fine mulches (sawdust) — they absorb water and become a seedbed. Synthetic fabrics block soil seedbank but not wind-blown seeds landing on top.",
+      "Spot glyphosate or diquat on small plants in beds — shield the sprayer. Glyphosate is the only edible-crop-compatible option of the two.",
+      "Keep horses, cattle, and pigs away from infested areas — pyrrolizidine alkaloids cause chronic liver damage in repeated small doses.",
+      "One-year seedbank means two or three years of consistent removal substantially clears an infestation. Re-infestation from wind-blown neighborhood seeds is normal — plan ongoing seedling sweeps."
+    ],
+    "removal_sources": [
+      "ucipm-residential/common-groundsel"
+    ],
+    "removal_timing_window": "Fall–early summer (continuous; before flowering)",
+    "requires_followup_years": 1,
+    "safety_flags": [
+      "toxic_handling"
+    ]
   },
   {
     "slug": "sesbania-punicea",
@@ -9917,12 +10476,60 @@
       "Don't burn — seedbank germinates after fire. Plan 10+ years of annual seedling sweeps."
     ],
     "removal_sources": [
-      "wric/Spartium"
+      "wric/Spartium",
+      "ucipm-residential/brooms"
     ],
     "removal_timing_window": "May–June (before pods ripen)",
     "requires_followup_years": 30,
     "safety_flags": [
       "do_not_burn"
+    ]
+  },
+  {
+    "slug": "stellaria-media",
+    "scientific_name": "Stellaria media",
+    "common_names": [
+      "common chickweed"
+    ],
+    "aliases": [
+      "common chickweed",
+      "chickweed",
+      "sticky chickweed",
+      "Cerastium glomeratum",
+      "mouseear chickweed",
+      "Cerastium fontanum"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Control before flowering — the 5–6 week germination-to-seed cycle gives a narrow window. Monitor from late fall onward.",
+      "Hand-pull, hoe, or cultivate while soil is dry and plants are small. If soil is moist and plants are large, remove plant debris from the site — stems re-root from nodes in damp ground.",
+      "Solarization (clear plastic over moist soil, late summer) kills the seedbank. Don't disturb the soil afterward — brings up deeper seeds.",
+      "2+ in organic mulch (or fabric + cover) suppresses germination.",
+      "Preemergent (late fall / early winter, before germination): benefin, dithiopyr, oryzalin, pendimethalin, prodiamine, trifluralin.",
+      "7–8 year seedbank depletes 95% with consistent prevention of seed set. Each clean year compounds."
+    ],
+    "removal_sources": [
+      "ucipm-residential/chickweeds"
+    ],
+    "removal_timing_window": "Late fall–early spring (before 5–6 week flower)",
+    "requires_followup_years": 8,
+    "safety_flags": [
+      "fragment_spreader"
     ]
   },
   {
@@ -9983,6 +10590,79 @@
         "attribution": "(c) Татьяна Максимова, some rights reserved (CC BY)",
         "license": "cc-by",
         "observation_url": "https://www.inaturalist.org/observations/202443087"
+      }
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
+  },
+  {
+    "slug": "taeniatherum-caput-medusae",
+    "scientific_name": "Elymus caput-medusae",
+    "common_names": [
+      "medusahead"
+    ],
+    "aliases": [
+      "medusahead",
+      "Taeniatherum caput-medusae"
+    ],
+    "nativity": "invasive",
+    "plant_type": null,
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": "high",
+    "cdfa_rating": "-*",
+    "impact_score": "A",
+    "invasiveness_score": "A",
+    "distribution_score": "A",
+    "spread_mechanisms": [
+      "rapid_maturity",
+      "abundant_seed",
+      "seeds_annually",
+      "self_and_cross_pollinated",
+      "vehicles_equipment",
+      "livestock_dispersed"
+    ],
+    "habitat_types": [
+      "coastal_scrub",
+      "great_basin_scrub",
+      "chaparral",
+      "coastal_prairie",
+      "valley_foothill_grassland",
+      "cismontane_woodland"
+    ],
+    "jepson_regions": [
+      "Cascade Range",
+      "Great Valley",
+      "Northwest",
+      "Sierra Nevada",
+      "Southwest",
+      "Modoc Plateau",
+      "Sierra Nevada East"
+    ],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295199764/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/170217506"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80167442/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/50489305"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/545990073/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/302943144"
       }
     ],
     "removal_method": null,
@@ -10387,6 +11067,52 @@
     "safety_flags": []
   },
   {
+    "slug": "taraxacum-officinale",
+    "scientific_name": "Taraxacum officinale",
+    "common_names": [
+      "dandelion",
+      "common dandelion"
+    ],
+    "aliases": [
+      "dandelion",
+      "lion's tooth",
+      "common dandelion",
+      "puffball",
+      "blowball",
+      "monk's head"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": 2,
+    "width_ft": 1,
+    "water": null,
+    "sun": "full",
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Grub out solitary plants with a dandelion knife before they seed — get all the taproot you can. Root sections as short as 1 in regenerate.",
+      "Repeated hand-pulling alone is usually futile — buds on remaining root segments regenerate.",
+      "Don't bother mowing — basal rosette sits below the mower blade.",
+      "3+ in wood chip / bark mulch or landscape fabric blocks light to germinating seeds.",
+      "Turf-safe postemergents: 2,4-D, dicamba, MCPA, mecoprop combinations (weed-and-feed). Triclopyr is also effective but don't use on Bermudagrass.",
+      "Spot-paint glyphosate on leaves in mulched beds; combine with isoxaben / indaziflam / dithiopyr preemergent to clean up the seedbank. Wind-dispersed seed travels miles — expect ongoing seedling sweeps every spring and fall."
+    ],
+    "removal_sources": [
+      "ucipm-residential/dandelion"
+    ],
+    "removal_timing_window": "Year-round in mild CA (focus spring + fall)",
+    "requires_followup_years": 3,
+    "safety_flags": []
+  },
+  {
     "slug": "torilis-arvensis",
     "scientific_name": "Torilis arvensis",
     "common_names": [
@@ -10455,6 +11181,56 @@
     "removal_timing_window": null,
     "requires_followup_years": null,
     "safety_flags": []
+  },
+  {
+    "slug": "toxicodendron-diversilobum",
+    "scientific_name": "Toxicodendron diversilobum",
+    "common_names": [
+      "Pacific poison-oak",
+      "western poison-oak"
+    ],
+    "aliases": [
+      "poison-oak",
+      "Pacific poison-oak",
+      "western poison-oak",
+      "Rhus diversiloba"
+    ],
+    "nativity": "native",
+    "plant_type": "perennial",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "pull_vine_dig_crown",
+    "removal_notes": [
+      "Safety first: washable cotton gloves over plastic gloves, long sleeves, long pants, closed shoes. Wash all clothing/tools/pets after — urushiol persists for months on surfaces.",
+      "Don't burn poison-oak — urushiol disperses in smoke, severe respiratory hazard.",
+      "Don't mow — mowers aerosolize urushiol particles. Same exposure hazard as burning.",
+      "Hand-pull or grub when soil is moist (early spring or late fall) — remove the entire plant including roots. Dry hard soil → stems snap and rootstocks vigorously resprout.",
+      "Foliar (late spring–early summer, actively growing): glyphosate 2% spray-to-wet (2.5 oz of 41% per gallon), or triclopyr ester 1–5% with seed oil for better penetration. Over 80°F use amine triclopyr or glyphosate, not ester.",
+      "Cut-stump: cut, then paint within minutes with concentrated triclopyr ester (1:4 with seed oil), undiluted triclopyr amine 8%, or 41% glyphosate diluted 1:1 in water. Re-treat when new shoots reach ~2 ft.",
+      "Poison-oak is a valuable native in wildland settings — only remove where it poses a safety/access problem (near homes, trails, play areas)."
+    ],
+    "removal_sources": [
+      "ucipm-residential/poison-oak"
+    ],
+    "removal_timing_window": "Early spring or late fall (moist soil); late spring–early summer for foliar",
+    "requires_followup_years": 2,
+    "safety_flags": [
+      "irritant_sap",
+      "do_not_burn",
+      "do_not_mow",
+      "fragment_spreader"
+    ]
   },
   {
     "slug": "triadica-sebifera",
@@ -10529,6 +11305,104 @@
     "removal_sources": [],
     "removal_timing_window": null,
     "requires_followup_years": null,
+    "safety_flags": []
+  },
+  {
+    "slug": "tribulus-terrestris",
+    "scientific_name": "Tribulus terrestris",
+    "common_names": [
+      "puncturevine",
+      "goathead",
+      "caltrop"
+    ],
+    "aliases": [
+      "puncturevine",
+      "caltrop",
+      "goathead"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": null,
+    "width_ft": 5,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Pull plants before they produce seed (before or at flowering) — taproot is younger and softer at this stage. Soil moist makes it cleanest.",
+      "Sweep up dropped burrs after pulling — pat a piece of carpet against the ground to collect them. Pet paws and bicycle tires are the dispersal vectors.",
+      "Don't bother mowing — plants grow flat to the ground.",
+      "3+ in organic mulch or fabric suppresses germination, but burrs dropped on top of the mulch can establish from the surface because of the deep taproot — combine mulch with burr cleanup.",
+      "Two introduced weevils (*Microlarinus lareynii* seed-eater + *M. lypriformis* stem-borer) provide effective control when working together. Often available free at established release sites from your county Agricultural Commissioner.",
+      "Home-gardener postemergent: 2,4-D, glyphosate, dicamba on young plants. 5-year seedbank — persistent monitoring is the long-term play."
+    ],
+    "removal_sources": [
+      "ucipm-residential/puncturevine"
+    ],
+    "removal_timing_window": "Before/at flowering (3 weeks from germination)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "spines_thorns"
+    ]
+  },
+  {
+    "slug": "trifolium-repens",
+    "scientific_name": "Trifolium repens",
+    "common_names": [
+      "white clover",
+      "Dutch clover"
+    ],
+    "aliases": [
+      "white clover",
+      "Dutch clover",
+      "black medic",
+      "Medicago lupulina",
+      "California burclover",
+      "Medicago polymorpha",
+      "strawberry clover",
+      "Trifolium fragiferum",
+      "yellow sweetclover",
+      "Melilotus officinalis",
+      "white sweetclover",
+      "Melilotus alba"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Annual clovers (black medic, burclover, sweetclovers): hand-pull, hoe, or cultivate before seed set. Easy at the seedling stage.",
+      "Perennial clovers (white, strawberry): dig out the connected rooted-stem clump. Glyphosate at high rates suppresses but rarely eradicates.",
+      "3–4 in organic mulch (or fabric + bark) blocks seedlings; thicker (4–6 in) layers smother existing plants.",
+      "Composting and solarization are less effective than for other weeds — the hard seed coat tolerates heat and survives composting. Plan multi-year control.",
+      "A green clover patch in a yellow lawn signals low nitrogen — fix the fertility balance first. Increase N (1 lb actual N per 1,000 sq ft per active-growth month); reduce phosphorus.",
+      "Cool-season turf postemergent: triclopyr (also mecoprop, dicamba). Warm-season turf: mecoprop and dicamba; don't use triclopyr (damages warm-season grasses). 2,4-D injures but doesn't control — skip it."
+    ],
+    "removal_sources": [
+      "ucipm-residential/clovers"
+    ],
+    "removal_timing_window": "Fall (cool-season germination)",
+    "requires_followup_years": 5,
     "safety_flags": []
   },
   {
@@ -10612,13 +11486,67 @@
       "Don't burn alone — burning triggers a flush of seedling germination from the 30-year seedbank."
     ],
     "removal_sources": [
-      "wric/Ulex"
+      "wric/Ulex",
+      "ucipm-residential/brooms"
     ],
     "removal_timing_window": "Spring, or shortly after winter rain",
     "requires_followup_years": 30,
     "safety_flags": [
       "spines_thorns",
       "do_not_burn"
+    ]
+  },
+  {
+    "slug": "urtica-urens",
+    "scientific_name": "Urtica urens",
+    "common_names": [
+      "burning nettle",
+      "dwarf nettle",
+      "small nettle"
+    ],
+    "aliases": [
+      "burning nettle",
+      "dwarf nettle",
+      "small nettle",
+      "Urtica dioica",
+      "stinging nettle",
+      "American stinging nettle",
+      "California nettle",
+      "coast nettle",
+      "Lyall nettle",
+      "hoary nettle"
+    ],
+    "nativity": "invasive",
+    "plant_type": "annual",
+    "height_ft": 2,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [],
+    "removal_method": "hand_pull",
+    "removal_notes": [
+      "Gloves and long sleeves are non-negotiable — stinging hairs cause irritant dermatitis in everyone, not just allergic individuals. Sting symptoms can last 12+ hours.",
+      "Burning nettle (annual): hand-pull or hoe before plants set seed. Straightforward with gloves on.",
+      "Stinging nettle (perennial, often native *U. dioica*): remove the entire rhizome, or the plant regrows. Don't cultivate casually — chopping rhizomes spreads the patch.",
+      "Close mowing prevents fruit development but doesn't kill the plants. Repeated cultivation works on stinging nettle if persistent across multiple seasons.",
+      "Stinging nettle hosts native butterflies (red admiral, satyr comma, Milbert's tortoiseshell) — for naturalistic gardens, leaving a patch in a remote moist corner is a legitimate native-plant choice. Remove only where safety/access matters.",
+      "Don't compost in livestock-accessible areas without thorough drying — sting hairs persist on dried plant material."
+    ],
+    "removal_sources": [
+      "ucipm-residential/burning-and-stinging-nettles"
+    ],
+    "removal_timing_window": "Spring (before flowering)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "irritant_sap"
     ]
   },
   {
@@ -10711,6 +11639,93 @@
     "safety_flags": [
       "fragment_spreader"
     ]
+  },
+  {
+    "slug": "vulpia-myuros",
+    "scientific_name": "Festuca myuros",
+    "common_names": [
+      "rat-tail fescue",
+      "red-tailed fescue",
+      "sixweeksgrass",
+      "zorro annual fescue"
+    ],
+    "aliases": [
+      "rat-tail fescue",
+      "red-tailed fescue",
+      "sixweeksgrass",
+      "zorro annual fescue",
+      "Vulpia myuros"
+    ],
+    "nativity": "invasive",
+    "plant_type": null,
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": "moderate",
+    "cdfa_rating": "none",
+    "impact_score": "B",
+    "invasiveness_score": "B",
+    "distribution_score": "A",
+    "spread_mechanisms": [
+      "rapid_maturity",
+      "abundant_seed",
+      "seeds_annually",
+      "self_and_cross_pollinated"
+    ],
+    "habitat_types": [
+      "great_basin_scrub",
+      "chaparral",
+      "coastal_prairie",
+      "valley_foothill_grassland",
+      "vernal_pool",
+      "meadow_seep",
+      "riparian_woodland",
+      "cismontane_woodland",
+      "lower_montane_coniferous_forest",
+      "upper_montane_coniferous_forest"
+    ],
+    "jepson_regions": [
+      "CA Floristic Province",
+      "Cascade Range",
+      "Central West",
+      "Great Valley",
+      "Northwest",
+      "Sierra Nevada",
+      "Southwest",
+      "Great Basin Province",
+      "Modoc Plateau",
+      "Sierra Nevada East",
+      "Desert Province",
+      "Mojave Desert",
+      "Sonoran Desert"
+    ],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414377/large.jpg",
+        "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/95423386"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414385/large.jpg",
+        "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/95423386"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158414393/large.jpg",
+        "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/95423386"
+      }
+    ],
+    "removal_method": null,
+    "removal_notes": [],
+    "removal_sources": [],
+    "removal_timing_window": null,
+    "requires_followup_years": null,
+    "safety_flags": []
   },
   {
     "slug": "washingtonia-robusta",

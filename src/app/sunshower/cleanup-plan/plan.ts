@@ -21,6 +21,7 @@ const METHOD_LABEL: Record<RemovalMethod, string> = {
   sheet_mulch_smother: 'Smother under heavy cardboard and mulch',
   mow_before_seed: 'Mow repeatedly just before seed set',
   solarize_summer: 'Solarize under clear plastic in summer',
+  prune_host_below_attachment: "Prune host plant below the parasite's attachment point",
 }
 
 const UNDOCUMENTED_LABEL = 'Method not yet documented for these plants'
@@ -143,6 +144,11 @@ const METHOD_TOOLS: Record<RemovalMethod, string[]> = {
   sheet_mulch_smother: ['Heavy cardboard (no glossy print)', '4–6 inches of wood-chip mulch'],
   mow_before_seed: ['Mower or string trimmer', 'Eye protection (awns)'],
   solarize_summer: ['Clear plastic sheeting (4–6 mil)', 'Stakes or weights to seal edges'],
+  prune_host_below_attachment: [
+    'Bypass pruners',
+    'Gloves',
+    'Sealed bag for disposal (do not compost)',
+  ],
 }
 
 // SafetyFlag → human-readable yard-wide caution. Most flags expand only when

@@ -18,6 +18,7 @@ export type RemovalMethod =
   | 'sheet_mulch_smother'
   | 'mow_before_seed'
   | 'solarize_summer'
+  | 'prune_host_below_attachment'
 
 // Closed vocabulary for yard-wide cautions (Layer B summary).
 // Each flag maps to a human-readable caution string in plan.ts.

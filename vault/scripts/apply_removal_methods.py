@@ -29,6 +29,7 @@ METHODS = {
     "sheet_mulch_smother",
     "mow_before_seed",
     "solarize_summer",
+    "prune_host_below_attachment",
 }
 
 # slug -> (method, notes)
@@ -344,6 +345,142 @@ DATA: dict[str, tuple[str, list[str]]] = {
             "Bermuda buttercup forms a chain of small bulbs underground — every bulblet left behind regrows.",
             "Sift soil through hardware cloth in heavily infested beds; foliar work alone fails.",
             "Pull foliage during bloom (Jan–Mar) to weaken the bulbs, then dig in the following autumn when fresh bulbs are easy to spot.",
+        ],
+    ),
+
+    # --- UC IPM residential weeds (May 2026 cleanup-plan scope expansion) ---
+    # Stub bullets only; the wiki-grounded notes overlay these via
+    # apply_layer_c_notes.py. See vault/sources/ucipm-residential.md.
+    "convolvulus-arvensis": (
+        "dig_rhizome_complete",
+        [
+            "Roots reach 20+ ft deep and root fragments as short as 2 in resprout — mechanical-only control rarely succeeds in a single season.",
+        ],
+    ),
+    "cuscuta-pentagona": (
+        "prune_host_below_attachment",
+        [
+            "Parasitic — once the haustoria embed in the host plant, prune the host 1/8–1/4 in below the attachment point.",
+        ],
+    ),
+    "euphorbia-maculata": (
+        "hand_pull",
+        [
+            "Pull young plants before they set seed (germination-to-seed cycle is 5 weeks).",
+        ],
+    ),
+    "galium-aparine": (
+        "hand_pull",
+        [
+            "Hand-pull or hoe when soil is damp, in early spring before plants flower.",
+        ],
+    ),
+    "isatis-tinctoria": (
+        "dig_taproot",
+        [
+            "Hand-hoe through the crown — stems break off when pulling because of the deep taproot.",
+        ],
+    ),
+    "kyllinga-brevifolia": (
+        "dig_rhizome_complete",
+        [
+            "Catch new patches small and grub out the entire plant including all rhizomes — chopping fragments and irrigating after is essentially propagation.",
+        ],
+    ),
+    "malva-parviflora": (
+        "hand_pull",
+        [
+            "Pull while plants have four or fewer true leaves — the taproot lignifies within weeks and removal gets much harder.",
+        ],
+    ),
+    "paspalum-dilatatum": (
+        "dig_rhizome_complete",
+        [
+            "Dig out individual clumps with all rhizomes; for severe infestations, full lawn renovation is more efficient than chasing dozens of clumps.",
+        ],
+    ),
+    "pennisetum-clandestinum": (
+        "dig_rhizome_complete",
+        [
+            "Catch new patches small — once kikuyu reaches ~40% of a lawn, UC IPM advises maintaining it as the turf species rather than fighting it.",
+        ],
+    ),
+    "phytolacca-americana": (
+        "dig_taproot",
+        [
+            "Dig out established plants with a shovel — get the large fleshy taproot. Bag ripe berries (50-year seedbank).",
+        ],
+    ),
+    "plantago-major": (
+        "dig_taproot",
+        [
+            "Persistent crown growth at the soil surface — must remove the entire crown (and taproot for buckhorn) or it regenerates.",
+        ],
+    ),
+    "poa-annua": (
+        "hand_pull",
+        [
+            "Pull solitary plants before they seed; monitor and remove repeatedly as the seedbank re-flushes after each cleared spot.",
+        ],
+    ),
+    "polygonum-aviculare": (
+        "hand_pull",
+        [
+            "Indicator of compacted soil — fixing the compaction (aerating, reducing traffic) is more durable than chasing the plant.",
+        ],
+    ),
+    "portulaca-oleracea": (
+        "hand_pull",
+        [
+            "Stems re-root from cuttings within days on damp soil — remove pulled plants from the site or dry on a hard surface before disposal.",
+        ],
+    ),
+    "salsola-tragus": (
+        "hand_pull",
+        [
+            "Pull young plants before stems lignify and leaves get spiny; clear accumulated tumbleweeds from fences and structures before they break loose (fire hazard).",
+        ],
+    ),
+    "senecio-vulgaris": (
+        "hand_pull",
+        [
+            "Even pulled plants can mature seeds from open flowers — bag flowering plants and remove from the site rather than leaving on the ground.",
+        ],
+    ),
+    "stellaria-media": (
+        "hand_pull",
+        [
+            "Control before flowering (5–6 week germination-to-seed cycle); remove plant debris if soil is moist — stems re-root from nodes.",
+        ],
+    ),
+    "taraxacum-officinale": (
+        "dig_taproot",
+        [
+            "Grub out the entire plant with a dandelion knife before it seeds — root sections as short as 1 in regenerate.",
+        ],
+    ),
+    "toxicodendron-diversilobum": (
+        "pull_vine_dig_crown",
+        [
+            "Wear cotton-over-plastic gloves, long sleeves, closed shoes; do not burn or mow (urushiol disperses in smoke / mower particles).",
+        ],
+    ),
+    "tribulus-terrestris": (
+        "hand_pull",
+        [
+            "Pull plants before seed-set, then sweep up dropped burrs with carpet patted against the ground (pet paws and tires are the dispersal vector).",
+        ],
+    ),
+    "trifolium-repens": (
+        "hand_pull",
+        [
+            "A green clover patch in a yellow lawn signals low nitrogen — fix the fertility balance first; for established perennials, dig the crown.",
+        ],
+    ),
+    "urtica-urens": (
+        "hand_pull",
+        [
+            "Wear gloves and long sleeves — stinging hairs cause irritant dermatitis in everyone, not just allergic individuals.",
         ],
     ),
 }
