@@ -49,7 +49,7 @@ Next.js (App Router) + Tailwind + Vercel; Obsidian-managed markdown vault (`vaul
 
 Sourced from four beginner-gardening articles ingested 2026-05-15 (Little Terraced House design guide, BBC Gardeners' World tips + soil pH, Summerwinds sun-mapping). Expansion vectors, not yet committed scope.
 
-- **Phase routing at the homepage.** The `/sunshower` entry currently lands straight on the cleanup-plan hotspot. Better: a gentle prompt — *"How's your yard looking today?"* with cycling placeholder examples — that routes the user to the right phase. Overgrown → cleanup. Partially planted → care + opportunistic cleanup. Mostly bare → site inventory → selection. Established → care. Yard state stops being a cleanup-tool input and becomes the app's front door. May reshape or absorb the Agent C task in [../sunshower_gui_mvp.md](../sunshower_gui_mvp.md).
+- **Phase routing at the homepage.** ✅ **Shipped — PR #16, 2026-05-16** (Agent C). `/sunshower` now leads with a *"How's your yard looking today?"* dropdown (4 options, idle cycling label) that routes overgrown/partially-planted → cleanup-plan (`?yard=`, selective-cleanup framing for partial), mostly-bare → a new `/sunshower/site-inventory` interstitial, established → a new `/sunshower/care` interstitial. Yard state is now the app's front door rather than a cleanup-tool input. The site-inventory/care interstitial pages give the in-app site-inventory walkthrough and the Phase 4 (Care) content gap (both still backlog items below) a real landing surface. Per-agent detail in [../sunshower_gui_mvp.md → Agent C](../sunshower_gui_mvp.md).
 - **Parallel tracks: passive mapping + active removal.** A user can map their landscape with us while actively working in the yard removing weeds. The two are complementary — one is desk-or-window work, the other is gloves-on. The app should keep both kinds of tasks live at once rather than forcing strict phase serialization. Cleanup tasks and site-inventory tasks can coexist as a checklist that spans indoors and out.
 - **Friendly-to-natives, not aggressive-to-weeds.** Lean the tone toward *supporting native plants and pollinators* rather than *destroying invasives*. The plant-classification distinction — Cal-IPC invasive vs. harmless residential weed vs. native — is the lever: a common weed that isn't ecologically harmful doesn't need the same urgency-language as a Cal-IPC High invasive. Tone change affects copy in [/sunshower/cleanup-plan](../../src/app/sunshower/cleanup-plan/page.tsx) and the landing page.
 - **Soil/pH lives in yard-prep, not as its own tool.** Exposed during cleanup/prep when the user is already mapping the yard. pH indicator plants (rhodos/camellias → acidic, lavender/honeysuckle → alkaline) make this a low-friction observational input rather than a "go buy a test kit" step.
@@ -78,4 +78,4 @@ Sourced from four beginner-gardening articles ingested 2026-05-15 (Little Terrac
 
 ---
 
-*Last updated: 2026-05-11*
+*Last updated: 2026-05-16*
