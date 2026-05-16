@@ -168,7 +168,7 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
         onFocus={() => setOpen(true)}
         onKeyDown={onKeyDown}
         placeholder="Type a plant name — e.g. fennel, blackberry, Cytisus…"
-        className="w-full rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/90 p-3 text-sm text-[#2a1d10] placeholder:text-[#2a1d10]/50 focus:border-emerald-800 focus:bg-[#fff6df] focus:outline-none"
+        className="w-full rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/90 p-3 text-base text-[#2a1d10] placeholder:text-[#2a1d10]/50 focus:border-emerald-800 focus:bg-[#fff6df] focus:outline-none focus:ring-2 focus:ring-emerald-700/30 focus:ring-offset-2 focus:ring-offset-[#f7e9c9] sm:text-sm"
         autoComplete="off"
         role="combobox"
         aria-expanded={showDropdown}

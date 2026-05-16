@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import Scene from './Scene'
+import SceneBackdrop from './SceneBackdrop'
 
 export const metadata: Metadata = {
   title: 'Pollinator Garden — Native CA Garden Planner',
@@ -13,8 +13,10 @@ export default function PollinatorLayout({
   children: React.ReactNode
 }) {
   return (
-    <div className="relative h-dvh w-full overflow-hidden bg-[#f7e9c9] text-[#2a1d10]">
-      <Scene />
+    // Desktop: locked full-viewport stage with the fixed 3D backdrop.
+    // Mobile: a natural-height, scrollable document (no fixed backdrop).
+    <div className="relative w-full min-h-dvh bg-[#f7e9c9] text-[#2a1d10] md:h-dvh md:overflow-hidden">
+      <SceneBackdrop />
       {children}
     </div>
   )

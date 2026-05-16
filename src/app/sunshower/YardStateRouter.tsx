@@ -1,0 +1,143 @@
+'use client'
+
+import { useRouter } from 'next/navigation'
+import { useEffect, useRef, useState } from 'react'
+import { routeForYardState, type YardState } from './yardState'
+
+const PHRASES = [
+  'overgrown with weeds…',
+  'mostly bare dirt…',
+  'partially planted, needs help…',
+  'established, just want to care for it…',
+]
+
+type Option = {
+  state: YardState
+  label: string
+  next: string
+}
+
+const OPTIONS: Option[] = [
+  { state: 'overgrown', label: 'Overgrown with weeds', next: 'Build a removal plan' },
+  { state: 'bare', label: 'Mostly bare dirt', next: 'Site inventory' },
+  { state: 'partial', label: 'Partially planted, needs help', next: 'Selective cleanup' },
+  { state: 'established', label: 'Established, just want to care for it', next: 'Ongoing care' },
+]
+
+const PHASE_IN_MS = 2150
+const PHASE_OUT_MS = 350
+
+export default function YardStateRouter() {
+  const router = useRouter()
+  const [open, setOpen] = useState(false)
+  const [idx, setIdx] = useState(0)
+  const [phase, setPhase] = useState<'in' | 'out'>('in')
+  const rootRef = useRef<HTMLDivElement>(null)
+
+  useEffect(() => {
+    if (open) return
+    const wait = phase === 'in' ? PHASE_IN_MS : PHASE_OUT_MS
+    const t = setTimeout(() => {
+      if (phase === 'in') {
+        setPhase('out')
+      } else {
+        setIdx((i) => (i + 1) % PHRASES.length)
+        setPhase('in')
+      }
+    }, wait)
+    return () => clearTimeout(t)
+  }, [open, phase, idx])
+
+  useEffect(() => {
+    if (!open) return
+    function onMouseDown(e: MouseEvent) {
+      if (rootRef.current && !rootRef.current.contains(e.target as Node)) {
+        setOpen(false)
+      }
+    }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === 'Escape') setOpen(false)
+    }
+    document.addEventListener('mousedown', onMouseDown)
+    document.addEventListener('keydown', onKey)
+    return () => {
+      document.removeEventListener('mousedown', onMouseDown)
+      document.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+
+  function choose(state: YardState) {
+    setOpen(false)
+    router.push(routeForYardState(state))
+  }
+
+  return (
+    <div ref={rootRef} className="pointer-events-auto mt-6 max-w-md">
+      <p
+        id="yard-state-label"
+        className="font-serif text-2xl leading-tight text-[#2a1d10] sm:text-3xl"
+      >
+        How&rsquo;s your yard looking today?
+      </p>
+      <div className="relative mt-4">
+        <button
+          type="button"
+          onClick={() => setOpen((v) => !v)}
+          aria-haspopup="listbox"
+          aria-expanded={open}
+          aria-labelledby="yard-state-label"
+          className="flex w-full items-center justify-between gap-3 rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/90 px-3 py-2.5 text-left text-base text-[#2a1d10] shadow-sm backdrop-blur-sm hover:border-[#2a1d10]/50 focus:border-[#2a1d10] focus:outline-none"
+        >
+          <span className="relative block min-h-[1.5rem] flex-1 overflow-hidden">
+            <span
+              aria-hidden
+              className={
+                'block truncate text-[#2a1d10]/55 transition-opacity duration-300 ' +
+                (!open && phase === 'in' ? 'opacity-100' : 'opacity-0')
+              }
+            >
+              {PHRASES[idx]}
+            </span>
+          </span>
+          <span
+            aria-hidden
+            className={
+              'flex-none text-[#2a1d10]/55 transition-transform ' +
+              (open ? 'rotate-180' : '')
+            }
+          >
+            ▾
+          </span>
+        </button>
+
+        {open && (
+          <ul
+            role="listbox"
+            aria-labelledby="yard-state-label"
+            className="absolute left-0 right-0 top-full z-10 mt-1 max-h-[min(60vh,16rem)] overflow-y-auto rounded-md border border-[#2a1d10]/20 bg-[#fff6df] shadow-lg"
+          >
+            {OPTIONS.map((opt) => (
+              <li key={opt.state}>
+                <button
+                  type="button"
+                  role="option"
+                  aria-selected={false}
+                  onClick={() => choose(opt.state)}
+                  className="flex w-full items-baseline justify-between gap-3 px-3 py-2.5 text-left hover:bg-[#2a1d10]/5 focus:bg-[#2a1d10]/5 focus:outline-none"
+                >
+                  <span className="text-sm text-[#2a1d10]">{opt.label}</span>
+                  <span className="flex-none text-xs uppercase tracking-[0.14em] text-[#2a1d10]/55">
+                    {opt.next} →
+                  </span>
+                </button>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+      <p className="mt-2 text-xs text-[#2a1d10]/60">
+        Pick the one that feels closest — you can always come back.
+      </p>
+    </div>
+  )
+}

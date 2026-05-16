@@ -1,15 +1,53 @@
 'use client'
 
 import Link from 'next/link'
-import { useMemo, useState } from 'react'
+import { useSearchParams } from 'next/navigation'
+import { Suspense, useMemo, useState } from 'react'
 import PhotoLightbox from './PhotoLightbox'
 import PlantPicker from './PlantPicker'
 import { plantBySlug } from './resolver'
 import { buildPlan, buildSummary, type CleanupSummary } from './plan'
 import { thumbUrl } from './photoUrl'
 import type { Match, Pick, Plant, ResolvedRow } from './types'
+import { isYardState, type YardState } from '../yardState'
 
 type Step = 'input' | 'confirm' | 'plan'
+
+type Framing = {
+  eyebrow: string
+  heading: React.ReactNode
+  description: string
+}
+
+const DEFAULT_FRAMING: Framing = {
+  eyebrow: 'Pollinator Garden — Phase 1: Cleanup',
+  heading: (
+    <>
+      Build a weed-removal
+      <br />
+      plan for your yard.
+    </>
+  ),
+  description:
+    "Pick the plants you've identified in your yard (iNaturalist is the easiest tool for spotting them) from the Cal-IPC top-tier invasive list, confirm with photos, and we'll propose a removal order.",
+}
+
+const PARTIAL_FRAMING: Framing = {
+  eyebrow: 'Pollinator Garden — Selective cleanup',
+  heading: (
+    <>
+      Selective cleanup around
+      <br />
+      what you&rsquo;re keeping.
+    </>
+  ),
+  description:
+    "Pick the unwanted plants among your existing planting and we'll propose a removal order that's mindful of working around plants you want to keep.",
+}
+
+function framingFor(state: YardState | null): Framing {
+  return state === 'partial' ? PARTIAL_FRAMING : DEFAULT_FRAMING
+}
 
 const PANEL =
   'rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/85 shadow-sm backdrop-blur-sm'
@@ -49,6 +87,19 @@ function rowFromPick(plant: Plant, matchedOn: string): ResolvedRow {
 }
 
 export default function CleanupPlanPage() {
+  return (
+    <Suspense fallback={null}>
+      <CleanupPlanInner />
+    </Suspense>
+  )
+}
+
+function CleanupPlanInner() {
+  const searchParams = useSearchParams()
+  const yardParam = searchParams.get('yard')
+  const yardState: YardState | null = isYardState(yardParam) ? yardParam : null
+  const framing = framingFor(yardState)
+
   const [step, setStep] = useState<Step>('input')
   const [picks, setPicks] = useState<Pick[]>([])
   const [rows, setRows] = useState<ResolvedRow[]>([])
@@ -136,18 +187,13 @@ export default function CleanupPlanPage() {
       </div>
       <header className="mb-6 sm:mb-8">
         <p className="text-xs uppercase tracking-[0.18em] text-emerald-800/80">
-          Pollinator Garden — Phase 1: Cleanup
+          {framing.eyebrow}
         </p>
         <h1 className="mt-2 font-serif text-3xl leading-[0.95] tracking-tight text-[#2a1d10] sm:text-5xl">
-          Build a weed-removal
-          <br />
-          plan for your yard.
+          {framing.heading}
         </h1>
         <p className="mt-3 max-w-2xl text-sm text-[#2a1d10]/75 sm:text-base">
-          Pick the plants you&rsquo;ve identified in your yard (iNaturalist is
-          the easiest tool for spotting them) from the Cal-IPC top-tier
-          invasive list, confirm with photos, and we&rsquo;ll propose a
-          removal order.
+          {framing.description}
         </p>
       </header>
 
@@ -204,7 +250,7 @@ function Stepper({
     { id: 'plan', label: '3. Plan' },
   ]
   return (
-    <ol className="mb-6 flex gap-2 text-sm">
+    <ol className="mb-6 flex flex-wrap gap-2 text-sm">
       {steps.map((s) => {
         const isCurrent = s.id === current
         const clickable = canNavigateTo(s.id)
@@ -359,7 +405,7 @@ function ConfirmRow({
 
   return (
     <li className={PANEL_INSET}>
-      <div className="flex items-start gap-4">
+      <div className="flex flex-col gap-3 sm:flex-row sm:items-start sm:gap-4">
         {photo ? (
           <div className="flex flex-none flex-col items-center gap-1">
             <button
@@ -372,7 +418,7 @@ function ConfirmRow({
               <img
                 src={thumbUrl(photo.url)}
                 alt={selected?.plant.scientific_name ?? ''}
-                className="h-40 w-40 object-cover transition hover:opacity-90"
+                className="h-32 w-32 object-cover transition hover:opacity-90 sm:h-40 sm:w-40"
                 loading="lazy"
               />
             </button>
@@ -383,15 +429,15 @@ function ConfirmRow({
             )}
           </div>
         ) : (
-          <div className="h-40 w-40 flex-none rounded-md bg-stone-100" />
+          <div className="h-32 w-32 flex-none rounded-md bg-stone-100 sm:h-40 sm:w-40" />
         )}
         <div className="min-w-0 flex-1">
-          <div className="flex items-center gap-2">
-            <p className="text-xs uppercase tracking-wide text-[#2a1d10]/55">
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <p className="min-w-0 break-words text-xs uppercase tracking-wide text-[#2a1d10]/55">
               You typed: {row.rawInput}
             </p>
             {selected && (
-              <span className="rounded-full bg-[#2a1d10]/10 px-2 py-0.5 text-xs text-[#2a1d10]/70">
+              <span className="flex-none whitespace-nowrap rounded-full bg-[#2a1d10]/10 px-2 py-0.5 text-xs text-[#2a1d10]/70">
                 {CONFIDENCE_LABEL[selected.confidence]}
               </span>
             )}
@@ -426,7 +472,7 @@ function ConfirmRow({
               <select
                 value={row.selectedSlug ?? ''}
                 onChange={(e) => onPick(row.id, e.target.value)}
-                className="mt-1 block w-full rounded-md border border-[#2a1d10]/25 bg-[#fff6df] p-2 text-sm"
+                className="mt-1 block w-full rounded-md border border-[#2a1d10]/25 bg-[#fff6df] p-2 text-base sm:text-sm"
               >
                 {row.candidates.map((c) => (
                   <option key={c.plant.slug} value={c.plant.slug}>
@@ -445,7 +491,7 @@ function ConfirmRow({
             </p>
           )}
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-row flex-wrap items-center gap-3 sm:flex-col sm:items-stretch sm:gap-2">
           {row.status === 'unresolved' && row.selectedSlug && (
             <button
               type="button"
