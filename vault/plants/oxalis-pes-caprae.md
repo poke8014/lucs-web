@@ -8,7 +8,7 @@ sources:
   - raw/articles/calipc/oxalis-pes-caprae-profile.md
   - raw/articles/calipc/oxalis-pes-caprae-paf.md
   - raw/articles/wric/Oxalis.md
-last_updated: 2026-05-12
+last_updated: 2026-05-16
 
 scientific_name: Oxalis pes-caprae
 common_names: [Bermuda buttercup, buttercup oxalis, sour grass]
@@ -36,6 +36,9 @@ invasive:
 # Oxalis pes-caprae (Bermuda buttercup)
 
 Oxalis pes-caprae (buttercup oxalis, Bermuda buttercup, yellow oxalis) is a low-growing perennial (family Oxalidaceae) found along the coast of California, in the Coastal Ranges, and in the Sacramento Valley. Buttercup oxalis occurs in coastal dunes, scrub, oak woodlands, gardens, turf, urban areas, orchards and agricultural fields. Buttercup oxalis was introduced as an ornamental landscape plant from South Africa. Although buttercup oxalis does not produce seeds, it is difficult to control because of its ability to form many persistent bulbs. Cultivation may be an effective control if carried out when the plants are just beginning to flower.
+
+> [!info] Not to be confused with [[plants/oxalis-corniculata]]
+> The UC IPM Pest Note "Creeping Woodsorrel and Bermuda Buttercup" covers two very different *Oxalis* weeds. **Bermuda buttercup** (this page) is a bulb-forming, **seedless** perennial — the management constraint is the underground bulb chain. **Creeping woodsorrel** ([[plants/oxalis-corniculata]]) is a taprooted, **prolific-seeding** perennial controlled through the seedbank and rooting stolons, not bulbs. The Identify / Remove / Prevent guidance below is Bermuda-buttercup-specific; for creeping woodsorrel use the dedicated page.
 
 ## Identify
 
@@ -137,3 +140,4 @@ Vocabulary: see [[concepts/cal-ipc-scoring]].
 - WRIC: `raw/articles/wric/Oxalis.md`
 - UC IPM Pest Note: `raw/articles/ucipm-residential/creeping-woodsorrel-and-bermuda-buttercup.md`
 - Datasets: [[sources/calipc]], [[sources/wric]]
+- Companion species: [[plants/oxalis-corniculata]] (creeping woodsorrel — same Pest Note, different biology)

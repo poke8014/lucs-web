@@ -6,7 +6,7 @@ Catalog of every page in the wiki. Maintained by Claude on every ingest.
 
 ### Invasives
 
-The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/calipc-top-tier-overview]] for cross-cutting patterns and the foothills-priority subset. Source dataset: [[sources/calipc]]. **39 of the 137 Cal-IPC plants are annotated** (those with `removal_method` in `plants.json`) at status: draft — Identify / Remove / Prevent body sections written from WRIC + UC IPM. (The 60-plant annotated subset includes those 39 Cal-IPC plants + 21 non-Cal-IPC residential weeds — see below.) The remaining ~98 Cal-IPC plants (aquatic, salt-marsh, coastal-dune, remote-rangeland invasives outside the residential cleanup-plan scope) remain status: stub pending future inventory expansion. Curated pilot: [[plants/arctotheca-prostrata]].
+The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/calipc-top-tier-overview]] for cross-cutting patterns and the foothills-priority subset. Source dataset: [[sources/calipc]]. **39 of the 137 Cal-IPC plants are annotated** (those with `removal_method` in `plants.json`) at status: draft — Identify / Remove / Prevent body sections written from WRIC + UC IPM. (The 61-plant annotated subset includes those 39 Cal-IPC plants + 22 non-Cal-IPC residential weeds — see below.) The remaining ~98 Cal-IPC plants (aquatic, salt-marsh, coastal-dune, remote-rangeland invasives outside the residential cleanup-plan scope) remain status: stub pending future inventory expansion. Curated pilot: [[plants/arctotheca-prostrata]].
 
 #### Cal-IPC High (44 plants)
 
@@ -155,7 +155,7 @@ The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/ca
 
 Common garden weeds that aren't on the Cal-IPC inventory but show up routinely in California yards. Ingested from [[sources/ucipm-residential]] under the cleanup-plan scope expansion ([[feedback-sunshower-weed-scope]]). Treated as `nativity: invasive` for picker purposes (`invasive:` Cal-IPC frontmatter block omitted — no PAF data). Native exception: poison-oak carries `nativity: native` — included because homeowners routinely remove it for safety reasons, but it's a valuable native plant in wildland contexts.
 
-All 21 residential weed pages (plus the *Isatis tinctoria* Cal-IPC overlap) now also have full Layer A/B/C + `removal_sources` wiring in `plants.json` as of 2026-05-15 — see [[synthesis/invasive-removal-methods]] for the per-method roster. Picker DB grew 137 → 158 plants; annotated subset 38 → 60.
+All 22 residential weed pages (plus the *Isatis tinctoria* Cal-IPC overlap) now also have full Layer A/B/C + `removal_sources` wiring in `plants.json` (initial 21 as of 2026-05-15; creeping woodsorrel split from Bermuda buttercup 2026-05-16) — see [[synthesis/invasive-removal-methods]] for the per-method roster. Picker DB grew 137 → 159 plants; annotated subset 38 → 61.
 
 - [[plants/convolvulus-arvensis]] — Convolvulus arvensis (field bindweed)
 - [[plants/cuscuta-pentagona]] — Cuscuta pentagona (field dodder) — covers other native *Cuscuta* spp. + Japanese dodder
@@ -163,6 +163,7 @@ All 21 residential weed pages (plus the *Isatis tinctoria* Cal-IPC overlap) now 
 - [[plants/galium-aparine]] — Galium aparine (catchweed bedstraw / cleavers)
 - [[plants/kyllinga-brevifolia]] — Kyllinga brevifolia (green kyllinga)
 - [[plants/malva-parviflora]] — Malva parviflora (little mallow / cheeseweed) — covers *M. neglecta* as a congener
+- [[plants/oxalis-corniculata]] — Oxalis corniculata (creeping woodsorrel) — covers *O. stricta* (upright yellow woodsorrel); split from [[plants/oxalis-pes-caprae]] 2026-05-16
 - [[plants/paspalum-dilatatum]] — Paspalum dilatatum (dallisgrass)
 - [[plants/pennisetum-clandestinum]] — Pennisetum clandestinum (kikuyugrass)
 - [[plants/phytolacca-americana]] — Phytolacca americana (American pokeweed)
@@ -180,6 +181,8 @@ All 21 residential weed pages (plus the *Isatis tinctoria* Cal-IPC overlap) now 
 - [[plants/urtica-urens]] — Urtica urens (burning nettle) — covers *U. dioica* (stinging nettle, native)
 
 Dyer's woad (*Isatis tinctoria*) is in the Cal-IPC list above but has also been upgraded with UC IPM Pest Note management content as part of this rollout — see [[plants/isatis-tinctoria]].
+
+Creeping woodsorrel (*Oxalis corniculata*, above) and Bermuda buttercup ([[plants/oxalis-pes-caprae]], Cal-IPC Moderate) share UC IPM PN 7444 but are biologically distinct — separated into two pages 2026-05-16 (woodsorrel: taproot + rooting stolons + explosive >5,000-seed seedbank, `dig_taproot`; buttercup: seedless underground bulb chain, `dig_bulb_complete`). Each page carries a disambiguation callout pointing to the other.
 
 ## Pollinators
 *(none yet)*
