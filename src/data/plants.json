@@ -10130,6 +10130,88 @@
     "safety_flags": []
   },
   {
+    "slug": "oxalis-corniculata",
+    "scientific_name": "Oxalis corniculata",
+    "common_names": [
+      "creeping woodsorrel",
+      "creeping oxalis",
+      "yellow woodsorrel"
+    ],
+    "aliases": [
+      "creeping woodsorrel",
+      "creeping oxalis",
+      "yellow woodsorrel",
+      "Oxalis stricta",
+      "upright yellow woodsorrel",
+      "procumbent yellow sorrel",
+      "sourgrass"
+    ],
+    "nativity": "invasive",
+    "plant_type": "perennial",
+    "height_ft": null,
+    "width_ft": null,
+    "water": null,
+    "sun": null,
+    "cal_ipc_rating": null,
+    "cdfa_rating": null,
+    "impact_score": null,
+    "invasiveness_score": null,
+    "distribution_score": null,
+    "spread_mechanisms": [],
+    "habitat_types": [],
+    "jepson_regions": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/587403066/large.jpg",
+        "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/324529538"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340071574/large.jpeg",
+        "attribution": "(c) WATANABE Hitoshi 渡辺仁, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/193579501"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159925541/large.jpeg",
+        "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/96073788"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6567381/large.jpg",
+        "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/5304591"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506680289/large.jpg",
+        "attribution": "(c) Elizabete Marchante, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/282033688"
+      }
+    ],
+    "removal_method": "dig_taproot",
+    "removal_notes": [
+      "Grub out established plants before they flower — the fleshy taproot and rooting stolons snap when pulled and regrow from fragments. Several handweeding passes a season are normal; remove pulled plants from the site so their seed goes with them.",
+      "Don't rely on mowing — woodsorrel sets seed even mowed to 1/4 in and is spread by the mower. Wash or air-spray equipment before moving to weed-free turf.",
+      "Seedpods explode and fling seed up to 10 ft; seeds need light to germinate. 2–3 in organic mulch or landscape fabric over cleared beds blocks germination — use mulch fine enough to fill surface gaps but not so fine (sawdust) it becomes a seedbed. Any light reaching soil restarts germination.",
+      "Beds: no selective postemergent exists once it has emerged. Handweed, then preemergent (dithiopyr, isoxaben, oryzalin, pendimethalin, prodiamine) in early fall at the germination peak — two applications ~8 weeks apart for heavy infestations. These labels also inhibit ornamental seed; check bedding-plant safety.",
+      "Turf: triclopyr or fluroxypyr (in broadleaf combination products labeled for oxalis) are the effective postemergents — 2,4-D alone is weak. Triclopyr injures bermudagrass and kikuyugrass; use fluroxypyr or a low-rate combo on warm-season lawns. Follow with preemergent ~3×/year (early fall, midwinter, late spring).",
+      "Container/nursery stock is the major spread vector — inspect pots, never reuse infested potting soil. Solarize cleared beds (clear plastic, moist soil, 4+ weeks June–Aug) before replanting. Seed-bank longevity is undocumented — plan ongoing fall seedling sweeps."
+    ],
+    "removal_sources": [
+      "ucipm-residential/creeping-woodsorrel-and-bermuda-buttercup"
+    ],
+    "removal_timing_window": "Year-round; remove before flower, mulch + preemergent by early fall (germination peak)",
+    "requires_followup_years": 5,
+    "safety_flags": [
+      "fragment_spreader",
+      "do_not_mow"
+    ]
+  },
+  {
     "slug": "oxalis-pes-caprae",
     "scientific_name": "Oxalis pes-caprae",
     "common_names": [

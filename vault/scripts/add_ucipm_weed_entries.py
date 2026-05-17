@@ -97,6 +97,18 @@ ENTRIES: list[dict] = [
         "sun": "full",
     },
     {
+        "slug": "oxalis-corniculata",
+        "scientific_name": "Oxalis corniculata",
+        "common_names": ["creeping woodsorrel", "creeping oxalis", "yellow woodsorrel"],
+        "aliases": ["creeping woodsorrel", "creeping oxalis", "yellow woodsorrel", "Oxalis stricta", "upright yellow woodsorrel", "procumbent yellow sorrel", "sourgrass"],
+        "nativity": "invasive",
+        "plant_type": "perennial",
+        "height_ft": None,
+        "width_ft": None,
+        "water": None,
+        "sun": None,
+    },
+    {
         "slug": "paspalum-dilatatum",
         "scientific_name": "Paspalum dilatatum",
         "common_names": ["dallisgrass"],

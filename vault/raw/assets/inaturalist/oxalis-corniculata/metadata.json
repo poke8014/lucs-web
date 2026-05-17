@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Oxalis corniculata",
+  "taxon_id": 53168,
+  "photos_taxon_id": 53168,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-05-16",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 587403066,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/587403066/large.jpg",
+      "observation_id": 324529538,
+      "observation_url": "https://www.inaturalist.org/observations/324529538",
+      "observed_on": "2025-10-18",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "oxalis-corniculata_01_inat-587403066.jpg"
+    },
+    {
+      "photo_id": 340071574,
+      "license": "cc-by",
+      "attribution": "(c) WATANABE Hitoshi \u6e21\u8fba\u4ec1, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/340071574/large.jpeg",
+      "observation_id": 193579501,
+      "observation_url": "https://www.inaturalist.org/observations/193579501",
+      "observed_on": "2023-12-10",
+      "place_guess": "\u65e5\u672c\u3001\u6771\u4eac\u90fd\u591a\u6469\u5e02\u9023\u5149\u5bfa",
+      "user_login": "tbc_watanabe",
+      "filename": "oxalis-corniculata_02_inat-340071574.jpeg"
+    },
+    {
+      "photo_id": 159925541,
+      "license": "cc-by",
+      "attribution": "(c) Gianni Del Bufalo bygdb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159925541/large.jpeg",
+      "observation_id": 96073788,
+      "observation_url": "https://www.inaturalist.org/observations/96073788",
+      "observed_on": "2021-09-24",
+      "place_guess": "Ancona AN, Italia",
+      "user_login": "gianni_del_bufalo",
+      "filename": "oxalis-corniculata_03_inat-159925541.jpeg"
+    },
+    {
+      "photo_id": 6567381,
+      "license": "cc-by",
+      "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6567381/large.jpg",
+      "observation_id": 5304591,
+      "observation_url": "https://www.inaturalist.org/observations/5304591",
+      "observed_on": "2017-03-13",
+      "place_guess": "Anza-Borrego Desert State Park, Borrego Springs, CA, US",
+      "user_login": "thunefeld",
+      "filename": "oxalis-corniculata_04_inat-6567381.jpg"
+    },
+    {
+      "photo_id": 506680289,
+      "license": "cc-by",
+      "attribution": "(c) Elizabete Marchante, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/506680289/large.jpg",
+      "observation_id": 282033688,
+      "observation_url": "https://www.inaturalist.org/observations/282033688",
+      "observed_on": "2025-05-18",
+      "place_guess": "Uni\u00e3o das freguesias de Coimbra (S\u00e9 Nova, Santa Cruz, Almedina e S\u00e3o Bartolomeu), 3000 Coimbra, Portugal",
+      "user_login": "emarchante",
+      "filename": "oxalis-corniculata_05_inat-506680289.jpg"
+    }
+  ]
+}

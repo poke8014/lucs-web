@@ -119,6 +119,7 @@ UCIPM_RESIDENTIAL: dict[str, str] = {
     "galium-aparine": "catchweed-bedstraw",
     "kyllinga-brevifolia": "green-kyllinga",
     "malva-parviflora": "mallows",
+    "oxalis-corniculata": "creeping-woodsorrel-and-bermuda-buttercup",
     "paspalum-dilatatum": "dallisgrass",
     "pennisetum-clandestinum": "kikuyugrass",
     "phytolacca-americana": "pokeweed",

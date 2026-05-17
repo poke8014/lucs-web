@@ -243,6 +243,14 @@ NOTES: dict[str, list[str]] = {
         "Solarize cleared beds under clear plastic over moist soil for 4+ weeks in June–August before replanting.",
         "Don't compost garden trimmings with Oxalis — bulbs survive home compost piles.",
     ],
+    "oxalis-corniculata": [
+        "Grub out established plants before they flower — the fleshy taproot and rooting stolons snap when pulled and regrow from fragments. Several handweeding passes a season are normal; remove pulled plants from the site so their seed goes with them.",
+        "Don't rely on mowing — woodsorrel sets seed even mowed to 1/4 in and is spread by the mower. Wash or air-spray equipment before moving to weed-free turf.",
+        "Seedpods explode and fling seed up to 10 ft; seeds need light to germinate. 2–3 in organic mulch or landscape fabric over cleared beds blocks germination — use mulch fine enough to fill surface gaps but not so fine (sawdust) it becomes a seedbed. Any light reaching soil restarts germination.",
+        "Beds: no selective postemergent exists once it has emerged. Handweed, then preemergent (dithiopyr, isoxaben, oryzalin, pendimethalin, prodiamine) in early fall at the germination peak — two applications ~8 weeks apart for heavy infestations. These labels also inhibit ornamental seed; check bedding-plant safety.",
+        "Turf: triclopyr or fluroxypyr (in broadleaf combination products labeled for oxalis) are the effective postemergents — 2,4-D alone is weak. Triclopyr injures bermudagrass and kikuyugrass; use fluroxypyr or a low-rate combo on warm-season lawns. Follow with preemergent ~3×/year (early fall, midwinter, late spring).",
+        "Container/nursery stock is the major spread vector — inspect pots, never reuse infested potting soil. Solarize cleared beds (clear plastic, moist soil, 4+ weeks June–Aug) before replanting. Seed-bank longevity is undocumented — plan ongoing fall seedling sweeps.",
+    ],
     "pennisetum-setaceum": [
         "Hand-pull seedlings; uproot bunchgrass clumps with shovel, pick, or mattock for plants with basal diameter >6 in.",
         "Cut and bag the inflorescences first if present — every plant is a seed source (apomictic).",

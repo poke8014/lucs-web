@@ -351,6 +351,12 @@ DATA: dict[str, tuple[str, list[str]]] = {
     # --- UC IPM residential weeds (May 2026 cleanup-plan scope expansion) ---
     # Stub bullets only; the wiki-grounded notes overlay these via
     # apply_layer_c_notes.py. See vault/sources/ucipm-residential.md.
+    "oxalis-corniculata": (
+        "dig_taproot",
+        [
+            "Fleshy taproot and rooting stolons snap and regrow when pulled — grub out the whole crown before flowering; light-blocking mulch + preemergent control the explosive seedbank.",
+        ],
+    ),
     "convolvulus-arvensis": (
         "dig_rhizome_complete",
         [

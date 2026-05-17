@@ -243,6 +243,11 @@ DATA: dict[str, dict] = {
     },
 
     # --- UC IPM residential weeds (May 2026 cleanup-plan scope expansion) ---
+    "oxalis-corniculata": {
+        "timing": "Year-round; remove before flower, mulch + preemergent by early fall (germination peak)",
+        "followup_years": 5,
+        "flags": ["fragment_spreader", "do_not_mow"],
+    },
     "convolvulus-arvensis": {
         "timing": "Fall (active growth, root translocation)",
         "followup_years": 60,
