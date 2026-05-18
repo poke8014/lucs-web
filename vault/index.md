@@ -153,7 +153,7 @@ The 137 Cal-IPC top-tier invasive plants ingested 2026-05-08. See [[synthesis/ca
 
 ### Residential weeds (non-Cal-IPC)
 
-Common garden weeds that aren't on the Cal-IPC inventory but show up routinely in California yards. Ingested from [[sources/ucipm-residential]] under the cleanup-plan scope expansion ([[feedback-sunshower-weed-scope]]). Treated as `nativity: invasive` for picker purposes (`invasive:` Cal-IPC frontmatter block omitted — no PAF data). Native exception: poison-oak carries `nativity: native` — included because homeowners routinely remove it for safety reasons, but it's a valuable native plant in wildland contexts.
+Common garden weeds that aren't on the Cal-IPC inventory but show up routinely in California yards. Ingested from [[sources/ucipm-residential]] under the cleanup-plan scope expansion. Treated as `nativity: invasive` for picker purposes (`invasive:` Cal-IPC frontmatter block omitted — no PAF data). Native exception: poison-oak carries `nativity: native` — included because homeowners routinely remove it for safety reasons, but it's a valuable native plant in wildland contexts.
 
 All 22 residential weed pages (plus the *Isatis tinctoria* Cal-IPC overlap) now also have full Layer A/B/C + `removal_sources` wiring in `plants.json` (initial 21 as of 2026-05-15; creeping woodsorrel split from Bermuda buttercup 2026-05-16) — see [[synthesis/invasive-removal-methods]] for the per-method roster. Picker DB grew 137 → 159 plants; annotated subset 38 → 61.
 
