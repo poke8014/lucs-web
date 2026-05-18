@@ -226,6 +226,7 @@ function CleanupPlanInner() {
         <PlanSection
           plan={plan}
           summary={summary}
+          yardState={yardState}
           onBack={() => setStep('confirm')}
           onReset={reset}
         />
@@ -531,15 +532,26 @@ function ConfirmRow({
 function PlanSection({
   plan,
   summary,
+  yardState,
   onBack,
   onReset,
 }: {
   plan: ReturnType<typeof buildPlan>
   summary: CleanupSummary
+  yardState: YardState | null
   onBack: () => void
   onReset: () => void
 }) {
   const plantCount = plan.reduce((n, g) => n + g.plants.length, 0)
+  const hasFragmentSpreader = plan.some((g) =>
+    g.plants.some(
+      ({ plant }) =>
+        plant.safety_flags.includes('fragment_spreader') ||
+        plant.spread_mechanisms.some(
+          (m) => m === 'rhizomes' || m === 'stolons',
+        ),
+    ),
+  )
   return (
     <section>
       <h2 className="mb-2 font-serif text-2xl text-[#2a1d10]">
@@ -635,7 +647,14 @@ function PlanSection({
         ))}
       </ol>
 
-      <div className="mt-8 flex items-center justify-between">
+      <PrepSection
+        yardState={yardState}
+        hasFragmentSpreader={hasFragmentSpreader}
+      />
+
+      <ComingNextSection />
+
+      <div className="mt-10 flex items-center justify-between">
         <button
           type="button"
           onClick={onBack}
@@ -650,6 +669,98 @@ function PlanSection({
         >
           Start over
         </button>
+      </div>
+    </section>
+  )
+}
+
+// Section 2 — generic, yard-state-driven prep guidance. Intentionally NOT
+// per-plant (anti-goal: no plant+photo+method repeating block); the only
+// data touch is `hasFragmentSpreader`, which strengthens the disposal line.
+function PrepSection({
+  yardState,
+  hasFragmentSpreader,
+}: {
+  yardState: YardState | null
+  hasFragmentSpreader: boolean
+}) {
+  const selective = yardState === 'partial'
+  return (
+    <section className="mt-12">
+      <h3 className="mb-3 font-serif text-xl text-[#2a1d10]">
+        {selective
+          ? 'Prep around what you’re keeping'
+          : 'Prep the area for planting'}
+      </h3>
+      <div className={PANEL_LARGE + ' space-y-4 text-sm text-[#2a1d10]/85'}>
+        <p>
+          {selective
+            ? 'You’re clearing pockets, not the whole yard — get each cleared gap ready for natives without disturbing the plants you’re keeping.'
+            : 'Removal is the heavy lifting; this is the hand-off. A short reset between pulling weeds and planting natives is what makes the natives actually take.'}
+        </p>
+        <ul className="list-disc space-y-2 pl-5">
+          <li>
+            <strong>Dispose, don’t compost.</strong>{' '}
+            {hasFragmentSpreader
+              ? 'Several of your plants spread from root or stem fragments — bag all removed material for the landfill. One rhizome piece in a compost or green bin restarts the infestation.'
+              : 'Bag removed weed material for the landfill rather than composting or green-binning it — seed and root fragments survive home compost.'}
+          </li>
+          <li>
+            <strong>Leave established trees and keepers alone.</strong>{' '}
+            {selective
+              ? 'Don’t dig or till inside the dripline of plants you’re keeping — you’ll tear feeder roots. Clear right up to them by hand instead.'
+              : 'Mature trees and any desirable plants are structure to design around, not blank slate. Don’t strip the whole yard to bare dirt.'}
+          </li>
+          <li>
+            <strong>Let the seedbank flush.</strong> Water the cleared ground and
+            wait 2–4 weeks, then knock back the second germination before you
+            plant. This one pass prevents most of the regrowth people blame on
+            “the natives not establishing.”
+          </li>
+          <li>
+            <strong>What “ready to plant” looks like:</strong> target
+            weeds and live root fragments gone (not every blade of green —
+            natives will outcompete the rest), soil loosened but not pulverized,{' '}
+            {selective ? 'the cleared gaps' : 'the area'} settled and lightly
+            mulched if you have wood chips on hand.
+          </li>
+        </ul>
+      </div>
+    </section>
+  )
+}
+
+// Section 3 — explicit Phase-2 handoff placeholder. Dashed/muted panel signals
+// "not yet actionable"; copy stays honest about Selection being in development.
+function ComingNextSection() {
+  return (
+    <section className="mt-10">
+      <h3 className="mb-3 font-serif text-xl text-[#2a1d10]">
+        Coming next — choosing what to plant
+      </h3>
+      <div className="rounded-lg border border-dashed border-[#2a1d10]/30 bg-[#fff6df]/55 p-5 text-sm text-[#2a1d10]/75 backdrop-blur-sm">
+        <p>
+          Phase 1 (Cleanup) ends here. Phase 2 (Selection) is where you choose
+          California natives matched to your site and the pollinators you want to
+          support — it&rsquo;s in active development.
+        </p>
+        <p className="mt-3">What&rsquo;s landing in the next iterations:</p>
+        <ul className="mt-2 list-disc space-y-1 pl-5">
+          <li>
+            A native-plant selector over the 150 San Jose / Bay Area species
+            just added to our database
+          </li>
+          <li>Region-aware planting-window timing (when to plant, by zone)</li>
+          <li>Per-site soil-prep guidance beyond this generic pass</li>
+        </ul>
+        <p className="mt-4">
+          <Link
+            href="/sunshower"
+            className="font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
+          >
+            ← Back to the Sunshower phase map
+          </Link>
+        </p>
       </div>
     </section>
   )
