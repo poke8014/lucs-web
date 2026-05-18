@@ -1,0 +1,72 @@
+---
+type: plant
+title: Pleuropogon californicus (Annual Semaphoregrass)
+aliases: []
+tags: [native, grass]
+status: stub
+sources:
+  - https://calscape.org/export/search/?lat=<lat>&lng=<lng>  # Calscape export — see sources/calscape.md
+last_updated: 2026-05-17
+
+scientific_name: Pleuropogon californicus
+common_names: [Annual Semaphoregrass]
+plant_type: grass
+nativity: native
+pollinators: []
+water:
+sun:
+soil: []
+bloom_season: []
+height_ft: "3"
+width_ft: ""
+regions: []
+host_plant_for: []  # named lep species — pending Calscape /host enrichment scrape
+
+# PROPOSED schema block (parallel to invasive:) — confirm in sources/calscape.md
+native:
+  butterflies_moths_supported: 0
+  attracts_wildlife: []
+  plant_type_raw: "Grass"
+  sun_range: ""
+  water_range: ""
+  ease_of_care: ""
+  soil_drainage: []
+  soil_ph: ""
+  communities: [Foothill Woodland, Mixed Evergreen Forest, Redwood Forest, Wetland-Riparian, Yellow Pine Forest]
+  communities_simplified: [Forest, Wetland/Riparian, Woodland]
+  companions: []
+  sunset_zones: ""
+  hardiness: ""
+  nursery_availability: "Never or Almost Never Available"
+  rarity: ""
+  is_cultivar: false
+  jepson_url: "https://ucjeps.berkeley.edu/eflora/eflora_display.php?name=Pleuropogon+californicus"
+  calscape_url: "https://calscape.org/Pleuropogon-californicus-%28Annual-Semaphoregrass%29"
+  retrieved: 2026-05-17
+---
+
+# Pleuropogon californicus (Annual Semaphoregrass)
+
+Pleuropogon californicus (Annual Semaphoregrass) is a California-native grass of Forest, Wetland/Riparian, Woodland. Calscape records **0** butterfly/moth species supported. _Structured data only — full description and named host species pending the Calscape page-scrape enrichment pass (see [[sources/calscape]])._
+
+## Identify
+
+- **Height:** 3 ft
+- **Flower color:** Brown
+
+## Wildlife value
+
+- **Pollinators:** none recorded as pollinators
+- **Butterflies & moths supported:** 0 (named species pending enrichment)
+
+## Where it belongs
+
+- **Plant communities:** Foothill Woodland, Mixed Evergreen Forest, Redwood Forest, Wetland-Riparian, Yellow Pine Forest
+- **Nursery availability:** Never or Almost Never Available
+
+## Sources
+
+- Calscape (CNPS) — [Pleuropogon californicus](https://calscape.org/Pleuropogon-californicus-%28Annual-Semaphoregrass%29). Structured fields from the
+  location-filtered Calscape export; see [[sources/calscape]] for the dataset
+  meta-page, retrieval recipe, and licensing.
+- Jepson eFlora — [taxon record](https://ucjeps.berkeley.edu/eflora/eflora_display.php?name=Pleuropogon+californicus).
