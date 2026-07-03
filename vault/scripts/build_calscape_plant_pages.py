@@ -368,7 +368,11 @@ def main() -> int:
     else:
         url = EXPORT_URL.format(lat=args.lat, lng=args.lng)
         print(f"↓ {url}", file=sys.stderr)
-        data = urllib.request.urlopen(url, timeout=60).read()
+        # Calscape now 403s requests with no User-Agent (added after the
+        # initial 2026-05-17 rollout); send a browser UA.
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 "
+            "(Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"})
+        data = urllib.request.urlopen(req, timeout=60).read()
 
     recs = read_export(data)
     print(f"  {len(recs)} taxa in export", file=sys.stderr)
