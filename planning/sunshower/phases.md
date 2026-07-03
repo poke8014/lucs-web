@@ -4,8 +4,8 @@ Sunshower is organized around the actual sequence a gardener moves through, not 
 
 | Phase | Goal | App content | Status |
 |---|---|---|---|
-| **1. Cleanup & prep** | Identify what's in the yard, decide keep/remove, prepare beds for planting. | Weed/invasive ID, cleanup methods, soil prep for natives, timing windows. | **Active** — sourcing now. |
-| **2. Plant selection & sourcing** | Choose the right natives for the user's site; find them at nurseries. | Plant database, native range map, nursery finder, native/non-native/invasive tiering. | Foundations in place. |
+| **1. Cleanup & prep** | Identify what's in the yard, decide keep/remove, prepare beds for planting. | Weed/invasive ID, cleanup methods, soil prep for natives, timing windows. | Closed 2026-05-18 — polish only. |
+| **2. Plant selection & sourcing** | Choose the right natives for the user's site; find them at nurseries. | Plant database, native range map, nursery finder, native/non-native/invasive tiering. | **Active** — 150 Calscape natives live; enrichment scrape then selector design. |
 | **3. Garden planning tools** | Lay out beds, place plants, design for bloom succession and visual structure. | Layout planner, companion planting, bloom-season visualizer. | Concept work started. |
 | **4. Ongoing care** | Seasonal calendar, lifecycle care, alerts for critical windows. | Seasonal care guide, per-plant care timelines. | Future. |
 
@@ -31,13 +31,9 @@ Help a user with any yard state — overgrown, weedy, partially planted, or bare
 
 ### Wiki anchors
 
-None of these concept pages exist yet. Source ingestion will create them. Anticipated:
+`vault/concepts/` has since been built out (19 pages as of 2026-07-02). Phase-1-relevant pages that exist: [site-inventory](../../vault/concepts/site-inventory.md), [soil-basics](../../vault/concepts/soil-basics.md), [planting-technique](../../vault/concepts/planting-technique.md) (incl. cardboard/black-plastic suppression), [cal-ipc-scoring](../../vault/concepts/cal-ipc-scoring.md), [vegetative-spread](../../vault/concepts/vegetative-spread.md), [wildlife-coexistence](../../vault/concepts/wildlife-coexistence.md).
 
-- `concepts/identifying-existing-vegetation`
-- `concepts/invasive-vs-benign-weeds`
-- `concepts/sheet-mulching` (or a broader `concepts/cleanup-methods` parent)
-- `concepts/soil-prep-for-natives`
-- `concepts/ca-planting-window`
+Still unbuilt from the originally anticipated set: removal-methods/sheet-mulching, soil-prep-for-natives, ca-planting-window — tracked as the 📋 "Phase-1 management concepts" item in [../sunshower_backlog.md](../sunshower_backlog.md).
 
 ### Priority sources to ingest
 

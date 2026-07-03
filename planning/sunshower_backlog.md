@@ -109,10 +109,9 @@ The `/scrapaholic` project is archived. `main` carries only active project links
 
 ## Tooling
 
-Scripts live in [.firecrawl/](../.firecrawl/) for now (gitignored — promote to `ops/` if they become long-lived). Scrape pipeline + page generator + stats + iNat fetcher are done (→ archive).
+Convention settled (2026-05-17): **committed, re-runnable pipeline scripts live in [vault/scripts/](../vault/scripts/)** (UC IPM, WRIC, Calscape, iNat photos, vault lint); **`.firecrawl/` is gitignored scratch** (raw scrape output, job TSVs, caches). Pipeline conventions codified in the `sunshower-scrape` skill ([.claude/skills/](../.claude/skills/)). Calscape / WRIC / iNat pipelines are done (→ archive).
 
-- 📋 Promote Cal-IPC ingest scripts to `ops/calipc-ingest/` once stable and re-runnable (e.g., when WRIC content lets us regenerate plant pages with richer body content). Note inconsistency: iNat fetcher lives at `vault/scripts/` (committed), Cal-IPC scripts at `.firecrawl/` (gitignored) — pick one home when promoting.
-- 🧊 Equivalent scripts for Calscape / WRIC ingests when those sources are tackled.
+- 📋 Promote the legacy Cal-IPC one-offs (`.firecrawl/build-plant-pages.py`, `build-jobs.sh`, `run-scrape.sh`, `aggregate-stats.py`) into `vault/scripts/` if Cal-IPC pages ever need regeneration (e.g. richer body content from WRIC) — the only pipeline still outside the convention.
 
 ## Documentation
 

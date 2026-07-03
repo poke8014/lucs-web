@@ -88,6 +88,7 @@ The MVP Plan step's three data layers (sequenced A → C → B) + the three rend
 - ✅ Plant page generator: `build-plant-pages.py` — parses Cal-IPC PAF + profile, emits plant pages with frontmatter (2026-05-08)
 - ✅ Aggregate stats: `aggregate-stats.py` — cross-plant statistics for synthesis pages (2026-05-08)
 - ✅ iNaturalist photo fetcher: `vault/scripts/fetch_inaturalist_photos.py` — scientific-name lookup with `matched_term` synonym resolution + parent-species fallback, license/quality-grade filters, per-plant cap with one-photo-per-photographer, idempotent (2026-05-08)
+- ✅ Committed-pipeline home settled at `vault/scripts/` — scrape_ucipm.py, scrape_wric.py, build_calscape_plant_pages.py, photo/apply/backfill helpers, lint_vault.py all live there; `.firecrawl/` demoted to gitignored scratch. Closes the old "promote scripts out of .firecrawl" question for everything except the legacy Cal-IPC one-offs (still 📋 in the live backlog) (2026-05-17)
 
 ## Documentation
 

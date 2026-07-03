@@ -30,10 +30,12 @@ Native California pollinator garden planning tool.
 - /planning — Specs and outlines for active projects
 - /vault — Obsidian knowledge base (pollinator garden content)
 - /src — Application code
-- /ops — Deployment and operations (future use)
+- /ops — Deployment, operations, data build ([ops/CONTEXT.md](ops/CONTEXT.md)) + agent handoff ([ops/HANDOFF.md](ops/HANDOFF.md))
 
 ## Workflow
+- **Read [ops/HANDOFF.md](ops/HANDOFF.md) before your first edit** — the invariants and decision rationale that aren't derivable from the code.
 - **Always start backlog/feature work on a fresh branch off `main`.** Before editing, check `git status` and `git branch --show-current`: if the current branch is already merged, stale, or unrelated to the new task, create a new one (`feat/…`, `fix/…`, `chore/…`). Never reuse a merged branch or pile unrelated work onto an existing one. Full strategy in [ops/CONTEXT.md](ops/CONTEXT.md#branching-strategy).
+- **Recurring workflows are project skills** in [.claude/skills/](.claude/skills/): `start-task` (branch hygiene + backlog pickup), `vault-ingest`, `vault-lint`, `sunshower-scrape` (credit + licensing gates), `ship` (checks, closeout, PR). Prefer invoking the skill over improvising the workflow.
 
 ## Naming conventions
 - Components: PascalCase

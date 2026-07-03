@@ -24,8 +24,8 @@ The app is organized around the sequence a gardener actually moves through, not 
 
 | Phase | Goal | Status |
 |---|---|---|
-| **1. Cleanup & prep** | Identify what's in the yard, decide keep/remove, prep beds for planting. | **Active** — sourcing now. |
-| **2. Plant selection & sourcing** | Choose natives for the user's site; find them at nurseries. | Foundations in place. |
+| **1. Cleanup & prep** | Identify what's in the yard, decide keep/remove, prep beds for planting. | **Closed** 2026-05-18 — polish only (friendly-to-natives copy pass, picker-scope de-emphasis; tracked in [../sunshower_backlog.md](../sunshower_backlog.md)). |
+| **2. Plant selection & sourcing** | Choose natives for the user's site; find them at nurseries. | **Active** — 150 Calscape native stub pages live (PR #19); next: enrichment scrape then selector design. |
 | **3. Garden planning tools** | Lay out beds, place plants, design for bloom succession. | Concept work started. |
 | **4. Ongoing care** | Seasonal calendar, lifecycle care, alerts. | Future. |
 
@@ -78,4 +78,4 @@ Sourced from four beginner-gardening articles ingested 2026-05-15 (Little Terrac
 
 ---
 
-*Last updated: 2026-05-16*
+*Last updated: 2026-07-02*
