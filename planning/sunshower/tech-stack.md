@@ -130,6 +130,22 @@ State → Ecoregion → County → City/Zip
 
 A user searching at city level inherits plants tagged at the ecoregion or state level above — no need to manually tag every plant at every level.
 
+### User data — saved garden plans (planned, direction 2026-07-03)
+
+Alongside the derived plant/region tables, Supabase carries **user-owned** data (Supabase auth): the saved garden plan a user returns to across sessions and seasons. Sketch, not final schema:
+
+```
+users → yards → sections → section_plants
+                   |            |
+                   |            outcome log (thrived/struggled/died/moved, per season)
+                   |
+                   phase state (cleanup/prep/planted/established),
+                   density style (landscaped | naturalistic),
+                   site labels (sun, moisture), area
+```
+
+Design constraints from [CONTEXT.md → Direction set 2026-07-03](CONTEXT.md#direction-set-2026-07-03--density-sectioning-saved-plans): revisions are per-section and cheap (no monolithic "final" plan document); a yard's sections can sit at different phases simultaneously; the outcome log feeds future recommendations. Derived plant data stays read-only and rebuildable from vault frontmatter — user tables are the only stateful data in the system.
+
 ### Data sources for seeding the database
 
 - **USDA PLANTS Database** — public domain, downloadable, good national baseline.
