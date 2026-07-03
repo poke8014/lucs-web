@@ -1,6 +1,6 @@
 # Ops Workspace
 
-Deployment and operations configuration.
+Deployment and operations configuration. Agent-facing invariants and decision rationale live in [HANDOFF.md](HANDOFF.md).
 
 ## Infrastructure
 
@@ -8,6 +8,13 @@ Deployment and operations configuration.
 - **CI**: GitHub Actions (`.github/workflows/ci.yml`) — lint + typecheck on push/PR to main
 - **Database**: Supabase (Postgres) planned for Sunshower — not yet wired up. Schema sketched in [../planning/sunshower/tech-stack.md](../planning/sunshower/tech-stack.md#database-architecture).
 - **Env vars**: see `.env.example` at project root
+
+## Data Build
+
+[build-plant-data.mjs](build-plant-data.mjs) reads `vault/plants/*.md` frontmatter plus iNaturalist photo metadata (`vault/raw/assets/inaturalist/<slug>/metadata.json`) and emits `src/data/plants.json` for the app to consume at build time.
+
+- Run `node ops/build-plant-data.mjs` after any change to plant-page frontmatter, and commit the regenerated JSON.
+- `src/data/plants.json` is derived output — never hand-edit it.
 
 ## Branching Strategy
 

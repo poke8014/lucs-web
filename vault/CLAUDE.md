@@ -94,9 +94,39 @@ invasive:
   habitat_types: []      # coastal_prairie, coastal_scrub, riparian, valley_grassland, ...
   jepson_regions: []     # Central West, Great Valley, Northwest, Southwest, ...
   evaluated_on:          # YYYY-MM-DD from the PAF
+
+# Native-only block — omit entirely when nativity != native.
+# Sourced from the Calscape location-filtered export; schema approved 2026-05-17
+# (see [[sources/calscape]]). Emitted by vault/scripts/build_calscape_plant_pages.py.
+native:
+  butterflies_moths_supported:  # count from the export; *named* species land in host_plant_for via the /host enrichment scrape
+  attracts_wildlife: []         # e.g. Bats, Bees, Birds, Butterflies, Caterpillars
+  plant_type_raw:               # Calscape's original vocab ("Perennial herb", "Fern", ...) — flat plant_type holds the normalized enum
+  sun_range:                    # full tolerance range as prose; flat sun: is the coarse single value
+  water_range:                  # ditto for flat water:
+  ease_of_care:                 # Calscape vocab, e.g. "Easy"
+  soil_drainage: []             # Fast, Medium, Slow
+  soil_ph:                      # "min - max"
+  communities: []               # plant communities — the ecology-level garden-type facet for the Phase-2 selector
+  communities_simplified: []    # coarse rollup (Forest, Meadow, ...)
+  companions: []                # scientific binomials — the Phase-2 companion-pairing graph
+  sunset_zones:                 # Sunset climate zone string ("*" = best zones)
+  hardiness:                    # cold-tolerance prose
+  nursery_availability:         # Calscape vocab, e.g. "Commonly Available"
+  rarity:
+  is_cultivar:                  # cultivars sit as flagged rows; the species page stays canonical
+  jepson_url:
+  calscape_url:
+  retrieved:                    # YYYY-MM-DD
 ```
 
-The `invasive:` block maps to a separate `invasive_assessments` table when Supabase comes online (joined on `plant_id`); the rest of the frontmatter maps to the `plants` table 1:1 as before.
+The `invasive:` block maps to a separate `invasive_assessments` table when Supabase comes online (joined on `plant_id`); the `native:` block will follow the same join pattern (exact table shape decided when Supabase lands); the rest of the frontmatter maps to the `plants` table 1:1 as before.
+
+**Resolving principle (Luc, 2026-05-17):** the Phase-2 selector reads the structured `native:` block; the flat shared fields (`sun`, `water`, `plant_type`, …) are a coarse convenience layer. When normalization forces a choice (e.g. Calscape `Fern` has no `plant_type` enum), normalize the flat field and preserve the original vocab in `native.plant_type_raw`.
+
+**Dataset-derived citation variant:** pages generated from a structured export cite the export URL in `sources:` plus the dataset meta-page (e.g. `[[sources/calscape]]`), instead of a `raw/` filename — the export artifact (binary .xlsx) lives in gitignored scratch, not `raw/`.
+
+> [!note] The 150 shipped Calscape pages still carry a `# PROPOSED schema block` comment above `native:` — that predates the 2026-05-17 approval and is stale. It gets dropped by the next `build_calscape_plant_pages.py` regeneration (riding the enrichment pass); don't re-litigate the schema because of it.
 
 ---
 

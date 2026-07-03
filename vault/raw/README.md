@@ -6,7 +6,7 @@ The immutable source tier. Drop curated source material here for Claude to inges
 
 | Folder | Contents |
 |---|---|
-| `articles/` | Clipped web articles as markdown (Obsidian Web Clipper output, manual saves). One file per article. |
+| `articles/` | Clipped web articles as markdown (Obsidian Web Clipper output, manual saves). Individually-clipped articles stay flat at `articles/`; bulk-scraped sources go in a per-source subfolder (`articles/<source-slug>/`). Existing subfolders: `calipc/`, `calscape/`, `ucipm-general/`, `ucipm-residential/`, `wric/`. |
 | `pdfs/` | Research papers, agency design guides (USDA NRCS, FWS), data exports. Reference them from notes in `articles/` or directly during ingest. |
 | `assets/` | Downloaded images. Obsidian's "Download attachments for current file" hotkey saves images here when you set Settings → Files and Links → Attachment folder path to `raw/assets`. |
 

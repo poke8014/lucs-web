@@ -40,6 +40,9 @@ yarn-error.log*
 # firecrawl local scrape cache
 /.firecrawl
 
+# python bytecode (vault/scripts)
+__pycache__/
+
 # obsidian — ignore all editor config (machine-specific UI state, plugin layout, themes)
 vault/.obsidian/
 vault/.trash/
