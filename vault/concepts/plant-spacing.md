@@ -3,9 +3,9 @@ type: concept
 title: Plant Spacing
 aliases: ["spacing", "foundation planting distance", "plant placement"]
 tags: [spacing, layout, plant-selection, general-gardening]
-status: stub
-sources: [raw/articles/flower-gardening-for-beginners.md]
-last_updated: 2026-05-07
+status: draft
+sources: [raw/articles/flower-gardening-for-beginners.md, raw/pdfs/books/planting-in-a-post-wild-world.txt]
+last_updated: 2026-07-03
 ---
 
 # Plant Spacing
@@ -39,6 +39,19 @@ Why the extra clearance:
 
 The source advises moving young plants while they're still small and the weather is cool. Most perennials and small shrubs transplant well in early spring or fall. Larger shrubs and trees become much harder to move; for those, plan correctly the first time.
 
+## The community view: spacing is per-layer, density is vertical
+
+> [!warning] Contradicts the container-radius approach above
+> Rainer & West's [[sources/planting-in-a-post-wild-world|*Planting in a Post-Wild World*]] argue the "give every plant breathing room" model above is exactly what produces sparse, mulch-dominated, high-weed plantings. In a [[concepts/designed-plant-communities|designed plant community]] the rules change:
+
+- **Container size does not change spacing.** A plug and a 3-gallon of the same species grow to the same mature width, so they get the *same* spacing. Don't buy big plants to justify spacing them farther apart — use smaller stock (or seed), or shrink the planting area, but keep the density.
+- **Density comes from vertical layering, not from a single-layer number.** You don't achieve a full planting by cramming one layer tightly (that just causes competition, stunting, and disease — e.g. *Panicum* on 10" centers). You achieve it by stacking [[concepts/planting-layers|layers]]: space the tall structural plant on 36" centers, then carpet the ground *beneath and between* it with a ground-cover layer. The two layers' *combined* effective spacing is ~10" on center, but each layer is spaced by its own mature size.
+- **Spacing has three inputs**, not one: mature width **and** vigor **and** [[concepts/plant-sociability|sociability]] (how strongly the plant groups).
+- **Beware internet "cookie-cutter" spacing recipes** — most are traditional ornamental-border spacings and leave plants too far apart for community planting.
+- **Tighter spacing is warranted** on highly erodible sites, under heavy weed pressure, for very impatient clients, or where there's no maintenance budget — cover the soil faster, and thin later if needed.
+
+This reconciles the two "considerations the source doesn't address" below (drift planting; native competition): the community model *expects* tight, overlapping, drift-and-matrix planting — the ornamental "breathing room" rule is the outlier, appropriate mainly for specimen shrubs against a foundation.
+
 ## Considerations the source doesn't address
 
 - **Drift planting and visual massing.** For pollinator gardens specifically, planting in **drifts of the same species** (3+ plants of one kind clustered together) is often recommended to make foraging efficient for bees. Strict trunk-to-trunk spacing rules conflict with the visual goal of a tight drift. Pollinator-design sources need to weigh in on how to reconcile this.
@@ -49,7 +62,9 @@ The source advises moving young plants while they're still small and the weather
 
 - One step in the [[concepts/bubble-drawing]] / layout-iteration process — once features and beds are placed, plant spacing fills in the bed.
 - Constrains plant selection: a 6'W shrub is impossible in a 4'-wide bed against the house no matter how much you like it.
+- In a [[concepts/designed-plant-communities|designed plant community]], spacing is done per [[concepts/planting-layers|layer]], weighted by [[concepts/plant-sociability|sociability]].
 
 ## Sources
 
-- [[sources/flower-gardening-for-beginners]] — Amy Fedele (2020). Provides the radius math, foundation distances, and the "plant for mature size, not nursery size" principle.
+- [[sources/flower-gardening-for-beginners]] — Amy Fedele (2020). Provides the radius math, foundation distances, and the "plant for mature size, not nursery size" principle (the ornamental/foundation model).
+- [[sources/planting-in-a-post-wild-world]] — Rainer & West (2015), Ch. 4. The community model: container size doesn't change spacing; density is vertical; spacing weighs sociability and vigor alongside mature size.

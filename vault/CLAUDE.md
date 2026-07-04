@@ -79,6 +79,7 @@ soil: []
 bloom_season: []   # winter, spring, summer, fall (omit for invasives)
 height_ft:
 width_ft:
+sociability:       # 1–5: how strongly the plant naturally groups (1 = solitary/small groups … 5 = large carpets). Design axis for layout + density. Scale from [[concepts/plant-sociability]] (Hansen & Stahl via Rainer & West). Leave unset until a CA-native-values source lands — omit for invasives.
 regions: []        # link these to entries in regions/
 host_plant_for: [] # specific butterflies/moths if applicable (omit for invasives)
 
