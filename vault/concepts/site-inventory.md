@@ -9,7 +9,8 @@ sources:
   - raw/articles/flower-gardening-for-beginners.md
   - "raw/articles/A beginner's guide to designing a garden.md"
   - "raw/articles/How to Determine Sun Exposure In Your Yard.md"
-last_updated: 2026-05-15
+  - raw/pdfs/books/planting-in-a-post-wild-world.txt
+last_updated: 2026-07-03
 ---
 
 # Site Inventory
@@ -23,6 +24,15 @@ The site inventory is the prerequisite to layout design. Conditions captured her
 The site inventory is the input side of [[concepts/right-plant-right-place]]. Most beginners pick plants first and end up putting sun-lovers in shade or moisture-lovers on a dry slope. A site inventory inverts the order: **map conditions → match conditions to plants/features**, not the reverse. It also turns "flaws" of a property (slope, awkward sightline, road noise) into design constraints you can solve, rather than ignore.
 
 For a pollinator garden specifically, the inventory determines which microclimates exist on the property — and therefore which native plant communities will actually thrive where.
+
+### Two modes: measure *and* feel the site
+
+The framework below (from the Pretty Purple Door sources) is a **quantitative** inventory — sun, wind, slope, utilities as measured data. Rainer & West's [[sources/planting-in-a-post-wild-world|*Planting in a Post-Wild World*]] add a **qualitative** front-end they call *"exploration before analysis,"* arguing a pure data-inventory "reduces the site to a mound of little facts that say almost nothing about its character." Both modes matter; do the feeling first, then the measuring.
+
+- **Wander the site with no agenda** and notice emotional pulls — what draws you (a vista, a sheltered nook → likely focal points) and what repels you (a dank thicket → remove, or amplify as deliberate contrast). These reactions are design data.
+- **Squint and zoom out** past the distractions (flowers, ornaments, existing paths) to the site's "bones": tree cover, ground surface, water flow. New sites read more truly than familiar gardens, where memory clouds judgment.
+- **Sketch as a way of seeing** — plan view for canopy and patterns, section/perspective for vertical layers. Drawing forces you to see forms and shadows instead of objects.
+- The output of this mode is a **[[concepts/landscape-archetypes|goal landscape archetype]]** (grassland / woodland / forest / edge) — the qualitative counterpart to the measured data, and the thing that actually anchors plant selection. On highly urban/disturbed sites with little existing vegetation, read the archetype mostly from **light and soil depth** instead.
 
 ## What to capture
 
@@ -81,3 +91,4 @@ The inventory is a drawing, not a list. Make a measured base plan first, then la
 - [[sources/flower-gardening-for-beginners]] — Pretty Purple Door, Amy Fedele (2020). Corroborates sun thresholds and the broader "right plant, right place" framing.
 - [[sources/littleterracedhouse-designing-a-garden]] — Little Terraced House (2021). Compass-app technique for aspect; sun-tracking over the course of a day; wind exposure for sheltered vs. exposed gardens.
 - [[sources/summerwinds-sun-exposure]] — SummerWinds Nursery. The hourly-photo technique for producing a sun map; the 5-tier sun-zone vocabulary.
+- [[sources/planting-in-a-post-wild-world]] — Rainer & West (2015), Ch. 3. The qualitative "exploration before analysis" front-end, sketching as seeing, and reading a site down to its [[concepts/landscape-archetypes|goal archetype]].

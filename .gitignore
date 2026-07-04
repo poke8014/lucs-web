@@ -44,6 +44,15 @@ yarn-error.log*
 vault/.obsidian/
 vault/.trash/
 
+# book PDFs + full-text extractions — copyrighted material, local-only (repo is public)
+vault/raw/pdfs/books/
+
+# python bytecode
+__pycache__/
+
+# editor config (machine-specific)
+.vscode/
+
 # vault image binaries — large, regeneratable via fetch scripts.
 # metadata.json sidecars are NOT ignored — they encode attribution + source IDs.
 vault/raw/assets/**/*.jpg

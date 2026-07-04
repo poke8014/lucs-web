@@ -4,8 +4,8 @@ title: Right Plant, Right Place
 aliases: ["RPRP", "right plant right place", "match plant to place"]
 tags: [design-principle, native-plants, ecological-gardening, project-thesis]
 status: draft
-sources: [raw/articles/design-a-garden-layout.md, raw/articles/flower-gardening-for-beginners.md]
-last_updated: 2026-05-07
+sources: [raw/articles/design-a-garden-layout.md, raw/articles/flower-gardening-for-beginners.md, raw/pdfs/books/planting-in-a-post-wild-world.txt]
+last_updated: 2026-07-03
 ---
 
 # Right Plant, Right Place
@@ -46,6 +46,15 @@ For California, the answer turns on **nativity**. Native pollinators — bees, b
 
 A garden of thriving non-native ornamentals satisfies the horticultural layer. It fails the ecological layer. **For this project, "right plant" means native plant; "right place" means in the ecological community where it belongs.**
 
+### Design-theory corroboration: "stress as an asset"
+
+Rainer & West's [[sources/planting-in-a-post-wild-world|*Planting in a Post-Wild World*]] arrives at the horticultural layer from a design-theory direction and pushes it further: their principle *"stress as an asset"* says the constraints we instinctively engineer away (poor soil, shade, drought) are exactly what produce a strong sense of place and self-limiting, well-behaved plants. Amending a site to suit a mismatched plant often kills it within a few years; the harmonious wild plantings we admire are the product of *scarcity*, not abundance, of resources. This is the same message as the vault's *amend-less, choose-better* guidance ([[concepts/soil-basics]]), and it reframes "right place" as *accept the place you have and pick plants that want it.* Their Hansen-derived habitat method (see [[concepts/plant-strategies-csr]]) is essentially RPRP applied at the whole-**[[concepts/designed-plant-communities|community]]** scale.
+
+### The friendly contradiction: method vs. palette
+
+> [!warning] Partially contradicts [[concepts/designed-plant-communities]] / [[sources/planting-in-a-post-wild-world]]
+> Rainer & West are **agnostic about plant origin** — they rank a plant's *performance and site-fitness above its nativity* and explicitly welcome adapted exotics into designed communities (excepting anything with invasive potential). Sunshower's thesis ranks **nativity first**, because native pollinators need native plants. We reconcile by separating **method** from **palette**: Sunshower borrows the book's *methods* freely (community structure, [[concepts/planting-layers|vertical layering]], [[concepts/plant-sociability|sociability]], [[concepts/management-not-maintenance|management-not-maintenance]]) while holding the *palette* rule that plants should be California natives. This is a deliberate design seam, not an unresolved conflict — the book teaches us *how to plant*; RPRP decides *what to plant*.
+
 ## Why this is the thesis
 
 Sunshower exists because:
@@ -69,5 +78,6 @@ The app's job is to make the ecological reading of "right plant, right place" th
 
 - [[sources/design-a-garden-layout]] — Amy Fedele (2023). Mentions RPRP in passing as the foundational principle behind site-inventory work.
 - [[sources/flower-gardening-for-beginners]] — Amy Fedele (2020). Names RPRP explicitly as a motto, develops the horticultural layer (zones, sun, soil, spacing). Does not address the ecological layer.
+- [[sources/planting-in-a-post-wild-world]] — Rainer & West (2015). "Stress as an asset" and the plant-to-place emphasis corroborate the horticultural layer at community scale; their origin-agnostic stance is the flagged partial contradiction with the ecological layer.
 
 The ecological framing on this page is project-specific synthesis, not from either source. Future ingests of native-plant and pollinator-conservation literature will populate that side directly.
