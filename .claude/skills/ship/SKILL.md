@@ -11,7 +11,7 @@ description: Finish and merge a unit of work in this repo — pre-merge checks, 
 
 | You touched | Run |
 |---|---|
-| `src/`, config, deps | `npm run lint && npm run typecheck && npm run build` — all three, locally, before the PR ([ops/CONTEXT.md](../../../ops/CONTEXT.md)) |
+| `src/`, config, deps | `npm run lint && npm run typecheck && npm test && npm run build` — all four, locally, before the PR ([ops/CONTEXT.md](../../../ops/CONTEXT.md)). CI runs lint + typecheck + tests. |
 | `vault/plants/*` frontmatter | `node ops/build-plant-data.mjs` — regenerates `src/data/plants.json`; commit it. Then the npm checks (the app consumes that JSON). |
 | `vault/` content generally | `python3 vault/scripts/lint_vault.py` — non-zero exit means hard defects; fix before merge |
 | Docs only | npm lint + typecheck still run in CI; run them locally if in doubt |

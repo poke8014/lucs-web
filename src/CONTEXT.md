@@ -23,8 +23,14 @@ src/
       yardState.ts      # yard-state type and helpers
       care/             # /sunshower/care — Phase 4 care interstitial
         page.tsx
-      site-inventory/   # /sunshower/site-inventory — site-inventory interstitial
-        page.tsx
+      site-inventory/   # /sunshower/site-inventory — guided site-inventory walkthrough
+        page.tsx        # server wrapper (metadata) around the client wizard
+        Walkthrough.tsx # wizard shell: stepper, ?step= deep-links, resume
+        types.ts        # SiteProfile contract (versioned, future Supabase site_profiles)
+        profile.ts      # localStorage load/save, bearing→cardinal, progress helpers
+        useSiteProfile.ts  # client hook — hydrate-after-mount, debounced writes
+        site-inventory.test.ts  # vitest unit tests (npm test)
+        steps/          # one component per step + shared field primitives
       cleanup-plan/     # /sunshower/cleanup-plan — Phase 1 MVP
         page.tsx
         PlantPicker.tsx # plant-picker UI component

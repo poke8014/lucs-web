@@ -85,12 +85,20 @@ export default function CarePage() {
           >
             ← back to sunshower
           </Link>
-          <Link
-            href="/sunshower/cleanup-plan"
-            className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/70 px-4 py-2 text-sm font-medium text-[#2a1d10] hover:bg-[#fff6df]"
-          >
-            Spot-cleanup unwanted plants →
-          </Link>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href="/sunshower/site-inventory"
+              className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/70 px-4 py-2 text-sm font-medium text-[#2a1d10] hover:bg-[#fff6df]"
+            >
+              Map what your yard offers →
+            </Link>
+            <Link
+              href="/sunshower/cleanup-plan"
+              className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/70 px-4 py-2 text-sm font-medium text-[#2a1d10] hover:bg-[#fff6df]"
+            >
+              Spot-cleanup unwanted plants →
+            </Link>
+          </div>
         </div>
       </div>
     </main>
