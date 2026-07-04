@@ -754,6 +754,17 @@ function ComingNextSection() {
           <li>Per-site soil-prep guidance beyond this generic pass</li>
         </ul>
         <p className="mt-4">
+          Yard clean (or getting there)? The site-inventory walkthrough is
+          live — map what your yard offers so Selection has something to match
+          against.
+        </p>
+        <p className="mt-3 flex flex-wrap gap-x-5 gap-y-1">
+          <Link
+            href="/sunshower/site-inventory"
+            className="font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
+          >
+            Map what your yard offers →
+          </Link>
           <Link
             href="/sunshower"
             className="font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"

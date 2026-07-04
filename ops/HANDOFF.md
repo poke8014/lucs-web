@@ -37,6 +37,8 @@ Recurring workflows are packaged as project skills in [.claude/skills/](../.clau
 | Stub-first programmatic pages, then enrichment passes | 150 consistent stubs from one export beat 150 hand-written pages; enrichment upgrades stub→draft in bulk | vault/log.md 2026-05-17 entries |
 | Disturbed-soil weeds are a *pattern*, not 6 separate facts | Knotweed, puncturevine, Russian thistle etc. signal compaction/disturbance; the upstream fix is structural, not herbicide. Queued as a future concepts page | backlog → *Common weed ingest* 🧊 |
 | Scripts: committed pipelines in `vault/scripts/`, scratch in `.firecrawl/` | Pipelines must be re-runnable by successors; raw scrape output and job files must never bloat the repo | **sunshower-scrape** skill |
+| Site profile: versioned localStorage (`sunshower.siteProfile.v1`), no auth dependency | The walkthrough must work before Supabase exists; `version` gates migrations and the shape maps 1:1 to a future `site_profiles` table (2026-07-04) | [planning/sunshower_site_inventory_mvp.md](../planning/sunshower_site_inventory_mvp.md) |
+| Unit tests via vitest (`npm test`), colocated `*.test.ts`, in CI | First test runner in the repo (2026-07-04); pure-logic modules (profile helpers) get tests, UI verification stays manual for now | `src/app/sunshower/site-inventory/site-inventory.test.ts` |
 
 ## State of play (2026-07-02)
 

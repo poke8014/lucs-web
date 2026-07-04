@@ -1,6 +1,12 @@
 # Sunshower — Site-Inventory Walkthrough MVP
 
-> **Status: SPEC (2026-07-04).** Detailed build plan for the backlog item *In-app site-inventory walkthrough* ([sunshower_backlog.md → Beginner-gardening ideas](sunshower_backlog.md#beginner-gardening-ideas-added-2026-05-15)). Modeled on the (closed) [sunshower_gui_mvp.md](sunshower_gui_mvp.md) — scope decisions locked up top, then parallelizable agent work packages. When work starts, flip the backlog item 📋 → 🚧 and track per-agent status here.
+> **Status: BUILT (2026-07-04, branch `feat/site-inventory-mvp`).** Detailed build plan for the backlog item *In-app site-inventory walkthrough* ([sunshower_backlog.md → Beginner-gardening ideas](sunshower_backlog.md#beginner-gardening-ideas-added-2026-05-15)). Modeled on the (closed) [sunshower_gui_mvp.md](sunshower_gui_mvp.md) — scope decisions locked up top, then parallelizable agent work packages.
+>
+> **Build record (all four packages, done inline in one session):**
+> - **A — data layer:** `types.ts` (contract verbatim, no deviations), `profile.ts`, `useSiteProfile.ts`, 13 unit tests in `site-inventory.test.ts` (vitest added as devDep + `npm test` script — first test runner in the repo).
+> - **B — wizard shell:** `Walkthrough.tsx` — 9-pill stepper (navigation, not a gate), `?step=<id>` deep-links, resume-to-first-open-step (skipped steps don't pull you back), venue chips, mobile-first footer nav.
+> - **C — steps 1–8:** one component each under `steps/`; archetype key as a mini-flow; sun-zone editor w/ hourly-photo empty state; `tel:811` action. Open question resolved: cardinal picker is the primary aspect input, bearing-degrees the optional refinement.
+> - **D — summary + integration:** summary card w/ per-dimension edit links + Phase-2 bridge; cleanup-plan §3 pointer; care-page cross-link; phases.md repositioning; backlog flip.
 
 **User-facing goal:** a user with a mostly-bare (or freshly cleaned-up) yard walks through a guided inventory of their site — feel, aspect, sun, wind, water/slope, utilities, sightlines, soil clues — and ends with a persistent **site profile**: the structured "what my yard offers" record that the Phase-2 plant selector will consume.
 

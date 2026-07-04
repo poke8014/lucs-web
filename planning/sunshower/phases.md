@@ -137,6 +137,8 @@ Help users lay out beds and place plants thoughtfully, accounting for site condi
 
 ### Site inventory & bubble drawing
 
+**Site inventory has moved forward:** it now ships as an app surface *between Phases 1 and 2* — the guided walkthrough at `/sunshower/site-inventory` (built 2026-07-04, spec: [sunshower_site_inventory_mvp.md](../sunshower_site_inventory_mvp.md)). It produces the localStorage `SiteProfile` the Phase-2 selector will consume. What remains Phase-3 territory is the drawing side: zone painting, sketch upload, and bubble-drawing iteration on top of that profile.
+
 The planning UX should embrace the iterative low-fidelity workflow documented in:
 
 - [vault/concepts/site-inventory.md](../../vault/concepts/site-inventory.md) — site conditions mapping.
