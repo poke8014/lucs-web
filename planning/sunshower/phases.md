@@ -6,7 +6,7 @@ Sunshower is organized around the actual sequence a gardener moves through, not 
 |---|---|---|---|
 | **1. Cleanup & prep** | Identify what's in the yard, decide keep/remove, prepare beds for planting. | Weed/invasive ID, cleanup methods, soil prep for natives, timing windows. | Closed 2026-05-18 — polish only. |
 | **2. Plant selection & sourcing** | Choose the right natives for the user's site; find them at nurseries. | Plant database, native range map, nursery finder, native/non-native/invasive tiering. | **Active** — 150 Calscape natives live; enrichment scrape then selector design. |
-| **3. Garden planning tools** | Lay out beds, place plants, design for bloom succession and visual structure. | Layout planner, companion planting, bloom-season visualizer. | Concept work started. |
+| **3. Garden planning tools** | Lay out beds, place plants, design for bloom succession and visual structure. | Layout planner, companion planting, bloom-season visualizer. | **Build spec ready** (2026-07-05): [../sunshower_bed_planner_spec.md](../sunshower_bed_planner_spec.md). |
 | **4. Ongoing care** | Seasonal calendar, lifecycle care, alerts for critical windows. | Seasonal care guide, per-plant care timelines. | Future. |
 
 Phases overlap in research and content — but the content order and UX entry point mirror this sequence. A user who lands on the app should be able to start at Phase 1 if their yard is overgrown, or skip ahead if they've already cleared their planting area.
@@ -126,6 +126,8 @@ Full list in [resources.md](resources.md). Highest priority:
 ### Goal
 
 Help users lay out beds and place plants thoughtfully, accounting for site conditions, mature plant size, bloom succession, and visual structure.
+
+**Build spec (2026-07-05):** [../sunshower_bed_planner_spec.md](../sunshower_bed_planner_spec.md) — base map, paths-first sectioning, per-section density style + phase order, layered placement (individual/drift/matrixFill), plan checker, season scrubbing, three.js grown-in view. Agent-sized work units A–I; the subsections below remain the phase's concept-level framing.
 
 ### Garden layout planner
 
