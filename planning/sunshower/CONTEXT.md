@@ -77,8 +77,8 @@ Follow-on direction, set later the same day (Luc, 2026-07-03):
 ## Open questions
 
 - Primary plant-info backbone: Calscape, Calflora, iNaturalist, USDA PLANTS, or a combination?
-- Regional filtering granularity: city, ZIP, or ecoregion?
-- Should the layout planner integrate with satellite/map view of the user's yard?
+- ~~Regional filtering granularity: city, ZIP, or ecoregion?~~ **Resolved (Luc, 2026-07-05): ecoregion** — matches the `native.communities` / RPRP basis the selector and planner build on (v1 fixed to South Bay).
+- ~~Should the layout planner integrate with satellite/map view of the user's yard?~~ **Resolved (Luc, 2026-07-05): yes, optionally and privacy-guarded** — address-based rough-layout import as the low-effort base-map on-ramp; address used once in-session, never saved; address-free upload/draw paths stay first-class. See [../sunshower_bed_planner_spec.md](../sunshower_bed_planner_spec.md).
 - When two authoritative sources disagree on whether a plant is native to a region, how does the app present the conflict?
 - Boundary cases — a Bay Area user straddling oak woodland and coastal sage scrub: how is that surfaced?
 - Cultivar vs species page handling — when natives come in, cultivars often have reduced pollinator value.

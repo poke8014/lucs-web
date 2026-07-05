@@ -5,7 +5,7 @@ Sunshower is organized around the actual sequence a gardener moves through, not 
 | Phase | Goal | App content | Status |
 |---|---|---|---|
 | **1. Cleanup & prep** | Identify what's in the yard, decide keep/remove, prepare beds for planting. | Weed/invasive ID, cleanup methods, soil prep for natives, timing windows. | Closed 2026-05-18 — polish only. |
-| **2. Plant selection & sourcing** | Choose the right natives for the user's site; find them at nurseries. | Plant database, native range map, nursery finder, native/non-native/invasive tiering. | **Active** — 150 Calscape natives live; enrichment scrape then selector design. |
+| **2. Plant selection & sourcing** | Choose the right natives for the user's site; find them at nurseries. | Plant database, native range map, nursery finder, native/non-native/invasive tiering. | **Active** — 150 Calscape natives live; build spec ready ([../sunshower_plant_selector_spec.md](../sunshower_plant_selector_spec.md)); enrichment scrape in flight. |
 | **3. Garden planning tools** | Lay out beds, place plants, design for bloom succession and visual structure. | Layout planner, companion planting, bloom-season visualizer. | **Build spec ready** (2026-07-05): [../sunshower_bed_planner_spec.md](../sunshower_bed_planner_spec.md). |
 | **4. Ongoing care** | Seasonal calendar, lifecycle care, alerts for critical windows. | Seasonal care guide, per-plant care timelines. | Future. |
 
@@ -160,7 +160,7 @@ The community's layout heuristics — tall-back/short-front, odd-number groups, 
 
 ### Site inventory & bubble drawing
 
-**Site inventory has moved forward:** it now ships as an app surface *between Phases 1 and 2* — the guided walkthrough at `/sunshower/site-inventory` (built 2026-07-04, spec: [sunshower_site_inventory_mvp.md](../sunshower_site_inventory_mvp.md)). It produces the localStorage `SiteProfile` the Phase-2 selector will consume. What remains Phase-3 territory is the drawing side: zone painting, sketch upload, and bubble-drawing iteration on top of that profile.
+**Site inventory has moved forward:** it now ships as an app surface *between Phases 1 and 2* — the guided walkthrough at `/sunshower/site-inventory` (built 2026-07-04, spec: [sunshower_site_inventory_mvp.md](../sunshower_site_inventory_mvp.md)). It produces the localStorage `SiteProfile` that both the [Phase-2 selector](../sunshower_plant_selector_spec.md) and the [Phase-3 bed planner](../sunshower_bed_planner_spec.md) consume. What remains Phase-3 territory is the drawing side: base map + zone painting, sketch/address import, and bubble-drawing iteration on top of that profile — all specified in the [bed planner spec](../sunshower_bed_planner_spec.md).
 
 The planning UX should embrace the iterative low-fidelity workflow documented in:
 
@@ -171,8 +171,8 @@ Implications: layout creation should be lightweight, with easy duplication of va
 
 ### Open questions for this phase
 
-- Should the layout planner integrate with satellite/map view of the user's yard? (Community signal: GIS/satellite screenshots are already the de-facto base map — see [vault/concepts/site-inventory.md](../../vault/concepts/site-inventory.md).)
-- How specific should regional filtering go — city-level, ZIP, ecoregion?
+- ~~Should the layout planner integrate with satellite/map view of the user's yard?~~ **Resolved (Luc, 2026-07-05): yes, optionally and privacy-guarded** — the planner offers an address-based rough-layout import as the low-effort base-map on-ramp, but the address is used once in-session and never saved, and address-free paths (upload / draw) stay first-class. Detail in [../sunshower_bed_planner_spec.md](../sunshower_bed_planner_spec.md) (Scope decision 1). (Community signal: GIS/satellite screenshots are already the de-facto base map — see [vault/concepts/site-inventory.md](../../vault/concepts/site-inventory.md).)
+- ~~How specific should regional filtering go — city-level, ZIP, ecoregion?~~ **Resolved (Luc, 2026-07-05): ecoregion-level**, matching the `native.communities` / RPRP basis the [Phase-2 selector](../sunshower_plant_selector_spec.md) ranks on. (v1 fixed to South Bay per [ops/HANDOFF.md](../../ops/HANDOFF.md) invariant 8.)
 - Naturalistic-mode spacing numbers need an authoritative CA-native design source — the drift/density heuristics are currently community-sourced only ([vault/concepts/plant-spacing.md](../../vault/concepts/plant-spacing.md) flags the gap).
 
 ---
