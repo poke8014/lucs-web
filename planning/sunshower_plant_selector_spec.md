@@ -1,6 +1,6 @@
 # Sunshower — Phase 2 Plant Selector (build spec)
 
-> **Status: SPEC (2026-07-05), unowned.** Build plan for Phase 2 (Selection) as outlined in [sunshower/phases.md → Phase 2](sunshower/phases.md#phase-2--plant-selection--sourcing), written for agents to carry out unit-by-unit, modeled on [sunshower_site_inventory_mvp.md](sunshower_site_inventory_mvp.md) (spec → build record). Decisions marked **⚠️ proposed** need Luc's sign-off before the affected unit is dispatched; everything else traces to committed direction ([vault/sources/calscape.md → Phase-2 selector model](../vault/sources/calscape.md), Luc 2026-05-17; selection philosophy, Luc 2026-07-05), shipped code, or vault sources. Follow the **start-task** skill before picking up a unit; update this doc as units ship. Backlog/phases closeout for this spec was done in the 2026-07-05 `docs/phase-specs` reconciliation (M4 row + phases.md Phase-2 link).
+> **Status: SPEC APPROVED (2026-07-05), unowned — units A–D dispatchable.** Build plan for Phase 2 (Selection) as outlined in [sunshower/phases.md → Phase 2](sunshower/phases.md#phase-2--plant-selection--sourcing), written for agents to carry out unit-by-unit, modeled on [sunshower_site_inventory_mvp.md](sunshower_site_inventory_mvp.md) (spec → build record). **⚠️1–3 approved by Luc 2026-07-05** (route shape, build-now-without-enrichment, dismissal memory); **⚠️4 deferred** — unit E waits until more plant sources are scraped (tracked 🧊 in [the backlog → Native plant ingest](sunshower_backlog.md#native-plant-ingest)). Everything else traces to committed direction ([vault/sources/calscape.md → Phase-2 selector model](../vault/sources/calscape.md), Luc 2026-05-17; selection philosophy, Luc 2026-07-05), shipped code, or vault sources. Follow the **start-task** skill before picking up a unit; update this doc as units ship. Backlog/phases closeout for this spec was done in the 2026-07-05 `docs/phase-specs` reconciliation (M4 row + phases.md Phase-2 link).
 
 **User-facing goal:** a user with a site profile (or without one — nothing is gated) explores the native plants that actually belong where they live, in small digestible batches instead of a 150-item dump; searches for any plant they're curious about and gets an honest read on **how it fits their yard** and **what it does for the local ecosystem**; and builds a saved plant list — the palette that the Phase-3 bed planner places.
 
@@ -117,12 +117,12 @@ What this plant does for the place the user lives — the ecological reading of 
 - **Mobile-first** (nursery aisle + couch browsing are the real venues), same visual vocabulary as cleanup-plan/site-inventory (cream panels, serif headers, tier badges echoing the Cal-IPC badge pattern).
 - **Copy: friendly-to-natives.** No urgency language outside the 🔴 tier; enjoyment named as a legitimate reason in actual UI copy.
 
-### ⚠️ Proposed (needs Luc's sign-off)
+### Decisions (⚠️1–3 approved, ⚠️4 deferred — Luc, 2026-07-05)
 
-1. **Route `/sunshower/plant-selector`**, detail as a deep-linkable drawer (`?plant=<slug>`), not per-plant routes. SSG'd plant pages from wiki bodies wait for enrichment prose (the 150 bodies are stubs).
-2. **Don't wait for the enrichment scrape.** The backlog sequences selector *after* enrichment, but everything the selector ranks on is already in frontmatter (communities, companions, facets, host counts). Enrichment upgrades the contribution card in place (named hosts, prose). Recommendation: build now, enrichment enriches.
-3. **Dismissal memory** (`sunshower.selectorPrefs.v1`): "don't suggest swaps for my lavender" is remembered per-plant. Tiny personalization with real tone stakes — it's the mechanism that makes the nudge a one-time offer rather than a nag.
-4. **`benign:` frontmatter block** for 🟡 pages (unit E): `origin_region`, `wildlife_value: []`, `wildlife_notes`, `native_analogs: []` (slugs), `sources`. Schema addition → vault convention says discuss before writing; starter list (~20–30 South Bay garden classics: lavender, rosemary, star jasmine, citrus, camellia…) needs Luc's curation + a citable source.
+1. ✅ **Route `/sunshower/plant-selector`**, detail as a deep-linkable drawer (`?plant=<slug>`), not per-plant routes. SSG'd plant pages from wiki bodies wait for enrichment prose (the 150 bodies are stubs).
+2. ✅ **Don't wait for the enrichment scrape.** The backlog sequences selector *after* enrichment, but everything the selector ranks on is already in frontmatter (communities, companions, facets, host counts). Enrichment upgrades the contribution card in place (named hosts, prose). Build now, enrichment enriches.
+3. ✅ **Dismissal memory** (`sunshower.selectorPrefs.v1`): "don't suggest swaps for my lavender" is remembered per-plant. Tiny personalization with real tone stakes — it's the mechanism that makes the nudge a one-time offer rather than a nag.
+4. ⏸️ **`benign:` frontmatter block** for 🟡 pages (unit E): `origin_region`, `wildlife_value: []`, `wildlife_notes`, `native_analogs: []` (slugs), `sources`. **Deferred (Luc 2026-07-05): wait until more plants are scraped before assembling the curation — more sources needed first.** Tracked 🧊 in [the backlog → Native plant ingest](sunshower_backlog.md#native-plant-ingest); the schema shape still needs the vault-convention discussion when picked up, and the starter list (~20–30 South Bay garden classics: lavender, rosemary, star jasmine, citrus, camellia…) still needs Luc's curation + a citable source.
 
 ## Anti-goals
 
@@ -195,7 +195,7 @@ Ship checklist per unit: `npm run lint && npm run typecheck && npm test && npm r
 | **B** | **Selector surface.** Route + server wrapper, lens header (zone picker, community chips), role batches with reroll + facet toggles, search, detail drawer + `?plant=` deep link, mobile-first pass | A |
 | **C** | **Nudge & contribution UX.** Tier ladder behaviors end-to-end, contribution card (incl. 🟡/🔴/unknown variants), analogs shelf, dismissal memory, copy pass against the philosophy section (the review question for every string: *"would this make someone feel bad about a plant they love?"*) | A, B |
 | **D** | **Plant list + handoffs.** `PlantList` persistence + list view + contribution rollup; palette-seam adapter exporting `fitForZone` in the [bed-planner](sunshower_bed_planner_spec.md)'s expected shape; entry-point audit | A–C |
-| **E** | **Good-neighbor content track** *(gated on ⚠️ 4)*. `benign:` schema in vault/CLAUDE.md, ~20–30 curated 🟡 pages with `native_analogs`, build-script passthrough, ladder auto-activates | Luc sign-off; ships any time after C |
+| **E** | **Good-neighbor content track** *(⏸️ deferred per ⚠️ 4 — wait for more scraped sources)*. `benign:` schema in vault/CLAUDE.md, ~20–30 curated 🟡 pages with `native_analogs`, build-script passthrough, ladder auto-activates | Deferred (Luc 2026-07-05); ships any time after C once unblocked |
 
 **Rounds:** 1: A → 2: B → 3: C ∥ D → E whenever unblocked. **MVP line: A–D** (selector is fully useful natives-only; the 🟡 ladder rung activates when E lands).
 
@@ -211,7 +211,7 @@ Ship checklist per unit: `npm run lint && npm run typecheck && npm test && npm r
 
 ## Open questions for Luc
 
-1. **⚠️ 1–3 sign-offs** — route shape, build-now-vs-wait-for-enrichment, dismissal memory.
-2. **⚠️ 4 — the 🟡 starter set**: bless the `benign:` block shape, and how do you want to source/curate the ~20–30 good-neighbor classics? (Hand-curation from a citable list — e.g., a UC ANR / Xerces pollinator-friendly-ornamental reference — keeps unit E scrape-free; needs the vault ingest discussion either way.)
+1. ~~⚠️ 1–3 sign-offs~~ **Approved (Luc, 2026-07-05)** — route shape, build-now-without-enrichment, dismissal memory. Units A–D are dispatchable.
+2. ~~⚠️ 4 — the 🟡 starter set~~ **Deferred (Luc, 2026-07-05):** wait until more plants are scraped before assembling the curation — more sources needed first. Backlogged 🧊 under *Native plant ingest*; the `benign:` schema discussion and curation-source question reopen with it.
 3. ~~Planning-branch reconciliation~~ **Resolved (2026-07-05):** the `docs/phase-specs` direction docs, the [bed-planner spec](sunshower_bed_planner_spec.md), and this spec were rebased onto main together; backlog/phases closeout for all three is done and the cross-references now resolve on-branch.
 4. **Batch composition taste**: role-bucketed batches of ~6 is a guess at "digestible." Happy to swap for community-bucketed ("a chaparral shelf") or goal-bucketed ("the hummingbird shelf") batches — cheap to change, worth your eye at build time.
