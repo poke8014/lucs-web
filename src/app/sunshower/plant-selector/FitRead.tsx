@@ -7,11 +7,14 @@ import type { SiteProfile, SunZone } from '../site-inventory/types'
 import { fitForZone } from './fit'
 import type { FitLevel, SelectorPlant } from './types'
 
+// Fit is a read on the *spot*, never a verdict on the plant. Labels stay honest
+// (a stretch is a stretch) but describe the match, not blame the plant — the
+// review question (spec §philosophy) applies to fit copy too.
 const LEVEL_STYLE: Record<FitLevel, { label: string; className: string }> = {
   great: { label: 'Great fit', className: 'border-emerald-800/40 bg-emerald-800/10 text-emerald-900' },
   good: { label: 'Good fit', className: 'border-emerald-800/30 bg-emerald-800/5 text-emerald-900/90' },
   stretch: { label: 'A stretch', className: 'border-amber-700/40 bg-amber-100/70 text-amber-900' },
-  mismatch: { label: 'Fights this spot', className: 'border-orange-400/50 bg-orange-100/70 text-orange-900' },
+  mismatch: { label: 'Tough spot for it', className: 'border-orange-400/50 bg-orange-100/70 text-orange-900' },
   unknown: { label: 'Fit unknown', className: 'border-[#2a1d10]/25 bg-[#fff6df]/80 text-[#2a1d10]/70' },
 }
 

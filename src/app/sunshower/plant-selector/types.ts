@@ -61,6 +61,12 @@ export interface SelectorPlant {
   host_plant_for: string[]
   native: NativeBlock | null
   cal_ipc_rating: string | null
+  // Unit C addition: the invasive `invasive:` block fields the 🔴 contribution
+  // card reads to say what a plant costs the region. The JSON already carries
+  // these at top level for the invasive set (snake_case tokens); optional so
+  // native/test fixtures without them stay valid. See spec §2 (🔴 variant).
+  spread_mechanisms?: string[]
+  habitat_types?: string[]
   // Unit B addition: iNat photos (only invasives populated today; natives []).
   // Optional so existing Unit A test fixtures don't need the field; the corpus
   // JSON always carries it (possibly empty). UI reads plant.photos?.[0].
@@ -113,4 +119,11 @@ export interface ContributionCard {
   nurseryAvailability: string | null
   isCultivar: boolean
   lines: string[] // ready-to-render human sentences
+  // Unit C additions — the 🔴 cost read. Humanized spread + habitat phrases the
+  // card can render as its own styled block (from `spread_mechanisms` /
+  // `habitat_types`); `offersCleanupHandoff` gates the warm cleanup-plan link.
+  costSpread: string[] // e.g. "long-lived seed bank", "resprouts after cutting"
+  costHabitats: string[] // e.g. "riparian woodland", "coastal scrub"
+  calIpcRating: string | null // 'high' | 'moderate' | … (raw token; UI labels it)
+  offersCleanupHandoff: boolean
 }

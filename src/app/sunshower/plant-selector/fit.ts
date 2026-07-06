@@ -195,13 +195,16 @@ export function fitForZone(
   }
 
   if (!native) {
-    // We can't do an ecological fit read without the native block.
+    // No native block → no ecological fit read. Tier-aware voice: firm-kind
+    // for invasives (the ladder says "not scored"), warm for everything else
+    // (a 🟡 good-neighbor or unknown plant the user may already love).
+    const reason =
+      plant.nativity === 'invasive'
+        ? "We don't score garden fit for invasives — if it's in your yard, the cleanup planner is the better tool for it."
+        : "We score fit for the natives in our book — for this one, how it's already doing in your yard is the best read."
     return {
       level: 'unknown',
-      reasons: [
-        ...reasons,
-        "This one isn't in our native plant data, so we can't score its fit.",
-      ],
+      reasons: [...reasons, reason],
     }
   }
 

@@ -21,6 +21,7 @@ import { applyFacets, type FacetKey } from './facets'
 import FacetBar from './FacetBar'
 import LensHeader from './LensHeader'
 import PlantDrawer from './PlantDrawer'
+import PlantListView from './PlantListView'
 import { groupByRole, rankForBrowse } from './ranking'
 import SelectorSearch from './SelectorSearch'
 import type { SelectorPlant } from './types'
@@ -193,6 +194,13 @@ function SelectorInner() {
             activeSeasons={activeSeasons}
             onToggleSeason={toggleSeason}
           />
+        </div>
+
+        {/* My plant list — the saved palette surface. Collapsible so it doesn't
+            crowd the browse batches. Mounted here so it's always reachable
+            without opening a drawer. */}
+        <div className="mb-6">
+          <PlantListView onOpen={openPlant} />
         </div>
 
         {/* Role batches. */}

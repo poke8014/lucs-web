@@ -393,11 +393,33 @@ describe('contribution', () => {
   })
 
   it('marks invasives as cost, not contribution, with a cleanup hook', () => {
-    const invasive = CORPUS.find((p) => p.nativity === 'invasive')!
+    // Unit C: the cleanup handoff moved from a text line to the structured
+    // `offersCleanupHandoff` flag (rendered as a real link by ContributionCard);
+    // cost lines now describe the plant's spread + the habitats it displaces.
+    const invasive = CORPUS.find(
+      (p) => p.nativity === 'invasive' && (p.spread_mechanisms?.length ?? 0) > 0,
+    )!
     const card = contribution(invasive)
     expect(card.tier).toBe('invasive')
     expect(card.hostCount).toBeNull()
-    expect(card.lines.join(' ')).toMatch(/cleanup/i)
+    expect(card.offersCleanupHandoff).toBe(true)
+    expect(card.costSpread.length).toBeGreaterThan(0)
+    expect(card.lines.join(' ')).toMatch(/crowds out natives/i)
+  })
+
+  it('gives non_native_safe an honest-asymmetry read (never shame)', () => {
+    // 🟡 has zero pages in the corpus today; synthesize a minimal one to prove
+    // the code path renders the good-neighbor voice and offers no cleanup link.
+    const base = plantBySlug('acer-negundo')!
+    const benign = { ...base, nativity: 'non_native_safe' as const }
+    const card = contribution(benign)
+    expect(card.tier).toBe('non_native_safe')
+    expect(card.offersCleanupHandoff).toBe(false)
+    expect(card.costSpread).toEqual([])
+    // names the one honest limit (larval hosting) without shaming the plant
+    expect(card.lines.join(' ')).toMatch(/caterpillars/i)
+    // and still credits what it gives (nectar / joy)
+    expect(card.lines.join(' ')).toMatch(/nectar|joy/i)
   })
 
   it('never throws across the whole corpus', () => {

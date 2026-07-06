@@ -1,10 +1,13 @@
-// Tier badge — the 🟢/🔴/unknown read on a plant, shown before tap in search
-// and on every card/drawer. Kept in its own file per the seam plan.
+// Tier badge — the 🟢/🟡/🔴/unknown read on a plant, shown before tap in search
+// and on every card/drawer. One place for the nudge-ladder tone contract.
 //
-// SEAM (Unit C): C owns the nudge-ladder copy pass and will refine these
-// labels/tones and add the 🟡 `non_native_safe` "Good neighbor" variant (zero
-// pages today — see spec §"The nudge ladder"). Keep the tier→variant lookup
-// here so C has one place to edit. Structural + the three approved labels only.
+// Copy contract (spec §"The nudge ladder", owned by Unit C): each badge's tone
+// is deliberate. 🟢 celebrates ("Native here"), 🟡 respects ("Good neighbor" —
+// no red badge on a good neighbor, per §Anti-goals), 🔴 is firm but kind
+// ("Invasive here", never "banned"/"forbidden"), unknown is honest ("Not in our
+// book yet"). The review question for every label: would this make someone feel
+// bad about a plant they love? Only 🔴 names a problem, and it names the plant's
+// behavior, not the gardener.
 
 import type { SelectorPlant } from './types'
 
