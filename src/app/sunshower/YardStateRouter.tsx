@@ -33,7 +33,9 @@ export default function YardStateRouter() {
   const [open, setOpen] = useState(false)
   const [idx, setIdx] = useState(0)
   const [phase, setPhase] = useState<'in' | 'out'>('in')
+  const [listMaxH, setListMaxH] = useState<number | null>(null)
   const rootRef = useRef<HTMLDivElement>(null)
+  const listRef = useRef<HTMLUListElement>(null)
 
   useEffect(() => {
     if (open) return
@@ -64,6 +66,27 @@ export default function YardStateRouter() {
     return () => {
       document.removeEventListener('mousedown', onMouseDown)
       document.removeEventListener('keydown', onKey)
+    }
+  }, [open])
+
+  // Cap the open list to the space left below it so it never runs past the
+  // viewport edge; overflow scrolls internally. Recompute on resize/scroll
+  // (the mobile layout scrolls, which shifts the button underneath the list).
+  useEffect(() => {
+    if (!open) return
+    const MARGIN = 16 // breathing room so the last row isn't flush to the edge
+    function measure() {
+      const el = listRef.current
+      if (!el) return
+      const top = el.getBoundingClientRect().top
+      setListMaxH(Math.max(140, window.innerHeight - top - MARGIN))
+    }
+    measure()
+    window.addEventListener('resize', measure)
+    window.addEventListener('scroll', measure, true)
+    return () => {
+      window.removeEventListener('resize', measure)
+      window.removeEventListener('scroll', measure, true)
     }
   }, [open])
 
@@ -113,9 +136,11 @@ export default function YardStateRouter() {
 
         {open && (
           <ul
+            ref={listRef}
             role="listbox"
             aria-labelledby="yard-state-label"
-            className="absolute left-0 right-0 top-full z-10 mt-1 max-h-[min(60vh,16rem)] overflow-y-auto rounded-md border border-[#2a1d10]/20 bg-[#fff6df] shadow-lg"
+            style={listMaxH != null ? { maxHeight: listMaxH } : undefined}
+            className="absolute left-0 right-0 top-full z-10 mt-1 max-h-[60vh] overflow-y-auto overscroll-contain rounded-md border border-[#2a1d10]/20 bg-[#fff6df] shadow-lg"
           >
             {OPTIONS.map((opt) => (
               <li key={opt.href}>
