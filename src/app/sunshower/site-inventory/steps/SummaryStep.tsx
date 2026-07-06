@@ -222,15 +222,21 @@ export default function SummaryStep({
 
       <div className={PANEL + ' mt-6 p-5'}>
         <p className="text-xs uppercase tracking-[0.14em] text-amber-900/85">
-          What this unlocks — coming next
+          What this unlocks
         </p>
         <p className="mt-2 text-sm text-[#2a1d10]/85">
-          This profile is exactly what the plant selector will read: your sun
+          This profile is exactly what the plant selector reads: your sun
           zones match against each native plant&rsquo;s sun needs, and your
           goal archetype picks the California plant-community palette —
           meadow, chaparral, oak woodland — that fits your yard&rsquo;s bones.
-          Plant selection is the next Sunshower phase; your profile will be
-          waiting.
+        </p>
+        <p className="mt-3">
+          <Link
+            href="/sunshower/plant-selector"
+            className="text-sm font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
+          >
+            Browse the plants that belong where you live →
+          </Link>
         </p>
       </div>
 

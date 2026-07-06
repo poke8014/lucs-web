@@ -4,6 +4,15 @@
 // for the pollinator app to consume at build time.
 //
 // Run: node ops/build-plant-data.mjs
+//
+// NOTE: the cleanup-plan removal annotations (removal_method, removal_notes,
+// removal_sources, removal_timing_window, requires_followup_years,
+// safety_flags) are NOT sourced from frontmatter — they are a post-build
+// overlay applied by vault/scripts/apply_removal_methods.py,
+// apply_layer_b_fields.py, and apply_layer_c_notes.py, keyed by slug. This
+// script re-emits those keys with null/empty defaults so a fresh regeneration
+// keeps the JSON schema stable; re-run the three appliers afterward to restore
+// the actual removal data. See ops/HANDOFF.md.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -29,6 +38,46 @@ function readPhotos(slug) {
   }));
 }
 
+// Parse a Calscape dimension string ("1 - 3", "0.2", "35 - 66", messy) into
+// { raw, min, max } numerics. Defensive by design: a prior rollout hit a
+// lone-`.` float-parse crash, and the corpus holds empty strings, decimals,
+// and even reversed ranges ("3 - 1.5"). We extract every number token and take
+// the min/max, so ordering and stray punctuation never throw.
+function parseRange(raw) {
+  if (raw == null) return { raw: null, min: null, max: null };
+  const s = String(raw).trim();
+  if (!s) return { raw: s, min: null, max: null };
+  const nums = (s.match(/\d+(?:\.\d+)?/g) ?? [])
+    .map(Number)
+    .filter((n) => Number.isFinite(n));
+  if (nums.length === 0) return { raw: s, min: null, max: null };
+  return { raw: s, min: Math.min(...nums), max: Math.max(...nums) };
+}
+
+// Emit the native: block only for pages that carry one. Native pages without
+// a native: block (e.g. poison-oak, a native hazard plant) get null so the
+// selector can filter them out cleanly.
+function buildNative(data) {
+  const n = data.native;
+  if (!n || typeof n !== "object") return null;
+  return {
+    communities: n.communities ?? [],
+    communities_simplified: n.communities_simplified ?? [],
+    companions: n.companions ?? [],
+    sun_range: n.sun_range ?? null,
+    water_range: n.water_range ?? null,
+    soil_drainage: n.soil_drainage ?? [],
+    ease_of_care: n.ease_of_care ?? null,
+    nursery_availability: n.nursery_availability ?? null,
+    is_cultivar: n.is_cultivar ?? false,
+    butterflies_moths_supported: n.butterflies_moths_supported ?? null,
+    attracts_wildlife: n.attracts_wildlife ?? [],
+    soil_ph: n.soil_ph ?? null,
+    rarity: n.rarity ?? null,
+    calscape_url: n.calscape_url ?? null,
+  };
+}
+
 function buildEntry(file) {
   const slug = path.basename(file, ".md");
   const raw = fs.readFileSync(path.join(PLANTS_DIR, file), "utf8");
@@ -41,10 +90,19 @@ function buildEntry(file) {
     aliases: data.aliases ?? [],
     nativity: data.nativity ?? null,
     plant_type: data.plant_type ?? null,
+    // Raw dimension strings kept alongside parsed {min,max} numerics.
     height_ft: data.height_ft ?? null,
     width_ft: data.width_ft ?? null,
+    height_ft_range: parseRange(data.height_ft),
+    width_ft_range: parseRange(data.width_ft),
     water: data.water ?? null,
     sun: data.sun ?? null,
+    soil: data.soil ?? [],
+    bloom_season: data.bloom_season ?? [],
+    pollinators: data.pollinators ?? [],
+    sociability: data.sociability ?? null,
+    host_plant_for: data.host_plant_for ?? [],
+    native: buildNative(data),
     cal_ipc_rating: inv.cal_ipc_rating ?? null,
     cdfa_rating: inv.cdfa_rating ?? null,
     impact_score: inv.impact_score ?? null,
@@ -54,6 +112,13 @@ function buildEntry(file) {
     habitat_types: inv.habitat_types ?? [],
     jepson_regions: inv.jepson_regions ?? [],
     photos: readPhotos(slug),
+    // Post-build overlay (see header note) — defaults here, appliers fill.
+    removal_method: null,
+    removal_notes: [],
+    removal_sources: [],
+    removal_timing_window: null,
+    requires_followup_years: null,
+    safety_flags: [],
   };
 }
 
@@ -66,6 +131,7 @@ fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, JSON.stringify(plants, null, 2) + "\n");
 
 const withPhotos = plants.filter((p) => p.photos.length > 0).length;
+const natives = plants.filter((p) => p.native).length;
 console.log(
-  `Wrote ${plants.length} plants → ${path.relative(ROOT, OUT)} (${withPhotos} with photos)`,
+  `Wrote ${plants.length} plants → ${path.relative(ROOT, OUT)} (${withPhotos} with photos, ${natives} with native block)`,
 );

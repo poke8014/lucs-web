@@ -387,9 +387,9 @@ function ConfirmRow({
           <div>
             <p className="font-mono text-sm">{row.rawInput}</p>
             <p className="mt-1 text-sm text-amber-900">
-              No match in our weed catalog (158 plants — Cal-IPC invasives +
-              UC IPM residential weeds). It may be a native, a non-native
-              that&rsquo;s not flagged, or outside our coverage so far.
+              No match in our plant catalog (Cal-IPC invasives, UC IPM
+              residential weeds, and South Bay natives). It may be a
+              non-native that&rsquo;s not flagged, or outside our coverage so far.
             </p>
           </div>
           <button
@@ -730,46 +730,37 @@ function PrepSection({
   )
 }
 
-// Section 3 — explicit Phase-2 handoff placeholder. Dashed/muted panel signals
-// "not yet actionable"; copy stays honest about Selection being in development.
+// Section 3 — Phase-2 handoff. Yard cleared? The selector is live.
 function ComingNextSection() {
   return (
     <section className="mt-10">
       <h3 className="mb-3 font-serif text-xl text-[#2a1d10]">
-        Coming next — choosing what to plant
+        Yard cleared? Choose what goes in its place.
       </h3>
-      <div className="rounded-lg border border-dashed border-[#2a1d10]/30 bg-[#fff6df]/55 p-5 text-sm text-[#2a1d10]/75 backdrop-blur-sm">
+      <div className="rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/70 p-5 text-sm text-[#2a1d10]/80 backdrop-blur-sm">
         <p>
-          Phase 1 (Cleanup) ends here. Phase 2 (Selection) is where you choose
-          California natives matched to your site and the pollinators you want to
-          support — it&rsquo;s in active development.
+          Phase 1 (Cleanup) hands off here. The plant selector is where you
+          pick California natives matched to your site — 150 species verified
+          growing wild within ~10 miles of San Jose, ranked by how well they
+          fit your yard&rsquo;s light, water, and soil.
         </p>
-        <p className="mt-3">What&rsquo;s landing in the next iterations:</p>
-        <ul className="mt-2 list-disc space-y-1 pl-5">
-          <li>
-            A native-plant selector over the 150 San Jose / Bay Area species
-            just added to our database
-          </li>
-          <li>Region-aware planting-window timing (when to plant, by zone)</li>
-          <li>Per-site soil-prep guidance beyond this generic pass</li>
-        </ul>
-        <p className="mt-4">
-          Yard clean (or getting there)? The site-inventory walkthrough is
-          live — map what your yard offers so Selection has something to match
-          against.
+        <p className="mt-3">
+          Every plant shows what it gives the local food web: which butterflies
+          and moths it hosts, which wildlife it shelters, which seasons it
+          covers for foragers. Build a saved palette your bed plan will place.
         </p>
-        <p className="mt-3 flex flex-wrap gap-x-5 gap-y-1">
+        <p className="mt-4 flex flex-wrap gap-x-5 gap-y-2">
+          <Link
+            href="/sunshower/plant-selector"
+            className="font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
+          >
+            Browse the plants that belong here →
+          </Link>
           <Link
             href="/sunshower/site-inventory"
             className="font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
           >
-            Map what your yard offers →
-          </Link>
-          <Link
-            href="/sunshower"
-            className="font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
-          >
-            ← Back to the Sunshower phase map
+            Map your yard first →
           </Link>
         </p>
       </div>

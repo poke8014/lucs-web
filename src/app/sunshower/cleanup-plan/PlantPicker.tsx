@@ -180,9 +180,9 @@ export default function PlantPicker({ selectedPicks, onChange }: Props) {
         <div className="absolute z-10 mt-1 w-full overflow-hidden rounded-md border border-[#2a1d10]/20 bg-[#fff6df]/95 shadow-lg backdrop-blur-sm">
           {results.length === 0 ? (
             <p className="p-4 text-sm text-[#2a1d10]/60">
-              No match in our weed catalog (158 plants — Cal-IPC invasives +
-              UC IPM residential weeds). It may be a native, a non-native
-              that&rsquo;s not flagged, or outside our coverage so far.
+              No match in our plant catalog (Cal-IPC invasives, UC IPM
+              residential weeds, and South Bay natives). It may be a
+              non-native that&rsquo;s not flagged, or outside our coverage so far.
             </p>
           ) : (
             <ul
