@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_bluff_scrub, coastal_scrub, coastal_prairie, riparian_forest, riparian_woodland, north_coast_coniferous_forest]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Southwest]
   evaluated_on: 2004-12-29
+
+removal:
+  method: "pull_vine_dig_crown"
+  timing_window: "Any cool month (winter–spring)"
+  followup_years: 5
+  safety_flags:
+  - "fragment_spreader"
+  - "do_not_mow"
+  notes:
+  - "A stem fragment as small as 1 inch with a node regenerates — every piece must come off-site or onto an impermeable surface to dry."
+  - "Use the \"rug rolling\" technique on large patches: cut all stems at ground level and roll the canopy up like a rug. Belowground tissue still needs follow-up."
+  - "Don't mow — fragments scatter and regenerate."
+  - "Foliar option: 1–2% glyphosate v/v, or 1% glyphosate + 0.5% triclopyr + silicone surfactant for better control. Late summer / early fall is the best window."
+  - "Don't let plant material soak in waterways — releases pyrrolizidine alkaloids that kill fish."
+  sources:
+  - "wric/Delairea"
 ---
 
 # Delairea odorata (Cape-ivy)

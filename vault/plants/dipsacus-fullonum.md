@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_prairie, valley_foothill_grassland, great_basin_grassland, meadow_seep, bog_fen, marsh_swamp]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Sonoran Desert]
   evaluated_on: 2004-07-23
+
+removal:
+  method: "dig_taproot"
+  timing_window: "Spring rosette → before bolt"
+  followup_years: 5
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Dig or hand-pull rosettes before bolting — sever the root below the soil surface; leaves left attached let the crown regrow."
+  - "Plan a 4–6 year horizon — annual control until the seedbank meaningfully depletes."
+  - "Mowing alone often fails — the root crown resprouts and reflowers. Frequent repeated mows can work if regrowth never sets seed."
+  - "Foliar aminopyralid (Milestone) or clopyralid (Transline) on rosettes gives >90% control in trials; glyphosate at 1.5% v/v works where no residual is wanted."
+  - "Don't bring home dried teasel heads from cut-flower or craft sources unless they're confirmed sterile."
+  sources:
+  - "wric/Dipsacus_fullonum-laciniatus-sativus"
 ---
 
 # Dipsacus fullonum (wild teasel)

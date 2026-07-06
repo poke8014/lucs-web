@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_prairie, vernal_pool, marsh_swamp, riparian_forest, riparian_woodland, closed_cone_coniferous_forest]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Great Basin Province, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2003-05-05
+
+removal:
+  method: "cut_stump_herbicide"
+  timing_window: "Late summer (active translocation to roots)"
+  followup_years: 5
+  safety_flags:
+  - "irritant_sap"
+  notes:
+  - "Never cut tree-of-heaven without an herbicide plan — uncut roots throw up a thicket of suckers, often worse than the original tree."
+  - "Most effective treatment is stem injection (\"drill and fill\") with undiluted imazapyr — 1 ml per hack, one hack per 3 inches of stem diameter, mid-June to mid-September."
+  - "Cut-stump alternative: paint with Garlon 4 Ultra 20–25% in oil, or undiluted glyphosate concentrate, within minutes of cutting."
+  - "Suckers can appear up to 50 ft from the felled tree — track and re-treat new shoots for 1–2 years."
+  - "Don't move soil from infested sites — root fragments establish elsewhere."
+  sources:
+  - "wric/Ailanthus"
 ---
 
 # Ailanthus altissima (tree-of-heaven)

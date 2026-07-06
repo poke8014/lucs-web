@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_scrub, chaparral, coastal_prairie, riparian_forest, cismontane_woodland, north_coast_coniferous_forest, lower_montane_coniferous_forest]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Mojave Desert]
   evaluated_on: 2005-03-18
+
+removal:
+  method: "cut_stump_herbicide"
+  timing_window: "May–June (before pods ripen)"
+  followup_years: 60
+  safety_flags:
+  - "do_not_burn"
+  notes:
+  - "Pull seedlings and plants under ~3 ft with a weed wrench when soil is moist — no herbicide needed for those."
+  - "Cut established shrubs at ground level at the start of the dry season (late spring) and paint the stump within minutes with Garlon 4 Ultra 1:4 in water (~20%) or 25% glyphosate. Cutting without herbicide produces vigorous resprouts."
+  - "Foliar option for active growth (late summer / early fall): triclopyr ester 0.75–1.5% + surfactant, or 1.5–2% glyphosate of 41% concentrate."
+  - "Work before pods ripen (typically May) so you don't broadcast seed while cutting."
+  - "Don't burn — fire triggers seedbank germination. Plan annual seedling sweeps for at least a decade."
+  sources:
+  - "wric/Cytisus"
+  - "ucipm-residential/brooms"
 ---
 
 # Cytisus scoparius (Scotch broom)

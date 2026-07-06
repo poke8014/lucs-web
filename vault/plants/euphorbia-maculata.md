@@ -18,6 +18,23 @@ soil: []
 height_ft:
 width_ft: 3
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Spring–early summer (before 5-week flowering)"
+  followup_years: 2
+  safety_flags:
+  - "irritant_sap"
+  - "do_not_mow"
+  notes:
+  - "Wear gloves — milky white sap is a skin / eye irritant and is toxic to grazing animals."
+  - "Hand-pull young plants before 5-week germination-to-seed cycle completes. Plants often break at the stem; get the taproot when possible."
+  - "Don't bother mowing — plants grow flat below the blade."
+  - "2+ inches of organic mulch (3–4 in for coarse bark) is the most effective non-chemical control — spurge seeds need light."
+  - "Solarization is highly effective: clear plastic over moist soil, 4–6 weeks during July–August. Don't cultivate afterward — brings up deeper seeds."
+  - "Postemergent home-gardener options: 2,4-D/MCPP/dicamba combinations on small seedlings only (mature plants resist), triclopyr (Turflon), spot glyphosate in non-turf areas."
+  sources:
+  - "ucipm-residential/spotted-spurge-and-other-spurges"
 ---
 
 # Euphorbia maculata (spotted spurge)

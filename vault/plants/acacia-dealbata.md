@@ -31,6 +31,20 @@ invasive:
   habitat_types: [coastal_prairie, riparian_forest, riparian_woodland, cismontane_woodland, north_coast_coniferous_forest, closed_cone_coniferous_forest]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest]
   evaluated_on: 2007-01-04
+
+removal:
+  method: "cut_stump_herbicide"
+  timing_window: "Late spring–summer (cut in dry season)"
+  followup_years: 25
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Seedlings hand-pull; saplings extract with a weed wrench when soil is moist — any root fragment left behind suckers."
+  - "Cut established trees at ground level and paint the stump within minutes with Garlon 4 Ultra 20–25% in oil carrier, or 25% glyphosate in water. Cutting without herbicide produces a thicket of root suckers."
+  - "The spreading root system can send up shoots well after the parent is gone — watch the surrounding area for at least one growing season before replanting."
+  - "Don't burn alone — fire stimulates seedling recruitment."
+  sources:
+  - "wric/Acacia"
 ---
 
 # Acacia dealbata (silver wattle)

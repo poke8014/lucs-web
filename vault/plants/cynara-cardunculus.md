@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_scrub, chaparral, coastal_prairie, riparian_woodland]
   jepson_regions: [Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Sonoran Desert]
   evaluated_on: 2004-08-12
+
+removal:
+  method: "dig_taproot"
+  timing_window: "Spring rosette → May (before seed set)"
+  followup_years: 10
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Dig out a large portion of the deep taproot — anything left regrows. Mattock, post-hole digger, or shovel; the depth is the labor."
+  - "Cut flowering stems before maturity to interrupt seed input, even when you can't dig the whole root."
+  - "Foliar aminopyralid (Milestone) 5–7 oz/acre in winter to spring before bolting — most effective chemical option; clopyralid and triclopyr also work on rosettes."
+  - "One-pass disturbance is worse than none — bulldozing fragments roots and spreads the plant. Plan a controlled multi-pass approach."
+  - "Don't burn alone — kills the standing dead but not the perennial taproot."
+  sources:
+  - "wric/Cynara"
 ---
 
 # Cynara cardunculus (artichoke thistle)

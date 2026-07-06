@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_scrub, marsh_swamp, riparian_forest, cismontane_woodland, north_coast_coniferous_forest]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Mojave Desert]
   evaluated_on: 2004-08-17
+
+removal:
+  method: "sheet_mulch_smother"
+  timing_window: "Any cool month (cardboard down before summer)"
+  followup_years: 2
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Hand-pull every stem, node, and stolon — vinca is sterile in CA so the entire infestation is connected; repeated removal over multiple years finally clears it."
+  - "Don't mow — stem fragments root on damp soil and re-establish in days."
+  - "Bag cuttings; stems re-root in finished compost."
+  - "Foliar option: glyphosate 25% v/v low-volume or triclopyr (Garlon 4 Ultra) 25% v/v low-volume — spring applications give the best control with triclopyr."
+  - "Riparian sites: fragments wash downstream and lodge; check downstream areas for years after upstream clearing."
+  sources:
+  - "wric/Vinca"
 ---
 
 # Vinca major (periwinkle)

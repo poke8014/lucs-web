@@ -31,6 +31,21 @@ invasive:
   habitat_types: [great_basin_scrub, valley_foothill_grassland, north_coast_coniferous_forest, closed_cone_coniferous_forest]
   jepson_regions: [Cascade Range, Northwest, Sierra Nevada, Modoc Plateau]
   evaluated_on: 2003-08-01
+
+removal:
+  method: "dig_taproot"
+  timing_window: "Spring rosette → May (before seed pods)"
+  followup_years: 8
+  safety_flags: []
+  notes:
+  - "Hand-hoe through the crown rather than pulling — stems break off because of the 5+ ft taproot, leaving the crown to resprout."
+  - "If flowers or seedpods are present, uproot, bag, and remove from site — some seeds germinate even from green pods."
+  - "Mowing delays flowering but plants typically resprout; need 1–2 more cuts before they fail to set seed."
+  - "Postemergent (before flowering): 2,4-D at 1% spot solution on seedlings/rosettes, or 2-3 qt/acre. Chlorsulfuron (licensed-only) is more effective. 2,4-D + chlorsulfuron combination is highly effective."
+  - "California-specific: fall treatments work less well than in other states due to dry late-season weather limiting herbicide uptake."
+  - "8+ year seedbank — commit to 2–3 years of repeated removal in any infested area."
+  sources:
+  - "ucipm-residential/dyers-woad"
 ---
 
 # Isatis tinctoria (dyer's woad)

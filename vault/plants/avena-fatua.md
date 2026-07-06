@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_dunes, coastal_bluff_scrub, coastal_scrub, chaparral, coastal_prairie, valley_foothill_grassland, great_basin_grassland, cismontane_woodland, north_coast_coniferous_forest]
   jepson_regions: [Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-12-27
+
+removal:
+  method: "mow_before_seed"
+  timing_window: "March–April (boot stage)"
+  followup_years: 3
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Mow once at boot stage (late April / May in the Bay Area) — just after flower initiation, before seed maturity."
+  - "Hand-pull small infestations when soil is moist — plants come up easily."
+  - "On tilled ground, till once in spring to trigger germination, then till again to kill the seedlings."
+  - "Don't burn after seed has dropped — that clears competition and worsens next year's stand."
+  - "Cold-climate biotypes carry 10+ year seedbanks — plan multi-year sweeps even after a clean year."
+  sources:
+  - "wric/Avena_barbata-fatua"
 ---
 
 # Avena fatua (wild oats)

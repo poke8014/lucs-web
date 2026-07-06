@@ -31,6 +31,20 @@ invasive:
   habitat_types: [coastal_bluff_scrub, coastal_scrub, great_basin_scrub, chaparral, coastal_prairie, valley_foothill_grassland, vernal_pool, meadow_seep, cismontane_woodland, lower_montane_coniferous_forest]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Great Basin Province, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2005-02-08
+
+removal:
+  method: "mow_before_seed"
+  timing_window: "April (boot stage, before awns turn tan)"
+  followup_years: 3
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Hand-pull or hoe small patches before awns harden — once seedheads dry, work becomes painful and pets pick up \"foxtails.\""
+  - "Mow at ripe-seed stage before seeds disperse — a well-timed burn at the same stage is unusually effective for this species (a single burn knocks cover from 90% to <5% for ~3 years)."
+  - "For pet-friendly yards, clip seedheads before they dry — sharp awns lodge in paws, ears, and noses."
+  - "Tillage works on emerged plants but stimulates more germination — pair with herbicide follow-up."
+  sources:
+  - "wric/Hordeum_marinum-murinum"
 ---
 
 # Hordeum murinum (hare barley)

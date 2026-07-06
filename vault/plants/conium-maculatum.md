@@ -31,6 +31,23 @@ invasive:
   habitat_types: [chaparral, coastal_prairie, vernal_pool, marsh_swamp, riparian_forest, riparian_woodland]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2003-05-22
+
+removal:
+  method: "dig_taproot"
+  timing_window: "February–April (rosette → bolt, before seed)"
+  followup_years: 6
+  safety_flags:
+  - "toxic_handling"
+  - "do_not_burn"
+  notes:
+  - "Toxicity is the first concern: gloves, long sleeves, no eating or touching your face during work. Wash hands and tools after every session."
+  - "Hand-dig the entire taproot; pull first-year rosettes in winter / early spring while soil is moist."
+  - "Don't burn — alkaloid toxins go into the smoke. Don't graze; even dried plant material stays toxic for years."
+  - "Cutting alone is ineffective — plants throw up new seed stalks in the same season."
+  - "Expect a ~3 year seedbank — repeated mowing after bolting but before flowering depletes taproot reserves when digging isn't feasible."
+  sources:
+  - "wric/Conium"
+  - "ucipm-residential/poison-hemlock"
 ---
 
 # Conium maculatum (poison-hemlock)

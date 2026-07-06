@@ -18,6 +18,22 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Late fall–early spring (before 5–6 week flower)"
+  followup_years: 8
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Control before flowering — the 5–6 week germination-to-seed cycle gives a narrow window. Monitor from late fall onward."
+  - "Hand-pull, hoe, or cultivate while soil is dry and plants are small. If soil is moist and plants are large, remove plant debris from the site — stems re-root from nodes in damp ground."
+  - "Solarization (clear plastic over moist soil, late summer) kills the seedbank. Don't disturb the soil afterward — brings up deeper seeds."
+  - "2+ in organic mulch (or fabric + cover) suppresses germination."
+  - "Preemergent (late fall / early winter, before germination): benefin, dithiopyr, oryzalin, pendimethalin, prodiamine, trifluralin."
+  - "7–8 year seedbank depletes 95% with consistent prevention of seed set. Each clean year compounds."
+  sources:
+  - "ucipm-residential/chickweeds"
 ---
 
 # Stellaria media (common chickweed)

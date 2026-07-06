@@ -31,6 +31,22 @@ invasive:
   habitat_types: [riparian_forest, riparian_woodland, north_coast_coniferous_forest]
   jepson_regions: [Central West]
   evaluated_on: 2016-12-23
+
+removal:
+  method: "pull_vine_dig_crown"
+  timing_window: "Any cool month (before late-summer seed)"
+  followup_years: 5
+  safety_flags:
+  - "irritant_sap"
+  - "fragment_spreader"
+  notes:
+  - "Sever climbing vines at ground level and again at chest height — leave the aerial parts to die back in place; ripping live vines off bark damages the tree."
+  - "Dig out every root and stem fragment — debris left on damp soil re-roots from any node."
+  - "Don't mow — fragments scatter and regenerate."
+  - "Foliar glyphosate (cut-stem or foliar) is the standard residential option; triclopyr 0.5–1% is the broadleaf-selective alternative where desirable grasses are underneath."
+  - "Wind-dispersed seed means even a clean property re-infests from neighbors — plan ongoing seedling sweeps."
+  sources:
+  - "wric/Clematis"
 ---
 
 # Clematis vitalba (old man's beard)

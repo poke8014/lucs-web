@@ -18,6 +18,23 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "dig_rhizome_complete"
+  timing_window: "Any time (moist soil) for mechanical; March for preemergent"
+  followup_years: 5
+  safety_flags:
+  - "fragment_spreader"
+  - "do_not_mow"
+  notes:
+  - "Catch new patches small — once established, kikuyu is one of the hardest weeds in California to dislodge."
+  - "Don't cultivate/hoe casually — chopping rhizomes scatters fragments that re-root, especially if irrigation follows. The hoeing-then-watering sequence is essentially propagation."
+  - "Strong landscape fabric with full edge overlap can work; organic mulch alone is too permeable — kikuyu pushes rhizomes through."
+  - "Solarization (clear plastic, moist soil, 4–6 weeks in mid-July to mid-September) works inland; unlikely to work coastally because seasonal fog limits heat."
+  - "In ornamental beds: hand-pull + spot glyphosate. Sethoxydim and fluazifop are grass-selective home-gardener options that won't harm broadleaf ornamentals."
+  - "If ≥40% of the lawn is kikuyu, UC IPM advises maintaining it as the turf species rather than fighting it — that's how hard it is to dislodge."
+  sources:
+  - "ucipm-residential/kikuyugrass"
 ---
 
 # Pennisetum clandestinum (kikuyugrass)

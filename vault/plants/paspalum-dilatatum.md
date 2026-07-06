@@ -18,6 +18,23 @@ soil: []
 height_ft: 5
 width_ft:
 regions: []
+
+removal:
+  method: "dig_rhizome_complete"
+  timing_window: "Spring–summer (before rhizome spread)"
+  followup_years: 5
+  safety_flags:
+  - "fragment_spreader"
+  - "do_not_mow"
+  notes:
+  - "Dig out young plants before they form rhizomes or seed. Mature clumps also dig, but rhizome fragments left behind regrow — dig generously around the visible plant."
+  - "Don't bother mowing — flowering stalks grow flat enough to escape mower blades."
+  - "Maintain competitive turf at optimum mowing height with consistent irrigation; dallisgrass invades low-maintenance lawns with infrequent deep watering."
+  - "Selective postemergent options are licensed-applicator-only (foramsulfuron, thiencarbazone, sulfosulfuron) and require 3 applications across 2–3 years."
+  - "Cool-season turf: essentially no selective option. Fluazifop (Fusilade II) on fine/tall fescue only."
+  - "Spot glyphosate is the practical homeowner option — kills surrounding turf, leaves bare spots needing overseeding. For severe infestations, full renovation is more efficient than spot-treating dozens of clumps."
+  sources:
+  - "ucipm-residential/dallisgrass"
 ---
 
 # Paspalum dilatatum (dallisgrass)

@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_bluff_scrub, coastal_scrub, chaparral, coastal_prairie, valley_foothill_grassland, riparian_woodland]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2005-06-06
+
+removal:
+  method: "dig_taproot"
+  timing_window: "February–March (soil still moist)"
+  followup_years: 5
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Cut flowering stalks first and bag them — once down, the digging is faster and seed set is interrupted."
+  - "Dig the entire taproot and crown: the root snaps cleanly an inch or two below the crown when pulled, so go 6–12 inches deep. Any crown tissue left resprouts."
+  - "Triclopyr is the standard herbicide for fennel: spot foliar 0.5–1% Garlon 4 Ultra + surfactant on fully developed leaves *before* flowering — late February to early March in CA."
+  - "Don't burn alone — plants recover quickly; a fall burn followed by 2 years of spring herbicide is what works."
+  - "Don't graze — most livestock won't eat fennel and the few that do help spread seed."
+  sources:
+  - "wric/Foeniculum"
 ---
 
 # Foeniculum vulgare (fennel)

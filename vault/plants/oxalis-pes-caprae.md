@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_dunes, coastal_bluff_scrub, broadleaved_upland_forest]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2003-05-22
+
+removal:
+  method: "dig_bulb_complete"
+  timing_window: "Autumn dig (fresh bulbs visible) + Jan–March foliage pulls"
+  followup_years: 5
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Bermuda buttercup forms a chain of small bulbs underground — every bulblet left behind regrows. Dig in autumn when fresh bulbs are easy to spot and the rosette is just emerging."
+  - "Sift soil through hardware cloth in heavily infested beds — pulling foliage alone takes years to deplete bulb reserves."
+  - "Pulling foliage during bloom (Jan–Mar) weakens bulbs before the autumn dig."
+  - "Solarize cleared beds under clear plastic over moist soil for 4+ weeks in June–August before replanting."
+  - "Don't compost garden trimmings with Oxalis — bulbs survive home compost piles."
+  sources:
+  - "wric/Oxalis"
+  - "ucipm-residential/creeping-woodsorrel-and-bermuda-buttercup"
 ---
 
 # Oxalis pes-caprae (Bermuda buttercup)

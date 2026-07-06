@@ -18,6 +18,22 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "prune_host_below_attachment"
+  timing_window: "Spring–summer seedling stage (5–10 day pre-attachment window)"
+  followup_years: 20
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Native dodder: catch yellow-orange seedlings within the 5–10 day window before haustoria embed in a host. Hand-pull or shallow-cultivate while plants are still rootless."
+  - "Once attached, prune the host plant 1/8–1/4 inch below the dodder attachment point — pulling only the dodder leaves embedded haustoria that regenerate new dodder."
+  - "Don't drop pulled dodder on healthy hosts — fragments form fresh attachments. Bag and dispose in trash, do not compost."
+  - "Japanese dodder (*C. japonica*, thicker spaghetti-like stems, attacks trees/shrubs) is under California eradication program — don't try to control it yourself; call your county Agricultural Commissioner."
+  - "Solarization fails on dodder seed (hard coat); composting is actually more effective because piles reach higher temperatures. Trifluralin preemergent works in chronic-infestation beds."
+  - "20+ year seedbank — long-term commitment in any infested site."
+  sources:
+  - "ucipm-residential/dodder"
 ---
 
 # Cuscuta pentagona (field dodder) and related dodders

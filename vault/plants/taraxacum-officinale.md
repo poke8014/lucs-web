@@ -18,6 +18,21 @@ soil: []
 height_ft: 2
 width_ft: 1
 regions: []
+
+removal:
+  method: "dig_taproot"
+  timing_window: "Year-round in mild CA (focus spring + fall)"
+  followup_years: 3
+  safety_flags: []
+  notes:
+  - "Grub out solitary plants with a dandelion knife before they seed — get all the taproot you can. Root sections as short as 1 in regenerate."
+  - "Repeated hand-pulling alone is usually futile — buds on remaining root segments regenerate."
+  - "Don't bother mowing — basal rosette sits below the mower blade."
+  - "3+ in wood chip / bark mulch or landscape fabric blocks light to germinating seeds."
+  - "Turf-safe postemergents: 2,4-D, dicamba, MCPA, mecoprop combinations (weed-and-feed). Triclopyr is also effective but don't use on Bermudagrass."
+  - "Spot-paint glyphosate on leaves in mulched beds; combine with isoxaben / indaziflam / dithiopyr preemergent to clean up the seedbank. Wind-dispersed seed travels miles — expect ongoing seedling sweeps every spring and fall."
+  sources:
+  - "ucipm-residential/dandelion"
 ---
 
 # Taraxacum officinale (dandelion)

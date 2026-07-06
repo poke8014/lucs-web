@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_dunes, coastal_bluff_scrub, coastal_scrub, sonoran_desert_scrub, chaparral, coastal_prairie, valley_foothill_grassland]
   jepson_regions: [Central West, Great Valley, Northwest, Southwest, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-08-03
+
+removal:
+  method: "dig_rhizome_complete"
+  timing_window: "Before seed dispersal (late spring)"
+  followup_years: 5
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Hand-pull seedlings; uproot bunchgrass clumps with shovel, pick, or mattock for plants with basal diameter >6 in."
+  - "Cut and bag the inflorescences first if present — every plant is a seed source (apomictic)."
+  - "Repeat removal at 1–2 month intervals through the growing season; seedlings keep emerging."
+  - "Don't mow — the plant regrows from the base. Don't burn — density often increases after a fire."
+  - "Foliar glyphosate 1–2% v/v at flowering, or grass-selective fluazifop / sethoxydim — glyphosate is less consistent for this species, so expect repeat applications."
+  sources:
+  - "wric/Pennisetum_setaceum"
 ---
 
 # Pennisetum setaceum (crimson fountain grass)

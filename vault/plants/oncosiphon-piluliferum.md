@@ -30,6 +30,22 @@ invasive:
   habitat_types: [coastal_dunes, desert_dunes, interior_dunes, coastal_bluff_scrub, coastal_scrub, sonoran_desert_scrub, chaparral, valley_foothill_grassland, vernal_pool, riparian_forest]
   jepson_regions: [CA Floristic Province, Great Valley, Southwest, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 5 Jan 2021
+
+removal:
+  method: "hand_pull"
+  timing_window: "February–April (before seed set, soil moist)"
+  followup_years: 5
+  safety_flags:
+  - "irritant_sap"
+  - "allergenic_pollen"
+  - "do_not_mow"
+  notes:
+  - "Hand-pull in winter or early spring before seed set; plants come up easily when soil is moist."
+  - "Wear gloves, long sleeves, and a dust mask — contact dermatitis and respiratory irritation are common; pollen is allergenic."
+  - "Bag pulled material — seeds disperse easily during disposal, and home compost won't kill them."
+  - "Don't mow — bloom is asynchronous and dust release in dry weather is severe."
+  - "Stop-spread priority in SoCal — eradicate small infestations now and plan 5 years of seedling sweeps; report new sightings to the county Ag Commissioner."
+  sources: []
 ---
 
 # Oncosiphon pilulifer (stinknet)

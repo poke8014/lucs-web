@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_bluff_scrub, coastal_scrub, chaparral, coastal_prairie, vernal_pool, riparian_forest, riparian_woodland]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Mojave Desert]
   evaluated_on: 2004-03-09
+
+removal:
+  method: "hand_pull"
+  timing_window: "February–March (before pods yellow)"
+  followup_years: 50
+  safety_flags:
+  - "allergenic_pollen"
+  notes:
+  - "Hand-pull or hoe before pods ripen — soil moist makes the work easy."
+  - "Keep tillage shallow — deep tillage buries seed where the 50-year seedbank survives much longer."
+  - "Foliar 2,4-D at 1–2 pt/acre on small actively-growing plants is cheap and effective; glyphosate gives only fair control on mustards."
+  - "Don't burn alone — the fire-mustard feedback increases next year's stand. Reseed with competitive cover after clearing."
+  - "Plan for decades, not seasons — black mustard's deeply buried seed is one of the longest-lived in the inventory."
+  sources:
+  - "wric/Brassica_nigra"
 ---
 
 # Brassica nigra (black mustard)

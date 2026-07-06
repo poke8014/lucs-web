@@ -18,6 +18,22 @@ soil: []
 height_ft: 2
 width_ft:
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Fall–early summer (continuous; before flowering)"
+  followup_years: 1
+  safety_flags:
+  - "toxic_handling"
+  notes:
+  - "Eliminate plants before they flower. Even pulled or cut plants can mature seeds from open flowers — bag flowering plants and remove from the site rather than leaving on the ground."
+  - "Hand-pull, hoe, or shallow-cultivate while plants are young. Monitor from early fall through early summer."
+  - "Coarse, medium-size, 3+ in mulch is highly effective. Avoid fine mulches (sawdust) — they absorb water and become a seedbed. Synthetic fabrics block soil seedbank but not wind-blown seeds landing on top."
+  - "Spot glyphosate or diquat on small plants in beds — shield the sprayer. Glyphosate is the only edible-crop-compatible option of the two."
+  - "Keep horses, cattle, and pigs away from infested areas — pyrrolizidine alkaloids cause chronic liver damage in repeated small doses."
+  - "One-year seedbank means two or three years of consistent removal substantially clears an infestation. Re-infestation from wind-blown neighborhood seeds is normal — plan ongoing seedling sweeps."
+  sources:
+  - "ucipm-residential/common-groundsel"
 ---
 
 # Senecio vulgaris (common groundsel)

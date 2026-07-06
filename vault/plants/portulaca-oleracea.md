@@ -18,6 +18,22 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Spring–summer (after each irrigation); July–August for solarization"
+  followup_years: 40
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Hand-pull seedlings when small — easiest after an irrigation when soil is moist."
+  - "Don't leave pulled or hoed plants on damp soil — stems re-root within days. Remove from site or dry on a hard surface before disposal. Bag plants with flowers already forming."
+  - "3+ in organic mulch (porous fabric for irrigated beds) starves seeds of light — purslane germinates only at the surface."
+  - "Solarization (clear plastic over moist soil, July–August) is one of the most effective non-chemical controls. Don't cultivate afterward — brings up deeper seeds."
+  - "In turf: dicamba, MCPP, 2,4-D, MSMA are effective home-gardener postemergents. In ornamental beds, mulch + spot glyphosate."
+  - "240,000 seeds per plant + 5–40 year viability — prevention is the primary tool. Clean equipment between infested and clean beds."
+  sources:
+  - "ucipm-residential/common-purslane"
 ---
 
 # Portulaca oleracea (common purslane)

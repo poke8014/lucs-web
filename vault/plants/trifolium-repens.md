@@ -18,6 +18,21 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Fall (cool-season germination)"
+  followup_years: 5
+  safety_flags: []
+  notes:
+  - "Annual clovers (black medic, burclover, sweetclovers): hand-pull, hoe, or cultivate before seed set. Easy at the seedling stage."
+  - "Perennial clovers (white, strawberry): dig out the connected rooted-stem clump. Glyphosate at high rates suppresses but rarely eradicates."
+  - "3–4 in organic mulch (or fabric + bark) blocks seedlings; thicker (4–6 in) layers smother existing plants."
+  - "Composting and solarization are less effective than for other weeds — the hard seed coat tolerates heat and survives composting. Plan multi-year control."
+  - "A green clover patch in a yellow lawn signals low nitrogen — fix the fertility balance first. Increase N (1 lb actual N per 1,000 sq ft per active-growth month); reduce phosphorus."
+  - "Cool-season turf postemergent: triclopyr (also mecoprop, dicamba). Warm-season turf: mecoprop and dicamba; don't use triclopyr (damages warm-season grasses). 2,4-D injures but doesn't control — skip it."
+  sources:
+  - "ucipm-residential/clovers"
 ---
 
 # Trifolium repens (white clover, and related weed clovers)

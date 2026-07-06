@@ -18,6 +18,21 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Fall–winter (germination peak, before seed)"
+  followup_years: 3
+  safety_flags: []
+  notes:
+  - "Pull or hoe solitary plants before they seed; open spots quickly re-flush from the seedbank so monitor and remove repeatedly."
+  - "2–3 in organic mulch (or fabric + bark) suppresses germination — seeds need light."
+  - "Maintain dense competitive turf with deep + infrequent irrigation. Annual bluegrass thrives in thin or overwatered lawns."
+  - "Preemergent (a few weeks before fall germination, when soil temps drop below 70°F): benefin, bensulide, dithiopyr, oryzalin, oxadiazon, pendimethalin, prodiamine — multiple home-gardener-available options."
+  - "Postemergent options are limited; most that work are licensed-applicator + warm-season-turf only (foramsulfuron, sulfosulfuron, trifloxysulfuron)."
+  - "In severe infestations, complete renovation (kill everything with glyphosate, replant in late spring/summer with competitive turf, fall preemergent) is often more effective than chasing the weed."
+  sources:
+  - "ucipm-residential/annual-bluegrass"
 ---
 
 # Poa annua (annual bluegrass)

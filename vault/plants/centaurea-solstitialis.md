@@ -31,6 +31,22 @@ invasive:
   habitat_types: [chaparral, coastal_prairie, valley_foothill_grassland]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2003-02-08
+
+removal:
+  method: "dig_taproot"
+  timing_window: "May–June (bolt, before mid-bloom)"
+  followup_years: 10
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Hand-pull / hoe / string-trim at early flowering — easy to spot, lower leaves senesced, and dispersal hasn't started. Detach all aboveground material; even a 2-inch piece with attached leaves can recover."
+  - "Mow only when 2–5% of seedheads are in bloom, cutting below the lowest branches — too early stimulates regrowth, too late scatters seed."
+  - "Aminopyralid (Milestone) 4–5 oz/acre is the most effective herbicide; clopyralid and 2,4-D on rosettes are cheaper alternatives."
+  - "Burn at very early flowering for 2–3 consecutive years to deplete the seedbank — burning at any other time enhances starthistle."
+  - "Keep horses off infested pastures — starthistle causes nigropallidal encephalomalacia (\"chewing disease\")."
+  sources:
+  - "wric/Centaurea_solstitialis"
+  - "ucipm-residential/yellow-starthistle"
 ---
 
 # Centaurea solstitialis (yellow starthistle)

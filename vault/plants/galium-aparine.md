@@ -18,6 +18,21 @@ soil: []
 height_ft: 6
 width_ft:
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "February–March (damp soil, before flowering)"
+  followup_years: 3
+  safety_flags: []
+  notes:
+  - "Hand-pull or hoe when soil is damp, in early spring before plants flower — comes up easily before stems sprawl."
+  - "Don't cut at 2–3 inches — UC IPM notes that cutting at that height actually increases biomass production up to 30% vs. uncut. Pull fully or leave alone."
+  - "Mulch (bark, wood chips, leaf litter, gravel) reduces seedling emergence; light inhibits germination on the surface."
+  - "Home-gardener postemergents: glyphosate (broad-spectrum), 2,4-D / dicamba / MCPA (partial), clove-oil burndown on young plants."
+  - "Brush pets after walks through bedstraw-infested areas — hook hairs on stems and fruit are the introduction vector to clean yards."
+  - "Short ~3-year seedbank — consistent prevention of seed set substantially clears infestations."
+  sources:
+  - "ucipm-residential/catchweed-bedstraw"
 ---
 
 # Galium aparine (catchweed bedstraw / cleavers)
