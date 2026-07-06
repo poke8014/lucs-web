@@ -13,6 +13,17 @@ export interface DimRange {
   max: number | null
 }
 
+// iNaturalist photo record (shape shared with cleanup-plan/types.ts `Photo`).
+// Present on every plants.json record but only populated for the invasive set
+// today — natives carry [] until an iNat scrape lands, so the UI must render a
+// graceful no-photo state (Unit B).
+export interface SelectorPhoto {
+  url: string
+  attribution: string
+  license: string
+  observation_url: string
+}
+
 export interface NativeBlock {
   communities: string[]
   communities_simplified: string[]
@@ -50,6 +61,10 @@ export interface SelectorPlant {
   host_plant_for: string[]
   native: NativeBlock | null
   cal_ipc_rating: string | null
+  // Unit B addition: iNat photos (only invasives populated today; natives []).
+  // Optional so existing Unit A test fixtures don't need the field; the corpus
+  // JSON always carries it (possibly empty). UI reads plant.photos?.[0].
+  photos?: SelectorPhoto[]
 }
 
 // ── Fit read (plant ↔ your site) ──────────────────────────────────────────
