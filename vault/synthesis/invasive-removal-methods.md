@@ -17,9 +17,11 @@ assignments for the annotated subset (60 plants as of 2026-05-15: the original
 expansion — see [[sources/ucipm-residential]] and [[feedback-sunshower-weed-scope]]).
 
 The vocabulary lives in code at [src/app/sunshower/cleanup-plan/types.ts](../../src/app/sunshower/cleanup-plan/types.ts)
-(`RemovalMethod` union) and the per-plant data lives in
-[src/data/plants.json](../../src/data/plants.json). The migration script that
-applied the data is at [vault/scripts/apply_removal_methods.py](../scripts/apply_removal_methods.py).
+(`RemovalMethod` union) and the per-plant data lives in each plant page's
+`removal:` frontmatter block (schema in [vault/CLAUDE.md](../CLAUDE.md)), emitted into
+[src/data/plants.json](../../src/data/plants.json) by `ops/build-plant-data.mjs`.
+(Until 2026-07-06 the data was applied to plants.json post-build by
+`vault/scripts/apply_removal_methods.py`, since retired.)
 
 ## Why a closed vocabulary
 
