@@ -31,6 +31,8 @@ The app is organized around the sequence a gardener actually moves through, not 
 
 Phases overlap in research and content — but the **content order and UX entry point** mirror this sequence.
 
+**Per-section, not whole-yard (direction set 2026-07-03):** the phase sequence applies to a *section* of the yard, not the yard as a whole. A user who can't tackle everything at once runs Cleanup → Selection → Planning → Care per section, and different sections can sit at different phases simultaneously. See [Direction set 2026-07-03](#direction-set-2026-07-03--density-sectioning-saved-plans) below.
+
 ## Tech stack (one-line summary)
 
 Next.js (App Router) + Tailwind + Vercel; Obsidian-managed markdown vault (`vault/`) feeds Supabase (Postgres) on build; three.js + react-three-fiber drives the `/sunshower` scene with a persistent canvas at the route layout. Detail in [tech-stack.md](tech-stack.md).
@@ -56,11 +58,27 @@ Sourced from four beginner-gardening articles ingested 2026-05-15 (Little Terrac
 - **Phase 4 (Care) is the biggest content gap.** Watering technique (rootball weekly, not leaves daily), feeding cadence, pruning, pest tolerance, mulch timing — all covered by ingested beginner sources but missing from the app. Homepage phase-routing will surface this fast: a user with an established yard has no destination today.
 - **Site-inventory walkthrough belongs in the app.** The wiki has the concept ([../../vault/concepts/site-inventory.md](../../vault/concepts/site-inventory.md)) but the app doesn't expose it. Lives between cleanup and selection, and is reusable from any phase route since selection and care both depend on it.
 
+## Direction set 2026-07-03 — density, sectioning, saved plans
+
+Set by Luc 2026-07-03, independently corroborated the same day by the r/NativePlantGardening planning-thread ingest ([vault/synthesis/garden-planning-flow-signals.md](../../vault/synthesis/garden-planning-flow-signals.md)) — experienced gardeners' shared workflow puts sectioning and phased work *ahead of* plant selection. This is committed direction, not an expansion vector.
+
+- **Planting-density preference — landscaped vs. naturalistic.** The user chooses the look they want: plants spread out with breathing room (ornamental-landscaping spacing math — mature radius + clearance) or closely packed like a natural community (drifts of 3–5 of a species, chaparral-style overlap). This resolves the tension already flagged in [vault/concepts/plant-spacing.md](../../vault/concepts/plant-spacing.md) between ornamental spacing norms and habitat-density planting. Data is in hand for both modes: `height_ft`/`width_ft` drive the landscaped math; `native.communities` + drift heuristics ([vault/concepts/planting-design-heuristics.md](../../vault/concepts/planting-design-heuristics.md)) drive the naturalistic mode. Surface the ecological lean honestly: dense planting shades out bare soil, and bare disturbed soil is what re-invites the weeds Phase 1 removed.
+- **Section-by-section rollout.** Not everyone can tackle the whole yard at once. The master plan (bubble drawing / layout) shows the finished look; **sections are the execution units**, each moving through cleanup → prep → plant on its own timeline while cardboard suppression holds the rest ([vault/concepts/planting-technique.md](../../vault/concepts/planting-technique.md)). Community evidence is strong ([vault/concepts/phased-planting.md](../../vault/concepts/phased-planting.md)): "only clear as much yard as you have plants for," bounded work areas resist scope creep, and narrowed scope builds momentum — the finished 50 sq ft patch beats the abandoned 400 sq ft plan.
+- **Density × sectioning is the manageability lever.** Density choice sets plant count; plant count sets budget and labor. The per-section estimate — section area ÷ spacing at the chosen density → plant count → approximate cost and effort — is the output that makes a plan feel doable, and it's what makes the naturalistic (more plants) option affordable: one densely planted section per season instead of the whole yard at once.
+- **Saved garden plans + jump-between-steps.** Once a user has an idea, they can jump between steps freely (the Persepolis chapter-overlay affordance, already a principle above) and **save their plan to their account** — returning over weeks and seasons to add sections, adjust selections, and log outcomes. The community treats "plans always change and gardens are never finished" as its top consensus, so persistence is versioned-and-cheap-to-revise (per-section state, not one monolithic document), with a lightweight outcome log (thrived / struggled / died / moved) feeding next season's recommendations. Data model implications in [tech-stack.md](tech-stack.md); sequenced behind Supabase setup in the [backlog](../sunshower_backlog.md).
+
+Follow-on direction, set later the same day (Luc, 2026-07-03):
+
+- **Positioning: Sunshower shines in the overlap of garden design and native-plant knowledge.** The community's own diagnosis is that native-plant learners and garden-design learners barely overlap, and weakly designed native gardens damage the movement's reputation ([vault/synthesis/garden-planning-flow-signals.md](../../vault/synthesis/garden-planning-flow-signals.md), signal 6). Every milestone carries just enough design guidance that the output reads as intentional — the pitch is "beautiful *and* alive."
+- **The community planning sequence is the roadmap's milestone spine.** Base map → site inventory → paths/zones → sections + phase order → per-section selection → bloom check → quantities → plant-and-revise, as milestones M0–M7 with the other thread signals attached as features of the step they serve. Table in the [backlog → Roadmap — planning-flow milestones](../sunshower_backlog.md).
+- **Next functional build: the site-inventory editor (M2).** The core design problem is that inventory is *time-distributed* — sun shifts across the day, shade shifts across seasons. Resolution: a living layer with per-datum confidence (computed sun first-pass from lat/lng + user-marked obstructions, calibrated by opt-in photo check-ins and seasonal re-checks), never a form that must be completed. Full sketch in the backlog item.
+- **Plant-first entry is a first-class on-ramp.** The canonical order puts plant selection at step 5, but motivation often starts with a specific plant you've fallen for. A user can start there: the selector runs in reverse, evaluating fit against whatever yard-space and inventory data exists and returning confidence-banded verdicts that sharpen as the inventory fills in — guidance, never a gate.
+
 ## Open questions
 
 - Primary plant-info backbone: Calscape, Calflora, iNaturalist, USDA PLANTS, or a combination?
-- Regional filtering granularity: city, ZIP, or ecoregion?
-- Should the layout planner integrate with satellite/map view of the user's yard?
+- ~~Regional filtering granularity: city, ZIP, or ecoregion?~~ **Resolved (Luc, 2026-07-05): ecoregion** — matches the `native.communities` / RPRP basis the selector and planner build on (v1 fixed to South Bay).
+- ~~Should the layout planner integrate with satellite/map view of the user's yard?~~ **Resolved (Luc, 2026-07-05): yes, optionally and privacy-guarded** — address-based rough-layout import as the low-effort base-map on-ramp; address used once in-session, never saved; address-free upload/draw paths stay first-class. See [../sunshower_bed_planner_spec.md](../sunshower_bed_planner_spec.md).
 - When two authoritative sources disagree on whether a plant is native to a region, how does the app present the conflict?
 - Boundary cases — a Bay Area user straddling oak woodland and coastal sage scrub: how is that surfaced?
 - Cultivar vs species page handling — when natives come in, cultivars often have reduced pollinator value.
@@ -78,4 +96,4 @@ Sourced from four beginner-gardening articles ingested 2026-05-15 (Little Terrac
 
 ---
 
-*Last updated: 2026-07-02*
+*Last updated: 2026-07-03*

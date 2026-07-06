@@ -10,6 +10,7 @@ sources:
   - "raw/articles/A beginner's guide to designing a garden.md"
   - "raw/articles/How to Determine Sun Exposure In Your Yard.md"
   - raw/pdfs/books/planting-in-a-post-wild-world.txt
+  - raw/reddit/native_garden_plan.md
 last_updated: 2026-07-03
 ---
 
@@ -46,6 +47,8 @@ The framework below (from the Pretty Purple Door sources) is a **quantitative** 
 - **Sun map** — which areas of the yard get how much direct sun, and at what time of day. See [[concepts/sun-requirements]] for the threshold definitions and what "full / part / shade" mean on the plant side.
 - **North arrow** — establishes the property's *aspect* (which direction it faces). South-facing slopes warm earlier; north-facing stay cooler/moister. Easiest way to determine aspect: open your phone's compass app, stand at the back of the yard facing out, and read the bearing.
 
+**How long to observe:** lefence spent the first year at her house mapping sun in different locations at different times of year, noting "I could have probably gotten away with doing this once in the middle of the season" (see [[sources/reddit-native-garden-plan]]). A single mid-season observation may be enough for most beds; Icy-Progress8829 found that "a couple of summers" was needed to get shading correct through spring and summer, because deciduous trees cast very different shadows in spring (bare) vs. midsummer (leafed out). The practical floor: one full sunny day mid-season; revisit for anything planted under or near deciduous canopy.
+
 #### Producing the sun map: the hourly-photo method
 
 A practical, low-friction technique to actually generate the sun map on a sunny day:
@@ -64,8 +67,19 @@ The result is a sun map drawn from observed reality rather than guessed from car
 - Overhead electrical lines — don't plant tall trees beneath them.
 - Underground electrical, water, sewer — call **811** in the US to have utilities marked before digging.
 
+lefence explicitly maps utilities before designing: "I got my utilities mapped out so I knew where to avoid" (see [[sources/reddit-native-garden-plan]]). This is a hard prerequisite before placing any large shrub or tree, not an optional detail.
+
 ### Topography
 - Grade and slope changes — where water pools, where it drains, where you'd need [[concepts/terracing|terracing]] (page not yet created).
+
+### Water flow and drainage
+Map where water flows and where it collects. Utretch notes accounting for water as one of the three key site factors (alongside light and accessibility): "there's a downspout and poorly draining soil in another [corner]" (see [[sources/reddit-native-garden-plan]]). A second commenter explicitly adds: "knowing how water flows through the space — are there any soggy areas, etc." Soggy areas are candidates for moisture-tolerant native species (*Mimulus*, *Carex*, *Juncus* in California) rather than the drought-adapted natives that dominate the Calscape plant list. Poorly-draining areas may need amendment or raised planting before any plant goes in.
+
+### Soil
+Soil type is often obvious (heavy clay is hard to miss), but testing gives you pH and nutrient baseline. lefence: "You can get your soil tested by agricultural extensions for $10–20. Though in my case it was pretty obvious because I have alkaline heavy clay" (see [[sources/reddit-native-garden-plan]]). The UC Cooperative Extension offers soil testing services; for native CA plants the main parameters of interest are pH (most CA natives tolerate or prefer slightly acidic to neutral) and drainage rate. See [[concepts/soil-basics]] for the plant-side matching.
+
+### Base map from satellite / GIS
+County GIS sites provide both satellite imagery and parcel dimensions — a free starting point for an accurate base map. toxicodendron_gyp used "my county's GIS site for dimensions and a satellite image as my base layer in Adobe" (see [[sources/reddit-native-garden-plan]]). switan recommends the same: "GIS map or screenshot of one and some kind of graphical tool that both allows drawing and measuring." This is more accurate than measuring by hand for large lots, and the satellite view can also reveal drainage patterns, overhead lines, and overhanging tree canopy not visible from ground level.
 
 ### Sightlines and privacy
 - Views to **highlight** (a neighbor's mature oak from your kitchen window).
@@ -92,3 +106,4 @@ The inventory is a drawing, not a list. Make a measured base plan first, then la
 - [[sources/littleterracedhouse-designing-a-garden]] — Little Terraced House (2021). Compass-app technique for aspect; sun-tracking over the course of a day; wind exposure for sheltered vs. exposed gardens.
 - [[sources/summerwinds-sun-exposure]] — SummerWinds Nursery. The hourly-photo technique for producing a sun map; the 5-tier sun-zone vocabulary.
 - [[sources/planting-in-a-post-wild-world]] — Rainer & West (2015), Ch. 3. The qualitative "exploration before analysis" front-end, sketching as seeing, and reading a site down to its [[concepts/landscape-archetypes|goal archetype]].
+- [[sources/reddit-native-garden-plan]] — r/NativePlantGardening community thread (Jan 2024). Corroborates: multi-season sun mapping duration, utility mapping, water-flow and drainage mapping, soil testing costs, county GIS as base-map source.

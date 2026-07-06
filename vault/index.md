@@ -376,10 +376,13 @@ By growth form (tree 12, shrub 20, vine 3, perennial 46, annual 50, grass 19):
 - [[concepts/management-not-maintenance]] — Manage the community, not individuals; the three establishment phases; site-prep overlap with the cleanup-plan. *1 source.*
 
 ### Site & layout
-- [[concepts/site-inventory]] — Systematic mapping of yard conditions (sun, wind, slope, utilities, sightlines, privacy) before any layout decision. Hourly-photo sun-mapping method added 2026-05-15; qualitative "exploration before analysis" + archetype-reading front-end added 2026-07-03. *5 sources.*
+- [[concepts/site-inventory]] — Systematic mapping of yard conditions (sun, wind, slope, utilities, sightlines, privacy) before any layout decision. Hourly-photo sun-mapping method added 2026-05-15; qualitative "exploration before analysis" + archetype-reading front-end, season-long sun observation, water-flow mapping, extension soil tests, GIS base maps all added 2026-07-03. *6 sources.*
 - [[concepts/garden-zoning]] — Dividing the yard into named functional "rooms" (cooking, sitting, growing, utility, wildlife) after site inventory and before planting. Includes the "work logically, plant last" sequencing. *1 source.*
 - [[concepts/bubble-drawing]] — Low-fidelity iterative layout sketch; cheap iteration over a single committed plan. *1 source.*
 - [[concepts/softscape-hardscape-ratio]] — Rule-of-thumb 1/3 planted to 2/3 open; flagged as possibly higher for pollinator gardens. *1 source.*
+- [[concepts/paths-first-design]] — Paths and hardscape decided before beds or plants; desire lines, window sightlines, keyhole reach, the 6-step sequence. Decomposes the blank canvas. *1 source.*
+- [[concepts/phased-planting]] — Bounded, incremental installation: only clear what you can plant, resist mission creep, a couple of plants a year is a valid pace, plans are never finished. *1 source.*
+- [[concepts/planting-design-heuristics]] — Community layout rules of thumb: height layering, odd-number groups of 3–5, repetition, grasses/sedges always, matrix planting, ephemerals in gaps, structure plants first. *1 source.*
 
 ### Plant selection
 - [[concepts/usda-hardiness-zones]] — USDA winter-cold zone system; how to read a zone tag and what it doesn't tell you. *1 source.*
@@ -387,6 +390,7 @@ By growth form (tree 12, shrub 20, vine 3, perennial 46, annual 50, grass 19):
 - [[concepts/sun-requirements]] — Plant-side sun needs (full ≥6h, part 3-6h, shade ≤3h); 5-tier nursery-vocabulary refinement added 2026-05-15. *3 sources.*
 - [[concepts/soil-basics]] — Soil texture, pH (ericaceous/calciole, indicator plants, mismatch symptoms, don't-change-at-scale), squeeze test, "amend less, choose better". *3 sources.*
 - [[concepts/plant-spacing]] — Radius math, foundation offsets, planting for mature size; plus the community view (spacing is per-layer, sociability-weighted; density is vertical, not tight single-layer packing). *2 sources.*
+- [[concepts/bloom-succession]] — Something blooming every season as an explicit design goal; spreadsheet "season of show" column, month-by-month storyboard check, pre-engineered kits. Pollinator forage-gap reading is the project's extension. *1 source.*
 
 ### Plant care
 - [[concepts/watering]] — 1"/week rule + rootball-not-leaves technique + weekly-soak-beats-daily-sprinkle; flagged as inappropriate for established CA natives. *2 sources.*
@@ -424,6 +428,9 @@ By growth form (tree 12, shrub 20, vine 3, perennial 46, annual 50, grass 19):
 ### Books
 - [[sources/planting-in-a-post-wild-world]] — Thomas Rainer & Claudia West, *Planting in a Post-Wild World* (Timber Press, 2015). The design-theory backbone for designed plant communities: five principles, four-layer system, sociability, plant strategies, archetypes, orderly frames, management. Origin-agnostic (a flagged partial contradiction with the native-first thesis). *8 new wiki pages + 3 updated.*
 
+### Community threads
+- [[sources/reddit-native-garden-plan]] — r/NativePlantGardening (2024–25). ~22 gardeners' real planning workflows, upvote-weighted: graph paper and spreadsheets dominate, no app praised; paths-first, phased work, bloom-succession checks, kit demand. *5 new wiki pages + 1 updated.*
+
 ### Datasets
 - [[sources/calipc]] — California Invasive Plant Council Inventory. 137 top-tier plants ingested (44 High + 93 Moderate). Profile + PAF documents at `raw/articles/calipc/`. Deferred: Limited tier, Watch tier (PRE), photos.
 - [[sources/wric]] — UC Davis Weed Research and Information Center *Weed Reports*. 274 PDFs covering A–Z (no K/Q/Y) natural-area weeds, scraped via firecrawl to `raw/articles/wric/`. Canonical management-method source; book reference DiTomaso et al. 2013.
@@ -433,4 +440,5 @@ By growth form (tree 12, shrub 20, vine 3, perennial 46, annual 50, grass 19):
 ## Synthesis
 - [[synthesis/post-wild-world-and-sunshower]] — Maps Rainer & West's design theory onto Sunshower's roadmap: density styles = sociability + framing levers; per-section rollout = one community per section; layer/strategy tags as plan-checker inputs; the three establishment phases as the saved-plan outcome-log spine. *1 source.*
 - [[synthesis/calipc-top-tier-overview]] — Cross-cutting patterns across the 137 Cal-IPC top-tier invasives. Rating distribution, spread mechanism frequency, habitat distribution, the foothills-priority subset (~86 plants for Luc's South Bay yard).
+- [[synthesis/garden-planning-flow-signals]] — What real gardeners' planning workflows imply for Sunshower: the spreadsheet-as-selector validation, an 8-step planning-flow spec (plants chosen at step 5, not step 1), bloom-calendar and garden-recipe features, plan-checker over auto-generator, the design-education gap as differentiator. *1 source.*
 - [[synthesis/invasive-removal-methods]] — Closed vocabulary of `removal_method` keys consumed by the cleanup-plan app. Vocabulary + per-plant assignments for the initial 38, plus a UC IPM-grounded "Method playbook" (per-method when/how/limits with concrete herbicide dilutions and timing windows) and per-species deltas for the 10 plants with direct UC IPM coverage.
