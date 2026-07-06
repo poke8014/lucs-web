@@ -2,7 +2,7 @@
 
 import { useRouter } from 'next/navigation'
 import { useEffect, useRef, useState } from 'react'
-import { routeForYardState, type YardState } from './yardState'
+import { routeForYardState } from './yardState'
 
 const PHRASES = [
   'overgrown with weeds…',
@@ -12,16 +12,17 @@ const PHRASES = [
 ]
 
 type Option = {
-  state: YardState
   label: string
   next: string
+  href: string
 }
 
 const OPTIONS: Option[] = [
-  { state: 'overgrown', label: 'Overgrown with weeds', next: 'Build a removal plan' },
-  { state: 'bare', label: 'Mostly bare dirt', next: 'Site inventory' },
-  { state: 'partial', label: 'Partially planted, needs help', next: 'Selective cleanup' },
-  { state: 'established', label: 'Established, just want to care for it', next: 'Ongoing care' },
+  { label: 'Overgrown with weeds', next: 'Build a removal plan', href: routeForYardState('overgrown') },
+  { label: 'Mostly bare dirt', next: 'Site inventory', href: routeForYardState('bare') },
+  { label: 'Partially planted, needs help', next: 'Selective cleanup', href: routeForYardState('partial') },
+  { label: 'Established, just want to care for it', next: 'Ongoing care', href: routeForYardState('established') },
+  { label: 'Ready to pick plants', next: 'Plant selector', href: '/sunshower/plant-selector' },
 ]
 
 const PHASE_IN_MS = 2150
@@ -66,9 +67,9 @@ export default function YardStateRouter() {
     }
   }, [open])
 
-  function choose(state: YardState) {
+  function choose(href: string) {
     setOpen(false)
-    router.push(routeForYardState(state))
+    router.push(href)
   }
 
   return (
@@ -117,12 +118,12 @@ export default function YardStateRouter() {
             className="absolute left-0 right-0 top-full z-10 mt-1 max-h-[min(60vh,16rem)] overflow-y-auto rounded-md border border-[#2a1d10]/20 bg-[#fff6df] shadow-lg"
           >
             {OPTIONS.map((opt) => (
-              <li key={opt.state}>
+              <li key={opt.href}>
                 <button
                   type="button"
                   role="option"
                   aria-selected={false}
-                  onClick={() => choose(opt.state)}
+                  onClick={() => choose(opt.href)}
                   className="flex w-full items-baseline justify-between gap-3 px-3 py-2.5 text-left hover:bg-[#2a1d10]/5 focus:bg-[#2a1d10]/5 focus:outline-none"
                 >
                   <span className="text-sm text-[#2a1d10]">{opt.label}</span>
