@@ -18,6 +18,22 @@ soil: []
 height_ft:
 width_ft: 5
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Before/at flowering (3 weeks from germination)"
+  followup_years: 5
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Pull plants before they produce seed (before or at flowering) — taproot is younger and softer at this stage. Soil moist makes it cleanest."
+  - "Sweep up dropped burrs after pulling — pat a piece of carpet against the ground to collect them. Pet paws and bicycle tires are the dispersal vectors."
+  - "Don't bother mowing — plants grow flat to the ground."
+  - "3+ in organic mulch or fabric suppresses germination, but burrs dropped on top of the mulch can establish from the surface because of the deep taproot — combine mulch with burr cleanup."
+  - "Two introduced weevils (*Microlarinus lareynii* seed-eater + *M. lypriformis* stem-borer) provide effective control when working together. Often available free at established release sites from your county Agricultural Commissioner."
+  - "Home-gardener postemergent: 2,4-D, glyphosate, dicamba on young plants. 5-year seedbank — persistent monitoring is the long-term play."
+  sources:
+  - "ucipm-residential/puncturevine"
 ---
 
 # Tribulus terrestris (puncturevine / goathead)

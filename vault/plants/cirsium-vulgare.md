@@ -31,6 +31,21 @@ invasive:
   habitat_types: [chaparral, coastal_prairie, valley_foothill_grassland, meadow_seep, marsh_swamp, riparian_forest, riparian_woodland, cismontane_woodland, north_coast_coniferous_forest, closed_cone_coniferous_forest, lower_montane_coniferous_forest]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Great Basin Province, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2005-06-07
+
+removal:
+  method: "dig_taproot"
+  timing_window: "Spring rosette → April–June flowering stalks"
+  followup_years: 5
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Hand-pull, hoe, or dig rosettes before bolting — sever the root below the soil surface; leave no leaves attached or the crown regrows."
+  - "Mow immediately before flowering or when plants are just starting to flower — too early regrows, too late goes to seed."
+  - "Foliar aminopyralid (Milestone) 3–5 oz/acre on rosettes is the most effective herbicide; 2,4-D works and is cheaper."
+  - "Plants bloom asynchronously — a single mow rarely catches all plants; repeat across the season."
+  - "Short seedbank (~3 years) means 3 years of zero seed set substantially knocks down infestations."
+  sources:
+  - "wric/Cirsium_vulgare"
 ---
 
 # Cirsium vulgare (bull thistle)

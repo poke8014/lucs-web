@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_dunes, coastal_bluff_scrub, coastal_scrub, coastal_prairie]
   jepson_regions: [Central West, Northwest, Southwest]
   evaluated_on: 2005-03-17
+
+removal:
+  method: "sheet_mulch_smother"
+  timing_window: "Any cool month (avoid summer scorch under cardboard)"
+  followup_years: 1
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Roll up large mats like a carpet — labor-intensive but selective and very effective."
+  - "Critical: every node re-roots on damp soil. Flip pulled mats upside-down to dry, or remove from site; leave one and you'll repeat the work."
+  - "Burying completely with soil kills the plant — useful in dune-restoration contexts where sand is being replaced."
+  - "Foliar 1.5–2% glyphosate + 1% surfactant via shielded sprayer or wiper minimizes off-target damage."
+  - "After clearing, also remove the dead-debris layer — it carries iceplant and other weed seeds and enriches sandy soil."
+  sources:
+  - "wric/Carpobrotus"
 ---
 
 # Carpobrotus edulis (highway iceplant)

@@ -31,6 +31,20 @@ invasive:
   habitat_types: [coastal_dunes, coastal_bluff_scrub, coastal_scrub, chaparral, coastal_prairie, valley_foothill_grassland, riparian_woodland, cismontane_woodland, broadleaved_upland_forest]
   jepson_regions: [Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-05-22
+
+removal:
+  method: "dig_taproot"
+  timing_window: "Spring rosette (before stems lignify)"
+  followup_years: 5
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Hand-pull or hoe rosettes when soil is moist and spines are still soft — sever the root below the soil surface."
+  - "Mow just as plants bolt and are about to flower — too early lets them regrow, too late scatters seed."
+  - "Plants bloom asynchronously over 4–7 weeks; a single mow rarely catches everything — repeat weekly across the bloom window."
+  - "2–3 years of zero seed set can substantially deplete the population — short seedbank is the lever."
+  sources:
+  - "wric/Carduus_acanthoides-nutans-pycnocephalus-tenuiflorus"
 ---
 
 # Carduus pycnocephalus (Italian thistle)

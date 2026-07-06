@@ -31,6 +31,23 @@ invasive:
   habitat_types: [coastal_scrub, marsh_swamp, riparian_forest, sonoran_thorn_woodland, broadleaved_upland_forest, north_coast_coniferous_forest, closed_cone_coniferous_forest]
   jepson_regions: [Central West, Northwest, Southwest]
   evaluated_on: 02/26/04 (modified 9/05)
+
+removal:
+  method: "pull_vine_dig_crown"
+  timing_window: "Any cool month"
+  followup_years: 5
+  safety_flags:
+  - "irritant_sap"
+  - "fragment_spreader"
+  - "do_not_mow"
+  notes:
+  - "Pull every runner on ground cover — each node re-roots on damp soil. Bag, don't compost; stems re-root in finished compost."
+  - "For climbing trees, sever at ground level and chest height — leave aerial parts to die in place and fall in the next hot/dry period."
+  - "Don't mow — fragments scatter and regenerate."
+  - "Cut-stump herbicide: undiluted Garlon 3A (or 33% in water), Garlon 4 Ultra 20% v/v in water, or 25% glyphosate. For large vines climbing trees, drill-and-fill with 100% Garlon."
+  - "Sap causes contact dermatitis in ~10% of people — gloves and long sleeves are standard."
+  sources:
+  - "wric/Hedera_canariensis-helix-hibernica"
 ---
 
 # Hedera canariensis (Algerian ivy)

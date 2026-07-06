@@ -18,6 +18,21 @@ soil: []
 height_ft: 5
 width_ft:
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Within 4 weeks of germination (fall–winter rains)"
+  followup_years: 10
+  safety_flags: []
+  notes:
+  - "Pull or hoe while plants have four or fewer true leaves — once the taproot lignifies (within weeks), hand removal stops working."
+  - "Don't mow — plants have viable buds on stems below the blade. Common mallow's prostrate habit is especially mower-resistant."
+  - "Shallow cultivation that severs the taproot below the soil line is effective when plants are young and numerous."
+  - "3+ inches of bark or wood-chip mulch suppresses germination — maintain depth as it breaks down."
+  - "Glyphosate is ineffective on mallow — one of the few weeds it doesn't control. Plan mechanical removal as the primary tactic."
+  - "Solarization and flaming also don't work; remove plants before the 15-day flower-to-seed window completes."
+  sources:
+  - "ucipm-residential/mallows"
 ---
 
 # Malva parviflora (little mallow / cheeseweed)

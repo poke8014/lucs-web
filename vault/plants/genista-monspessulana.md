@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_scrub, chaparral, coastal_prairie, valley_foothill_grassland, riparian_woodland, cismontane_woodland, broadleaved_upland_forest, north_coast_coniferous_forest]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sonoran Desert]
   evaluated_on: 2004-06-08
+
+removal:
+  method: "cut_stump_herbicide"
+  timing_window: "April (just before flowering peak)"
+  followup_years: 60
+  safety_flags:
+  - "do_not_burn"
+  notes:
+  - "Hand-pulling rarely works once plants are established — use a weed wrench for anything past seedling stage."
+  - "Cut shrubs in spring before flowering (April–May in the Bay Area) — French broom flowers earlier than Scotch, so the energy-depletion window is earlier. Paint each cut stump within minutes with Garlon 4 Ultra 20% v/v in water or 25% glyphosate."
+  - "Foliar (active growth, April–July): triclopyr ester 0.75–1.5% + surfactant, or 1.5–2% glyphosate of 41% concentrate."
+  - "Don't burn alone — adds competitive nutrients and the seedbank germinates after fire."
+  - "Plan a decade of annual seedling sweeps; the seedbank persists 30+ years."
+  sources:
+  - "wric/Genista"
+  - "ucipm-residential/brooms"
 ---
 
 # Genista monspessulana (French broom)

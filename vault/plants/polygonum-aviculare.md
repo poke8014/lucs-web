@@ -18,6 +18,21 @@ soil: []
 height_ft:
 width_ft: 4
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Spring (before mat sets)"
+  followup_years: 3
+  safety_flags: []
+  notes:
+  - "Aerate or loosen compacted soil — the highest-leverage move, because knotweed only thrives where compaction has killed off competitors."
+  - "Reduce traffic with fences/hedges; install rock or pavement where foot traffic is unavoidable."
+  - "Hand-pull or hoe with a swivel hoe — the taproot lifts cleanly when soil is moist."
+  - "3–4 in coarse organic mulch (or fabric + bark/rock) prevents seedling establishment. Avoid finely-shredded mulch — seeds germinate in it."
+  - "Postemergent home-gardener herbicides on young plants (under 3 in diameter): glyphosate, pelargonic acid, 2,4-D. Dicamba in turf only."
+  - "Knotweed is a host for parasitic dodder and powdery mildew — extra reason to keep it out of vegetable beds."
+  sources:
+  - "ucipm-residential/common-knotweed"
 ---
 
 # Polygonum aviculare (common knotweed)

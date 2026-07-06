@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_dunes, coastal_scrub, coastal_prairie]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-05-26
+
+removal:
+  method: "dig_rhizome_complete"
+  timing_window: "Summer (combine digging with solarization)"
+  followup_years: 5
+  safety_flags:
+  - "fragment_spreader"
+  - "do_not_mow"
+  notes:
+  - "Pull every rhizome and stolon — the canonical fragments-regenerate weed; tilling without follow-through propagates it."
+  - "Till in dry summer weather to expose rhizomes to sun-drying or freezing. Apply no water during drying."
+  - "Don't mow short — high mowing (~3 inches) actually shifts the competitive balance against Bermuda grass."
+  - "Foliar glyphosate at 2% v/v spot in late spring through summer when plants are actively growing — don't mow for 2–3 weeks before spraying so there's more leaf area for uptake."
+  - "Solarize small patches under clear plastic over moist soil for 6+ weeks in summer — rhizomes concentrated in the top 2 inches are within heat range."
+  sources:
+  - "wric/Cynodon"
 ---
 
 # Cynodon dactylon (Bermuda grass)

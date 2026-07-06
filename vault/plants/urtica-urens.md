@@ -18,6 +18,22 @@ soil: []
 height_ft: 2
 width_ft:
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Spring (before flowering)"
+  followup_years: 5
+  safety_flags:
+  - "irritant_sap"
+  notes:
+  - "Gloves and long sleeves are non-negotiable — stinging hairs cause irritant dermatitis in everyone, not just allergic individuals. Sting symptoms can last 12+ hours."
+  - "Burning nettle (annual): hand-pull or hoe before plants set seed. Straightforward with gloves on."
+  - "Stinging nettle (perennial, often native *U. dioica*): remove the entire rhizome, or the plant regrows. Don't cultivate casually — chopping rhizomes spreads the patch."
+  - "Close mowing prevents fruit development but doesn't kill the plants. Repeated cultivation works on stinging nettle if persistent across multiple seasons."
+  - "Stinging nettle hosts native butterflies (red admiral, satyr comma, Milbert's tortoiseshell) — for naturalistic gardens, leaving a patch in a remote moist corner is a legitimate native-plant choice. Remove only where safety/access matters."
+  - "Don't compost in livestock-accessible areas without thorough drying — sting hairs persist on dried plant material."
+  sources:
+  - "ucipm-residential/burning-and-stinging-nettles"
 ---
 
 # Urtica urens (burning nettle) and Urtica dioica (stinging nettle)

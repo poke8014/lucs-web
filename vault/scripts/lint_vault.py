@@ -11,6 +11,7 @@ Checks (per vault/CLAUDE.md → Operations → Lint):
                          wikilinks that resolve to no file
   4. Frontmatter      — required base + plant fields, enum values
   5. Contradictions   — unresolved [!warning]/Contradicts callouts
+  6. Removal block    — optional removal: block shape, enum values, source paths
 
 Usage:  python3 vault/scripts/lint_vault.py
 """
@@ -33,6 +34,72 @@ def parse_frontmatter(text):
         if m:
             fm[m.group(1)] = m.group(2).strip()
     return fm, text[end + 4:]
+
+
+def get_fm_text(text):
+    """Return the raw frontmatter text (between --- markers), or '' if absent."""
+    if not text.startswith("---"):
+        return ""
+    end = text.find("\n---", 3)
+    return text[3:end] if end != -1 else ""
+
+
+def parse_removal_block(fm_text):
+    """Parse the removal: nested block from raw frontmatter text.
+
+    Returns a dict of the six expected keys, or None if the block is absent.
+    Values are strings for scalar fields and lists for list fields — types are
+    as parsed from raw YAML text (followup_years comes out as a string like
+    '3'; callers must check int-parseability themselves).
+    """
+    lines = fm_text.splitlines()
+    start = None
+    for i, line in enumerate(lines):
+        if re.match(r"^removal\s*:", line):
+            start = i
+            break
+    if start is None:
+        return None
+
+    result = {}
+    current_key = None
+    current_list = None
+
+    for line in lines[start + 1:]:
+        # A non-blank line without leading whitespace means a new top-level key
+        if line and not line[0].isspace():
+            break
+        stripped = line.strip()
+        if not stripped:
+            continue
+        # Sub-key at two-space indent: "  key: value"
+        m = re.match(r"^  ([a-zA-Z_]\w*)\s*:\s*(.*)$", line)
+        if m:
+            current_key = m.group(1)
+            val = m.group(2).strip()
+            if val == "[]":
+                result[current_key] = []
+                current_list = None
+            elif val == "" or val is None:
+                # No inline value — YAML null unless list items follow
+                current_list = None
+                result[current_key] = None
+            elif val.startswith("[") and val.endswith("]"):
+                # Inline list: [a, b, c]
+                items = [x.strip().strip('"\'') for x in val[1:-1].split(",")
+                         if x.strip()]
+                result[current_key] = items
+                current_list = None
+            else:
+                result[current_key] = val.strip('"\'')
+                current_list = None
+        elif re.match(r"^  - ", line) and current_key is not None:
+            if current_list is None:
+                current_list = []
+                result[current_key] = current_list
+            current_list.append(line[4:].strip().strip('"\''))
+
+    return result
 
 
 def load_pages():
@@ -148,6 +215,99 @@ def main():
     print(f"\n## 5. UNRESOLVED CONTRADICTION CALLOUTS: {len(contra)}")
     for s in contra:
         print(f"  - {s}")
+        hard_defects += 1
+
+    # 6. Removal block — optional on plant pages; validated when present.
+    REMOVAL_REQUIRED_KEYS = {
+        "method", "timing_window", "followup_years",
+        "safety_flags", "notes", "sources",
+    }
+    REMOVAL_METHOD_ENUM = {
+        "hand_pull", "dig_taproot", "dig_rhizome_complete",
+        "dig_bulb_complete", "cut_stump_herbicide", "mow_before_seed",
+        "pull_vine_dig_crown", "cane_cut_dig_crown",
+        "prune_host_below_attachment", "sheet_mulch_smother",
+    }
+    REMOVAL_SAFETY_ENUM = {
+        "fragment_spreader", "spines_thorns", "do_not_burn",
+        "do_not_mow", "irritant_sap", "allergenic_pollen", "toxic_handling",
+    }
+    RAW_ARTICLES = os.path.join(VAULT, "raw", "articles")
+    STRAY_REMOVAL_KEYS = re.compile(
+        r"^(removal_[a-zA-Z_]\w*|requires_followup_years)\s*:", re.MULTILINE
+    )
+
+    rviol = []  # list of (slug, message) pairs for per-page detail
+
+    for s, p in pages.items():
+        fm_text = get_fm_text(p["text"])
+
+        # Check for stray top-level keys from the old flat JSON naming scheme
+        for m in STRAY_REMOVAL_KEYS.finditer(fm_text):
+            rviol.append((s, f"stray top-level key '{m.group(1)}'"))
+
+        removal = parse_removal_block(fm_text)
+        if removal is None:
+            continue  # block absent — perfectly valid
+
+        # 6a. Key set: must be exactly the six required keys
+        present = set(removal.keys())
+        for missing_key in sorted(REMOVAL_REQUIRED_KEYS - present):
+            rviol.append((s, f"removal: missing key '{missing_key}'"))
+        for extra_key in sorted(present - REMOVAL_REQUIRED_KEYS):
+            rviol.append((s, f"removal: unknown key '{extra_key}'"))
+
+        # 6b. method — non-null, on-enum
+        method = removal.get("method")
+        if not method:
+            rviol.append((s, "removal.method: null or missing"))
+        elif method not in REMOVAL_METHOD_ENUM:
+            rviol.append((s, f"removal.method off-enum: '{method}'"))
+
+        # 6c. timing_window — string or null (any value accepted)
+        # No constraint beyond presence (already covered by 6a).
+
+        # 6d. followup_years — integer or null (not float, not bare string)
+        fy = removal.get("followup_years")
+        if fy is not None and fy != "":
+            # After YAML text parsing, fy is a string; valid if it parses as int
+            try:
+                parsed = int(fy)
+                # Reject if the original text looked like a float
+                if "." in str(fy):
+                    rviol.append((s, f"removal.followup_years must be int, got: '{fy}'"))
+            except (ValueError, TypeError):
+                rviol.append((s, f"removal.followup_years must be int or null, got: '{fy}'"))
+
+        # 6e. safety_flags — list; each item on-enum
+        sflags = removal.get("safety_flags")
+        if not isinstance(sflags, list):
+            rviol.append((s, "removal.safety_flags must be a list"))
+        else:
+            for item in sflags:
+                if item not in REMOVAL_SAFETY_ENUM:
+                    rviol.append((s, f"removal.safety_flags off-enum: '{item}'"))
+
+        # 6f. notes — non-empty list of strings
+        notes = removal.get("notes")
+        if not isinstance(notes, list):
+            rviol.append((s, "removal.notes must be a list"))
+        elif len(notes) == 0:
+            rviol.append((s, "removal.notes must not be empty"))
+
+        # 6g. sources — list; each item resolves to vault/raw/articles/<item>.md
+        sources = removal.get("sources")
+        if not isinstance(sources, list):
+            rviol.append((s, "removal.sources must be a list"))
+        else:
+            for item in sources:
+                candidate = os.path.join(RAW_ARTICLES, item + ".md")
+                if not os.path.isfile(candidate):
+                    rviol.append((s, f"removal.sources unresolvable: '{item}'"))
+
+    print(f"\n## 6. REMOVAL BLOCK VIOLATIONS: {len(rviol)}")
+    for slug, msg in sorted(rviol):
+        print(f"  {slug}: {msg}")
         hard_defects += 1
 
     print(f"\n{'=' * 68}\nHARD DEFECTS: {hard_defects}")

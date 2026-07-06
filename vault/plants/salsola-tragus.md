@@ -18,6 +18,25 @@ soil: []
 height_ft:
 width_ft: 6
 regions: []
+
+removal:
+  method: "hand_pull"
+  timing_window: "Spring (early growth, before lignification)"
+  followup_years: 2
+  safety_flags:
+  - "spines_thorns"
+  - "irritant_sap"
+  - "do_not_burn"
+  - "allergenic_pollen"
+  notes:
+  - "Pull young plants while small, before stems lignify and leaves get spiny. Wear gloves at later stages — plant material causes skin irritation."
+  - "Mow at first bloom to prevent seed set — timing is critical (too early → regrowth; too late → seeds form)."
+  - "Don't disturb soil in already-vacant areas — loose soil is exactly what Russian thistle needs to germinate. Plant competitive desirable vegetation."
+  - "Dispose of mature tumbleweeds against fences/structures before they break loose in fall — clearing them removes the fire hazard and prevents next year's seed dispersal."
+  - "Flame weeding seedlings/rosettes after rain (high humidity, wet vegetation) is effective. Never with dry surroundings — major fire risk."
+  - "Russian thistle has evolved resistance to chlorsulfuron, sulfometuron, and glyphosate within a few years of repeated single-herbicide use — rotate modes of action. Short 1–2 year seedbank is the long-term lever."
+  sources:
+  - "ucipm-residential/russian-thistle"
 ---
 
 # Salsola tragus (Russian thistle / tumbleweed)

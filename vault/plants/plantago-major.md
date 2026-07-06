@@ -18,6 +18,21 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "dig_taproot"
+  timing_window: "Fall (best herbicide window) or anytime mechanical"
+  followup_years: 5
+  safety_flags: []
+  notes:
+  - "Hand-pull or dig mature plants — must remove the entire crown (and taproot for buckhorn) or it regenerates."
+  - "Don't bother mowing — the rosette and seed stalks both stay too low to be cut."
+  - "Address the underlying soil condition: broadleaf plantain → compaction + alkalinity + low N; buckhorn → dry + low fertility. Fix the soil and competitive grass outcompetes plantain."
+  - "Postemergent turf herbicides (best in fall): 2,4-D works best for mature plants — repeat applications often needed. Triclopyr, dicamba, MCPA, mecoprop, carfentrazone, mesotrione also work."
+  - "Quinclorac gives fair control on buckhorn, poor on broadleaf."
+  - "2–4 in organic mulch (or fabric + cover mulch) controls seedlings; reapply as it degrades."
+  sources:
+  - "ucipm-residential/plantains"
 ---
 
 # Plantago major (broadleaf plantain) and buckhorn plantain

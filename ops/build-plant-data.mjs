@@ -5,14 +5,12 @@
 //
 // Run: node ops/build-plant-data.mjs
 //
-// NOTE: the cleanup-plan removal annotations (removal_method, removal_notes,
+// NOTE: the cleanup-plan removal fields (removal_method, removal_notes,
 // removal_sources, removal_timing_window, requires_followup_years,
-// safety_flags) are NOT sourced from frontmatter — they are a post-build
-// overlay applied by vault/scripts/apply_removal_methods.py,
-// apply_layer_b_fields.py, and apply_layer_c_notes.py, keyed by slug. This
-// script re-emits those keys with null/empty defaults so a fresh regeneration
-// keeps the JSON schema stable; re-run the three appliers afterward to restore
-// the actual removal data. See ops/HANDOFF.md.
+// safety_flags) are emitted from each page's `removal:` frontmatter block
+// (schema in vault/CLAUDE.md); pages without the block get null/empty
+// defaults. One run of this script is the complete regeneration — the
+// pre-2026-07-06 post-build Python appliers are retired.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -112,13 +110,14 @@ function buildEntry(file) {
     habitat_types: inv.habitat_types ?? [],
     jepson_regions: inv.jepson_regions ?? [],
     photos: readPhotos(slug),
-    // Post-build overlay (see header note) — defaults here, appliers fill.
-    removal_method: null,
-    removal_notes: [],
-    removal_sources: [],
-    removal_timing_window: null,
-    requires_followup_years: null,
-    safety_flags: [],
+    // Removal overlay — sourced from the removal: frontmatter block when present.
+    // Defaults match the prior post-build applier output for pages without the block.
+    removal_method: data.removal?.method ?? null,
+    removal_notes: data.removal?.notes ?? [],
+    removal_sources: data.removal?.sources ?? [],
+    removal_timing_window: data.removal?.timing_window ?? null,
+    requires_followup_years: data.removal?.followup_years ?? null,
+    safety_flags: data.removal?.safety_flags ?? [],
   };
 }
 

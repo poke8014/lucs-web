@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_bluff_scrub, coastal_scrub, sonoran_desert_scrub, great_basin_scrub, chenopod_scrub, upper_sonoran_subshrub_scrub, chaparral, coastal_prairie, valley_foothill_grassland, great_basin_grassland, riparian_woodland, cismontane_woodland]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Great Basin Province, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2003-02-10
+
+removal:
+  method: "mow_before_seed"
+  timing_window: "March–April (boot stage)"
+  followup_years: 3
+  safety_flags:
+  - "spines_thorns"
+  - "do_not_burn"
+  notes:
+  - "Mow at boot stage shortly after flower initiation, before seed maturity — same window as ripgut brome, slightly earlier."
+  - "Hand-pull or hoe small patches in early spring before awns harden."
+  - "Don't lead with burning — red brome matures early, so most burns post-date seed dispersal and make the next year worse."
+  - "For larger infestations, use a 2–3 year integrated program: spring burn → winter reseed natives → early spring herbicide."
+  - "Clean equipment between sites; seeds cling to clothing, fur, and tires."
+  sources:
+  - "wric/Bromus_diandrus-madritensis-tectorum"
 ---
 
 # Bromus madritensis ssp. rubens (red brome)

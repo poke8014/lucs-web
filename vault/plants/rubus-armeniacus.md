@@ -31,6 +31,23 @@ invasive:
   habitat_types: [coastal_scrub, coastal_prairie, meadow_seep, bog_fen, marsh_swamp, riparian_forest, riparian_woodland, cismontane_woodland, broadleaved_upland_forest, north_coast_coniferous_forest, closed_cone_coniferous_forest, lower_montane_coniferous_forest]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-05-12
+
+removal:
+  method: "cane_cut_dig_crown"
+  timing_window: "Late summer–early fall (foliar herbicide window)"
+  followup_years: 5
+  safety_flags:
+  - "spines_thorns"
+  - "fragment_spreader"
+  notes:
+  - "Cut all canes back to stubs with loppers — leather sleeves required, the thorns shred standard garden gloves."
+  - "Dig every woody root crown with a Pulaski or mattock — cutting alone produces a denser thicket the next season."
+  - "Trace every cane tip that touched soil and dig the rooted node; each is a new crown."
+  - "Cut-stump herbicide on stubs (within minutes): Garlon 4 Ultra 1:4 in water (~20%) or 25% glyphosate. Or foliar 1–1.5% glyphosate in late summer / early fall after flowering."
+  - "Bag canes for landfill — chipping or home composting scatters live nodes that re-root."
+  sources:
+  - "wric/Rubus"
+  - "ucipm-residential/wild-blackberries"
 ---
 
 # Rubus armeniacus (Himalayan blackberry)

@@ -31,6 +31,19 @@ invasive:
   habitat_types: []
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Mojave Desert]
   evaluated_on: 2004-09-06
+
+removal:
+  method: "cut_stump_herbicide"
+  timing_window: "Late spring–summer (any time, really)"
+  followup_years: 10
+  safety_flags: []
+  notes:
+  - "Seedlings and small plants hand-pull; established shrubs need cut-stump herbicide — partial root removal alone resprouts."
+  - "Cut close to the ground, then paint the stump within minutes with undiluted Garlon 4 Ultra or Garlon 3A. Late-summer / fall timing translocates herbicide into the roots."
+  - "Glyphosate at 40–100% concentrate is the alternative on the stump."
+  - "Birds disperse seed widely — eradicating one plant doesn't prevent re-establishment from neighborhood ornamental plantings. Plan annual seedling sweeps."
+  sources:
+  - "wric/Cotoneaster"
 ---
 
 # Cotoneaster pannosus (silverleaf _Cotoneaster_)

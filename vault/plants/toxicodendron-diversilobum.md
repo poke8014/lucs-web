@@ -18,6 +18,26 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "pull_vine_dig_crown"
+  timing_window: "Early spring or late fall (moist soil); late spring–early summer for foliar"
+  followup_years: 2
+  safety_flags:
+  - "irritant_sap"
+  - "do_not_burn"
+  - "do_not_mow"
+  - "fragment_spreader"
+  notes:
+  - "Safety first: washable cotton gloves over plastic gloves, long sleeves, long pants, closed shoes. Wash all clothing/tools/pets after — urushiol persists for months on surfaces."
+  - "Don't burn poison-oak — urushiol disperses in smoke, severe respiratory hazard."
+  - "Don't mow — mowers aerosolize urushiol particles. Same exposure hazard as burning."
+  - "Hand-pull or grub when soil is moist (early spring or late fall) — remove the entire plant including roots. Dry hard soil → stems snap and rootstocks vigorously resprout."
+  - "Foliar (late spring–early summer, actively growing): glyphosate 2% spray-to-wet (2.5 oz of 41% per gallon), or triclopyr ester 1–5% with seed oil for better penetration. Over 80°F use amine triclopyr or glyphosate, not ester."
+  - "Cut-stump: cut, then paint within minutes with concentrated triclopyr ester (1:4 with seed oil), undiluted triclopyr amine 8%, or 41% glyphosate diluted 1:1 in water. Re-treat when new shoots reach ~2 ft."
+  - "Poison-oak is a valuable native in wildland settings — only remove where it poses a safety/access problem (near homes, trails, play areas)."
+  sources:
+  - "ucipm-residential/poison-oak"
 ---
 
 # Toxicodendron diversilobum (Pacific poison-oak)

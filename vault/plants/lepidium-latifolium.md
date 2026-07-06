@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_prairie, valley_foothill_grassland, great_basin_grassland, vernal_pool, bog_fen, marsh_swamp, riparian_forest, riparian_woodland]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Great Basin Province, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2003-05-08
+
+removal:
+  method: "dig_taproot"
+  timing_window: "May–June (bud → flowering)"
+  followup_years: 10
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Pepperweed is a rhizome problem, not a taproot problem — root fragments as small as 0.5–1 inch regenerate, and roots spread 10+ ft laterally. Mechanical-only removal almost never works on established stands."
+  - "The proven sequence: mow at the bolting / flower-bud stage, then apply herbicide to resprouts once they reach flower bud again. Bud-stage timing matters; earlier applications largely fail."
+  - "Foliar chlorsulfuron (Telar) 1–2.6 oz/acre is the most effective herbicide per UC IPM — 1–3 years of >90% control. Glyphosate 1.5–2% v/v spot is the standard residential option, then wait 2–6 months and re-treat resprouts."
+  - "For tarping, the cover must extend 10+ ft past the visible patch to catch lateral roots — and stay down for 2 full growing seasons."
+  - "Don't till — fragmenting roots disperses the plant. Clean equipment after any work in infested areas."
+  sources:
+  - "wric/Lepidium_latifolium"
+  - "ucipm-residential/perennial-pepperweed"
 ---
 
 # Lepidium latifolium (perennial pepperweed)

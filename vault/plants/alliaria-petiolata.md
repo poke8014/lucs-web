@@ -31,6 +31,20 @@ invasive:
   habitat_types: [riparian_forest, riparian_woodland]
   jepson_regions: [Northwest, Southwest]
   evaluated_on: 2022-09-01
+
+removal:
+  method: "hand_pull"
+  timing_window: "Spring rosette → before May seed set"
+  followup_years: 5
+  safety_flags: []
+  notes:
+  - "Hand-pull or dig before May seed set — the S-shaped taproot wants to snap, so loosen soil first and ease plants up so root fragments don't stay behind."
+  - "On heavy clay, switch to a digging tool — pull-snapped roots resprout."
+  - "Second-year bolted plants come out easily by the stem; pull them before pods ripen."
+  - "If mowing, cut as low as practical — too high lets flowering stalks form from below the cut, too late scatters seed pods."
+  - "5-year seedbank — one missed year of seed set creates several years of follow-up."
+  sources:
+  - "wric/Alliaria"
 ---
 
 # Alliaria petiolata (garlic mustard)

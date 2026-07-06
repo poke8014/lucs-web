@@ -71,7 +71,7 @@ last_updated: 2026-05-07
 scientific_name:
 common_names: []
 plant_type:        # perennial | annual | shrub | tree | groundcover | grass | vine
-nativity:          # native | non_native_safe | invasive
+nativity:          # native | non_native_safe | invasive — CA-relative; other regions would land as region joins (regions: → regions/ pages), not new enum values
 pollinators: []    # bees, butterflies, hummingbirds, moths, beetles, flies (omit for invasives)
 water:             # low | moderate | high
 sun:               # full | part | shade
@@ -119,9 +119,23 @@ native:
   jepson_url:
   calscape_url:
   retrieved:                    # YYYY-MM-DD
+
+# Removal block — only on pages with cleanup-plan removal guidance; omit elsewhere.
+# Presence is NOT keyed to nativity: poison-oak is native but carries it (safety
+# removal). Curated from WRIC + UC IPM (see [[sources/ucipm-residential]]);
+# migrated 2026-07-06 from the retired post-build applier scripts. The notes[]
+# bullets intentionally overlap the page's "## Remove" narrative — frontmatter is
+# the structured render layer, the body is prose; don't deduplicate either side.
+removal:
+  method:            # hand_pull | dig_taproot | dig_rhizome_complete | dig_bulb_complete | cut_stump_herbicide | mow_before_seed | pull_vine_dig_crown | cane_cut_dig_crown | prune_host_below_attachment | sheet_mulch_smother
+  timing_window:     # prose, e.g. "Late spring–summer (cut in dry season)"
+  followup_years:    # integer — emitted as requires_followup_years
+  safety_flags: []   # fragment_spreader, spines_thorns, do_not_burn, do_not_mow, irritant_sap, allergenic_pollen, toxic_handling
+  notes: []          # curated removal bullets (list of strings)
+  sources: []        # citation slugs into vault/raw/articles/, e.g. wric/Acacia, ucipm-residential/field-bindweed
 ```
 
-The `invasive:` block maps to a separate `invasive_assessments` table when Supabase comes online (joined on `plant_id`); the `native:` block will follow the same join pattern (exact table shape decided when Supabase lands); the rest of the frontmatter maps to the `plants` table 1:1 as before.
+The `invasive:` block maps to a separate `invasive_assessments` table when Supabase comes online (joined on `plant_id`); the `native:` block will follow the same join pattern (exact table shape decided when Supabase lands); the rest of the frontmatter maps to the `plants` table 1:1 as before. The `removal:` block flattens into `plants.json`'s six existing flat keys (`method` → `removal_method`, `timing_window` → `removal_timing_window`, `followup_years` → `requires_followup_years`, `safety_flags`/`notes`/`sources` → `safety_flags`/`removal_notes`/`removal_sources`) so the app schema is unchanged; it flattens the same way into `plants` columns when Supabase lands.
 
 **Resolving principle (Luc, 2026-05-17):** the Phase-2 selector reads the structured `native:` block; the flat shared fields (`sun`, `water`, `plant_type`, …) are a coarse convenience layer. When normalization forces a choice (e.g. Calscape `Fern` has no `plant_type` enum), normalize the flat field and preserve the original vocab in `native.plant_type_raw`.
 

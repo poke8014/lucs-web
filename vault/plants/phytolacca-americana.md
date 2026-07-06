@@ -18,6 +18,23 @@ soil: []
 height_ft: 10
 width_ft: 5
 regions: []
+
+removal:
+  method: "dig_taproot"
+  timing_window: "April–August (foliar herbicide window)"
+  followup_years: 50
+  safety_flags:
+  - "toxic_handling"
+  - "do_not_burn"
+  notes:
+  - "Pull young plants by hand at the seedling stage; dig established plants with a shovel for the large fleshy taproot — easier in spring/fall when soil is moist."
+  - "Bag ripe berries before removing mature plants — every berry is a packet of seeds viable up to 50 years. Don't compost — seeds survive home compost."
+  - "All parts toxic (saponins + oxalates) — wear gloves, avoid touching your face, keep children and curious pets away from the berries."
+  - "Don't burn — smoke from toxic plant material is hazardous."
+  - "Foliar herbicides (April–August, actively growing): glyphosate 2–3% spray-to-wet (~2.5–4 oz of 41% per gallon), or triclopyr 0.75–1% (~1–1.25 oz of 61% per gallon, broadleaf-selective). Use amine forms over 80°F."
+  - "Monitor below trees, fence rows, and bird perches — bird-dispersed seed establishes new plants under canopies year after year."
+  sources:
+  - "ucipm-residential/pokeweed"
 ---
 
 # Phytolacca americana (American pokeweed)

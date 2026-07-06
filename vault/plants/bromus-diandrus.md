@@ -31,6 +31,21 @@ invasive:
   habitat_types: [coastal_dunes, desert_dunes, interior_dunes, coastal_bluff_scrub, coastal_scrub, sonoran_desert_scrub, great_basin_scrub, chenopod_scrub, upper_sonoran_subshrub_scrub, chaparral, coastal_prairie, valley_foothill_grassland, great_basin_grassland, vernal_pool, riparian_forest, riparian_woodland, cismontane_woodland, pinyon_juniper_woodland, broadleaved_upland_forest, closed_cone_coniferous_forest, lower_montane_coniferous_forest, upper_montane_coniferous_forest, subalpine_coniferous_forest]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Great Basin Province, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-07-20
+
+removal:
+  method: "mow_before_seed"
+  timing_window: "April (boot stage, before awns harden)"
+  followup_years: 3
+  safety_flags:
+  - "spines_thorns"
+  notes:
+  - "Mow at boot stage (April) shortly after flower initiation but before awns harden — cut to ~2 inches."
+  - "Hand-pull or hoe small patches in early spring while plants are young."
+  - "Repeated mowing every 3 weeks suppresses populations where herbicide isn't acceptable."
+  - "A well-timed burn before seeds mature can knock back the population — burning after seed drop makes things worse."
+  - "Reseed cleared sites with competitive perennial grasses; bare ground refills from the seedbank."
+  sources:
+  - "wric/Bromus_diandrus-madritensis-tectorum"
 ---
 
 # Bromus diandrus (ripgut brome)

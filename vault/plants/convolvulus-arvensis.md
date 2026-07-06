@@ -18,6 +18,21 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "dig_rhizome_complete"
+  timing_window: "Fall (active growth, root translocation)"
+  followup_years: 60
+  safety_flags:
+  - "fragment_spreader"
+  notes:
+  - "Catch seedlings within the first 3–4 weeks after germination — once perennial root buds form, mechanical removal stops working."
+  - "Light-blocking covers (cardboard + 4–6 in mulch, or landscape fabric with full edge overlap) are the most effective non-chemical control — but complete death takes 3–5 years and bindweed finds every seam."
+  - "Don't till casually — 2-inch root fragments regenerate and one-pass tillage scatters them across the bed."
+  - "Glyphosate 2% v/v on actively growing plants in fall is the systemic chemical option; paint onto leaves resting on newspaper to keep it off desirables."
+  - "60-year seedbank — plan an integrated multi-year program (prevent seed → reduce reserves → shade out → spot herbicide). No single-season fix exists."
+  sources:
+  - "ucipm-residential/field-bindweed"
 ---
 
 # Convolvulus arvensis (field bindweed)

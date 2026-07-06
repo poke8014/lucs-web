@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_scrub, great_basin_scrub, chaparral, coastal_prairie, valley_foothill_grassland, cismontane_woodland, closed_cone_coniferous_forest]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2003-02-08
+
+removal:
+  method: "mow_before_seed"
+  timing_window: "April–May (before May dry-down)"
+  followup_years: 3
+  safety_flags:
+  - "spines_thorns"
+  - "do_not_burn"
+  notes:
+  - "Mow at boot stage just after flower initiation, before seeds harden — cut to ~2 inches."
+  - "Hand-pull or hoe small patches in early spring while plants are young."
+  - "Don't burn first — cheatgrass matures early and a single burn typically increases populations next year."
+  - "Reseed with native perennial grasses immediately after any clearing; bare post-fire ground is the condition cheatgrass thrives in."
+  - "Long-term outlook in heavily invaded sites is slowing the cheatgrass-fire feedback, not eradication."
+  sources:
+  - "wric/Bromus_diandrus-madritensis-tectorum"
 ---
 
 # Bromus tectorum (cheatgrass)

@@ -31,6 +31,23 @@ invasive:
   habitat_types: [coastal_scrub, marsh_swamp, riparian_forest, sonoran_thorn_woodland, broadleaved_upland_forest, north_coast_coniferous_forest, closed_cone_coniferous_forest]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Great Basin Province, Modoc Plateau]
   evaluated_on: 02/26/04 (modified 9/05)
+
+removal:
+  method: "pull_vine_dig_crown"
+  timing_window: "Any cool month"
+  followup_years: 5
+  safety_flags:
+  - "irritant_sap"
+  - "fragment_spreader"
+  - "do_not_mow"
+  notes:
+  - "On ground cover, pull every runner — each node re-roots. Bag cuttings; stems survive home compost and re-root in the finished pile."
+  - "For climbing trees, cut at ground level and chest height with a saw, then leave the aerial parts to die back; don't rip them off the bark."
+  - "Don't mow or cut-and-leave — fragments scatter and regenerate. This contradicts a common landscaper instinct."
+  - "Cut-stump herbicide: undiluted Garlon 3A (or 33% in water), Garlon 4 Ultra 20% v/v, or 25% glyphosate. Drill-and-fill for large mature vines on trees."
+  - "Sap causes contact dermatitis in ~10% of people; berries and foliage are toxic if ingested in quantity."
+  sources:
+  - "wric/Hedera_canariensis-helix-hibernica"
 ---
 
 # Hedera helix (English ivy)

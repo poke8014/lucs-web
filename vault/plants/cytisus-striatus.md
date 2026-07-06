@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_scrub, coastal_prairie, cismontane_woodland]
   jepson_regions: [Central West, Northwest, Southwest, Sonoran Desert]
   evaluated_on: 2005-03-18
+
+removal:
+  method: "cut_stump_herbicide"
+  timing_window: "May–June (before pods ripen)"
+  followup_years: 60
+  safety_flags:
+  - "do_not_burn"
+  notes:
+  - "Manage identically to Scotch broom — same hand-pull / wrench / cut-stump playbook."
+  - "Cut at the start of the dry season; paint the stump within minutes with Garlon 4 Ultra 1:4 in water (~20%) or 25% glyphosate."
+  - "Foliar option (active growth): triclopyr ester 0.75–1.5% + surfactant, or 1.5–2% glyphosate of 41% concentrate."
+  - "Soil disturbance triggers the long-lived seedbank — favor cut-stump over digging."
+  - "Don't burn — the seedbank germinates after fire."
+  sources:
+  - "wric/Cytisus"
+  - "ucipm-residential/brooms"
 ---
 
 # Cytisus striatus (Portuguese broom)

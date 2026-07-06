@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_bluff_scrub, coastal_scrub, chaparral, coastal_prairie, riparian_forest, sonoran_thorn_woodland, closed_cone_coniferous_forest]
   jepson_regions: [CA Floristic Province, Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-03-09
+
+removal:
+  method: "cut_stump_herbicide"
+  timing_window: "May–June (before pods ripen)"
+  followup_years: 30
+  safety_flags:
+  - "do_not_burn"
+  notes:
+  - "Hand-pull seedlings only; weed wrench or saw for established plants."
+  - "Cut at ground level at the end of the dry season, then paint the stump within minutes with Garlon 4 Ultra 20% v/v in water or undiluted Garlon 3A, or 25–50% glyphosate."
+  - "Foliar option (late summer / early fall): triclopyr ester 0.75–1.5% + surfactant, or 1.5–2% glyphosate of 41% concentrate."
+  - "Stems stay nearly leafless — flag cut stumps so you can find resprouts in subsequent visits."
+  - "Don't burn — seedbank germinates after fire. Plan 10+ years of annual seedling sweeps."
+  sources:
+  - "wric/Spartium"
+  - "ucipm-residential/brooms"
 ---
 
 # Spartium junceum (Spanish broom)

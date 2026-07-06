@@ -31,6 +31,22 @@ invasive:
   habitat_types: [coastal_bluff_scrub, coastal_scrub, coastal_prairie, meadow_seep, riparian_woodland, north_coast_coniferous_forest, closed_cone_coniferous_forest]
   jepson_regions: [Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-05-14
+
+removal:
+  method: "dig_rhizome_complete"
+  timing_window: "Any time (easier when soil is moist in winter)"
+  followup_years: 5
+  safety_flags:
+  - "spines_thorns"
+  - "fragment_spreader"
+  notes:
+  - "Wear heavy leather gloves and long sleeves — the leaf margins cut skin like razors."
+  - "Cut foliage low with a chainsaw or weed-eater first, then dig the entire crown and top section of roots with a Pulaski or mattock."
+  - "Detached plants re-root on moist soil — flip them upside-down to dry, or haul off-site."
+  - "Foliar glyphosate works after flowering when reserves move to rhizomes: 8% v/v low-volume is the best-tested rate; 2% v/v spot is the lighter option."
+  - "Every plant produces seed without a mate (apomixis) — one missed plume seeds a 20-mile radius."
+  sources:
+  - "wric/Cortaderia_jubata-selloana"
 ---
 
 # Cortaderia jubata (jubatagrass)

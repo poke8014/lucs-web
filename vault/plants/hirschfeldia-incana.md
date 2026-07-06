@@ -31,6 +31,20 @@ invasive:
   habitat_types: [coastal_bluff_scrub, coastal_scrub, sonoran_desert_scrub, chenopod_scrub, upper_sonoran_subshrub_scrub, chaparral, coastal_prairie, great_basin_grassland, vernal_pool, riparian_forest, riparian_woodland]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2004-03-10
+
+removal:
+  method: "hand_pull"
+  timing_window: "Spring (revisit every 3–4 weeks)"
+  followup_years: 10
+  safety_flags:
+  - "allergenic_pollen"
+  notes:
+  - "Pull or cultivate seedlings before seeds develop — this perennial leaves a root crown that can resprout, so dig the crown thoroughly."
+  - "Treat shortpod mustard as a different problem from black or garlic mustard — chlorsulfuron, which works on most mustards, explicitly fails on this species."
+  - "Glyphosate at 1–2 pt/acre only suppresses, not controls — plan repeat applications and combine with manual removal."
+  - "Catch seedlings early; established plants are much harder to knock back."
+  sources:
+  - "wric/Hirschfeldia"
 ---
 
 # Hirschfeldia incana (short-pod mustard)

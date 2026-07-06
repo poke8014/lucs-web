@@ -18,6 +18,23 @@ soil: []
 height_ft:
 width_ft:
 regions: []
+
+removal:
+  method: "dig_rhizome_complete"
+  timing_window: "April–October (active growth)"
+  followup_years: 5
+  safety_flags:
+  - "fragment_spreader"
+  - "do_not_mow"
+  notes:
+  - "Catch new patches small and grub them out — dig the entire plant including all rhizomes. Monitor for several months afterward."
+  - "Don't casually hoe or cultivate — chopping fragments rhizomes into pieces that re-establish. Hoeing followed by irrigation is essentially propagation."
+  - "Fix overwatering — wet conditions favor kyllinga. Reduce irrigation or improve drainage in low spots."
+  - "Landscape fabric with full overlap (covered with bark to slow UV breakdown) is the durable bed option. Organic mulch alone is generally not effective — rhizomes push through."
+  - "In turf: halosulfuron in two sequential applications is the most effective postemergent per UC IPM. Spot glyphosate kills surrounding turf — leaves bare spots needing overseeding."
+  - "Once kyllinga reaches ~40% of turf, eradication is impractical — plan complete renovation rather than chasing patches."
+  sources:
+  - "ucipm-residential/green-kyllinga"
 ---
 
 # Kyllinga brevifolia (green kyllinga)

@@ -31,6 +31,22 @@ invasive:
   habitat_types: [vernal_pool, marsh_swamp, riparian_forest, riparian_woodland, cismontane_woodland, pinyon_juniper_woodland, sonoran_thorn_woodland]
   jepson_regions: [Cascade Range, Central West, Great Valley, Northwest, Sierra Nevada, Southwest, Modoc Plateau, Sierra Nevada East, Desert Province, Mojave Desert, Sonoran Desert]
   evaluated_on: 2003-02-08
+
+removal:
+  method: "dig_rhizome_complete"
+  timing_window: "Late summer (rhizome resources low)"
+  followup_years: 10
+  safety_flags:
+  - "fragment_spreader"
+  - "do_not_burn"
+  notes:
+  - "Every rhizome fragment regrows — mechanical removal must extract the whole rhizome mass, not just the visible canes."
+  - "Cut all canes near the base with a chainsaw, then paint each fresh stump within 1–2 minutes with undiluted glyphosate concentrate — WRIC's gold-standard recipe, near-complete control with no resprouts."
+  - "Foliar follow-up on regrowth at 6–8 ft: 2% v/v glyphosate mid-summer to fall, after flowering. Plan 2–3 years of treatment for larger stands."
+  - "Don't compost or pile cut canes — every node re-roots in moist soil. Chip or burn on site."
+  - "Giant reed doesn't produce viable seed in North America — every infestation traces back to a transplanted rhizome or stem fragment."
+  sources:
+  - "wric/Arundo"
 ---
 
 # Arundo donax (giant reed)

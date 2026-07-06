@@ -31,6 +31,23 @@ invasive:
   habitat_types: [coastal_dunes, coastal_bluff_scrub, coastal_scrub, chaparral, riparian_woodland, broadleaved_upland_forest, north_coast_coniferous_forest]
   jepson_regions: [Cascade Range, Central West, Northwest, Sierra Nevada, Southwest]
   evaluated_on: 2003-08-11
+
+removal:
+  method: "cut_stump_herbicide"
+  timing_window: "Spring, or shortly after winter rain"
+  followup_years: 30
+  safety_flags:
+  - "spines_thorns"
+  - "do_not_burn"
+  notes:
+  - "Spines puncture standard gloves — wear heavy leather gloves and eye protection."
+  - "Hand-pull seedlings only. For established shrubs, cut at ground level before flowering, then paint the stump within minutes with Garlon 4 Ultra 25% in oil, undiluted Garlon 3A, or undiluted glyphosate concentrate."
+  - "Foliar (active growth, late summer / early fall): triclopyr ester 0.5–2% + surfactant, or 1.5–2% glyphosate of 41% concentrate."
+  - "Work in spring or shortly after winter rain — pods explode in summer heat and broadcast seed while you cut."
+  - "Don't burn alone — burning triggers a flush of seedling germination from the 30-year seedbank."
+  sources:
+  - "wric/Ulex"
+  - "ucipm-residential/brooms"
 ---
 
 # Ulex europaeus (gorse)
