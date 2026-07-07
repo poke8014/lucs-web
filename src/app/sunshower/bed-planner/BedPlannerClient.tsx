@@ -2,19 +2,24 @@
 
 import Link from 'next/link'
 import { useRouter, useSearchParams } from 'next/navigation'
-import { Suspense, useState } from 'react'
+import { Suspense, useEffect, useRef, useState } from 'react'
 import BaseMapStep from './BaseMapStep'
-import { defaultPlan } from './plan'
+import PathsStep from './PathsStep'
+import SectionsStep from './SectionsStep'
+import { createPersistentBlobStore } from './persistentBlobStore'
+import { useGardenPlans } from './useGardenPlans'
 import type { GardenPlan } from './types'
 
-// The bed-planner workspace shell. Five steps, freely revisitable via a pill
-// nav + `?view=<step>` deep links — a workspace, not a wizard (same pattern as
-// the site-inventory walkthrough). Steps 2–5 are placeholders that later units
-// replace; only step 1 (base map) is live in this unit.
+// The bed-planner workspace shell. Five steps, freely revisitable via a pill nav
+// + `?view=<step>` deep links — a workspace, not a wizard (same pattern as the
+// site-inventory walkthrough). Steps 4–5 are placeholders that later units
+// replace; 1–3 (base map / paths / sections) are live.
 //
-// Plan state is plain React state for now: `useState(defaultPlan)`. The
-// integration pass swaps this for unit A's `useGardenPlans` hook without
-// touching the steps — each step takes `(plan, onChange)`, so the seam is clean.
+// Plan state lives in unit A's `useGardenPlans` hook (IndexedDB, debounced
+// saves, corrupt-fallback to memory). Each step takes `(plan, onChange)`, so the
+// persistence seam stays behind this component — the steps never learn where the
+// plan lives. A compact plan strip in the header carries the multi-draft, fork,
+// and "not saving" surface the hook exposes.
 
 const STEPS = [
   { id: 'base-map', label: 'Base map' },
@@ -31,6 +36,8 @@ function isStepId(value: string | null): value is StepId {
   return value !== null && (STEP_IDS as readonly string[]).includes(value)
 }
 
+const FIRST_PLAN_NAME = 'My first plan'
+
 export default function BedPlannerClient() {
   return (
     <Suspense fallback={null}>
@@ -45,12 +52,47 @@ function BedPlannerInner() {
   const viewParam = searchParams.get('view')
   const current: StepId = isStepId(viewParam) ? viewParam : 'base-map'
 
-  // One plan in memory for now (persistence + multi-draft forking is unit A's
-  // integration pass). defaultPlan() gives the canvas something framed to start.
-  const [plan, setPlan] = useState<GardenPlan>(defaultPlan)
+  const {
+    plans,
+    activePlan,
+    activeId,
+    hydrated,
+    storageStatus,
+    setActiveId,
+    createPlan,
+    updatePlan,
+    fork,
+    store,
+  } = useGardenPlans()
+
+  // Once hydration settles with no plans on disk, seed a friendly first one so
+  // the canvas always has something framed. The guard makes it fire exactly once
+  // (a second render sees plans.length > 0). Runs after mount, never on the
+  // server — SSR and first client render both show the loading shell.
+  const seededFirst = useRef(false)
+  useEffect(() => {
+    if (!hydrated || seededFirst.current) return
+    seededFirst.current = true
+    if (plans.length === 0) createPlan(FIRST_PLAN_NAME)
+  }, [hydrated, plans.length, createPlan])
+
+  // One IndexedDB-backed image store for the session, over the hook's live store
+  // ref (`store` swaps from memory to IDB once the async open resolves; the
+  // adapter reads through it, so building it up front is fine). A lazy useState
+  // gives a stable value that's render-safe to read (unlike a ref). Passed to
+  // BaseMapStep so uploaded base maps persist across reloads; disposed on unmount
+  // to release its cached object-URLs.
+  const [blobStore] = useState(() => createPersistentBlobStore(store))
+  useEffect(() => () => blobStore.dispose(), [blobStore])
 
   function goToStep(id: StepId) {
     router.replace(`/sunshower/bed-planner?view=${id}`, { scroll: false })
+  }
+
+  // A stable onChange for the active plan — patches flow through the hook, which
+  // restamps updatedAt and schedules a debounced save.
+  function onPlanChange(next: GardenPlan) {
+    updatePlan(next.id, next)
   }
 
   return (
@@ -82,39 +124,181 @@ function BedPlannerInner() {
           </p>
         </header>
 
-        <StepNav current={current} onNavigate={goToStep} />
+        {!hydrated || !activePlan ? (
+          <LoadingShell />
+        ) : (
+          <>
+            <PlanStrip
+              plans={plans}
+              activePlan={activePlan}
+              activeId={activeId}
+              storageStatus={storageStatus}
+              onSelect={setActiveId}
+              onRename={(name) => updatePlan(activePlan.id, { name })}
+              onNew={() => createPlan(defaultNewName(plans.length))}
+              onFork={() => fork(activePlan.id)}
+            />
 
-        <div className="mt-2">
-          {current === 'base-map' && <BaseMapStep plan={plan} onChange={setPlan} />}
-          {current === 'paths' && (
-            <StepPlaceholder
-              title="Paths"
-              blurb="Draw the paths you already walk, then the ones you'd like — they carve the yard into rooms. Built by a later unit."
-            />
-          )}
-          {current === 'sections' && (
-            <StepPlaceholder
-              title="Sections"
-              blurb="Divide the rooms the paths made into named beds, each with its own conditions, density style, and build season. Built by a later unit."
-            />
-          )}
-          {current === 'plant' && (
-            <StepPlaceholder
-              title="Plant"
-              blurb="Fill each section with natives — placed as individuals, drifts, or matrix fills, with quantities worked out for you. Built by a later unit."
-            />
-          )}
-          {current === 'check' && (
-            <StepPlaceholder
-              title="Check & preview"
-              blurb="A gentle design check keeps the result looking intentional, and a season scrubber shows what's in bloom — and where the shadows fall. Built by a later unit."
-            />
-          )}
-        </div>
+            <StepNav current={current} onNavigate={goToStep} />
+
+            <div className="mt-2">
+              {current === 'base-map' && (
+                <BaseMapStep
+                  plan={activePlan}
+                  onChange={onPlanChange}
+                  blobStore={blobStore}
+                />
+              )}
+              {current === 'paths' && <PathsStep plan={activePlan} onChange={onPlanChange} />}
+              {current === 'sections' && <SectionsStep plan={activePlan} onChange={onPlanChange} />}
+              {current === 'plant' && (
+                <StepPlaceholder
+                  title="Plant"
+                  blurb="Fill each section with natives — placed as individuals, drifts, or matrix fills, with quantities worked out for you. Built by a later unit."
+                />
+              )}
+              {current === 'check' && (
+                <StepPlaceholder
+                  title="Check & preview"
+                  blurb="A gentle design check keeps the result looking intentional, and a season scrubber shows what's in bloom — and where the shadows fall. Built by a later unit."
+                />
+              )}
+            </div>
+          </>
+        )}
       </div>
     </main>
   )
 }
+
+function defaultNewName(existingCount: number): string {
+  return `Plan ${existingCount + 1}`
+}
+
+// ── Plan strip: active-plan name, switcher, new, fork, save notice ────────────
+
+/**
+ * The compact multi-draft header. Inline-rename the active plan; switch between
+ * drafts when there's more than one; start a fresh plan; and one-tap "try a
+ * variant" to fork the active plan (cheap iteration is first-class — 5–20 drafts
+ * per project is normal). When the store fell back to memory, a quiet notice
+ * says edits live only in this tab.
+ */
+function PlanStrip({
+  plans,
+  activePlan,
+  activeId,
+  storageStatus,
+  onSelect,
+  onRename,
+  onNew,
+  onFork,
+}: {
+  plans: GardenPlan[]
+  activePlan: GardenPlan
+  activeId: string | null
+  storageStatus: 'idb' | 'memory'
+  onSelect: (id: string) => void
+  onRename: (name: string) => void
+  onNew: () => void
+  onFork: () => void
+}) {
+  return (
+    <div className="mb-5 rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/70 px-3 py-2.5">
+      <div className="flex flex-wrap items-center gap-2">
+        {plans.length > 1 && (
+          <label className="sr-only" htmlFor="plan-switcher">
+            Switch plan
+          </label>
+        )}
+        {plans.length > 1 && (
+          <select
+            id="plan-switcher"
+            value={activeId ?? ''}
+            onChange={(e) => onSelect(e.target.value)}
+            className="max-w-[10rem] rounded-md border border-[#2a1d10]/25 bg-white/70 px-2 py-1.5 text-sm text-[#2a1d10] focus:border-[#2a1d10]/60 focus:outline-none"
+          >
+            {plans.map((p) => (
+              <option key={p.id} value={p.id}>
+                {p.name}
+              </option>
+            ))}
+          </select>
+        )}
+
+        <PlanNameField key={activePlan.id} name={activePlan.name} onRename={onRename} />
+
+        <div className="ml-auto flex items-center gap-1.5">
+          <button
+            type="button"
+            onClick={onFork}
+            title="Duplicate this plan to try a variation"
+            className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df] px-2.5 py-1.5 text-sm text-[#2a1d10] hover:border-[#2a1d10]/60"
+          >
+            Try a variant
+          </button>
+          <button
+            type="button"
+            onClick={onNew}
+            className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df] px-2.5 py-1.5 text-sm text-[#2a1d10] hover:border-[#2a1d10]/60"
+          >
+            New plan
+          </button>
+        </div>
+      </div>
+
+      {storageStatus === 'memory' && (
+        <p className="mt-2 text-xs text-[#7a3b12]">
+          Not saving — changes live only in this tab. (Your browser blocked
+          storage, so a reload will start fresh. Export a plan to keep it.)
+        </p>
+      )}
+    </div>
+  )
+}
+
+/** Inline-editable plan name — commits on blur / Enter, reverts on Escape. */
+function PlanNameField({ name, onRename }: { name: string; onRename: (name: string) => void }) {
+  const [draft, setDraft] = useState(name)
+
+  function commit() {
+    const trimmed = draft.trim()
+    if (trimmed && trimmed !== name) onRename(trimmed)
+    else setDraft(name) // empty or unchanged — snap back to the stored name
+  }
+
+  return (
+    <input
+      type="text"
+      value={draft}
+      onChange={(e) => setDraft(e.target.value)}
+      onBlur={commit}
+      onKeyDown={(e) => {
+        if (e.key === 'Enter') {
+          e.preventDefault()
+          e.currentTarget.blur()
+        } else if (e.key === 'Escape') {
+          setDraft(name)
+          e.currentTarget.blur()
+        }
+      }}
+      aria-label="Plan name"
+      className="min-w-0 max-w-[16rem] flex-1 rounded-md border border-transparent bg-transparent px-1.5 py-1 text-base font-medium text-[#2a1d10] hover:border-[#2a1d10]/20 focus:border-[#2a1d10]/40 focus:bg-white/70 focus:outline-none"
+    />
+  )
+}
+
+// ── Loading + placeholder shells ──────────────────────────────────────────────
+
+function LoadingShell() {
+  return (
+    <div className="rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/60 p-8 text-center">
+      <p className="text-sm text-[#2a1d10]/60">Opening your plans…</p>
+    </div>
+  )
+}
+
+// ── Step nav (unchanged) ──────────────────────────────────────────────────────
 
 function StepNav({
   current,

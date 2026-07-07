@@ -32,16 +32,28 @@ const CLOSE_TOLERANCE_FT = 3 // click within this of the first corner to close a
 export interface BaseMapStepProps {
   plan: GardenPlan
   onChange: (next: GardenPlan) => void
+  /**
+   * Where uploaded base-map images live. Unit D passes the IndexedDB-backed
+   * store (persistentBlobStore) so images survive a reload; when omitted this
+   * step owns a session-only in-memory one (its unit-B default, still handy for
+   * standalone use). Interface unchanged — components only ever see keys + URLs.
+   */
+  blobStore?: BlobStore
 }
 
-export default function BaseMapStep({ plan, onChange }: BaseMapStepProps) {
+export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepProps) {
   const baseMap = plan.baseMap
 
-  // One image store for the session. The integration pass swaps this for unit
-  // A's IndexedDB-backed BlobStore without touching anything below.
-  const blobStoreRef = useRef<BlobStore & { dispose: () => void }>(null)
-  if (!blobStoreRef.current) blobStoreRef.current = createMemoryBlobStore()
-  useEffect(() => () => blobStoreRef.current?.dispose(), [])
+  // A session-only in-memory fallback we own — used only when the parent didn't
+  // pass a store. A lazy useState makes it render-safe to read (a bare Map + a
+  // couple closures, no side effects until an image is stored). Disposed on
+  // unmount; the parent-owned store is disposed by the parent.
+  const [ownedStore] = useState(() => createMemoryBlobStore())
+  useEffect(() => {
+    if (blobStore) return // parent owns disposal when it supplied the store
+    return () => ownedStore.dispose()
+  }, [blobStore, ownedStore])
+  const activeBlobStore: BlobStore = blobStore ?? ownedStore
 
   // Seed the north bearing once from the read-only SiteProfile. We only read
   // the profile — never write it back (spec: one-way flow).
@@ -110,7 +122,7 @@ export default function BaseMapStep({ plan, onChange }: BaseMapStepProps) {
 
       <OnRampChooser
         baseMap={baseMap}
-        blobStore={blobStoreRef.current}
+        blobStore={activeBlobStore}
         onBaseMap={patchBaseMap}
       />
 
@@ -135,7 +147,7 @@ export default function BaseMapStep({ plan, onChange }: BaseMapStepProps) {
             className="h-full w-full"
             onBackgroundPointerDown={onCanvasTap}
           >
-            <BaseMapImageLayer baseMap={baseMap} blobStore={blobStoreRef.current} />
+            <BaseMapImageLayer baseMap={baseMap} blobStore={activeBlobStore} />
             <BoundaryObstructionLayer
               baseMap={baseMap}
               tool={tool}
