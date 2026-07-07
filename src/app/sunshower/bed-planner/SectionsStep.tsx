@@ -4,9 +4,12 @@ import { useEffect, useMemo, useState } from 'react'
 import { loadProfile } from '../site-inventory/profile'
 import type { SiteProfile, SunTier } from '../site-inventory/types'
 import CanvasStage, { useStage } from './CanvasStage'
+import SunSuggestion from './SunSuggestion'
 import { estimateSection, DEFAULT_UNIT_PRICE_USD, type DensityStyle } from './estimate'
 import { polygonArea, polygonCentroid } from './geometry'
 import { newId } from './plan'
+import { suggestSunTier } from './sunHours'
+import type { Obstruction } from './types'
 import type { GardenPlan, PhaseState, Point, Section } from './types'
 
 // ── Flow step 3: sections ────────────────────────────────────────────────────
@@ -241,6 +244,8 @@ export default function SectionsStep({ plan, onChange }: SectionsStepProps) {
         <SectionDetail
           section={selected}
           profile={profile}
+          obstructions={baseMap.obstructions}
+          northBearingDeg={baseMap.northBearingDeg ?? 0}
           onUpdate={(patch) => updateSection(selected.id, patch)}
           onDelete={() => deleteSection(selected.id)}
         />
@@ -423,16 +428,38 @@ function SectionVertexHandle({
 function SectionDetail({
   section,
   profile,
+  obstructions,
+  northBearingDeg,
   onUpdate,
   onDelete,
 }: {
   section: Section
   profile: SiteProfile | null
+  obstructions: Obstruction[]
+  northBearingDeg: number
   onUpdate: (patch: Partial<Section>) => void
   onDelete: () => void
 }) {
   const zones = profile?.sunZones ?? []
   const areaFt2 = useMemo(() => polygonArea(section.polygon), [section.polygon])
+
+  // The sun/shade timelapse's payoff (unit H): a suggested tier from computed
+  // sun-hours. Advisory only — accepting sets sunSource 'simulated'; a stated
+  // label is never silently overwritten (the card handles the comparison copy).
+  const sunSuggestion = useMemo(
+    () => suggestSunTier(section, obstructions, northBearingDeg),
+    [section, obstructions, northBearingDeg],
+  )
+
+  function acceptSuggestedTier(tier: SunTier) {
+    // Accepting the model's read: set the label + mark it simulated, and detach
+    // any linked walkthrough zone so 'stated' and 'simulated' never disagree
+    // under one label.
+    onUpdate({
+      sunZoneId: undefined,
+      labels: { ...section.labels, sun: tier, sunSource: 'simulated' },
+    })
+  }
 
   // Editable "rough" unit price, per section, seeded at the container-class
   // default. Kept as a string so the field can be cleared while typing.
@@ -513,6 +540,19 @@ function SectionDetail({
             </Pill>
           ))}
         </div>
+
+        {/* The sun/shade timelapse's advisory read — sits next to the stated
+            label; accepting it marks the source 'simulated', never overwriting
+            silently. Only shows once the section has a real polygon to sample. */}
+        {sunSuggestion && (
+          <div className="mt-3">
+            <SunSuggestion
+              suggestion={sunSuggestion}
+              statedTier={section.labels.sunSource === 'simulated' ? undefined : section.labels.sun}
+              onAccept={acceptSuggestedTier}
+            />
+          </div>
+        )}
       </FieldGroup>
 
       <FieldGroup label="Moisture" hint={seededHint(profile, 'moisture')}>

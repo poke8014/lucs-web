@@ -98,6 +98,12 @@ export default function CarePage() {
             >
               Spot-cleanup unwanted plants →
             </Link>
+            <Link
+              href="/sunshower/bed-planner"
+              className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df]/70 px-4 py-2 text-sm font-medium text-[#2a1d10] hover:bg-[#fff6df]"
+            >
+              Plan a new bed →
+            </Link>
           </div>
         </div>
       </div>

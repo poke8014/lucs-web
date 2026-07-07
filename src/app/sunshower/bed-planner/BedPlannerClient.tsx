@@ -7,20 +7,30 @@ import BaseMapStep from './BaseMapStep'
 import PathsStep from './PathsStep'
 import SectionsStep from './SectionsStep'
 import PlantStep from './PlantStep'
+import CheckStep from './CheckStep'
+import MobileReadView from './MobileReadView'
 import { createPersistentBlobStore } from './persistentBlobStore'
+import {
+  buildPlanExport,
+  downloadJson,
+  importErrorMessage,
+  planFilename,
+  readImportedFile,
+} from './planExportUi'
 import { useGardenPlans } from './useGardenPlans'
 import type { GardenPlan } from './types'
 
 // The bed-planner workspace shell. Five steps, freely revisitable via a pill nav
 // + `?view=<step>` deep links — a workspace, not a wizard (same pattern as the
-// site-inventory walkthrough). Steps 4–5 are placeholders that later units
-// replace; 1–3 (base map / paths / sections) are live.
+// site-inventory walkthrough). All five are live: base map / paths / sections /
+// plant / check.
 //
 // Plan state lives in unit A's `useGardenPlans` hook (IndexedDB, debounced
 // saves, corrupt-fallback to memory). Each step takes `(plan, onChange)`, so the
 // persistence seam stays behind this component — the steps never learn where the
 // plan lives. A compact plan strip in the header carries the multi-draft, fork,
-// and "not saving" surface the hook exposes.
+// export/import, and "not saving" surface the hook exposes. Below the `sm`
+// breakpoint the editor is swapped for a read-only in-yard reference (unit I).
 
 const STEPS = [
   { id: 'base-map', label: 'Base map' },
@@ -63,8 +73,14 @@ function BedPlannerInner() {
     createPlan,
     updatePlan,
     fork,
+    addPlan,
     store,
   } = useGardenPlans()
+
+  // A transient notice for the export/import affordances (image-omitted on
+  // export; a friendly error or success on import). Auto-clears on the next
+  // action; nothing here ever blocks.
+  const [ioNotice, setIoNotice] = useState<{ tone: 'ok' | 'warn'; text: string } | null>(null)
 
   // Once hydration settles with no plans on disk, seed a friendly first one so
   // the canvas always has something framed. The guard makes it fire exactly once
@@ -94,6 +110,44 @@ function BedPlannerInner() {
   // restamps updatedAt and schedules a debounced save.
   function onPlanChange(next: GardenPlan) {
     updatePlan(next.id, next)
+  }
+
+  // Export the active plan as JSON (base-map image inlined when small; omitted
+  // with a note otherwise). Reads the image through the live store.
+  async function onExport() {
+    if (!activePlan) return
+    setIoNotice(null)
+    const { json, imageOmitted } = await buildPlanExport(activePlan, store.current)
+    downloadJson(json, planFilename(activePlan.name))
+    if (imageOmitted) {
+      setIoNotice({
+        tone: 'warn',
+        text: 'Exported the plan — the base-map image was too big to include, so it stayed behind. The geometry is all there.',
+      })
+    }
+  }
+
+  // Import a plan from a JSON file → validate → add as a new active plan. If the
+  // file inlined a base-map image, restore it under the plan's imageKey.
+  async function onImportFile(file: File) {
+    setIoNotice(null)
+    const result = await readImportedFile(file)
+    if (!result.ok) {
+      setIoNotice({ tone: 'warn', text: importErrorMessage(result.error) })
+      return
+    }
+    const added = addPlan(result.plan)
+    // Restore an inlined base-map image so the imported plan shows its map.
+    const key = added.baseMap.imageKey
+    if (result.imageDataUrl && key) {
+      try {
+        const blob = await (await fetch(result.imageDataUrl)).blob()
+        await store.current.putBlob(key, blob)
+      } catch {
+        // A lost image is cosmetic — the plan still imported fine.
+      }
+    }
+    setIoNotice({ tone: 'ok', text: `Imported “${added.name}” as a new plan.` })
   }
 
   return (
@@ -138,27 +192,46 @@ function BedPlannerInner() {
               onRename={(name) => updatePlan(activePlan.id, { name })}
               onNew={() => createPlan(defaultNewName(plans.length))}
               onFork={() => fork(activePlan.id)}
+              onExport={onExport}
+              onImportFile={onImportFile}
+              ioNotice={ioNotice}
             />
 
-            <StepNav current={current} onNavigate={goToStep} />
+            {/* Mobile: a read-only, in-yard reference. Editing is desktop/tablet
+                work, so below `sm` we hide the canvas editor entirely. */}
+            <div className="sm:hidden">
+              <MobileReadView
+                plans={plans}
+                activePlan={activePlan}
+                activeId={activeId}
+                onSelect={setActiveId}
+              />
+            </div>
 
-            <div className="mt-2">
-              {current === 'base-map' && (
-                <BaseMapStep
-                  plan={activePlan}
-                  onChange={onPlanChange}
-                  blobStore={blobStore}
-                />
-              )}
-              {current === 'paths' && <PathsStep plan={activePlan} onChange={onPlanChange} />}
-              {current === 'sections' && <SectionsStep plan={activePlan} onChange={onPlanChange} />}
-              {current === 'plant' && <PlantStep plan={activePlan} onChange={onPlanChange} />}
-              {current === 'check' && (
-                <StepPlaceholder
-                  title="Check & preview"
-                  blurb="A gentle design check keeps the result looking intentional, and a season scrubber shows what's in bloom — and where the shadows fall. Built by a later unit."
-                />
-              )}
+            {/* Desktop / tablet: the full step-by-step editor. */}
+            <div className="hidden sm:block">
+              <StepNav current={current} onNavigate={goToStep} />
+
+              <div className="mt-2">
+                {current === 'base-map' && (
+                  <BaseMapStep
+                    plan={activePlan}
+                    onChange={onPlanChange}
+                    blobStore={blobStore}
+                  />
+                )}
+                {current === 'paths' && <PathsStep plan={activePlan} onChange={onPlanChange} />}
+                {current === 'sections' && <SectionsStep plan={activePlan} onChange={onPlanChange} />}
+                {current === 'plant' && <PlantStep plan={activePlan} onChange={onPlanChange} />}
+                {current === 'check' && (
+                  <CheckStep
+                    plan={activePlan}
+                    onChange={onPlanChange}
+                    blobStore={blobStore}
+                    onJumpToSection={() => goToStep('sections')}
+                  />
+                )}
+              </div>
             </div>
           </>
         )}
@@ -189,6 +262,9 @@ function PlanStrip({
   onRename,
   onNew,
   onFork,
+  onExport,
+  onImportFile,
+  ioNotice,
 }: {
   plans: GardenPlan[]
   activePlan: GardenPlan
@@ -198,7 +274,12 @@ function PlanStrip({
   onRename: (name: string) => void
   onNew: () => void
   onFork: () => void
+  onExport: () => void
+  onImportFile: (file: File) => void
+  ioNotice: { tone: 'ok' | 'warn'; text: string } | null
 }) {
+  const fileInputRef = useRef<HTMLInputElement>(null)
+
   return (
     <div className="mb-5 rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/70 px-3 py-2.5">
       <div className="flex flex-wrap items-center gap-2">
@@ -224,7 +305,7 @@ function PlanStrip({
 
         <PlanNameField key={activePlan.id} name={activePlan.name} onRename={onRename} />
 
-        <div className="ml-auto flex items-center gap-1.5">
+        <div className="ml-auto flex flex-wrap items-center gap-1.5">
           <button
             type="button"
             onClick={onFork}
@@ -240,8 +321,41 @@ function PlanStrip({
           >
             New plan
           </button>
+          <button
+            type="button"
+            onClick={onExport}
+            title="Download this plan as a JSON file you can keep or share"
+            className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df] px-2.5 py-1.5 text-sm text-[#2a1d10] hover:border-[#2a1d10]/60"
+          >
+            Export
+          </button>
+          <button
+            type="button"
+            onClick={() => fileInputRef.current?.click()}
+            title="Load a plan from a JSON file as a new draft"
+            className="rounded-md border border-[#2a1d10]/25 bg-[#fff6df] px-2.5 py-1.5 text-sm text-[#2a1d10] hover:border-[#2a1d10]/60"
+          >
+            Import
+          </button>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="application/json,.json"
+            className="hidden"
+            onChange={(e) => {
+              const file = e.target.files?.[0]
+              if (file) onImportFile(file)
+              e.target.value = '' // let the same file re-trigger later
+            }}
+          />
         </div>
       </div>
+
+      {ioNotice && (
+        <p className={'mt-2 text-xs ' + (ioNotice.tone === 'ok' ? 'text-emerald-800' : 'text-[#7a3b12]')}>
+          {ioNotice.text}
+        </p>
+      )}
 
       {storageStatus === 'memory' && (
         <p className="mt-2 text-xs text-[#7a3b12]">
@@ -331,17 +445,5 @@ function StepNav({
         })}
       </ol>
     </div>
-  )
-}
-
-function StepPlaceholder({ title, blurb }: { title: string; blurb: string }) {
-  return (
-    <section className="rounded-lg border border-dashed border-[#2a1d10]/25 bg-[#fff6df]/60 p-8 text-center">
-      <h2 className="font-serif text-2xl text-[#2a1d10]">{title}</h2>
-      <p className="mx-auto mt-2 max-w-md text-sm text-[#2a1d10]/70">{blurb}</p>
-      <p className="mt-4 text-xs uppercase tracking-[0.14em] text-[#2a1d10]/45">
-        Coming soon
-      </p>
-    </section>
   )
 }

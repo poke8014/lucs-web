@@ -762,6 +762,12 @@ function ComingNextSection() {
           >
             Map your yard first →
           </Link>
+          <Link
+            href="/sunshower/bed-planner"
+            className="font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
+          >
+            Cleared and ready? Lay out your beds →
+          </Link>
         </p>
       </div>
     </section>

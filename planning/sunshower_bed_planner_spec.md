@@ -1,6 +1,6 @@
 # Sunshower — Phase 3 Bed Layout Planner (build spec)
 
-> **Status: SPEC (2026-07-05; scope decisions signed off 2026-07-06), unowned — dispatch-ready.** Written for future agents, modeled on [sunshower_site_inventory_mvp.md](sunshower_site_inventory_mvp.md) (spec → build record). Both formerly-⚠️-proposed scope decisions (2D-edit/3D-view split, placement kinds) were **signed off by Luc 2026-07-06**, with a re-scope at sign-off: the **grown-in 3D view left this spec** (its own requirement — [backlog → App/UI](sunshower_backlog.md)) and the **sun/shade seasonal timelapse came in** (unit H). No open questions remain; everything traces to committed direction, shipped code, or vault sources. Follow the **start-task** skill before picking up a work unit, and update this doc as units ship.
+> **Status: BUILT (spec'd 2026-07-05; scope decisions signed off 2026-07-06; all units A–I built 2026-07-06/07 on branch `feat/bed-planner`).** Written for future agents, modeled on [sunshower_site_inventory_mvp.md](sunshower_site_inventory_mvp.md) (spec → build record). Both formerly-⚠️-proposed scope decisions (2D-edit/3D-view split, placement kinds) were **signed off by Luc 2026-07-06**, with a re-scope at sign-off: the **grown-in 3D view left this spec** (its own requirement — [backlog → App/UI](sunshower_backlog.md)) and the **sun/shade seasonal timelapse came in** (unit H). Built agent-sized per the §Work breakdown rounds; all four gates (`lint`/`typecheck`/`test`/`build`) green at closeout. See the **Build record** under §Work breakdown for how the rounds ran and the two S0 spike verdicts.
 
 **User-facing goal:** a user who has finished (or partially finished) the site-inventory walkthrough turns their yard into a plan they can actually execute: a base map divided by paths into named sections, each section labeled with its conditions, assigned a density style and a build season, and filled with placed native plants — with quantities, a design checker that keeps the result looking intentional, and a season scrubber whose **sun/shade timelapse** shows how light actually moves across the yard through the year, cutting the ambiguity a careful user would otherwise resolve by watching their yard for four seasons before planting. Plans are cheap to fork and revise; nothing is ever "finalized."
 
@@ -274,6 +274,17 @@ Same round structure as the prior MVPs. Ship checklist per unit: `npm run lint &
 **MVP line: A–E + H + I** = map → paths → sections → plants → quantities, persisted, forkable, exportable — with the sun/shade timelapse, since cutting the track-your-sun-for-a-year ambiguity is this stage's necessary visualization (Luc 2026-07-06). **F–G** make it read-as-intentional (the positioning) — strongly recommended before calling Phase 3 "open." The grown-in 3D view is no longer in this spec ([backlog → App/UI](sunshower_backlog.md)).
 
 Rounds: **1:** A ∥ B ∥ C (H's S0 spike can start here too) → **2:** D → E ∥ H → **3:** F ∥ G → **4:** I.
+
+### Build record (all units A–I, 2026-07-06/07)
+
+Rounds ran as spec'd — **1:** A ∥ B ∥ C → **2:** D → E ∥ H → **3:** F ∥ G → **4:** I — each unit agent-sized, all four gates (`lint`/`typecheck`/`test`/`build`) green at closeout.
+
+- **Unit H — S0 spike verdict (no degradation needed):** hand-rolled NOAA solar-position math (no new dependency) lands within ~1° of San Jose reference values — summer-solstice noon **76.1°** (vs ≈76), winter-solstice **29.3°** (vs ≈29), equinox **51.8/52.2°** (vs ≈53). Perf headroom was ample: the full 12-combo shadow scrub ran in **0.07 ms** and a whole-plan sun suggestion in **~6 ms** at the 10,000 sq ft worst case, so the planned noon-only degradation path was never needed — the full season × time-of-day timelapse ships.
+- **Unit B — address-import spike verdict (ships best-effort):** Nominatim geocode proved reliable; Overpass building-footprint fetches were intermittent. So the address path ships **best-effort**, with a friendly fallback to the address-free on-ramps (image upload, rectangle) when a footprint doesn't come back. The privacy contract held throughout — nothing address-derived is persisted; the geometry a saved plan carries is de-identified.
+- **Deviations from spec:**
+  - **E** extracted `effortBandFor` / `costBand` out of `estimate.ts` (behavior-preserving refactor — the placement UI and the estimate math now share the banding).
+  - **F**'s sightline / utility rules are **label-level** (they read section/annotation labels, not traced geometry against a viewshed) — documented inline in `checks/rules.ts`.
+  - **C**'s layer-role heuristic marks **all** fallback placement-kind suggestions `confidence: 'low'`, pending the sociability backfill that will let it speak with confidence (schema field exists; backfill tracked on the backlog).
 
 ## Explicitly deferred (keep on the backlog)
 
