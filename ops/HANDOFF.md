@@ -23,6 +23,7 @@ Recurring workflows are packaged as project skills in [.claude/skills/](../.clau
 6. **Firecrawl credits are money.** Estimate request count, prefer structured exports over page scrapes, confirm with Luc above ~20 requests (**sunshower-scrape** skill).
 7. **Luc's personal yard notes never enter `vault/`.** They're future blog material.
 8. **v1 is CA-only, data is South Bay-scoped.** Resist "for other states later" data-model decisions and statewide ingest completionism ("RPRP scoping").
+9. **Nothing address-derived persists (bed planner, 2026-07-07).** The planner's address import and sun simulation never store an address, lat/lng, or parcel id — saved `GardenPlan`s carry de-identified feet-space geometry only, and all solar math runs on a fixed regional latitude constant (South Bay v1). Don't "improve" sun accuracy by persisting user coordinates; the privacy contract in [planning/sunshower_bed_planner_spec.md](../planning/sunshower_bed_planner_spec.md) is a hard requirement.
 
 ## Decisions and why
 

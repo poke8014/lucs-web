@@ -131,7 +131,7 @@ Full list in [resources.md](resources.md). Highest priority:
 
 Help users lay out beds and place plants thoughtfully, accounting for site conditions, mature plant size, bloom succession, and visual structure.
 
-**Build spec (2026-07-05):** [../sunshower_bed_planner_spec.md](../sunshower_bed_planner_spec.md) — base map, paths-first sectioning, per-section density style + phase order, layered placement (individual/drift/matrixFill), plan checker, season scrubbing, three.js grown-in view. Agent-sized work units A–I; the subsections below remain the phase's concept-level framing.
+**Built (2026-07-07):** the bed planner ships at [/sunshower/bed-planner](../../src/app/sunshower/bed-planner) — base map (image-upload / address-import / rectangle on-ramps), paths-first sectioning, per-section density style + phase order, layered placement (individual/drift/matrixFill) with quantities, a plan checker, and a season scrubber whose **sun/shade timelapse** replaces the year of yard-watching. Multi-draft, forkable, JSON export/import; a mobile read-mode for the nursery and the yard. Spec + build record (incl. the unit-H solar-math and unit-B address-import spike verdicts): [../sunshower_bed_planner_spec.md](../sunshower_bed_planner_spec.md), units A–I. The grown-in three.js view was split out at sign-off into its own requirement ([backlog → App/UI](../sunshower_backlog.md)); the subsections below remain the phase's concept-level framing.
 
 ### Garden layout planner
 

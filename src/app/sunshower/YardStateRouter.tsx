@@ -23,6 +23,7 @@ const OPTIONS: Option[] = [
   { label: 'Partially planted, needs help', next: 'Selective cleanup', href: routeForYardState('partial') },
   { label: 'Established, just want to care for it', next: 'Ongoing care', href: routeForYardState('established') },
   { label: 'Ready to pick plants', next: 'Plant selector', href: '/sunshower/plant-selector' },
+  { label: 'Ready to plan your beds', next: 'Bed planner', href: '/sunshower/bed-planner' },
 ]
 
 const PHASE_IN_MS = 2150

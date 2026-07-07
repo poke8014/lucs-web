@@ -230,12 +230,18 @@ export default function SummaryStep({
           goal archetype picks the California plant-community palette —
           meadow, chaparral, oak woodland — that fits your yard&rsquo;s bones.
         </p>
-        <p className="mt-3">
+        <p className="mt-3 flex flex-wrap gap-x-5 gap-y-2">
           <Link
             href="/sunshower/plant-selector"
             className="text-sm font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
           >
             Browse the plants that belong where you live →
+          </Link>
+          <Link
+            href="/sunshower/bed-planner"
+            className="text-sm font-medium text-emerald-900 underline underline-offset-4 hover:text-emerald-700"
+          >
+            Your profile feeds your plan — start laying out beds →
           </Link>
         </p>
       </div>
