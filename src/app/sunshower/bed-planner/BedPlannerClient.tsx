@@ -6,6 +6,7 @@ import { Suspense, useEffect, useRef, useState } from 'react'
 import BaseMapStep from './BaseMapStep'
 import PathsStep from './PathsStep'
 import SectionsStep from './SectionsStep'
+import PlantStep from './PlantStep'
 import { createPersistentBlobStore } from './persistentBlobStore'
 import { useGardenPlans } from './useGardenPlans'
 import type { GardenPlan } from './types'
@@ -151,12 +152,7 @@ function BedPlannerInner() {
               )}
               {current === 'paths' && <PathsStep plan={activePlan} onChange={onPlanChange} />}
               {current === 'sections' && <SectionsStep plan={activePlan} onChange={onPlanChange} />}
-              {current === 'plant' && (
-                <StepPlaceholder
-                  title="Plant"
-                  blurb="Fill each section with natives — placed as individuals, drifts, or matrix fills, with quantities worked out for you. Built by a later unit."
-                />
-              )}
+              {current === 'plant' && <PlantStep plan={activePlan} onChange={onPlanChange} />}
               {current === 'check' && (
                 <StepPlaceholder
                   title="Check & preview"

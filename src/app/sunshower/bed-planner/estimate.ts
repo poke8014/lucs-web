@@ -64,6 +64,33 @@ const EFFORT_BANDS: { max: number; label: string }[] = [
   { max: Infinity, label: 'a few weekends' },
 ]
 
+/**
+ * The plain time-feel for a plant count ("roughly a weekend"), without the
+ * count prefix. Exported so the placement-based quantities panel (unit E) reads
+ * off the same bands the area-based estimate uses — one effort vocabulary.
+ */
+export function effortBandFor(count: number): string {
+  const band = EFFORT_BANDS.find((b) => count <= b.max) ?? EFFORT_BANDS[EFFORT_BANDS.length - 1]
+  return band.label
+}
+
+/**
+ * A soft ± cost band around count × unit price, in whole dollars. Shared by the
+ * area-based estimate and the placement-based quantities panel so both round the
+ * same way. `costSpread` defaults to ±20% — rough-estimate honesty.
+ */
+export function costBand(
+  count: number,
+  unitPrice: number,
+  costSpread = 0.2,
+): { low: number; high: number } {
+  const nominal = count * unitPrice
+  return {
+    low: Math.round(nominal * (1 - costSpread)),
+    high: Math.round(nominal * (1 + costSpread)),
+  }
+}
+
 // ── Public types ──────────────────────────────────────────────────────────────
 
 export type DensityStyle = 'landscaped' | 'naturalistic'
@@ -117,14 +144,14 @@ export function estimateSection(
       : naturalisticByLayer(area)
 
   const totalCount = layerSum(byLayer)
-  const nominalCost = totalCount * unitPrice
+  const { low, high } = costBand(totalCount, unitPrice, costSpread)
 
   return {
     totalCount,
     byLayer,
     effortLabel: effortLabelFor(totalCount),
-    costLow: Math.round(nominalCost * (1 - costSpread)),
-    costHigh: Math.round(nominalCost * (1 + costSpread)),
+    costLow: low,
+    costHigh: high,
     unitPrice,
   }
 }
@@ -182,6 +209,5 @@ function layerSum(byLayer: Record<LayerRole, number>): number {
 }
 
 function effortLabelFor(count: number): string {
-  const band = EFFORT_BANDS.find((b) => count <= b.max) ?? EFFORT_BANDS[EFFORT_BANDS.length - 1]
-  return `~${count} plant${count === 1 ? '' : 's'} — ${band.label}`
+  return `~${count} plant${count === 1 ? '' : 's'} — ${effortBandFor(count)}`
 }
