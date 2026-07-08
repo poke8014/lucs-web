@@ -67,6 +67,11 @@ export default function CheckStep({ plan, onChange, blobStore, onJumpToSection }
   const [showShadows, setShowShadows] = useState(true)
   const [showSunLabels, setShowSunLabels] = useState(false)
 
+  // The shadow overlay only extrudes obstructions with a height — when none
+  // carries one, the timelapse draws nothing and its pills would look dead, so
+  // we say why instead.
+  const hasShadeCasters = baseMap.obstructions.some((o) => (o.heightFt ?? 0) > 0)
+
   // Bloom badges on the season pills + the slug set for the active season.
   const counts = useMemo(() => bloomCounts(plan.placements, corpus), [plan.placements, corpus])
   const bloomBySlug = useMemo(() => bloomingSlugs(corpus, season), [corpus, season])
@@ -204,6 +209,14 @@ export default function CheckStep({ plan, onChange, blobStore, onJumpToSection }
 
           {/* Time-of-day scrub for the shadow overlay; its season pills mirror the
               shared season above. */}
+          {showShadows && !hasShadeCasters && (
+            <p className="rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/90 p-4 text-xs leading-relaxed text-[#2a1d10]/60">
+              No shade to draw yet — shadows come from the house, fence, and tree
+              outlines on your base map, and each needs a height. Head back to the
+              Base map step to trace them (or give the ones you have a height) and
+              the timelapse comes alive.
+            </p>
+          )}
           {showShadows && (
             <TimelapseControls
               season={season}
