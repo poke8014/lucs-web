@@ -79,6 +79,25 @@ Equisetum hyemale (Scouring Rush Horsetail) is a California-native perennial of 
 - **Site type:** Streams, ponds, seeps, springs, ditches, and other moist, sandy or gravelly places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/equisetum-hyemale/equisetum-hyemale_01_inat-59558022.jpg)
+*(c) Sara Patton, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/37555243)*
+
+![](../raw/assets/inaturalist/equisetum-hyemale/equisetum-hyemale_02_inat-616383113.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/338894132)*
+
+![](../raw/assets/inaturalist/equisetum-hyemale/equisetum-hyemale_03_inat-63471197.jpg)
+*(c) Andreas Stiller, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/39970765)*
+
+![](../raw/assets/inaturalist/equisetum-hyemale/equisetum-hyemale_04_inat-116490369.png)
+*(c) Jiri Klimes, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/71539730)*
+
+![](../raw/assets/inaturalist/equisetum-hyemale/equisetum-hyemale_05_inat-109477048.jpeg)
+*(c) Scott Pruitt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/67714890)*
+
 ## Sources
 
 - Calscape (CNPS) — [Equisetum hyemale](https://calscape.org/Equisetum-hyemale-%28Scouring-Rush-Horsetail%29). Structured fields from the

@@ -60,6 +60,25 @@ Matricaria discoidea (Pineapple Weed) is a California-native annual of Californi
 - **Plant communities:** Weed (disturbed places)
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/matricaria-discoidea/matricaria-discoidea_01_inat-106272984.jpg)
+*(c) giantcicada, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/65982505)*
+
+![](../raw/assets/inaturalist/matricaria-discoidea/matricaria-discoidea_02_inat-532447482.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/295749039)*
+
+![](../raw/assets/inaturalist/matricaria-discoidea/matricaria-discoidea_03_inat-136917827.jpeg)
+*(c) Tom Norton, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/83369821)*
+
+![](../raw/assets/inaturalist/matricaria-discoidea/matricaria-discoidea_04_inat-197562538.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/117010741)*
+
+![](../raw/assets/inaturalist/matricaria-discoidea/matricaria-discoidea_05_inat-468629731.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/254540651)*
+
 ## Sources
 
 - Calscape (CNPS) — [Matricaria discoidea](https://calscape.org/Matricaria-discoidea-%28Pineapple-Weed%29). Structured fields from the

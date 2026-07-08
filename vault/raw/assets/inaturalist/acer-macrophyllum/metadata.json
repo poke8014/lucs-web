@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Acer macrophyllum",
+  "taxon_id": 48227,
+  "photos_taxon_id": 48227,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 54842851,
+      "license": "cc-by",
+      "attribution": "(c) Alex Abair, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54842851/large.jpg",
+      "observation_id": 34816512,
+      "observation_url": "https://www.inaturalist.org/observations/34816512",
+      "observed_on": "2016-03-04",
+      "place_guess": "Benton County, OR, USA",
+      "user_login": "alex_abair",
+      "filename": "acer-macrophyllum_01_inat-54842851.jpg"
+    },
+    {
+      "photo_id": 186826182,
+      "license": "cc-by",
+      "attribution": "(c) Roger Raiche, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186826182/large.jpeg",
+      "observation_id": 110720882,
+      "observation_url": "https://www.inaturalist.org/observations/110720882",
+      "observed_on": "2022-04-04",
+      "place_guess": "Sonoma County, CA, USA",
+      "user_login": "rogerraiche",
+      "filename": "acer-macrophyllum_02_inat-186826182.jpeg"
+    },
+    {
+      "photo_id": 122128625,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122128625/large.jpg",
+      "observation_id": 74707996,
+      "observation_url": "https://www.inaturalist.org/observations/74707996",
+      "observed_on": "2021-04-20",
+      "place_guess": "Morgan Territory Regional Preserve, Contra Costa, California, United States",
+      "user_login": "al_kordesch",
+      "filename": "acer-macrophyllum_03_inat-122128625.jpg"
+    },
+    {
+      "photo_id": 192590954,
+      "license": "cc-by",
+      "attribution": "(c) Liam Steele, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192590954/large.jpeg",
+      "observation_id": 114028769,
+      "observation_url": "https://www.inaturalist.org/observations/114028769",
+      "observed_on": "2022-04-30",
+      "place_guess": "Cowichan Valley, BC, Canada",
+      "user_login": "liamsteele",
+      "filename": "acer-macrophyllum_04_inat-192590954.jpeg"
+    },
+    {
+      "photo_id": 159205899,
+      "license": "cc-by",
+      "attribution": "(c) Tim Messick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159205899/large.jpg",
+      "observation_id": 95870147,
+      "observation_url": "https://www.inaturalist.org/observations/95870147",
+      "observed_on": "2021-09-20",
+      "place_guess": "Sonoma County, CA, USA",
+      "user_login": "tmessick",
+      "filename": "acer-macrophyllum_05_inat-159205899.jpg"
+    }
+  ]
+}

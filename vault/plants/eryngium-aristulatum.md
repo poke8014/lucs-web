@@ -74,6 +74,25 @@ Eryngium aristulatum (Jepson's Button Celery) is a California-native perennial o
 - **Rarity:** Abundant
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/eryngium-aristulatum/eryngium-aristulatum_01_inat-365789080.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/206836282)*
+
+![](../raw/assets/inaturalist/eryngium-aristulatum/eryngium-aristulatum_02_inat-365789122.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/206836282)*
+
+![](../raw/assets/inaturalist/eryngium-aristulatum/eryngium-aristulatum_03_inat-607606153.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/334556916)*
+
+![](../raw/assets/inaturalist/eryngium-aristulatum/eryngium-aristulatum_04_inat-204982854.jpg)
+*(c) Sula Vanderplank, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/121151507)*
+
+![](../raw/assets/inaturalist/eryngium-aristulatum/eryngium-aristulatum_05_inat-72387216.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/45645559)*
+
 ## Sources
 
 - Calscape (CNPS) — [Eryngium aristulatum](https://calscape.org/Eryngium-aristulatum-%28Jepson%27s-Button-Celery%29). Structured fields from the

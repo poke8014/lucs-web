@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Streptanthus glandulosus",
+  "taxon_id": 58784,
+  "photos_taxon_id": 58784,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 128540743,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128540743/large.jpg",
+      "observation_id": 78535275,
+      "observation_url": "https://www.inaturalist.org/observations/78535275",
+      "observed_on": "2021-05-11",
+      "place_guess": "Henry W. Coe, Henry W. Coe State Park, Stanislaus, California, United States",
+      "user_login": "kueda",
+      "filename": "streptanthus-glandulosus_01_inat-128540743.jpg"
+    },
+    {
+      "photo_id": 656377313,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656377313/large.jpg",
+      "observation_id": 359696714,
+      "observation_url": "https://www.inaturalist.org/observations/359696714",
+      "observed_on": "2026-05-08",
+      "place_guess": "Bolinas Fairfax Rd, Bolinas, CA, US",
+      "user_login": "heymana77",
+      "filename": "streptanthus-glandulosus_02_inat-656377313.jpg"
+    },
+    {
+      "photo_id": 129951499,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129951499/large.jpeg",
+      "observation_id": 79342803,
+      "observation_url": "https://www.inaturalist.org/observations/79342803",
+      "observed_on": "2021-05-18",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "joergmlpts",
+      "filename": "streptanthus-glandulosus_03_inat-129951499.jpeg"
+    },
+    {
+      "photo_id": 261989999,
+      "license": "cc-by",
+      "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261989999/large.jpeg",
+      "observation_id": 151808572,
+      "observation_url": "https://www.inaturalist.org/observations/151808572",
+      "observed_on": "2023-03-20",
+      "place_guess": "Golden Gate National Recreation Area, US-CA, US",
+      "user_login": "chilipossum",
+      "filename": "streptanthus-glandulosus_04_inat-261989999.jpeg"
+    },
+    {
+      "photo_id": 285117485,
+      "license": "cc-by",
+      "attribution": "(c) Karen Offereins, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/285117485/large.jpg",
+      "observation_id": 164760079,
+      "observation_url": "https://www.inaturalist.org/observations/164760079",
+      "observed_on": "2023-05-30",
+      "place_guess": "Almaden Quicksilver County Park, Los Gatos, CA, US",
+      "user_login": "karenoffereins",
+      "filename": "streptanthus-glandulosus_05_inat-285117485.jpg"
+    }
+  ]
+}

@@ -84,6 +84,25 @@ Salix laevigata (Red Willow) is a California-native tree of Chaparral, Forest, G
 - **Site type:** Creeks or damp areas
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/salix-laevigata/salix-laevigata_01_inat-448507489.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/250739075)*
+
+![](../raw/assets/inaturalist/salix-laevigata/salix-laevigata_02_inat-11848617.jpg)
+*(c) W. Terry Hunefeld, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/8820149)*
+
+![](../raw/assets/inaturalist/salix-laevigata/salix-laevigata_03_inat-448507503.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/250739075)*
+
+![](../raw/assets/inaturalist/salix-laevigata/salix-laevigata_04_inat-11848614.jpg)
+*(c) W. Terry Hunefeld, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/8820149)*
+
+![](../raw/assets/inaturalist/salix-laevigata/salix-laevigata_05_inat-11848610.jpg)
+*(c) W. Terry Hunefeld, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/8820149)*
+
 ## Sources
 
 - Calscape (CNPS) — [Salix laevigata](https://calscape.org/Salix-laevigata-%28Red-Willow%29). Structured fields from the

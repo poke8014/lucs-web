@@ -83,6 +83,25 @@ Koeleria macrantha (Junegrass) is a California-native grass of Chaparral, Forest
 - **Site type:** Dry open clay or rocky places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/koeleria-macrantha/koeleria-macrantha_01_inat-511681641.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/284700271)*
+
+![](../raw/assets/inaturalist/koeleria-macrantha/koeleria-macrantha_02_inat-79378658.jpg)
+*(c) Eric Lamb, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/49990329)*
+
+![](../raw/assets/inaturalist/koeleria-macrantha/koeleria-macrantha_03_inat-88102074.jpg)
+*(c) Steve Matson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/55333605)*
+
+![](../raw/assets/inaturalist/koeleria-macrantha/koeleria-macrantha_04_inat-511681676.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/284700271)*
+
+![](../raw/assets/inaturalist/koeleria-macrantha/koeleria-macrantha_05_inat-79378627.jpg)
+*(c) Eric Lamb, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/49990329)*
+
 ## Sources
 
 - Calscape (CNPS) — [Koeleria macrantha](https://calscape.org/Koeleria-macrantha-%28Junegrass%29). Structured fields from the

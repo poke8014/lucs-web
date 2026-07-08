@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Astragalus gambelianus",
+  "taxon_id": 57042,
+  "photos_taxon_id": 57042,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 373711916,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373711916/large.jpg",
+      "observation_id": 211369309,
+      "observation_url": "https://www.inaturalist.org/observations/211369309",
+      "observed_on": "2024-04-28",
+      "place_guess": "Emigrant Lake, Ashland, OR, US",
+      "user_login": "dblanco",
+      "filename": "astragalus-gambelianus_01_inat-373711916.jpg"
+    },
+    {
+      "photo_id": 373711969,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373711969/large.jpg",
+      "observation_id": 211369309,
+      "observation_url": "https://www.inaturalist.org/observations/211369309",
+      "observed_on": "2024-04-28",
+      "place_guess": "Emigrant Lake, Ashland, OR, US",
+      "user_login": "dblanco",
+      "filename": "astragalus-gambelianus_02_inat-373711969.jpg"
+    },
+    {
+      "photo_id": 373712041,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373712041/large.jpg",
+      "observation_id": 211369309,
+      "observation_url": "https://www.inaturalist.org/observations/211369309",
+      "observed_on": "2024-04-28",
+      "place_guess": "Emigrant Lake, Ashland, OR, US",
+      "user_login": "dblanco",
+      "filename": "astragalus-gambelianus_03_inat-373712041.jpg"
+    },
+    {
+      "photo_id": 265387010,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265387010/large.jpeg",
+      "observation_id": 153654792,
+      "observation_url": "https://www.inaturalist.org/observations/153654792",
+      "observed_on": "2023-04-01",
+      "place_guess": "Mount Madonna County Park, Santa Clara, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "astragalus-gambelianus_04_inat-265387010.jpeg"
+    },
+    {
+      "photo_id": 620734505,
+      "license": "cc-by",
+      "attribution": "(c) klicklo, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/620734505/large.jpg",
+      "observation_id": 341033715,
+      "observation_url": "https://www.inaturalist.org/observations/341033715",
+      "observed_on": "2026-03-02",
+      "place_guess": "Simi Valley, CA, US",
+      "user_login": "klicklo",
+      "filename": "astragalus-gambelianus_05_inat-620734505.jpg"
+    }
+  ]
+}

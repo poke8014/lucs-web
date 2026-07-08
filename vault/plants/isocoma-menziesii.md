@@ -83,6 +83,25 @@ Isocoma menziesii (Menzies' Goldenbush) is a California-native shrub of Coastal 
 - **Site type:** Coastal bluffs and other sandy places near the coast and extending to some inland canyons and slopes
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/isocoma-menziesii/isocoma-menziesii_01_inat-5415282.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/4484852)*
+
+![](../raw/assets/inaturalist/isocoma-menziesii/isocoma-menziesii_02_inat-151747922.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/91711980)*
+
+![](../raw/assets/inaturalist/isocoma-menziesii/isocoma-menziesii_03_inat-120110684.jpg)
+*(c) Elly Poretsky, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73564485)*
+
+![](../raw/assets/inaturalist/isocoma-menziesii/isocoma-menziesii_04_inat-204767458.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/121031186)*
+
+![](../raw/assets/inaturalist/isocoma-menziesii/isocoma-menziesii_05_inat-151747935.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/91711980)*
+
 ## Sources
 
 - Calscape (CNPS) — [Isocoma menziesii](https://calscape.org/Isocoma-menziesii-%28Menzies%27-Goldenbush%29). Structured fields from the

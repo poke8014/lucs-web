@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Juncus phaeocephalus var. paniculatus",
+  "taxon_id": 59075,
+  "photos_taxon_id": 59075,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 384763851,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384763851/large.jpg",
+      "observation_id": 217491123,
+      "observation_url": "https://www.inaturalist.org/observations/217491123",
+      "observed_on": "2024-05-20",
+      "place_guess": "Ring Mountain Open Space Preserve, Marin, California, United States",
+      "user_login": "trevvan",
+      "filename": "juncus-phaeocephalus-var-paniculatus_01_inat-384763851.jpg"
+    },
+    {
+      "photo_id": 386129937,
+      "license": "cc-by",
+      "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386129937/large.jpeg",
+      "observation_id": 218222889,
+      "observation_url": "https://www.inaturalist.org/observations/218222889",
+      "observed_on": "2024-05-24",
+      "place_guess": "Corte Madera, CA, USA",
+      "user_login": "chilipossum",
+      "filename": "juncus-phaeocephalus-var-paniculatus_02_inat-386129937.jpeg"
+    },
+    {
+      "photo_id": 383816793,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383816793/large.jpg",
+      "observation_id": 216989498,
+      "observation_url": "https://www.inaturalist.org/observations/216989498",
+      "observed_on": "2024-05-19",
+      "place_guess": "Ring Mountain Preserve, Corte Madera, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "juncus-phaeocephalus-var-paniculatus_03_inat-383816793.jpg"
+    },
+    {
+      "photo_id": 291171846,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/291171846/large.jpg",
+      "observation_id": 168038148,
+      "observation_url": "https://www.inaturalist.org/observations/168038148",
+      "observed_on": "2023-06-17",
+      "place_guess": "Mount Diablo State Park, Contra Costa County, CA, USA",
+      "user_login": "kueda",
+      "filename": "juncus-phaeocephalus-var-paniculatus_04_inat-291171846.jpg"
+    },
+    {
+      "photo_id": 373603426,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373603426/large.jpeg",
+      "observation_id": 211323632,
+      "observation_url": "https://www.inaturalist.org/observations/211323632",
+      "observed_on": "2024-04-27",
+      "place_guess": "Marin County, CA, USA",
+      "user_login": "mvnatureboy",
+      "filename": "juncus-phaeocephalus-var-paniculatus_05_inat-373603426.jpeg"
+    }
+  ]
+}

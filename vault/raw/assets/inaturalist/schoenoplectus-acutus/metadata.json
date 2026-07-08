@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Schoenoplectus acutus",
+  "taxon_id": 59205,
+  "photos_taxon_id": 59205,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 533586727,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533586727/large.jpg",
+      "observation_id": 296340923,
+      "observation_url": "https://www.inaturalist.org/observations/296340923",
+      "observed_on": "2025-07-08",
+      "place_guess": "Victoria, BC V8X 2C4, Canada",
+      "user_login": "northross",
+      "filename": "schoenoplectus-acutus_01_inat-533586727.jpg"
+    },
+    {
+      "photo_id": 322816818,
+      "license": "cc-by",
+      "attribution": "(c) Paul Roots, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322816818/large.jpeg",
+      "observation_id": 184899873,
+      "observation_url": "https://www.inaturalist.org/observations/184899873",
+      "observed_on": "2023-09-25",
+      "place_guess": "Palatine, IL 60067, USA",
+      "user_login": "paulroots",
+      "filename": "schoenoplectus-acutus_02_inat-322816818.jpeg"
+    },
+    {
+      "photo_id": 533586767,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533586767/large.jpg",
+      "observation_id": 296340923,
+      "observation_url": "https://www.inaturalist.org/observations/296340923",
+      "observed_on": "2025-07-08",
+      "place_guess": "Victoria, BC V8X 2C4, Canada",
+      "user_login": "northross",
+      "filename": "schoenoplectus-acutus_03_inat-533586767.jpg"
+    },
+    {
+      "photo_id": 322816846,
+      "license": "cc-by",
+      "attribution": "(c) Paul Roots, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322816846/large.jpeg",
+      "observation_id": 184899873,
+      "observation_url": "https://www.inaturalist.org/observations/184899873",
+      "observed_on": "2023-09-25",
+      "place_guess": "Palatine, IL 60067, USA",
+      "user_login": "paulroots",
+      "filename": "schoenoplectus-acutus_04_inat-322816846.jpeg"
+    },
+    {
+      "photo_id": 322816926,
+      "license": "cc-by",
+      "attribution": "(c) Paul Roots, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322816926/large.jpeg",
+      "observation_id": 184899873,
+      "observation_url": "https://www.inaturalist.org/observations/184899873",
+      "observed_on": "2023-09-25",
+      "place_guess": "Palatine, IL 60067, USA",
+      "user_login": "paulroots",
+      "filename": "schoenoplectus-acutus_05_inat-322816926.jpeg"
+    }
+  ]
+}

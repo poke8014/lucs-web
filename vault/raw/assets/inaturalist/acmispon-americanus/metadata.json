@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Acmispon americanus",
+  "taxon_id": 57049,
+  "photos_taxon_id": 57049,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 606186157,
+      "license": "cc-by",
+      "attribution": "(c) Dustin Snider, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606186157/large.jpg",
+      "observation_id": 333871984,
+      "observation_url": "https://www.inaturalist.org/observations/333871984",
+      "observed_on": "2025-08-03",
+      "place_guess": "Lonetree Lake, Surprise Valley No. 9, SK, CA",
+      "user_login": "dustin777",
+      "filename": "acmispon-americanus_01_inat-606186157.jpg"
+    },
+    {
+      "photo_id": 78227346,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78227346/large.jpeg",
+      "observation_id": 49281478,
+      "observation_url": "https://www.inaturalist.org/observations/49281478",
+      "observed_on": "2020-06-11",
+      "place_guess": "Oak Bay, BC, Canada",
+      "user_login": "noam_chimpsky",
+      "filename": "acmispon-americanus_02_inat-78227346.jpeg"
+    },
+    {
+      "photo_id": 384966119,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384966119/large.jpg",
+      "observation_id": 217603603,
+      "observation_url": "https://www.inaturalist.org/observations/217603603",
+      "observed_on": "2024-05-15",
+      "place_guess": "Shasta County, CA, USA",
+      "user_login": "dblanco",
+      "filename": "acmispon-americanus_03_inat-384966119.jpg"
+    },
+    {
+      "photo_id": 213243782,
+      "license": "cc-by",
+      "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213243782/large.jpeg",
+      "observation_id": 125735531,
+      "observation_url": "https://www.inaturalist.org/observations/125735531",
+      "observed_on": "2022-07-07",
+      "place_guess": "Oak Bay, BC, Canada",
+      "user_login": "chrisfluit",
+      "filename": "acmispon-americanus_04_inat-213243782.jpeg"
+    },
+    {
+      "photo_id": 213394203,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213394203/large.jpeg",
+      "observation_id": 125810804,
+      "observation_url": "https://www.inaturalist.org/observations/125810804",
+      "observed_on": "2022-07-11",
+      "place_guess": "Idyllwild-Pine Cove, CA, USA",
+      "user_login": "rbelshee",
+      "filename": "acmispon-americanus_05_inat-213394203.jpeg"
+    }
+  ]
+}

@@ -63,6 +63,25 @@ Downingia pulchella (Flatface Calicoflower) is a California-native annual of For
 - **Plant communities:** Coastal Salt Marsh, Foothill Woodland, Mixed Evergreen Forest, Valley Grassland, Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/downingia-pulchella/downingia-pulchella_01_inat-270903773.jpeg)
+*(c) D Defreese, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/156653104)*
+
+![](../raw/assets/inaturalist/downingia-pulchella/downingia-pulchella_02_inat-659299318.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/361269582)*
+
+![](../raw/assets/inaturalist/downingia-pulchella/downingia-pulchella_03_inat-280165646.jpg)
+*(c) Cricket Raspet, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/162053036)*
+
+![](../raw/assets/inaturalist/downingia-pulchella/downingia-pulchella_04_inat-270903859.jpeg)
+*(c) D Defreese, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/156653104)*
+
+![](../raw/assets/inaturalist/downingia-pulchella/downingia-pulchella_05_inat-270903927.jpeg)
+*(c) D Defreese, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/156653104)*
+
 ## Sources
 
 - Calscape (CNPS) — [Downingia pulchella](https://calscape.org/Downingia-pulchella-%28Flatface-Calicoflower%29). Structured fields from the

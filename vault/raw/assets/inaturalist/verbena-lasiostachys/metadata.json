@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Verbena lasiostachys",
+  "taxon_id": 53316,
+  "photos_taxon_id": 53316,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 100209708,
+      "license": "cc-by",
+      "attribution": "(c) Amy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100209708/large.jpeg",
+      "observation_id": 62534777,
+      "observation_url": "https://www.inaturalist.org/observations/62534777",
+      "observed_on": "2020-10-10",
+      "place_guess": "San Joaquin Marsh, Irvine, CA 92612, USA",
+      "user_login": "arboretum_amy",
+      "filename": "verbena-lasiostachys_01_inat-100209708.jpeg"
+    },
+    {
+      "photo_id": 442437247,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442437247/large.jpeg",
+      "observation_id": 247705069,
+      "observation_url": "https://www.inaturalist.org/observations/247705069",
+      "observed_on": "2024-08-15",
+      "place_guess": "Trinity County, CA, USA",
+      "user_login": "sheriff_woody_pct",
+      "filename": "verbena-lasiostachys_02_inat-442437247.jpeg"
+    },
+    {
+      "photo_id": 418315693,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418315693/large.jpeg",
+      "observation_id": 235235458,
+      "observation_url": "https://www.inaturalist.org/observations/235235458",
+      "observed_on": "2024-08-07",
+      "place_guess": "Placer County, Tahoe National Forest, US-CA, US",
+      "user_login": "alan_rockefeller",
+      "filename": "verbena-lasiostachys_03_inat-418315693.jpeg"
+    },
+    {
+      "photo_id": 134911904,
+      "license": "cc-by",
+      "attribution": "(c) joqatana, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134911904/large.jpg",
+      "observation_id": 82210768,
+      "observation_url": "https://www.inaturalist.org/observations/82210768",
+      "observed_on": "2021-06-08",
+      "place_guess": "Fort Ord National Monument, Salinas, CA, US",
+      "user_login": "joqatana",
+      "filename": "verbena-lasiostachys_04_inat-134911904.jpg"
+    },
+    {
+      "photo_id": 169807321,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/169807321/large.jpg",
+      "observation_id": 101672143,
+      "observation_url": "https://www.inaturalist.org/observations/101672143",
+      "observed_on": "2021-11-21",
+      "place_guess": "Fort Ord National Monument, Salinas, CA, US",
+      "user_login": "jzupan",
+      "filename": "verbena-lasiostachys_05_inat-169807321.jpg"
+    }
+  ]
+}

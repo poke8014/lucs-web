@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Senecio flaccidus var. douglasii",
+  "taxon_id": 58037,
+  "photos_taxon_id": 58037,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 240211970,
+      "license": "cc-by",
+      "attribution": "(c) Amanda Fisher, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240211970/large.jpg",
+      "observation_id": 140335800,
+      "observation_url": "https://www.inaturalist.org/observations/140335800",
+      "observed_on": "2022-10-28",
+      "place_guess": "Cleveland National Forest, Trabuco Canyon, CA, US",
+      "user_login": "aefisher",
+      "filename": "senecio-flaccidus-var-douglasii_01_inat-240211970.jpg"
+    },
+    {
+      "photo_id": 580407037,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580407037/large.jpg",
+      "observation_id": 320967934,
+      "observation_url": "https://www.inaturalist.org/observations/320967934",
+      "observed_on": "2025-10-14",
+      "place_guess": "Santa Clarita, CA 91321, USA",
+      "user_login": "jonaskat",
+      "filename": "senecio-flaccidus-var-douglasii_02_inat-580407037.jpg"
+    },
+    {
+      "photo_id": 579453381,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579453381/large.jpg",
+      "observation_id": 320484126,
+      "observation_url": "https://www.inaturalist.org/observations/320484126",
+      "observed_on": "2025-10-12",
+      "place_guess": "Claremont, CA 91711, USA",
+      "user_login": "vreinkymov",
+      "filename": "senecio-flaccidus-var-douglasii_03_inat-579453381.jpg"
+    },
+    {
+      "photo_id": 24208979,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/24208979/large.jpeg",
+      "observation_id": 16150437,
+      "observation_url": "https://www.inaturalist.org/observations/16150437",
+      "observed_on": "2018-09-02",
+      "place_guess": "Lick Observatory UCSC, Santa Clara County, US-CA, US",
+      "user_login": "rockybajada",
+      "filename": "senecio-flaccidus-var-douglasii_04_inat-24208979.jpeg"
+    },
+    {
+      "photo_id": 360927352,
+      "license": "cc-by",
+      "attribution": "(c) lazarus, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360927352/large.jpeg",
+      "observation_id": 204215280,
+      "observation_url": "https://www.inaturalist.org/observations/204215280",
+      "observed_on": "2015-09-27",
+      "place_guess": "East Foothills, CA, USA",
+      "user_login": "lazarus",
+      "filename": "senecio-flaccidus-var-douglasii_05_inat-360927352.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "scientific_name": "Eryngium aristulatum var. aristulatum",
+  "taxon_id": 64189,
+  "photos_taxon_id": 64189,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 3862303,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3862303/large.jpg",
+      "observation_id": 3344479,
+      "observation_url": "https://www.inaturalist.org/observations/3344479",
+      "observed_on": "2016-05-30",
+      "place_guess": "Novato, CA, USA",
+      "user_login": "loarie",
+      "filename": "eryngium-aristulatum-var-aristulatum_01_inat-3862303.jpg"
+    }
+  ]
+}

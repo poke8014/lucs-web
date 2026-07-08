@@ -83,6 +83,25 @@ Corethrogyne filaginifolia (California Aster) is a California-native perennial o
 - **Site type:** Rocky slopes, coastal bluffs, canyons along the coast, Coast and Transverse Ranges, and foothills of the Sierras, where it occurs along with coastal sage scrub or chaparral, pine and oak woodland in sandy soils
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/corethrogyne-filaginifolia/corethrogyne-filaginifolia_01_inat-933748.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/738892)*
+
+![](../raw/assets/inaturalist/corethrogyne-filaginifolia/corethrogyne-filaginifolia_02_inat-257663867.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/149521058)*
+
+![](../raw/assets/inaturalist/corethrogyne-filaginifolia/corethrogyne-filaginifolia_03_inat-9402906.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/7273316)*
+
+![](../raw/assets/inaturalist/corethrogyne-filaginifolia/corethrogyne-filaginifolia_04_inat-41588502.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/26770688)*
+
+![](../raw/assets/inaturalist/corethrogyne-filaginifolia/corethrogyne-filaginifolia_05_inat-350731126.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/198937329)*
+
 ## Sources
 
 - Calscape (CNPS) — [Corethrogyne filaginifolia](https://calscape.org/Corethrogyne-filaginifolia-%28California-Aster%29). Structured fields from the

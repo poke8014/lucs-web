@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Sambucus mexicana",
+  "taxon_id": 1203426,
+  "photos_taxon_id": 1203426,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 261313309,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261313309/large.jpeg",
+      "observation_id": 151447367,
+      "observation_url": "https://www.inaturalist.org/observations/151447367",
+      "observed_on": "2023-03-17",
+      "place_guess": "Santa Clarita, CA 91321, USA",
+      "user_login": "jonaskat",
+      "filename": "sambucus-mexicana_01_inat-261313309.jpeg"
+    },
+    {
+      "photo_id": 649125765,
+      "license": "cc-by",
+      "attribution": "(c) Rachel Allingham, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649125765/large.jpg",
+      "observation_id": 355953677,
+      "observation_url": "https://www.inaturalist.org/observations/355953677",
+      "observed_on": "2026-04-27",
+      "place_guess": "Valley View Truck Trail, El Cajon, CA, US",
+      "user_login": "slimygrub",
+      "filename": "sambucus-mexicana_02_inat-649125765.jpg"
+    },
+    {
+      "photo_id": 645930197,
+      "license": "cc-by",
+      "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/645930197/large.jpg",
+      "observation_id": 354060148,
+      "observation_url": "https://www.inaturalist.org/observations/354060148",
+      "observed_on": "2026-04-25",
+      "place_guess": "El Monte Valley, San Diego County, CA, USA",
+      "user_login": "milliebasden",
+      "filename": "sambucus-mexicana_03_inat-645930197.jpg"
+    },
+    {
+      "photo_id": 261313326,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261313326/large.jpeg",
+      "observation_id": 151447367,
+      "observation_url": "https://www.inaturalist.org/observations/151447367",
+      "observed_on": "2023-03-17",
+      "place_guess": "Santa Clarita, CA 91321, USA",
+      "user_login": "jonaskat",
+      "filename": "sambucus-mexicana_04_inat-261313326.jpeg"
+    },
+    {
+      "photo_id": 261313344,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261313344/large.jpeg",
+      "observation_id": 151447367,
+      "observation_url": "https://www.inaturalist.org/observations/151447367",
+      "observed_on": "2023-03-17",
+      "place_guess": "Santa Clarita, CA 91321, USA",
+      "user_login": "jonaskat",
+      "filename": "sambucus-mexicana_05_inat-261313344.jpeg"
+    }
+  ]
+}

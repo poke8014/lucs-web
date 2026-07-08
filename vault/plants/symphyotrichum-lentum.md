@@ -64,6 +64,25 @@ Symphyotrichum lentum (Suisun Marsh Aster) is a California-native perennial of C
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/symphyotrichum-lentum/symphyotrichum-lentum_01_inat-220603484.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/129781727)*
+
+![](../raw/assets/inaturalist/symphyotrichum-lentum/symphyotrichum-lentum_02_inat-433203533.jpeg)
+*(c) Melanie J. Davis, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/242973505)*
+
+![](../raw/assets/inaturalist/symphyotrichum-lentum/symphyotrichum-lentum_03_inat-214667212.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/126515249)*
+
+![](../raw/assets/inaturalist/symphyotrichum-lentum/symphyotrichum-lentum_04_inat-11237314.jpg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/8436766)*
+
+![](../raw/assets/inaturalist/symphyotrichum-lentum/symphyotrichum-lentum_05_inat-5091982.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/4256120)*
+
 ## Sources
 
 - Calscape (CNPS) — [Symphyotrichum lentum](https://calscape.org/Symphyotrichum-lentum-%28Suisun-Marsh-Aster%29). Structured fields from the

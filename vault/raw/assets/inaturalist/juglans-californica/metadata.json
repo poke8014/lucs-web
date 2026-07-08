@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Juglans californica",
+  "taxon_id": 54503,
+  "photos_taxon_id": 54503,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 11659146,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11659146/large.jpg",
+      "observation_id": 8697332,
+      "observation_url": "https://www.inaturalist.org/observations/8697332",
+      "observed_on": "2017-11-05",
+      "place_guess": "Powder Canyon Open Space, Los Angeles, California, United States",
+      "user_login": "glmory",
+      "filename": "juglans-californica_01_inat-11659146.jpg"
+    },
+    {
+      "photo_id": 413277766,
+      "license": "cc-by",
+      "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/413277766/large.jpeg",
+      "observation_id": 232610604,
+      "observation_url": "https://www.inaturalist.org/observations/232610604",
+      "observed_on": "2024-07-29",
+      "place_guess": "Brea Dam Park, Fullerton, CA, US",
+      "user_login": "salvmell",
+      "filename": "juglans-californica_02_inat-413277766.jpeg"
+    },
+    {
+      "photo_id": 532154101,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532154101/large.jpg",
+      "observation_id": 295593223,
+      "observation_url": "https://www.inaturalist.org/observations/295593223",
+      "observed_on": "2025-07-05",
+      "place_guess": "Canyon Country, Santa Clarita, CA, USA",
+      "user_login": "jonaskat",
+      "filename": "juglans-californica_03_inat-532154101.jpg"
+    },
+    {
+      "photo_id": 15025200,
+      "license": "cc-by",
+      "attribution": "(c) als93, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/15025200/large.jpg",
+      "observation_id": 10749113,
+      "observation_url": "https://www.inaturalist.org/observations/10749113",
+      "observed_on": "2018-04-09",
+      "place_guess": "24601\u201324699 Woodglade Ln, Los Angeles, CA, US",
+      "user_login": "als93",
+      "filename": "juglans-californica_04_inat-15025200.jpg"
+    },
+    {
+      "photo_id": 331014197,
+      "license": "cc-by",
+      "attribution": "(c) Stevie Steele, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/331014197/large.jpg",
+      "observation_id": 189026748,
+      "observation_url": "https://www.inaturalist.org/observations/189026748",
+      "observed_on": "2023-10-18",
+      "place_guess": "San Elijo Lagoon Ecological Reserve, Encinitas, CA, US",
+      "user_login": "stevie_steele",
+      "filename": "juglans-californica_05_inat-331014197.jpg"
+    }
+  ]
+}

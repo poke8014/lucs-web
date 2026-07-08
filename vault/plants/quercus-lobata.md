@@ -86,6 +86,25 @@ Quercus lobata (Valley Oak) is a California-native tree of Woodland. Calscape re
 - **Rarity:** Uncommon
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/quercus-lobata/quercus-lobata_01_inat-378621133.jpg)
+*(c) klicklo, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/183122188)*
+
+![](../raw/assets/inaturalist/quercus-lobata/quercus-lobata_02_inat-16710608.jpg)
+*(c) Casey Schreiner, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/11690952)*
+
+![](../raw/assets/inaturalist/quercus-lobata/quercus-lobata_03_inat-566555048.jpg)
+*(c) vultur-cadens, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/313717307)*
+
+![](../raw/assets/inaturalist/quercus-lobata/quercus-lobata_04_inat-523270955.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/290855825)*
+
+![](../raw/assets/inaturalist/quercus-lobata/quercus-lobata_05_inat-6413105.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5197121)*
+
 ## Sources
 
 - Calscape (CNPS) — [Quercus lobata](https://calscape.org/Quercus-lobata-%28Valley-Oak%29). Structured fields from the

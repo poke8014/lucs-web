@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cornus glabrata",
+  "taxon_id": 57013,
+  "photos_taxon_id": 57013,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 130462495,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130462495/large.jpeg",
+      "observation_id": 79641315,
+      "observation_url": "https://www.inaturalist.org/observations/79641315",
+      "observed_on": "2021-05-20",
+      "place_guess": "San Luis Obispo County, CA, USA",
+      "user_login": "dkincmbria",
+      "filename": "cornus-glabrata_01_inat-130462495.jpeg"
+    },
+    {
+      "photo_id": 130462511,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130462511/large.jpeg",
+      "observation_id": 79641315,
+      "observation_url": "https://www.inaturalist.org/observations/79641315",
+      "observed_on": "2021-05-20",
+      "place_guess": "San Luis Obispo County, CA, USA",
+      "user_login": "dkincmbria",
+      "filename": "cornus-glabrata_02_inat-130462511.jpeg"
+    },
+    {
+      "photo_id": 130462484,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130462484/large.jpeg",
+      "observation_id": 79641315,
+      "observation_url": "https://www.inaturalist.org/observations/79641315",
+      "observed_on": "2021-05-20",
+      "place_guess": "San Luis Obispo County, CA, USA",
+      "user_login": "dkincmbria",
+      "filename": "cornus-glabrata_03_inat-130462484.jpeg"
+    },
+    {
+      "photo_id": 45348944,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45348944/large.jpeg",
+      "observation_id": 29067787,
+      "observation_url": "https://www.inaturalist.org/observations/29067787",
+      "observed_on": "2019-07-17",
+      "place_guess": "Big Sur, CA 93920, USA",
+      "user_login": "heymana77",
+      "filename": "cornus-glabrata_04_inat-45348944.jpeg"
+    },
+    {
+      "photo_id": 655758942,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655758942/large.jpg",
+      "observation_id": 359413156,
+      "observation_url": "https://www.inaturalist.org/observations/359413156",
+      "observed_on": "2026-05-07",
+      "place_guess": "Peachy Canyon Rd, Paso Robles, CA, US",
+      "user_login": "christinerudman",
+      "filename": "cornus-glabrata_05_inat-655758942.jpg"
+    }
+  ]
+}

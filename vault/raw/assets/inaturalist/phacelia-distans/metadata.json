@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Phacelia distans",
+  "taxon_id": 56631,
+  "photos_taxon_id": 56631,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 1611091,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1611091/large.jpg",
+      "observation_id": 1284706,
+      "observation_url": "https://www.inaturalist.org/observations/1284706",
+      "observed_on": "2015-03-08",
+      "place_guess": "San Benito, California, United States",
+      "user_login": "kueda",
+      "filename": "phacelia-distans_01_inat-1611091.jpg"
+    },
+    {
+      "photo_id": 20985340,
+      "license": "cc-by",
+      "attribution": "(c) Jim Morefield, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20985340/large.jpg",
+      "observation_id": 14158040,
+      "observation_url": "https://www.inaturalist.org/observations/14158040",
+      "observed_on": "2010-05-28",
+      "place_guess": "Inyo County, CA, USA",
+      "user_login": "jdmore",
+      "filename": "phacelia-distans_02_inat-20985340.jpg"
+    },
+    {
+      "photo_id": 486955531,
+      "license": "cc-by",
+      "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486955531/large.jpg",
+      "observation_id": 270750636,
+      "observation_url": "https://www.inaturalist.org/observations/270750636",
+      "observed_on": "2025-04-15",
+      "place_guess": "Fairview Park, Costa Mesa, CA, US",
+      "user_login": "salvmell",
+      "filename": "phacelia-distans_03_inat-486955531.jpg"
+    },
+    {
+      "photo_id": 478960766,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478960766/large.jpeg",
+      "observation_id": 266562700,
+      "observation_url": "https://www.inaturalist.org/observations/266562700",
+      "observed_on": "2025-03-22",
+      "place_guess": "Clayton, CA 94517, USA",
+      "user_login": "eekim",
+      "filename": "phacelia-distans_04_inat-478960766.jpeg"
+    },
+    {
+      "photo_id": 498323302,
+      "license": "cc-by",
+      "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/498323302/large.jpg",
+      "observation_id": 277525809,
+      "observation_url": "https://www.inaturalist.org/observations/277525809",
+      "observed_on": "2025-04-30",
+      "place_guess": "Inyo National Forest, Big Pine, CA, US",
+      "user_login": "matsonburger",
+      "filename": "phacelia-distans_05_inat-498323302.jpg"
+    }
+  ]
+}

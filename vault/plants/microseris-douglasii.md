@@ -63,6 +63,25 @@ Microseris douglasii (Douglas' Silverpuffs) is a California-native annual of Coa
 - **Plant communities:** Coastal Prairie, Coastal Sage Scrub, Valley Grassland
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/microseris-douglasii/microseris-douglasii_01_inat-280568932.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/162249488)*
+
+![](../raw/assets/inaturalist/microseris-douglasii/microseris-douglasii_02_inat-119592812.jpeg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73265353)*
+
+![](../raw/assets/inaturalist/microseris-douglasii/microseris-douglasii_03_inat-179620668.jpg)
+*(c) Dee Shea Himes, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/106866637)*
+
+![](../raw/assets/inaturalist/microseris-douglasii/microseris-douglasii_04_inat-285396822.jpeg)
+*(c) Cricket Raspet, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/164914801)*
+
+![](../raw/assets/inaturalist/microseris-douglasii/microseris-douglasii_05_inat-186349824.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/110464624)*
+
 ## Sources
 
 - Calscape (CNPS) — [Microseris douglasii](https://calscape.org/Microseris-douglasii-%28Douglas%27-Silverpuffs%29). Structured fields from the

@@ -65,6 +65,25 @@ Trifolium depauperatum (Cowbag Clover) is a California-native annual of Forest, 
 - **Plant communities:** Mixed Evergreen Forest, Valley Grassland, Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/trifolium-depauperatum/trifolium-depauperatum_01_inat-119600080.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73269813)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum/trifolium-depauperatum_02_inat-34233334.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22114570)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum/trifolium-depauperatum_03_inat-119600065.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73269813)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum/trifolium-depauperatum_04_inat-119600073.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73269813)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum/trifolium-depauperatum_05_inat-655215198.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/359129630)*
+
 ## Sources
 
 - Calscape (CNPS) — [Trifolium depauperatum](https://calscape.org/Trifolium-depauperatum-%28Cowbag-Clover%29). Structured fields from the

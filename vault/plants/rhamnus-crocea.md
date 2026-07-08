@@ -85,6 +85,25 @@ Rhamnus crocea (Spiny Redberry) is a California-native shrub of Chaparral, Woodl
 - **Site type:** Rocky slopes, dry washes and canyons
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/rhamnus-crocea/rhamnus-crocea_01_inat-181502912.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/107869395)*
+
+![](../raw/assets/inaturalist/rhamnus-crocea/rhamnus-crocea_02_inat-181502914.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/107869395)*
+
+![](../raw/assets/inaturalist/rhamnus-crocea/rhamnus-crocea_03_inat-181508027.jpg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/107869395)*
+
+![](../raw/assets/inaturalist/rhamnus-crocea/rhamnus-crocea_04_inat-186160906.jpeg)
+*(c) Tom and T Herman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/110362469)*
+
+![](../raw/assets/inaturalist/rhamnus-crocea/rhamnus-crocea_05_inat-198799867.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/117696163)*
+
 ## Sources
 
 - Calscape (CNPS) — [Rhamnus crocea](https://calscape.org/Rhamnus-crocea-%28Spiny-Redberry%29). Structured fields from the

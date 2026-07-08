@@ -73,6 +73,25 @@ Erysimum capitatum (Sanddune Wallflower) is a California-native perennial of Cha
 - **Plant communities:** Chaparral, Coastal Strand, Foothill Woodland, Joshua Tree Woodland, Lodgepole Forest, Red Fir Forest, Subalpine Forest, Valley Grassland, Yellow Pine Forest
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/erysimum-capitatum/erysimum-capitatum_01_inat-76868806.jpeg)
+*(c) Rachel Stringham, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/48444589)*
+
+![](../raw/assets/inaturalist/erysimum-capitatum/erysimum-capitatum_02_inat-52064917.jpg)
+*(c) CK2AZ, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/33164913)*
+
+![](../raw/assets/inaturalist/erysimum-capitatum/erysimum-capitatum_03_inat-170105624.jpg)
+*(c) Matt Lavin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/101830622)*
+
+![](../raw/assets/inaturalist/erysimum-capitatum/erysimum-capitatum_04_inat-382024702.jpg)
+*(c) Sandy Wolkenberg, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/216035624)*
+
+![](../raw/assets/inaturalist/erysimum-capitatum/erysimum-capitatum_05_inat-3042104.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/2701538)*
+
 ## Sources
 
 - Calscape (CNPS) — [Erysimum capitatum](https://calscape.org/Erysimum-capitatum-%28Sanddune-Wallflower%29). Structured fields from the

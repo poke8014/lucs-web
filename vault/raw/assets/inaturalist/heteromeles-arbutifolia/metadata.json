@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Heteromeles arbutifolia",
+  "taxon_id": 53405,
+  "photos_taxon_id": 53405,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 247536502,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247536502/large.jpg",
+      "observation_id": 144247994,
+      "observation_url": "https://www.inaturalist.org/observations/144247994",
+      "observed_on": "2022-12-11",
+      "place_guess": "Los Trancos Open Space Preserve, Palo Alto, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "heteromeles-arbutifolia_01_inat-247536502.jpg"
+    },
+    {
+      "photo_id": 459761561,
+      "license": "cc-by",
+      "attribution": "(c) Skyler K, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459761561/large.jpg",
+      "observation_id": 256428871,
+      "observation_url": "https://www.inaturalist.org/observations/256428871",
+      "observed_on": "2024-12-27",
+      "place_guess": "Los Padres National Forest, San Luis Obispo, CA, US",
+      "user_login": "skylerk06",
+      "filename": "heteromeles-arbutifolia_02_inat-459761561.jpg"
+    },
+    {
+      "photo_id": 216630186,
+      "license": "cc-by",
+      "attribution": "(c) lazarus, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216630186/large.jpg",
+      "observation_id": 127592728,
+      "observation_url": "https://www.inaturalist.org/observations/127592728",
+      "observed_on": "2022-07-23",
+      "place_guess": "Long Ridge Preserve, La Honda, CA, US",
+      "user_login": "lazarus",
+      "filename": "heteromeles-arbutifolia_03_inat-216630186.jpg"
+    },
+    {
+      "photo_id": 176606569,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176606569/large.jpg",
+      "observation_id": 105278347,
+      "observation_url": "https://www.inaturalist.org/observations/105278347",
+      "observed_on": "2022-01-19",
+      "place_guess": "Hain Wilderness, Paicines, CA, US",
+      "user_login": "aparrot1",
+      "filename": "heteromeles-arbutifolia_04_inat-176606569.jpg"
+    },
+    {
+      "photo_id": 247536709,
+      "license": "cc-by",
+      "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247536709/large.jpg",
+      "observation_id": 144248053,
+      "observation_url": "https://www.inaturalist.org/observations/144248053",
+      "observed_on": "2022-12-12",
+      "place_guess": "San Joaquin Marsh and Wildlife Sanctuary, Irvine, CA, US",
+      "user_login": "chilipossum",
+      "filename": "heteromeles-arbutifolia_05_inat-247536709.jpg"
+    }
+  ]
+}

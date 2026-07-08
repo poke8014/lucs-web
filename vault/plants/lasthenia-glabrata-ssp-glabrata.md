@@ -64,6 +64,25 @@ Lasthenia glabrata ssp. glabrata (Yellow-ray Goldfields) is a California-native 
 - **Plant communities:** Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/lasthenia-glabrata-ssp-glabrata/lasthenia-glabrata-ssp-glabrata_01_inat-276482323.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
+![](../raw/assets/inaturalist/lasthenia-glabrata-ssp-glabrata/lasthenia-glabrata-ssp-glabrata_02_inat-276482369.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
+![](../raw/assets/inaturalist/lasthenia-glabrata-ssp-glabrata/lasthenia-glabrata-ssp-glabrata_03_inat-276482382.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
+![](../raw/assets/inaturalist/lasthenia-glabrata-ssp-glabrata/lasthenia-glabrata-ssp-glabrata_04_inat-276482305.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
+![](../raw/assets/inaturalist/lasthenia-glabrata-ssp-glabrata/lasthenia-glabrata-ssp-glabrata_05_inat-276482291.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
 ## Sources
 
 - Calscape (CNPS) — [Lasthenia glabrata ssp. glabrata](https://calscape.org/Lasthenia-glabrata-ssp.-glabrata-%28Yellow-ray-Goldfields%29). Structured fields from the

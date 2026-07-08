@@ -75,6 +75,25 @@ Poa secunda (One Sided Blue Grass) is a California-native grass of California. C
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/poa-secunda/poa-secunda_01_inat-158183372.jpg)
+*(c) Matt Lavin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/95295108)*
+
+![](../raw/assets/inaturalist/poa-secunda/poa-secunda_02_inat-63262972.jpeg)
+*(c) David Anderson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/39848867)*
+
+![](../raw/assets/inaturalist/poa-secunda/poa-secunda_03_inat-633490885.jpg)
+*(c) Miriam Sachs Martin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/347438684)*
+
+![](../raw/assets/inaturalist/poa-secunda/poa-secunda_04_inat-21307732.jpg)
+*(c) Jim Morefield, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/14339936)*
+
+![](../raw/assets/inaturalist/poa-secunda/poa-secunda_05_inat-158183381.jpg)
+*(c) Matt Lavin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/95295108)*
+
 ## Sources
 
 - Calscape (CNPS) — [Poa secunda](https://calscape.org/Poa-secunda-%28One-Sided-Blue-Grass%29). Structured fields from the

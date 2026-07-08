@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Streptanthus glandulosus ssp. albidus",
+  "taxon_id": 80227,
+  "photos_taxon_id": 80227,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 129951499,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129951499/large.jpeg",
+      "observation_id": 79342803,
+      "observation_url": "https://www.inaturalist.org/observations/79342803",
+      "observed_on": "2021-05-18",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "joergmlpts",
+      "filename": "streptanthus-glandulosus-ssp-albidus_01_inat-129951499.jpeg"
+    },
+    {
+      "photo_id": 267988044,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Wentworth, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267988044/large.jpeg",
+      "observation_id": 155063330,
+      "observation_url": "https://www.inaturalist.org/observations/155063330",
+      "observed_on": "2023-04-15",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "alex_wentworth",
+      "filename": "streptanthus-glandulosus-ssp-albidus_02_inat-267988044.jpeg"
+    },
+    {
+      "photo_id": 192476349,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192476349/large.jpeg",
+      "observation_id": 113958762,
+      "observation_url": "https://www.inaturalist.org/observations/113958762",
+      "observed_on": "2022-04-28",
+      "place_guess": "California, US",
+      "user_login": "rockybajada",
+      "filename": "streptanthus-glandulosus-ssp-albidus_03_inat-192476349.jpeg"
+    },
+    {
+      "photo_id": 129951512,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129951512/large.jpeg",
+      "observation_id": 79342803,
+      "observation_url": "https://www.inaturalist.org/observations/79342803",
+      "observed_on": "2021-05-18",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "joergmlpts",
+      "filename": "streptanthus-glandulosus-ssp-albidus_04_inat-129951512.jpeg"
+    },
+    {
+      "photo_id": 129951529,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129951529/large.jpeg",
+      "observation_id": 79342803,
+      "observation_url": "https://www.inaturalist.org/observations/79342803",
+      "observed_on": "2021-05-18",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "joergmlpts",
+      "filename": "streptanthus-glandulosus-ssp-albidus_05_inat-129951529.jpeg"
+    }
+  ]
+}

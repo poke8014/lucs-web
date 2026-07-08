@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Micropus californicus",
+  "taxon_id": 56975,
+  "photos_taxon_id": 56975,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 16519243,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16519243/large.jpg",
+      "observation_id": 11515673,
+      "observation_url": "https://www.inaturalist.org/observations/11515673",
+      "observed_on": "2018-04-27",
+      "place_guess": "Lower Table Rock Trail, Central Point, OR 97502, USA",
+      "user_login": "andy71",
+      "filename": "micropus-californicus_01_inat-16519243.jpg"
+    },
+    {
+      "photo_id": 75113634,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75113634/large.jpeg",
+      "observation_id": 47360157,
+      "observation_url": "https://www.inaturalist.org/observations/47360157",
+      "observed_on": "2020-05-25",
+      "place_guess": "Lane County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "micropus-californicus_02_inat-75113634.jpeg"
+    },
+    {
+      "photo_id": 75113653,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75113653/large.jpeg",
+      "observation_id": 47360157,
+      "observation_url": "https://www.inaturalist.org/observations/47360157",
+      "observed_on": "2020-05-25",
+      "place_guess": "Lane County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "micropus-californicus_03_inat-75113653.jpeg"
+    },
+    {
+      "photo_id": 75113685,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75113685/large.jpeg",
+      "observation_id": 47360157,
+      "observation_url": "https://www.inaturalist.org/observations/47360157",
+      "observed_on": "2020-05-25",
+      "place_guess": "Lane County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "micropus-californicus_04_inat-75113685.jpeg"
+    },
+    {
+      "photo_id": 503950669,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/503950669/large.jpg",
+      "observation_id": 280584845,
+      "observation_url": "https://www.inaturalist.org/observations/280584845",
+      "observed_on": "2025-05-09",
+      "place_guess": "Taylor Mountain Regional Park and Open Space Preserve, Santa Rosa, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "micropus-californicus_05_inat-503950669.jpg"
+    }
+  ]
+}

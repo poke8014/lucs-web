@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Pyrrocoma racemosa",
+  "taxon_id": 78800,
+  "photos_taxon_id": 78800,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 245150515,
+      "license": "cc-by",
+      "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245150515/large.jpg",
+      "observation_id": 142957609,
+      "observation_url": "https://www.inaturalist.org/observations/142957609",
+      "observed_on": "2015-08-11",
+      "place_guess": "Inyo County, CA, USA",
+      "user_login": "matsonburger",
+      "filename": "pyrrocoma-racemosa_01_inat-245150515.jpg"
+    },
+    {
+      "photo_id": 192069616,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192069616/large.jpeg",
+      "observation_id": 113694838,
+      "observation_url": "https://www.inaturalist.org/observations/113694838",
+      "observed_on": "2022-04-29",
+      "place_guess": "Esmeralda, Nevada, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "pyrrocoma-racemosa_02_inat-192069616.jpeg"
+    },
+    {
+      "photo_id": 217388360,
+      "license": "cc-by",
+      "attribution": "(c) Bobby McCabe, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217388360/large.jpg",
+      "observation_id": 128008112,
+      "observation_url": "https://www.inaturalist.org/observations/128008112",
+      "observed_on": "2022-07-26",
+      "place_guess": "Dyer, NV, US",
+      "user_login": "bobby23",
+      "filename": "pyrrocoma-racemosa_03_inat-217388360.jpg"
+    },
+    {
+      "photo_id": 226515250,
+      "license": "cc-by",
+      "attribution": "(c) Jim Morefield, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226515250/large.jpg",
+      "observation_id": 133021081,
+      "observation_url": "https://www.inaturalist.org/observations/133021081",
+      "observed_on": "2022-08-24",
+      "place_guess": "Inyo County, CA, USA",
+      "user_login": "jdmore",
+      "filename": "pyrrocoma-racemosa_04_inat-226515250.jpg"
+    },
+    {
+      "photo_id": 229591722,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/229591722/large.jpeg",
+      "observation_id": 134672563,
+      "observation_url": "https://www.inaturalist.org/observations/134672563",
+      "observed_on": "2022-09-07",
+      "place_guess": "Mono County, CA, USA",
+      "user_login": "grnleaf",
+      "filename": "pyrrocoma-racemosa_05_inat-229591722.jpeg"
+    }
+  ]
+}

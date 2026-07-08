@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Poa secunda",
+  "taxon_id": 57198,
+  "photos_taxon_id": 57198,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 158183372,
+      "license": "cc-by",
+      "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158183372/large.jpg",
+      "observation_id": 95295108,
+      "observation_url": "https://www.inaturalist.org/observations/95295108",
+      "observed_on": "2011-07-06",
+      "place_guess": "Thomas Creek, Carson Range, Reno, Nevada, United States",
+      "user_login": "mattlavin",
+      "filename": "poa-secunda_01_inat-158183372.jpg"
+    },
+    {
+      "photo_id": 63262972,
+      "license": "cc-by",
+      "attribution": "(c) David Anderson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63262972/large.jpeg",
+      "observation_id": 39848867,
+      "observation_url": "https://www.inaturalist.org/observations/39848867",
+      "observed_on": "2020-03-10",
+      "place_guess": "Hood River County, OR, USA",
+      "user_login": "geographerdave",
+      "filename": "poa-secunda_02_inat-63262972.jpeg"
+    },
+    {
+      "photo_id": 633490885,
+      "license": "cc-by",
+      "attribution": "(c) Miriam Sachs Martin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633490885/large.jpg",
+      "observation_id": 347438684,
+      "observation_url": "https://www.inaturalist.org/observations/347438684",
+      "observed_on": "2026-04-04",
+      "place_guess": "Calero County Park, San Jose, CA, US",
+      "user_login": "tierramor",
+      "filename": "poa-secunda_03_inat-633490885.jpg"
+    },
+    {
+      "photo_id": 21307732,
+      "license": "cc-by",
+      "attribution": "(c) Jim Morefield, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21307732/large.jpg",
+      "observation_id": 14339936,
+      "observation_url": "https://www.inaturalist.org/observations/14339936",
+      "observed_on": "2010-04-26",
+      "place_guess": "Washoe County, NV, USA",
+      "user_login": "jdmore",
+      "filename": "poa-secunda_04_inat-21307732.jpg"
+    },
+    {
+      "photo_id": 158183381,
+      "license": "cc-by",
+      "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158183381/large.jpg",
+      "observation_id": 95295108,
+      "observation_url": "https://www.inaturalist.org/observations/95295108",
+      "observed_on": "2011-07-06",
+      "place_guess": "Thomas Creek, Carson Range, Reno, Nevada, United States",
+      "user_login": "mattlavin",
+      "filename": "poa-secunda_05_inat-158183381.jpg"
+    }
+  ]
+}

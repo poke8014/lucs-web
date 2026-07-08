@@ -76,6 +76,25 @@ Cirsium occidentale (Cobweb Thistle) is a California-native perennial of Coastal
 - **Site type:** Varied
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cirsium-occidentale/cirsium-occidentale_01_inat-199008448.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/117816653)*
+
+![](../raw/assets/inaturalist/cirsium-occidentale/cirsium-occidentale_02_inat-3335696.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/2914536)*
+
+![](../raw/assets/inaturalist/cirsium-occidentale/cirsium-occidentale_03_inat-8144343.jpg)
+*(c) Don Loarie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/6445719)*
+
+![](../raw/assets/inaturalist/cirsium-occidentale/cirsium-occidentale_04_inat-275263728.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/159323564)*
+
+![](../raw/assets/inaturalist/cirsium-occidentale/cirsium-occidentale_05_inat-189569232.jpg)
+*(c) Rachel Allingham, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/112235402)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cirsium occidentale](https://calscape.org/Cirsium-occidentale-%28Cobweb-Thistle%29). Structured fields from the

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Heliotropium curassavicum var. oculatum",
+  "taxon_id": 80928,
+  "photos_taxon_id": 80928,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 579838535,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838535/large.jpg",
+      "observation_id": 320680030,
+      "observation_url": "https://www.inaturalist.org/observations/320680030",
+      "observed_on": "2025-10-12",
+      "place_guess": "Sun Village, CA 93543, USA",
+      "user_login": "jonaskat",
+      "filename": "heliotropium-curassavicum-var-oculatum_01_inat-579838535.jpg"
+    },
+    {
+      "photo_id": 579838565,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838565/large.jpg",
+      "observation_id": 320680030,
+      "observation_url": "https://www.inaturalist.org/observations/320680030",
+      "observed_on": "2025-10-12",
+      "place_guess": "Sun Village, CA 93543, USA",
+      "user_login": "jonaskat",
+      "filename": "heliotropium-curassavicum-var-oculatum_02_inat-579838565.jpg"
+    },
+    {
+      "photo_id": 579838589,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838589/large.jpg",
+      "observation_id": 320680030,
+      "observation_url": "https://www.inaturalist.org/observations/320680030",
+      "observed_on": "2025-10-12",
+      "place_guess": "Sun Village, CA 93543, USA",
+      "user_login": "jonaskat",
+      "filename": "heliotropium-curassavicum-var-oculatum_03_inat-579838589.jpg"
+    },
+    {
+      "photo_id": 579838842,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838842/large.jpg",
+      "observation_id": 320680030,
+      "observation_url": "https://www.inaturalist.org/observations/320680030",
+      "observed_on": "2025-10-12",
+      "place_guess": "Sun Village, CA 93543, USA",
+      "user_login": "jonaskat",
+      "filename": "heliotropium-curassavicum-var-oculatum_04_inat-579838842.jpg"
+    },
+    {
+      "photo_id": 579838881,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838881/large.jpg",
+      "observation_id": 320680030,
+      "observation_url": "https://www.inaturalist.org/observations/320680030",
+      "observed_on": "2025-10-12",
+      "place_guess": "Sun Village, CA 93543, USA",
+      "user_login": "jonaskat",
+      "filename": "heliotropium-curassavicum-var-oculatum_05_inat-579838881.jpg"
+    }
+  ]
+}

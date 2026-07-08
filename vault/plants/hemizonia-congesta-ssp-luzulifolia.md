@@ -74,6 +74,25 @@ Hemizonia congesta ssp. luzulifolia (Hayfield Tarweed) is a California-native an
 - **Rarity:** Common
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/hemizonia-congesta-ssp-luzulifolia/hemizonia-congesta-ssp-luzulifolia_01_inat-9752304.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/7488516)*
+
+![](../raw/assets/inaturalist/hemizonia-congesta-ssp-luzulifolia/hemizonia-congesta-ssp-luzulifolia_02_inat-646120906.jpg)
+*(c) Skyler K, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/354152962)*
+
+![](../raw/assets/inaturalist/hemizonia-congesta-ssp-luzulifolia/hemizonia-congesta-ssp-luzulifolia_03_inat-419635797.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/235918606)*
+
+![](../raw/assets/inaturalist/hemizonia-congesta-ssp-luzulifolia/hemizonia-congesta-ssp-luzulifolia_04_inat-23976102.jpg)
+*(c) Jonathan Curley, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/16009302)*
+
+![](../raw/assets/inaturalist/hemizonia-congesta-ssp-luzulifolia/hemizonia-congesta-ssp-luzulifolia_05_inat-56568.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/33164)*
+
 ## Sources
 
 - Calscape (CNPS) — [Hemizonia congesta ssp. luzulifolia](https://calscape.org/Hemizonia-congesta-ssp.-luzulifolia-%28Hayfield-Tarweed%29). Structured fields from the

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Polystichum californicum",
+  "taxon_id": 63867,
+  "photos_taxon_id": 63867,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 39152584,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39152584/large.jpeg",
+      "observation_id": 25289691,
+      "observation_url": "https://www.inaturalist.org/observations/25289691",
+      "observed_on": "2019-05-17",
+      "place_guess": "Nanaimo, BC, Canada",
+      "user_login": "rambryum",
+      "filename": "polystichum-californicum_01_inat-39152584.jpeg"
+    },
+    {
+      "photo_id": 166077370,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166077370/large.jpg",
+      "observation_id": 99604457,
+      "observation_url": "https://www.inaturalist.org/observations/99604457",
+      "observed_on": "1982-12-19",
+      "place_guess": "Pierce County, US-WA, US",
+      "user_login": "eralverson",
+      "filename": "polystichum-californicum_02_inat-166077370.jpg"
+    },
+    {
+      "photo_id": 473835046,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473835046/large.jpeg",
+      "observation_id": 263733888,
+      "observation_url": "https://www.inaturalist.org/observations/263733888",
+      "observed_on": "2025-03-02",
+      "place_guess": "Thurston, Washington, United States",
+      "user_login": "dgwdoesthings",
+      "filename": "polystichum-californicum_03_inat-473835046.jpeg"
+    },
+    {
+      "photo_id": 170046997,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170046997/large.jpeg",
+      "observation_id": 101799398,
+      "observation_url": "https://www.inaturalist.org/observations/101799398",
+      "observed_on": "2021-11-23",
+      "place_guess": "British Columbia, CA",
+      "user_login": "bradenjudson",
+      "filename": "polystichum-californicum_04_inat-170046997.jpeg"
+    },
+    {
+      "photo_id": 462779597,
+      "license": "cc-by",
+      "attribution": "(c) Reid Hardin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462779597/large.jpeg",
+      "observation_id": 257978843,
+      "observation_url": "https://www.inaturalist.org/observations/257978843",
+      "observed_on": "2025-01-07",
+      "place_guess": "Santa Cruz, CA, USA",
+      "user_login": "reidhardin",
+      "filename": "polystichum-californicum_05_inat-462779597.jpeg"
+    }
+  ]
+}

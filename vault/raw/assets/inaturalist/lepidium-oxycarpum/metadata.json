@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Lepidium oxycarpum",
+  "taxon_id": 60155,
+  "photos_taxon_id": 60155,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 389871819,
+      "license": "cc-by",
+      "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389871819/large.jpg",
+      "observation_id": 220217402,
+      "observation_url": "https://www.inaturalist.org/observations/220217402",
+      "observed_on": "2024-05-23",
+      "place_guess": "San Juan County, WA, USA",
+      "user_login": "frondsinhighplaces",
+      "filename": "lepidium-oxycarpum_01_inat-389871819.jpg"
+    },
+    {
+      "photo_id": 389850095,
+      "license": "cc-by",
+      "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389850095/large.jpg",
+      "observation_id": 220206258,
+      "observation_url": "https://www.inaturalist.org/observations/220206258",
+      "observed_on": "2024-05-23",
+      "place_guess": "San Juan County, WA, USA",
+      "user_login": "frondsinhighplaces",
+      "filename": "lepidium-oxycarpum_02_inat-389850095.jpg"
+    },
+    {
+      "photo_id": 389850169,
+      "license": "cc-by",
+      "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389850169/large.jpg",
+      "observation_id": 220206258,
+      "observation_url": "https://www.inaturalist.org/observations/220206258",
+      "observed_on": "2024-05-23",
+      "place_guess": "San Juan County, WA, USA",
+      "user_login": "frondsinhighplaces",
+      "filename": "lepidium-oxycarpum_03_inat-389850169.jpg"
+    },
+    {
+      "photo_id": 389850189,
+      "license": "cc-by",
+      "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389850189/large.jpg",
+      "observation_id": 220206258,
+      "observation_url": "https://www.inaturalist.org/observations/220206258",
+      "observed_on": "2024-05-23",
+      "place_guess": "San Juan County, WA, USA",
+      "user_login": "frondsinhighplaces",
+      "filename": "lepidium-oxycarpum_04_inat-389850189.jpg"
+    },
+    {
+      "photo_id": 389850281,
+      "license": "cc-by",
+      "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389850281/large.jpg",
+      "observation_id": 220206258,
+      "observation_url": "https://www.inaturalist.org/observations/220206258",
+      "observed_on": "2024-05-23",
+      "place_guess": "San Juan County, WA, USA",
+      "user_login": "frondsinhighplaces",
+      "filename": "lepidium-oxycarpum_05_inat-389850281.jpg"
+    }
+  ]
+}

@@ -65,6 +65,25 @@ Cryptantha clevelandii (Cleveland's Cryptantha) is a California-native annual of
 - **Plant communities:** Chaparral, Coastal Sage Scrub, Coastal Strand
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cryptantha-clevelandii/cryptantha-clevelandii_01_inat-182162684.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/108218539)*
+
+![](../raw/assets/inaturalist/cryptantha-clevelandii/cryptantha-clevelandii_02_inat-662122932.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/362764844)*
+
+![](../raw/assets/inaturalist/cryptantha-clevelandii/cryptantha-clevelandii_03_inat-182162694.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/108218539)*
+
+![](../raw/assets/inaturalist/cryptantha-clevelandii/cryptantha-clevelandii_04_inat-182162703.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/108218539)*
+
+![](../raw/assets/inaturalist/cryptantha-clevelandii/cryptantha-clevelandii_05_inat-662122849.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/362764844)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cryptantha clevelandii](https://calscape.org/Cryptantha-clevelandii-%28Cleveland%27s-Cryptantha%29). Structured fields from the

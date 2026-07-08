@@ -74,6 +74,25 @@ Epilobium ciliatum (Northern Willow Herb) is a California-native perennial of Ch
 - **Rarity:** Abundant
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/epilobium-ciliatum/epilobium-ciliatum_01_inat-431599650.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/242115580)*
+
+![](../raw/assets/inaturalist/epilobium-ciliatum/epilobium-ciliatum_02_inat-140550823.jpeg)
+*(c) Gavin Slater, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/85424596)*
+
+![](../raw/assets/inaturalist/epilobium-ciliatum/epilobium-ciliatum_03_inat-395807759.jpeg)
+*(c) Brandon McCracken, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/223388577)*
+
+![](../raw/assets/inaturalist/epilobium-ciliatum/epilobium-ciliatum_04_inat-499411705.jpg)
+*(c) Irina Mitine, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/278137301)*
+
+![](../raw/assets/inaturalist/epilobium-ciliatum/epilobium-ciliatum_05_inat-462066284.jpg)
+*(c) Roberto Daniel Avila, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/257561163)*
+
 ## Sources
 
 - Calscape (CNPS) — [Epilobium ciliatum](https://calscape.org/Epilobium-ciliatum-%28Northern-Willow-Herb%29). Structured fields from the

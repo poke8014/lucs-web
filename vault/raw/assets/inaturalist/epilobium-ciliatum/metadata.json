@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Epilobium ciliatum",
+  "taxon_id": 53050,
+  "photos_taxon_id": 53050,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 431599650,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431599650/large.jpeg",
+      "observation_id": 242115580,
+      "observation_url": "https://www.inaturalist.org/observations/242115580",
+      "observed_on": "2024-09-16",
+      "place_guess": "Rimouski, QC G5L 3A8, Canada",
+      "user_login": "marc_aurele",
+      "filename": "epilobium-ciliatum_01_inat-431599650.jpeg"
+    },
+    {
+      "photo_id": 140550823,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140550823/large.jpeg",
+      "observation_id": 85424596,
+      "observation_url": "https://www.inaturalist.org/observations/85424596",
+      "observed_on": "2021-07-01",
+      "place_guess": "Washington, US",
+      "user_login": "littlelegofan",
+      "filename": "epilobium-ciliatum_02_inat-140550823.jpeg"
+    },
+    {
+      "photo_id": 395807759,
+      "license": "cc-by",
+      "attribution": "(c) Brandon McCracken, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395807759/large.jpeg",
+      "observation_id": 223388577,
+      "observation_url": "https://www.inaturalist.org/observations/223388577",
+      "observed_on": "2024-06-17",
+      "place_guess": "Pittsburgh, PA 15232, USA",
+      "user_login": "bmac922",
+      "filename": "epilobium-ciliatum_03_inat-395807759.jpeg"
+    },
+    {
+      "photo_id": 499411705,
+      "license": "cc-by",
+      "attribution": "(c) Irina Mitine, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/499411705/large.jpg",
+      "observation_id": 278137301,
+      "observation_url": "https://www.inaturalist.org/observations/278137301",
+      "observed_on": "2025-04-27",
+      "place_guess": "Sycamore Grove Park, Livermore, CA, US",
+      "user_login": "irinamitine",
+      "filename": "epilobium-ciliatum_04_inat-499411705.jpg"
+    },
+    {
+      "photo_id": 462066284,
+      "license": "cc-by",
+      "attribution": "(c) Roberto Daniel Avila, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/462066284/large.jpg",
+      "observation_id": 257561163,
+      "observation_url": "https://www.inaturalist.org/observations/257561163",
+      "observed_on": "2025-01-04",
+      "place_guess": "Los Angeles River, Los Angeles, CA, US",
+      "user_login": "robertodesu",
+      "filename": "epilobium-ciliatum_05_inat-462066284.jpg"
+    }
+  ]
+}

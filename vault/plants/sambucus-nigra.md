@@ -80,6 +80,25 @@ Sambucus nigra (Black Elderberry) is a California-native tree of California. Cal
 - **Site type:** Valleys, canyons, washes, slopes, seasonal drainages, and other areas where a little extra moisture is present. Sometimes found as part of wetland/riparian community, other times in portions of chaparral or woodland that have moderate water levels.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/sambucus-nigra/sambucus-nigra_01_inat-314754754.jpeg)
+*(c) Gavin Slater, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/180671017)*
+
+![](../raw/assets/inaturalist/sambucus-nigra/sambucus-nigra_02_inat-109670389.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/67818100)*
+
+![](../raw/assets/inaturalist/sambucus-nigra/sambucus-nigra_03_inat-158849858.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/95671167)*
+
+![](../raw/assets/inaturalist/sambucus-nigra/sambucus-nigra_04_inat-228059487.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/133852740)*
+
+![](../raw/assets/inaturalist/sambucus-nigra/sambucus-nigra_05_inat-100494929.jpeg)
+*(c) Kate McAlpine, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/62694314)*
+
 ## Sources
 
 - Calscape (CNPS) — [Sambucus nigra](https://calscape.org/Sambucus-nigra-%28Black-Elderberry%29). Structured fields from the

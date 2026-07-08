@@ -71,6 +71,25 @@ Trichostema lanceolatum (Vinegarweed) is a California-native annual of Chaparral
 - **Sunset zones:** 7*, 8*, 9*, 10, 14*, 15*, 17, 18*, 19*, 20*, 21*, 22*, 23*, 24*
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/trichostema-lanceolatum/trichostema-lanceolatum_01_inat-56650765.jpeg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/35888775)*
+
+![](../raw/assets/inaturalist/trichostema-lanceolatum/trichostema-lanceolatum_02_inat-226474001.jpeg)
+*(c) Justin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/132997889)*
+
+![](../raw/assets/inaturalist/trichostema-lanceolatum/trichostema-lanceolatum_03_inat-96164164.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/60153804)*
+
+![](../raw/assets/inaturalist/trichostema-lanceolatum/trichostema-lanceolatum_04_inat-401350024.jpg)
+*(c) mel letterman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/226312131)*
+
+![](../raw/assets/inaturalist/trichostema-lanceolatum/trichostema-lanceolatum_05_inat-56650775.jpeg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/35888775)*
+
 ## Sources
 
 - Calscape (CNPS) — [Trichostema lanceolatum](https://calscape.org/Trichostema-lanceolatum-%28Vinegarweed%29). Structured fields from the

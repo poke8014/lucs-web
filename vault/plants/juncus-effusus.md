@@ -84,6 +84,25 @@ Juncus effusus (Soft Rush) is a California-native grass of Chaparral, Coastal Sc
 - **Site type:** Freshwater marshes, streams, ponds, drainage ditches, fens, bogs, and other areas that are wet or moist the majority of the year.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/juncus-effusus/juncus-effusus_01_inat-435880230.jpeg)
+*(c) WF_MI, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/244369166)*
+
+![](../raw/assets/inaturalist/juncus-effusus/juncus-effusus_02_inat-208515739.jpeg)
+*(c) Wolfgang Jauch, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/123108015)*
+
+![](../raw/assets/inaturalist/juncus-effusus/juncus-effusus_03_inat-461091491.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/257079068)*
+
+![](../raw/assets/inaturalist/juncus-effusus/juncus-effusus_04_inat-75659766.jpeg)
+*(c) Jennifer Harris, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/47697742)*
+
+![](../raw/assets/inaturalist/juncus-effusus/juncus-effusus_05_inat-374137671.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/211650766)*
+
 ## Sources
 
 - Calscape (CNPS) — [Juncus effusus](https://calscape.org/Juncus-effusus-%28Soft-Rush%29). Structured fields from the

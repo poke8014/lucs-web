@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Amsinckia douglasiana",
+  "taxon_id": 58047,
+  "photos_taxon_id": 58047,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 263330359,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263330359/large.jpg",
+      "observation_id": 152535114,
+      "observation_url": "https://www.inaturalist.org/observations/152535114",
+      "observed_on": "2023-03-26",
+      "place_guess": "San Luis Obispo County, US-CA, US",
+      "user_login": "trevvan",
+      "filename": "amsinckia-douglasiana_01_inat-263330359.jpg"
+    },
+    {
+      "photo_id": 184760175,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184760175/large.jpeg",
+      "observation_id": 109607393,
+      "observation_url": "https://www.inaturalist.org/observations/109607393",
+      "observed_on": "2022-03-26",
+      "place_guess": "California, US",
+      "user_login": "serpophaga",
+      "filename": "amsinckia-douglasiana_02_inat-184760175.jpeg"
+    },
+    {
+      "photo_id": 263330364,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263330364/large.jpg",
+      "observation_id": 152535114,
+      "observation_url": "https://www.inaturalist.org/observations/152535114",
+      "observed_on": "2023-03-26",
+      "place_guess": "San Luis Obispo County, US-CA, US",
+      "user_login": "trevvan",
+      "filename": "amsinckia-douglasiana_03_inat-263330364.jpg"
+    },
+    {
+      "photo_id": 263330131,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263330131/large.jpg",
+      "observation_id": 152535114,
+      "observation_url": "https://www.inaturalist.org/observations/152535114",
+      "observed_on": "2023-03-26",
+      "place_guess": "San Luis Obispo County, US-CA, US",
+      "user_login": "trevvan",
+      "filename": "amsinckia-douglasiana_04_inat-263330131.jpg"
+    },
+    {
+      "photo_id": 263329690,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263329690/large.jpg",
+      "observation_id": 152535114,
+      "observation_url": "https://www.inaturalist.org/observations/152535114",
+      "observed_on": "2023-03-26",
+      "place_guess": "San Luis Obispo County, US-CA, US",
+      "user_login": "trevvan",
+      "filename": "amsinckia-douglasiana_05_inat-263329690.jpg"
+    }
+  ]
+}

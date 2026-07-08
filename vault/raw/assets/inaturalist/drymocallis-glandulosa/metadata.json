@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Drymocallis glandulosa",
+  "taxon_id": 76716,
+  "photos_taxon_id": 76716,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 414443981,
+      "license": "cc-by",
+      "attribution": "(c) Zach Earl, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414443981/large.jpeg",
+      "observation_id": 233216091,
+      "observation_url": "https://www.inaturalist.org/observations/233216091",
+      "observed_on": "2024-08-01",
+      "place_guess": "Uinta-Wasatch-Cache National Forest, Farmington, UT, US",
+      "user_login": "zacharyearl08",
+      "filename": "drymocallis-glandulosa_01_inat-414443981.jpeg"
+    },
+    {
+      "photo_id": 341239660,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341239660/large.jpg",
+      "observation_id": 194172912,
+      "observation_url": "https://www.inaturalist.org/observations/194172912",
+      "observed_on": "2023-06-18",
+      "place_guess": "Asotin County, WA, USA",
+      "user_login": "walterfertig",
+      "filename": "drymocallis-glandulosa_02_inat-341239660.jpg"
+    },
+    {
+      "photo_id": 321017933,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321017933/large.jpg",
+      "observation_id": 183951651,
+      "observation_url": "https://www.inaturalist.org/observations/183951651",
+      "observed_on": "2023-09-18",
+      "place_guess": "Julia Pfeiffer Burns State Park, Big Sur, CA, US",
+      "user_login": "aparrot1",
+      "filename": "drymocallis-glandulosa_03_inat-321017933.jpg"
+    },
+    {
+      "photo_id": 129730073,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129730073/large.jpeg",
+      "observation_id": 79216558,
+      "observation_url": "https://www.inaturalist.org/observations/79216558",
+      "observed_on": "2021-05-16",
+      "place_guess": "Issaquah, WA 98027, USA",
+      "user_login": "patricksowers",
+      "filename": "drymocallis-glandulosa_04_inat-129730073.jpeg"
+    },
+    {
+      "photo_id": 200180075,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/200180075/large.jpg",
+      "observation_id": 118477083,
+      "observation_url": "https://www.inaturalist.org/observations/118477083",
+      "observed_on": "2022-05-23",
+      "place_guess": "Covington, WA, US",
+      "user_login": "tomerler",
+      "filename": "drymocallis-glandulosa_05_inat-200180075.jpg"
+    }
+  ]
+}

@@ -65,6 +65,25 @@ Heterotheca oregona (Oregon False Goldenaster) is a California-native perennial 
 - **Plant communities:** Chaparral, Foothill Woodland, Mixed Evergreen Forest, Northern Oak Woodland, Redwood Forest, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/heterotheca-oregona/heterotheca-oregona_01_inat-56735926.jpg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/35937876)*
+
+![](../raw/assets/inaturalist/heterotheca-oregona/heterotheca-oregona_02_inat-56735930.jpg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/35937876)*
+
+![](../raw/assets/inaturalist/heterotheca-oregona/heterotheca-oregona_03_inat-56735946.jpg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/35937876)*
+
+![](../raw/assets/inaturalist/heterotheca-oregona/heterotheca-oregona_04_inat-568485252.jpg)
+*(c) jayjt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/314733720)*
+
+![](../raw/assets/inaturalist/heterotheca-oregona/heterotheca-oregona_05_inat-335251326.jpg)
+*(c) Amelia Tauber, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/191144232)*
+
 ## Sources
 
 - Calscape (CNPS) — [Heterotheca oregona](https://calscape.org/Heterotheca-oregona-%28Oregon-False-Goldenaster%29). Structured fields from the

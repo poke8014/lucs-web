@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Acer negundo",
+  "taxon_id": 47726,
+  "photos_taxon_id": 47726,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 30907600,
+      "license": "cc-by",
+      "attribution": "(c) Jody Shugart, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30907600/large.jpg",
+      "observation_id": 20022859,
+      "observation_url": "https://www.inaturalist.org/observations/20022859",
+      "observed_on": "2018-11-14",
+      "place_guess": "Iberville Parish, LA, USA",
+      "user_login": "terrapinjoe",
+      "filename": "acer-negundo_01_inat-30907600.jpg"
+    },
+    {
+      "photo_id": 38627351,
+      "license": "cc-by",
+      "attribution": "(c) naturalist charlie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38627351/large.jpg",
+      "observation_id": 24967541,
+      "observation_url": "https://www.inaturalist.org/observations/24967541",
+      "observed_on": "2019-05-11",
+      "place_guess": "218 Hannaford Dr, South Burlington, VT, US",
+      "user_login": "charlie",
+      "filename": "acer-negundo_02_inat-38627351.jpg"
+    },
+    {
+      "photo_id": 6433477,
+      "license": "cc-by",
+      "attribution": "(c) Alice Shanks, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6433477/large.jpg",
+      "observation_id": 5209990,
+      "observation_url": "https://www.inaturalist.org/observations/5209990",
+      "observed_on": "2017-03-02",
+      "place_guess": "Ernle Clark Reserve, Christchurch",
+      "user_login": "alice_shanks",
+      "filename": "acer-negundo_03_inat-6433477.jpg"
+    },
+    {
+      "photo_id": 81034772,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81034772/large.jpg",
+      "observation_id": 51016213,
+      "observation_url": "https://www.inaturalist.org/observations/51016213",
+      "observed_on": "2020-06-26",
+      "place_guess": "\u041a\u0430\u0437\u0430\u043d\u044c, \u0422\u0430\u0442\u0430\u0440\u0441\u0442\u0430\u043d, RU",
+      "user_login": "pavel_andreev",
+      "filename": "acer-negundo_04_inat-81034772.jpg"
+    },
+    {
+      "photo_id": 207922999,
+      "license": "cc-by",
+      "attribution": "(c) \u0415\u0432\u0433\u0435\u043d\u0438\u0439 \u0415\u0433\u043e\u0440\u0435\u0439\u0447\u0435\u043d\u043a\u043e\u0432, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/207922999/large.jpg",
+      "observation_id": 122780506,
+      "observation_url": "https://www.inaturalist.org/observations/122780506",
+      "observed_on": "2022-06-18",
+      "place_guess": "Miass gorsovet, Chelyabinsk, Russia",
+      "user_login": "evgenyi_eg",
+      "filename": "acer-negundo_05_inat-207922999.jpg"
+    }
+  ]
+}

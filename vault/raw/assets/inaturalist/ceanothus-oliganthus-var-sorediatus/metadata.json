@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Ceanothus oliganthus var. sorediatus",
+  "taxon_id": 53361,
+  "photos_taxon_id": 53361,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 2165470,
+      "license": "cc-by",
+      "attribution": "(c) Heather Marie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2165470/large.jpg",
+      "observation_id": 1788189,
+      "observation_url": "https://www.inaturalist.org/observations/1788189",
+      "observed_on": "2015-07-21",
+      "place_guess": "Marin Municipal Water District Watershed, Marin County, US-CA, US",
+      "user_login": "heathermarie",
+      "filename": "ceanothus-oliganthus-var-sorediatus_01_inat-2165470.jpg"
+    },
+    {
+      "photo_id": 481586703,
+      "license": "cc-by",
+      "attribution": "(c) Arvel Hernandez, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481586703/large.png",
+      "observation_id": 268086721,
+      "observation_url": "https://www.inaturalist.org/observations/268086721",
+      "observed_on": "2025-03-30",
+      "place_guess": "Santa Clara, California, United States",
+      "user_login": "arvel",
+      "filename": "ceanothus-oliganthus-var-sorediatus_02_inat-481586703.png"
+    },
+    {
+      "photo_id": 243426605,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243426605/large.jpg",
+      "observation_id": 142023965,
+      "observation_url": "https://www.inaturalist.org/observations/142023965",
+      "observed_on": "2022-11-14",
+      "place_guess": "Picchetti Ranch Open Space Preserve, CA, US",
+      "user_login": "joergmlpts",
+      "filename": "ceanothus-oliganthus-var-sorediatus_03_inat-243426605.jpg"
+    },
+    {
+      "photo_id": 194889102,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Levitis, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194889102/large.jpeg",
+      "observation_id": 115477633,
+      "observation_url": "https://www.inaturalist.org/observations/115477633",
+      "observed_on": "2022-05-01",
+      "place_guess": "Sonoma, California, United States",
+      "user_login": "dlevitis",
+      "filename": "ceanothus-oliganthus-var-sorediatus_04_inat-194889102.jpeg"
+    },
+    {
+      "photo_id": 34583137,
+      "license": "cc-by",
+      "attribution": "(c) Nelson Balcar, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34583137/large.jpg",
+      "observation_id": 22329165,
+      "observation_url": "https://www.inaturalist.org/observations/22329165",
+      "observed_on": "2019-04-10",
+      "place_guess": "Los Padres National Forest, Big Sur, CA, US",
+      "user_login": "nelsonb",
+      "filename": "ceanothus-oliganthus-var-sorediatus_05_inat-34583137.jpg"
+    }
+  ]
+}

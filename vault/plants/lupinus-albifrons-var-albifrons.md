@@ -75,6 +75,25 @@ Lupinus albifrons var. albifrons (Silver Lupine) is a California-native shrub of
 - **Site type:** Open, sand or rocks
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/lupinus-albifrons-var-albifrons/lupinus-albifrons-var-albifrons_01_inat-67868348.jpg)
+*(c) crothfels, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/42734678)*
+
+![](../raw/assets/inaturalist/lupinus-albifrons-var-albifrons/lupinus-albifrons-var-albifrons_02_inat-27217.JPG)
+*(c) Barbara Banfield, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/13799)*
+
+![](../raw/assets/inaturalist/lupinus-albifrons-var-albifrons/lupinus-albifrons-var-albifrons_03_inat-67868365.jpg)
+*(c) crothfels, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/42734678)*
+
+![](../raw/assets/inaturalist/lupinus-albifrons-var-albifrons/lupinus-albifrons-var-albifrons_04_inat-67868339.jpg)
+*(c) crothfels, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/42734678)*
+
+![](../raw/assets/inaturalist/lupinus-albifrons-var-albifrons/lupinus-albifrons-var-albifrons_05_inat-121152726.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/74148826)*
+
 ## Sources
 
 - Calscape (CNPS) — [Lupinus albifrons var. albifrons](https://calscape.org/Lupinus-albifrons-var.-albifrons-%28Silver-Lupine%29). Structured fields from the

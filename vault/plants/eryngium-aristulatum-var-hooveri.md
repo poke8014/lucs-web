@@ -59,6 +59,27 @@ Eryngium aristulatum var. hooveri (Hoover's Button-celery) is a California-nativ
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+> Note: photos are of the parent species (taxon 57901), not the subspecies — iNaturalist had no CC-licensed photos at the subspecies rank.
+
+![](../raw/assets/inaturalist/eryngium-aristulatum-var-hooveri/eryngium-aristulatum-var-hooveri_01_inat-365789080.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/206836282)*
+
+![](../raw/assets/inaturalist/eryngium-aristulatum-var-hooveri/eryngium-aristulatum-var-hooveri_02_inat-365789122.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/206836282)*
+
+![](../raw/assets/inaturalist/eryngium-aristulatum-var-hooveri/eryngium-aristulatum-var-hooveri_03_inat-607606153.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/334556916)*
+
+![](../raw/assets/inaturalist/eryngium-aristulatum-var-hooveri/eryngium-aristulatum-var-hooveri_04_inat-204982854.jpg)
+*(c) Sula Vanderplank, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/121151507)*
+
+![](../raw/assets/inaturalist/eryngium-aristulatum-var-hooveri/eryngium-aristulatum-var-hooveri_05_inat-72387216.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/45645559)*
+
 ## Sources
 
 - Calscape (CNPS) — [Eryngium aristulatum var. hooveri](https://calscape.org/Eryngium-aristulatum-var.-hooveri-%28Hoover%27s-Button-celery%29). Structured fields from the

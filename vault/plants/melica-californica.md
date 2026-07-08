@@ -84,6 +84,25 @@ Melica californica (California Melicgrass) is a California-native grass of Fores
 - **Site type:** Open or rocky hillsides and slopes of southern, central, and northern California, often in chaparral, grasslands, oak woodlands, or forest habitats.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/melica-californica/melica-californica_01_inat-650800861.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/356856161)*
+
+![](../raw/assets/inaturalist/melica-californica/melica-californica_02_inat-277236156.jpeg)
+*(c) Chris Conard, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/160437943)*
+
+![](../raw/assets/inaturalist/melica-californica/melica-californica_03_inat-650800900.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/356856161)*
+
+![](../raw/assets/inaturalist/melica-californica/melica-californica_04_inat-650800938.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/356856161)*
+
+![](../raw/assets/inaturalist/melica-californica/melica-californica_05_inat-487331646.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/270948407)*
+
 ## Sources
 
 - Calscape (CNPS) — [Melica californica](https://calscape.org/Melica-californica-%28California-Melicgrass%29). Structured fields from the

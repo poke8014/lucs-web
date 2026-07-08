@@ -60,6 +60,13 @@ Eryngium aristulatum var. aristulatum (California Eryngo) is a California-native
 - **Plant communities:** Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/eryngium-aristulatum-var-aristulatum/eryngium-aristulatum-var-aristulatum_01_inat-3862303.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/3344479)*
+
 ## Sources
 
 - Calscape (CNPS) — [Eryngium aristulatum var. aristulatum](https://calscape.org/Eryngium-aristulatum-var.-aristulatum-%28California-Eryngo%29). Structured fields from the

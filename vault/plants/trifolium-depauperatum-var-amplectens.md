@@ -60,6 +60,25 @@ Trifolium depauperatum var. amplectens (Pale Sack Clover) is a California-native
 - **Plant communities:** Coastal Sage Scrub, Foothill Woodland, Valley Grassland, Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-amplectens/trifolium-depauperatum-var-amplectens_01_inat-361429443.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/204475995)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-amplectens/trifolium-depauperatum-var-amplectens_02_inat-3223535.jpg)
+*(c) Don Loarie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/2830647)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-amplectens/trifolium-depauperatum-var-amplectens_03_inat-289954176.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/167382338)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-amplectens/trifolium-depauperatum-var-amplectens_04_inat-501969400.jpeg)
+*(c) Konshau Duman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/279533770)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-amplectens/trifolium-depauperatum-var-amplectens_05_inat-361429387.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/204475995)*
+
 ## Sources
 
 - Calscape (CNPS) — [Trifolium depauperatum var. amplectens](https://calscape.org/Trifolium-depauperatum-var.-amplectens-%28Pale-Sack-Clover%29). Structured fields from the

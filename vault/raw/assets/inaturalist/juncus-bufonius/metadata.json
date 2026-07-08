@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Juncus bufonius",
+  "taxon_id": 57107,
+  "photos_taxon_id": 57107,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 132007133,
+      "license": "cc-by",
+      "attribution": "(c) Josh, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132007133/large.jpg",
+      "observation_id": 80550310,
+      "observation_url": "https://www.inaturalist.org/observations/80550310",
+      "observed_on": "2021-04-30",
+      "place_guess": "Marion County, MS, USA",
+      "user_login": "manplanpanama",
+      "filename": "juncus-bufonius_01_inat-132007133.jpg"
+    },
+    {
+      "photo_id": 277700272,
+      "license": "cc-by",
+      "attribution": "(c) Pinnacles National Park, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277700272/large.jpg",
+      "observation_id": 160695375,
+      "observation_url": "https://www.inaturalist.org/observations/160695375",
+      "observed_on": "2023-05-06",
+      "place_guess": "San Benito County, CA, USA",
+      "user_login": "pinnaclesnp",
+      "filename": "juncus-bufonius_02_inat-277700272.jpg"
+    },
+    {
+      "photo_id": 396712528,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396712528/large.jpg",
+      "observation_id": 223875354,
+      "observation_url": "https://www.inaturalist.org/observations/223875354",
+      "observed_on": "2024-06-17",
+      "place_guess": "Illinois, US",
+      "user_login": "rynxs",
+      "filename": "juncus-bufonius_03_inat-396712528.jpg"
+    },
+    {
+      "photo_id": 610305526,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/610305526/large.jpg",
+      "observation_id": 335900208,
+      "observation_url": "https://www.inaturalist.org/observations/335900208",
+      "observed_on": "2020-06-05",
+      "place_guess": "Torre de Moncorvo, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "juncus-bufonius_04_inat-610305526.jpg"
+    },
+    {
+      "photo_id": 439279360,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/439279360/large.jpeg",
+      "observation_id": 246100499,
+      "observation_url": "https://www.inaturalist.org/observations/246100499",
+      "observed_on": "2024-10-06",
+      "place_guess": "McLeod River, Woodlands County, AB, CA",
+      "user_login": "kallummcdonald",
+      "filename": "juncus-bufonius_05_inat-439279360.jpeg"
+    }
+  ]
+}

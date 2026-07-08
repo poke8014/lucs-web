@@ -84,6 +84,25 @@ Sambucus mexicana (Blue Elderberry) is a California-native tree of Forest, Woodl
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/sambucus-mexicana/sambucus-mexicana_01_inat-261313309.jpeg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/151447367)*
+
+![](../raw/assets/inaturalist/sambucus-mexicana/sambucus-mexicana_02_inat-649125765.jpg)
+*(c) Rachel Allingham, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/355953677)*
+
+![](../raw/assets/inaturalist/sambucus-mexicana/sambucus-mexicana_03_inat-645930197.jpg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/354060148)*
+
+![](../raw/assets/inaturalist/sambucus-mexicana/sambucus-mexicana_04_inat-261313326.jpeg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/151447367)*
+
+![](../raw/assets/inaturalist/sambucus-mexicana/sambucus-mexicana_05_inat-261313344.jpeg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/151447367)*
+
 ## Sources
 
 - Calscape (CNPS) — [Sambucus mexicana](https://calscape.org/Sambucus-mexicana-%28Blue-Elderberry%29). Structured fields from the

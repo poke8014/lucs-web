@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Ranunculus californicus",
+  "taxon_id": 52173,
+  "photos_taxon_id": 52173,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 34096502,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34096502/large.jpg",
+      "observation_id": 21997314,
+      "observation_url": "https://www.inaturalist.org/observations/21997314",
+      "observed_on": "2019-04-04",
+      "place_guess": "Los Padres National Forest, Big Sur, CA, US",
+      "user_login": "jsriley1984",
+      "filename": "ranunculus-californicus_01_inat-34096502.jpg"
+    },
+    {
+      "photo_id": 2983501,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2983501/large.jpeg",
+      "observation_id": 2655023,
+      "observation_url": "https://www.inaturalist.org/observations/2655023",
+      "observed_on": "2016-02-07",
+      "place_guess": "Starr King Open Space",
+      "user_login": "rockybajada",
+      "filename": "ranunculus-californicus_02_inat-2983501.jpeg"
+    },
+    {
+      "photo_id": 118134484,
+      "license": "cc-by",
+      "attribution": "(c) Justin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118134484/large.jpeg",
+      "observation_id": 72455550,
+      "observation_url": "https://www.inaturalist.org/observations/72455550",
+      "observed_on": "2021-03-29",
+      "place_guess": "Point Reyes, California, USA",
+      "user_login": "justin2",
+      "filename": "ranunculus-californicus_03_inat-118134484.jpeg"
+    },
+    {
+      "photo_id": 80700156,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80700156/large.jpg",
+      "observation_id": 50808795,
+      "observation_url": "https://www.inaturalist.org/observations/50808795",
+      "observed_on": "2020-05-08",
+      "place_guess": "Oat Hill Fire Rd, Fairfax, CA, US",
+      "user_login": "lotusmorning",
+      "filename": "ranunculus-californicus_04_inat-80700156.jpg"
+    },
+    {
+      "photo_id": 34345371,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34345371/large.jpeg",
+      "observation_id": 22182500,
+      "observation_url": "https://www.inaturalist.org/observations/22182500",
+      "observed_on": "2019-04-07",
+      "place_guess": "Marin County, US-CA, US",
+      "user_login": "jimkingdon",
+      "filename": "ranunculus-californicus_05_inat-34345371.jpeg"
+    }
+  ]
+}

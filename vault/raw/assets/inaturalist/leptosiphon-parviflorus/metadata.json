@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Leptosiphon parviflorus",
+  "taxon_id": 58965,
+  "photos_taxon_id": 58965,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 267213506,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267213506/large.jpeg",
+      "observation_id": 154642401,
+      "observation_url": "https://www.inaturalist.org/observations/154642401",
+      "observed_on": "2023-04-08",
+      "place_guess": "San Benito, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "leptosiphon-parviflorus_01_inat-267213506.jpeg"
+    },
+    {
+      "photo_id": 79403633,
+      "license": "cc-by",
+      "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79403633/large.jpeg",
+      "observation_id": 50008727,
+      "observation_url": "https://www.inaturalist.org/observations/50008727",
+      "observed_on": "2020-06-16",
+      "place_guess": "Monterey County, CA, USA",
+      "user_login": "hkibak",
+      "filename": "leptosiphon-parviflorus_02_inat-79403633.jpeg"
+    },
+    {
+      "photo_id": 395519793,
+      "license": "cc-by",
+      "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395519793/large.jpeg",
+      "observation_id": 223237214,
+      "observation_url": "https://www.inaturalist.org/observations/223237214",
+      "observed_on": "2024-04-17",
+      "place_guess": "San Benito County, CA, USA",
+      "user_login": "matsonburger",
+      "filename": "leptosiphon-parviflorus_03_inat-395519793.jpeg"
+    },
+    {
+      "photo_id": 655215144,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655215144/large.jpg",
+      "observation_id": 359129616,
+      "observation_url": "https://www.inaturalist.org/observations/359129616",
+      "observed_on": "2026-04-27",
+      "place_guess": "Portola Valley, CA, US",
+      "user_login": "avephill",
+      "filename": "leptosiphon-parviflorus_04_inat-655215144.jpg"
+    },
+    {
+      "photo_id": 267213524,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267213524/large.jpeg",
+      "observation_id": 154642401,
+      "observation_url": "https://www.inaturalist.org/observations/154642401",
+      "observed_on": "2023-04-08",
+      "place_guess": "San Benito, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "leptosiphon-parviflorus_05_inat-267213524.jpeg"
+    }
+  ]
+}

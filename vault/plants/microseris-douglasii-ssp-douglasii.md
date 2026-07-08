@@ -58,6 +58,25 @@ Microseris douglasii ssp. douglasii (Microseris douglasii ssp. douglasii) is a C
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/microseris-douglasii-ssp-douglasii/microseris-douglasii-ssp-douglasii_01_inat-280568932.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/162249488)*
+
+![](../raw/assets/inaturalist/microseris-douglasii-ssp-douglasii/microseris-douglasii-ssp-douglasii_02_inat-186349824.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/110464624)*
+
+![](../raw/assets/inaturalist/microseris-douglasii-ssp-douglasii/microseris-douglasii-ssp-douglasii_03_inat-487398026.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/270982883)*
+
+![](../raw/assets/inaturalist/microseris-douglasii-ssp-douglasii/microseris-douglasii-ssp-douglasii_04_inat-641747278.jpg)
+*(c) Kyle Elshoff, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/351649730)*
+
+![](../raw/assets/inaturalist/microseris-douglasii-ssp-douglasii/microseris-douglasii-ssp-douglasii_05_inat-280568951.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/162249488)*
+
 ## Sources
 
 - Calscape (CNPS) — [Microseris douglasii ssp. douglasii](https://calscape.org/Microseris-douglasii-ssp.-douglasii-%28%29). Structured fields from the

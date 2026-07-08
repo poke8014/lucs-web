@@ -86,6 +86,25 @@ Achillea millefolium (Common Yarrow) is a California-native perennial of Forest,
 - **Site type:** meadow; disturbed places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/achillea-millefolium/achillea-millefolium_01_inat-79491887.jpg)
+*(c) Eric Lamb, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/50063769)*
+
+![](../raw/assets/inaturalist/achillea-millefolium/achillea-millefolium_02_inat-391805083.jpg)
+*(c) prosperosity, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/221247130)*
+
+![](../raw/assets/inaturalist/achillea-millefolium/achillea-millefolium_03_inat-672401218.jpg)
+*(c) Jared Tholen, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/368159995)*
+
+![](../raw/assets/inaturalist/achillea-millefolium/achillea-millefolium_04_inat-126222917.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/77191642)*
+
+![](../raw/assets/inaturalist/achillea-millefolium/achillea-millefolium_05_inat-144230937.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/87477776)*
+
 ## Sources
 
 - Calscape (CNPS) — [Achillea millefolium](https://calscape.org/Achillea-millefolium-%28Common-Yarrow%29). Structured fields from the

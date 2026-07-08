@@ -74,6 +74,25 @@ Oenanthe sarmentosa (Pacific Oenanthe) is a California-native perennial of Chapa
 - **Site type:** Streams, marshes, ponds
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/oenanthe-sarmentosa/oenanthe-sarmentosa_01_inat-142242833.jpeg)
+*(c) Gavin Slater, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/86352593)*
+
+![](../raw/assets/inaturalist/oenanthe-sarmentosa/oenanthe-sarmentosa_02_inat-117758971.jpeg)
+*(c) Mike Bowie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/72247877)*
+
+![](../raw/assets/inaturalist/oenanthe-sarmentosa/oenanthe-sarmentosa_03_inat-142242840.jpeg)
+*(c) Gavin Slater, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/86352593)*
+
+![](../raw/assets/inaturalist/oenanthe-sarmentosa/oenanthe-sarmentosa_04_inat-142242858.jpeg)
+*(c) Gavin Slater, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/86352593)*
+
+![](../raw/assets/inaturalist/oenanthe-sarmentosa/oenanthe-sarmentosa_05_inat-117758975.jpeg)
+*(c) Mike Bowie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/72247877)*
+
 ## Sources
 
 - Calscape (CNPS) — [Oenanthe sarmentosa](https://calscape.org/Oenanthe-sarmentosa-%28Pacific-Oenanthe%29). Structured fields from the

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Quercus lobata",
+  "taxon_id": 49011,
+  "photos_taxon_id": 49011,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 378621133,
+      "license": "cc-by",
+      "attribution": "(c) klicklo, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378621133/large.jpg",
+      "observation_id": 183122188,
+      "observation_url": "https://www.inaturalist.org/observations/183122188",
+      "observed_on": "2023-09-13",
+      "place_guess": "W Mountain St, Glendale, CA, US",
+      "user_login": "klicklo",
+      "filename": "quercus-lobata_01_inat-378621133.jpg"
+    },
+    {
+      "photo_id": 16710608,
+      "license": "cc-by",
+      "attribution": "(c) Casey Schreiner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16710608/large.jpg",
+      "observation_id": 11690952,
+      "observation_url": "https://www.inaturalist.org/observations/11690952",
+      "observed_on": "2018-04-28",
+      "place_guess": "Angeles National Forest, Lake Hughes, CA, US",
+      "user_login": "modernhiker",
+      "filename": "quercus-lobata_02_inat-16710608.jpg"
+    },
+    {
+      "photo_id": 566555048,
+      "license": "cc-by",
+      "attribution": "(c) vultur-cadens, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566555048/large.jpg",
+      "observation_id": 313717307,
+      "observation_url": "https://www.inaturalist.org/observations/313717307",
+      "observed_on": "2025-09-13",
+      "place_guess": "Alameda County, CA, USA",
+      "user_login": "vultur-cadens",
+      "filename": "quercus-lobata_03_inat-566555048.jpg"
+    },
+    {
+      "photo_id": 523270955,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/523270955/large.jpg",
+      "observation_id": 290855825,
+      "observation_url": "https://www.inaturalist.org/observations/290855825",
+      "observed_on": "2025-06-18",
+      "place_guess": "Carmel Valley, CA, US",
+      "user_login": "aparrot1",
+      "filename": "quercus-lobata_04_inat-523270955.jpg"
+    },
+    {
+      "photo_id": 6413105,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6413105/large.jpg",
+      "observation_id": 5197121,
+      "observation_url": "https://www.inaturalist.org/observations/5197121",
+      "observed_on": "2017-02-27",
+      "place_guess": "1385 E Janss Rd, Thousand Oaks, CA, US",
+      "user_login": "serpophaga",
+      "filename": "quercus-lobata_05_inat-6413105.jpg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Holodiscus discolor",
+  "taxon_id": 53414,
+  "photos_taxon_id": 53414,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 329591270,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329591270/large.jpeg",
+      "observation_id": 188329142,
+      "observation_url": "https://www.inaturalist.org/observations/188329142",
+      "observed_on": "2023-10-20",
+      "place_guess": "Lewisville, WA 98604, USA",
+      "user_login": "littlelegofan",
+      "filename": "holodiscus-discolor_01_inat-329591270.jpeg"
+    },
+    {
+      "photo_id": 8047090,
+      "license": "cc-by",
+      "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8047090/large.jpg",
+      "observation_id": 6376284,
+      "observation_url": "https://www.inaturalist.org/observations/6376284",
+      "observed_on": "2017-05-13",
+      "place_guess": "Sonoma County, CA, USA",
+      "user_login": "dloarie",
+      "filename": "holodiscus-discolor_02_inat-8047090.jpg"
+    },
+    {
+      "photo_id": 185053942,
+      "license": "cc-by",
+      "attribution": "(c) John Powers, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185053942/large.jpg",
+      "observation_id": 109763667,
+      "observation_url": "https://www.inaturalist.org/observations/109763667",
+      "observed_on": "2021-07-25",
+      "place_guess": "Gunnison County, CO, USA",
+      "user_login": "jellyturtle",
+      "filename": "holodiscus-discolor_03_inat-185053942.jpg"
+    },
+    {
+      "photo_id": 134463543,
+      "license": "cc-by",
+      "attribution": "(c) eebee, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/134463543/large.jpg",
+      "observation_id": 81955207,
+      "observation_url": "https://www.inaturalist.org/observations/81955207",
+      "observed_on": "2021-06-06",
+      "place_guess": "Washington, US",
+      "user_login": "eebee",
+      "filename": "holodiscus-discolor_04_inat-134463543.jpg"
+    },
+    {
+      "photo_id": 438790313,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/438790313/large.jpeg",
+      "observation_id": 245874185,
+      "observation_url": "https://www.inaturalist.org/observations/245874185",
+      "observed_on": "2024-06-14",
+      "place_guess": "Humboldt County, NV, USA",
+      "user_login": "sheriff_woody_pct",
+      "filename": "holodiscus-discolor_05_inat-438790313.jpeg"
+    }
+  ]
+}

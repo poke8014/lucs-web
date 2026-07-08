@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Lepidium latipes",
+  "taxon_id": 60154,
+  "photos_taxon_id": 60154,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 265953537,
+      "license": "cc-by",
+      "attribution": "(c) Konshau Duman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265953537/large.jpeg",
+      "observation_id": 153947762,
+      "observation_url": "https://www.inaturalist.org/observations/153947762",
+      "observed_on": "2023-04-07",
+      "place_guess": "El Macero, CA 95618, USA",
+      "user_login": "konshau",
+      "filename": "lepidium-latipes_01_inat-265953537.jpeg"
+    },
+    {
+      "photo_id": 184781000,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184781000/large.jpg",
+      "observation_id": 109603079,
+      "observation_url": "https://www.inaturalist.org/observations/109603079",
+      "observed_on": "2022-03-26",
+      "place_guess": "County Road 102, Woodland, CA, US",
+      "user_login": "yargeritaville",
+      "filename": "lepidium-latipes_02_inat-184781000.jpg"
+    },
+    {
+      "photo_id": 628757923,
+      "license": "cc-by",
+      "attribution": "(c) Kyle Elshoff, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628757923/large.jpg",
+      "observation_id": 345043482,
+      "observation_url": "https://www.inaturalist.org/observations/345043482",
+      "observed_on": "2026-03-24",
+      "place_guess": "Merced, CA, US",
+      "user_login": "kcelshoff",
+      "filename": "lepidium-latipes_03_inat-628757923.jpg"
+    },
+    {
+      "photo_id": 479213303,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/479213303/large.jpg",
+      "observation_id": 266709309,
+      "observation_url": "https://www.inaturalist.org/observations/266709309",
+      "observed_on": "2025-03-22",
+      "place_guess": "Kellog Creek watershed, Los Vaqueros, Contra Costa County, CA, USA",
+      "user_login": "kueda",
+      "filename": "lepidium-latipes_04_inat-479213303.jpg"
+    },
+    {
+      "photo_id": 485770032,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485770032/large.jpg",
+      "observation_id": 270130005,
+      "observation_url": "https://www.inaturalist.org/observations/270130005",
+      "observed_on": "2025-04-12",
+      "place_guess": "Dixon, CA, US",
+      "user_login": "heymana77",
+      "filename": "lepidium-latipes_05_inat-485770032.jpg"
+    }
+  ]
+}

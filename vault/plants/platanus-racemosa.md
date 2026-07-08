@@ -87,6 +87,25 @@ Platanus racemosa (Western Sycamore) is a California-native tree of Chaparral, F
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/platanus-racemosa/platanus-racemosa_01_inat-248665230.jpg)
+*(c) Steve Matson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/144831563)*
+
+![](../raw/assets/inaturalist/platanus-racemosa/platanus-racemosa_02_inat-591093.jpg)
+*(c) Charlie Hohn, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/468503)*
+
+![](../raw/assets/inaturalist/platanus-racemosa/platanus-racemosa_03_inat-252743600.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/146938249)*
+
+![](../raw/assets/inaturalist/platanus-racemosa/platanus-racemosa_04_inat-393076531.jpg)
+*(c) klicklo, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/221935017)*
+
+![](../raw/assets/inaturalist/platanus-racemosa/platanus-racemosa_05_inat-173156292.jpeg)
+*(c) velodrome, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/103458160)*
+
 ## Sources
 
 - Calscape (CNPS) — [Platanus racemosa](https://calscape.org/Platanus-racemosa-%28Western-Sycamore%29). Structured fields from the

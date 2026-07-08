@@ -63,6 +63,25 @@ Cuscuta salina (Salt Dodder) is a California-native vine of California. Calscape
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cuscuta-salina/cuscuta-salina_01_inat-279946559.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/161932291)*
+
+![](../raw/assets/inaturalist/cuscuta-salina/cuscuta-salina_02_inat-63697962.jpg)
+*(c) Tom Wainwright, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/40107013)*
+
+![](../raw/assets/inaturalist/cuscuta-salina/cuscuta-salina_03_inat-111998174.jpg)
+*(c) Lyrae, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/69073079)*
+
+![](../raw/assets/inaturalist/cuscuta-salina/cuscuta-salina_04_inat-63697953.jpg)
+*(c) Tom Wainwright, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/40107013)*
+
+![](../raw/assets/inaturalist/cuscuta-salina/cuscuta-salina_05_inat-63698060.jpg)
+*(c) Tom Wainwright, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/40107013)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cuscuta salina](https://calscape.org/Cuscuta-salina-%28Salt-Dodder%29). Structured fields from the

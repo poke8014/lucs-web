@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Pleuropogon californicus",
+  "taxon_id": 60300,
+  "photos_taxon_id": 60300,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 119436207,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119436207/large.jpg",
+      "observation_id": 73175925,
+      "observation_url": "https://www.inaturalist.org/observations/73175925",
+      "observed_on": "2021-04-04",
+      "place_guess": "California, US",
+      "user_login": "kueda",
+      "filename": "pleuropogon-californicus_01_inat-119436207.jpg"
+    },
+    {
+      "photo_id": 273044572,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273044572/large.jpg",
+      "observation_id": 157954700,
+      "observation_url": "https://www.inaturalist.org/observations/157954700",
+      "observed_on": "2023-04-29",
+      "place_guess": "Cook Ln, Dixon, CA, US",
+      "user_login": "serpophaga",
+      "filename": "pleuropogon-californicus_02_inat-273044572.jpg"
+    },
+    {
+      "photo_id": 36807319,
+      "license": "cc-by",
+      "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36807319/large.jpeg",
+      "observation_id": 23787083,
+      "observation_url": "https://www.inaturalist.org/observations/23787083",
+      "observed_on": "2019-04-28",
+      "place_guess": "4844 Libra Ct, Livermore, CA 94551, USA",
+      "user_login": "ddefreese",
+      "filename": "pleuropogon-californicus_03_inat-36807319.jpeg"
+    },
+    {
+      "photo_id": 478802732,
+      "license": "cc-by",
+      "attribution": "(c) Amelia Tauber, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/478802732/large.jpg",
+      "observation_id": 266482173,
+      "observation_url": "https://www.inaturalist.org/observations/266482173",
+      "observed_on": "2025-03-22",
+      "place_guess": "Cook Ln, Dixon, CA, US",
+      "user_login": "antrozousamelia",
+      "filename": "pleuropogon-californicus_04_inat-478802732.jpg"
+    },
+    {
+      "photo_id": 485786451,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485786451/large.jpg",
+      "observation_id": 270137690,
+      "observation_url": "https://www.inaturalist.org/observations/270137690",
+      "observed_on": "2025-04-12",
+      "place_guess": "Cook Ln, Dixon, CA, US",
+      "user_login": "heymana77",
+      "filename": "pleuropogon-californicus_05_inat-485786451.jpg"
+    }
+  ]
+}

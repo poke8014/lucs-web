@@ -81,6 +81,25 @@ Madia elegans (Spring Madia) is a California-native annual of Forest, Meadow. Ca
 - **Site type:** Meadows, openings in woodlands or chaparral, other open, grassy places
 - **Nursery availability:** Available Through Seed Stores,Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/madia-elegans/madia-elegans_01_inat-45761450.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/29324939)*
+
+![](../raw/assets/inaturalist/madia-elegans/madia-elegans_02_inat-57465002.jpeg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/36361721)*
+
+![](../raw/assets/inaturalist/madia-elegans/madia-elegans_03_inat-567148196.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/314025927)*
+
+![](../raw/assets/inaturalist/madia-elegans/madia-elegans_04_inat-455932004.jpg)
+*(c) Parker James Lloyd, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/254531840)*
+
+![](../raw/assets/inaturalist/madia-elegans/madia-elegans_05_inat-432507941.jpeg)
+*(c) Alexander Wentworth, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/242603333)*
+
 ## Sources
 
 - Calscape (CNPS) — [Madia elegans](https://calscape.org/Madia-elegans-%28Spring-Madia%29). Structured fields from the

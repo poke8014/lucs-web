@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Amaranthus powellii",
+  "taxon_id": 75398,
+  "photos_taxon_id": 75398,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 420848290,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420848290/large.jpeg",
+      "observation_id": 236549953,
+      "observation_url": "https://www.inaturalist.org/observations/236549953",
+      "observed_on": "2024-08-16",
+      "place_guess": "\u0414\u0443\u0431\u043e\u0432\u043e\u0435, \u0417\u0430\u043a\u0430\u0440\u043f\u0430\u0442\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0423\u043a\u0440\u0430\u0438\u043d\u0430, 90531",
+      "user_login": "ametasoma",
+      "filename": "amaranthus-powellii_01_inat-420848290.jpeg"
+    },
+    {
+      "photo_id": 329070448,
+      "license": "cc-by",
+      "attribution": "(c) Zihao Wang, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329070448/large.jpeg",
+      "observation_id": 188080385,
+      "observation_url": "https://www.inaturalist.org/observations/188080385",
+      "observed_on": "2023-10-18",
+      "place_guess": "Glendale, Queens, NY, USA",
+      "user_login": "zihaowang",
+      "filename": "amaranthus-powellii_02_inat-329070448.jpeg"
+    },
+    {
+      "photo_id": 563691935,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/563691935/large.jpg",
+      "observation_id": 312225209,
+      "observation_url": "https://www.inaturalist.org/observations/312225209",
+      "observed_on": "2025-09-05",
+      "place_guess": "NE Hickory Ln, Issaquah, WA, US",
+      "user_login": "tomerler",
+      "filename": "amaranthus-powellii_03_inat-563691935.jpg"
+    },
+    {
+      "photo_id": 557472654,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/557472654/large.jpg",
+      "observation_id": 308962236,
+      "observation_url": "https://www.inaturalist.org/observations/308962236",
+      "observed_on": "2025-08-25",
+      "place_guess": "\u041a\u0440\u0430\u0441\u043d\u0430\u044f \u0413\u043e\u0440\u0431\u0430\u0442\u043a\u0430, \u0412\u043b\u0430\u0434\u0438\u043c\u0438\u0440\u0441\u043a\u0430\u044f \u043e\u0431\u043b., \u0420\u043e\u0441\u0441\u0438\u044f",
+      "user_login": "igor322",
+      "filename": "amaranthus-powellii_04_inat-557472654.jpg"
+    },
+    {
+      "photo_id": 311356983,
+      "license": "cc-by",
+      "attribution": "(c) Katrin Simon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311356983/large.jpg",
+      "observation_id": 178886781,
+      "observation_url": "https://www.inaturalist.org/observations/178886781",
+      "observed_on": "2023-08-16",
+      "place_guess": "Buckenhof, Buckenhof, Bayern, DE",
+      "user_login": "katrin_simon",
+      "filename": "amaranthus-powellii_05_inat-311356983.jpg"
+    }
+  ]
+}

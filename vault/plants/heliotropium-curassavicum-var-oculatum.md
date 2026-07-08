@@ -64,6 +64,25 @@ Heliotropium curassavicum var. oculatum (Seaside Heliotrope) is a California-nat
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum-var-oculatum/heliotropium-curassavicum-var-oculatum_01_inat-579838535.jpg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/320680030)*
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum-var-oculatum/heliotropium-curassavicum-var-oculatum_02_inat-579838565.jpg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/320680030)*
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum-var-oculatum/heliotropium-curassavicum-var-oculatum_03_inat-579838589.jpg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/320680030)*
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum-var-oculatum/heliotropium-curassavicum-var-oculatum_04_inat-579838842.jpg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/320680030)*
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum-var-oculatum/heliotropium-curassavicum-var-oculatum_05_inat-579838881.jpg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/320680030)*
+
 ## Sources
 
 - Calscape (CNPS) — [Heliotropium curassavicum var. oculatum](https://calscape.org/Heliotropium-curassavicum-var.-oculatum-%28Seaside-Heliotrope%29). Structured fields from the

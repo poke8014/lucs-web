@@ -73,6 +73,25 @@ Festuca microstachys (Pacific Fescue) is a California-native grass of Chaparral,
 - **Site type:** Disturbed, open, sandy places
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/festuca-microstachys/festuca-microstachys_01_inat-369819118.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/208992983)*
+
+![](../raw/assets/inaturalist/festuca-microstachys/festuca-microstachys_02_inat-265710939.jpeg)
+*(c) D Defreese, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/153815647)*
+
+![](../raw/assets/inaturalist/festuca-microstachys/festuca-microstachys_03_inat-368734879.jpg)
+*(c) Ryan Donnelly, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/208406844)*
+
+![](../raw/assets/inaturalist/festuca-microstachys/festuca-microstachys_04_inat-529576053.jpg)
+*(c) Tim Messick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/294227077)*
+
+![](../raw/assets/inaturalist/festuca-microstachys/festuca-microstachys_05_inat-124467670.jpg)
+*(c) Madeleine Claire, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/76072398)*
+
 ## Sources
 
 - Calscape (CNPS) — [Festuca microstachys](https://calscape.org/Festuca-microstachys-%28Pacific-Fescue%29). Structured fields from the

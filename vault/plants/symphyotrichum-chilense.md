@@ -84,6 +84,25 @@ Symphyotrichum chilense (California Aster) is a California-native perennial of C
 - **Cold hardiness:** Tolerates cold to 5° F
 - **Site type:** Grassy places, salt marshes, disturbed places
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/symphyotrichum-chilense/symphyotrichum-chilense_01_inat-159748973.jpg)
+*(c) mushroomshindig, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/96177745)*
+
+![](../raw/assets/inaturalist/symphyotrichum-chilense/symphyotrichum-chilense_02_inat-317255313.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/182004928)*
+
+![](../raw/assets/inaturalist/symphyotrichum-chilense/symphyotrichum-chilense_03_inat-323754416.jpeg)
+*(c) Alex, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/185379011)*
+
+![](../raw/assets/inaturalist/symphyotrichum-chilense/symphyotrichum-chilense_04_inat-159749019.jpg)
+*(c) mushroomshindig, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/96177745)*
+
+![](../raw/assets/inaturalist/symphyotrichum-chilense/symphyotrichum-chilense_05_inat-159749002.jpg)
+*(c) mushroomshindig, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/96177745)*
+
 ## Sources
 
 - Calscape (CNPS) — [Symphyotrichum chilense](https://calscape.org/Symphyotrichum-chilense-%28California-Aster%29). Structured fields from the

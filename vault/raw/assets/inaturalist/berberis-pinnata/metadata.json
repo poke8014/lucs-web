@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Berberis pinnata",
+  "taxon_id": 58859,
+  "photos_taxon_id": 58859,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 115728,
+      "license": "cc-by",
+      "attribution": "(c) 114397479669890378989, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115728/large.jpg",
+      "observation_id": 78183,
+      "observation_url": "https://www.inaturalist.org/observations/78183",
+      "observed_on": "2012-05-05",
+      "place_guess": "Marin Headlands State Park",
+      "user_login": "folini",
+      "filename": "berberis-pinnata_01_inat-115728.jpg"
+    },
+    {
+      "photo_id": 6825297,
+      "license": "cc-by",
+      "attribution": "(c) kclarksdnhmorg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6825297/large.jpeg",
+      "observation_id": 5531367,
+      "observation_url": "https://www.inaturalist.org/observations/5531367",
+      "observed_on": "2017-03-31",
+      "place_guess": "Del Dios Canyon, San Dieguito River Park, San Diego, California, United States",
+      "user_login": "kclarksdnhmorg",
+      "filename": "berberis-pinnata_02_inat-6825297.jpeg"
+    },
+    {
+      "photo_id": 469201885,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469201885/large.jpg",
+      "observation_id": 261194560,
+      "observation_url": "https://www.inaturalist.org/observations/261194560",
+      "observed_on": "2025-02-09",
+      "place_guess": "Phillip Burton Wilderness, Inverness, CA, US",
+      "user_login": "grnleaf",
+      "filename": "berberis-pinnata_03_inat-469201885.jpg"
+    },
+    {
+      "photo_id": 119651088,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119651088/large.jpeg",
+      "observation_id": 73300908,
+      "observation_url": "https://www.inaturalist.org/observations/73300908",
+      "observed_on": "2021-04-07",
+      "place_guess": "San Luis Obispo County, CA, USA",
+      "user_login": "dkincmbria",
+      "filename": "berberis-pinnata_04_inat-119651088.jpeg"
+    },
+    {
+      "photo_id": 20040,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20040/large.jpg",
+      "observation_id": 9296,
+      "observation_url": "https://www.inaturalist.org/observations/9296",
+      "observed_on": "2010-12-11",
+      "place_guess": "Sweeney Ridge",
+      "user_login": "loarie",
+      "filename": "berberis-pinnata_05_inat-20040.jpg"
+    }
+  ]
+}

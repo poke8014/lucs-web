@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cuscuta salina",
+  "taxon_id": 64204,
+  "photos_taxon_id": 64204,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 279946559,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279946559/large.jpeg",
+      "observation_id": 161932291,
+      "observation_url": "https://www.inaturalist.org/observations/161932291",
+      "observed_on": "2023-05-15",
+      "place_guess": "82787 Sin., M\u00e9xico",
+      "user_login": "mar_y_sierra_silvestre",
+      "filename": "cuscuta-salina_01_inat-279946559.jpeg"
+    },
+    {
+      "photo_id": 63697962,
+      "license": "cc-by",
+      "attribution": "(c) Tom Wainwright, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63697962/large.jpg",
+      "observation_id": 40107013,
+      "observation_url": "https://www.inaturalist.org/observations/40107013",
+      "observed_on": "2020-03-07",
+      "place_guess": "Isla San Benito Oeste, Ensenada, Baja California, Mexico",
+      "user_login": "twainwright",
+      "filename": "cuscuta-salina_02_inat-63697962.jpg"
+    },
+    {
+      "photo_id": 111998174,
+      "license": "cc-by",
+      "attribution": "(c) Lyrae, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111998174/large.jpg",
+      "observation_id": 69073079,
+      "observation_url": "https://www.inaturalist.org/observations/69073079",
+      "observed_on": "2021-02-03",
+      "place_guess": "Mazatl\u00e1n, MX-SI, MX",
+      "user_login": "lyrae",
+      "filename": "cuscuta-salina_03_inat-111998174.jpg"
+    },
+    {
+      "photo_id": 63697953,
+      "license": "cc-by",
+      "attribution": "(c) Tom Wainwright, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63697953/large.jpg",
+      "observation_id": 40107013,
+      "observation_url": "https://www.inaturalist.org/observations/40107013",
+      "observed_on": "2020-03-07",
+      "place_guess": "Isla San Benito Oeste, Ensenada, Baja California, Mexico",
+      "user_login": "twainwright",
+      "filename": "cuscuta-salina_04_inat-63697953.jpg"
+    },
+    {
+      "photo_id": 63698060,
+      "license": "cc-by",
+      "attribution": "(c) Tom Wainwright, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63698060/large.jpg",
+      "observation_id": 40107013,
+      "observation_url": "https://www.inaturalist.org/observations/40107013",
+      "observed_on": "2020-03-07",
+      "place_guess": "Isla San Benito Oeste, Ensenada, Baja California, Mexico",
+      "user_login": "twainwright",
+      "filename": "cuscuta-salina_05_inat-63698060.jpg"
+    }
+  ]
+}

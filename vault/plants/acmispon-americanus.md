@@ -80,6 +80,25 @@ Acmispon americanus (American Bird's-foot Trefoil) is a California-native annual
 - **Site type:** Streambanks and wet places, disturbed places
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/acmispon-americanus/acmispon-americanus_01_inat-606186157.jpg)
+*(c) Dustin Snider, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/333871984)*
+
+![](../raw/assets/inaturalist/acmispon-americanus/acmispon-americanus_02_inat-78227346.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/49281478)*
+
+![](../raw/assets/inaturalist/acmispon-americanus/acmispon-americanus_03_inat-384966119.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/217603603)*
+
+![](../raw/assets/inaturalist/acmispon-americanus/acmispon-americanus_04_inat-213243782.jpeg)
+*(c) Chris Fluit, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/125735531)*
+
+![](../raw/assets/inaturalist/acmispon-americanus/acmispon-americanus_05_inat-213394203.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/125810804)*
+
 ## Sources
 
 - Calscape (CNPS) — [Acmispon americanus](https://calscape.org/Acmispon-americanus-%28American-Bird%27s-foot-Trefoil%29). Structured fields from the

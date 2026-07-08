@@ -84,6 +84,25 @@ Berberis pinnata (Coast Barberry) is a California-native shrub of Forest. Calsca
 - **Site type:** Rocky openings in evergreen forest, chaparral or oak woodland below 4,000 ft.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/berberis-pinnata/berberis-pinnata_01_inat-115728.jpg)
+*(c) 114397479669890378989, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/78183)*
+
+![](../raw/assets/inaturalist/berberis-pinnata/berberis-pinnata_02_inat-6825297.jpeg)
+*(c) kclarksdnhmorg, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5531367)*
+
+![](../raw/assets/inaturalist/berberis-pinnata/berberis-pinnata_03_inat-469201885.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/261194560)*
+
+![](../raw/assets/inaturalist/berberis-pinnata/berberis-pinnata_04_inat-119651088.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/73300908)*
+
+![](../raw/assets/inaturalist/berberis-pinnata/berberis-pinnata_05_inat-20040.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/9296)*
+
 ## Sources
 
 - Calscape (CNPS) — [Berberis pinnata](https://calscape.org/Berberis-pinnata-%28Coast-Barberry%29). Structured fields from the

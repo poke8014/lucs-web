@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cardamine californica",
+  "taxon_id": 49651,
+  "photos_taxon_id": 49651,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 3285690,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3285690/large.jpg",
+      "observation_id": 2877713,
+      "observation_url": "https://www.inaturalist.org/observations/2877713",
+      "observed_on": "2016-04-03",
+      "place_guess": "Point Reyes National Seashore, Marin County, US-CA, US",
+      "user_login": "loarie",
+      "filename": "cardamine-californica_01_inat-3285690.jpg"
+    },
+    {
+      "photo_id": 34096188,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34096188/large.jpg",
+      "observation_id": 21997162,
+      "observation_url": "https://www.inaturalist.org/observations/21997162",
+      "observed_on": "2019-04-04",
+      "place_guess": "Los Padres National Forest, Big Sur, CA, US",
+      "user_login": "jsriley1984",
+      "filename": "cardamine-californica_02_inat-34096188.jpg"
+    },
+    {
+      "photo_id": 62566038,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62566038/large.jpeg",
+      "observation_id": 39435091,
+      "observation_url": "https://www.inaturalist.org/observations/39435091",
+      "observed_on": "2020-03-01",
+      "place_guess": "Marin Municipal Water District Watershed, Marin County, US-CA, US",
+      "user_login": "alan_rockefeller",
+      "filename": "cardamine-californica_03_inat-62566038.jpeg"
+    },
+    {
+      "photo_id": 341971094,
+      "license": "cc-by",
+      "attribution": "(c) Cristhian Mace, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341971094/large.jpg",
+      "observation_id": 194535308,
+      "observation_url": "https://www.inaturalist.org/observations/194535308",
+      "observed_on": "2022-01-09",
+      "place_guess": "Los Angeles County, CA, USA",
+      "user_login": "cpmaceface",
+      "filename": "cardamine-californica_04_inat-341971094.jpg"
+    },
+    {
+      "photo_id": 803316,
+      "license": "cc-by",
+      "attribution": "(c) Emily Burns, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/803316/large.jpg",
+      "observation_id": 638314,
+      "observation_url": "https://www.inaturalist.org/observations/638314",
+      "observed_on": "2014-04-08",
+      "place_guess": "Cape Vizcaino",
+      "user_login": "emburns",
+      "filename": "cardamine-californica_05_inat-803316.jpg"
+    }
+  ]
+}

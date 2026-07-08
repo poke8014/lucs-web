@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Hemizonia congesta ssp. luzulifolia",
+  "taxon_id": 56956,
+  "photos_taxon_id": 56956,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 9752304,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9752304/large.jpeg",
+      "observation_id": 7488516,
+      "observation_url": "https://www.inaturalist.org/observations/7488516",
+      "observed_on": "2017-08-13",
+      "place_guess": "Lynch Rd, California, USA",
+      "user_login": "rockybajada",
+      "filename": "hemizonia-congesta-ssp-luzulifolia_01_inat-9752304.jpeg"
+    },
+    {
+      "photo_id": 646120906,
+      "license": "cc-by",
+      "attribution": "(c) Skyler K, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/646120906/large.jpg",
+      "observation_id": 354152962,
+      "observation_url": "https://www.inaturalist.org/observations/354152962",
+      "observed_on": "2026-04-25",
+      "place_guess": "San Luis Obispo, CA, US",
+      "user_login": "skylerk06",
+      "filename": "hemizonia-congesta-ssp-luzulifolia_02_inat-646120906.jpg"
+    },
+    {
+      "photo_id": 419635797,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419635797/large.jpeg",
+      "observation_id": 235918606,
+      "observation_url": "https://www.inaturalist.org/observations/235918606",
+      "observed_on": "2024-08-14",
+      "place_guess": "Farm Hills, Redwood City, CA, USA",
+      "user_login": "elonicera",
+      "filename": "hemizonia-congesta-ssp-luzulifolia_03_inat-419635797.jpeg"
+    },
+    {
+      "photo_id": 23976102,
+      "license": "cc-by",
+      "attribution": "(c) Jonathan Curley, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23976102/large.jpg",
+      "observation_id": 16009302,
+      "observation_url": "https://www.inaturalist.org/observations/16009302",
+      "observed_on": "2018-08-25",
+      "place_guess": "Crockett Blvd, Crockett, CA 94525, USA",
+      "user_login": "curleycurlew",
+      "filename": "hemizonia-congesta-ssp-luzulifolia_04_inat-23976102.jpg"
+    },
+    {
+      "photo_id": 56568,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56568/large.jpg",
+      "observation_id": 33164,
+      "observation_url": "https://www.inaturalist.org/observations/33164",
+      "observed_on": "2011-09-29",
+      "place_guess": "55 La Honda Rd, Redwood City, CA  94062, , United States",
+      "user_login": "loarie",
+      "filename": "hemizonia-congesta-ssp-luzulifolia_05_inat-56568.jpg"
+    }
+  ]
+}

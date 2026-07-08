@@ -71,6 +71,25 @@ Gilia achilleifolia ssp. achilleifolia (California Gilia) is a California-native
 - **Site type:** Grassy places in sandy or rocky soil
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/gilia-achilleifolia-ssp-achilleifolia/gilia-achilleifolia-ssp-achilleifolia_01_inat-35150980.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22685241)*
+
+![](../raw/assets/inaturalist/gilia-achilleifolia-ssp-achilleifolia/gilia-achilleifolia-ssp-achilleifolia_02_inat-35156127.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22685241)*
+
+![](../raw/assets/inaturalist/gilia-achilleifolia-ssp-achilleifolia/gilia-achilleifolia-ssp-achilleifolia_03_inat-35156141.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22685241)*
+
+![](../raw/assets/inaturalist/gilia-achilleifolia-ssp-achilleifolia/gilia-achilleifolia-ssp-achilleifolia_04_inat-35156103.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22685241)*
+
+![](../raw/assets/inaturalist/gilia-achilleifolia-ssp-achilleifolia/gilia-achilleifolia-ssp-achilleifolia_05_inat-35156114.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22685241)*
+
 ## Sources
 
 - Calscape (CNPS) — [Gilia achilleifolia ssp. achilleifolia](https://calscape.org/Gilia-achilleifolia-ssp.-achilleifolia-%28California-Gilia%29). Structured fields from the

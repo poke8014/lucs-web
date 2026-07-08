@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Hemizonia congesta",
+  "taxon_id": 56960,
+  "photos_taxon_id": 56960,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 50654040,
+      "license": "cc-by",
+      "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50654040/large.jpg",
+      "observation_id": 32305025,
+      "observation_url": "https://www.inaturalist.org/observations/32305025",
+      "observed_on": "2019-09-07",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "brucehs",
+      "filename": "hemizonia-congesta_01_inat-50654040.jpg"
+    },
+    {
+      "photo_id": 209466304,
+      "license": "cc-by",
+      "attribution": "(c) Alex, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209466304/large.jpeg",
+      "observation_id": 123637209,
+      "observation_url": "https://www.inaturalist.org/observations/123637209",
+      "observed_on": "2022-06-26",
+      "place_guess": "Sonoma County, CA, USA",
+      "user_login": "arlenedevitt",
+      "filename": "hemizonia-congesta_02_inat-209466304.jpeg"
+    },
+    {
+      "photo_id": 50654030,
+      "license": "cc-by",
+      "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50654030/large.jpg",
+      "observation_id": 32305025,
+      "observation_url": "https://www.inaturalist.org/observations/32305025",
+      "observed_on": "2019-09-07",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "brucehs",
+      "filename": "hemizonia-congesta_03_inat-50654030.jpg"
+    },
+    {
+      "photo_id": 50654079,
+      "license": "cc-by",
+      "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50654079/large.jpg",
+      "observation_id": 32305025,
+      "observation_url": "https://www.inaturalist.org/observations/32305025",
+      "observed_on": "2019-09-07",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "brucehs",
+      "filename": "hemizonia-congesta_04_inat-50654079.jpg"
+    },
+    {
+      "photo_id": 50654052,
+      "license": "cc-by",
+      "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50654052/large.jpg",
+      "observation_id": 32305025,
+      "observation_url": "https://www.inaturalist.org/observations/32305025",
+      "observed_on": "2019-09-07",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "brucehs",
+      "filename": "hemizonia-congesta_05_inat-50654052.jpg"
+    }
+  ]
+}

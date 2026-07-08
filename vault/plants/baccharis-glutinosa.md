@@ -75,6 +75,25 @@ Baccharis glutinosa (Saltmarsh Baccharis) is a California-native perennial of Co
 - **Site type:** Moist salt marshes and stream edges
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/baccharis-glutinosa/baccharis-glutinosa_01_inat-570091897.jpg)
+*(c) Tomás Tamagno, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/315577113)*
+
+![](../raw/assets/inaturalist/baccharis-glutinosa/baccharis-glutinosa_02_inat-253002833.jpg)
+*(c) Leonel Roget, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/147071759)*
+
+![](../raw/assets/inaturalist/baccharis-glutinosa/baccharis-glutinosa_03_inat-423641897.jpeg)
+*(c) mel letterman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/237995776)*
+
+![](../raw/assets/inaturalist/baccharis-glutinosa/baccharis-glutinosa_04_inat-431023318.jpeg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/241814077)*
+
+![](../raw/assets/inaturalist/baccharis-glutinosa/baccharis-glutinosa_05_inat-465926705.jpeg)
+*(c) Ariadna Tripaldi, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/259551072)*
+
 ## Sources
 
 - Calscape (CNPS) — [Baccharis glutinosa](https://calscape.org/Baccharis-glutinosa-%28Saltmarsh-Baccharis%29). Structured fields from the

@@ -73,6 +73,25 @@ Nasturtium officinale (Watercress) is a California-native perennial of Wetland/R
 - **Site type:** Wet places
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/nasturtium-officinale/nasturtium-officinale_01_inat-218458403.jpeg)
+*(c) Dmitriy Bochkov, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/128602816)*
+
+![](../raw/assets/inaturalist/nasturtium-officinale/nasturtium-officinale_02_inat-77930422.jpg)
+*(c) Emily Summerbell, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/49095565)*
+
+![](../raw/assets/inaturalist/nasturtium-officinale/nasturtium-officinale_03_inat-186807758.jpeg)
+*(c) saltyhiker, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/110711338)*
+
+![](../raw/assets/inaturalist/nasturtium-officinale/nasturtium-officinale_04_inat-335240025.jpeg)
+*(c) Thomas Mesaglio, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/191138557)*
+
+![](../raw/assets/inaturalist/nasturtium-officinale/nasturtium-officinale_05_inat-540261209.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/299869951)*
+
 ## Sources
 
 - Calscape (CNPS) — [Nasturtium officinale](https://calscape.org/Nasturtium-officinale-%28Watercress%29-2). Structured fields from the

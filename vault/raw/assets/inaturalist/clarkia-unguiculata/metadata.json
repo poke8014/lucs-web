@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Clarkia unguiculata",
+  "taxon_id": 51735,
+  "photos_taxon_id": 51735,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 132050835,
+      "license": "cc-by",
+      "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132050835/large.jpg",
+      "observation_id": 80559288,
+      "observation_url": "https://www.inaturalist.org/observations/80559288",
+      "observed_on": "2021-05-25",
+      "place_guess": "San Benito County, CA, USA",
+      "user_login": "dloarie",
+      "filename": "clarkia-unguiculata_01_inat-132050835.jpg"
+    },
+    {
+      "photo_id": 342341152,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342341152/large.jpeg",
+      "observation_id": 194714070,
+      "observation_url": "https://www.inaturalist.org/observations/194714070",
+      "observed_on": "2023-12-23",
+      "place_guess": "Green Valley, CA 91390, USA",
+      "user_login": "jonaskat",
+      "filename": "clarkia-unguiculata_02_inat-342341152.jpeg"
+    },
+    {
+      "photo_id": 282943343,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282943343/large.jpeg",
+      "observation_id": 163581189,
+      "observation_url": "https://www.inaturalist.org/observations/163581189",
+      "observed_on": "2023-05-24",
+      "place_guess": "Downtown Riverside, Riverside, CA, USA",
+      "user_login": "c_harfouch",
+      "filename": "clarkia-unguiculata_03_inat-282943343.jpeg"
+    },
+    {
+      "photo_id": 384648128,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384648128/large.jpg",
+      "observation_id": 217427015,
+      "observation_url": "https://www.inaturalist.org/observations/217427015",
+      "observed_on": "2024-05-18",
+      "place_guess": "Los Padres National Forest, Greenfield, CA, US",
+      "user_login": "aparrot1",
+      "filename": "clarkia-unguiculata_04_inat-384648128.jpg"
+    },
+    {
+      "photo_id": 290726047,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290726047/large.jpg",
+      "observation_id": 167798003,
+      "observation_url": "https://www.inaturalist.org/observations/167798003",
+      "observed_on": "2023-06-15",
+      "place_guess": "Piedmont Ave, Berkeley, CA, US",
+      "user_login": "caleboreilly",
+      "filename": "clarkia-unguiculata_05_inat-290726047.jpg"
+    }
+  ]
+}

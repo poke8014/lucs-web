@@ -84,6 +84,25 @@ Drymocallis glandulosa (Sticky Cinquefoil) is a California-native perennial of F
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/drymocallis-glandulosa/drymocallis-glandulosa_01_inat-414443981.jpeg)
+*(c) Zach Earl, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/233216091)*
+
+![](../raw/assets/inaturalist/drymocallis-glandulosa/drymocallis-glandulosa_02_inat-341239660.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/194172912)*
+
+![](../raw/assets/inaturalist/drymocallis-glandulosa/drymocallis-glandulosa_03_inat-321017933.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/183951651)*
+
+![](../raw/assets/inaturalist/drymocallis-glandulosa/drymocallis-glandulosa_04_inat-129730073.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/79216558)*
+
+![](../raw/assets/inaturalist/drymocallis-glandulosa/drymocallis-glandulosa_05_inat-200180075.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/118477083)*
+
 ## Sources
 
 - Calscape (CNPS) — [Drymocallis glandulosa](https://calscape.org/Drymocallis-glandulosa-%28Sticky-Cinquefoil%29). Structured fields from the

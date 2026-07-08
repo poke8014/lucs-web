@@ -59,6 +59,25 @@ Micropus californicus var. californicus (Cottontop) is a California-native annua
 - **Plant communities:** Chaparral, Foothill Woodland, Valley Grassland, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/micropus-californicus-var-californicus/micropus-californicus-var-californicus_01_inat-368750269.jpeg)
+*(c) Katherine Scott, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/208414507)*
+
+![](../raw/assets/inaturalist/micropus-californicus-var-californicus/micropus-californicus-var-californicus_02_inat-94040138.jpg)
+*(c) Steve Matson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/58884761)*
+
+![](../raw/assets/inaturalist/micropus-californicus-var-californicus/micropus-californicus-var-californicus_03_inat-64717599.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/40827283)*
+
+![](../raw/assets/inaturalist/micropus-californicus-var-californicus/micropus-californicus-var-californicus_04_inat-17597687.jpeg)
+*(c) Monica Ventrice, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/12242807)*
+
+![](../raw/assets/inaturalist/micropus-californicus-var-californicus/micropus-californicus-var-californicus_05_inat-17668076.jpg)
+*(c) David Fischer, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/12283898)*
+
 ## Sources
 
 - Calscape (CNPS) — [Micropus californicus var. californicus](https://calscape.org/Micropus-californicus-var.-californicus-%28Cottontop%29). Structured fields from the

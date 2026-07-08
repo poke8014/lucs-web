@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cirsium occidentale var. venustum",
+  "taxon_id": 52624,
+  "photos_taxon_id": 52624,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 3798507,
+      "license": "cc-by",
+      "attribution": "(c) rappman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3798507/large.jpg",
+      "observation_id": 3285742,
+      "observation_url": "https://www.inaturalist.org/observations/3285742",
+      "observed_on": "2016-05-22",
+      "place_guess": "St josephs hill open space",
+      "user_login": "rappman",
+      "filename": "cirsium-occidentale-var-venustum_01_inat-3798507.jpg"
+    },
+    {
+      "photo_id": 4019658,
+      "license": "cc-by",
+      "attribution": "(c) Brook, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4019658/large.jpg",
+      "observation_id": 3461997,
+      "observation_url": "https://www.inaturalist.org/observations/3461997",
+      "observed_on": "2016-06-14",
+      "place_guess": "10313 Redwood Hwy, Ukiah, CA, US",
+      "user_login": "brook",
+      "filename": "cirsium-occidentale-var-venustum_02_inat-4019658.jpg"
+    },
+    {
+      "photo_id": 418406890,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418406890/large.jpeg",
+      "observation_id": 235281235,
+      "observation_url": "https://www.inaturalist.org/observations/235281235",
+      "observed_on": "2023-05-21",
+      "place_guess": "San Benito County, CA, USA",
+      "user_login": "marcus_t",
+      "filename": "cirsium-occidentale-var-venustum_03_inat-418406890.jpeg"
+    },
+    {
+      "photo_id": 679235398,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Wentworth, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679235398/large.jpg",
+      "observation_id": 371748925,
+      "observation_url": "https://www.inaturalist.org/observations/371748925",
+      "observed_on": "2026-02-14",
+      "place_guess": "Santa Clara County, California, United States",
+      "user_login": "alex_wentworth",
+      "filename": "cirsium-occidentale-var-venustum_04_inat-679235398.jpg"
+    },
+    {
+      "photo_id": 37471239,
+      "license": "cc-by",
+      "attribution": "(c) Garth Harwood, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37471239/large.jpeg",
+      "observation_id": 24231499,
+      "observation_url": "https://www.inaturalist.org/observations/24231499",
+      "observed_on": "2019-04-29",
+      "place_guess": "Santa Clara County, CA, USA",
+      "user_login": "garth_harwood",
+      "filename": "cirsium-occidentale-var-venustum_05_inat-37471239.jpeg"
+    }
+  ]
+}

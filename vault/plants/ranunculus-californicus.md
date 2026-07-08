@@ -84,6 +84,25 @@ Ranunculus californicus (California Buttercup) is a California-native perennial 
 - **Site type:** Many and varied wet and dry places from the coast ranges to foothill grasslands to meadows and woodlands below about 7,000 ft. Often found in open areas.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/ranunculus-californicus/ranunculus-californicus_01_inat-34096502.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/21997314)*
+
+![](../raw/assets/inaturalist/ranunculus-californicus/ranunculus-californicus_02_inat-2983501.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/2655023)*
+
+![](../raw/assets/inaturalist/ranunculus-californicus/ranunculus-californicus_03_inat-118134484.jpeg)
+*(c) Justin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/72455550)*
+
+![](../raw/assets/inaturalist/ranunculus-californicus/ranunculus-californicus_04_inat-80700156.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/50808795)*
+
+![](../raw/assets/inaturalist/ranunculus-californicus/ranunculus-californicus_05_inat-34345371.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22182500)*
+
 ## Sources
 
 - Calscape (CNPS) — [Ranunculus californicus](https://calscape.org/Ranunculus-californicus-%28California-Buttercup%29). Structured fields from the

@@ -64,6 +64,25 @@ Cuscuta californica (Chaparral Dodder) is a California-native vine of Chaparral,
 - **Plant communities:** Chaparral, Foothill Woodland, Lodgepole Forest, Red Fir Forest, Subalpine Forest, Valley Grassland, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cuscuta-californica/cuscuta-californica_01_inat-243857575.jpeg)
+*(c) Dee Shea Himes, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/142256618)*
+
+![](../raw/assets/inaturalist/cuscuta-californica/cuscuta-californica_02_inat-243858185.jpg)
+*(c) Dee Shea Himes, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/142256618)*
+
+![](../raw/assets/inaturalist/cuscuta-californica/cuscuta-californica_03_inat-36054962.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/23268878)*
+
+![](../raw/assets/inaturalist/cuscuta-californica/cuscuta-californica_04_inat-18947879.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/13023306)*
+
+![](../raw/assets/inaturalist/cuscuta-californica/cuscuta-californica_05_inat-193406811.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/114534476)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cuscuta californica](https://calscape.org/Cuscuta-californica-%28Chaparral-Dodder%29). Structured fields from the

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Trifolium depauperatum",
+  "taxon_id": 58164,
+  "photos_taxon_id": 58164,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 119600080,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119600080/large.jpg",
+      "observation_id": 73269813,
+      "observation_url": "https://www.inaturalist.org/observations/73269813",
+      "observed_on": "2021-04-02",
+      "place_guess": "Marin County, CA, USA",
+      "user_login": "trevvan",
+      "filename": "trifolium-depauperatum_01_inat-119600080.jpg"
+    },
+    {
+      "photo_id": 34233334,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34233334/large.jpg",
+      "observation_id": 22114570,
+      "observation_url": "https://www.inaturalist.org/observations/22114570",
+      "observed_on": "2019-04-06",
+      "place_guess": "93405, San Luis Obispo, CA, US",
+      "user_login": "kylenessen",
+      "filename": "trifolium-depauperatum_02_inat-34233334.jpg"
+    },
+    {
+      "photo_id": 119600065,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119600065/large.jpg",
+      "observation_id": 73269813,
+      "observation_url": "https://www.inaturalist.org/observations/73269813",
+      "observed_on": "2021-04-02",
+      "place_guess": "Marin County, CA, USA",
+      "user_login": "trevvan",
+      "filename": "trifolium-depauperatum_03_inat-119600065.jpg"
+    },
+    {
+      "photo_id": 119600073,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119600073/large.jpg",
+      "observation_id": 73269813,
+      "observation_url": "https://www.inaturalist.org/observations/73269813",
+      "observed_on": "2021-04-02",
+      "place_guess": "Marin County, CA, USA",
+      "user_login": "trevvan",
+      "filename": "trifolium-depauperatum_04_inat-119600073.jpg"
+    },
+    {
+      "photo_id": 655215198,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/655215198/large.jpg",
+      "observation_id": 359129630,
+      "observation_url": "https://www.inaturalist.org/observations/359129630",
+      "observed_on": "2026-04-27",
+      "place_guess": "Portola Valley, CA, US",
+      "user_login": "avephill",
+      "filename": "trifolium-depauperatum_05_inat-655215198.jpg"
+    }
+  ]
+}

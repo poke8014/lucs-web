@@ -64,6 +64,25 @@ Amaranthus powellii (Powell's Amaranth) is a California-native annual of Califor
 - **Plant communities:** Weed (disturbed places)
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/amaranthus-powellii/amaranthus-powellii_01_inat-420848290.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/236549953)*
+
+![](../raw/assets/inaturalist/amaranthus-powellii/amaranthus-powellii_02_inat-329070448.jpeg)
+*(c) Zihao Wang, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/188080385)*
+
+![](../raw/assets/inaturalist/amaranthus-powellii/amaranthus-powellii_03_inat-563691935.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/312225209)*
+
+![](../raw/assets/inaturalist/amaranthus-powellii/amaranthus-powellii_04_inat-557472654.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/308962236)*
+
+![](../raw/assets/inaturalist/amaranthus-powellii/amaranthus-powellii_05_inat-311356983.jpg)
+*(c) Katrin Simon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/178886781)*
+
 ## Sources
 
 - Calscape (CNPS) — [Amaranthus powellii](https://calscape.org/Amaranthus-powellii-%28Powell%27s-Amaranth%29). Structured fields from the

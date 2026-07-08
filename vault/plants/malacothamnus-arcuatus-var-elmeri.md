@@ -66,6 +66,25 @@ Malacothamnus arcuatus var. elmeri (Eastern Bewildering Bushmallow) is a Califor
 - **Rarity:** Rare
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/malacothamnus-arcuatus-var-elmeri/malacothamnus-arcuatus-var-elmeri_01_inat-197947089.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/117224552)*
+
+![](../raw/assets/inaturalist/malacothamnus-arcuatus-var-elmeri/malacothamnus-arcuatus-var-elmeri_02_inat-197947136.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/117224552)*
+
+![](../raw/assets/inaturalist/malacothamnus-arcuatus-var-elmeri/malacothamnus-arcuatus-var-elmeri_03_inat-197947172.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/117224552)*
+
+![](../raw/assets/inaturalist/malacothamnus-arcuatus-var-elmeri/malacothamnus-arcuatus-var-elmeri_04_inat-197947247.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/117224552)*
+
+![](../raw/assets/inaturalist/malacothamnus-arcuatus-var-elmeri/malacothamnus-arcuatus-var-elmeri_05_inat-293440055.jpg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/169267971)*
+
 ## Sources
 
 - Calscape (CNPS) — [Malacothamnus arcuatus var. elmeri](https://calscape.org/Malacothamnus-arcuatus-var.-elmeri-%28Eastern-Bewildering-Bushmallow%29). Structured fields from the

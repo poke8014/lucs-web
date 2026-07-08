@@ -59,6 +59,22 @@ Heterotheca oregona var. scaberrima (Heterotheca oregona var. scaberrima) is a C
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/heterotheca-oregona-var-scaberrima/heterotheca-oregona-var-scaberrima_01_inat-10515476.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/7958893)*
+
+![](../raw/assets/inaturalist/heterotheca-oregona-var-scaberrima/heterotheca-oregona-var-scaberrima_02_inat-10515470.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/7958893)*
+
+![](../raw/assets/inaturalist/heterotheca-oregona-var-scaberrima/heterotheca-oregona-var-scaberrima_03_inat-10515466.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/7958893)*
+
+![](../raw/assets/inaturalist/heterotheca-oregona-var-scaberrima/heterotheca-oregona-var-scaberrima_04_inat-10515471.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/7958893)*
+
 ## Sources
 
 - Calscape (CNPS) — [Heterotheca oregona var. scaberrima](https://calscape.org/Heterotheca-oregona-var.-scaberrima-%28%29). Structured fields from the

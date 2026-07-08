@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Equisetum laevigatum",
+  "taxon_id": 63870,
+  "photos_taxon_id": 63870,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 283773323,
+      "license": "cc-by",
+      "attribution": "(c) Harry Podschwit, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283773323/large.jpg",
+      "observation_id": 164033002,
+      "observation_url": "https://www.inaturalist.org/observations/164033002",
+      "observed_on": "2023-05-27",
+      "place_guess": "Romero Park, Cheyenne, WY, US",
+      "user_login": "space_coyote",
+      "filename": "equisetum-laevigatum_01_inat-283773323.jpg"
+    },
+    {
+      "photo_id": 507107702,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507107702/large.jpg",
+      "observation_id": 282268192,
+      "observation_url": "https://www.inaturalist.org/observations/282268192",
+      "observed_on": "2025-05-18",
+      "place_guess": "Elko County, NV, USA",
+      "user_login": "dgwdoesthings",
+      "filename": "equisetum-laevigatum_02_inat-507107702.jpg"
+    },
+    {
+      "photo_id": 120805292,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120805292/large.jpg",
+      "observation_id": 73955066,
+      "observation_url": "https://www.inaturalist.org/observations/73955066",
+      "observed_on": "2021-04-13",
+      "place_guess": "Sonoma County, CA, USA",
+      "user_login": "trevvan",
+      "filename": "equisetum-laevigatum_03_inat-120805292.jpg"
+    },
+    {
+      "photo_id": 106879428,
+      "license": "cc-by",
+      "attribution": "(c) Seig, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106879428/large.jpg",
+      "observation_id": 66315938,
+      "observation_url": "https://www.inaturalist.org/observations/66315938",
+      "observed_on": "2011-06-13",
+      "place_guess": "Routt County, CO, USA",
+      "user_login": "seigmond",
+      "filename": "equisetum-laevigatum_04_inat-106879428.jpg"
+    },
+    {
+      "photo_id": 75520251,
+      "license": "cc-by",
+      "attribution": "(c) aarongunnar, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75520251/large.jpg",
+      "observation_id": 47612457,
+      "observation_url": "https://www.inaturalist.org/observations/47612457",
+      "observed_on": "2020-05-24",
+      "place_guess": "Waukesha County, WI, USA",
+      "user_login": "aarongunnar",
+      "filename": "equisetum-laevigatum_05_inat-75520251.jpg"
+    }
+  ]
+}

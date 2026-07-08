@@ -86,6 +86,25 @@ Heteromeles arbutifolia (Toyon) is a California-native shrub of Chaparral. Calsc
 - **Site type:** Toyon is a common plant in chaparral and is found along creeksides, bottoms of slopes, north-facing slopes, and canyons.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/heteromeles-arbutifolia/heteromeles-arbutifolia_01_inat-247536502.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/144247994)*
+
+![](../raw/assets/inaturalist/heteromeles-arbutifolia/heteromeles-arbutifolia_02_inat-459761561.jpg)
+*(c) Skyler K, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/256428871)*
+
+![](../raw/assets/inaturalist/heteromeles-arbutifolia/heteromeles-arbutifolia_03_inat-216630186.jpg)
+*(c) lazarus, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/127592728)*
+
+![](../raw/assets/inaturalist/heteromeles-arbutifolia/heteromeles-arbutifolia_04_inat-176606569.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/105278347)*
+
+![](../raw/assets/inaturalist/heteromeles-arbutifolia/heteromeles-arbutifolia_05_inat-247536709.jpg)
+*(c) Cricket Raspet, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/144248053)*
+
 ## Sources
 
 - Calscape (CNPS) — [Heteromeles arbutifolia](https://calscape.org/Heteromeles-arbutifolia-%28Toyon%29). Structured fields from the

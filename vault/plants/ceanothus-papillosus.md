@@ -78,6 +78,25 @@ Ceanothus papillosus (Wartleaf Ceanothus) is a California-native shrub of Chapar
 - **Sunset zones:** 5*, 7, 14*, 15*, 16*, 17*, 18, 19*, 20*, 21*, 22*, 23*, 24*
 - **Site type:** Open, dry slopes
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/ceanothus-papillosus/ceanothus-papillosus_01_inat-41186409.jpg)
+*(c) katherinef2, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/26520028)*
+
+![](../raw/assets/inaturalist/ceanothus-papillosus/ceanothus-papillosus_02_inat-10859059.jpg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/8198166)*
+
+![](../raw/assets/inaturalist/ceanothus-papillosus/ceanothus-papillosus_03_inat-410363841.jpeg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/231076605)*
+
+![](../raw/assets/inaturalist/ceanothus-papillosus/ceanothus-papillosus_04_inat-311437802.jpg)
+*(c) Mike Heine, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/178928089)*
+
+![](../raw/assets/inaturalist/ceanothus-papillosus/ceanothus-papillosus_05_inat-297955724.jpeg)
+*(c) Jay Paroline, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/171688486)*
+
 ## Sources
 
 - Calscape (CNPS) — [Ceanothus papillosus](https://calscape.org/Ceanothus-papillosus-%28Wartleaf-Ceanothus%29). Structured fields from the

@@ -76,6 +76,25 @@ Typha angustifolia (Narrowleaf Cattail) is a California-native perennial of Wetl
 - **Site type:** Dry granitic slopes and ridges
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/typha-angustifolia/typha-angustifolia_01_inat-23005028.jpg)
+*(c) stinger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/15355374)*
+
+![](../raw/assets/inaturalist/typha-angustifolia/typha-angustifolia_02_inat-80459056.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/50662896)*
+
+![](../raw/assets/inaturalist/typha-angustifolia/typha-angustifolia_03_inat-227625716.jpeg)
+*(c) Thomas Ebner, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/133620538)*
+
+![](../raw/assets/inaturalist/typha-angustifolia/typha-angustifolia_04_inat-350208079.jpeg)
+*(c) Olena V. Vakarenko, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/198667793)*
+
+![](../raw/assets/inaturalist/typha-angustifolia/typha-angustifolia_05_inat-99727256.jpeg)
+*(c) Cheryl McCleary-Catalano, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/62258567)*
+
 ## Sources
 
 - Calscape (CNPS) — [Typha angustifolia](https://calscape.org/Typha-angustifolia-%28Narrowleaf-Cattail%29). Structured fields from the

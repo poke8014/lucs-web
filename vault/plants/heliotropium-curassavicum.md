@@ -74,6 +74,25 @@ Heliotropium curassavicum (Seaside Heliotrope) is a California-native perennial 
 - **Plant communities:** Chaparral, Foothill Woodland, Lodgepole Forest, Red Fir Forest, Valley Grassland, Wetland-Riparian, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum/heliotropium-curassavicum_01_inat-117631999.jpg)
+*(c) Elena Ortiz, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/72175897)*
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum/heliotropium-curassavicum_02_inat-380223461.jpg)
+*(c) Steve Taylor, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/215080875)*
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum/heliotropium-curassavicum_03_inat-579838535.jpg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/320680030)*
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum/heliotropium-curassavicum_04_inat-303742946.jpeg)
+*(c) Brodie Cass Talbott, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/174812833)*
+
+![](../raw/assets/inaturalist/heliotropium-curassavicum/heliotropium-curassavicum_05_inat-41602655.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/26779292)*
+
 ## Sources
 
 - Calscape (CNPS) — [Heliotropium curassavicum](https://calscape.org/Heliotropium-curassavicum-%28Seaside-Heliotrope%29). Structured fields from the

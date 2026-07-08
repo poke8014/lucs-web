@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Triglochin maritima",
+  "taxon_id": 60264,
+  "photos_taxon_id": 60264,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 292585724,
+      "license": "cc-by",
+      "attribution": "(c) Tom Norton, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292585724/large.jpeg",
+      "observation_id": 168798793,
+      "observation_url": "https://www.inaturalist.org/observations/168798793",
+      "observed_on": "2023-06-19",
+      "place_guess": "Saco, ME, USA",
+      "user_login": "tsn",
+      "filename": "triglochin-maritima_01_inat-292585724.jpeg"
+    },
+    {
+      "photo_id": 138242052,
+      "license": "cc-by",
+      "attribution": "(c) Jes Gray, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138242052/large.jpeg",
+      "observation_id": 84130744,
+      "observation_url": "https://www.inaturalist.org/observations/84130744",
+      "observed_on": "2021-06-22",
+      "place_guess": "Estes Park, CO 80517, USA",
+      "user_login": "jes_gray",
+      "filename": "triglochin-maritima_02_inat-138242052.jpeg"
+    },
+    {
+      "photo_id": 507926257,
+      "license": "cc-by",
+      "attribution": "(c) Ryan McMinds, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507926257/large.jpg",
+      "observation_id": 282704527,
+      "observation_url": "https://www.inaturalist.org/observations/282704527",
+      "observed_on": "2025-05-20",
+      "place_guess": "Pacific Northwest National Scenic Trail, Mount Vernon, WA, US",
+      "user_login": "rmcminds",
+      "filename": "triglochin-maritima_03_inat-507926257.jpg"
+    },
+    {
+      "photo_id": 75905082,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Dubynin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75905082/large.jpeg",
+      "observation_id": 47865123,
+      "observation_url": "https://www.inaturalist.org/observations/47865123",
+      "observed_on": "2020-05-30",
+      "place_guess": "Iskitimskiy rayon, RU-NS, RU",
+      "user_login": "alexanderdubynin",
+      "filename": "triglochin-maritima_04_inat-75905082.jpeg"
+    },
+    {
+      "photo_id": 96854541,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96854541/large.jpeg",
+      "observation_id": 60564619,
+      "observation_url": "https://www.inaturalist.org/observations/60564619",
+      "observed_on": "2020-05-13",
+      "place_guess": "Victoria, BC, Canada",
+      "user_login": "shanebustapbj",
+      "filename": "triglochin-maritima_05_inat-96854541.jpeg"
+    }
+  ]
+}

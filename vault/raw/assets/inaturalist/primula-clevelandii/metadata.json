@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Primula clevelandii",
+  "taxon_id": 486971,
+  "photos_taxon_id": 486971,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 33164856,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33164856/large.jpeg",
+      "observation_id": 21436050,
+      "observation_url": "https://www.inaturalist.org/observations/21436050",
+      "observed_on": "2019-03-20",
+      "place_guess": "California, US",
+      "user_login": "kueda",
+      "filename": "primula-clevelandii_01_inat-33164856.jpeg"
+    },
+    {
+      "photo_id": 256685095,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256685095/large.jpg",
+      "observation_id": 148999555,
+      "observation_url": "https://www.inaturalist.org/observations/148999555",
+      "observed_on": "2023-02-17",
+      "place_guess": "East Glenwood Open Space Preserve, CA, US",
+      "user_login": "joergmlpts",
+      "filename": "primula-clevelandii_02_inat-256685095.jpg"
+    },
+    {
+      "photo_id": 608514304,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608514304/large.jpg",
+      "observation_id": 335013161,
+      "observation_url": "https://www.inaturalist.org/observations/335013161",
+      "observed_on": "2026-01-16",
+      "place_guess": "Irvine, CA 92617, USA",
+      "user_login": "jrcowles",
+      "filename": "primula-clevelandii_03_inat-608514304.jpg"
+    },
+    {
+      "photo_id": 6211208,
+      "license": "cc-by",
+      "attribution": "(c) Zack Abbey, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6211208/large.jpg",
+      "observation_id": 5063317,
+      "observation_url": "https://www.inaturalist.org/observations/5063317",
+      "observed_on": "2017-02-04",
+      "place_guess": "Wildwood Park, Thousand Oaks, CA, US",
+      "user_login": "zabbey",
+      "filename": "primula-clevelandii_04_inat-6211208.jpg"
+    },
+    {
+      "photo_id": 258139124,
+      "license": "cc-by",
+      "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/258139124/large.jpg",
+      "observation_id": 149776879,
+      "observation_url": "https://www.inaturalist.org/observations/149776879",
+      "observed_on": "2023-02-26",
+      "place_guess": "Fort Ord National Monument, Marina, CA, US",
+      "user_login": "hkibak",
+      "filename": "primula-clevelandii_05_inat-258139124.jpg"
+    }
+  ]
+}

@@ -77,6 +77,25 @@ Eriogonum gracile (Slender Woolly Buckwheat) is a California-native annual of Ch
 - **Site type:** Dry, sandy places, variable
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/eriogonum-gracile/eriogonum-gracile_01_inat-589536313.jpg)
+*(c) klicklo, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/325595622)*
+
+![](../raw/assets/inaturalist/eriogonum-gracile/eriogonum-gracile_02_inat-424674758.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/238530168)*
+
+![](../raw/assets/inaturalist/eriogonum-gracile/eriogonum-gracile_03_inat-563824101.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/312294985)*
+
+![](../raw/assets/inaturalist/eriogonum-gracile/eriogonum-gracile_04_inat-8658875.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/6805336)*
+
+![](../raw/assets/inaturalist/eriogonum-gracile/eriogonum-gracile_05_inat-568485343.jpg)
+*(c) jayjt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/314733765)*
+
 ## Sources
 
 - Calscape (CNPS) — [Eriogonum gracile](https://calscape.org/Eriogonum-gracile-%28Slender-Woolly-Buckwheat%29). Structured fields from the

@@ -64,6 +64,25 @@ Pleuropogon californicus (Annual Semaphoregrass) is a California-native grass of
 - **Plant communities:** Foothill Woodland, Mixed Evergreen Forest, Redwood Forest, Wetland-Riparian, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/pleuropogon-californicus/pleuropogon-californicus_01_inat-119436207.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73175925)*
+
+![](../raw/assets/inaturalist/pleuropogon-californicus/pleuropogon-californicus_02_inat-273044572.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/157954700)*
+
+![](../raw/assets/inaturalist/pleuropogon-californicus/pleuropogon-californicus_03_inat-36807319.jpeg)
+*(c) D Defreese, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/23787083)*
+
+![](../raw/assets/inaturalist/pleuropogon-californicus/pleuropogon-californicus_04_inat-478802732.jpg)
+*(c) Amelia Tauber, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/266482173)*
+
+![](../raw/assets/inaturalist/pleuropogon-californicus/pleuropogon-californicus_05_inat-485786451.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/270137690)*
+
 ## Sources
 
 - Calscape (CNPS) — [Pleuropogon californicus](https://calscape.org/Pleuropogon-californicus-%28Annual-Semaphoregrass%29). Structured fields from the

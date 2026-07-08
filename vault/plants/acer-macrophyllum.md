@@ -86,6 +86,25 @@ Acer macrophyllum (Big Leaf Maple) is a California-native tree of Chaparral, For
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/acer-macrophyllum/acer-macrophyllum_01_inat-54842851.jpg)
+*(c) Alex Abair, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/34816512)*
+
+![](../raw/assets/inaturalist/acer-macrophyllum/acer-macrophyllum_02_inat-186826182.jpeg)
+*(c) Roger Raiche, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/110720882)*
+
+![](../raw/assets/inaturalist/acer-macrophyllum/acer-macrophyllum_03_inat-122128625.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/74707996)*
+
+![](../raw/assets/inaturalist/acer-macrophyllum/acer-macrophyllum_04_inat-192590954.jpeg)
+*(c) Liam Steele, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/114028769)*
+
+![](../raw/assets/inaturalist/acer-macrophyllum/acer-macrophyllum_05_inat-159205899.jpg)
+*(c) Tim Messick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/95870147)*
+
 ## Sources
 
 - Calscape (CNPS) — [Acer macrophyllum](https://calscape.org/Acer-macrophyllum-%28Big-Leaf-Maple%29). Structured fields from the

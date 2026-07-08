@@ -85,6 +85,25 @@ Juncus patens (Common Rush) is a California-native grass of Wetland/Riparian. Ca
 - **Site type:** Usually found in moist areas such as stream banks, springs and seeps, but also occurs in areas of seasonal dryness such as ephemeral streams and ponds
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/juncus-patens/juncus-patens_01_inat-22984.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/11247)*
+
+![](../raw/assets/inaturalist/juncus-patens/juncus-patens_02_inat-382039162.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/216042833)*
+
+![](../raw/assets/inaturalist/juncus-patens/juncus-patens_03_inat-2055719.jpg)
+*(c) AJ Wacaser, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/1697758)*
+
+![](../raw/assets/inaturalist/juncus-patens/juncus-patens_04_inat-254630264.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/147923498)*
+
+![](../raw/assets/inaturalist/juncus-patens/juncus-patens_05_inat-263546942.jpeg)
+*(c) Michael Warner, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/152652516)*
+
 ## Sources
 
 - Calscape (CNPS) — [Juncus patens](https://calscape.org/Juncus-patens-%28Common-Rush%29). Structured fields from the

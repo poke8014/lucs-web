@@ -64,6 +64,25 @@ Juncus phaeocephalus var. paniculatus (Panicled Rush) is a California-native gra
 - **Plant communities:** Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/juncus-phaeocephalus-var-paniculatus/juncus-phaeocephalus-var-paniculatus_01_inat-384763851.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/217491123)*
+
+![](../raw/assets/inaturalist/juncus-phaeocephalus-var-paniculatus/juncus-phaeocephalus-var-paniculatus_02_inat-386129937.jpeg)
+*(c) Cricket Raspet, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/218222889)*
+
+![](../raw/assets/inaturalist/juncus-phaeocephalus-var-paniculatus/juncus-phaeocephalus-var-paniculatus_03_inat-383816793.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/216989498)*
+
+![](../raw/assets/inaturalist/juncus-phaeocephalus-var-paniculatus/juncus-phaeocephalus-var-paniculatus_04_inat-291171846.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/168038148)*
+
+![](../raw/assets/inaturalist/juncus-phaeocephalus-var-paniculatus/juncus-phaeocephalus-var-paniculatus_05_inat-373603426.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/211323632)*
+
 ## Sources
 
 - Calscape (CNPS) — [Juncus phaeocephalus var. paniculatus](https://calscape.org/Juncus-phaeocephalus-var.-paniculatus-%28Panicled-Rush%29). Structured fields from the

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cuscuta californica",
+  "taxon_id": 57019,
+  "photos_taxon_id": 57019,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 243857575,
+      "license": "cc-by",
+      "attribution": "(c) Dee Shea Himes, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243857575/large.jpeg",
+      "observation_id": 142256618,
+      "observation_url": "https://www.inaturalist.org/observations/142256618",
+      "observed_on": "2020-08-12",
+      "place_guess": "San Mateo County, CA, USA",
+      "user_login": "deehimes",
+      "filename": "cuscuta-californica_01_inat-243857575.jpeg"
+    },
+    {
+      "photo_id": 243858185,
+      "license": "cc-by",
+      "attribution": "(c) Dee Shea Himes, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243858185/large.jpg",
+      "observation_id": 142256618,
+      "observation_url": "https://www.inaturalist.org/observations/142256618",
+      "observed_on": "2020-08-12",
+      "place_guess": "San Mateo County, CA, USA",
+      "user_login": "deehimes",
+      "filename": "cuscuta-californica_02_inat-243858185.jpg"
+    },
+    {
+      "photo_id": 36054962,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36054962/large.jpg",
+      "observation_id": 23268878,
+      "observation_url": "https://www.inaturalist.org/observations/23268878",
+      "observed_on": "2019-04-26",
+      "place_guess": "Torrey Pines State Natural Reserve, San Diego, CA, US",
+      "user_login": "ingorenner",
+      "filename": "cuscuta-californica_03_inat-36054962.jpg"
+    },
+    {
+      "photo_id": 18947879,
+      "license": "cc-by",
+      "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/18947879/large.jpeg",
+      "observation_id": 13023306,
+      "observation_url": "https://www.inaturalist.org/observations/13023306",
+      "observed_on": "2018-06-01",
+      "place_guess": "Rancho Bernardo, San Diego, CA, USA",
+      "user_login": "milliebasden",
+      "filename": "cuscuta-californica_04_inat-18947879.jpeg"
+    },
+    {
+      "photo_id": 193406811,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/193406811/large.jpeg",
+      "observation_id": 114534476,
+      "observation_url": "https://www.inaturalist.org/observations/114534476",
+      "observed_on": "2022-05-01",
+      "place_guess": "San Diego, CA 92122, USA",
+      "user_login": "jen_outside",
+      "filename": "cuscuta-californica_05_inat-193406811.jpeg"
+    }
+  ]
+}

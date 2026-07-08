@@ -70,6 +70,25 @@ Centromadia parryi (Parry Spikeweed) is a California-native annual of Grassland,
 - **Site type:** Seasonally wet (often saline or alkaline) grassy places
 - **Rarity:** Rare
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/centromadia-parryi/centromadia-parryi_01_inat-210618936.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/124270745)*
+
+![](../raw/assets/inaturalist/centromadia-parryi/centromadia-parryi_02_inat-131744361.jpeg)
+*(c) Justin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/80384604)*
+
+![](../raw/assets/inaturalist/centromadia-parryi/centromadia-parryi_03_inat-153793048.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/92846474)*
+
+![](../raw/assets/inaturalist/centromadia-parryi/centromadia-parryi_04_inat-86821721.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/54561536)*
+
+![](../raw/assets/inaturalist/centromadia-parryi/centromadia-parryi_05_inat-210618972.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/124270745)*
+
 ## Sources
 
 - Calscape (CNPS) — [Centromadia parryi](https://calscape.org/Centromadia-parryi-%28Parry-Spikeweed%29). Structured fields from the

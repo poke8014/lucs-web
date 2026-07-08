@@ -71,6 +71,25 @@ Castilleja affinis ssp. affinis (Coast Indian Paintbrush) is a California-native
 - **Site type:** Sea bluffs, dry places
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/castilleja-affinis-ssp-affinis/castilleja-affinis-ssp-affinis_01_inat-472496544.jpg)
+*(c) wonton_soup, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/263048593)*
+
+![](../raw/assets/inaturalist/castilleja-affinis-ssp-affinis/castilleja-affinis-ssp-affinis_02_inat-472592063.jpeg)
+*(c) Aaron Kreisberg, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/263100797)*
+
+![](../raw/assets/inaturalist/castilleja-affinis-ssp-affinis/castilleja-affinis-ssp-affinis_03_inat-196783771.jpeg)
+*(c) Alexander Wentworth, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/116570226)*
+
+![](../raw/assets/inaturalist/castilleja-affinis-ssp-affinis/castilleja-affinis-ssp-affinis_04_inat-183309880.jpeg)
+*(c) Alexander Wentworth, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/108829163)*
+
+![](../raw/assets/inaturalist/castilleja-affinis-ssp-affinis/castilleja-affinis-ssp-affinis_05_inat-609069205.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/335288833)*
+
 ## Sources
 
 - Calscape (CNPS) — [Castilleja affinis ssp. affinis](https://calscape.org/Castilleja-affinis-ssp.-affinis-%28Coast-Indian-Paintbrush%29). Structured fields from the

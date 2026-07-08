@@ -81,6 +81,25 @@ Euthamia occidentalis (Western Goldenrod) is a California-native perennial of De
 - **Site type:** Marshes, streambanks, meadows, and other moist to wet places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/euthamia-occidentalis/euthamia-occidentalis_01_inat-99061656.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/61873132)*
+
+![](../raw/assets/inaturalist/euthamia-occidentalis/euthamia-occidentalis_02_inat-13669696.jpg)
+*(c) Jim Morefield, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/9955490)*
+
+![](../raw/assets/inaturalist/euthamia-occidentalis/euthamia-occidentalis_03_inat-432511524.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/242604909)*
+
+![](../raw/assets/inaturalist/euthamia-occidentalis/euthamia-occidentalis_04_inat-26805695.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/17603893)*
+
+![](../raw/assets/inaturalist/euthamia-occidentalis/euthamia-occidentalis_05_inat-158852516.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/95672655)*
+
 ## Sources
 
 - Calscape (CNPS) — [Euthamia occidentalis](https://calscape.org/Euthamia-occidentalis-%28Western-Goldenrod%29). Structured fields from the

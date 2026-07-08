@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cyperus niger",
+  "taxon_id": 1551513,
+  "photos_taxon_id": 1551513,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 576148183,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/576148183/large.jpg",
+      "observation_id": 318766923,
+      "observation_url": "https://www.inaturalist.org/observations/318766923",
+      "observed_on": "2025-10-04",
+      "place_guess": "Orindawoods, Orinda, CA, USA",
+      "user_login": "kueda",
+      "filename": "cyperus-niger_01_inat-576148183.jpg"
+    },
+    {
+      "photo_id": 444345557,
+      "license": "cc-by",
+      "attribution": "(c) Sue Carnahan, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444345557/large.jpg",
+      "observation_id": 248659418,
+      "observation_url": "https://www.inaturalist.org/observations/248659418",
+      "observed_on": "2018-07-22",
+      "place_guess": "Santa Cruz County, AZ, USA",
+      "user_login": "suecar",
+      "filename": "cyperus-niger_02_inat-444345557.jpg"
+    },
+    {
+      "photo_id": 2997565,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2997565/large.JPG",
+      "observation_id": 2666594,
+      "observation_url": "https://www.inaturalist.org/observations/2666594",
+      "observed_on": "2006-12-16",
+      "place_guess": "Tuzigoot National Monument, Yavapai County, US-AZ, US",
+      "user_login": "hannawacker",
+      "filename": "cyperus-niger_03_inat-2997565.JPG"
+    },
+    {
+      "photo_id": 5231071,
+      "license": "cc-by",
+      "attribution": "(c) Neptal\u00ed Ram\u00edrez Marcial, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5231071/large.jpg",
+      "observation_id": 4366075,
+      "observation_url": "https://www.inaturalist.org/observations/4366075",
+      "observed_on": "2016-09-13",
+      "place_guess": "San Antonio, 29250 San Crist\u00f3bal de las Casas, Chis., M\u00e9xico",
+      "user_login": "huracan",
+      "filename": "cyperus-niger_04_inat-5231071.jpg"
+    },
+    {
+      "photo_id": 619011628,
+      "license": "cc-by",
+      "attribution": "(c) Zihao Wang, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619011628/large.jpg",
+      "observation_id": 340185212,
+      "observation_url": "https://www.inaturalist.org/observations/340185212",
+      "observed_on": "2017-12-12",
+      "place_guess": "Yavapai County, AZ, USA",
+      "user_login": "zihaowang",
+      "filename": "cyperus-niger_05_inat-619011628.jpg"
+    }
+  ]
+}

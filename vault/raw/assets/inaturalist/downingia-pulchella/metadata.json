@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Downingia pulchella",
+  "taxon_id": 60167,
+  "photos_taxon_id": 60167,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 270903773,
+      "license": "cc-by",
+      "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270903773/large.jpeg",
+      "observation_id": 156653104,
+      "observation_url": "https://www.inaturalist.org/observations/156653104",
+      "observed_on": "2023-04-25",
+      "place_guess": "Livermore, CA 94551, USA",
+      "user_login": "ddefreese",
+      "filename": "downingia-pulchella_01_inat-270903773.jpeg"
+    },
+    {
+      "photo_id": 659299318,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659299318/large.jpg",
+      "observation_id": 361269582,
+      "observation_url": "https://www.inaturalist.org/observations/361269582",
+      "observed_on": "2011-06-10",
+      "place_guess": "Truckee, CA 96161, USA",
+      "user_login": "cgbikes",
+      "filename": "downingia-pulchella_02_inat-659299318.jpg"
+    },
+    {
+      "photo_id": 280165646,
+      "license": "cc-by",
+      "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280165646/large.jpg",
+      "observation_id": 162053036,
+      "observation_url": "https://www.inaturalist.org/observations/162053036",
+      "observed_on": "2023-05-16",
+      "place_guess": "I-80 E, Davis, CA, US",
+      "user_login": "chilipossum",
+      "filename": "downingia-pulchella_03_inat-280165646.jpg"
+    },
+    {
+      "photo_id": 270903859,
+      "license": "cc-by",
+      "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270903859/large.jpeg",
+      "observation_id": 156653104,
+      "observation_url": "https://www.inaturalist.org/observations/156653104",
+      "observed_on": "2023-04-25",
+      "place_guess": "Livermore, CA 94551, USA",
+      "user_login": "ddefreese",
+      "filename": "downingia-pulchella_04_inat-270903859.jpeg"
+    },
+    {
+      "photo_id": 270903927,
+      "license": "cc-by",
+      "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270903927/large.jpeg",
+      "observation_id": 156653104,
+      "observation_url": "https://www.inaturalist.org/observations/156653104",
+      "observed_on": "2023-04-25",
+      "place_guess": "Livermore, CA 94551, USA",
+      "user_login": "ddefreese",
+      "filename": "downingia-pulchella_05_inat-270903927.jpeg"
+    }
+  ]
+}

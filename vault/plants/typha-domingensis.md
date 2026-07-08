@@ -73,6 +73,25 @@ Typha domingensis (Southern Cattail) is a California-native perennial of Wetland
 - **Site type:** Marshes
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/typha-domingensis/typha-domingensis_01_inat-327430549.jpeg)
+*(c) Lightning Star Sky / Skyler Noah Wall, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/187255982)*
+
+![](../raw/assets/inaturalist/typha-domingensis/typha-domingensis_02_inat-92725062.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/58098828)*
+
+![](../raw/assets/inaturalist/typha-domingensis/typha-domingensis_03_inat-465184753.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/259175377)*
+
+![](../raw/assets/inaturalist/typha-domingensis/typha-domingensis_04_inat-176409132.jpeg)
+*(c) ritirene, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/105175416)*
+
+![](../raw/assets/inaturalist/typha-domingensis/typha-domingensis_05_inat-10758073.jpg)
+*(c) W. Terry Hunefeld, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/8108908)*
+
 ## Sources
 
 - Calscape (CNPS) — [Typha domingensis](https://calscape.org/Typha-domingensis-%28Southern-Cattail%29). Structured fields from the

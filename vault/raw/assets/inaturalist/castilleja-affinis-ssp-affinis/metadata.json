@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Castilleja affinis ssp. affinis",
+  "taxon_id": 50043,
+  "photos_taxon_id": 50043,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 472496544,
+      "license": "cc-by",
+      "attribution": "(c) wonton_soup, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472496544/large.jpg",
+      "observation_id": 263048593,
+      "observation_url": "https://www.inaturalist.org/observations/263048593",
+      "observed_on": "2025-02-24",
+      "place_guess": "Golden Gate National Recreation Area, Pacifica, CA, US",
+      "user_login": "wonton_soup",
+      "filename": "castilleja-affinis-ssp-affinis_01_inat-472496544.jpg"
+    },
+    {
+      "photo_id": 472592063,
+      "license": "cc-by",
+      "attribution": "(c) Aaron Kreisberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472592063/large.jpeg",
+      "observation_id": 263100797,
+      "observation_url": "https://www.inaturalist.org/observations/263100797",
+      "observed_on": "2025-02-25",
+      "place_guess": "Avalon, CA 90704, USA",
+      "user_login": "akbirder",
+      "filename": "castilleja-affinis-ssp-affinis_02_inat-472592063.jpeg"
+    },
+    {
+      "photo_id": 196783771,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Wentworth, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196783771/large.jpeg",
+      "observation_id": 116570226,
+      "observation_url": "https://www.inaturalist.org/observations/116570226",
+      "observed_on": "2022-04-26",
+      "place_guess": "Walnut Creek, CA 94598, USA",
+      "user_login": "alex_wentworth",
+      "filename": "castilleja-affinis-ssp-affinis_03_inat-196783771.jpeg"
+    },
+    {
+      "photo_id": 183309880,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Wentworth, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183309880/large.jpeg",
+      "observation_id": 108829163,
+      "observation_url": "https://www.inaturalist.org/observations/108829163",
+      "observed_on": "2022-03-15",
+      "place_guess": "Seaside, CA 93955, USA",
+      "user_login": "alex_wentworth",
+      "filename": "castilleja-affinis-ssp-affinis_04_inat-183309880.jpeg"
+    },
+    {
+      "photo_id": 609069205,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/609069205/large.jpg",
+      "observation_id": 335288833,
+      "observation_url": "https://www.inaturalist.org/observations/335288833",
+      "observed_on": "2026-01-18",
+      "place_guess": "Silverado, CA 92676, USA",
+      "user_login": "jrcowles",
+      "filename": "castilleja-affinis-ssp-affinis_05_inat-609069205.jpg"
+    }
+  ]
+}

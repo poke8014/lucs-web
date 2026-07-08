@@ -86,6 +86,25 @@ Ceanothus thyrsiflorus (Blueblossom Ceanothus) is a California-native shrub of C
 - **Site type:** Chaparral, redwood forest, and mixed woodland slopes and canyons below 2,000 ft. primarily along the coast and foothills of the Coast Ranges from Del Norte County to Monterey County, with scattered locations south and inland
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/ceanothus-thyrsiflorus/ceanothus-thyrsiflorus_01_inat-77146021.jpg)
+*(c) Henrik Kibak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/48613774)*
+
+![](../raw/assets/inaturalist/ceanothus-thyrsiflorus/ceanothus-thyrsiflorus_02_inat-263430811.jpg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/152588060)*
+
+![](../raw/assets/inaturalist/ceanothus-thyrsiflorus/ceanothus-thyrsiflorus_03_inat-249007272.jpg)
+*(c) Daniel Kennedy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/145006929)*
+
+![](../raw/assets/inaturalist/ceanothus-thyrsiflorus/ceanothus-thyrsiflorus_04_inat-279917593.jpg)
+*(c) Roger Raiche, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/161917690)*
+
+![](../raw/assets/inaturalist/ceanothus-thyrsiflorus/ceanothus-thyrsiflorus_05_inat-77146041.jpg)
+*(c) Henrik Kibak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/48613774)*
+
 ## Sources
 
 - Calscape (CNPS) — [Ceanothus thyrsiflorus](https://calscape.org/Ceanothus-thyrsiflorus-%28Blueblossom-Ceanothus%29). Structured fields from the

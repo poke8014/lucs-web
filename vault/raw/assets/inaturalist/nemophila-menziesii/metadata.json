@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Nemophila menziesii",
+  "taxon_id": 50648,
+  "photos_taxon_id": 50648,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 622621893,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622621893/large.jpg",
+      "observation_id": 341956658,
+      "observation_url": "https://www.inaturalist.org/observations/341956658",
+      "observed_on": "2026-03-08",
+      "place_guess": "Pleasant Hill, OR, US",
+      "user_login": "creaturecalledkate",
+      "filename": "nemophila-menziesii_01_inat-622621893.jpg"
+    },
+    {
+      "photo_id": 183037900,
+      "license": "cc-by",
+      "attribution": "(c) Justin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183037900/large.jpg",
+      "observation_id": 108685205,
+      "observation_url": "https://www.inaturalist.org/observations/108685205",
+      "observed_on": "2022-03-12",
+      "place_guess": "Mitchell Rock, California 94517, USA",
+      "user_login": "justin2",
+      "filename": "nemophila-menziesii_02_inat-183037900.jpg"
+    },
+    {
+      "photo_id": 376247437,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376247437/large.jpg",
+      "observation_id": 212820590,
+      "observation_url": "https://www.inaturalist.org/observations/212820590",
+      "observed_on": "2024-04-19",
+      "place_guess": "San Bernardino National Forest, Fawnskin, CA, US",
+      "user_login": "dryopteris2",
+      "filename": "nemophila-menziesii_03_inat-376247437.jpg"
+    },
+    {
+      "photo_id": 62136919,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62136919/large.jpg",
+      "observation_id": 39187396,
+      "observation_url": "https://www.inaturalist.org/observations/39187396",
+      "observed_on": "2020-02-24",
+      "place_guess": "Point Reyes National Seashore, Marin County, US-CA, US",
+      "user_login": "grnleaf",
+      "filename": "nemophila-menziesii_04_inat-62136919.jpg"
+    },
+    {
+      "photo_id": 3004076,
+      "license": "cc-by",
+      "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3004076/large.jpg",
+      "observation_id": 2674477,
+      "observation_url": "https://www.inaturalist.org/observations/2674477",
+      "observed_on": "2016-02-11",
+      "place_guess": "Abbotts Lagoon, Pt. Reyes, CA",
+      "user_login": "dloarie",
+      "filename": "nemophila-menziesii_05_inat-3004076.jpg"
+    }
+  ]
+}

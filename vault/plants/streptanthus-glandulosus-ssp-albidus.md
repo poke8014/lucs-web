@@ -63,6 +63,25 @@ Streptanthus glandulosus ssp. albidus (Metcalf Canyon Jewelflower) is a Californ
 
 - **Site type:** Slopes and flats
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus-ssp-albidus/streptanthus-glandulosus-ssp-albidus_01_inat-129951499.jpeg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/79342803)*
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus-ssp-albidus/streptanthus-glandulosus-ssp-albidus_02_inat-267988044.jpeg)
+*(c) Alexander Wentworth, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/155063330)*
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus-ssp-albidus/streptanthus-glandulosus-ssp-albidus_03_inat-192476349.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/113958762)*
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus-ssp-albidus/streptanthus-glandulosus-ssp-albidus_04_inat-129951512.jpeg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/79342803)*
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus-ssp-albidus/streptanthus-glandulosus-ssp-albidus_05_inat-129951529.jpeg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/79342803)*
+
 ## Sources
 
 - Calscape (CNPS) — [Streptanthus glandulosus ssp. albidus](https://calscape.org/Streptanthus-glandulosus-ssp.-albidus-%28Metcalf-Canyon-Jewelflower%29). Structured fields from the

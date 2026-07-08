@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Ceanothus oliganthus",
+  "taxon_id": 53360,
+  "photos_taxon_id": 53360,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 75666393,
+      "license": "cc-by",
+      "attribution": "(c) Erin Lalime, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75666393/large.jpeg",
+      "observation_id": 47701131,
+      "observation_url": "https://www.inaturalist.org/observations/47701131",
+      "observed_on": "2020-05-24",
+      "place_guess": "Lake View Terrace, CA 91342, USA",
+      "user_login": "erininmd",
+      "filename": "ceanothus-oliganthus_01_inat-75666393.jpeg"
+    },
+    {
+      "photo_id": 117395681,
+      "license": "cc-by",
+      "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117395681/large.jpeg",
+      "observation_id": 72050042,
+      "observation_url": "https://www.inaturalist.org/observations/72050042",
+      "observed_on": "2021-03-25",
+      "place_guess": "El Cajon Mountain Trail, San Diego County, CA, USA",
+      "user_login": "milliebasden",
+      "filename": "ceanothus-oliganthus_02_inat-117395681.jpeg"
+    },
+    {
+      "photo_id": 770403,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/770403/large.jpg",
+      "observation_id": 611062,
+      "observation_url": "https://www.inaturalist.org/observations/611062",
+      "observed_on": "2014-04-06",
+      "place_guess": "Temescal Regional Recreation Area, Alameda County, US-CA, US",
+      "user_login": "kueda",
+      "filename": "ceanothus-oliganthus_03_inat-770403.jpg"
+    },
+    {
+      "photo_id": 21306662,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21306662/large.jpg",
+      "observation_id": 14339250,
+      "observation_url": "https://www.inaturalist.org/observations/14339250",
+      "observed_on": "2018-05-12",
+      "place_guess": "Palomar Mountain State Park, San Diego County, US-CA, US",
+      "user_login": "coralgilbert",
+      "filename": "ceanothus-oliganthus_04_inat-21306662.jpg"
+    },
+    {
+      "photo_id": 261668953,
+      "license": "cc-by",
+      "attribution": "(c) Quinn Shemet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261668953/large.jpeg",
+      "observation_id": 151638527,
+      "observation_url": "https://www.inaturalist.org/observations/151638527",
+      "observed_on": "2023-03-18",
+      "place_guess": "Big Sur, CA 93920, USA",
+      "user_login": "sqshemet",
+      "filename": "ceanothus-oliganthus_05_inat-261668953.jpeg"
+    }
+  ]
+}

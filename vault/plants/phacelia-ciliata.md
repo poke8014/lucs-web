@@ -76,6 +76,25 @@ Phacelia ciliata (Great Valley Phacelia) is a California-native annual of Coasta
 - **Site type:** Clay or gravelly slopes in grassy places
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/phacelia-ciliata/phacelia-ciliata_01_inat-122366558.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/74840881)*
+
+![](../raw/assets/inaturalist/phacelia-ciliata/phacelia-ciliata_02_inat-122366536.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/74840881)*
+
+![](../raw/assets/inaturalist/phacelia-ciliata/phacelia-ciliata_03_inat-122366567.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/74840881)*
+
+![](../raw/assets/inaturalist/phacelia-ciliata/phacelia-ciliata_04_inat-122366595.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/74840881)*
+
+![](../raw/assets/inaturalist/phacelia-ciliata/phacelia-ciliata_05_inat-122366882.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/74840881)*
+
 ## Sources
 
 - Calscape (CNPS) — [Phacelia ciliata](https://calscape.org/Phacelia-ciliata-%28Great-Valley-Phacelia%29). Structured fields from the

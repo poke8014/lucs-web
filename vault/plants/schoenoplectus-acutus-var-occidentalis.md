@@ -73,6 +73,25 @@ Schoenoplectus acutus var. occidentalis (Tule) is a California-native grass of W
 - **Site type:** Marshes, lakes, streambanks
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus-var-occidentalis/schoenoplectus-acutus-var-occidentalis_01_inat-25463140.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/16860444)*
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus-var-occidentalis/schoenoplectus-acutus-var-occidentalis_02_inat-649067003.jpg)
+*(c) Pete Diamond, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/355921818)*
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus-var-occidentalis/schoenoplectus-acutus-var-occidentalis_03_inat-178861154.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/106470951)*
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus-var-occidentalis/schoenoplectus-acutus-var-occidentalis_04_inat-418064030.jpeg)
+*(c) Tom Field, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/235102537)*
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus-var-occidentalis/schoenoplectus-acutus-var-occidentalis_05_inat-5231073.jpg)
+*(c) Neptalí Ramírez Marcial, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/4366076)*
+
 ## Sources
 
 - Calscape (CNPS) — [Schoenoplectus acutus var. occidentalis](https://calscape.org/Schoenoplectus-acutus-var.-occidentalis-%28Tule%29-2). Structured fields from the

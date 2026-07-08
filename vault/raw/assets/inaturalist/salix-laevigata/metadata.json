@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Salix laevigata",
+  "taxon_id": 58319,
+  "photos_taxon_id": 58319,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 448507489,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448507489/large.jpeg",
+      "observation_id": 250739075,
+      "observation_url": "https://www.inaturalist.org/observations/250739075",
+      "observed_on": "2024-11-06",
+      "place_guess": "Koepfer Rd, Lake Elsinore, CA, US",
+      "user_login": "xzita3a",
+      "filename": "salix-laevigata_01_inat-448507489.jpeg"
+    },
+    {
+      "photo_id": 11848617,
+      "license": "cc-by",
+      "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11848617/large.jpg",
+      "observation_id": 8820149,
+      "observation_url": "https://www.inaturalist.org/observations/8820149",
+      "observed_on": "2017-11-15",
+      "place_guess": "Anza-Borrego Desert State Park, Borrego Springs, CA, US",
+      "user_login": "thunefeld",
+      "filename": "salix-laevigata_02_inat-11848617.jpg"
+    },
+    {
+      "photo_id": 448507503,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448507503/large.jpeg",
+      "observation_id": 250739075,
+      "observation_url": "https://www.inaturalist.org/observations/250739075",
+      "observed_on": "2024-11-06",
+      "place_guess": "Koepfer Rd, Lake Elsinore, CA, US",
+      "user_login": "xzita3a",
+      "filename": "salix-laevigata_03_inat-448507503.jpeg"
+    },
+    {
+      "photo_id": 11848614,
+      "license": "cc-by",
+      "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11848614/large.jpg",
+      "observation_id": 8820149,
+      "observation_url": "https://www.inaturalist.org/observations/8820149",
+      "observed_on": "2017-11-15",
+      "place_guess": "Anza-Borrego Desert State Park, Borrego Springs, CA, US",
+      "user_login": "thunefeld",
+      "filename": "salix-laevigata_04_inat-11848614.jpg"
+    },
+    {
+      "photo_id": 11848610,
+      "license": "cc-by",
+      "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11848610/large.jpg",
+      "observation_id": 8820149,
+      "observation_url": "https://www.inaturalist.org/observations/8820149",
+      "observed_on": "2017-11-15",
+      "place_guess": "Anza-Borrego Desert State Park, Borrego Springs, CA, US",
+      "user_login": "thunefeld",
+      "filename": "salix-laevigata_05_inat-11848610.jpg"
+    }
+  ]
+}

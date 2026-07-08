@@ -75,6 +75,25 @@ Ceanothus oliganthus var. sorediatus (Jim Brush) is a California-native shrub of
 - **Site type:** Dry slopes
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus-var-sorediatus/ceanothus-oliganthus-var-sorediatus_01_inat-2165470.jpg)
+*(c) Heather Marie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/1788189)*
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus-var-sorediatus/ceanothus-oliganthus-var-sorediatus_02_inat-481586703.png)
+*(c) Arvel Hernandez, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/268086721)*
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus-var-sorediatus/ceanothus-oliganthus-var-sorediatus_03_inat-243426605.jpg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/142023965)*
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus-var-sorediatus/ceanothus-oliganthus-var-sorediatus_04_inat-194889102.jpeg)
+*(c) Daniel Levitis, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/115477633)*
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus-var-sorediatus/ceanothus-oliganthus-var-sorediatus_05_inat-34583137.jpg)
+*(c) Nelson Balcar, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/22329165)*
+
 ## Sources
 
 - Calscape (CNPS) — [Ceanothus oliganthus var. sorediatus](https://calscape.org/Ceanothus-oliganthus-var.-sorediatus-%28Jim-Brush%29). Structured fields from the

@@ -86,6 +86,25 @@ Diplacus aurantiacus (Bush Monkey Flower) is a California-native shrub of Chapar
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/diplacus-aurantiacus/diplacus-aurantiacus_01_inat-301049.jpg)
+*(c) 66dodge, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/240548)*
+
+![](../raw/assets/inaturalist/diplacus-aurantiacus/diplacus-aurantiacus_02_inat-4278576.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/3688551)*
+
+![](../raw/assets/inaturalist/diplacus-aurantiacus/diplacus-aurantiacus_03_inat-759412.jpg)
+*(c) Justin Johnsen, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/602979)*
+
+![](../raw/assets/inaturalist/diplacus-aurantiacus/diplacus-aurantiacus_04_inat-676306790.jpg)
+*(c) Dennis Eckhart, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/370209828)*
+
+![](../raw/assets/inaturalist/diplacus-aurantiacus/diplacus-aurantiacus_05_inat-45393710.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/29095834)*
+
 ## Sources
 
 - Calscape (CNPS) — [Diplacus aurantiacus](https://calscape.org/Diplacus-aurantiacus-%28Bush-Monkey-Flower%29). Structured fields from the

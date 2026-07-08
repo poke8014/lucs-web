@@ -84,6 +84,25 @@ Morella californica (California Wax Myrtle) is a California-native shrub of Coas
 - **Cold hardiness:** Tolerates cold to 20° F
 - **Site type:** Dunes, coastal hills, inland foothills and valleys in conjunction with northern coastal prairie or scrub, woodland, or sometimes wetland/riparian communities
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/morella-californica/morella-californica_01_inat-116813280.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/71721555)*
+
+![](../raw/assets/inaturalist/morella-californica/morella-californica_02_inat-52386520.jpg)
+*(c) Bruce Homer-Smith, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/33356883)*
+
+![](../raw/assets/inaturalist/morella-californica/morella-californica_03_inat-116813318.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/71721555)*
+
+![](../raw/assets/inaturalist/morella-californica/morella-californica_04_inat-52386545.jpg)
+*(c) Bruce Homer-Smith, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/33356883)*
+
+![](../raw/assets/inaturalist/morella-californica/morella-californica_05_inat-52386535.jpg)
+*(c) Bruce Homer-Smith, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/33356883)*
+
 ## Sources
 
 - Calscape (CNPS) — [Morella californica](https://calscape.org/Morella-californica-%28California-Wax-Myrtle%29). Structured fields from the

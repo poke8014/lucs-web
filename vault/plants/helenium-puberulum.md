@@ -77,6 +77,25 @@ Helenium puberulum (Sneezeweed) is a California-native perennial of Grassland, W
 - **Site type:** Streamsides, marshes, wetlands
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/helenium-puberulum/helenium-puberulum_01_inat-470921847.jpg)
+*(c) mel letterman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/262081621)*
+
+![](../raw/assets/inaturalist/helenium-puberulum/helenium-puberulum_02_inat-529995.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/420418)*
+
+![](../raw/assets/inaturalist/helenium-puberulum/helenium-puberulum_03_inat-181502873.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/107869392)*
+
+![](../raw/assets/inaturalist/helenium-puberulum/helenium-puberulum_04_inat-1143565.JPG)
+*(c) 101595408250610106310, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/898341)*
+
+![](../raw/assets/inaturalist/helenium-puberulum/helenium-puberulum_05_inat-405875077.jpeg)
+*(c) wonton_soup, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/228703761)*
+
 ## Sources
 
 - Calscape (CNPS) — [Helenium puberulum](https://calscape.org/Helenium-puberulum-%28Sneezeweed%29). Structured fields from the

@@ -80,6 +80,25 @@ Schoenoplectus acutus (Hardstem Bulrush) is a California-native grass of Wetland
 - **Site type:** Marshes and wetlands
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus/schoenoplectus-acutus_01_inat-533586727.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/296340923)*
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus/schoenoplectus-acutus_02_inat-322816818.jpeg)
+*(c) Paul Roots, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/184899873)*
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus/schoenoplectus-acutus_03_inat-533586767.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/296340923)*
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus/schoenoplectus-acutus_04_inat-322816846.jpeg)
+*(c) Paul Roots, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/184899873)*
+
+![](../raw/assets/inaturalist/schoenoplectus-acutus/schoenoplectus-acutus_05_inat-322816926.jpeg)
+*(c) Paul Roots, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/184899873)*
+
 ## Sources
 
 - Calscape (CNPS) — [Schoenoplectus acutus](https://calscape.org/Schoenoplectus-acutus-%28Hardstem-Bulrush%29). Structured fields from the

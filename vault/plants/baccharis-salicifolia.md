@@ -84,6 +84,25 @@ Baccharis salicifolia (Mulefat) is a California-native shrub of Coastal Scrub, G
 - **Site type:** sandy washes, streambanks, valley grasslands
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/baccharis-salicifolia/baccharis-salicifolia_01_inat-90293622.jpg)
+*(c) Grete Pasch, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/56639368)*
+
+![](../raw/assets/inaturalist/baccharis-salicifolia/baccharis-salicifolia_02_inat-305012435.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/175501985)*
+
+![](../raw/assets/inaturalist/baccharis-salicifolia/baccharis-salicifolia_03_inat-250478863.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/145780968)*
+
+![](../raw/assets/inaturalist/baccharis-salicifolia/baccharis-salicifolia_04_inat-185120743.jpeg)
+*(c) aacocucci, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/109865336)*
+
+![](../raw/assets/inaturalist/baccharis-salicifolia/baccharis-salicifolia_05_inat-454244620.jpeg)
+*(c) Christopher Cooke, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/253665986)*
+
 ## Sources
 
 - Calscape (CNPS) — [Baccharis salicifolia](https://calscape.org/Baccharis-salicifolia-%28Mulefat%29). Structured fields from the

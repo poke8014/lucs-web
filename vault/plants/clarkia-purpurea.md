@@ -81,6 +81,25 @@ Clarkia purpurea (Purple Clarkia) is a California-native annual of Chaparral, Co
 - **Site type:** Open, grassy or shrubby places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/clarkia-purpurea/clarkia-purpurea_01_inat-287545224.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/166069303)*
+
+![](../raw/assets/inaturalist/clarkia-purpurea/clarkia-purpurea_02_inat-541482091.jpg)
+*(c) Simone Littledale, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/300519396)*
+
+![](../raw/assets/inaturalist/clarkia-purpurea/clarkia-purpurea_03_inat-130797183.jpeg)
+*(c) Brodie Cass Talbott, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/79838097)*
+
+![](../raw/assets/inaturalist/clarkia-purpurea/clarkia-purpurea_04_inat-638959054.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/350210919)*
+
+![](../raw/assets/inaturalist/clarkia-purpurea/clarkia-purpurea_05_inat-125659453.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/76830526)*
+
 ## Sources
 
 - Calscape (CNPS) — [Clarkia purpurea](https://calscape.org/Clarkia-purpurea-%28Purple-Clarkia%29). Structured fields from the

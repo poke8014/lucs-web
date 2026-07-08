@@ -81,6 +81,25 @@ Gilia capitata (Blue Field Gilia) is a California-native annual of Chaparral, Co
 - **Site type:** Open, sandy rocky places in many settings, from coastal lowlands to higher mountains and from mesic to xeric
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/gilia-capitata/gilia-capitata_01_inat-32447962.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/21008717)*
+
+![](../raw/assets/inaturalist/gilia-capitata/gilia-capitata_02_inat-396275823.jpg)
+*(c) Karen (with occasional help from Mike), some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/223551671)*
+
+![](../raw/assets/inaturalist/gilia-capitata/gilia-capitata_03_inat-140551838.jpeg)
+*(c) Gavin Slater, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/85425077)*
+
+![](../raw/assets/inaturalist/gilia-capitata/gilia-capitata_04_inat-355330366.jpeg)
+*(c) runcator, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/201304098)*
+
+![](../raw/assets/inaturalist/gilia-capitata/gilia-capitata_05_inat-148419916.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/89850996)*
+
 ## Sources
 
 - Calscape (CNPS) — [Gilia capitata](https://calscape.org/Gilia-capitata-%28Blue-Field-Gilia%29). Structured fields from the

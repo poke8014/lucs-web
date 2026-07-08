@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Juglans hindsii",
+  "taxon_id": 54502,
+  "photos_taxon_id": 54502,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 35205372,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Levitis, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35205372/large.jpg",
+      "observation_id": 22715157,
+      "observation_url": "https://www.inaturalist.org/observations/22715157",
+      "observed_on": "2019-04-19",
+      "place_guess": "14785 Arnold Dr, Glen Ellen, CA, US",
+      "user_login": "dlevitis",
+      "filename": "juglans-hindsii_01_inat-35205372.jpg"
+    },
+    {
+      "photo_id": 35205465,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Levitis, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35205465/large.jpg",
+      "observation_id": 22715157,
+      "observation_url": "https://www.inaturalist.org/observations/22715157",
+      "observed_on": "2019-04-19",
+      "place_guess": "14785 Arnold Dr, Glen Ellen, CA, US",
+      "user_login": "dlevitis",
+      "filename": "juglans-hindsii_02_inat-35205465.jpg"
+    },
+    {
+      "photo_id": 319206876,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319206876/large.jpeg",
+      "observation_id": 183011160,
+      "observation_url": "https://www.inaturalist.org/observations/183011160",
+      "observed_on": "2023-09-08",
+      "place_guess": "Pilot Hill, CA 95664, USA",
+      "user_login": "radagast_97",
+      "filename": "juglans-hindsii_04_inat-319206876.jpeg"
+    },
+    {
+      "photo_id": 295031643,
+      "license": "cc-by",
+      "attribution": "(c) Mary K. Hanson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/295031643/large.jpeg",
+      "observation_id": 170130005,
+      "observation_url": "https://www.inaturalist.org/observations/170130005",
+      "observed_on": "2023-06-28",
+      "place_guess": "Effie Yeaw Nature Preserve",
+      "user_login": "simpylmare55",
+      "filename": "juglans-hindsii_05_inat-295031643.jpeg"
+    },
+    {
+      "photo_id": 498257069,
+      "license": "cc-by",
+      "attribution": "(c) jayjt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/498257069/large.jpg",
+      "observation_id": 277492708,
+      "observation_url": "https://www.inaturalist.org/observations/277492708",
+      "observed_on": "2025-04-25",
+      "place_guess": "Alameda County, CA, USA",
+      "user_login": "jayjt",
+      "filename": "juglans-hindsii_05_inat-498257069.jpg"
+    }
+  ]
+}

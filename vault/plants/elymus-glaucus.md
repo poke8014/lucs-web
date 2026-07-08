@@ -85,6 +85,25 @@ Elymus glaucus (Blue Wildrye) is a California-native grass of Chaparral, Forest,
 - **Site type:** Prairies, grasslands, meadows, other open places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/elymus-glaucus/elymus-glaucus_01_inat-679964354.jpg)
+*(c) Ryan Donnelly, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/372125170)*
+
+![](../raw/assets/inaturalist/elymus-glaucus/elymus-glaucus_02_inat-21933552.jpg)
+*(c) Harry Podschwit, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/14708006)*
+
+![](../raw/assets/inaturalist/elymus-glaucus/elymus-glaucus_03_inat-428994969.jpeg)
+*(c) Nathan Aaron, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/240762816)*
+
+![](../raw/assets/inaturalist/elymus-glaucus/elymus-glaucus_04_inat-153137650.jpg)
+*(c) Matt Lavin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/92483246)*
+
+![](../raw/assets/inaturalist/elymus-glaucus/elymus-glaucus_05_inat-679964348.jpg)
+*(c) Ryan Donnelly, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/372125170)*
+
 ## Sources
 
 - Calscape (CNPS) — [Elymus glaucus](https://calscape.org/Elymus-glaucus-%28Blue-Wildrye%29). Structured fields from the

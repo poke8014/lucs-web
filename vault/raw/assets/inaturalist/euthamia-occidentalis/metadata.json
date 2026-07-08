@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Euthamia occidentalis",
+  "taxon_id": 58826,
+  "photos_taxon_id": 58826,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 99061656,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99061656/large.jpeg",
+      "observation_id": 61873132,
+      "observation_url": "https://www.inaturalist.org/observations/61873132",
+      "observed_on": "2020-10-06",
+      "place_guess": "Parkfield, CA 93451, USA",
+      "user_login": "naturewithnora",
+      "filename": "euthamia-occidentalis_01_inat-99061656.jpeg"
+    },
+    {
+      "photo_id": 13669696,
+      "license": "cc-by",
+      "attribution": "(c) Jim Morefield, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13669696/large.jpg",
+      "observation_id": 9955490,
+      "observation_url": "https://www.inaturalist.org/observations/9955490",
+      "observed_on": "2011-10-15",
+      "place_guess": "Nevada, United States",
+      "user_login": "jdmore",
+      "filename": "euthamia-occidentalis_02_inat-13669696.jpg"
+    },
+    {
+      "photo_id": 432511524,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432511524/large.jpeg",
+      "observation_id": 242604909,
+      "observation_url": "https://www.inaturalist.org/observations/242604909",
+      "observed_on": "2024-09-18",
+      "place_guess": "Fort Ord National Monument, Salinas, CA, US",
+      "user_login": "aparrot1",
+      "filename": "euthamia-occidentalis_03_inat-432511524.jpeg"
+    },
+    {
+      "photo_id": 26805695,
+      "license": "cc-by",
+      "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/26805695/large.jpeg",
+      "observation_id": 17603893,
+      "observation_url": "https://www.inaturalist.org/observations/17603893",
+      "observed_on": "2018-10-17",
+      "place_guess": "Tierrasanta, San Diego, CA 92124, USA",
+      "user_login": "milliebasden",
+      "filename": "euthamia-occidentalis_04_inat-26805695.jpeg"
+    },
+    {
+      "photo_id": 158852516,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158852516/large.jpg",
+      "observation_id": 95672655,
+      "observation_url": "https://www.inaturalist.org/observations/95672655",
+      "observed_on": "2021-09-16",
+      "place_guess": "Channel Islands National Park, CA, US",
+      "user_login": "jsriley1984",
+      "filename": "euthamia-occidentalis_05_inat-158852516.jpg"
+    }
+  ]
+}

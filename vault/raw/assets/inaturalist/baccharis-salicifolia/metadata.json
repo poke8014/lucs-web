@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Baccharis salicifolia",
+  "taxon_id": 57913,
+  "photos_taxon_id": 57913,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 90293622,
+      "license": "cc-by",
+      "attribution": "(c) Grete Pasch, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90293622/large.jpg",
+      "observation_id": 56639368,
+      "observation_url": "https://www.inaturalist.org/observations/56639368",
+      "observed_on": "2020-08-16",
+      "place_guess": "Santa Catarina Pinula, Guatemala, GT",
+      "user_login": "gpasch",
+      "filename": "baccharis-salicifolia_01_inat-90293622.jpg"
+    },
+    {
+      "photo_id": 305012435,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305012435/large.jpg",
+      "observation_id": 175501985,
+      "observation_url": "https://www.inaturalist.org/observations/175501985",
+      "observed_on": "2023-07-28",
+      "place_guess": "Hacienda Buena Vista (Puquial), Lur\u00edn, Lima, Per\u00fa",
+      "user_login": "ruthgo",
+      "filename": "baccharis-salicifolia_02_inat-305012435.jpg"
+    },
+    {
+      "photo_id": 250478863,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250478863/large.jpg",
+      "observation_id": 145780968,
+      "observation_url": "https://www.inaturalist.org/observations/145780968",
+      "observed_on": "2023-01-03",
+      "place_guess": "Camp Beale Hwy, Beale Afb, CA, US",
+      "user_login": "jzupan",
+      "filename": "baccharis-salicifolia_03_inat-250478863.jpg"
+    },
+    {
+      "photo_id": 185120743,
+      "license": "cc-by",
+      "attribution": "(c) aacocucci, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185120743/large.jpeg",
+      "observation_id": 109865336,
+      "observation_url": "https://www.inaturalist.org/observations/109865336",
+      "observed_on": "2022-03-26",
+      "place_guess": "Parque Chateau Carreras, C\u00f3rdoba, Argentina",
+      "user_login": "aacocucci",
+      "filename": "baccharis-salicifolia_04_inat-185120743.jpeg"
+    },
+    {
+      "photo_id": 454244620,
+      "license": "cc-by",
+      "attribution": "(c) Christopher Cooke, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/454244620/large.jpeg",
+      "observation_id": 253665986,
+      "observation_url": "https://www.inaturalist.org/observations/253665986",
+      "observed_on": "2024-11-29",
+      "place_guess": "Palms, Los Angeles, CA, USA",
+      "user_login": "christophercooke",
+      "filename": "baccharis-salicifolia_05_inat-454244620.jpeg"
+    }
+  ]
+}

@@ -73,6 +73,25 @@ Layia chrysanthemoides (Smooth Tidy Tips) is a California-native annual of Coast
 - **Site type:** Grassy places, open places with heavy soil
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/layia-chrysanthemoides/layia-chrysanthemoides_01_inat-269913448.jpg)
+*(c) Mary K. Hanson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/156118497)*
+
+![](../raw/assets/inaturalist/layia-chrysanthemoides/layia-chrysanthemoides_02_inat-484645994.jpg)
+*(c) graham_coop, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/269541144)*
+
+![](../raw/assets/inaturalist/layia-chrysanthemoides/layia-chrysanthemoides_03_inat-201094142.jpeg)
+*(c) Arvel Hernandez, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/119091679)*
+
+![](../raw/assets/inaturalist/layia-chrysanthemoides/layia-chrysanthemoides_04_inat-188412790.jpeg)
+*(c) Alex, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/111602492)*
+
+![](../raw/assets/inaturalist/layia-chrysanthemoides/layia-chrysanthemoides_05_inat-191396820.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/113274345)*
+
 ## Sources
 
 - Calscape (CNPS) — [Layia chrysanthemoides](https://calscape.org/Layia-chrysanthemoides-%28Smooth-Tidy-Tips%29). Structured fields from the

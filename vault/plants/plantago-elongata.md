@@ -69,6 +69,25 @@ Plantago elongata (Coast Plantain) is a California-native annual of Wetland/Ripa
 - **Plant communities:** Wetland-Riparian
 - **Site type:** Wet places
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/plantago-elongata/plantago-elongata_01_inat-270528230.jpg)
+*(c) Hannah Hickli, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/156447761)*
+
+![](../raw/assets/inaturalist/plantago-elongata/plantago-elongata_02_inat-463697888.jpeg)
+*(c) Chris Fluit, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/258447190)*
+
+![](../raw/assets/inaturalist/plantago-elongata/plantago-elongata_03_inat-389843384.jpg)
+*(c) Timothy McNitt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/220202343)*
+
+![](../raw/assets/inaturalist/plantago-elongata/plantago-elongata_04_inat-463697910.jpeg)
+*(c) Chris Fluit, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/258447190)*
+
+![](../raw/assets/inaturalist/plantago-elongata/plantago-elongata_05_inat-389842789.jpg)
+*(c) Timothy McNitt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/220202343)*
+
 ## Sources
 
 - Calscape (CNPS) — [Plantago elongata](https://calscape.org/Plantago-elongata-%28Coast-Plantain%29). Structured fields from the

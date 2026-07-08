@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Symphyotrichum chilense",
+  "taxon_id": 56861,
+  "photos_taxon_id": 56861,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 159748973,
+      "license": "cc-by",
+      "attribution": "(c) mushroomshindig, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159748973/large.jpg",
+      "observation_id": 96177745,
+      "observation_url": "https://www.inaturalist.org/observations/96177745",
+      "observed_on": "2021-09-25",
+      "place_guess": "Salinas River National Wildlife Refuge, Moss Landing, CA, US",
+      "user_login": "mushroomshindig",
+      "filename": "symphyotrichum-chilense_01_inat-159748973.jpg"
+    },
+    {
+      "photo_id": 317255313,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317255313/large.jpg",
+      "observation_id": 182004928,
+      "observation_url": "https://www.inaturalist.org/observations/182004928",
+      "observed_on": "2023-09-05",
+      "place_guess": "Marin Headlands, Sausalito, CA, US",
+      "user_login": "aparrot1",
+      "filename": "symphyotrichum-chilense_02_inat-317255313.jpg"
+    },
+    {
+      "photo_id": 323754416,
+      "license": "cc-by",
+      "attribution": "(c) Alex, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323754416/large.jpeg",
+      "observation_id": 185379011,
+      "observation_url": "https://www.inaturalist.org/observations/185379011",
+      "observed_on": "2023-09-28",
+      "place_guess": "Sonoma County, CA, USA",
+      "user_login": "arlenedevitt",
+      "filename": "symphyotrichum-chilense_03_inat-323754416.jpeg"
+    },
+    {
+      "photo_id": 159749019,
+      "license": "cc-by",
+      "attribution": "(c) mushroomshindig, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159749019/large.jpg",
+      "observation_id": 96177745,
+      "observation_url": "https://www.inaturalist.org/observations/96177745",
+      "observed_on": "2021-09-25",
+      "place_guess": "Salinas River National Wildlife Refuge, Moss Landing, CA, US",
+      "user_login": "mushroomshindig",
+      "filename": "symphyotrichum-chilense_04_inat-159749019.jpg"
+    },
+    {
+      "photo_id": 159749002,
+      "license": "cc-by",
+      "attribution": "(c) mushroomshindig, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159749002/large.jpg",
+      "observation_id": 96177745,
+      "observation_url": "https://www.inaturalist.org/observations/96177745",
+      "observed_on": "2021-09-25",
+      "place_guess": "Salinas River National Wildlife Refuge, Moss Landing, CA, US",
+      "user_login": "mushroomshindig",
+      "filename": "symphyotrichum-chilense_05_inat-159749002.jpg"
+    }
+  ]
+}

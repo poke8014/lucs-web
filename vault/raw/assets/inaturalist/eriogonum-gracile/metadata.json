@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Eriogonum gracile",
+  "taxon_id": 59238,
+  "photos_taxon_id": 59238,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 589536313,
+      "license": "cc-by",
+      "attribution": "(c) klicklo, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589536313/large.jpg",
+      "observation_id": 325595622,
+      "observation_url": "https://www.inaturalist.org/observations/325595622",
+      "observed_on": "2025-11-08",
+      "place_guess": "Simi Valley, CA, US",
+      "user_login": "klicklo",
+      "filename": "eriogonum-gracile_01_inat-589536313.jpg"
+    },
+    {
+      "photo_id": 424674758,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424674758/large.jpeg",
+      "observation_id": 238530168,
+      "observation_url": "https://www.inaturalist.org/observations/238530168",
+      "observed_on": "2024-08-28",
+      "place_guess": "Orange, CA, USA",
+      "user_login": "aaronddhh",
+      "filename": "eriogonum-gracile_02_inat-424674758.jpeg"
+    },
+    {
+      "photo_id": 563824101,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/563824101/large.jpg",
+      "observation_id": 312294985,
+      "observation_url": "https://www.inaturalist.org/observations/312294985",
+      "observed_on": "2025-09-07",
+      "place_guess": "Lake Forest, CA 92610, USA",
+      "user_login": "jrcowles",
+      "filename": "eriogonum-gracile_03_inat-563824101.jpg"
+    },
+    {
+      "photo_id": 8658875,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8658875/large.jpg",
+      "observation_id": 6805336,
+      "observation_url": "https://www.inaturalist.org/observations/6805336",
+      "observed_on": "2017-06-20",
+      "place_guess": "28162\u201328206 Commerce Center Dr, Castaic, CA, US",
+      "user_login": "serpophaga",
+      "filename": "eriogonum-gracile_04_inat-8658875.jpg"
+    },
+    {
+      "photo_id": 568485343,
+      "license": "cc-by",
+      "attribution": "(c) jayjt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568485343/large.jpg",
+      "observation_id": 314733765,
+      "observation_url": "https://www.inaturalist.org/observations/314733765",
+      "observed_on": "2025-09-17",
+      "place_guess": "J6V9+38, Livermore, CA 94550, USA",
+      "user_login": "jayjt",
+      "filename": "eriogonum-gracile_05_inat-568485343.jpg"
+    }
+  ]
+}

@@ -85,6 +85,25 @@ Aesculus californica (California Buckeye) is a California-native tree of Woodlan
 - **Site type:** Dry slopes, canyons or stream edges, most often in the Coast Ranges or Sierra foothills.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/aesculus-californica/aesculus-californica_01_inat-114753318.jpg)
+*(c) Isaac Krone, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/70571035)*
+
+![](../raw/assets/inaturalist/aesculus-californica/aesculus-californica_02_inat-282114026.jpeg)
+*(c) Garth Harwood, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/163129889)*
+
+![](../raw/assets/inaturalist/aesculus-californica/aesculus-californica_03_inat-292786730.jpg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/168910713)*
+
+![](../raw/assets/inaturalist/aesculus-californica/aesculus-californica_04_inat-360645695.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/204068586)*
+
+![](../raw/assets/inaturalist/aesculus-californica/aesculus-californica_05_inat-45485813.jpg)
+*(c) stephen, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/29152270)*
+
 ## Sources
 
 - Calscape (CNPS) — [Aesculus californica](https://calscape.org/Aesculus-californica-%28California-Buckeye%29). Structured fields from the
