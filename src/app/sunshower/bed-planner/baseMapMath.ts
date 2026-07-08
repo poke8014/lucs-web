@@ -3,7 +3,7 @@
 // feet-space geometry the GardenPlan contract expects.
 
 import type { Cardinal } from '../site-inventory/types'
-import type { Point, Polygon } from './types'
+import type { Obstruction, Point, Polygon } from './types'
 
 // ── Scale calibration (image on-ramp) ───────────────────────────────────────
 // The user draws a line over a feature of known real length (a fence panel, a
@@ -48,6 +48,24 @@ export function heightFtToStory(heightFt: number | undefined): StoryPreset | nul
   if (heightFt === STORY_HEIGHT_FT[1]) return 1
   if (heightFt === STORY_HEIGHT_FT[2]) return 2
   return null
+}
+
+// ── Default obstruction heights (all kinds) ─────────────────────────────────
+// The shade timelapse skips any obstruction with heightFt <= 0 — a heightless
+// trace silently casts nothing, which reads as "the timelapse is broken." So
+// every kind with a sensible typical height starts with one; the obstruction
+// list offers the free override. Rough but honest, like the story presets:
+// a yard tree canopy ≈ 20 ft, a standard privacy fence ≈ 6 ft. `other` has no
+// honest guess (boulder? shed? play structure?) and starts unset.
+
+const DEFAULT_HEIGHT_FT: Partial<Record<Obstruction['kind'], number>> = {
+  building: STORY_HEIGHT_FT[1],
+  tree: 20,
+  fence: 6,
+}
+
+export function defaultObstructionHeightFt(kind: Obstruction['kind']): number | undefined {
+  return DEFAULT_HEIGHT_FT[kind]
 }
 
 // ── North bearing seed (from SiteProfile.aspect) ────────────────────────────

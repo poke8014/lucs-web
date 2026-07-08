@@ -5,6 +5,7 @@ import { loadProfile } from '../site-inventory/profile'
 import CanvasStage, { useStage } from './CanvasStage'
 import { importAddress } from './addressImport'
 import {
+  defaultObstructionHeightFt,
   heightFtToStory,
   northBearingFromAspect,
   rectangleBoundary,
@@ -84,14 +85,15 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
     if (tool === 'boundary') {
       patchBaseMap({ boundary: points })
     } else {
+      // Every kind starts at its typical height (the shade timelapse skips
+      // heightless obstructions); the user tunes it in the list below. Trees
+      // carry the deciduous flag so winter shade behaves.
+      const heightFt = defaultObstructionHeightFt(obstructionKind)
       const next: Obstruction = {
         id: newId(),
         kind: obstructionKind,
         footprint: points,
-        // Buildings start at a one-story guess (the shade timelapse will want a
-        // height); the user tunes it in the list below. Trees carry the
-        // deciduous flag so winter shade behaves.
-        ...(obstructionKind === 'building' ? { heightFt: storyToHeightFt(1) } : {}),
+        ...(heightFt !== undefined ? { heightFt } : {}),
         ...(obstructionKind === 'tree' ? { deciduous: false } : {}),
       }
       patchBaseMap({ obstructions: [...baseMap.obstructions, next] })
@@ -809,7 +811,7 @@ function ObstructionList({
             <span className="font-medium capitalize text-[#2a1d10]">
               {o.kind} {i + 1}
             </span>
-            {o.kind === 'building' && <BuildingHeightControl obstruction={o} onUpdate={(p) => update(o.id, p)} />}
+            <ObstructionHeightControl obstruction={o} onUpdate={(p) => update(o.id, p)} />
             {o.kind === 'tree' && (
               <label className="flex items-center gap-1.5 text-[#2a1d10]/80">
                 <input
@@ -835,7 +837,12 @@ function ObstructionList({
   )
 }
 
-function BuildingHeightControl({
+/**
+ * Height editor for every obstruction kind — the shade timelapse extrudes
+ * whatever height is set here, so fences and tree canopies need it as much as
+ * the house. Buildings additionally get the story presets.
+ */
+function ObstructionHeightControl({
   obstruction,
   onUpdate,
 }: {
@@ -845,16 +852,17 @@ function BuildingHeightControl({
   const activeStory = heightFtToStory(obstruction.heightFt)
   return (
     <span className="flex flex-wrap items-center gap-1.5">
-      {([1, 2] as StoryPreset[]).map((s) => (
-        <Pill
-          key={s}
-          small
-          active={activeStory === s}
-          onClick={() => onUpdate({ heightFt: storyToHeightFt(s) })}
-        >
-          {s}-story
-        </Pill>
-      ))}
+      {obstruction.kind === 'building' &&
+        ([1, 2] as StoryPreset[]).map((s) => (
+          <Pill
+            key={s}
+            small
+            active={activeStory === s}
+            onClick={() => onUpdate({ heightFt: storyToHeightFt(s) })}
+          >
+            {s}-story
+          </Pill>
+        ))}
       <input
         type="number"
         min={0}

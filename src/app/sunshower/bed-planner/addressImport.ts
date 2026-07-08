@@ -14,7 +14,7 @@
 // didn't explicitly initiate, and no key/env var is required.
 
 import type { Obstruction, Polygon } from './types'
-import { boundingBox, latLngRingToFeet, type LatLng } from './baseMapMath'
+import { boundingBox, defaultObstructionHeightFt, latLngRingToFeet, type LatLng } from './baseMapMath'
 import { newId } from './plan'
 
 export interface AddressImportSuccess {
@@ -110,10 +110,13 @@ export async function importAddress(
     { x: bbox.widthFt + PAD_FT, y: bbox.heightFt + PAD_FT },
     { x: -PAD_FT, y: bbox.heightFt + PAD_FT },
   ]
+  // Same one-story starting height as a hand-traced building — without it the
+  // shade timelapse would skip these (it extrudes heightFt and drops <= 0).
   const obstructions: Obstruction[] = feetRings.map((footprint) => ({
     id: newId(),
     kind: 'building',
     footprint,
+    heightFt: defaultObstructionHeightFt('building'),
   }))
 
   return {

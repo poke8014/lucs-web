@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import {
   boundingBox,
+  defaultObstructionHeightFt,
   heightFtToStory,
   latLngRingToFeet,
   lineLengthPx,
@@ -40,6 +41,20 @@ describe('story presets', () => {
     expect(heightFtToStory(22)).toBe(2)
     expect(heightFtToStory(15)).toBeNull() // free override — no preset echo
     expect(heightFtToStory(undefined)).toBeNull()
+  })
+})
+
+describe('defaultObstructionHeightFt', () => {
+  it('gives every shade-relevant kind a positive starting height', () => {
+    // The shade timelapse drops heightFt <= 0 — a heightless default means the
+    // obstruction silently never casts, which reads as a broken timelapse.
+    expect(defaultObstructionHeightFt('building')).toBe(storyToHeightFt(1))
+    expect(defaultObstructionHeightFt('tree')).toBeGreaterThan(0)
+    expect(defaultObstructionHeightFt('fence')).toBeGreaterThan(0)
+  })
+
+  it('leaves `other` unset — no honest guess exists', () => {
+    expect(defaultObstructionHeightFt('other')).toBeUndefined()
   })
 })
 
