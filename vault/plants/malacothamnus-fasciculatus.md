@@ -85,6 +85,25 @@ Malacothamnus fasciculatus (Chaparral Mallow) is a California-native shrub of Ch
 - **Site type:** Varied, but often found on slopes or canyons from the coast to well inland. Especially common after fire.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/malacothamnus-fasciculatus/malacothamnus-fasciculatus_01_inat-392507957.jpg)
+*(c) klicklo, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/221633034)*
+
+![](../raw/assets/inaturalist/malacothamnus-fasciculatus/malacothamnus-fasciculatus_02_inat-204676442.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/120979966)*
+
+![](../raw/assets/inaturalist/malacothamnus-fasciculatus/malacothamnus-fasciculatus_03_inat-11640370.jpg)
+*(c) Carly Slawson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/8686019)*
+
+![](../raw/assets/inaturalist/malacothamnus-fasciculatus/malacothamnus-fasciculatus_04_inat-8000354.jpeg)
+*(c) Zack Abbey, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/6348110)*
+
+![](../raw/assets/inaturalist/malacothamnus-fasciculatus/malacothamnus-fasciculatus_05_inat-9473179.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/7316313)*
+
 ## Sources
 
 - Calscape (CNPS) — [Malacothamnus fasciculatus](https://calscape.org/Malacothamnus-fasciculatus-%28Chaparral-Mallow%29). Structured fields from the

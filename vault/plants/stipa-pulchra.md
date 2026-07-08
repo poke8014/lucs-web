@@ -85,6 +85,25 @@ Stipa pulchra (Purple Needlegrass) is a California-native grass of Chaparral, Co
 - **Site type:** Found in many settings, including valley grasslands, openings in chaparral and coastal sage scrub, understory of oak woodlands, on coastal prairie as well as coastal bluffs, terraces, mesas, inland canyons, valleys, foothills, dry meadows, and elsewhere.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/stipa-pulchra/stipa-pulchra_01_inat-275233889.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/159307538)*
+
+![](../raw/assets/inaturalist/stipa-pulchra/stipa-pulchra_02_inat-39160406.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/25293369)*
+
+![](../raw/assets/inaturalist/stipa-pulchra/stipa-pulchra_03_inat-66389468.jpeg)
+*(c) Barbara Banfield, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/41839203)*
+
+![](../raw/assets/inaturalist/stipa-pulchra/stipa-pulchra_04_inat-275233926.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/159307538)*
+
+![](../raw/assets/inaturalist/stipa-pulchra/stipa-pulchra_05_inat-275233966.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/159307538)*
+
 ## Sources
 
 - Calscape (CNPS) — [Stipa pulchra](https://calscape.org/Stipa-pulchra-%28Purple-Needlegrass%29). Structured fields from the

@@ -77,6 +77,25 @@ Juglans hindsii (Northern California Black Walnut) is a California-native tree o
 - **Rarity:** Rare
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/juglans-hindsii/juglans-hindsii_01_inat-35205372.jpg)
+*(c) Daniel Levitis, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/22715157)*
+
+![](../raw/assets/inaturalist/juglans-hindsii/juglans-hindsii_02_inat-35205465.jpg)
+*(c) Daniel Levitis, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/22715157)*
+
+![](../raw/assets/inaturalist/juglans-hindsii/juglans-hindsii_04_inat-319206876.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/183011160)*
+
+![](../raw/assets/inaturalist/juglans-hindsii/juglans-hindsii_05_inat-295031643.jpeg)
+*(c) Mary K. Hanson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/170130005)*
+
+![](../raw/assets/inaturalist/juglans-hindsii/juglans-hindsii_05_inat-498257069.jpg)
+*(c) jayjt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/277492708)*
+
 ## Sources
 
 - Calscape (CNPS) — [Juglans hindsii](https://calscape.org/Juglans-hindsii-%28Northern-California-Black-Walnut%29). Structured fields from the

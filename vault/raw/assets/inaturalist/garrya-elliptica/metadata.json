@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Garrya elliptica",
+  "taxon_id": 53399,
+  "photos_taxon_id": 53399,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 921728,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/921728/large.jpg",
+      "observation_id": 733493,
+      "observation_url": "https://www.inaturalist.org/observations/733493",
+      "observed_on": "2014-06-06",
+      "place_guess": "Landels-Hill Big Creek Reserve, Monterey, UC Natural Reserve System, California, United States",
+      "user_login": "kueda",
+      "filename": "garrya-elliptica_01_inat-921728.jpg"
+    },
+    {
+      "photo_id": 343898922,
+      "license": "cc-by",
+      "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343898922/large.jpg",
+      "observation_id": 195474468,
+      "observation_url": "https://www.inaturalist.org/observations/195474468",
+      "observed_on": "2023-12-31",
+      "place_guess": "Edde Ct, Marina, CA, US",
+      "user_login": "hkibak",
+      "filename": "garrya-elliptica_02_inat-343898922.jpg"
+    },
+    {
+      "photo_id": 921734,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/921734/large.jpg",
+      "observation_id": 733493,
+      "observation_url": "https://www.inaturalist.org/observations/733493",
+      "observed_on": "2014-06-06",
+      "place_guess": "Landels-Hill Big Creek Reserve, Monterey, UC Natural Reserve System, California, United States",
+      "user_login": "kueda",
+      "filename": "garrya-elliptica_03_inat-921734.jpg"
+    },
+    {
+      "photo_id": 343898954,
+      "license": "cc-by",
+      "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343898954/large.jpg",
+      "observation_id": 195474468,
+      "observation_url": "https://www.inaturalist.org/observations/195474468",
+      "observed_on": "2023-12-31",
+      "place_guess": "Edde Ct, Marina, CA, US",
+      "user_login": "hkibak",
+      "filename": "garrya-elliptica_04_inat-343898954.jpg"
+    },
+    {
+      "photo_id": 343898991,
+      "license": "cc-by",
+      "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343898991/large.jpg",
+      "observation_id": 195474468,
+      "observation_url": "https://www.inaturalist.org/observations/195474468",
+      "observed_on": "2023-12-31",
+      "place_guess": "Edde Ct, Marina, CA, US",
+      "user_login": "hkibak",
+      "filename": "garrya-elliptica_05_inat-343898991.jpg"
+    }
+  ]
+}

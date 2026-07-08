@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Lasthenia glabrata ssp. glabrata",
+  "taxon_id": 64193,
+  "photos_taxon_id": 64193,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 276482323,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482323/large.jpeg",
+      "observation_id": 160016673,
+      "observation_url": "https://www.inaturalist.org/observations/160016673",
+      "observed_on": "2023-05-05",
+      "place_guess": "Yorba Linda, CA, USA",
+      "user_login": "aaronddhh",
+      "filename": "lasthenia-glabrata-ssp-glabrata_01_inat-276482323.jpeg"
+    },
+    {
+      "photo_id": 276482369,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482369/large.jpeg",
+      "observation_id": 160016673,
+      "observation_url": "https://www.inaturalist.org/observations/160016673",
+      "observed_on": "2023-05-05",
+      "place_guess": "Yorba Linda, CA, USA",
+      "user_login": "aaronddhh",
+      "filename": "lasthenia-glabrata-ssp-glabrata_02_inat-276482369.jpeg"
+    },
+    {
+      "photo_id": 276482382,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482382/large.jpeg",
+      "observation_id": 160016673,
+      "observation_url": "https://www.inaturalist.org/observations/160016673",
+      "observed_on": "2023-05-05",
+      "place_guess": "Yorba Linda, CA, USA",
+      "user_login": "aaronddhh",
+      "filename": "lasthenia-glabrata-ssp-glabrata_03_inat-276482382.jpeg"
+    },
+    {
+      "photo_id": 276482305,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482305/large.jpeg",
+      "observation_id": 160016673,
+      "observation_url": "https://www.inaturalist.org/observations/160016673",
+      "observed_on": "2023-05-05",
+      "place_guess": "Yorba Linda, CA, USA",
+      "user_login": "aaronddhh",
+      "filename": "lasthenia-glabrata-ssp-glabrata_04_inat-276482305.jpeg"
+    },
+    {
+      "photo_id": 276482291,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482291/large.jpeg",
+      "observation_id": 160016673,
+      "observation_url": "https://www.inaturalist.org/observations/160016673",
+      "observed_on": "2023-05-05",
+      "place_guess": "Yorba Linda, CA, USA",
+      "user_login": "aaronddhh",
+      "filename": "lasthenia-glabrata-ssp-glabrata_05_inat-276482291.jpeg"
+    }
+  ]
+}

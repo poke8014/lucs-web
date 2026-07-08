@@ -80,6 +80,25 @@ Juncus bufonius (Toad Rush) is a California-native grass of Wetland/Riparian. Ca
 - **Site type:** Pond margins, streams, ditches, and other wet places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/juncus-bufonius/juncus-bufonius_01_inat-132007133.jpg)
+*(c) Josh, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/80550310)*
+
+![](../raw/assets/inaturalist/juncus-bufonius/juncus-bufonius_02_inat-277700272.jpg)
+*(c) Pinnacles National Park, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/160695375)*
+
+![](../raw/assets/inaturalist/juncus-bufonius/juncus-bufonius_03_inat-396712528.jpg)
+*(c) Ryan Sorrells, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/223875354)*
+
+![](../raw/assets/inaturalist/juncus-bufonius/juncus-bufonius_04_inat-610305526.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/335900208)*
+
+![](../raw/assets/inaturalist/juncus-bufonius/juncus-bufonius_05_inat-439279360.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/246100499)*
+
 ## Sources
 
 - Calscape (CNPS) — [Juncus bufonius](https://calscape.org/Juncus-bufonius-%28Toad-Rush%29). Structured fields from the

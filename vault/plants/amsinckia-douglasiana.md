@@ -64,6 +64,25 @@ Amsinckia douglasiana (Douglas' Fiddleneck) is a California-native annual of Cal
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/amsinckia-douglasiana/amsinckia-douglasiana_01_inat-263330359.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/152535114)*
+
+![](../raw/assets/inaturalist/amsinckia-douglasiana/amsinckia-douglasiana_02_inat-184760175.jpeg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/109607393)*
+
+![](../raw/assets/inaturalist/amsinckia-douglasiana/amsinckia-douglasiana_03_inat-263330364.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/152535114)*
+
+![](../raw/assets/inaturalist/amsinckia-douglasiana/amsinckia-douglasiana_04_inat-263330131.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/152535114)*
+
+![](../raw/assets/inaturalist/amsinckia-douglasiana/amsinckia-douglasiana_05_inat-263329690.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/152535114)*
+
 ## Sources
 
 - Calscape (CNPS) — [Amsinckia douglasiana](https://calscape.org/Amsinckia-douglasiana-%28Douglas%27-Fiddleneck%29). Structured fields from the

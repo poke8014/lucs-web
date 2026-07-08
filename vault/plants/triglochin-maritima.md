@@ -75,6 +75,25 @@ Triglochin maritima (Arrowgrass) is a California-native perennial of Wetland/Rip
 - **Rarity:** Uncommon
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/triglochin-maritima/triglochin-maritima_01_inat-292585724.jpeg)
+*(c) Tom Norton, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/168798793)*
+
+![](../raw/assets/inaturalist/triglochin-maritima/triglochin-maritima_02_inat-138242052.jpeg)
+*(c) Jes Gray, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/84130744)*
+
+![](../raw/assets/inaturalist/triglochin-maritima/triglochin-maritima_03_inat-507926257.jpg)
+*(c) Ryan McMinds, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/282704527)*
+
+![](../raw/assets/inaturalist/triglochin-maritima/triglochin-maritima_04_inat-75905082.jpeg)
+*(c) Alexander Dubynin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/47865123)*
+
+![](../raw/assets/inaturalist/triglochin-maritima/triglochin-maritima_05_inat-96854541.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/60564619)*
+
 ## Sources
 
 - Calscape (CNPS) — [Triglochin maritima](https://calscape.org/Triglochin-maritima-%28Arrowgrass%29). Structured fields from the

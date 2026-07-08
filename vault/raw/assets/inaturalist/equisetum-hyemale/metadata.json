@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Equisetum hyemale",
+  "taxon_id": 52673,
+  "photos_taxon_id": 52673,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 59558022,
+      "license": "cc-by",
+      "attribution": "(c) Sara Patton, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59558022/large.jpg",
+      "observation_id": 37555243,
+      "observation_url": "https://www.inaturalist.org/observations/37555243",
+      "observed_on": "2020-01-12",
+      "place_guess": "Hamley Run Rd, Athens, OH, US",
+      "user_login": "ra_",
+      "filename": "equisetum-hyemale_01_inat-59558022.jpg"
+    },
+    {
+      "photo_id": 616383113,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616383113/large.jpg",
+      "observation_id": 338894132,
+      "observation_url": "https://www.inaturalist.org/observations/338894132",
+      "observed_on": "2026-02-16",
+      "place_guess": "Trail 5, Vincennes, IN, US",
+      "user_login": "kent_ozment",
+      "filename": "equisetum-hyemale_02_inat-616383113.jpg"
+    },
+    {
+      "photo_id": 63471197,
+      "license": "cc-by",
+      "attribution": "(c) Andreas Stiller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63471197/large.jpg",
+      "observation_id": 39970765,
+      "observation_url": "https://www.inaturalist.org/observations/39970765",
+      "observed_on": "2020-03-14",
+      "place_guess": "Weyarn, Germany",
+      "user_login": "astmuc",
+      "filename": "equisetum-hyemale_03_inat-63471197.jpg"
+    },
+    {
+      "photo_id": 116490369,
+      "license": "cc-by",
+      "attribution": "(c) Jiri Klimes, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116490369/large.png",
+      "observation_id": 71539730,
+      "observation_url": "https://www.inaturalist.org/observations/71539730",
+      "observed_on": "2021-03-12",
+      "place_guess": "Prague 12, Czechia",
+      "user_login": "jiriklimes",
+      "filename": "equisetum-hyemale_04_inat-116490369.png"
+    },
+    {
+      "photo_id": 109477048,
+      "license": "cc-by",
+      "attribution": "(c) Scott Pruitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109477048/large.jpeg",
+      "observation_id": 67714890,
+      "observation_url": "https://www.inaturalist.org/observations/67714890",
+      "observed_on": "2021-01-07",
+      "place_guess": "Ridge Rd, Troy, MO, US",
+      "user_login": "scottpruitt68",
+      "filename": "equisetum-hyemale_05_inat-109477048.jpeg"
+    }
+  ]
+}

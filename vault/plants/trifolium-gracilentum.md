@@ -72,6 +72,25 @@ Trifolium gracilentum (Pinpoint Clover) is a California-native annual of Chaparr
 - **Site type:** Moist grassy places and other wet places
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/trifolium-gracilentum/trifolium-gracilentum_01_inat-190776341.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/112926557)*
+
+![](../raw/assets/inaturalist/trifolium-gracilentum/trifolium-gracilentum_02_inat-211615571.jpeg)
+*(c) Konshau Duman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/124825427)*
+
+![](../raw/assets/inaturalist/trifolium-gracilentum/trifolium-gracilentum_03_inat-36797415.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/23785791)*
+
+![](../raw/assets/inaturalist/trifolium-gracilentum/trifolium-gracilentum_04_inat-190776874.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/112926557)*
+
+![](../raw/assets/inaturalist/trifolium-gracilentum/trifolium-gracilentum_05_inat-190776895.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/112926557)*
+
 ## Sources
 
 - Calscape (CNPS) — [Trifolium gracilentum](https://calscape.org/Trifolium-gracilentum-%28Pinpoint-Clover%29). Structured fields from the

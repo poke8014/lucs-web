@@ -86,6 +86,25 @@ Melica imperfecta (Small Flowered Melica) is a California-native grass of Chapar
 - **Site type:** Dry rocky and/or sandy hillsides, canyons and mesas of central and southern California, extending into the desert edge. Found with Chaparral, coastal sage scrub, and various woodland types
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/melica-imperfecta/melica-imperfecta_01_inat-375545625.jpg)
+*(c) mel letterman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/212509945)*
+
+![](../raw/assets/inaturalist/melica-imperfecta/melica-imperfecta_02_inat-17391193.jpeg)
+*(c) Sula Vanderplank, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/12123584)*
+
+![](../raw/assets/inaturalist/melica-imperfecta/melica-imperfecta_03_inat-504378764.jpg)
+*(c) Melanie J. Davis, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/280810112)*
+
+![](../raw/assets/inaturalist/melica-imperfecta/melica-imperfecta_04_inat-514261661.jpg)
+*(c) Amy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/286085456)*
+
+![](../raw/assets/inaturalist/melica-imperfecta/melica-imperfecta_05_inat-259920945.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/150708840)*
+
 ## Sources
 
 - Calscape (CNPS) — [Melica imperfecta](https://calscape.org/Melica-imperfecta-%28Small-Flowered-Melica%29). Structured fields from the

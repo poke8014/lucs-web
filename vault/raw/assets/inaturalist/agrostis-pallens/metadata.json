@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Agrostis pallens",
+  "taxon_id": 52692,
+  "photos_taxon_id": 52692,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 102764008,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102764008/large.jpeg",
+      "observation_id": 63973020,
+      "observation_url": "https://www.inaturalist.org/observations/63973020",
+      "observed_on": "2020-10-31",
+      "place_guess": "Capital, CA-BC, CA",
+      "user_login": "shanebustapbj",
+      "filename": "agrostis-pallens_01_inat-102764008.jpeg"
+    },
+    {
+      "photo_id": 102764089,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102764089/large.jpeg",
+      "observation_id": 63973020,
+      "observation_url": "https://www.inaturalist.org/observations/63973020",
+      "observed_on": "2020-10-31",
+      "place_guess": "Capital, CA-BC, CA",
+      "user_login": "shanebustapbj",
+      "filename": "agrostis-pallens_02_inat-102764089.jpeg"
+    },
+    {
+      "photo_id": 102764132,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102764132/large.jpeg",
+      "observation_id": 63973020,
+      "observation_url": "https://www.inaturalist.org/observations/63973020",
+      "observed_on": "2020-10-31",
+      "place_guess": "Capital, CA-BC, CA",
+      "user_login": "shanebustapbj",
+      "filename": "agrostis-pallens_03_inat-102764132.jpeg"
+    },
+    {
+      "photo_id": 76749400,
+      "license": "cc-by",
+      "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76749400/large.jpeg",
+      "observation_id": 48373423,
+      "observation_url": "https://www.inaturalist.org/observations/48373423",
+      "observed_on": "2020-06-03",
+      "place_guess": "Mission Trails Regional Park, San Diego, CA, USA",
+      "user_login": "milliebasden",
+      "filename": "agrostis-pallens_04_inat-76749400.jpeg"
+    },
+    {
+      "photo_id": 123647930,
+      "license": "cc-by",
+      "attribution": "(c) Peter Brastow, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/123647930/large.jpeg",
+      "observation_id": 75567697,
+      "observation_url": "https://www.inaturalist.org/observations/75567697",
+      "observed_on": "2021-04-28",
+      "place_guess": "Treasure Island, San Francisco, CA, USA",
+      "user_login": "pbrastow",
+      "filename": "agrostis-pallens_05_inat-123647930.jpeg"
+    }
+  ]
+}

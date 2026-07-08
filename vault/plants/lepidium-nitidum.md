@@ -70,6 +70,25 @@ Lepidium nitidum (Peppergrass) is a California-native annual of Chaparral, Coast
 - **Plant communities:** Chaparral, Coastal Sage Scrub, Creosote Bush Scrub, Valley Grassland, Wetland-Riparian
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/lepidium-nitidum/lepidium-nitidum_01_inat-119932166.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73459649)*
+
+![](../raw/assets/inaturalist/lepidium-nitidum/lepidium-nitidum_02_inat-264375356.jpg)
+*(c) Tim Messick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/153097504)*
+
+![](../raw/assets/inaturalist/lepidium-nitidum/lepidium-nitidum_03_inat-119915700.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73451614)*
+
+![](../raw/assets/inaturalist/lepidium-nitidum/lepidium-nitidum_04_inat-178857375.jpg)
+*(c) Elliot Greiner, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/106468519)*
+
+![](../raw/assets/inaturalist/lepidium-nitidum/lepidium-nitidum_05_inat-264375433.jpg)
+*(c) Tim Messick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/153097504)*
+
 ## Sources
 
 - Calscape (CNPS) — [Lepidium nitidum](https://calscape.org/Lepidium-nitidum-%28Peppergrass%29). Structured fields from the

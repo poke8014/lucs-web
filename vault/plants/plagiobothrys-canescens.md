@@ -65,6 +65,25 @@ Plagiobothrys canescens (Valley Popcornflower) is a California-native annual of 
 - **Plant communities:** Coastal Sage Scrub, Foothill Woodland, Valley Grassland
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/plagiobothrys-canescens/plagiobothrys-canescens_01_inat-261956240.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/151792806)*
+
+![](../raw/assets/inaturalist/plagiobothrys-canescens/plagiobothrys-canescens_02_inat-3287815.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/2878949)*
+
+![](../raw/assets/inaturalist/plagiobothrys-canescens/plagiobothrys-canescens_03_inat-363952989.jpg)
+*(c) Kyle Elshoff, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/205810873)*
+
+![](../raw/assets/inaturalist/plagiobothrys-canescens/plagiobothrys-canescens_04_inat-282693261.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/163443284)*
+
+![](../raw/assets/inaturalist/plagiobothrys-canescens/plagiobothrys-canescens_05_inat-114327703.jpg)
+*(c) graham_coop, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/70337743)*
+
 ## Sources
 
 - Calscape (CNPS) — [Plagiobothrys canescens](https://calscape.org/Plagiobothrys-canescens-%28Valley-Popcornflower%29). Structured fields from the

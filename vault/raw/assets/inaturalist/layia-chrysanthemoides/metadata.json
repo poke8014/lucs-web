@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Layia chrysanthemoides",
+  "taxon_id": 60139,
+  "photos_taxon_id": 60139,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 269913448,
+      "license": "cc-by",
+      "attribution": "(c) Mary K. Hanson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269913448/large.jpg",
+      "observation_id": 156118497,
+      "observation_url": "https://www.inaturalist.org/observations/156118497",
+      "observed_on": "2023-04-21",
+      "place_guess": "Bear Valley Road",
+      "user_login": "simpylmare55",
+      "filename": "layia-chrysanthemoides_01_inat-269913448.jpg"
+    },
+    {
+      "photo_id": 484645994,
+      "license": "cc-by",
+      "attribution": "(c) graham_coop, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484645994/large.jpg",
+      "observation_id": 269541144,
+      "observation_url": "https://www.inaturalist.org/observations/269541144",
+      "observed_on": "2025-04-09",
+      "place_guess": "Colusa County, US-CA, US",
+      "user_login": "graham_coop",
+      "filename": "layia-chrysanthemoides_02_inat-484645994.jpg"
+    },
+    {
+      "photo_id": 201094142,
+      "license": "cc-by",
+      "attribution": "(c) Arvel Hernandez, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201094142/large.jpeg",
+      "observation_id": 119091679,
+      "observation_url": "https://www.inaturalist.org/observations/119091679",
+      "observed_on": "2022-05-25",
+      "place_guess": "Glenn, Mendocino National Forest, California, United States",
+      "user_login": "arvel",
+      "filename": "layia-chrysanthemoides_03_inat-201094142.jpeg"
+    },
+    {
+      "photo_id": 188412790,
+      "license": "cc-by",
+      "attribution": "(c) Alex, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/188412790/large.jpeg",
+      "observation_id": 111602492,
+      "observation_url": "https://www.inaturalist.org/observations/111602492",
+      "observed_on": "2022-04-15",
+      "place_guess": "Sonoma County, CA, USA",
+      "user_login": "arlenedevitt",
+      "filename": "layia-chrysanthemoides_04_inat-188412790.jpeg"
+    },
+    {
+      "photo_id": 191396820,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/191396820/large.jpeg",
+      "observation_id": 113274345,
+      "observation_url": "https://www.inaturalist.org/observations/113274345",
+      "observed_on": "2022-04-26",
+      "place_guess": "Bear Valley Road, Colusa County, CA, USA",
+      "user_login": "cnpsstevew",
+      "filename": "layia-chrysanthemoides_05_inat-191396820.jpeg"
+    }
+  ]
+}

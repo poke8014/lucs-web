@@ -86,6 +86,25 @@ Eschscholzia californica (California Poppy) is a California-native perennial of 
 - **Site type:** open, grassy places.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/eschscholzia-californica/eschscholzia-californica_01_inat-181928247.jpg)
+*(c) Annette Herz, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/108094155)*
+
+![](../raw/assets/inaturalist/eschscholzia-californica/eschscholzia-californica_02_inat-46560845.jpeg)
+*(c) Amy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/29821696)*
+
+![](../raw/assets/inaturalist/eschscholzia-californica/eschscholzia-californica_03_inat-210736423.jpeg)
+*(c) gabbieb, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/124335987)*
+
+![](../raw/assets/inaturalist/eschscholzia-californica/eschscholzia-californica_04_inat-541949962.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/300779554)*
+
+![](../raw/assets/inaturalist/eschscholzia-californica/eschscholzia-californica_05_inat-4449874.jpg)
+*(c) Jon Sullivan, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/3808013)*
+
 ## Sources
 
 - Calscape (CNPS) — [Eschscholzia californica](https://calscape.org/Eschscholzia-californica-%28California-Poppy%29). Structured fields from the

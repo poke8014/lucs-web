@@ -66,6 +66,25 @@ Trifolium barbigerum (Bearded Clover) is a California-native annual of Forest, G
 - **Plant communities:** Closed-cone Pine Forest, Coastal Prairie, Mixed Evergreen Forest, Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/trifolium-barbigerum/trifolium-barbigerum_01_inat-443653424.jpeg)
+*(c) Cayman Lanzone, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/248313306)*
+
+![](../raw/assets/inaturalist/trifolium-barbigerum/trifolium-barbigerum_02_inat-278595393.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/161186952)*
+
+![](../raw/assets/inaturalist/trifolium-barbigerum/trifolium-barbigerum_03_inat-443655034.jpeg)
+*(c) Cayman Lanzone, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/248313306)*
+
+![](../raw/assets/inaturalist/trifolium-barbigerum/trifolium-barbigerum_04_inat-443655084.jpeg)
+*(c) Cayman Lanzone, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/248313306)*
+
+![](../raw/assets/inaturalist/trifolium-barbigerum/trifolium-barbigerum_05_inat-443655121.jpeg)
+*(c) Cayman Lanzone, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/248313306)*
+
 ## Sources
 
 - Calscape (CNPS) — [Trifolium barbigerum](https://calscape.org/Trifolium-barbigerum-%28Bearded-Clover%29). Structured fields from the

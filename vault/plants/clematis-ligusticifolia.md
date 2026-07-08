@@ -85,6 +85,25 @@ Clematis ligusticifolia (Virgin's Bower) is a California-native vine of Chaparra
 - **Site type:** Stream Edges, wet places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/clematis-ligusticifolia/clematis-ligusticifolia_01_inat-87330101.jpg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/54869160)*
+
+![](../raw/assets/inaturalist/clematis-ligusticifolia/clematis-ligusticifolia_02_inat-96373576.jpg)
+*(c) Cody Stricker, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/60279673)*
+
+![](../raw/assets/inaturalist/clematis-ligusticifolia/clematis-ligusticifolia_03_inat-106791759.jpg)
+*(c) Peter L Achuff, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/66269742)*
+
+![](../raw/assets/inaturalist/clematis-ligusticifolia/clematis-ligusticifolia_04_inat-110110118.jpg)
+*(c) John Brew, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/68056807)*
+
+![](../raw/assets/inaturalist/clematis-ligusticifolia/clematis-ligusticifolia_05_inat-293776191.jpg)
+*(c) jjfeiler, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/169449002)*
+
 ## Sources
 
 - Calscape (CNPS) — [Clematis ligusticifolia](https://calscape.org/Clematis-ligusticifolia-%28Virgin%27s-Bower%29). Structured fields from the

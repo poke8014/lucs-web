@@ -59,6 +59,25 @@ Micropus californicus (Q-tips) is a California-native annual of Chaparral, Fores
 - **Plant communities:** Chaparral, Foothill Woodland, Valley Grassland, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/micropus-californicus/micropus-californicus_01_inat-16519243.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/11515673)*
+
+![](../raw/assets/inaturalist/micropus-californicus/micropus-californicus_02_inat-75113634.jpeg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/47360157)*
+
+![](../raw/assets/inaturalist/micropus-californicus/micropus-californicus_03_inat-75113653.jpeg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/47360157)*
+
+![](../raw/assets/inaturalist/micropus-californicus/micropus-californicus_04_inat-75113685.jpeg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/47360157)*
+
+![](../raw/assets/inaturalist/micropus-californicus/micropus-californicus_05_inat-503950669.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/280584845)*
+
 ## Sources
 
 - Calscape (CNPS) — [Micropus californicus](https://calscape.org/Micropus-californicus-%28Q-tips%29). Structured fields from the

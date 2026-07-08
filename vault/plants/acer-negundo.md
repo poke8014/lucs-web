@@ -84,6 +84,25 @@ Acer negundo (Box Elder) is a California-native tree of Chaparral, Forest, Grass
 - **Cold hardiness:** Tolerates cold to -15° F
 - **Site type:** River/stream edges and wet places in coastal mountains and the central valley, usually as part of a woodland or forest complex
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/acer-negundo/acer-negundo_01_inat-30907600.jpg)
+*(c) Jody Shugart, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/20022859)*
+
+![](../raw/assets/inaturalist/acer-negundo/acer-negundo_02_inat-38627351.jpg)
+*(c) naturalist charlie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/24967541)*
+
+![](../raw/assets/inaturalist/acer-negundo/acer-negundo_03_inat-6433477.jpg)
+*(c) Alice Shanks, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5209990)*
+
+![](../raw/assets/inaturalist/acer-negundo/acer-negundo_04_inat-81034772.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/51016213)*
+
+![](../raw/assets/inaturalist/acer-negundo/acer-negundo_05_inat-207922999.jpg)
+*(c) Евгений Егорейченков, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/122780506)*
+
 ## Sources
 
 - Calscape (CNPS) — [Acer negundo](https://calscape.org/Acer-negundo-%28Box-Elder%29). Structured fields from the

@@ -64,6 +64,25 @@ Leptosiphon parviflorus (Variable Linanthus) is a California-native annual of Ca
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/leptosiphon-parviflorus/leptosiphon-parviflorus_01_inat-267213506.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/154642401)*
+
+![](../raw/assets/inaturalist/leptosiphon-parviflorus/leptosiphon-parviflorus_02_inat-79403633.jpeg)
+*(c) Henrik Kibak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/50008727)*
+
+![](../raw/assets/inaturalist/leptosiphon-parviflorus/leptosiphon-parviflorus_03_inat-395519793.jpeg)
+*(c) Steve Matson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/223237214)*
+
+![](../raw/assets/inaturalist/leptosiphon-parviflorus/leptosiphon-parviflorus_04_inat-655215144.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/359129616)*
+
+![](../raw/assets/inaturalist/leptosiphon-parviflorus/leptosiphon-parviflorus_05_inat-267213524.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/154642401)*
+
 ## Sources
 
 - Calscape (CNPS) — [Leptosiphon parviflorus](https://calscape.org/Leptosiphon-parviflorus-%28Variable-Linanthus%29). Structured fields from the

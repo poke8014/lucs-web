@@ -85,6 +85,25 @@ Ceanothus oliganthus (Hairy Ceanothus) is a California-native shrub of Chaparral
 - **Site type:** Rocky, dry slopes below 4,500 ft. most often along the coastal side of the mountains, frequently on north facing aspect, from Humboldt County to San Diego
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus/ceanothus-oliganthus_01_inat-75666393.jpeg)
+*(c) Erin Lalime, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/47701131)*
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus/ceanothus-oliganthus_02_inat-117395681.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/72050042)*
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus/ceanothus-oliganthus_03_inat-770403.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/611062)*
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus/ceanothus-oliganthus_04_inat-21306662.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/14339250)*
+
+![](../raw/assets/inaturalist/ceanothus-oliganthus/ceanothus-oliganthus_05_inat-261668953.jpeg)
+*(c) Quinn Shemet, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/151638527)*
+
 ## Sources
 
 - Calscape (CNPS) — [Ceanothus oliganthus](https://calscape.org/Ceanothus-oliganthus-%28Hairy-Ceanothus%29). Structured fields from the

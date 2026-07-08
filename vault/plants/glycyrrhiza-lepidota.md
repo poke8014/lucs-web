@@ -78,6 +78,25 @@ Glycyrrhiza lepidota (Wild Licorice) is a California-native perennial of Chaparr
 - **Site type:** Moist, open places, disturbed places
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/glycyrrhiza-lepidota/glycyrrhiza-lepidota_01_inat-213947334.jpg)
+*(c) Dustin Snider, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/126116397)*
+
+![](../raw/assets/inaturalist/glycyrrhiza-lepidota/glycyrrhiza-lepidota_02_inat-10090321.jpg)
+*(c) zookanthos, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/7698151)*
+
+![](../raw/assets/inaturalist/glycyrrhiza-lepidota/glycyrrhiza-lepidota_03_inat-421946305.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/237117081)*
+
+![](../raw/assets/inaturalist/glycyrrhiza-lepidota/glycyrrhiza-lepidota_04_inat-81296543.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/51178092)*
+
+![](../raw/assets/inaturalist/glycyrrhiza-lepidota/glycyrrhiza-lepidota_05_inat-456406238.jpg)
+*(c) Jared Lincenberg, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/254764240)*
+
 ## Sources
 
 - Calscape (CNPS) — [Glycyrrhiza lepidota](https://calscape.org/Glycyrrhiza-lepidota-%28Wild-Licorice%29). Structured fields from the

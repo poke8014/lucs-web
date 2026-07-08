@@ -85,6 +85,25 @@ Juglans californica (Southern California Black Walnut) is a California-native tr
 - **Rarity:** Rare
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/juglans-californica/juglans-californica_01_inat-11659146.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/8697332)*
+
+![](../raw/assets/inaturalist/juglans-californica/juglans-californica_02_inat-413277766.jpeg)
+*(c) mel letterman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/232610604)*
+
+![](../raw/assets/inaturalist/juglans-californica/juglans-californica_03_inat-532154101.jpg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/295593223)*
+
+![](../raw/assets/inaturalist/juglans-californica/juglans-californica_04_inat-15025200.jpg)
+*(c) als93, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/10749113)*
+
+![](../raw/assets/inaturalist/juglans-californica/juglans-californica_05_inat-331014197.jpg)
+*(c) Stevie Steele, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/189026748)*
+
 ## Sources
 
 - Calscape (CNPS) — [Juglans californica](https://calscape.org/Juglans-californica-%28Southern-California-Black-Walnut%29). Structured fields from the

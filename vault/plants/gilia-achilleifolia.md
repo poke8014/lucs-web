@@ -71,6 +71,25 @@ Gilia achilleifolia (California Gilia) is a California-native annual of Chaparra
 - **Plant communities:** Chaparral, Coastal Strand, Foothill Woodland, Mixed Evergreen Forest
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/gilia-achilleifolia/gilia-achilleifolia_01_inat-37987461.jpg)
+*(c) redrovertracy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/24565496)*
+
+![](../raw/assets/inaturalist/gilia-achilleifolia/gilia-achilleifolia_02_inat-35150980.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22685241)*
+
+![](../raw/assets/inaturalist/gilia-achilleifolia/gilia-achilleifolia_03_inat-37987450.jpg)
+*(c) redrovertracy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/24565496)*
+
+![](../raw/assets/inaturalist/gilia-achilleifolia/gilia-achilleifolia_04_inat-37987469.jpg)
+*(c) redrovertracy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/24565496)*
+
+![](../raw/assets/inaturalist/gilia-achilleifolia/gilia-achilleifolia_05_inat-37988098.jpg)
+*(c) redrovertracy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/24565496)*
+
 ## Sources
 
 - Calscape (CNPS) — [Gilia achilleifolia](https://calscape.org/Gilia-achilleifolia-%28California-Gilia%29). Structured fields from the

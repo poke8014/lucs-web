@@ -84,6 +84,25 @@ Cornus glabrata (Brown Dogwood) is a California-native tree of Chaparral, Forest
 - **Site type:** Moist places such as stream banks, often in the shade of larger trees
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cornus-glabrata/cornus-glabrata_01_inat-130462495.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/79641315)*
+
+![](../raw/assets/inaturalist/cornus-glabrata/cornus-glabrata_02_inat-130462511.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/79641315)*
+
+![](../raw/assets/inaturalist/cornus-glabrata/cornus-glabrata_03_inat-130462484.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/79641315)*
+
+![](../raw/assets/inaturalist/cornus-glabrata/cornus-glabrata_04_inat-45348944.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/29067787)*
+
+![](../raw/assets/inaturalist/cornus-glabrata/cornus-glabrata_05_inat-655758942.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/359413156)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cornus glabrata](https://calscape.org/Cornus-glabrata-%28Brown-Dogwood%29). Structured fields from the

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Chenopodium californicum",
+  "taxon_id": 878230,
+  "photos_taxon_id": 878230,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 3321891,
+      "license": "cc-by",
+      "attribution": "(c) Alisa Kim, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3321891/large.jpg",
+      "observation_id": 2903872,
+      "observation_url": "https://www.inaturalist.org/observations/2903872",
+      "observed_on": "2016-04-08",
+      "place_guess": "Sutro Baths, San Francisco, CA, US",
+      "user_login": "alisakim",
+      "filename": "chenopodium-californicum_01_inat-3321891.jpg"
+    },
+    {
+      "photo_id": 3252120,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3252120/large.jpeg",
+      "observation_id": 2851079,
+      "observation_url": "https://www.inaturalist.org/observations/2851079",
+      "observed_on": "2016-03-29",
+      "place_guess": "Monterey County, US-CA, US",
+      "user_login": "kueda",
+      "filename": "chenopodium-californicum_02_inat-3252120.jpeg"
+    },
+    {
+      "photo_id": 262331660,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262331660/large.jpg",
+      "observation_id": 151990217,
+      "observation_url": "https://www.inaturalist.org/observations/151990217",
+      "observed_on": "2023-03-20",
+      "place_guess": "Pinnacles National Park, Paicines, CA, US",
+      "user_login": "aparrot1",
+      "filename": "chenopodium-californicum_03_inat-262331660.jpg"
+    },
+    {
+      "photo_id": 19517108,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/19517108/large.jpg",
+      "observation_id": 13323029,
+      "observation_url": "https://www.inaturalist.org/observations/13323029",
+      "observed_on": "2018-06-10",
+      "place_guess": "1487 Nipomo Ave, Los Osos, CA, US",
+      "user_login": "heymana77",
+      "filename": "chenopodium-californicum_04_inat-19517108.jpg"
+    },
+    {
+      "photo_id": 3321893,
+      "license": "cc-by",
+      "attribution": "(c) Alisa Kim, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3321893/large.jpg",
+      "observation_id": 2903872,
+      "observation_url": "https://www.inaturalist.org/observations/2903872",
+      "observed_on": "2016-04-08",
+      "place_guess": "Sutro Baths, San Francisco, CA, US",
+      "user_login": "alisakim",
+      "filename": "chenopodium-californicum_05_inat-3321893.jpg"
+    }
+  ]
+}

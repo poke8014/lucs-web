@@ -75,6 +75,25 @@ Persicaria punctata (Water Smartweed) is a California-native perennial of Wetlan
 - **Rarity:** Common
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/persicaria-punctata/persicaria-punctata_01_inat-589466400.jpg)
+*(c) Dustin Snider, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/325559621)*
+
+![](../raw/assets/inaturalist/persicaria-punctata/persicaria-punctata_02_inat-566569369.jpg)
+*(c) M. Whitson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/313726049)*
+
+![](../raw/assets/inaturalist/persicaria-punctata/persicaria-punctata_03_inat-6112571.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/5000533)*
+
+![](../raw/assets/inaturalist/persicaria-punctata/persicaria-punctata_04_inat-10546955.jpg)
+*(c) aarongunnar, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/7977647)*
+
+![](../raw/assets/inaturalist/persicaria-punctata/persicaria-punctata_05_inat-79960372.jpg)
+*(c) Alex Abair, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/50357044)*
+
 ## Sources
 
 - Calscape (CNPS) — [Persicaria punctata](https://calscape.org/Persicaria-punctata-%28Water-Smartweed%29-2). Structured fields from the

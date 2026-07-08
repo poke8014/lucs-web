@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Ceanothus papillosus",
+  "taxon_id": 64281,
+  "photos_taxon_id": 64281,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 41186409,
+      "license": "cc-by",
+      "attribution": "(c) katherinef2, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41186409/large.jpg",
+      "observation_id": 26520028,
+      "observation_url": "https://www.inaturalist.org/observations/26520028",
+      "observed_on": "2019-06-04",
+      "place_guess": "Los Padres National Forest, Big Sur, CA, US",
+      "user_login": "katherinef2",
+      "filename": "ceanothus-papillosus_01_inat-41186409.jpg"
+    },
+    {
+      "photo_id": 10859059,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10859059/large.jpg",
+      "observation_id": 8198166,
+      "observation_url": "https://www.inaturalist.org/observations/8198166",
+      "observed_on": "2017-09-30",
+      "place_guess": "Big Basin Redwoods, Big Basin Redwoods State Park, Santa Cruz, California, United States",
+      "user_login": "joergmlpts",
+      "filename": "ceanothus-papillosus_02_inat-10859059.jpg"
+    },
+    {
+      "photo_id": 410363841,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410363841/large.jpeg",
+      "observation_id": 231076605,
+      "observation_url": "https://www.inaturalist.org/observations/231076605",
+      "observed_on": "2024-07-22",
+      "place_guess": "Henry Cowell Redwoods State Park, CA, US",
+      "user_login": "joergmlpts",
+      "filename": "ceanothus-papillosus_03_inat-410363841.jpeg"
+    },
+    {
+      "photo_id": 311437802,
+      "license": "cc-by",
+      "attribution": "(c) Mike Heine, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/311437802/large.jpg",
+      "observation_id": 178928089,
+      "observation_url": "https://www.inaturalist.org/observations/178928089",
+      "observed_on": "2023-08-15",
+      "place_guess": "Los Padres National Forest, Big Sur, CA, US",
+      "user_login": "michaelheine",
+      "filename": "ceanothus-papillosus_04_inat-311437802.jpg"
+    },
+    {
+      "photo_id": 297955724,
+      "license": "cc-by",
+      "attribution": "(c) Jay Paroline, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/297955724/large.jpeg",
+      "observation_id": 171688486,
+      "observation_url": "https://www.inaturalist.org/observations/171688486",
+      "observed_on": "2023-07-07",
+      "place_guess": "Scotts Valley, CA 95060, USA",
+      "user_login": "jayparoline",
+      "filename": "ceanothus-papillosus_05_inat-297955724.jpeg"
+    }
+  ]
+}

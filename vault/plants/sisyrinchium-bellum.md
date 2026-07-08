@@ -86,6 +86,25 @@ Sisyrinchium bellum (Blue-eyed Grass) is a California-native perennial of Chapar
 - **Site type:** Meadows, seasonally moist Grasslands, grassy openings in Chaparral or Coastal Scrub, understory of Yellow Pine Forest and Foothill Woodland, and on the margins of wetland/riparian areas
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/sisyrinchium-bellum/sisyrinchium-bellum_01_inat-194578112.jpg)
+*(c) Henrik Kibak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/115270130)*
+
+![](../raw/assets/inaturalist/sisyrinchium-bellum/sisyrinchium-bellum_02_inat-488544946.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/271591819)*
+
+![](../raw/assets/inaturalist/sisyrinchium-bellum/sisyrinchium-bellum_03_inat-579043486.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/320276057)*
+
+![](../raw/assets/inaturalist/sisyrinchium-bellum/sisyrinchium-bellum_04_inat-199817849.jpg)
+*(c) Daniel Kennedy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/118279140)*
+
+![](../raw/assets/inaturalist/sisyrinchium-bellum/sisyrinchium-bellum_05_inat-268904044.jpg)
+*(c) rappman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/155554950)*
+
 ## Sources
 
 - Calscape (CNPS) — [Sisyrinchium bellum](https://calscape.org/Sisyrinchium-bellum-%28Blue-eyed-Grass%29). Structured fields from the

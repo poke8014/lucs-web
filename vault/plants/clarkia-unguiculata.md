@@ -85,6 +85,25 @@ Clarkia unguiculata (Elegant Clarkia) is a California-native annual of Chaparral
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/clarkia-unguiculata/clarkia-unguiculata_01_inat-132050835.jpg)
+*(c) Don Loarie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/80559288)*
+
+![](../raw/assets/inaturalist/clarkia-unguiculata/clarkia-unguiculata_02_inat-342341152.jpeg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/194714070)*
+
+![](../raw/assets/inaturalist/clarkia-unguiculata/clarkia-unguiculata_03_inat-282943343.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/163581189)*
+
+![](../raw/assets/inaturalist/clarkia-unguiculata/clarkia-unguiculata_04_inat-384648128.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/217427015)*
+
+![](../raw/assets/inaturalist/clarkia-unguiculata/clarkia-unguiculata_05_inat-290726047.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/167798003)*
+
 ## Sources
 
 - Calscape (CNPS) — [Clarkia unguiculata](https://calscape.org/Clarkia-unguiculata-%28Elegant-Clarkia%29). Structured fields from the

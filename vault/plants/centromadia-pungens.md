@@ -72,6 +72,25 @@ Centromadia pungens (Common Spikeweed) is a California-native annual of Grasslan
 - **Site type:** Grassy, wet places, marshes
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/centromadia-pungens/centromadia-pungens_01_inat-619940421.jpg)
+*(c) jayjt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/340644902)*
+
+![](../raw/assets/inaturalist/centromadia-pungens/centromadia-pungens_02_inat-619940450.jpg)
+*(c) jayjt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/340644902)*
+
+![](../raw/assets/inaturalist/centromadia-pungens/centromadia-pungens_03_inat-619940479.jpg)
+*(c) jayjt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/340644902)*
+
+![](../raw/assets/inaturalist/centromadia-pungens/centromadia-pungens_04_inat-480346698.jpeg)
+*(c) Ryan Donnelly, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/267298999)*
+
+![](../raw/assets/inaturalist/centromadia-pungens/centromadia-pungens_05_inat-185100013.jpg)
+*(c) Steve Matson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/109787146)*
+
 ## Sources
 
 - Calscape (CNPS) — [Centromadia pungens](https://calscape.org/Centromadia-pungens-%28Common-Spikeweed%29-2). Structured fields from the

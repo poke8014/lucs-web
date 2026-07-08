@@ -65,6 +65,25 @@ Lepidium oxycarpum (Forked Pepperweed) is a California-native annual of Grasslan
 - **Plant communities:** Coastal Salt Marsh, Valley Grassland, Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/lepidium-oxycarpum/lepidium-oxycarpum_01_inat-389871819.jpg)
+*(c) Timothy McNitt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/220217402)*
+
+![](../raw/assets/inaturalist/lepidium-oxycarpum/lepidium-oxycarpum_02_inat-389850095.jpg)
+*(c) Timothy McNitt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/220206258)*
+
+![](../raw/assets/inaturalist/lepidium-oxycarpum/lepidium-oxycarpum_03_inat-389850169.jpg)
+*(c) Timothy McNitt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/220206258)*
+
+![](../raw/assets/inaturalist/lepidium-oxycarpum/lepidium-oxycarpum_04_inat-389850189.jpg)
+*(c) Timothy McNitt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/220206258)*
+
+![](../raw/assets/inaturalist/lepidium-oxycarpum/lepidium-oxycarpum_05_inat-389850281.jpg)
+*(c) Timothy McNitt, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/220206258)*
+
 ## Sources
 
 - Calscape (CNPS) — [Lepidium oxycarpum](https://calscape.org/Lepidium-oxycarpum-%28Forked-Pepperweed%29). Structured fields from the

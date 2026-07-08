@@ -84,6 +84,25 @@ Garrya elliptica (Coast Silktassel) is a California-native shrub of Chaparral, C
 - **Site type:** Seacliffs, dunes, foothills below 2000 feet, usually close to the coast where it occurs as part of northern chaparral or coastal scrub or in the understory of evergreen forest. Also on Santa Cruz Island.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/garrya-elliptica/garrya-elliptica_01_inat-921728.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/733493)*
+
+![](../raw/assets/inaturalist/garrya-elliptica/garrya-elliptica_02_inat-343898922.jpg)
+*(c) Henrik Kibak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/195474468)*
+
+![](../raw/assets/inaturalist/garrya-elliptica/garrya-elliptica_03_inat-921734.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/733493)*
+
+![](../raw/assets/inaturalist/garrya-elliptica/garrya-elliptica_04_inat-343898954.jpg)
+*(c) Henrik Kibak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/195474468)*
+
+![](../raw/assets/inaturalist/garrya-elliptica/garrya-elliptica_05_inat-343898991.jpg)
+*(c) Henrik Kibak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/195474468)*
+
 ## Sources
 
 - Calscape (CNPS) — [Garrya elliptica](https://calscape.org/Garrya-elliptica-%28Coast-Silktassel%29). Structured fields from the

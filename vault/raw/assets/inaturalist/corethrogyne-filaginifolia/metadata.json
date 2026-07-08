@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Corethrogyne filaginifolia",
+  "taxon_id": 58014,
+  "photos_taxon_id": 58014,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 933748,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/933748/large.jpg",
+      "observation_id": 738892,
+      "observation_url": "https://www.inaturalist.org/observations/738892",
+      "observed_on": "2014-06-15",
+      "place_guess": "Fort Ord Dunes State Park, Monterey County, CA, USA",
+      "user_login": "kueda",
+      "filename": "corethrogyne-filaginifolia_01_inat-933748.jpg"
+    },
+    {
+      "photo_id": 257663867,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257663867/large.jpg",
+      "observation_id": 149521058,
+      "observation_url": "https://www.inaturalist.org/observations/149521058",
+      "observed_on": "2023-02-23",
+      "place_guess": "California Department of Parks and Recreation, Carmel, CA, US",
+      "user_login": "grnleaf",
+      "filename": "corethrogyne-filaginifolia_02_inat-257663867.jpg"
+    },
+    {
+      "photo_id": 9402906,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9402906/large.jpg",
+      "observation_id": 7273316,
+      "observation_url": "https://www.inaturalist.org/observations/7273316",
+      "observed_on": "2017-07-29",
+      "place_guess": "San Bernardino County, CA, USA",
+      "user_login": "glmory",
+      "filename": "corethrogyne-filaginifolia_03_inat-9402906.jpg"
+    },
+    {
+      "photo_id": 41588502,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41588502/large.jpeg",
+      "observation_id": 26770688,
+      "observation_url": "https://www.inaturalist.org/observations/26770688",
+      "observed_on": "2019-06-09",
+      "place_guess": "San Luis Obispo County, CA, USA",
+      "user_login": "dkincmbria",
+      "filename": "corethrogyne-filaginifolia_04_inat-41588502.jpeg"
+    },
+    {
+      "photo_id": 350731126,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350731126/large.jpeg",
+      "observation_id": 198937329,
+      "observation_url": "https://www.inaturalist.org/observations/198937329",
+      "observed_on": "2024-02-10",
+      "place_guess": "Anaheim, CA 92807, USA",
+      "user_login": "jrcowles",
+      "filename": "corethrogyne-filaginifolia_05_inat-350731126.jpeg"
+    }
+  ]
+}

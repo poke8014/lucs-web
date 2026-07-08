@@ -86,6 +86,25 @@ Holodiscus discolor (Ocean Spray) is a California-native shrub of Chaparral, For
 - **Site type:** Moist open places, rocky slopes, disturbed sites.
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/holodiscus-discolor/holodiscus-discolor_01_inat-329591270.jpeg)
+*(c) Gavin Slater, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/188329142)*
+
+![](../raw/assets/inaturalist/holodiscus-discolor/holodiscus-discolor_02_inat-8047090.jpg)
+*(c) Don Loarie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/6376284)*
+
+![](../raw/assets/inaturalist/holodiscus-discolor/holodiscus-discolor_03_inat-185053942.jpg)
+*(c) John Powers, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/109763667)*
+
+![](../raw/assets/inaturalist/holodiscus-discolor/holodiscus-discolor_04_inat-134463543.jpg)
+*(c) eebee, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/81955207)*
+
+![](../raw/assets/inaturalist/holodiscus-discolor/holodiscus-discolor_05_inat-438790313.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/245874185)*
+
 ## Sources
 
 - Calscape (CNPS) — [Holodiscus discolor](https://calscape.org/Holodiscus-discolor-%28Ocean-Spray%29). Structured fields from the

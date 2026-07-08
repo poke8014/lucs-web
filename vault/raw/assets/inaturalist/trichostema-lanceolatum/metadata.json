@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Trichostema lanceolatum",
+  "taxon_id": 54875,
+  "photos_taxon_id": 54875,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 56650765,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56650765/large.jpeg",
+      "observation_id": 35888775,
+      "observation_url": "https://www.inaturalist.org/observations/35888775",
+      "observed_on": "2019-07-31",
+      "place_guess": "Lane County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "trichostema-lanceolatum_01_inat-56650765.jpeg"
+    },
+    {
+      "photo_id": 226474001,
+      "license": "cc-by",
+      "attribution": "(c) Justin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226474001/large.jpeg",
+      "observation_id": 132997889,
+      "observation_url": "https://www.inaturalist.org/observations/132997889",
+      "observed_on": "2022-08-27",
+      "place_guess": "Deer Creek Hills Nature Preserve",
+      "user_login": "justin2",
+      "filename": "trichostema-lanceolatum_02_inat-226474001.jpeg"
+    },
+    {
+      "photo_id": 96164164,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96164164/large.jpeg",
+      "observation_id": 60153804,
+      "observation_url": "https://www.inaturalist.org/observations/60153804",
+      "observed_on": "2020-09-19",
+      "place_guess": "Mount Diablo State Park, Contra Costa County, US-CA, US",
+      "user_login": "kueda",
+      "filename": "trichostema-lanceolatum_03_inat-96164164.jpeg"
+    },
+    {
+      "photo_id": 401350024,
+      "license": "cc-by",
+      "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/401350024/large.jpg",
+      "observation_id": 226312131,
+      "observation_url": "https://www.inaturalist.org/observations/226312131",
+      "observed_on": "2024-06-30",
+      "place_guess": "Brea Dam Park, Fullerton, CA, US",
+      "user_login": "salvmell",
+      "filename": "trichostema-lanceolatum_04_inat-401350024.jpg"
+    },
+    {
+      "photo_id": 56650775,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56650775/large.jpeg",
+      "observation_id": 35888775,
+      "observation_url": "https://www.inaturalist.org/observations/35888775",
+      "observed_on": "2019-07-31",
+      "place_guess": "Lane County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "trichostema-lanceolatum_05_inat-56650775.jpeg"
+    }
+  ]
+}

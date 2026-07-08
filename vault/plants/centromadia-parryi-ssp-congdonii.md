@@ -59,6 +59,25 @@ Centromadia parryi ssp. congdonii (Congdon's Tarplant) is a California-native an
 
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/centromadia-parryi-ssp-congdonii/centromadia-parryi-ssp-congdonii_01_inat-153793048.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/92846474)*
+
+![](../raw/assets/inaturalist/centromadia-parryi-ssp-congdonii/centromadia-parryi-ssp-congdonii_02_inat-153793084.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/92846474)*
+
+![](../raw/assets/inaturalist/centromadia-parryi-ssp-congdonii/centromadia-parryi-ssp-congdonii_03_inat-153793111.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/92846474)*
+
+![](../raw/assets/inaturalist/centromadia-parryi-ssp-congdonii/centromadia-parryi-ssp-congdonii_04_inat-153793123.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/92846474)*
+
+![](../raw/assets/inaturalist/centromadia-parryi-ssp-congdonii/centromadia-parryi-ssp-congdonii_05_inat-332373579.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/189693978)*
+
 ## Sources
 
 - Calscape (CNPS) — [Centromadia parryi ssp. congdonii](https://calscape.org/Centromadia-parryi-ssp.-congdonii-%28Congdon%27s-Tarplant%29). Structured fields from the

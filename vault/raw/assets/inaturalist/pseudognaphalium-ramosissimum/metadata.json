@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Pseudognaphalium ramosissimum",
+  "taxon_id": 53088,
+  "photos_taxon_id": 53088,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 9103583,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9103583/large.jpg",
+      "observation_id": 7085837,
+      "observation_url": "https://www.inaturalist.org/observations/7085837",
+      "observed_on": "2017-07-16",
+      "place_guess": "Baker Beach, San Francisco, CA, US",
+      "user_login": "loarie",
+      "filename": "pseudognaphalium-ramosissimum_01_inat-9103583.jpg"
+    },
+    {
+      "photo_id": 154668674,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154668674/large.jpeg",
+      "observation_id": 93327624,
+      "observation_url": "https://www.inaturalist.org/observations/93327624",
+      "observed_on": "2021-09-01",
+      "place_guess": "Point Reyes National Seashore, Marin County, US-CA, US",
+      "user_login": "hllrnnr",
+      "filename": "pseudognaphalium-ramosissimum_02_inat-154668674.jpeg"
+    },
+    {
+      "photo_id": 164338032,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164338032/large.jpg",
+      "observation_id": 98672136,
+      "observation_url": "https://www.inaturalist.org/observations/98672136",
+      "observed_on": "2021-10-18",
+      "place_guess": "Toro County Park, Salinas, CA, US",
+      "user_login": "aparrot1",
+      "filename": "pseudognaphalium-ramosissimum_03_inat-164338032.jpg"
+    },
+    {
+      "photo_id": 46219595,
+      "license": "cc-by",
+      "attribution": "(c) Michael Warner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46219595/large.jpg",
+      "observation_id": 29609476,
+      "observation_url": "https://www.inaturalist.org/observations/29609476",
+      "observed_on": "2019-07-26",
+      "place_guess": "Richmond, CA, USA",
+      "user_login": "ouzel",
+      "filename": "pseudognaphalium-ramosissimum_04_inat-46219595.jpg"
+    },
+    {
+      "photo_id": 107775115,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/107775115/large.jpeg",
+      "observation_id": 66803243,
+      "observation_url": "https://www.inaturalist.org/observations/66803243",
+      "observed_on": "2020-12-19",
+      "place_guess": "Brisbane, CA 94005, USA",
+      "user_login": "rockybajada",
+      "filename": "pseudognaphalium-ramosissimum_05_inat-107775115.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Scirpus microcarpus",
+  "taxon_id": 59068,
+  "photos_taxon_id": 59068,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 519407992,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519407992/large.jpg",
+      "observation_id": 288820176,
+      "observation_url": "https://www.inaturalist.org/observations/288820176",
+      "observed_on": "2025-06-06",
+      "place_guess": "United States",
+      "user_login": "rynxs",
+      "filename": "scirpus-microcarpus_01_inat-519407992.jpg"
+    },
+    {
+      "photo_id": 519408017,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519408017/large.jpg",
+      "observation_id": 288820176,
+      "observation_url": "https://www.inaturalist.org/observations/288820176",
+      "observed_on": "2025-06-06",
+      "place_guess": "United States",
+      "user_login": "rynxs",
+      "filename": "scirpus-microcarpus_02_inat-519408017.jpg"
+    },
+    {
+      "photo_id": 519408040,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519408040/large.jpg",
+      "observation_id": 288820176,
+      "observation_url": "https://www.inaturalist.org/observations/288820176",
+      "observed_on": "2025-06-06",
+      "place_guess": "United States",
+      "user_login": "rynxs",
+      "filename": "scirpus-microcarpus_03_inat-519408040.jpg"
+    },
+    {
+      "photo_id": 519408057,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519408057/large.jpg",
+      "observation_id": 288820176,
+      "observation_url": "https://www.inaturalist.org/observations/288820176",
+      "observed_on": "2025-06-06",
+      "place_guess": "United States",
+      "user_login": "rynxs",
+      "filename": "scirpus-microcarpus_04_inat-519408057.jpg"
+    },
+    {
+      "photo_id": 519408066,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519408066/large.jpg",
+      "observation_id": 288820176,
+      "observation_url": "https://www.inaturalist.org/observations/288820176",
+      "observed_on": "2025-06-06",
+      "place_guess": "United States",
+      "user_login": "rynxs",
+      "filename": "scirpus-microcarpus_05_inat-519408066.jpg"
+    }
+  ]
+}

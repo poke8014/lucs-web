@@ -85,6 +85,25 @@ Phacelia distans (Wild Heliotrope) is a California-native annual of Chaparral, F
 - **Rarity:** Common
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/phacelia-distans/phacelia-distans_01_inat-1611091.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/1284706)*
+
+![](../raw/assets/inaturalist/phacelia-distans/phacelia-distans_02_inat-20985340.jpg)
+*(c) Jim Morefield, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/14158040)*
+
+![](../raw/assets/inaturalist/phacelia-distans/phacelia-distans_03_inat-486955531.jpg)
+*(c) mel letterman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/270750636)*
+
+![](../raw/assets/inaturalist/phacelia-distans/phacelia-distans_04_inat-478960766.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/266562700)*
+
+![](../raw/assets/inaturalist/phacelia-distans/phacelia-distans_05_inat-498323302.jpg)
+*(c) Steve Matson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/277525809)*
+
 ## Sources
 
 - Calscape (CNPS) — [Phacelia distans](https://calscape.org/Phacelia-distans-%28Wild-Heliotrope%29). Structured fields from the

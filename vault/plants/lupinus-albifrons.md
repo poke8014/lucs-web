@@ -85,6 +85,25 @@ Lupinus albifrons (Silver Lupine) is a California-native shrub of Chaparral, Coa
 - **Site type:** Because this species occurs in such diverse parts of the state, it may be found in a number of settings and habitats including chaparral or coastal sage scrub in seaside conditions on coastal terraces, bluffs, canyons or mesas, as well as open areas in coastal or foothill woodlands with evergreen forest
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/lupinus-albifrons/lupinus-albifrons_01_inat-485876493.jpg)
+*(c) klicklo, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/270185523)*
+
+![](../raw/assets/inaturalist/lupinus-albifrons/lupinus-albifrons_02_inat-183928810.jpg)
+*(c) Lightning Star Sky / Skyler Noah Wall, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/109150851)*
+
+![](../raw/assets/inaturalist/lupinus-albifrons/lupinus-albifrons_03_inat-150124874.jpg)
+*(c) Jay Brasher, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/90815426)*
+
+![](../raw/assets/inaturalist/lupinus-albifrons/lupinus-albifrons_04_inat-274816694.jpeg)
+*(c) George Williams, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/159063870)*
+
+![](../raw/assets/inaturalist/lupinus-albifrons/lupinus-albifrons_05_inat-22.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/72)*
+
 ## Sources
 
 - Calscape (CNPS) — [Lupinus albifrons](https://calscape.org/Lupinus-albifrons-%28Silver-Lupine%29). Structured fields from the

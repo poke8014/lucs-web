@@ -82,6 +82,25 @@ Heterotheca grandiflora (Telegraph Weed) is a California-native perennial of Des
 - **Site type:** Disturbed places, dry streams, dunes
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/heterotheca-grandiflora/heterotheca-grandiflora_01_inat-6107438.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/4997075)*
+
+![](../raw/assets/inaturalist/heterotheca-grandiflora/heterotheca-grandiflora_02_inat-242110223.jpeg)
+*(c) Amy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/141339859)*
+
+![](../raw/assets/inaturalist/heterotheca-grandiflora/heterotheca-grandiflora_03_inat-573353358.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/317303599)*
+
+![](../raw/assets/inaturalist/heterotheca-grandiflora/heterotheca-grandiflora_04_inat-428717563.jpeg)
+*(c) Amelia Tauber, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/240623093)*
+
+![](../raw/assets/inaturalist/heterotheca-grandiflora/heterotheca-grandiflora_05_inat-170638166.jpeg)
+*(c) Justin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/102115315)*
+
 ## Sources
 
 - Calscape (CNPS) — [Heterotheca grandiflora](https://calscape.org/Heterotheca-grandiflora-%28Telegraph-Weed%29). Structured fields from the

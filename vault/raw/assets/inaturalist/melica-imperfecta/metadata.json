@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Melica imperfecta",
+  "taxon_id": 52802,
+  "photos_taxon_id": 52802,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 375545625,
+      "license": "cc-by",
+      "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375545625/large.jpg",
+      "observation_id": 212509945,
+      "observation_url": "https://www.inaturalist.org/observations/212509945",
+      "observed_on": "2024-04-29",
+      "place_guess": "Silverado Canyon Rd, Silverado, CA, US",
+      "user_login": "salvmell",
+      "filename": "melica-imperfecta_01_inat-375545625.jpg"
+    },
+    {
+      "photo_id": 17391193,
+      "license": "cc-by",
+      "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17391193/large.jpeg",
+      "observation_id": 12123584,
+      "observation_url": "https://www.inaturalist.org/observations/12123584",
+      "observed_on": "2018-04-21",
+      "place_guess": "Tijuana River Valley, San Diego, CA, USA",
+      "user_login": "sulavanderplank",
+      "filename": "melica-imperfecta_02_inat-17391193.jpeg"
+    },
+    {
+      "photo_id": 504378764,
+      "license": "cc-by",
+      "attribution": "(c) Melanie J. Davis, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504378764/large.jpg",
+      "observation_id": 280810112,
+      "observation_url": "https://www.inaturalist.org/observations/280810112",
+      "observed_on": "2025-04-25",
+      "place_guess": "CA, US",
+      "user_login": "meljean",
+      "filename": "melica-imperfecta_03_inat-504378764.jpg"
+    },
+    {
+      "photo_id": 514261661,
+      "license": "cc-by",
+      "attribution": "(c) Amy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/514261661/large.jpg",
+      "observation_id": 286085456,
+      "observation_url": "https://www.inaturalist.org/observations/286085456",
+      "observed_on": "2025-06-01",
+      "place_guess": "Orange County, CA, USA",
+      "user_login": "arboretum_amy",
+      "filename": "melica-imperfecta_04_inat-514261661.jpg"
+    },
+    {
+      "photo_id": 259920945,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259920945/large.jpeg",
+      "observation_id": 150708840,
+      "observation_url": "https://www.inaturalist.org/observations/150708840",
+      "observed_on": "2023-03-09",
+      "place_guess": "Orange, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "melica-imperfecta_05_inat-259920945.jpeg"
+    }
+  ]
+}

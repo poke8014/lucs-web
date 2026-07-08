@@ -60,6 +60,25 @@ Centromadia pungens ssp. pungens (Common Spikeweed) is a California-native annua
 - **Plant communities:** Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/centromadia-pungens-ssp-pungens/centromadia-pungens-ssp-pungens_01_inat-185100013.jpg)
+*(c) Steve Matson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/109787146)*
+
+![](../raw/assets/inaturalist/centromadia-pungens-ssp-pungens/centromadia-pungens-ssp-pungens_02_inat-269106675.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/155671602)*
+
+![](../raw/assets/inaturalist/centromadia-pungens-ssp-pungens/centromadia-pungens-ssp-pungens_03_inat-95664839.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/59851242)*
+
+![](../raw/assets/inaturalist/centromadia-pungens-ssp-pungens/centromadia-pungens-ssp-pungens_04_inat-158237280.jpg)
+*(c) crothfels, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/95325229)*
+
+![](../raw/assets/inaturalist/centromadia-pungens-ssp-pungens/centromadia-pungens-ssp-pungens_05_inat-419460434.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/235829644)*
+
 ## Sources
 
 - Calscape (CNPS) — [Centromadia pungens ssp. pungens](https://calscape.org/Centromadia-pungens-ssp.-pungens-%28Common-Spikeweed%29). Structured fields from the

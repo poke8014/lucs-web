@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Heterotheca oregona",
+  "taxon_id": 77396,
+  "photos_taxon_id": 77396,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 56735926,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56735926/large.jpg",
+      "observation_id": 35937876,
+      "observation_url": "https://www.inaturalist.org/observations/35937876",
+      "observed_on": "2013-08-19",
+      "place_guess": "Benton County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "heterotheca-oregona_01_inat-56735926.jpg"
+    },
+    {
+      "photo_id": 56735930,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56735930/large.jpg",
+      "observation_id": 35937876,
+      "observation_url": "https://www.inaturalist.org/observations/35937876",
+      "observed_on": "2013-08-19",
+      "place_guess": "Benton County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "heterotheca-oregona_02_inat-56735930.jpg"
+    },
+    {
+      "photo_id": 56735946,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56735946/large.jpg",
+      "observation_id": 35937876,
+      "observation_url": "https://www.inaturalist.org/observations/35937876",
+      "observed_on": "2013-08-19",
+      "place_guess": "Benton County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "heterotheca-oregona_03_inat-56735946.jpg"
+    },
+    {
+      "photo_id": 568485252,
+      "license": "cc-by",
+      "attribution": "(c) jayjt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/568485252/large.jpg",
+      "observation_id": 314733720,
+      "observation_url": "https://www.inaturalist.org/observations/314733720",
+      "observed_on": "2025-09-17",
+      "place_guess": "J6V9+38, Livermore, CA 94550, USA",
+      "user_login": "jayjt",
+      "filename": "heterotheca-oregona_04_inat-568485252.jpg"
+    },
+    {
+      "photo_id": 335251326,
+      "license": "cc-by",
+      "attribution": "(c) Amelia Tauber, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335251326/large.jpg",
+      "observation_id": 191144232,
+      "observation_url": "https://www.inaturalist.org/observations/191144232",
+      "observed_on": "2023-11-15",
+      "place_guess": "American River Parkway - River Bend Park, Rancho Cordova, CA, US",
+      "user_login": "antrozousamelia",
+      "filename": "heterotheca-oregona_05_inat-335251326.jpg"
+    }
+  ]
+}

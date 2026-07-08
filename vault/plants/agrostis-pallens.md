@@ -85,6 +85,25 @@ Agrostis pallens (Thingrass) is a California-native grass of Chaparral, Coastal 
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/agrostis-pallens/agrostis-pallens_01_inat-102764008.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/63973020)*
+
+![](../raw/assets/inaturalist/agrostis-pallens/agrostis-pallens_02_inat-102764089.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/63973020)*
+
+![](../raw/assets/inaturalist/agrostis-pallens/agrostis-pallens_03_inat-102764132.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/63973020)*
+
+![](../raw/assets/inaturalist/agrostis-pallens/agrostis-pallens_04_inat-76749400.jpeg)
+*(c) Millie Basden, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/48373423)*
+
+![](../raw/assets/inaturalist/agrostis-pallens/agrostis-pallens_05_inat-123647930.jpeg)
+*(c) Peter Brastow, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/75567697)*
+
 ## Sources
 
 - Calscape (CNPS) — [Agrostis pallens](https://calscape.org/Agrostis-pallens-%28Thingrass%29). Structured fields from the

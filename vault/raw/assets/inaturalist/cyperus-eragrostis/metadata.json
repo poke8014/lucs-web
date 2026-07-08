@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Cyperus eragrostis",
+  "taxon_id": 59055,
+  "photos_taxon_id": 59055,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 88480133,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88480133/large.jpg",
+      "observation_id": 55560869,
+      "observation_url": "https://www.inaturalist.org/observations/55560869",
+      "observed_on": "2020-08-05",
+      "place_guess": "Pelican Hill Golf Club, Newport Beach, CA, US",
+      "user_login": "common_snowball",
+      "filename": "cyperus-eragrostis_01_inat-88480133.jpg"
+    },
+    {
+      "photo_id": 584132770,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584132770/large.jpg",
+      "observation_id": 322860450,
+      "observation_url": "https://www.inaturalist.org/observations/322860450",
+      "observed_on": "2025-10-23",
+      "place_guess": "3000-009 Coimbra (S\u00e9 Nova), Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "cyperus-eragrostis_02_inat-584132770.jpg"
+    },
+    {
+      "photo_id": 30216153,
+      "license": "cc-by",
+      "attribution": "(c) Terra Occ, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30216153/large.jpeg",
+      "observation_id": 19624881,
+      "observation_url": "https://www.inaturalist.org/observations/19624881",
+      "observed_on": "2019-01-12",
+      "place_guess": "Cobbledicks",
+      "user_login": "cygnusa",
+      "filename": "cyperus-eragrostis_03_inat-30216153.jpeg"
+    },
+    {
+      "photo_id": 320958317,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/320958317/large.jpg",
+      "observation_id": 183923124,
+      "observation_url": "https://www.inaturalist.org/observations/183923124",
+      "observed_on": "2023-09-18",
+      "place_guess": "Aquatic Park Trail, Berkeley, CA, US",
+      "user_login": "lexosceles",
+      "filename": "cyperus-eragrostis_04_inat-320958317.jpg"
+    },
+    {
+      "photo_id": 50959239,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50959239/large.jpg",
+      "observation_id": 32488439,
+      "observation_url": "https://www.inaturalist.org/observations/32488439",
+      "observed_on": "2019-09-09",
+      "place_guess": "Gibelorratzagako San Pelaio Auzoa, Bakio, Basque Country, ES",
+      "user_login": "al_kordesch",
+      "filename": "cyperus-eragrostis_05_inat-50959239.jpg"
+    }
+  ]
+}

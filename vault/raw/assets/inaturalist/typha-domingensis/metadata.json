@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Typha domingensis",
+  "taxon_id": 58392,
+  "photos_taxon_id": 58392,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 327430549,
+      "license": "cc-by",
+      "attribution": "(c) Lightning Star Sky / Skyler Noah Wall, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327430549/large.jpeg",
+      "observation_id": 187255982,
+      "observation_url": "https://www.inaturalist.org/observations/187255982",
+      "observed_on": "2023-10-11",
+      "place_guess": "Santa Clarita, CA 91321, USA",
+      "user_login": "lightningstarsky",
+      "filename": "typha-domingensis_01_inat-327430549.jpeg"
+    },
+    {
+      "photo_id": 92725062,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92725062/large.jpeg",
+      "observation_id": 58098828,
+      "observation_url": "https://www.inaturalist.org/observations/58098828",
+      "observed_on": "2020-08-30",
+      "place_guess": "Bethany, OK 73008, USA",
+      "user_login": "rbelshee",
+      "filename": "typha-domingensis_02_inat-92725062.jpeg"
+    },
+    {
+      "photo_id": 465184753,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465184753/large.jpg",
+      "observation_id": 259175377,
+      "observation_url": "https://www.inaturalist.org/observations/259175377",
+      "observed_on": "2025-01-17",
+      "place_guess": "Sand to Snow National Monument, Whitewater, CA, US",
+      "user_login": "aparrot1",
+      "filename": "typha-domingensis_03_inat-465184753.jpg"
+    },
+    {
+      "photo_id": 176409132,
+      "license": "cc-by",
+      "attribution": "(c) ritirene, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/176409132/large.jpeg",
+      "observation_id": 105175416,
+      "observation_url": "https://www.inaturalist.org/observations/105175416",
+      "observed_on": "2022-01-17",
+      "place_guess": "Puerto Rico",
+      "user_login": "ritirene",
+      "filename": "typha-domingensis_04_inat-176409132.jpeg"
+    },
+    {
+      "photo_id": 10758073,
+      "license": "cc-by",
+      "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10758073/large.jpg",
+      "observation_id": 8108908,
+      "observation_url": "https://www.inaturalist.org/observations/8108908",
+      "observed_on": "2017-09-26",
+      "place_guess": "Borrego Springs Resort and Country Club, Borrego Springs, CA, US",
+      "user_login": "thunefeld",
+      "filename": "typha-domingensis_05_inat-10758073.jpg"
+    }
+  ]
+}

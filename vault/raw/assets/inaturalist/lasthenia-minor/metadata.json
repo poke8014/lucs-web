@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Lasthenia minor",
+  "taxon_id": 58002,
+  "photos_taxon_id": 58002,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 276049447,
+      "license": "cc-by",
+      "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276049447/large.jpeg",
+      "observation_id": 159767943,
+      "observation_url": "https://www.inaturalist.org/observations/159767943",
+      "observed_on": "2023-05-04",
+      "place_guess": "Half Moon Bay, CA, USA",
+      "user_login": "chilipossum",
+      "filename": "lasthenia-minor_01_inat-276049447.jpeg"
+    },
+    {
+      "photo_id": 279623785,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279623785/large.jpg",
+      "observation_id": 161756289,
+      "observation_url": "https://www.inaturalist.org/observations/161756289",
+      "observed_on": "2023-05-14",
+      "place_guess": "Pescadero Marsh Natural Preserve, Pescadero, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "lasthenia-minor_02_inat-279623785.jpg"
+    },
+    {
+      "photo_id": 273850379,
+      "license": "cc-by",
+      "attribution": "(c) Mike Heine, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273850379/large.jpg",
+      "observation_id": 158454620,
+      "observation_url": "https://www.inaturalist.org/observations/158454620",
+      "observed_on": "2023-04-30",
+      "place_guess": "Bean Hollow State Beach, Pescadero, CA, US",
+      "user_login": "michaelheine",
+      "filename": "lasthenia-minor_03_inat-273850379.jpg"
+    },
+    {
+      "photo_id": 256888320,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256888320/large.jpeg",
+      "observation_id": 149110632,
+      "observation_url": "https://www.inaturalist.org/observations/149110632",
+      "observed_on": "2022-02-05",
+      "place_guess": "Point Reyes National Seashore, Marin, California, United States",
+      "user_login": "marcus_t",
+      "filename": "lasthenia-minor_04_inat-256888320.jpeg"
+    },
+    {
+      "photo_id": 64924404,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64924404/large.jpeg",
+      "observation_id": 40948465,
+      "observation_url": "https://www.inaturalist.org/observations/40948465",
+      "observed_on": "2020-03-26",
+      "place_guess": "Cayucos, CA 93430, USA",
+      "user_login": "heymana77",
+      "filename": "lasthenia-minor_05_inat-64924404.jpeg"
+    }
+  ]
+}

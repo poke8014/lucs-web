@@ -82,6 +82,25 @@ Nemophila menziesii (Baby Blue Eyes) is a California-native annual of Chaparral,
 - **Site type:** Meadows, grassy places and canyons
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/nemophila-menziesii/nemophila-menziesii_01_inat-622621893.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/341956658)*
+
+![](../raw/assets/inaturalist/nemophila-menziesii/nemophila-menziesii_02_inat-183037900.jpg)
+*(c) Justin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/108685205)*
+
+![](../raw/assets/inaturalist/nemophila-menziesii/nemophila-menziesii_03_inat-376247437.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/212820590)*
+
+![](../raw/assets/inaturalist/nemophila-menziesii/nemophila-menziesii_04_inat-62136919.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/39187396)*
+
+![](../raw/assets/inaturalist/nemophila-menziesii/nemophila-menziesii_05_inat-3004076.jpg)
+*(c) Don Loarie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/2674477)*
+
 ## Sources
 
 - Calscape (CNPS) — [Nemophila menziesii](https://calscape.org/Nemophila-menziesii-%28Baby-Blue-Eyes%29). Structured fields from the

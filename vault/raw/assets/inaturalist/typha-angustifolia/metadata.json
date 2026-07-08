@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Typha angustifolia",
+  "taxon_id": 60316,
+  "photos_taxon_id": 60316,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 23005028,
+      "license": "cc-by",
+      "attribution": "(c) stinger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23005028/large.jpg",
+      "observation_id": 15355374,
+      "observation_url": "https://www.inaturalist.org/observations/15355374",
+      "observed_on": "2016-07-14",
+      "place_guess": "Tompkins County, NY, USA",
+      "user_login": "stinger",
+      "filename": "typha-angustifolia_01_inat-23005028.jpg"
+    },
+    {
+      "photo_id": 80459056,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80459056/large.jpeg",
+      "observation_id": 50662896,
+      "observation_url": "https://www.inaturalist.org/observations/50662896",
+      "observed_on": "2020-06-11",
+      "place_guess": "\u53f0\u7063\u9ad8\u96c4\u5e02",
+      "user_login": "leaf0605",
+      "filename": "typha-angustifolia_02_inat-80459056.jpeg"
+    },
+    {
+      "photo_id": 227625716,
+      "license": "cc-by",
+      "attribution": "(c) Thomas Ebner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227625716/large.jpeg",
+      "observation_id": 133620538,
+      "observation_url": "https://www.inaturalist.org/observations/133620538",
+      "observed_on": "2022-09-04",
+      "place_guess": "5202 Neumarkt am Wallersee, \u00d6sterreich",
+      "user_login": "mondseeirrsee",
+      "filename": "typha-angustifolia_03_inat-227625716.jpeg"
+    },
+    {
+      "photo_id": 350208079,
+      "license": "cc-by",
+      "attribution": "(c) Olena V. Vakarenko, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/350208079/large.jpeg",
+      "observation_id": 198667793,
+      "observation_url": "https://www.inaturalist.org/observations/198667793",
+      "observed_on": "2023-10-13",
+      "place_guess": "\u0412\u0438\u0440\u043b\u0438\u0446\u044f, \u041a\u0438\u0457\u0432, \u0423\u043a\u0440\u0430\u0457\u043d\u0430, 02000",
+      "user_login": "olenavakarenko",
+      "filename": "typha-angustifolia_04_inat-350208079.jpeg"
+    },
+    {
+      "photo_id": 99727256,
+      "license": "cc-by",
+      "attribution": "(c) Cheryl McCleary-Catalano, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99727256/large.jpeg",
+      "observation_id": 62258567,
+      "observation_url": "https://www.inaturalist.org/observations/62258567",
+      "observed_on": "2020-10-09",
+      "place_guess": "3785 Weld County Road 24, 5, Longmont, CO 80504, USA",
+      "user_login": "akacook",
+      "filename": "typha-angustifolia_05_inat-99727256.jpeg"
+    }
+  ]
+}

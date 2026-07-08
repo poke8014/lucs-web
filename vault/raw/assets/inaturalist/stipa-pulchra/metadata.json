@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Stipa pulchra",
+  "taxon_id": 165659,
+  "photos_taxon_id": 165659,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 275233889,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275233889/large.jpg",
+      "observation_id": 159307538,
+      "observation_url": "https://www.inaturalist.org/observations/159307538",
+      "observed_on": "2023-05-02",
+      "place_guess": "Hungry Valley State Vehicular Recreation Area, Lebec, CA, US",
+      "user_login": "grnleaf",
+      "filename": "stipa-pulchra_01_inat-275233889.jpg"
+    },
+    {
+      "photo_id": 39160406,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39160406/large.jpeg",
+      "observation_id": 25293369,
+      "observation_url": "https://www.inaturalist.org/observations/25293369",
+      "observed_on": "2019-05-17",
+      "place_guess": "Castro Valley, CA 94546, USA",
+      "user_login": "kueda",
+      "filename": "stipa-pulchra_02_inat-39160406.jpeg"
+    },
+    {
+      "photo_id": 66389468,
+      "license": "cc-by",
+      "attribution": "(c) Barbara Banfield, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66389468/large.jpeg",
+      "observation_id": 41839203,
+      "observation_url": "https://www.inaturalist.org/observations/41839203",
+      "observed_on": "2020-04-06",
+      "place_guess": "Santa Cruz, CA, USA",
+      "user_login": "barbarab",
+      "filename": "stipa-pulchra_03_inat-66389468.jpeg"
+    },
+    {
+      "photo_id": 275233926,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275233926/large.jpg",
+      "observation_id": 159307538,
+      "observation_url": "https://www.inaturalist.org/observations/159307538",
+      "observed_on": "2023-05-02",
+      "place_guess": "Hungry Valley State Vehicular Recreation Area, Lebec, CA, US",
+      "user_login": "grnleaf",
+      "filename": "stipa-pulchra_04_inat-275233926.jpg"
+    },
+    {
+      "photo_id": 275233966,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275233966/large.jpg",
+      "observation_id": 159307538,
+      "observation_url": "https://www.inaturalist.org/observations/159307538",
+      "observed_on": "2023-05-02",
+      "place_guess": "Hungry Valley State Vehicular Recreation Area, Lebec, CA, US",
+      "user_login": "grnleaf",
+      "filename": "stipa-pulchra_05_inat-275233966.jpg"
+    }
+  ]
+}

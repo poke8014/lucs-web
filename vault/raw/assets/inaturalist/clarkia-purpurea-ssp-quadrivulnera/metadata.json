@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Clarkia purpurea ssp. quadrivulnera",
+  "taxon_id": 57146,
+  "photos_taxon_id": 57146,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 132281355,
+      "license": "cc-by",
+      "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132281355/large.jpg",
+      "observation_id": 80694653,
+      "observation_url": "https://www.inaturalist.org/observations/80694653",
+      "observed_on": "2021-05-25",
+      "place_guess": "Ensenada, BC , MX",
+      "user_login": "sulavanderplank",
+      "filename": "clarkia-purpurea-ssp-quadrivulnera_01_inat-132281355.jpg"
+    },
+    {
+      "photo_id": 214011128,
+      "license": "cc-by",
+      "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214011128/large.jpeg",
+      "observation_id": 126305732,
+      "observation_url": "https://www.inaturalist.org/observations/126305732",
+      "observed_on": "2022-07-11",
+      "place_guess": "Oak Bay, BC, Canada",
+      "user_login": "chrisfluit",
+      "filename": "clarkia-purpurea-ssp-quadrivulnera_02_inat-214011128.jpeg"
+    },
+    {
+      "photo_id": 214011154,
+      "license": "cc-by",
+      "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214011154/large.jpeg",
+      "observation_id": 126305732,
+      "observation_url": "https://www.inaturalist.org/observations/126305732",
+      "observed_on": "2022-07-11",
+      "place_guess": "Oak Bay, BC, Canada",
+      "user_login": "chrisfluit",
+      "filename": "clarkia-purpurea-ssp-quadrivulnera_03_inat-214011154.jpeg"
+    },
+    {
+      "photo_id": 214011175,
+      "license": "cc-by",
+      "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214011175/large.jpeg",
+      "observation_id": 126305732,
+      "observation_url": "https://www.inaturalist.org/observations/126305732",
+      "observed_on": "2022-07-11",
+      "place_guess": "Oak Bay, BC, Canada",
+      "user_login": "chrisfluit",
+      "filename": "clarkia-purpurea-ssp-quadrivulnera_04_inat-214011175.jpeg"
+    },
+    {
+      "photo_id": 16436008,
+      "license": "cc-by",
+      "attribution": "(c) Amy Huie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16436008/large.jpg",
+      "observation_id": 11514119,
+      "observation_url": "https://www.inaturalist.org/observations/11514119",
+      "observed_on": "2018-04-27",
+      "place_guess": "San Diego National Wildlife Refuge, Spring Valley, CA, US",
+      "user_login": "amyhuie",
+      "filename": "clarkia-purpurea-ssp-quadrivulnera_05_inat-16436008.jpg"
+    }
+  ]
+}

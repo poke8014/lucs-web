@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Malacothamnus arcuatus var. elmeri",
+  "taxon_id": 1497404,
+  "photos_taxon_id": 1497404,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 197947089,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197947089/large.jpg",
+      "observation_id": 117224552,
+      "observation_url": "https://www.inaturalist.org/observations/117224552",
+      "observed_on": "2022-05-15",
+      "place_guess": "Lime Ridge Open Space, Concord, CA, US",
+      "user_login": "yargeritaville",
+      "filename": "malacothamnus-arcuatus-var-elmeri_01_inat-197947089.jpg"
+    },
+    {
+      "photo_id": 197947136,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197947136/large.jpg",
+      "observation_id": 117224552,
+      "observation_url": "https://www.inaturalist.org/observations/117224552",
+      "observed_on": "2022-05-15",
+      "place_guess": "Lime Ridge Open Space, Concord, CA, US",
+      "user_login": "yargeritaville",
+      "filename": "malacothamnus-arcuatus-var-elmeri_02_inat-197947136.jpg"
+    },
+    {
+      "photo_id": 197947172,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197947172/large.jpg",
+      "observation_id": 117224552,
+      "observation_url": "https://www.inaturalist.org/observations/117224552",
+      "observed_on": "2022-05-15",
+      "place_guess": "Lime Ridge Open Space, Concord, CA, US",
+      "user_login": "yargeritaville",
+      "filename": "malacothamnus-arcuatus-var-elmeri_03_inat-197947172.jpg"
+    },
+    {
+      "photo_id": 197947247,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197947247/large.jpg",
+      "observation_id": 117224552,
+      "observation_url": "https://www.inaturalist.org/observations/117224552",
+      "observed_on": "2022-05-15",
+      "place_guess": "Lime Ridge Open Space, Concord, CA, US",
+      "user_login": "yargeritaville",
+      "filename": "malacothamnus-arcuatus-var-elmeri_04_inat-197947247.jpg"
+    },
+    {
+      "photo_id": 293440055,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293440055/large.jpg",
+      "observation_id": 169267971,
+      "observation_url": "https://www.inaturalist.org/observations/169267971",
+      "observed_on": "2023-06-24",
+      "place_guess": "Metcalf Canyon, CA, US",
+      "user_login": "joergmlpts",
+      "filename": "malacothamnus-arcuatus-var-elmeri_05_inat-293440055.jpg"
+    }
+  ]
+}

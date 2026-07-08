@@ -82,6 +82,25 @@ Claytonia perfoliata (Rooreh) is a California-native annual of Chaparral, Coasta
 - **Rarity:** Common
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/claytonia-perfoliata/claytonia-perfoliata_01_inat-38384880.jpeg)
+*(c) larndesolen, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/24818327)*
+
+![](../raw/assets/inaturalist/claytonia-perfoliata/claytonia-perfoliata_02_inat-32950061.jpg)
+*(c) Kristiina Hurme, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/21307530)*
+
+![](../raw/assets/inaturalist/claytonia-perfoliata/claytonia-perfoliata_03_inat-35447522.jpg)
+*(c) Alan Rockefeller, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/22868417)*
+
+![](../raw/assets/inaturalist/claytonia-perfoliata/claytonia-perfoliata_04_inat-41708203.jpeg)
+*(c) Sam Kieschnick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/26844936)*
+
+![](../raw/assets/inaturalist/claytonia-perfoliata/claytonia-perfoliata_05_inat-526582611.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/292606492)*
+
 ## Sources
 
 - Calscape (CNPS) — [Claytonia perfoliata](https://calscape.org/Claytonia-perfoliata-%28Rooreh%29). Structured fields from the

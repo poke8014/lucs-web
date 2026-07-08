@@ -60,6 +60,25 @@ Trifolium depauperatum var. truncatum (Truncate Sack Clover) is a California-nat
 - **Plant communities:** Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-truncatum/trifolium-depauperatum-var-truncatum_01_inat-34879388.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/22513364)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-truncatum/trifolium-depauperatum-var-truncatum_02_inat-361140673.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/204328193)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-truncatum/trifolium-depauperatum-var-truncatum_03_inat-633541879.jpg)
+*(c) Konshau Duman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/347463077)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-truncatum/trifolium-depauperatum-var-truncatum_04_inat-27612.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/14042)*
+
+![](../raw/assets/inaturalist/trifolium-depauperatum-var-truncatum/trifolium-depauperatum-var-truncatum_05_inat-187196009.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/110923993)*
+
 ## Sources
 
 - Calscape (CNPS) — [Trifolium depauperatum var. truncatum](https://calscape.org/Trifolium-depauperatum-var.-truncatum-%28Truncate-Sack-Clover%29). Structured fields from the

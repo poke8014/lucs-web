@@ -65,6 +65,25 @@ Lasthenia minor (Coastal Goldfields) is a California-native annual of Coastal Sc
 - **Plant communities:** Coastal Sage Scrub, Foothill Woodland, Northern Coastal Scrub, Valley Grassland, Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/lasthenia-minor/lasthenia-minor_01_inat-276049447.jpeg)
+*(c) Cricket Raspet, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/159767943)*
+
+![](../raw/assets/inaturalist/lasthenia-minor/lasthenia-minor_02_inat-279623785.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/161756289)*
+
+![](../raw/assets/inaturalist/lasthenia-minor/lasthenia-minor_03_inat-273850379.jpg)
+*(c) Mike Heine, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/158454620)*
+
+![](../raw/assets/inaturalist/lasthenia-minor/lasthenia-minor_04_inat-256888320.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/149110632)*
+
+![](../raw/assets/inaturalist/lasthenia-minor/lasthenia-minor_05_inat-64924404.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/40948465)*
+
 ## Sources
 
 - Calscape (CNPS) — [Lasthenia minor](https://calscape.org/Lasthenia-minor-%28Coastal-Goldfields%29). Structured fields from the

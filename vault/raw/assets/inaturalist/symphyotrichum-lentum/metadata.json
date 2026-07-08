@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Symphyotrichum lentum",
+  "taxon_id": 60130,
+  "photos_taxon_id": 60130,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 220603484,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220603484/large.jpeg",
+      "observation_id": 129781727,
+      "observation_url": "https://www.inaturalist.org/observations/129781727",
+      "observed_on": "2022-08-06",
+      "place_guess": "California, US",
+      "user_login": "kueda",
+      "filename": "symphyotrichum-lentum_01_inat-220603484.jpeg"
+    },
+    {
+      "photo_id": 433203533,
+      "license": "cc-by",
+      "attribution": "(c) Melanie J. Davis, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433203533/large.jpeg",
+      "observation_id": 242973505,
+      "observation_url": "https://www.inaturalist.org/observations/242973505",
+      "observed_on": "2024-09-07",
+      "place_guess": "California, US",
+      "user_login": "meljean",
+      "filename": "symphyotrichum-lentum_02_inat-433203533.jpeg"
+    },
+    {
+      "photo_id": 214667212,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214667212/large.jpg",
+      "observation_id": 126515249,
+      "observation_url": "https://www.inaturalist.org/observations/126515249",
+      "observed_on": "2022-07-14",
+      "place_guess": "California, US",
+      "user_login": "kueda",
+      "filename": "symphyotrichum-lentum_03_inat-214667212.jpg"
+    },
+    {
+      "photo_id": 11237314,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11237314/large.jpg",
+      "observation_id": 8436766,
+      "observation_url": "https://www.inaturalist.org/observations/8436766",
+      "observed_on": "2017-09-17",
+      "place_guess": "California, US",
+      "user_login": "joergmlpts",
+      "filename": "symphyotrichum-lentum_04_inat-11237314.jpg"
+    },
+    {
+      "photo_id": 5091982,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5091982/large.jpg",
+      "observation_id": 4256120,
+      "observation_url": "https://www.inaturalist.org/observations/4256120",
+      "observed_on": "2016-10-01",
+      "place_guess": "California, US",
+      "user_login": "kueda",
+      "filename": "symphyotrichum-lentum_05_inat-5091982.jpg"
+    }
+  ]
+}

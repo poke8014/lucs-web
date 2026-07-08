@@ -79,6 +79,25 @@ Scirpus microcarpus (Panicled Bulrush) is a California-native grass of Chaparral
 - **Site type:** Marshes, wet meadows, streambanks, pond Edges
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/scirpus-microcarpus/scirpus-microcarpus_01_inat-519407992.jpg)
+*(c) Ryan Sorrells, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/288820176)*
+
+![](../raw/assets/inaturalist/scirpus-microcarpus/scirpus-microcarpus_02_inat-519408017.jpg)
+*(c) Ryan Sorrells, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/288820176)*
+
+![](../raw/assets/inaturalist/scirpus-microcarpus/scirpus-microcarpus_03_inat-519408040.jpg)
+*(c) Ryan Sorrells, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/288820176)*
+
+![](../raw/assets/inaturalist/scirpus-microcarpus/scirpus-microcarpus_04_inat-519408057.jpg)
+*(c) Ryan Sorrells, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/288820176)*
+
+![](../raw/assets/inaturalist/scirpus-microcarpus/scirpus-microcarpus_05_inat-519408066.jpg)
+*(c) Ryan Sorrells, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/288820176)*
+
 ## Sources
 
 - Calscape (CNPS) — [Scirpus microcarpus](https://calscape.org/Scirpus-microcarpus-%28Panicled-Bulrush%29). Structured fields from the

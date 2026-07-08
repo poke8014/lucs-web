@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Ceanothus thyrsiflorus",
+  "taxon_id": 56617,
+  "photos_taxon_id": 56617,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 77146021,
+      "license": "cc-by",
+      "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77146021/large.jpg",
+      "observation_id": 48613774,
+      "observation_url": "https://www.inaturalist.org/observations/48613774",
+      "observed_on": "2020-06-05",
+      "place_guess": "Jacks Peak Rd, Carmel, CA, US",
+      "user_login": "hkibak",
+      "filename": "ceanothus-thyrsiflorus_01_inat-77146021.jpg"
+    },
+    {
+      "photo_id": 263430811,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263430811/large.jpg",
+      "observation_id": 152588060,
+      "observation_url": "https://www.inaturalist.org/observations/152588060",
+      "observed_on": "2023-03-27",
+      "place_guess": "Fort Ord National Monument, CA, US",
+      "user_login": "joergmlpts",
+      "filename": "ceanothus-thyrsiflorus_02_inat-263430811.jpg"
+    },
+    {
+      "photo_id": 249007272,
+      "license": "cc-by",
+      "attribution": "(c) Daniel Kennedy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249007272/large.jpg",
+      "observation_id": 145006929,
+      "observation_url": "https://www.inaturalist.org/observations/145006929",
+      "observed_on": "2022-12-24",
+      "place_guess": "Salinas, CA, US",
+      "user_login": "danielkennedy",
+      "filename": "ceanothus-thyrsiflorus_03_inat-249007272.jpg"
+    },
+    {
+      "photo_id": 279917593,
+      "license": "cc-by",
+      "attribution": "(c) Roger Raiche, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279917593/large.jpg",
+      "observation_id": 161917690,
+      "observation_url": "https://www.inaturalist.org/observations/161917690",
+      "observed_on": "2023-05-13",
+      "place_guess": "Jenner, CA, US",
+      "user_login": "rogerraiche",
+      "filename": "ceanothus-thyrsiflorus_04_inat-279917593.jpg"
+    },
+    {
+      "photo_id": 77146041,
+      "license": "cc-by",
+      "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77146041/large.jpg",
+      "observation_id": 48613774,
+      "observation_url": "https://www.inaturalist.org/observations/48613774",
+      "observed_on": "2020-06-05",
+      "place_guess": "Jacks Peak Rd, Carmel, CA, US",
+      "user_login": "hkibak",
+      "filename": "ceanothus-thyrsiflorus_05_inat-77146041.jpg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Centromadia parryi ssp. congdonii",
+  "taxon_id": 58808,
+  "photos_taxon_id": 58808,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 153793048,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153793048/large.jpg",
+      "observation_id": 92846474,
+      "observation_url": "https://www.inaturalist.org/observations/92846474",
+      "observed_on": "2021-08-28",
+      "place_guess": "San Luis Obispo County, US-CA, US",
+      "user_login": "serpophaga",
+      "filename": "centromadia-parryi-ssp-congdonii_01_inat-153793048.jpg"
+    },
+    {
+      "photo_id": 153793084,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153793084/large.jpg",
+      "observation_id": 92846474,
+      "observation_url": "https://www.inaturalist.org/observations/92846474",
+      "observed_on": "2021-08-28",
+      "place_guess": "San Luis Obispo County, US-CA, US",
+      "user_login": "serpophaga",
+      "filename": "centromadia-parryi-ssp-congdonii_02_inat-153793084.jpg"
+    },
+    {
+      "photo_id": 153793111,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153793111/large.jpg",
+      "observation_id": 92846474,
+      "observation_url": "https://www.inaturalist.org/observations/92846474",
+      "observed_on": "2021-08-28",
+      "place_guess": "San Luis Obispo County, US-CA, US",
+      "user_login": "serpophaga",
+      "filename": "centromadia-parryi-ssp-congdonii_03_inat-153793111.jpg"
+    },
+    {
+      "photo_id": 153793123,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153793123/large.jpg",
+      "observation_id": 92846474,
+      "observation_url": "https://www.inaturalist.org/observations/92846474",
+      "observed_on": "2021-08-28",
+      "place_guess": "San Luis Obispo County, US-CA, US",
+      "user_login": "serpophaga",
+      "filename": "centromadia-parryi-ssp-congdonii_04_inat-153793123.jpg"
+    },
+    {
+      "photo_id": 332373579,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/332373579/large.jpg",
+      "observation_id": 189693978,
+      "observation_url": "https://www.inaturalist.org/observations/189693978",
+      "observed_on": "2023-11-01",
+      "place_guess": "Fort Ord National Monument, Salinas, CA, US",
+      "user_login": "aparrot1",
+      "filename": "centromadia-parryi-ssp-congdonii_05_inat-332373579.jpg"
+    }
+  ]
+}

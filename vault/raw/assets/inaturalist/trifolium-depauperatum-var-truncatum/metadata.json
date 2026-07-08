@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Trifolium depauperatum var. truncatum",
+  "taxon_id": 60199,
+  "photos_taxon_id": 60199,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 34879388,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34879388/large.jpg",
+      "observation_id": 22513364,
+      "observation_url": "https://www.inaturalist.org/observations/22513364",
+      "observed_on": "2019-04-14",
+      "place_guess": "Red Hill Rd, Santa Margarita, CA, US",
+      "user_login": "kylenessen",
+      "filename": "trifolium-depauperatum-var-truncatum_01_inat-34879388.jpg"
+    },
+    {
+      "photo_id": 361140673,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361140673/large.jpeg",
+      "observation_id": 204328193,
+      "observation_url": "https://www.inaturalist.org/observations/204328193",
+      "observed_on": "2024-03-28",
+      "place_guess": "Snipes-Pershing Ravine, Orangevale, CA, USA",
+      "user_login": "cnpsstevew",
+      "filename": "trifolium-depauperatum-var-truncatum_02_inat-361140673.jpeg"
+    },
+    {
+      "photo_id": 633541879,
+      "license": "cc-by",
+      "attribution": "(c) Konshau Duman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633541879/large.jpg",
+      "observation_id": 347463077,
+      "observation_url": "https://www.inaturalist.org/observations/347463077",
+      "observed_on": "2026-04-04",
+      "place_guess": "Bonny Doon, CA 95060, USA",
+      "user_login": "konshau",
+      "filename": "trifolium-depauperatum-var-truncatum_03_inat-633541879.jpg"
+    },
+    {
+      "photo_id": 27612,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27612/large.jpg",
+      "observation_id": 14042,
+      "observation_url": "https://www.inaturalist.org/observations/14042",
+      "observed_on": "2011-04-03",
+      "place_guess": "jasper ridge biological",
+      "user_login": "loarie",
+      "filename": "trifolium-depauperatum-var-truncatum_04_inat-27612.jpg"
+    },
+    {
+      "photo_id": 187196009,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/187196009/large.jpeg",
+      "observation_id": 110923993,
+      "observation_url": "https://www.inaturalist.org/observations/110923993",
+      "observed_on": "2022-04-09",
+      "place_guess": "Oakland, CA 94619, USA",
+      "user_login": "kueda",
+      "filename": "trifolium-depauperatum-var-truncatum_05_inat-187196009.jpeg"
+    }
+  ]
+}

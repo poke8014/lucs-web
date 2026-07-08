@@ -74,6 +74,25 @@ Clarkia purpurea ssp. quadrivulnera (Purple Clarkia) is a California-native annu
 - **Site type:** Open, grassy or shrubby places
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/clarkia-purpurea-ssp-quadrivulnera/clarkia-purpurea-ssp-quadrivulnera_01_inat-132281355.jpg)
+*(c) Sula Vanderplank, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/80694653)*
+
+![](../raw/assets/inaturalist/clarkia-purpurea-ssp-quadrivulnera/clarkia-purpurea-ssp-quadrivulnera_02_inat-214011128.jpeg)
+*(c) Chris Fluit, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/126305732)*
+
+![](../raw/assets/inaturalist/clarkia-purpurea-ssp-quadrivulnera/clarkia-purpurea-ssp-quadrivulnera_03_inat-214011154.jpeg)
+*(c) Chris Fluit, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/126305732)*
+
+![](../raw/assets/inaturalist/clarkia-purpurea-ssp-quadrivulnera/clarkia-purpurea-ssp-quadrivulnera_04_inat-214011175.jpeg)
+*(c) Chris Fluit, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/126305732)*
+
+![](../raw/assets/inaturalist/clarkia-purpurea-ssp-quadrivulnera/clarkia-purpurea-ssp-quadrivulnera_05_inat-16436008.jpg)
+*(c) Amy Huie, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/11514119)*
+
 ## Sources
 
 - Calscape (CNPS) — [Clarkia purpurea ssp. quadrivulnera](https://calscape.org/Clarkia-purpurea-ssp.-quadrivulnera-%28Purple-Clarkia%29). Structured fields from the

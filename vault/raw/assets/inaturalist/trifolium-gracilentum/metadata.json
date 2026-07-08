@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Trifolium gracilentum",
+  "taxon_id": 58165,
+  "photos_taxon_id": 58165,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 190776341,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190776341/large.jpg",
+      "observation_id": 112926557,
+      "observation_url": "https://www.inaturalist.org/observations/112926557",
+      "observed_on": "2022-04-23",
+      "place_guess": "San Diego, Cleveland National Forest, California, United States",
+      "user_login": "trevvan",
+      "filename": "trifolium-gracilentum_01_inat-190776341.jpg"
+    },
+    {
+      "photo_id": 211615571,
+      "license": "cc-by",
+      "attribution": "(c) Konshau Duman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211615571/large.jpeg",
+      "observation_id": 124825427,
+      "observation_url": "https://www.inaturalist.org/observations/124825427",
+      "observed_on": "2022-06-24",
+      "place_guess": "Willows, CA 95988, USA",
+      "user_login": "konshau",
+      "filename": "trifolium-gracilentum_02_inat-211615571.jpeg"
+    },
+    {
+      "photo_id": 36797415,
+      "license": "cc-by",
+      "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36797415/large.jpeg",
+      "observation_id": 23785791,
+      "observation_url": "https://www.inaturalist.org/observations/23785791",
+      "observed_on": "2019-04-28",
+      "place_guess": "San Diego County, CA, USA",
+      "user_login": "milliebasden",
+      "filename": "trifolium-gracilentum_03_inat-36797415.jpeg"
+    },
+    {
+      "photo_id": 190776874,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190776874/large.jpg",
+      "observation_id": 112926557,
+      "observation_url": "https://www.inaturalist.org/observations/112926557",
+      "observed_on": "2022-04-23",
+      "place_guess": "San Diego, Cleveland National Forest, California, United States",
+      "user_login": "trevvan",
+      "filename": "trifolium-gracilentum_04_inat-190776874.jpg"
+    },
+    {
+      "photo_id": 190776895,
+      "license": "cc-by",
+      "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190776895/large.jpg",
+      "observation_id": 112926557,
+      "observation_url": "https://www.inaturalist.org/observations/112926557",
+      "observed_on": "2022-04-23",
+      "place_guess": "San Diego, Cleveland National Forest, California, United States",
+      "user_login": "trevvan",
+      "filename": "trifolium-gracilentum_05_inat-190776895.jpg"
+    }
+  ]
+}

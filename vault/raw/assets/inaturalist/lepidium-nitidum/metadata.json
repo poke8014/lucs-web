@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Lepidium nitidum",
+  "taxon_id": 47202,
+  "photos_taxon_id": 47202,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 119932166,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119932166/large.jpg",
+      "observation_id": 73459649,
+      "observation_url": "https://www.inaturalist.org/observations/73459649",
+      "observed_on": "2019-03-22",
+      "place_guess": "Santa Barbara Island, Channel Islands National Park, Channel Islands, Santa Barbara, California, United States",
+      "user_login": "serpophaga",
+      "filename": "lepidium-nitidum_01_inat-119932166.jpg"
+    },
+    {
+      "photo_id": 264375356,
+      "license": "cc-by",
+      "attribution": "(c) Tim Messick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264375356/large.jpg",
+      "observation_id": 153097504,
+      "observation_url": "https://www.inaturalist.org/observations/153097504",
+      "observed_on": "2023-03-28",
+      "place_guess": "Kern County, CA, USA",
+      "user_login": "tmessick",
+      "filename": "lepidium-nitidum_02_inat-264375356.jpg"
+    },
+    {
+      "photo_id": 119915700,
+      "license": "cc-by",
+      "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119915700/large.jpeg",
+      "observation_id": 73451614,
+      "observation_url": "https://www.inaturalist.org/observations/73451614",
+      "observed_on": "2021-04-09",
+      "place_guess": "Mission Trails Regional Park, San Diego, CA, USA",
+      "user_login": "milliebasden",
+      "filename": "lepidium-nitidum_03_inat-119915700.jpeg"
+    },
+    {
+      "photo_id": 178857375,
+      "license": "cc-by",
+      "attribution": "(c) Elliot Greiner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178857375/large.jpg",
+      "observation_id": 106468519,
+      "observation_url": "https://www.inaturalist.org/observations/106468519",
+      "observed_on": "2022-02-09",
+      "place_guess": "Torrey Pines State Natural Reserve, San Diego, CA, US",
+      "user_login": "elliotgreiner",
+      "filename": "lepidium-nitidum_04_inat-178857375.jpg"
+    },
+    {
+      "photo_id": 264375433,
+      "license": "cc-by",
+      "attribution": "(c) Tim Messick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264375433/large.jpg",
+      "observation_id": 153097504,
+      "observation_url": "https://www.inaturalist.org/observations/153097504",
+      "observed_on": "2023-03-28",
+      "place_guess": "Kern County, CA, USA",
+      "user_login": "tmessick",
+      "filename": "lepidium-nitidum_05_inat-264375433.jpg"
+    }
+  ]
+}

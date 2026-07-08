@@ -70,6 +70,25 @@ Cirsium occidentale var. venustum (Venus Thistle) is a California-native perenni
 - **Sunset zones:** 1, 2, 3*, 7*, 14*, 15*, 16*, 17, 18*, 19*, 20*, 21*, 22, 23, 24
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cirsium-occidentale-var-venustum/cirsium-occidentale-var-venustum_01_inat-3798507.jpg)
+*(c) rappman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/3285742)*
+
+![](../raw/assets/inaturalist/cirsium-occidentale-var-venustum/cirsium-occidentale-var-venustum_02_inat-4019658.jpg)
+*(c) Brook, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/3461997)*
+
+![](../raw/assets/inaturalist/cirsium-occidentale-var-venustum/cirsium-occidentale-var-venustum_03_inat-418406890.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/235281235)*
+
+![](../raw/assets/inaturalist/cirsium-occidentale-var-venustum/cirsium-occidentale-var-venustum_04_inat-679235398.jpg)
+*(c) Alexander Wentworth, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/371748925)*
+
+![](../raw/assets/inaturalist/cirsium-occidentale-var-venustum/cirsium-occidentale-var-venustum_05_inat-37471239.jpeg)
+*(c) Garth Harwood, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/24231499)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cirsium occidentale var. venustum](https://calscape.org/Cirsium-occidentale-var.-venustum-%28Venus-Thistle%29). Structured fields from the

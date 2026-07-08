@@ -188,7 +188,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/54842851/large.jpg",
+        "attribution": "(c) Alex Abair, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/34816512"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186826182/large.jpeg",
+        "attribution": "(c) Roger Raiche, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/110720882"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122128625/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/74707996"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -285,7 +304,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30907600/large.jpg",
+        "attribution": "(c) Jody Shugart, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/20022859"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38627351/large.jpg",
+        "attribution": "(c) naturalist charlie, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/24967541"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6433477/large.jpg",
+        "attribution": "(c) Alice Shanks, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/5209990"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -387,7 +425,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79491887/large.jpg",
+        "attribution": "(c) Eric Lamb, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/50063769"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/391805083/large.jpg",
+        "attribution": "(c) prosperosity, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/221247130"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672401218/large.jpg",
+        "attribution": "(c) Jared Tholen, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/368159995"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -478,7 +535,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/606186157/large.jpg",
+        "attribution": "(c) Dustin Snider, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/333871984"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/78227346/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/49281478"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384966119/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/217603603"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -652,7 +728,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114753318/large.jpg",
+        "attribution": "(c) Isaac Krone, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/70571035"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282114026/large.jpeg",
+        "attribution": "(c) Garth Harwood, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/163129889"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292786730/large.jpg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/168910713"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -843,7 +938,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102764008/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/63973020"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102764089/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/63973020"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/102764132/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/63973020"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -1287,7 +1401,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/420848290/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/236549953"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329070448/large.jpeg",
+        "attribution": "(c) Zihao Wang, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/188080385"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/563691935/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/312225209"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -1430,7 +1563,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263330359/large.jpg",
+        "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/152535114"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184760175/large.jpeg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/109607393"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263330364/large.jpg",
+        "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/152535114"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -1968,7 +2120,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373711916/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/211369309"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373711969/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/211369309"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/373712041/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/211369309"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -2345,7 +2516,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/570091897/large.jpg",
+        "attribution": "(c) Tomás Tamagno, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/315577113"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/253002833/large.jpg",
+        "attribution": "(c) Leonel Roget, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/147071759"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/423641897/large.jpeg",
+        "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/237995776"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -2442,7 +2632,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/90293622/large.jpg",
+        "attribution": "(c) Grete Pasch, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/56639368"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/305012435/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/175501985"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/250478863/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/145780968"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -2536,7 +2745,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/115728/large.jpg",
+        "attribution": "(c) 114397479669890378989, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/78183"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6825297/large.jpeg",
+        "attribution": "(c) kclarksdnhmorg, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/5531367"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/469201885/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/261194560"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -3330,7 +3558,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3285690/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/2877713"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34096188/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/21997162"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/62566038/large.jpeg",
+        "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/39435091"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -3953,7 +4200,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443324016/large.jpeg",
+        "attribution": "(c) Cayman Lanzone, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/248147671"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472496544/large.jpg",
+        "attribution": "(c) wonton_soup, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/263048593"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9575602/large.jpeg",
+        "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/7379920"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -4025,7 +4291,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472496544/large.jpg",
+        "attribution": "(c) wonton_soup, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/263048593"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/472592063/large.jpeg",
+        "attribution": "(c) Aaron Kreisberg, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/263100797"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/196783771/large.jpeg",
+        "attribution": "(c) Alexander Wentworth, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/116570226"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -4118,7 +4403,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75666393/large.jpeg",
+        "attribution": "(c) Erin Lalime, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/47701131"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117395681/large.jpeg",
+        "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/72050042"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/770403/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/611062"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -4198,7 +4502,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2165470/large.jpg",
+        "attribution": "(c) Heather Marie, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/1788189"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/481586703/large.png",
+        "attribution": "(c) Arvel Hernandez, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/268086721"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243426605/large.jpg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/142023965"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -4277,7 +4600,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41186409/large.jpg",
+        "attribution": "(c) katherinef2, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/26520028"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10859059/large.jpg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/8198166"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/410363841/large.jpeg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/231076605"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -4369,7 +4711,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77146021/large.jpg",
+        "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/48613774"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263430811/large.jpg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/152588060"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/249007272/large.jpg",
+        "attribution": "(c) Daniel Kennedy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/145006929"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -5083,7 +5444,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210618936/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/124270745"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/131744361/large.jpeg",
+        "attribution": "(c) Justin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/80384604"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153793048/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/92846474"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -5150,7 +5530,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153793048/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/92846474"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153793084/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/92846474"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/153793111/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/92846474"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -5229,7 +5628,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619940421/large.jpg",
+        "attribution": "(c) jayjt, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/340644902"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619940450/large.jpg",
+        "attribution": "(c) jayjt, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/340644902"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/619940479/large.jpg",
+        "attribution": "(c) jayjt, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/340644902"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -5300,7 +5718,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185100013/large.jpg",
+        "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/109787146"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269106675/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/155671602"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/95664839/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/59851242"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -5378,7 +5815,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3321891/large.jpg",
+        "attribution": "(c) Alisa Kim, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/2903872"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3252120/large.jpeg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/2851079"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/262331660/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/151990217"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -5744,7 +6200,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199008448/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/117816653"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3335696/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/2914536"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8144343/large.jpg",
+        "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/6445719"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -5812,7 +6287,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3798507/large.jpg",
+        "attribution": "(c) rappman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/3285742"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4019658/large.jpg",
+        "attribution": "(c) Brook, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/3461997"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418406890/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/235281235"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -6025,7 +6519,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287545224/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/166069303"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541482091/large.jpg",
+        "attribution": "(c) Simone Littledale, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/300519396"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130797183/large.jpeg",
+        "attribution": "(c) Brodie Cass Talbott, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/79838097"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -6101,7 +6614,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132281355/large.jpg",
+        "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/80694653"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214011128/large.jpeg",
+        "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/126305732"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214011154/large.jpeg",
+        "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/126305732"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -6194,7 +6726,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132050835/large.jpg",
+        "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/80559288"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/342341152/large.jpeg",
+        "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/194714070"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282943343/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/163581189"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -6283,7 +6834,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38384880/large.jpeg",
+        "attribution": "(c) larndesolen, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/24818327"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32950061/large.jpg",
+        "attribution": "(c) Kristiina Hurme, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/21307530"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35447522/large.jpg",
+        "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/22868417"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -6382,7 +6952,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87330101/large.jpg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/54869160"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96373576/large.jpg",
+        "attribution": "(c) Cody Stricker, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/60279673"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106791759/large.jpg",
+        "attribution": "(c) Peter L Achuff, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/66269742"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -6857,7 +7446,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/933748/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/738892"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/257663867/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/149521058"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9402906/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/7273316"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -6952,7 +7560,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130462495/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/79641315"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130462511/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/79641315"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130462484/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/79641315"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -7495,7 +8122,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182162684/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/108218539"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/662122932/large.jpg",
+        "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/362764844"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182162694/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/108218539"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -7575,7 +8221,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243857575/large.jpeg",
+        "attribution": "(c) Dee Shea Himes, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/142256618"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/243858185/large.jpg",
+        "attribution": "(c) Dee Shea Himes, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/142256618"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36054962/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/23268878"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -7732,7 +8397,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279946559/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/161932291"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63697962/large.jpg",
+        "attribution": "(c) Tom Wainwright, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/40107013"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/111998174/large.jpg",
+        "attribution": "(c) Lyrae, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/69073079"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -8228,7 +8912,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88480133/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/55560869"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/584132770/large.jpg",
+        "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/322860450"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/30216153/large.jpeg",
+        "attribution": "(c) Terra Occ, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/19624881"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -8306,7 +9009,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/576148183/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/318766923"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/444345557/large.jpg",
+        "attribution": "(c) Sue Carnahan, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/248659418"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2997565/large.JPG",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/2666594"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -8717,7 +9439,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/301049/large.jpg",
+        "attribution": "(c) 66dodge, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/240548"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4278576/large.jpeg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/3688551"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/759412/large.jpg",
+        "attribution": "(c) Justin Johnsen, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/602979"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -9081,7 +9822,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270903773/large.jpeg",
+        "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/156653104"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/659299318/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/361269582"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280165646/large.jpg",
+        "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/162053036"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -9171,7 +9931,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/414443981/large.jpeg",
+        "attribution": "(c) Zach Earl, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/233216091"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/341239660/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/194172912"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/321017933/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/183951651"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -9818,7 +10597,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/679964354/large.jpg",
+        "attribution": "(c) Ryan Donnelly, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/372125170"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/21933552/large.jpg",
+        "attribution": "(c) Harry Podschwit, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/14708006"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428994969/large.jpeg",
+        "attribution": "(c) Nathan Aaron, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/240762816"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -9991,7 +10789,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/431599650/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/242115580"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140550823/large.jpeg",
+        "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/85424596"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395807759/large.jpeg",
+        "attribution": "(c) Brandon McCracken, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/223388577"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10067,7 +10884,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152388510/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/92071370"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152388527/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/92071370"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152388539/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/92071370"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10147,7 +10983,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/59558022/large.jpg",
+        "attribution": "(c) Sara Patton, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/37555243"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/616383113/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/338894132"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63471197/large.jpg",
+        "attribution": "(c) Andreas Stiller, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/39970765"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10317,7 +11172,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/283773323/large.jpg",
+        "attribution": "(c) Harry Podschwit, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/164033002"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507107702/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/282268192"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120805292/large.jpg",
+        "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/73955066"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10402,7 +11276,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589536313/large.jpg",
+        "attribution": "(c) klicklo, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/325595622"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/424674758/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/238530168"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/563824101/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/312294985"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10483,7 +11376,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365789080/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/206836282"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365789122/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/206836282"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607606153/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/334556916"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10552,7 +11464,14 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3862303/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/3344479"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10619,7 +11538,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365789080/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/206836282"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365789122/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/206836282"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607606153/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/334556916"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10714,7 +11652,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76868806/large.jpeg",
+        "attribution": "(c) Rachel Stringham, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/48444589"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52064917/large.jpg",
+        "attribution": "(c) CK2AZ, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/33164913"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170105624/large.jpg",
+        "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/101830622"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -10812,7 +11769,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181928247/large.jpg",
+        "attribution": "(c) Annette Herz, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/108094155"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/46560845/large.jpeg",
+        "attribution": "(c) Amy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/29821696"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/210736423/large.jpeg",
+        "attribution": "(c) gabbieb, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/124335987"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -11085,7 +12061,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/99061656/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/61873132"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/13669696/large.jpg",
+        "attribution": "(c) Jim Morefield, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/9955490"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432511524/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/242604909"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -11458,7 +12453,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369819118/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/208992983"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265710939/large.jpeg",
+        "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/153815647"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368734879/large.jpg",
+        "attribution": "(c) Ryan Donnelly, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/208406844"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -12019,7 +13033,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/921728/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/733493"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/343898922/large.jpg",
+        "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/195474468"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/921734/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/733493"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -12376,7 +13409,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37987461/large.jpg",
+        "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/24565496"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35150980/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/22685241"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37987450/large.jpg",
+        "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/24565496"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -12447,7 +13499,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35150980/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/22685241"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35156127/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/22685241"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35156141/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/22685241"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -12547,7 +13618,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32447962/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/21008717"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396275823/large.jpg",
+        "attribution": "(c) Karen (with occasional help from Mike), some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/223551671"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140551838/large.jpeg",
+        "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/85425077"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -12727,7 +13817,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213947334/large.jpg",
+        "attribution": "(c) Dustin Snider, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/126116397"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10090321/large.jpg",
+        "attribution": "(c) zookanthos, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/7698151"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421946305/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/237117081"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13098,7 +14207,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470921847/large.jpg",
+        "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/262081621"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/529995/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/420418"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181502873/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/107869392"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13183,7 +14311,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117631999/large.jpg",
+        "attribution": "(c) Elena Ortiz, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/72175897"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380223461/large.jpg",
+        "attribution": "(c) Steve Taylor, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/215080875"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838535/large.jpg",
+        "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/320680030"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13250,7 +14397,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838535/large.jpg",
+        "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/320680030"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838565/large.jpg",
+        "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/320680030"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838589/large.jpg",
+        "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/320680030"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13331,7 +14497,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50654040/large.jpg",
+        "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/32305025"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/209466304/large.jpeg",
+        "attribution": "(c) Alex, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/123637209"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50654030/large.jpg",
+        "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/32305025"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13409,7 +14594,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9752304/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/7488516"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/646120906/large.jpg",
+        "attribution": "(c) Skyler K, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/354152962"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/419635797/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/235918606"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13498,7 +14702,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/247536502/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/144247994"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/459761561/large.jpg",
+        "attribution": "(c) Skyler K, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/256428871"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/216630186/large.jpg",
+        "attribution": "(c) lazarus, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/127592728"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13585,7 +14808,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6107438/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/4997075"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242110223/large.jpeg",
+        "attribution": "(c) Amy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/141339859"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573353358/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/317303599"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13661,7 +14903,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56735926/large.jpg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/35937876"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56735930/large.jpg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/35937876"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56735946/large.jpg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/35937876"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -13724,7 +14985,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10515476/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/7958893"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10515470/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/7958893"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10515466/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/7958893"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -14045,7 +15325,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/329591270/large.jpeg",
+        "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/188329142"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8047090/large.jpg",
+        "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/6376284"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/185053942/large.jpg",
+        "attribution": "(c) John Powers, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/109763667"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -14725,7 +16024,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/5415282/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/4484852"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/151747922/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/91711980"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/120110684/large.jpg",
+        "attribution": "(c) Elly Poretsky, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/73564485"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -14822,7 +16140,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11659146/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/8697332"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/413277766/large.jpeg",
+        "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/232610604"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532154101/large.jpg",
+        "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/295593223"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -14900,7 +16237,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35205372/large.jpg",
+        "attribution": "(c) Daniel Levitis, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/22715157"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35205465/large.jpg",
+        "attribution": "(c) Daniel Levitis, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/22715157"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/319206876/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/183011160"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -14979,7 +16335,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/132007133/large.jpg",
+        "attribution": "(c) Josh, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/80550310"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277700272/large.jpg",
+        "attribution": "(c) Pinnacles National Park, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/160695375"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396712528/large.jpg",
+        "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/223875354"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15070,7 +16445,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435880230/large.jpeg",
+        "attribution": "(c) WF_MI, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/244369166"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208515739/large.jpeg",
+        "attribution": "(c) Wolfgang Jauch, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/123108015"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461091491/large.jpg",
+        "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/257079068"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15151,7 +16545,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22984/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/11247"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/382039162/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/216042833"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2055719/large.jpg",
+        "attribution": "(c) AJ Wacaser, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/1697758"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15224,7 +16637,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384763851/large.jpg",
+        "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/217491123"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/386129937/large.jpeg",
+        "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/218222889"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/383816793/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/216989498"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15316,7 +16748,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511681641/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/284700271"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79378658/large.jpg",
+        "attribution": "(c) Eric Lamb, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/49990329"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88102074/large.jpg",
+        "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/55333605"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15460,7 +16911,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199217725/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/117937822"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199217740/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/117937822"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/199217709/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/117937822"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15548,7 +17018,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482323/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/160016673"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6891712/large.jpeg",
+        "attribution": "(c) Zack Abbey, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/5583035"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482369/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/160016673"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15619,7 +17108,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482323/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/160016673"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482369/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/160016673"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276482382/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/160016673"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15697,7 +17205,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/276049447/large.jpeg",
+        "attribution": "(c) Cricket Raspet, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/159767943"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/279623785/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/161756289"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273850379/large.jpg",
+        "attribution": "(c) Mike Heine, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/158454620"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15778,7 +17305,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/269913448/large.jpg",
+        "attribution": "(c) Mary K. Hanson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/156118497"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/484645994/large.jpg",
+        "attribution": "(c) graham_coop, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/269541144"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/201094142/large.jpeg",
+        "attribution": "(c) Arvel Hernandez, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/119091679"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -15872,7 +17418,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182266788/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/108273823"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259775836/large.jpeg",
+        "attribution": "(c) Amy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/150631391"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502952747/large.jpg",
+        "attribution": "(c) Topher Mueller, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/280057129"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -16267,7 +17832,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265953537/large.jpeg",
+        "attribution": "(c) Konshau Duman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/153947762"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184781000/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/109603079"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/628757923/large.jpg",
+        "attribution": "(c) Kyle Elshoff, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/345043482"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -16348,7 +17932,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119932166/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/73459649"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/264375356/large.jpg",
+        "attribution": "(c) Tim Messick, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/153097504"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119915700/large.jpeg",
+        "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/73451614"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -16422,7 +18025,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389871819/large.jpg",
+        "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/220217402"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389850095/large.jpg",
+        "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/220206258"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389850169/large.jpg",
+        "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/220206258"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -16484,7 +18106,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267213506/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/154642401"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79403633/large.jpeg",
+        "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/50008727"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/395519793/large.jpeg",
+        "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/223237214"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -17221,7 +18862,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/485876493/large.jpg",
+        "attribution": "(c) klicklo, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/270185523"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183928810/large.jpg",
+        "attribution": "(c) Lightning Star Sky / Skyler Noah Wall, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/109150851"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150124874/large.jpg",
+        "attribution": "(c) Jay Brasher, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/90815426"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -17297,7 +18957,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67868348/large.jpg",
+        "attribution": "(c) crothfels, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/42734678"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27217/large.JPG",
+        "attribution": "(c) Barbara Banfield, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/13799"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67868365/large.jpg",
+        "attribution": "(c) crothfels, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/42734678"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -17577,7 +19256,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45761450/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/29324939"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57465002/large.jpeg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/36361721"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567148196/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/314025927"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -17651,7 +19349,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197947089/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/117224552"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197947136/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/117224552"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197947172/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/117224552"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -17742,7 +19459,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392507957/large.jpg",
+        "attribution": "(c) klicklo, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/221633034"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204676442/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/120979966"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11640370/large.jpg",
+        "attribution": "(c) Carly Slawson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/8686019"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -17893,7 +19629,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106272984/large.jpg",
+        "attribution": "(c) giantcicada, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/65982505"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532447482/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/295749039"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136917827/large.jpeg",
+        "attribution": "(c) Tom Norton, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/83369821"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -17975,7 +19730,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650800861/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/356856161"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277236156/large.jpeg",
+        "attribution": "(c) Chris Conard, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/160437943"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650800900/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/356856161"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -18067,7 +19841,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/375545625/large.jpg",
+        "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/212509945"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17391193/large.jpeg",
+        "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/12123584"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504378764/large.jpg",
+        "attribution": "(c) Melanie J. Davis, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/280810112"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -18323,7 +20116,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16519243/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/11515673"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75113634/large.jpeg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/47360157"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75113653/large.jpeg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/47360157"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -18397,7 +20209,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368750269/large.jpeg",
+        "attribution": "(c) Katherine Scott, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/208414507"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94040138/large.jpg",
+        "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/58884761"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64717599/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/40827283"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -18466,7 +20297,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280568932/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/162249488"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119592812/large.jpeg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/73265353"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/179620668/large.jpg",
+        "attribution": "(c) Dee Shea Himes, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/106866637"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -18524,7 +20374,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280568932/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/162249488"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186349824/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/110464624"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/487398026/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/270982883"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -18609,7 +20478,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116813280/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/71721555"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52386520/large.jpg",
+        "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/33356883"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116813318/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/71721555"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -18683,7 +20571,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6572609/large.jpg",
+        "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/5308160"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290597660/large.jpg",
+        "attribution": "(c) James M. Maley, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/167730221"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69421491/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/43770372"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -19035,7 +20942,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218458403/large.jpeg",
+        "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/128602816"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77930422/large.jpg",
+        "attribution": "(c) Emily Summerbell, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/49095565"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186807758/large.jpeg",
+        "attribution": "(c) saltyhiker, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/110711338"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -19134,7 +21060,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/622621893/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/341956658"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/183037900/large.jpg",
+        "attribution": "(c) Justin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/108685205"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/376247437/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/212820590"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -19305,7 +21250,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142242833/large.jpeg",
+        "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/86352593"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117758971/large.jpeg",
+        "attribution": "(c) Mike Bowie, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/72247877"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142242840/large.jpeg",
+        "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/86352593"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -20035,7 +21999,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589466400/large.jpg",
+        "attribution": "(c) Dustin Snider, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/325559621"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566569369/large.jpg",
+        "attribution": "(c) M. Whitson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/313726049"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6112571/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/5000533"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -20122,7 +22105,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122366558/large.jpeg",
+        "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/74840881"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122366536/large.jpeg",
+        "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/74840881"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122366567/large.jpeg",
+        "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/74840881"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -20217,7 +22219,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1611091/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/1284706"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/20985340/large.jpg",
+        "attribution": "(c) Jim Morefield, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/14158040"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/486955531/large.jpg",
+        "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/270750636"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -20479,7 +22500,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261956240/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/151792806"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3287815/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/2878949"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/363952989/large.jpg",
+        "attribution": "(c) Kyle Elshoff, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/205810873"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -20553,7 +22593,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270528230/large.jpg",
+        "attribution": "(c) Hannah Hickli, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/156447761"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463697888/large.jpeg",
+        "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/258447190"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389843384/large.jpg",
+        "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/220202343"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -20734,7 +22793,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248665230/large.jpg",
+        "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/144831563"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591093/large.jpg",
+        "attribution": "(c) Charlie Hohn, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/468503"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252743600/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/146938249"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -20804,7 +22882,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119436207/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/73175925"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/273044572/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/157954700"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36807319/large.jpeg",
+        "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/23787083"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -20961,7 +23058,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158183372/large.jpg",
+        "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/95295108"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/63262972/large.jpeg",
+        "attribution": "(c) David Anderson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/39848867"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633490885/large.jpg",
+        "attribution": "(c) Miriam Sachs Martin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/347438684"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -21204,7 +23320,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39152584/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/25289691"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/166077370/large.jpg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/99604457"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/473835046/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/263733888"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -21457,7 +23592,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/33164856/large.jpeg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/21436050"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/256685095/large.jpg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/148999555"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/608514304/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/335013161"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -21532,7 +23686,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9103583/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/7085837"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/154668674/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/93327624"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/164338032/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/98672136"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -21611,7 +23784,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/245150515/large.jpg",
+        "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/142957609"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192069616/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/113694838"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/217388360/large.jpg",
+        "attribution": "(c) Bobby McCabe, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/128008112"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -21696,7 +23888,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/378621133/large.jpg",
+        "attribution": "(c) klicklo, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/183122188"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16710608/large.jpg",
+        "attribution": "(c) Casey Schreiner, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/11690952"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566555048/large.jpg",
+        "attribution": "(c) vultur-cadens, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/313717307"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -21789,7 +24000,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34096502/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/21997314"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2983501/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/2655023"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/118134484/large.jpeg",
+        "attribution": "(c) Justin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/72455550"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -21882,7 +24112,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181502912/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/107869395"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181502914/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/107869395"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181508027/large.jpg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/107869395"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -22395,7 +24644,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448507489/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/250739075"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11848617/large.jpg",
+        "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/8820149"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/448507503/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/250739075"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -22494,7 +24762,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429778211/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/241169094"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1293150/large.jpg",
+        "attribution": "(c) 101595408250610106310, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/1030822"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100211841/large.jpeg",
+        "attribution": "(c) Amy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/62535678"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -22852,7 +25139,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261313309/large.jpeg",
+        "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/151447367"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649125765/large.jpg",
+        "attribution": "(c) Rachel Allingham, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/355953677"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/645930197/large.jpg",
+        "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/354060148"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -22925,7 +25231,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/314754754/large.jpeg",
+        "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/180671017"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/109670389/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/67818100"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/158849858/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/95671167"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -23096,7 +25421,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533586727/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/296340923"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/322816818/large.jpeg",
+        "attribution": "(c) Paul Roots, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/184899873"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/533586767/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/296340923"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -23172,7 +25516,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/25463140/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/16860444"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/649067003/large.jpg",
+        "attribution": "(c) Pete Diamond, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/355921818"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/178861154/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/106470951"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -23262,7 +25625,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519407992/large.jpg",
+        "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/288820176"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519408017/large.jpg",
+        "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/288820176"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/519408040/large.jpg",
+        "attribution": "(c) Ryan Sorrells, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/288820176"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -23339,7 +25721,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43294735/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/27801014"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286281325/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/165380834"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50691588/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/27801014"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -23428,7 +25829,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/240211970/large.jpg",
+        "attribution": "(c) Amanda Fisher, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/140335800"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/580407037/large.jpg",
+        "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/320967934"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579453381/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/320484126"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -23807,7 +26227,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/194578112/large.jpg",
+        "attribution": "(c) Henrik Kibak, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/115270130"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/488544946/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/271591819"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579043486/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/320276057"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -23910,7 +26349,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32320404/large.jpg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/20938007"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182878137/large.jpg",
+        "attribution": "(c) Justin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/108600029"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278528792/large.jpg",
+        "attribution": "(c) Tim Messick, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/161151997"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -24332,7 +26790,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7209572/large.jpg",
+        "attribution": "(c) John Hibbard, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/5800889"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16531575/large.png",
+        "attribution": "(c) Karen (with occasional help from Mike), some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/11574645"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306655389/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/176386195"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -24581,7 +27058,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/275233889/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/159307538"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/39160406/large.jpeg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/25293369"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/66389468/large.jpeg",
+        "attribution": "(c) Barbara Banfield, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/41839203"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -24658,7 +27154,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/128540743/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/78535275"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/656377313/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/359696714"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129951499/large.jpeg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/79342803"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -24726,7 +27241,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/129951499/large.jpeg",
+        "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/79342803"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/267988044/large.jpeg",
+        "attribution": "(c) Alexander Wentworth, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/155063330"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/192476349/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/113958762"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -24820,7 +27354,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/159748973/large.jpg",
+        "attribution": "(c) mushroomshindig, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/96177745"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/317255313/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/182004928"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/323754416/large.jpeg",
+        "attribution": "(c) Alex, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/185379011"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -24887,7 +27440,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/220603484/large.jpeg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/129781727"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/433203533/large.jpeg",
+        "attribution": "(c) Melanie J. Davis, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/242973505"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/214667212/large.jpg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/126515249"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -25868,7 +28440,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/56650765/large.jpeg",
+        "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/35888775"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/226474001/large.jpeg",
+        "attribution": "(c) Justin, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/132997889"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96164164/large.jpeg",
+        "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/60153804"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -25945,7 +28536,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443653424/large.jpeg",
+        "attribution": "(c) Cayman Lanzone, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/248313306"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/278595393/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/161186952"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/443655034/large.jpeg",
+        "attribution": "(c) Cayman Lanzone, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/248313306"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26021,7 +28631,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119600080/large.jpg",
+        "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/73269813"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34233334/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/22114570"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/119600065/large.jpg",
+        "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/73269813"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26098,7 +28727,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361429443/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/204475995"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3223535/large.jpg",
+        "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/2830647"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289954176/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/167382338"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26167,7 +28815,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/34879388/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/22513364"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361140673/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/204328193"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/633541879/large.jpg",
+        "attribution": "(c) Konshau Duman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/347463077"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26246,7 +28913,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/190776341/large.jpg",
+        "attribution": "(c) Trevor Van Loon, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/112926557"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/211615571/large.jpeg",
+        "attribution": "(c) Konshau Duman, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/124825427"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/36797415/large.jpeg",
+        "attribution": "(c) Millie Basden, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/23785791"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26412,7 +29098,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136148299/large.jpg",
+        "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/82927349"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482329055/large.jpg",
+        "attribution": "(c) wonton_soup, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/268338546"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315420174/large.jpeg",
+        "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/181017318"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26488,7 +29193,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292585724/large.jpeg",
+        "attribution": "(c) Tom Norton, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/168798793"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/138242052/large.jpeg",
+        "attribution": "(c) Jes Gray, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/84130744"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/507926257/large.jpg",
+        "attribution": "(c) Ryan McMinds, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/282704527"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26562,7 +29286,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/23005028/large.jpg",
+        "attribution": "(c) stinger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/15355374"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/80459056/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/50662896"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/227625716/large.jpeg",
+        "attribution": "(c) Thomas Ebner, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/133620538"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26636,7 +29379,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/327430549/large.jpeg",
+        "attribution": "(c) Lightning Star Sky / Skyler Noah Wall, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/187255982"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/92725062/large.jpeg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/58098828"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/465184753/large.jpg",
+        "attribution": "no rights reserved",
+        "license": "cc0",
+        "observation_url": "https://www.inaturalist.org/observations/259175377"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],
@@ -26945,7 +29707,26 @@
     "spread_mechanisms": [],
     "habitat_types": [],
     "jepson_regions": [],
-    "photos": [],
+    "photos": [
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100209708/large.jpeg",
+        "attribution": "(c) Amy, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/62534777"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/442437247/large.jpeg",
+        "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/247705069"
+      },
+      {
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/418315693/large.jpeg",
+        "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+        "license": "cc-by",
+        "observation_url": "https://www.inaturalist.org/observations/235235458"
+      }
+    ],
     "removal_method": null,
     "removal_notes": [],
     "removal_sources": [],

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Oenanthe sarmentosa",
+  "taxon_id": 60127,
+  "photos_taxon_id": 60127,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 142242833,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142242833/large.jpeg",
+      "observation_id": 86352593,
+      "observation_url": "https://www.inaturalist.org/observations/86352593",
+      "observed_on": "2021-07-09",
+      "place_guess": "Washington, US",
+      "user_login": "littlelegofan",
+      "filename": "oenanthe-sarmentosa_01_inat-142242833.jpeg"
+    },
+    {
+      "photo_id": 117758971,
+      "license": "cc-by",
+      "attribution": "(c) Mike Bowie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117758971/large.jpeg",
+      "observation_id": 72247877,
+      "observation_url": "https://www.inaturalist.org/observations/72247877",
+      "observed_on": "2021-03-27",
+      "place_guess": "Barrytown, New Zealand",
+      "user_login": "ecoman",
+      "filename": "oenanthe-sarmentosa_02_inat-117758971.jpeg"
+    },
+    {
+      "photo_id": 142242840,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142242840/large.jpeg",
+      "observation_id": 86352593,
+      "observation_url": "https://www.inaturalist.org/observations/86352593",
+      "observed_on": "2021-07-09",
+      "place_guess": "Washington, US",
+      "user_login": "littlelegofan",
+      "filename": "oenanthe-sarmentosa_03_inat-142242840.jpeg"
+    },
+    {
+      "photo_id": 142242858,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/142242858/large.jpeg",
+      "observation_id": 86352593,
+      "observation_url": "https://www.inaturalist.org/observations/86352593",
+      "observed_on": "2021-07-09",
+      "place_guess": "Washington, US",
+      "user_login": "littlelegofan",
+      "filename": "oenanthe-sarmentosa_04_inat-142242858.jpeg"
+    },
+    {
+      "photo_id": 117758975,
+      "license": "cc-by",
+      "attribution": "(c) Mike Bowie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117758975/large.jpeg",
+      "observation_id": 72247877,
+      "observation_url": "https://www.inaturalist.org/observations/72247877",
+      "observed_on": "2021-03-27",
+      "place_guess": "Barrytown, New Zealand",
+      "user_login": "ecoman",
+      "filename": "oenanthe-sarmentosa_05_inat-117758975.jpeg"
+    }
+  ]
+}

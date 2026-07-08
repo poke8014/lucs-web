@@ -76,6 +76,25 @@ Senecio flaccidus var. douglasii (Douglas' Groundsel) is a California-native shr
 - **Site type:** Dry, rocky or sandy places
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/senecio-flaccidus-var-douglasii/senecio-flaccidus-var-douglasii_01_inat-240211970.jpg)
+*(c) Amanda Fisher, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/140335800)*
+
+![](../raw/assets/inaturalist/senecio-flaccidus-var-douglasii/senecio-flaccidus-var-douglasii_02_inat-580407037.jpg)
+*(c) Jonas Katona, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/320967934)*
+
+![](../raw/assets/inaturalist/senecio-flaccidus-var-douglasii/senecio-flaccidus-var-douglasii_03_inat-579453381.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/320484126)*
+
+![](../raw/assets/inaturalist/senecio-flaccidus-var-douglasii/senecio-flaccidus-var-douglasii_04_inat-24208979.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/16150437)*
+
+![](../raw/assets/inaturalist/senecio-flaccidus-var-douglasii/senecio-flaccidus-var-douglasii_05_inat-360927352.jpeg)
+*(c) lazarus, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/204215280)*
+
 ## Sources
 
 - Calscape (CNPS) — [Senecio flaccidus var. douglasii](https://calscape.org/Senecio-flaccidus-var.-douglasii-%28Douglas%27-Groundsel%29). Structured fields from the

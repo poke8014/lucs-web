@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Muilla maritima",
+  "taxon_id": 56627,
+  "photos_taxon_id": 56627,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 6572609,
+      "license": "cc-by",
+      "attribution": "(c) W. Terry Hunefeld, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6572609/large.jpg",
+      "observation_id": 5308160,
+      "observation_url": "https://www.inaturalist.org/observations/5308160",
+      "observed_on": "2017-03-14",
+      "place_guess": "Anza-Borrego Desert, San Diego County, US-CA, US",
+      "user_login": "thunefeld",
+      "filename": "muilla-maritima_01_inat-6572609.jpg"
+    },
+    {
+      "photo_id": 290597660,
+      "license": "cc-by",
+      "attribution": "(c) James M. Maley, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/290597660/large.jpg",
+      "observation_id": 167730221,
+      "observation_url": "https://www.inaturalist.org/observations/167730221",
+      "observed_on": "2023-06-16",
+      "place_guess": "San Bernardino National Forest, San Bernardino, CA, US",
+      "user_login": "jmaley",
+      "filename": "muilla-maritima_02_inat-290597660.jpg"
+    },
+    {
+      "photo_id": 69421491,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/69421491/large.jpeg",
+      "observation_id": 43770372,
+      "observation_url": "https://www.inaturalist.org/observations/43770372",
+      "observed_on": "2020-04-26",
+      "place_guess": "SANTA MARGAR, CA 93453, USA",
+      "user_login": "heymana77",
+      "filename": "muilla-maritima_03_inat-69421491.jpeg"
+    },
+    {
+      "photo_id": 261431326,
+      "license": "cc-by",
+      "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/261431326/large.jpeg",
+      "observation_id": 151511095,
+      "observation_url": "https://www.inaturalist.org/observations/151511095",
+      "observed_on": "2023-03-17",
+      "place_guess": "Brentwood, CA 94513, USA",
+      "user_login": "ddefreese",
+      "filename": "muilla-maritima_04_inat-261431326.jpeg"
+    },
+    {
+      "photo_id": 626182494,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/626182494/large.jpg",
+      "observation_id": 343722074,
+      "observation_url": "https://www.inaturalist.org/observations/343722074",
+      "observed_on": "2026-03-18",
+      "place_guess": "Redwood City, CA, USA",
+      "user_login": "elonicera",
+      "filename": "muilla-maritima_05_inat-626182494.jpg"
+    }
+  ]
+}

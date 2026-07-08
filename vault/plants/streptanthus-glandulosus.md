@@ -71,6 +71,25 @@ Streptanthus glandulosus (Metcalf Canyon Jewelflower) is a California-native ann
 - **Plant communities:** Chaparral, Coastal Prairie, Foothill Woodland, Northern Oak Woodland
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus/streptanthus-glandulosus_01_inat-128540743.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/78535275)*
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus/streptanthus-glandulosus_02_inat-656377313.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/359696714)*
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus/streptanthus-glandulosus_03_inat-129951499.jpeg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/79342803)*
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus/streptanthus-glandulosus_04_inat-261989999.jpeg)
+*(c) Cricket Raspet, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/151808572)*
+
+![](../raw/assets/inaturalist/streptanthus-glandulosus/streptanthus-glandulosus_05_inat-285117485.jpg)
+*(c) Karen Offereins, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/164760079)*
+
 ## Sources
 
 - Calscape (CNPS) — [Streptanthus glandulosus](https://calscape.org/Streptanthus-glandulosus-%28Metcalf-Canyon-Jewelflower%29). Structured fields from the

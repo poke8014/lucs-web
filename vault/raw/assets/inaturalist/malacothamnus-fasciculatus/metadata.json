@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Malacothamnus fasciculatus",
+  "taxon_id": 57137,
+  "photos_taxon_id": 57137,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 392507957,
+      "license": "cc-by",
+      "attribution": "(c) klicklo, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/392507957/large.jpg",
+      "observation_id": 221633034,
+      "observation_url": "https://www.inaturalist.org/observations/221633034",
+      "observed_on": "2024-06-09",
+      "place_guess": "Happy Camp Canyon Regional Park, Moorpark, CA, US",
+      "user_login": "klicklo",
+      "filename": "malacothamnus-fasciculatus_01_inat-392507957.jpg"
+    },
+    {
+      "photo_id": 204676442,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204676442/large.jpg",
+      "observation_id": 120979966,
+      "observation_url": "https://www.inaturalist.org/observations/120979966",
+      "observed_on": "2022-06-09",
+      "place_guess": "Saxony Rd, Encinitas, CA, US",
+      "user_login": "jsriley1984",
+      "filename": "malacothamnus-fasciculatus_02_inat-204676442.jpg"
+    },
+    {
+      "photo_id": 11640370,
+      "license": "cc-by",
+      "attribution": "(c) Carly Slawson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/11640370/large.jpg",
+      "observation_id": 8686019,
+      "observation_url": "https://www.inaturalist.org/observations/8686019",
+      "observed_on": "2017-11-04",
+      "place_guess": "Mission Trails Regional Park, San Diego, CA, US",
+      "user_login": "leafxeater",
+      "filename": "malacothamnus-fasciculatus_03_inat-11640370.jpg"
+    },
+    {
+      "photo_id": 8000354,
+      "license": "cc-by",
+      "attribution": "(c) Zack Abbey, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/8000354/large.jpeg",
+      "observation_id": 6348110,
+      "observation_url": "https://www.inaturalist.org/observations/6348110",
+      "observed_on": "2017-05-23",
+      "place_guess": "Santa Susana Field Lab, Ventura County, CA, USA",
+      "user_login": "zabbey",
+      "filename": "malacothamnus-fasciculatus_04_inat-8000354.jpeg"
+    },
+    {
+      "photo_id": 9473179,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9473179/large.jpg",
+      "observation_id": 7316313,
+      "observation_url": "https://www.inaturalist.org/observations/7316313",
+      "observed_on": "2017-08-01",
+      "place_guess": "91355, Valencia, CA, US",
+      "user_login": "serpophaga",
+      "filename": "malacothamnus-fasciculatus_05_inat-9473179.jpg"
+    }
+  ]
+}

@@ -66,6 +66,25 @@ Polystichum californicum (California Sword Fern) is a California-native perennia
 - **Plant communities:** Mixed Evergreen Forest, Redwood Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/polystichum-californicum/polystichum-californicum_01_inat-39152584.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/25289691)*
+
+![](../raw/assets/inaturalist/polystichum-californicum/polystichum-californicum_02_inat-166077370.jpg)
+*(c) Ed Alverson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/99604457)*
+
+![](../raw/assets/inaturalist/polystichum-californicum/polystichum-californicum_03_inat-473835046.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/263733888)*
+
+![](../raw/assets/inaturalist/polystichum-californicum/polystichum-californicum_04_inat-170046997.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/101799398)*
+
+![](../raw/assets/inaturalist/polystichum-californicum/polystichum-californicum_05_inat-462779597.jpeg)
+*(c) Reid Hardin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/257978843)*
+
 ## Sources
 
 - Calscape (CNPS) — [Polystichum californicum](https://calscape.org/Polystichum-californicum-%28California-Sword-Fern%29). Structured fields from the

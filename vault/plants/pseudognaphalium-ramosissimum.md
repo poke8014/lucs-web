@@ -64,6 +64,25 @@ Pseudognaphalium ramosissimum (Pink Cudweed) is a California-native perennial of
 - **Plant communities:** Chaparral, Coastal Strand, Mixed Evergreen Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/pseudognaphalium-ramosissimum/pseudognaphalium-ramosissimum_01_inat-9103583.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/7085837)*
+
+![](../raw/assets/inaturalist/pseudognaphalium-ramosissimum/pseudognaphalium-ramosissimum_02_inat-154668674.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/93327624)*
+
+![](../raw/assets/inaturalist/pseudognaphalium-ramosissimum/pseudognaphalium-ramosissimum_03_inat-164338032.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/98672136)*
+
+![](../raw/assets/inaturalist/pseudognaphalium-ramosissimum/pseudognaphalium-ramosissimum_04_inat-46219595.jpg)
+*(c) Michael Warner, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/29609476)*
+
+![](../raw/assets/inaturalist/pseudognaphalium-ramosissimum/pseudognaphalium-ramosissimum_05_inat-107775115.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/66803243)*
+
 ## Sources
 
 - Calscape (CNPS) — [Pseudognaphalium ramosissimum](https://calscape.org/Pseudognaphalium-ramosissimum-%28Pink-Cudweed%29). Structured fields from the

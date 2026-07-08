@@ -71,6 +71,25 @@ Stachys ajugoides (Ajuga Hedge Nettle) is a California-native perennial of Coast
 - **Plant communities:** Closed-cone Pine Forest, Coastal Sage Scrub, Mixed Evergreen Forest, Northern Coastal Scrub, Wetland-Riparian
 - **Site type:** Moist places
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/stachys-ajugoides/stachys-ajugoides_01_inat-7209572.jpg)
+*(c) John Hibbard, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5800889)*
+
+![](../raw/assets/inaturalist/stachys-ajugoides/stachys-ajugoides_02_inat-16531575.png)
+*(c) Karen (with occasional help from Mike), some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/11574645)*
+
+![](../raw/assets/inaturalist/stachys-ajugoides/stachys-ajugoides_03_inat-306655389.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/176386195)*
+
+![](../raw/assets/inaturalist/stachys-ajugoides/stachys-ajugoides_04_inat-48062.jpg)
+*(c) folini, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/26777)*
+
+![](../raw/assets/inaturalist/stachys-ajugoides/stachys-ajugoides_05_inat-22011983.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/14754766)*
+
 ## Sources
 
 - Calscape (CNPS) — [Stachys ajugoides](https://calscape.org/Stachys-ajugoides-%28Ajuga-Hedge-Nettle%29). Structured fields from the

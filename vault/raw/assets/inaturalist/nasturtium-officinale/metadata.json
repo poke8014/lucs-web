@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Nasturtium officinale",
+  "taxon_id": 78174,
+  "photos_taxon_id": 78174,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 218458403,
+      "license": "cc-by",
+      "attribution": "(c) Dmitriy Bochkov, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/218458403/large.jpeg",
+      "observation_id": 128602816,
+      "observation_url": "https://www.inaturalist.org/observations/128602816",
+      "observed_on": "2022-07-30",
+      "place_guess": "Elevatornaya St, Moskva, Russia, 115404",
+      "user_login": "convallaria1128",
+      "filename": "nasturtium-officinale_01_inat-218458403.jpeg"
+    },
+    {
+      "photo_id": 77930422,
+      "license": "cc-by",
+      "attribution": "(c) Emily Summerbell, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/77930422/large.jpg",
+      "observation_id": 49095565,
+      "observation_url": "https://www.inaturalist.org/observations/49095565",
+      "observed_on": "2020-05-09",
+      "place_guess": "WD Thomson Park, Atlanta, GA, US",
+      "user_login": "esummerbell",
+      "filename": "nasturtium-officinale_02_inat-77930422.jpg"
+    },
+    {
+      "photo_id": 186807758,
+      "license": "cc-by",
+      "attribution": "(c) saltyhiker, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186807758/large.jpeg",
+      "observation_id": 110711338,
+      "observation_url": "https://www.inaturalist.org/observations/110711338",
+      "observed_on": "2022-04-07",
+      "place_guess": "Tarrant County, TX, USA",
+      "user_login": "saltyhiker",
+      "filename": "nasturtium-officinale_03_inat-186807758.jpeg"
+    },
+    {
+      "photo_id": 335240025,
+      "license": "cc-by",
+      "attribution": "(c) Thomas Mesaglio, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/335240025/large.jpeg",
+      "observation_id": 191138557,
+      "observation_url": "https://www.inaturalist.org/observations/191138557",
+      "observed_on": "2023-11-13",
+      "place_guess": "Arthursleigh Farm property, New South Wales",
+      "user_login": "thebeachcomber",
+      "filename": "nasturtium-officinale_04_inat-335240025.jpeg"
+    },
+    {
+      "photo_id": 540261209,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/540261209/large.jpg",
+      "observation_id": 299869951,
+      "observation_url": "https://www.inaturalist.org/observations/299869951",
+      "observed_on": "2025-05-20",
+      "place_guess": "Abrunheira, 3040-645 Assafarge, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "nasturtium-officinale_05_inat-540261209.jpg"
+    }
+  ]
+}

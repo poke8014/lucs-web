@@ -74,6 +74,25 @@ Hemizonia congesta (Hayfield Tarweed) is a California-native annual of Coastal S
 - **Rarity:** Common
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/hemizonia-congesta/hemizonia-congesta_01_inat-50654040.jpg)
+*(c) Bruce Homer-Smith, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/32305025)*
+
+![](../raw/assets/inaturalist/hemizonia-congesta/hemizonia-congesta_02_inat-209466304.jpeg)
+*(c) Alex, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/123637209)*
+
+![](../raw/assets/inaturalist/hemizonia-congesta/hemizonia-congesta_03_inat-50654030.jpg)
+*(c) Bruce Homer-Smith, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/32305025)*
+
+![](../raw/assets/inaturalist/hemizonia-congesta/hemizonia-congesta_04_inat-50654079.jpg)
+*(c) Bruce Homer-Smith, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/32305025)*
+
+![](../raw/assets/inaturalist/hemizonia-congesta/hemizonia-congesta_05_inat-50654052.jpg)
+*(c) Bruce Homer-Smith, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/32305025)*
+
 ## Sources
 
 - Calscape (CNPS) — [Hemizonia congesta](https://calscape.org/Hemizonia-congesta-%28Hayfield-Tarweed%29). Structured fields from the

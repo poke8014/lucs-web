@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Clematis ligusticifolia",
+  "taxon_id": 58996,
+  "photos_taxon_id": 58996,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 87330101,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/87330101/large.jpg",
+      "observation_id": 54869160,
+      "observation_url": "https://www.inaturalist.org/observations/54869160",
+      "observed_on": "2020-07-30",
+      "place_guess": "Eugene, OR, USA",
+      "user_login": "eralverson",
+      "filename": "clematis-ligusticifolia_01_inat-87330101.jpg"
+    },
+    {
+      "photo_id": 96373576,
+      "license": "cc-by",
+      "attribution": "(c) Cody Stricker, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/96373576/large.jpg",
+      "observation_id": 60279673,
+      "observation_url": "https://www.inaturalist.org/observations/60279673",
+      "observed_on": "2020-09-20",
+      "place_guess": "US-20, Thermopolis, WY, US",
+      "user_login": "codystricker",
+      "filename": "clematis-ligusticifolia_02_inat-96373576.jpg"
+    },
+    {
+      "photo_id": 106791759,
+      "license": "cc-by",
+      "attribution": "(c) Peter L Achuff, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106791759/large.jpg",
+      "observation_id": 66269742,
+      "observation_url": "https://www.inaturalist.org/observations/66269742",
+      "observed_on": "2020-06-29",
+      "place_guess": "Division No. 8, SK, Canada",
+      "user_login": "plachuff",
+      "filename": "clematis-ligusticifolia_03_inat-106791759.jpg"
+    },
+    {
+      "photo_id": 110110118,
+      "license": "cc-by",
+      "attribution": "(c) John Brew, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/110110118/large.jpg",
+      "observation_id": 68056807,
+      "observation_url": "https://www.inaturalist.org/observations/68056807",
+      "observed_on": "2020-10-20",
+      "place_guess": "Boyd Rd, Chelan, WA, US",
+      "user_login": "brewbooks",
+      "filename": "clematis-ligusticifolia_04_inat-110110118.jpg"
+    },
+    {
+      "photo_id": 293776191,
+      "license": "cc-by",
+      "attribution": "(c) jjfeiler, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/293776191/large.jpg",
+      "observation_id": 169449002,
+      "observation_url": "https://www.inaturalist.org/observations/169449002",
+      "observed_on": "2023-06-25",
+      "place_guess": "W.E. Johnson Park, Richland, WA, US",
+      "user_login": "jjfeiler",
+      "filename": "clematis-ligusticifolia_05_inat-293776191.jpg"
+    }
+  ]
+}

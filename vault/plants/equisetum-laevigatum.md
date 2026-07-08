@@ -78,6 +78,25 @@ Equisetum laevigatum (Horsetail) is a California-native perennial of Chaparral, 
 - **Site type:** Moist, sandy or gravelly places
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/equisetum-laevigatum/equisetum-laevigatum_01_inat-283773323.jpg)
+*(c) Harry Podschwit, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/164033002)*
+
+![](../raw/assets/inaturalist/equisetum-laevigatum/equisetum-laevigatum_02_inat-507107702.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/282268192)*
+
+![](../raw/assets/inaturalist/equisetum-laevigatum/equisetum-laevigatum_03_inat-120805292.jpg)
+*(c) Trevor Van Loon, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/73955066)*
+
+![](../raw/assets/inaturalist/equisetum-laevigatum/equisetum-laevigatum_04_inat-106879428.jpg)
+*(c) Seig, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/66315938)*
+
+![](../raw/assets/inaturalist/equisetum-laevigatum/equisetum-laevigatum_05_inat-75520251.jpg)
+*(c) aarongunnar, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/47612457)*
+
 ## Sources
 
 - Calscape (CNPS) — [Equisetum laevigatum](https://calscape.org/Equisetum-laevigatum-%28Horsetail%29). Structured fields from the

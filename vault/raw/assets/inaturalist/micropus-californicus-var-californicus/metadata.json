@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Micropus californicus var. californicus",
+  "taxon_id": 58030,
+  "photos_taxon_id": 58030,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 368750269,
+      "license": "cc-by",
+      "attribution": "(c) Katherine Scott, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368750269/large.jpeg",
+      "observation_id": 208414507,
+      "observation_url": "https://www.inaturalist.org/observations/208414507",
+      "observed_on": "2024-04-20",
+      "place_guess": "Fairfax, CA 94930, USA",
+      "user_login": "katherinescott1",
+      "filename": "micropus-californicus-var-californicus_01_inat-368750269.jpeg"
+    },
+    {
+      "photo_id": 94040138,
+      "license": "cc-by",
+      "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/94040138/large.jpg",
+      "observation_id": 58884761,
+      "observation_url": "https://www.inaturalist.org/observations/58884761",
+      "observed_on": "2006-05-07",
+      "place_guess": "Santa Rosa Island, Santa Barbara County, CA, USA",
+      "user_login": "matsonburger",
+      "filename": "micropus-californicus-var-californicus_02_inat-94040138.jpg"
+    },
+    {
+      "photo_id": 64717599,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/64717599/large.jpeg",
+      "observation_id": 40827283,
+      "observation_url": "https://www.inaturalist.org/observations/40827283",
+      "observed_on": "2020-03-26",
+      "place_guess": "Tehama, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "micropus-californicus-var-californicus_03_inat-64717599.jpeg"
+    },
+    {
+      "photo_id": 17597687,
+      "license": "cc-by",
+      "attribution": "(c) Monica Ventrice, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17597687/large.jpeg",
+      "observation_id": 12242807,
+      "observation_url": "https://www.inaturalist.org/observations/12242807",
+      "observed_on": "2018-04-29",
+      "place_guess": "Goodspeed Trail, Santa Rosa, CA 95409, USA",
+      "user_login": "moventrice",
+      "filename": "micropus-californicus-var-californicus_04_inat-17597687.jpeg"
+    },
+    {
+      "photo_id": 17668076,
+      "license": "cc-by",
+      "attribution": "(c) David Fischer, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/17668076/large.jpg",
+      "observation_id": 12283898,
+      "observation_url": "https://www.inaturalist.org/observations/12283898",
+      "observed_on": "2018-05-07",
+      "place_guess": "Shingle Springs, CA 95682, USA",
+      "user_login": "david_fischer",
+      "filename": "micropus-californicus-var-californicus_05_inat-17668076.jpg"
+    }
+  ]
+}

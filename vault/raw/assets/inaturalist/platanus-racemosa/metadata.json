@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Platanus racemosa",
+  "taxon_id": 58231,
+  "photos_taxon_id": 58231,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 248665230,
+      "license": "cc-by",
+      "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/248665230/large.jpg",
+      "observation_id": 144831563,
+      "observation_url": "https://www.inaturalist.org/observations/144831563",
+      "observed_on": "2016-03-19",
+      "place_guess": "Kern County, CA, USA",
+      "user_login": "matsonburger",
+      "filename": "platanus-racemosa_01_inat-248665230.jpg"
+    },
+    {
+      "photo_id": 591093,
+      "license": "cc-by",
+      "attribution": "(c) Charlie Hohn, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/591093/large.jpg",
+      "observation_id": 468503,
+      "observation_url": "https://www.inaturalist.org/observations/468503",
+      "observed_on": "2009-04-26",
+      "place_guess": "Orestimba Creek, CA",
+      "user_login": "charlie",
+      "filename": "platanus-racemosa_02_inat-591093.jpg"
+    },
+    {
+      "photo_id": 252743600,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/252743600/large.jpg",
+      "observation_id": 146938249,
+      "observation_url": "https://www.inaturalist.org/observations/146938249",
+      "observed_on": "2019-04-15",
+      "place_guess": "Ventura, California, United States",
+      "user_login": "serpophaga",
+      "filename": "platanus-racemosa_03_inat-252743600.jpg"
+    },
+    {
+      "photo_id": 393076531,
+      "license": "cc-by",
+      "attribution": "(c) klicklo, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/393076531/large.jpg",
+      "observation_id": 221935017,
+      "observation_url": "https://www.inaturalist.org/observations/221935017",
+      "observed_on": "2024-06-10",
+      "place_guess": "Glendale, CA, US",
+      "user_login": "klicklo",
+      "filename": "platanus-racemosa_04_inat-393076531.jpg"
+    },
+    {
+      "photo_id": 173156292,
+      "license": "cc-by",
+      "attribution": "(c) velodrome, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/173156292/large.jpeg",
+      "observation_id": 103458160,
+      "observation_url": "https://www.inaturalist.org/observations/103458160",
+      "observed_on": "2021-11-20",
+      "place_guess": "Los Angeles County, CA, USA",
+      "user_login": "velodrome",
+      "filename": "platanus-racemosa_05_inat-173156292.jpeg"
+    }
+  ]
+}

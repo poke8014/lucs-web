@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Rhamnus crocea",
+  "taxon_id": 57243,
+  "photos_taxon_id": 57243,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 181502912,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181502912/large.jpeg",
+      "observation_id": 107869395,
+      "observation_url": "https://www.inaturalist.org/observations/107869395",
+      "observed_on": "2022-02-19",
+      "place_guess": "Morro Bay State Park, San Luis Obispo, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "rhamnus-crocea_01_inat-181502912.jpeg"
+    },
+    {
+      "photo_id": 181502914,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181502914/large.jpeg",
+      "observation_id": 107869395,
+      "observation_url": "https://www.inaturalist.org/observations/107869395",
+      "observed_on": "2022-02-19",
+      "place_guess": "Morro Bay State Park, San Luis Obispo, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "rhamnus-crocea_02_inat-181502914.jpeg"
+    },
+    {
+      "photo_id": 181508027,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181508027/large.jpg",
+      "observation_id": 107869395,
+      "observation_url": "https://www.inaturalist.org/observations/107869395",
+      "observed_on": "2022-02-19",
+      "place_guess": "Morro Bay State Park, San Luis Obispo, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "rhamnus-crocea_03_inat-181508027.jpg"
+    },
+    {
+      "photo_id": 186160906,
+      "license": "cc-by",
+      "attribution": "(c) Tom and T Herman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186160906/large.jpeg",
+      "observation_id": 110362469,
+      "observation_url": "https://www.inaturalist.org/observations/110362469",
+      "observed_on": "2022-04-03",
+      "place_guess": "Harbison Canyon, CA, USA",
+      "user_login": "th92105",
+      "filename": "rhamnus-crocea_04_inat-186160906.jpeg"
+    },
+    {
+      "photo_id": 198799867,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/198799867/large.jpg",
+      "observation_id": 117696163,
+      "observation_url": "https://www.inaturalist.org/observations/117696163",
+      "observed_on": "2022-05-18",
+      "place_guess": "Harry A Barbier Memorial Park, San Rafael, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "rhamnus-crocea_05_inat-198799867.jpg"
+    }
+  ]
+}

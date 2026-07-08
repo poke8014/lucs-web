@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Trifolium variegatum",
+  "taxon_id": 57080,
+  "photos_taxon_id": 57080,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 136148299,
+      "license": "cc-by",
+      "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136148299/large.jpg",
+      "observation_id": 82927349,
+      "observation_url": "https://www.inaturalist.org/observations/82927349",
+      "observed_on": "2021-03-22",
+      "place_guess": "Chico, CA, USA",
+      "user_login": "matsonburger",
+      "filename": "trifolium-variegatum_01_inat-136148299.jpg"
+    },
+    {
+      "photo_id": 482329055,
+      "license": "cc-by",
+      "attribution": "(c) wonton_soup, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/482329055/large.jpg",
+      "observation_id": 268338546,
+      "observation_url": "https://www.inaturalist.org/observations/268338546",
+      "observed_on": "2025-04-02",
+      "place_guess": "Southeast, Herald, CA, US",
+      "user_login": "wonton_soup",
+      "filename": "trifolium-variegatum_02_inat-482329055.jpg"
+    },
+    {
+      "photo_id": 315420174,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/315420174/large.jpeg",
+      "observation_id": 181017318,
+      "observation_url": "https://www.inaturalist.org/observations/181017318",
+      "observed_on": "2020-06-14",
+      "place_guess": "Ventura County, CA, USA",
+      "user_login": "serpophaga",
+      "filename": "trifolium-variegatum_03_inat-315420174.jpeg"
+    },
+    {
+      "photo_id": 133437702,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/133437702/large.jpeg",
+      "observation_id": 81358960,
+      "observation_url": "https://www.inaturalist.org/observations/81358960",
+      "observed_on": "2021-05-30",
+      "place_guess": "Lane County, OR, USA",
+      "user_login": "cosmopterix",
+      "filename": "trifolium-variegatum_04_inat-133437702.jpeg"
+    },
+    {
+      "photo_id": 384192894,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/384192894/large.jpg",
+      "observation_id": 217208442,
+      "observation_url": "https://www.inaturalist.org/observations/217208442",
+      "observed_on": "2024-05-15",
+      "place_guess": "Whiskeytown-Shasta-Trinity National Recreation Area, Shasta County, US-CA, US",
+      "user_login": "dblanco",
+      "filename": "trifolium-variegatum_05_inat-384192894.jpg"
+    }
+  ]
+}

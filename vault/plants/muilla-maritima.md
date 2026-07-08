@@ -72,6 +72,25 @@ Muilla maritima (Common Muilla) is a California-native perennial of Chaparral, C
 - **Site type:** Many habitats. Most often in grasslands or canyon bottoms, and often in serpentine, alkaline or granitic soils
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/muilla-maritima/muilla-maritima_01_inat-6572609.jpg)
+*(c) W. Terry Hunefeld, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5308160)*
+
+![](../raw/assets/inaturalist/muilla-maritima/muilla-maritima_02_inat-290597660.jpg)
+*(c) James M. Maley, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/167730221)*
+
+![](../raw/assets/inaturalist/muilla-maritima/muilla-maritima_03_inat-69421491.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/43770372)*
+
+![](../raw/assets/inaturalist/muilla-maritima/muilla-maritima_04_inat-261431326.jpeg)
+*(c) D Defreese, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/151511095)*
+
+![](../raw/assets/inaturalist/muilla-maritima/muilla-maritima_05_inat-626182494.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/343722074)*
+
 ## Sources
 
 - Calscape (CNPS) — [Muilla maritima](https://calscape.org/Muilla-maritima-%28Common-Muilla%29). Structured fields from the

@@ -77,6 +77,25 @@ Castilleja affinis (Indian Paintbrush) is a California-native perennial of Coast
 - **Site type:** Sea bluffs, hillsides,dry places
 - **Nursery availability:** Rarely Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/castilleja-affinis/castilleja-affinis_01_inat-443324016.jpeg)
+*(c) Cayman Lanzone, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/248147671)*
+
+![](../raw/assets/inaturalist/castilleja-affinis/castilleja-affinis_02_inat-472496544.jpg)
+*(c) wonton_soup, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/263048593)*
+
+![](../raw/assets/inaturalist/castilleja-affinis/castilleja-affinis_03_inat-9575602.jpeg)
+*(c) Sam Kieschnick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/7379920)*
+
+![](../raw/assets/inaturalist/castilleja-affinis/castilleja-affinis_04_inat-63490989.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/39982512)*
+
+![](../raw/assets/inaturalist/castilleja-affinis/castilleja-affinis_05_inat-113052927.jpeg)
+*(c) Trevor Harding, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/69646115)*
+
 ## Sources
 
 - Calscape (CNPS) — [Castilleja affinis](https://calscape.org/Castilleja-affinis-%28Indian-Paintbrush%29). Structured fields from the

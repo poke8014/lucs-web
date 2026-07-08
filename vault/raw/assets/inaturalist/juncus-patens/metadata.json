@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Juncus patens",
+  "taxon_id": 52798,
+  "photos_taxon_id": 52798,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 22984,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22984/large.jpg",
+      "observation_id": 11247,
+      "observation_url": "https://www.inaturalist.org/observations/11247",
+      "observed_on": "2011-02-12",
+      "place_guess": "Huckleberry Botanic Preserve, Oakland, CA, USA",
+      "user_login": "kueda",
+      "filename": "juncus-patens_01_inat-22984.jpg"
+    },
+    {
+      "photo_id": 382039162,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/382039162/large.jpg",
+      "observation_id": 216042833,
+      "observation_url": "https://www.inaturalist.org/observations/216042833",
+      "observed_on": "2024-05-15",
+      "place_guess": "Multnomah County, US-OR, US",
+      "user_login": "whiteoak",
+      "filename": "juncus-patens_02_inat-382039162.jpg"
+    },
+    {
+      "photo_id": 2055719,
+      "license": "cc-by",
+      "attribution": "(c) AJ Wacaser, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/2055719/large.jpg",
+      "observation_id": 1697758,
+      "observation_url": "https://www.inaturalist.org/observations/1697758",
+      "observed_on": "2015-06-27",
+      "place_guess": "Marin County, US-CA, US",
+      "user_login": "ajwacaser",
+      "filename": "juncus-patens_03_inat-2055719.jpg"
+    },
+    {
+      "photo_id": 254630264,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/254630264/large.jpeg",
+      "observation_id": 147923498,
+      "observation_url": "https://www.inaturalist.org/observations/147923498",
+      "observed_on": "2023-02-02",
+      "place_guess": "Sausalito, CA 94965, USA",
+      "user_login": "we_are_learning_to_love_nandina",
+      "filename": "juncus-patens_04_inat-254630264.jpeg"
+    },
+    {
+      "photo_id": 263546942,
+      "license": "cc-by",
+      "attribution": "(c) Michael Warner, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/263546942/large.jpeg",
+      "observation_id": 152652516,
+      "observation_url": "https://www.inaturalist.org/observations/152652516",
+      "observed_on": "2023-03-27",
+      "place_guess": "Kentfield, CA, USA",
+      "user_login": "ouzel",
+      "filename": "juncus-patens_05_inat-263546942.jpeg"
+    }
+  ]
+}

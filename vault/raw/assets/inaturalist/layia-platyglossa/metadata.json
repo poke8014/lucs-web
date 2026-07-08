@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Layia platyglossa",
+  "taxon_id": 50876,
+  "photos_taxon_id": 50876,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 182266788,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/182266788/large.jpg",
+      "observation_id": 108273823,
+      "observation_url": "https://www.inaturalist.org/observations/108273823",
+      "observed_on": "2022-03-09",
+      "place_guess": "Negro Bar State Park, Orangevale, CA, US",
+      "user_login": "grnleaf",
+      "filename": "layia-platyglossa_01_inat-182266788.jpg"
+    },
+    {
+      "photo_id": 259775836,
+      "license": "cc-by",
+      "attribution": "(c) Amy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/259775836/large.jpeg",
+      "observation_id": 150631391,
+      "observation_url": "https://www.inaturalist.org/observations/150631391",
+      "observed_on": "2023-03-05",
+      "place_guess": "La Jolla, San Diego, CA, USA",
+      "user_login": "arboretum_amy",
+      "filename": "layia-platyglossa_02_inat-259775836.jpeg"
+    },
+    {
+      "photo_id": 502952747,
+      "license": "cc-by",
+      "attribution": "(c) Topher Mueller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/502952747/large.jpg",
+      "observation_id": 280057129,
+      "observation_url": "https://www.inaturalist.org/observations/280057129",
+      "observed_on": "2025-05-10",
+      "place_guess": "Fort Ord National Monument, Salinas, CA, US",
+      "user_login": "topher_mueller",
+      "filename": "layia-platyglossa_03_inat-502952747.jpg"
+    },
+    {
+      "photo_id": 504414694,
+      "license": "cc-by",
+      "attribution": "(c) Rebecca Johnson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/504414694/large.jpg",
+      "observation_id": 280829306,
+      "observation_url": "https://www.inaturalist.org/observations/280829306",
+      "observed_on": "2025-05-11",
+      "place_guess": "Loop Trail, Corte Madera, CA, US",
+      "user_login": "rebeccafay",
+      "filename": "layia-platyglossa_04_inat-504414694.jpg"
+    },
+    {
+      "photo_id": 365882045,
+      "license": "cc-by",
+      "attribution": "(c) Melanie J. Davis, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365882045/large.jpg",
+      "observation_id": 206883423,
+      "observation_url": "https://www.inaturalist.org/observations/206883423",
+      "observed_on": "2024-04-08",
+      "place_guess": "Santa Catalina Island, Avalon, CA, US",
+      "user_login": "meljean",
+      "filename": "layia-platyglossa_05_inat-365882045.jpg"
+    }
+  ]
+}

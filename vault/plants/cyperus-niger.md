@@ -69,6 +69,25 @@ Cyperus niger (Black Flatsedge) is a California-native grass of Coastal Scrub, F
 - **Plant communities:** Coastal Sage Scrub, Foothill Woodland, Mixed Evergreen Forest, Northern Coastal Scrub, Southern Oak Woodland, Wetland-Riparian, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cyperus-niger/cyperus-niger_01_inat-576148183.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/318766923)*
+
+![](../raw/assets/inaturalist/cyperus-niger/cyperus-niger_02_inat-444345557.jpg)
+*(c) Sue Carnahan, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/248659418)*
+
+![](../raw/assets/inaturalist/cyperus-niger/cyperus-niger_03_inat-2997565.JPG)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/2666594)*
+
+![](../raw/assets/inaturalist/cyperus-niger/cyperus-niger_04_inat-5231071.jpg)
+*(c) Neptalí Ramírez Marcial, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/4366075)*
+
+![](../raw/assets/inaturalist/cyperus-niger/cyperus-niger_05_inat-619011628.jpg)
+*(c) Zihao Wang, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/340185212)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cyperus niger](https://calscape.org/Cyperus-niger-%28Black-Flatsedge%29). Structured fields from the

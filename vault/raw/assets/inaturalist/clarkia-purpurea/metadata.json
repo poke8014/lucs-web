@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Clarkia purpurea",
+  "taxon_id": 51087,
+  "photos_taxon_id": 51087,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 287545224,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/287545224/large.jpg",
+      "observation_id": 166069303,
+      "observation_url": "https://www.inaturalist.org/observations/166069303",
+      "observed_on": "2023-06-05",
+      "place_guess": "Salinas, CA, US",
+      "user_login": "aparrot1",
+      "filename": "clarkia-purpurea_01_inat-287545224.jpg"
+    },
+    {
+      "photo_id": 541482091,
+      "license": "cc-by",
+      "attribution": "(c) Simone Littledale, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/541482091/large.jpg",
+      "observation_id": 300519396,
+      "observation_url": "https://www.inaturalist.org/observations/300519396",
+      "observed_on": "2025-07-23",
+      "place_guess": "Victoria, BC V8R 3M7, Canada",
+      "user_login": "simonele",
+      "filename": "clarkia-purpurea_02_inat-541482091.jpg"
+    },
+    {
+      "photo_id": 130797183,
+      "license": "cc-by",
+      "attribution": "(c) Brodie Cass Talbott, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/130797183/large.jpeg",
+      "observation_id": 79838097,
+      "observation_url": "https://www.inaturalist.org/observations/79838097",
+      "observed_on": "2021-05-22",
+      "place_guess": "Medford, OR 97503, USA",
+      "user_login": "brodiecasstalbott",
+      "filename": "clarkia-purpurea_03_inat-130797183.jpeg"
+    },
+    {
+      "photo_id": 638959054,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/638959054/large.jpg",
+      "observation_id": 350210919,
+      "observation_url": "https://www.inaturalist.org/observations/350210919",
+      "observed_on": "2026-04-15",
+      "place_guess": "Coyote Lake - Harvey Bear Ranch County Park, San Martin, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "clarkia-purpurea_04_inat-638959054.jpg"
+    },
+    {
+      "photo_id": 125659453,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/125659453/large.jpeg",
+      "observation_id": 76830526,
+      "observation_url": "https://www.inaturalist.org/observations/76830526",
+      "observed_on": "2021-05-02",
+      "place_guess": "Leona Heights, Oakland, CA, USA",
+      "user_login": "kueda",
+      "filename": "clarkia-purpurea_05_inat-125659453.jpeg"
+    }
+  ]
+}

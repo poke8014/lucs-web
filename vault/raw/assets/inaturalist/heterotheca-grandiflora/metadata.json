@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Heterotheca grandiflora",
+  "taxon_id": 58831,
+  "photos_taxon_id": 58831,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 6107438,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6107438/large.jpeg",
+      "observation_id": 4997075,
+      "observation_url": "https://www.inaturalist.org/observations/4997075",
+      "observed_on": "2017-01-23",
+      "place_guess": "4000 Pacific Avenue Marina del Rey, CA 90292",
+      "user_login": "fake_id",
+      "filename": "heterotheca-grandiflora_01_inat-6107438.jpeg"
+    },
+    {
+      "photo_id": 242110223,
+      "license": "cc-by",
+      "attribution": "(c) Amy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/242110223/large.jpeg",
+      "observation_id": 141339859,
+      "observation_url": "https://www.inaturalist.org/observations/141339859",
+      "observed_on": "2022-08-07",
+      "place_guess": "Orange County, CA, USA",
+      "user_login": "arboretum_amy",
+      "filename": "heterotheca-grandiflora_02_inat-242110223.jpeg"
+    },
+    {
+      "photo_id": 573353358,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/573353358/large.jpg",
+      "observation_id": 317303599,
+      "observation_url": "https://www.inaturalist.org/observations/317303599",
+      "observed_on": "2025-09-27",
+      "place_guess": "Wilder Ranch State Park, Santa Cruz, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "heterotheca-grandiflora_03_inat-573353358.jpg"
+    },
+    {
+      "photo_id": 428717563,
+      "license": "cc-by",
+      "attribution": "(c) Amelia Tauber, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/428717563/large.jpeg",
+      "observation_id": 240623093,
+      "observation_url": "https://www.inaturalist.org/observations/240623093",
+      "observed_on": "2024-09-08",
+      "place_guess": "County Road 102, Woodland, CA, US",
+      "user_login": "antrozousamelia",
+      "filename": "heterotheca-grandiflora_04_inat-428717563.jpeg"
+    },
+    {
+      "photo_id": 170638166,
+      "license": "cc-by",
+      "attribution": "(c) Justin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170638166/large.jpeg",
+      "observation_id": 102115315,
+      "observation_url": "https://www.inaturalist.org/observations/102115315",
+      "observed_on": "2021-11-27",
+      "place_guess": "Pilot Hill, CA 95664, USA",
+      "user_login": "justin2",
+      "filename": "heterotheca-grandiflora_05_inat-170638166.jpeg"
+    }
+  ]
+}

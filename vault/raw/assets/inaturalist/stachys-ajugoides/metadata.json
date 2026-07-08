@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Stachys ajugoides",
+  "taxon_id": 53295,
+  "photos_taxon_id": 53295,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 7209572,
+      "license": "cc-by",
+      "attribution": "(c) John Hibbard, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/7209572/large.jpg",
+      "observation_id": 5800889,
+      "observation_url": "https://www.inaturalist.org/observations/5800889",
+      "observed_on": "2017-04-17",
+      "place_guess": "Santa Rosa, CA, USA",
+      "user_login": "icosahedron",
+      "filename": "stachys-ajugoides_01_inat-7209572.jpg"
+    },
+    {
+      "photo_id": 16531575,
+      "license": "cc-by",
+      "attribution": "(c) Karen (with occasional help from Mike), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/16531575/large.png",
+      "observation_id": 11574645,
+      "observation_url": "https://www.inaturalist.org/observations/11574645",
+      "observed_on": "2018-04-27",
+      "place_guess": "Sonoma County, CA, USA",
+      "user_login": "mpkw",
+      "filename": "stachys-ajugoides_02_inat-16531575.png"
+    },
+    {
+      "photo_id": 306655389,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/306655389/large.jpg",
+      "observation_id": 176386195,
+      "observation_url": "https://www.inaturalist.org/observations/176386195",
+      "observed_on": "2023-08-02",
+      "place_guess": "Fort Ord National Monument, Marina, CA, US",
+      "user_login": "aparrot1",
+      "filename": "stachys-ajugoides_03_inat-306655389.jpg"
+    },
+    {
+      "photo_id": 48062,
+      "license": "cc-by",
+      "attribution": "(c) folini, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/48062/large.jpg",
+      "observation_id": 26777,
+      "observation_url": "https://www.inaturalist.org/observations/26777",
+      "observed_on": "2011-07-30",
+      "place_guess": "Huckleberry Botanic Regional Preserve, Oakland, CA",
+      "user_login": "folini",
+      "filename": "stachys-ajugoides_04_inat-48062.jpg"
+    },
+    {
+      "photo_id": 22011983,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22011983/large.jpeg",
+      "observation_id": 14754766,
+      "observation_url": "https://www.inaturalist.org/observations/14754766",
+      "observed_on": "2018-07-25",
+      "place_guess": "130 Headlands Trail, Cayucos, CA 93430, USA",
+      "user_login": "fake_id",
+      "filename": "stachys-ajugoides_05_inat-22011983.jpeg"
+    }
+  ]
+}

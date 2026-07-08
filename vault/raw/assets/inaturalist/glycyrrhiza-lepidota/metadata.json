@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Glycyrrhiza lepidota",
+  "taxon_id": 58896,
+  "photos_taxon_id": 58896,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 213947334,
+      "license": "cc-by",
+      "attribution": "(c) Dustin Snider, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/213947334/large.jpg",
+      "observation_id": 126116397,
+      "observation_url": "https://www.inaturalist.org/observations/126116397",
+      "observed_on": "2022-07-13",
+      "place_guess": "Dave Elton, Lethbridge, AB, CA",
+      "user_login": "dustin777",
+      "filename": "glycyrrhiza-lepidota_01_inat-213947334.jpg"
+    },
+    {
+      "photo_id": 10090321,
+      "license": "cc-by",
+      "attribution": "(c) zookanthos, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10090321/large.jpg",
+      "observation_id": 7698151,
+      "observation_url": "https://www.inaturalist.org/observations/7698151",
+      "observed_on": "2017-08-28",
+      "place_guess": "South Jordan, UT, USA",
+      "user_login": "zookanthos",
+      "filename": "glycyrrhiza-lepidota_02_inat-10090321.jpg"
+    },
+    {
+      "photo_id": 421946305,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/421946305/large.jpeg",
+      "observation_id": 237117081,
+      "observation_url": "https://www.inaturalist.org/observations/237117081",
+      "observed_on": "2024-08-19",
+      "place_guess": "Northwest Calgary, Calgary, AB, Canada",
+      "user_login": "quillipede",
+      "filename": "glycyrrhiza-lepidota_03_inat-421946305.jpeg"
+    },
+    {
+      "photo_id": 81296543,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/81296543/large.jpg",
+      "observation_id": 51178092,
+      "observation_url": "https://www.inaturalist.org/observations/51178092",
+      "observed_on": "2020-06-27",
+      "place_guess": "Watertown, SD, US",
+      "user_login": "omcelroy",
+      "filename": "glycyrrhiza-lepidota_04_inat-81296543.jpg"
+    },
+    {
+      "photo_id": 456406238,
+      "license": "cc-by",
+      "attribution": "(c) Jared Lincenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/456406238/large.jpg",
+      "observation_id": 254764240,
+      "observation_url": "https://www.inaturalist.org/observations/254764240",
+      "observed_on": "2024-12-10",
+      "place_guess": "Wetland Loop, Aurora, CO, US",
+      "user_login": "jared_lincenberg",
+      "filename": "glycyrrhiza-lepidota_05_inat-456406238.jpg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Koeleria macrantha",
+  "taxon_id": 57183,
+  "photos_taxon_id": 57183,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 511681641,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511681641/large.jpg",
+      "observation_id": 284700271,
+      "observation_url": "https://www.inaturalist.org/observations/284700271",
+      "observed_on": "2025-05-27",
+      "place_guess": "Pfeiffer Big Sur State Park, Big Sur, CA, US",
+      "user_login": "grnleaf",
+      "filename": "koeleria-macrantha_01_inat-511681641.jpg"
+    },
+    {
+      "photo_id": 79378658,
+      "license": "cc-by",
+      "attribution": "(c) Eric Lamb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79378658/large.jpg",
+      "observation_id": 49990329,
+      "observation_url": "https://www.inaturalist.org/observations/49990329",
+      "observed_on": "2020-06-17",
+      "place_guess": "Strathcona Ave, Corman Park No. 344, SK, CA",
+      "user_login": "eric_lamb",
+      "filename": "koeleria-macrantha_02_inat-79378658.jpg"
+    },
+    {
+      "photo_id": 88102074,
+      "license": "cc-by",
+      "attribution": "(c) Steve Matson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/88102074/large.jpg",
+      "observation_id": 55333605,
+      "observation_url": "https://www.inaturalist.org/observations/55333605",
+      "observed_on": "2015-08-15",
+      "place_guess": "Mono County, CA, USA",
+      "user_login": "matsonburger",
+      "filename": "koeleria-macrantha_03_inat-88102074.jpg"
+    },
+    {
+      "photo_id": 511681676,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/511681676/large.jpg",
+      "observation_id": 284700271,
+      "observation_url": "https://www.inaturalist.org/observations/284700271",
+      "observed_on": "2025-05-27",
+      "place_guess": "Pfeiffer Big Sur State Park, Big Sur, CA, US",
+      "user_login": "grnleaf",
+      "filename": "koeleria-macrantha_04_inat-511681676.jpg"
+    },
+    {
+      "photo_id": 79378627,
+      "license": "cc-by",
+      "attribution": "(c) Eric Lamb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79378627/large.jpg",
+      "observation_id": 49990329,
+      "observation_url": "https://www.inaturalist.org/observations/49990329",
+      "observed_on": "2020-06-17",
+      "place_guess": "Strathcona Ave, Corman Park No. 344, SK, CA",
+      "user_login": "eric_lamb",
+      "filename": "koeleria-macrantha_05_inat-79378627.jpg"
+    }
+  ]
+}

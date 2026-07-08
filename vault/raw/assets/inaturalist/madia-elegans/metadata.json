@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Madia elegans",
+  "taxon_id": 56974,
+  "photos_taxon_id": 56974,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 45761450,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45761450/large.jpg",
+      "observation_id": 29324939,
+      "observation_url": "https://www.inaturalist.org/observations/29324939",
+      "observed_on": "2019-07-13",
+      "place_guess": "Los Padres National Forest, Maricopa, CA, US",
+      "user_login": "serpophaga",
+      "filename": "madia-elegans_01_inat-45761450.jpg"
+    },
+    {
+      "photo_id": 57465002,
+      "license": "cc-by",
+      "attribution": "(c) Ed Alverson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/57465002/large.jpeg",
+      "observation_id": 36361721,
+      "observation_url": "https://www.inaturalist.org/observations/36361721",
+      "observed_on": "2019-07-25",
+      "place_guess": "Lane County, OR, USA",
+      "user_login": "eralverson",
+      "filename": "madia-elegans_02_inat-57465002.jpeg"
+    },
+    {
+      "photo_id": 567148196,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/567148196/large.jpg",
+      "observation_id": 314025927,
+      "observation_url": "https://www.inaturalist.org/observations/314025927",
+      "observed_on": "2025-09-14",
+      "place_guess": "San Geronimo Valley Dr, San Geronimo, CA, US",
+      "user_login": "loarie",
+      "filename": "madia-elegans_03_inat-567148196.jpg"
+    },
+    {
+      "photo_id": 455932004,
+      "license": "cc-by",
+      "attribution": "(c) Parker James Lloyd, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/455932004/large.jpg",
+      "observation_id": 254531840,
+      "observation_url": "https://www.inaturalist.org/observations/254531840",
+      "observed_on": "2021-05-08",
+      "place_guess": "Upper Table Rock Trail, White City, OR, US",
+      "user_login": "thesassyteapot",
+      "filename": "madia-elegans_04_inat-455932004.jpg"
+    },
+    {
+      "photo_id": 432507941,
+      "license": "cc-by",
+      "attribution": "(c) Alexander Wentworth, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/432507941/large.jpeg",
+      "observation_id": 242603333,
+      "observation_url": "https://www.inaturalist.org/observations/242603333",
+      "observed_on": "2024-09-10",
+      "place_guess": "San Mateo County, US-CA, US",
+      "user_login": "alex_wentworth",
+      "filename": "madia-elegans_05_inat-432507941.jpeg"
+    }
+  ]
+}

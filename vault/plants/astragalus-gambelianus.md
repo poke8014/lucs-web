@@ -71,6 +71,25 @@ Astragalus gambelianus (Gambel's Dwarf Milk Vetch) is a California-native annual
 - **Site type:** Open, grassy places
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/astragalus-gambelianus/astragalus-gambelianus_01_inat-373711916.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/211369309)*
+
+![](../raw/assets/inaturalist/astragalus-gambelianus/astragalus-gambelianus_02_inat-373711969.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/211369309)*
+
+![](../raw/assets/inaturalist/astragalus-gambelianus/astragalus-gambelianus_03_inat-373712041.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/211369309)*
+
+![](../raw/assets/inaturalist/astragalus-gambelianus/astragalus-gambelianus_04_inat-265387010.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/153654792)*
+
+![](../raw/assets/inaturalist/astragalus-gambelianus/astragalus-gambelianus_05_inat-620734505.jpg)
+*(c) klicklo, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/341033715)*
+
 ## Sources
 
 - Calscape (CNPS) — [Astragalus gambelianus](https://calscape.org/Astragalus-gambelianus-%28Gambel%27s-Dwarf-Milk-Vetch%29). Structured fields from the

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Gilia achilleifolia ssp. achilleifolia",
+  "taxon_id": 51101,
+  "photos_taxon_id": 51101,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 35150980,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35150980/large.jpg",
+      "observation_id": 22685241,
+      "observation_url": "https://www.inaturalist.org/observations/22685241",
+      "observed_on": "2019-04-18",
+      "place_guess": "93405, San Luis Obispo, CA, US",
+      "user_login": "kylenessen",
+      "filename": "gilia-achilleifolia-ssp-achilleifolia_01_inat-35150980.jpg"
+    },
+    {
+      "photo_id": 35156127,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35156127/large.jpg",
+      "observation_id": 22685241,
+      "observation_url": "https://www.inaturalist.org/observations/22685241",
+      "observed_on": "2019-04-18",
+      "place_guess": "93405, San Luis Obispo, CA, US",
+      "user_login": "kylenessen",
+      "filename": "gilia-achilleifolia-ssp-achilleifolia_02_inat-35156127.jpg"
+    },
+    {
+      "photo_id": 35156141,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35156141/large.jpg",
+      "observation_id": 22685241,
+      "observation_url": "https://www.inaturalist.org/observations/22685241",
+      "observed_on": "2019-04-18",
+      "place_guess": "93405, San Luis Obispo, CA, US",
+      "user_login": "kylenessen",
+      "filename": "gilia-achilleifolia-ssp-achilleifolia_03_inat-35156141.jpg"
+    },
+    {
+      "photo_id": 35156103,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35156103/large.jpg",
+      "observation_id": 22685241,
+      "observation_url": "https://www.inaturalist.org/observations/22685241",
+      "observed_on": "2019-04-18",
+      "place_guess": "93405, San Luis Obispo, CA, US",
+      "user_login": "kylenessen",
+      "filename": "gilia-achilleifolia-ssp-achilleifolia_04_inat-35156103.jpg"
+    },
+    {
+      "photo_id": 35156114,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35156114/large.jpg",
+      "observation_id": 22685241,
+      "observation_url": "https://www.inaturalist.org/observations/22685241",
+      "observed_on": "2019-04-18",
+      "place_guess": "93405, San Luis Obispo, CA, US",
+      "user_login": "kylenessen",
+      "filename": "gilia-achilleifolia-ssp-achilleifolia_05_inat-35156114.jpg"
+    }
+  ]
+}

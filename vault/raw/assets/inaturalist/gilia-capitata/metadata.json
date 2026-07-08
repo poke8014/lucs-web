@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Gilia capitata",
+  "taxon_id": 57793,
+  "photos_taxon_id": 57793,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 32447962,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32447962/large.jpg",
+      "observation_id": 21008717,
+      "observation_url": "https://www.inaturalist.org/observations/21008717",
+      "observed_on": "2005-03-12",
+      "place_guess": "Ventura County, CA, USA",
+      "user_login": "serpophaga",
+      "filename": "gilia-capitata_01_inat-32447962.jpg"
+    },
+    {
+      "photo_id": 396275823,
+      "license": "cc-by",
+      "attribution": "(c) Karen (with occasional help from Mike), some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/396275823/large.jpg",
+      "observation_id": 223551671,
+      "observation_url": "https://www.inaturalist.org/observations/223551671",
+      "observed_on": "2024-06-18",
+      "place_guess": "California, US",
+      "user_login": "mpkw",
+      "filename": "gilia-capitata_02_inat-396275823.jpg"
+    },
+    {
+      "photo_id": 140551838,
+      "license": "cc-by",
+      "attribution": "(c) Gavin Slater, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/140551838/large.jpeg",
+      "observation_id": 85425077,
+      "observation_url": "https://www.inaturalist.org/observations/85425077",
+      "observed_on": "2021-07-01",
+      "place_guess": "Washington, US",
+      "user_login": "littlelegofan",
+      "filename": "gilia-capitata_03_inat-140551838.jpeg"
+    },
+    {
+      "photo_id": 355330366,
+      "license": "cc-by",
+      "attribution": "(c) runcator, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/355330366/large.jpeg",
+      "observation_id": 201304098,
+      "observation_url": "https://www.inaturalist.org/observations/201304098",
+      "observed_on": "2005-05-14",
+      "place_guess": "California, US",
+      "user_login": "runcator",
+      "filename": "gilia-capitata_04_inat-355330366.jpeg"
+    },
+    {
+      "photo_id": 148419916,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/148419916/large.jpeg",
+      "observation_id": 89850996,
+      "observation_url": "https://www.inaturalist.org/observations/89850996",
+      "observed_on": "2021-07-18",
+      "place_guess": "Tuscarora Creek, Frederick, MD 21702, USA",
+      "user_login": "andywilson",
+      "filename": "gilia-capitata_05_inat-148419916.jpeg"
+    }
+  ]
+}

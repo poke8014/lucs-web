@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Heliotropium curassavicum",
+  "taxon_id": 58058,
+  "photos_taxon_id": 58058,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 117631999,
+      "license": "cc-by",
+      "attribution": "(c) Elena Ortiz, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/117631999/large.jpg",
+      "observation_id": 72175897,
+      "observation_url": "https://www.inaturalist.org/observations/72175897",
+      "observed_on": "2021-03-26",
+      "place_guess": "Central City, Phoenix, AZ, US",
+      "user_login": "elena10",
+      "filename": "heliotropium-curassavicum_01_inat-117631999.jpg"
+    },
+    {
+      "photo_id": 380223461,
+      "license": "cc-by",
+      "attribution": "(c) Steve Taylor, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/380223461/large.jpg",
+      "observation_id": 215080875,
+      "observation_url": "https://www.inaturalist.org/observations/215080875",
+      "observed_on": "2024-05-11",
+      "place_guess": "E Saint Marys St, Saint Marys, GA, US",
+      "user_login": "ceuthophilus",
+      "filename": "heliotropium-curassavicum_02_inat-380223461.jpg"
+    },
+    {
+      "photo_id": 579838535,
+      "license": "cc-by",
+      "attribution": "(c) Jonas Katona, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/579838535/large.jpg",
+      "observation_id": 320680030,
+      "observation_url": "https://www.inaturalist.org/observations/320680030",
+      "observed_on": "2025-10-12",
+      "place_guess": "Sun Village, CA 93543, USA",
+      "user_login": "jonaskat",
+      "filename": "heliotropium-curassavicum_03_inat-579838535.jpg"
+    },
+    {
+      "photo_id": 303742946,
+      "license": "cc-by",
+      "attribution": "(c) Brodie Cass Talbott, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/303742946/large.jpeg",
+      "observation_id": 174812833,
+      "observation_url": "https://www.inaturalist.org/observations/174812833",
+      "observed_on": "2023-07-24",
+      "place_guess": "Oregon, Lewis and Clark National Historic Trail, US",
+      "user_login": "brodiecasstalbott",
+      "filename": "heliotropium-curassavicum_04_inat-303742946.jpeg"
+    },
+    {
+      "photo_id": 41602655,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41602655/large.jpeg",
+      "observation_id": 26779292,
+      "observation_url": "https://www.inaturalist.org/observations/26779292",
+      "observed_on": "2019-06-09",
+      "place_guess": "San Luis Obispo County, CA, USA",
+      "user_login": "dkincmbria",
+      "filename": "heliotropium-curassavicum_05_inat-41602655.jpeg"
+    }
+  ]
+}

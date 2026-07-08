@@ -85,6 +85,25 @@ Salix lasiolepis (Arroyo Willow) is a California-native tree of Chaparral, Fores
 - **Site type:** Shores, marshes, meadows, springs, other moist areas
 - **Rarity:** Abundant
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/salix-lasiolepis/salix-lasiolepis_01_inat-429778211.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/241169094)*
+
+![](../raw/assets/inaturalist/salix-lasiolepis/salix-lasiolepis_02_inat-1293150.jpg)
+*(c) 101595408250610106310, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/1030822)*
+
+![](../raw/assets/inaturalist/salix-lasiolepis/salix-lasiolepis_03_inat-100211841.jpeg)
+*(c) Amy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/62535678)*
+
+![](../raw/assets/inaturalist/salix-lasiolepis/salix-lasiolepis_04_inat-165724108.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/99419246)*
+
+![](../raw/assets/inaturalist/salix-lasiolepis/salix-lasiolepis_05_inat-429778286.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/241169094)*
+
 ## Sources
 
 - Calscape (CNPS) — [Salix lasiolepis](https://calscape.org/Salix-lasiolepis-%28Arroyo-Willow%29). Structured fields from the

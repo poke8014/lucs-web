@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Festuca microstachys",
+  "taxon_id": 77138,
+  "photos_taxon_id": 77138,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 369819118,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/369819118/large.jpg",
+      "observation_id": 208992983,
+      "observation_url": "https://www.inaturalist.org/observations/208992983",
+      "observed_on": "2024-04-23",
+      "place_guess": "Prairie City SVRA, Rancho Cordova, CA, US",
+      "user_login": "grnleaf",
+      "filename": "festuca-microstachys_01_inat-369819118.jpg"
+    },
+    {
+      "photo_id": 265710939,
+      "license": "cc-by",
+      "attribution": "(c) D Defreese, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/265710939/large.jpeg",
+      "observation_id": 153815647,
+      "observation_url": "https://www.inaturalist.org/observations/153815647",
+      "observed_on": "2023-04-05",
+      "place_guess": "Springtown, Livermore, CA 94551, USA",
+      "user_login": "ddefreese",
+      "filename": "festuca-microstachys_02_inat-265710939.jpeg"
+    },
+    {
+      "photo_id": 368734879,
+      "license": "cc-by",
+      "attribution": "(c) Ryan Donnelly, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/368734879/large.jpg",
+      "observation_id": 208406844,
+      "observation_url": "https://www.inaturalist.org/observations/208406844",
+      "observed_on": "2024-04-20",
+      "place_guess": "Sonora, CA, US",
+      "user_login": "rynaturalist",
+      "filename": "festuca-microstachys_03_inat-368734879.jpg"
+    },
+    {
+      "photo_id": 529576053,
+      "license": "cc-by",
+      "attribution": "(c) Tim Messick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/529576053/large.jpg",
+      "observation_id": 294227077,
+      "observation_url": "https://www.inaturalist.org/observations/294227077",
+      "observed_on": "2025-06-13",
+      "place_guess": "El Dorado County, CA, USA",
+      "user_login": "tmessick",
+      "filename": "festuca-microstachys_04_inat-529576053.jpg"
+    },
+    {
+      "photo_id": 124467670,
+      "license": "cc-by",
+      "attribution": "(c) Madeleine Claire, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/124467670/large.jpg",
+      "observation_id": 76072398,
+      "observation_url": "https://www.inaturalist.org/observations/76072398",
+      "observed_on": "2021-04-30",
+      "place_guess": "Cleveland National Forest, Alpine, CA, US",
+      "user_login": "madily",
+      "filename": "festuca-microstachys_05_inat-124467670.jpg"
+    }
+  ]
+}

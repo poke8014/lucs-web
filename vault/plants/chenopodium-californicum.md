@@ -65,6 +65,25 @@ Chenopodium californicum (California Goosefoot) is a California-native perennial
 - **Plant communities:** Chaparral, Foothill Woodland, Valley Grassland, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/chenopodium-californicum/chenopodium-californicum_01_inat-3321891.jpg)
+*(c) Alisa Kim, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/2903872)*
+
+![](../raw/assets/inaturalist/chenopodium-californicum/chenopodium-californicum_02_inat-3252120.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/2851079)*
+
+![](../raw/assets/inaturalist/chenopodium-californicum/chenopodium-californicum_03_inat-262331660.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/151990217)*
+
+![](../raw/assets/inaturalist/chenopodium-californicum/chenopodium-californicum_04_inat-19517108.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/13323029)*
+
+![](../raw/assets/inaturalist/chenopodium-californicum/chenopodium-californicum_05_inat-3321893.jpg)
+*(c) Alisa Kim, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/2903872)*
+
 ## Sources
 
 - Calscape (CNPS) — [Chenopodium californicum](https://calscape.org/Chenopodium-californicum-%28California-Goosefoot%29). Structured fields from the

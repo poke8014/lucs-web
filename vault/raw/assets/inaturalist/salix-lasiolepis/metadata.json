@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Salix lasiolepis",
+  "taxon_id": 53452,
+  "photos_taxon_id": 53452,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 429778211,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429778211/large.jpeg",
+      "observation_id": 241169094,
+      "observation_url": "https://www.inaturalist.org/observations/241169094",
+      "observed_on": "2024-09-11",
+      "place_guess": "Los Pe\u00f1asquitos Lagoon, San Diego, CA, US",
+      "user_login": "ingorenner",
+      "filename": "salix-lasiolepis_01_inat-429778211.jpeg"
+    },
+    {
+      "photo_id": 1293150,
+      "license": "cc-by",
+      "attribution": "(c) 101595408250610106310, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1293150/large.jpg",
+      "observation_id": 1030822,
+      "observation_url": "https://www.inaturalist.org/observations/1030822",
+      "observed_on": "2014-10-18",
+      "place_guess": "Jordan Creek",
+      "user_login": "justin2",
+      "filename": "salix-lasiolepis_02_inat-1293150.jpg"
+    },
+    {
+      "photo_id": 100211841,
+      "license": "cc-by",
+      "attribution": "(c) Amy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/100211841/large.jpeg",
+      "observation_id": 62535678,
+      "observation_url": "https://www.inaturalist.org/observations/62535678",
+      "observed_on": "2020-10-11",
+      "place_guess": "Cuyamaca Rancho, Cuyamaca Rancho State Park, San Diego, California, United States",
+      "user_login": "arboretum_amy",
+      "filename": "salix-lasiolepis_03_inat-100211841.jpeg"
+    },
+    {
+      "photo_id": 165724108,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/165724108/large.jpg",
+      "observation_id": 99419246,
+      "observation_url": "https://www.inaturalist.org/observations/99419246",
+      "observed_on": "2018-07-13",
+      "place_guess": "Ventura, California, United States",
+      "user_login": "serpophaga",
+      "filename": "salix-lasiolepis_04_inat-165724108.jpg"
+    },
+    {
+      "photo_id": 429778286,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/429778286/large.jpeg",
+      "observation_id": 241169094,
+      "observation_url": "https://www.inaturalist.org/observations/241169094",
+      "observed_on": "2024-09-11",
+      "place_guess": "Los Pe\u00f1asquitos Lagoon, San Diego, CA, US",
+      "user_login": "ingorenner",
+      "filename": "salix-lasiolepis_05_inat-429778286.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Juncus effusus",
+  "taxon_id": 1536756,
+  "photos_taxon_id": 1536756,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 435880230,
+      "license": "cc-by",
+      "attribution": "(c) WF_MI, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/435880230/large.jpeg",
+      "observation_id": 244369166,
+      "observation_url": "https://www.inaturalist.org/observations/244369166",
+      "observed_on": "2024-09-27",
+      "place_guess": "Osceola Township, MI, USA",
+      "user_login": "wf_mi",
+      "filename": "juncus-effusus_01_inat-435880230.jpeg"
+    },
+    {
+      "photo_id": 208515739,
+      "license": "cc-by",
+      "attribution": "(c) Wolfgang Jauch, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/208515739/large.jpeg",
+      "observation_id": 123108015,
+      "observation_url": "https://www.inaturalist.org/observations/123108015",
+      "observed_on": "2022-06-16",
+      "place_guess": "88471 Laupheim, Deutschland",
+      "user_login": "epsilon",
+      "filename": "juncus-effusus_02_inat-208515739.jpeg"
+    },
+    {
+      "photo_id": 461091491,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/461091491/large.jpg",
+      "observation_id": 257079068,
+      "observation_url": "https://www.inaturalist.org/observations/257079068",
+      "observed_on": "1998-06-21",
+      "place_guess": "Coimbra, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "juncus-effusus_03_inat-461091491.jpg"
+    },
+    {
+      "photo_id": 75659766,
+      "license": "cc-by",
+      "attribution": "(c) Jennifer Harris, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/75659766/large.jpeg",
+      "observation_id": 47697742,
+      "observation_url": "https://www.inaturalist.org/observations/47697742",
+      "observed_on": "2020-05-28",
+      "place_guess": "Levan Township, IL, USA",
+      "user_login": "jenhugstrees",
+      "filename": "juncus-effusus_04_inat-75659766.jpeg"
+    },
+    {
+      "photo_id": 374137671,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/374137671/large.jpeg",
+      "observation_id": 211650766,
+      "observation_url": "https://www.inaturalist.org/observations/211650766",
+      "observed_on": "2024-04-29",
+      "place_guess": "Hampshire, UK",
+      "user_login": "bobwardell",
+      "filename": "juncus-effusus_05_inat-374137671.jpeg"
+    }
+  ]
+}

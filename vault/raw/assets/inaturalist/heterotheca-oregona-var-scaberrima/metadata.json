@@ -1,0 +1,60 @@
+{
+  "scientific_name": "Heterotheca oregona var. scaberrima",
+  "taxon_id": 80937,
+  "photos_taxon_id": 80937,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 10515476,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10515476/large.jpg",
+      "observation_id": 7958893,
+      "observation_url": "https://www.inaturalist.org/observations/7958893",
+      "observed_on": "2017-09-16",
+      "place_guess": "Arroyo area, Del Valle Regional Park, Alameda County, CA, USA",
+      "user_login": "kueda",
+      "filename": "heterotheca-oregona-var-scaberrima_01_inat-10515476.jpg"
+    },
+    {
+      "photo_id": 10515470,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10515470/large.jpg",
+      "observation_id": 7958893,
+      "observation_url": "https://www.inaturalist.org/observations/7958893",
+      "observed_on": "2017-09-16",
+      "place_guess": "Arroyo area, Del Valle Regional Park, Alameda County, CA, USA",
+      "user_login": "kueda",
+      "filename": "heterotheca-oregona-var-scaberrima_02_inat-10515470.jpg"
+    },
+    {
+      "photo_id": 10515466,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10515466/large.jpg",
+      "observation_id": 7958893,
+      "observation_url": "https://www.inaturalist.org/observations/7958893",
+      "observed_on": "2017-09-16",
+      "place_guess": "Arroyo area, Del Valle Regional Park, Alameda County, CA, USA",
+      "user_login": "kueda",
+      "filename": "heterotheca-oregona-var-scaberrima_03_inat-10515466.jpg"
+    },
+    {
+      "photo_id": 10515471,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10515471/large.jpg",
+      "observation_id": 7958893,
+      "observation_url": "https://www.inaturalist.org/observations/7958893",
+      "observed_on": "2017-09-16",
+      "place_guess": "Arroyo area, Del Valle Regional Park, Alameda County, CA, USA",
+      "user_login": "kueda",
+      "filename": "heterotheca-oregona-var-scaberrima_04_inat-10515471.jpg"
+    }
+  ]
+}

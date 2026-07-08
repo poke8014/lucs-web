@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Epilobium ciliatum ssp. ciliatum",
+  "taxon_id": 53045,
+  "photos_taxon_id": 53045,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 152388510,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152388510/large.jpeg",
+      "observation_id": 92071370,
+      "observation_url": "https://www.inaturalist.org/observations/92071370",
+      "observed_on": "2021-08-21",
+      "place_guess": "Qu\u00e9bec, Canada",
+      "user_login": "elacroix-carignan",
+      "filename": "epilobium-ciliatum-ssp-ciliatum_01_inat-152388510.jpeg"
+    },
+    {
+      "photo_id": 152388527,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152388527/large.jpeg",
+      "observation_id": 92071370,
+      "observation_url": "https://www.inaturalist.org/observations/92071370",
+      "observed_on": "2021-08-21",
+      "place_guess": "Qu\u00e9bec, Canada",
+      "user_login": "elacroix-carignan",
+      "filename": "epilobium-ciliatum-ssp-ciliatum_02_inat-152388527.jpeg"
+    },
+    {
+      "photo_id": 152388539,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152388539/large.jpeg",
+      "observation_id": 92071370,
+      "observation_url": "https://www.inaturalist.org/observations/92071370",
+      "observed_on": "2021-08-21",
+      "place_guess": "Qu\u00e9bec, Canada",
+      "user_login": "elacroix-carignan",
+      "filename": "epilobium-ciliatum-ssp-ciliatum_03_inat-152388539.jpeg"
+    },
+    {
+      "photo_id": 152388542,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152388542/large.jpeg",
+      "observation_id": 92071370,
+      "observation_url": "https://www.inaturalist.org/observations/92071370",
+      "observed_on": "2021-08-21",
+      "place_guess": "Qu\u00e9bec, Canada",
+      "user_login": "elacroix-carignan",
+      "filename": "epilobium-ciliatum-ssp-ciliatum_04_inat-152388542.jpeg"
+    },
+    {
+      "photo_id": 152388551,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/152388551/large.jpeg",
+      "observation_id": 92071370,
+      "observation_url": "https://www.inaturalist.org/observations/92071370",
+      "observed_on": "2021-08-21",
+      "place_guess": "Qu\u00e9bec, Canada",
+      "user_login": "elacroix-carignan",
+      "filename": "epilobium-ciliatum-ssp-ciliatum_05_inat-152388551.jpeg"
+    }
+  ]
+}

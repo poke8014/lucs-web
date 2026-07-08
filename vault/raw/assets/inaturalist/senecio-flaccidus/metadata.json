@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Senecio flaccidus",
+  "taxon_id": 58036,
+  "photos_taxon_id": 58036,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 43294735,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43294735/large.jpeg",
+      "observation_id": 27801014,
+      "observation_url": "https://www.inaturalist.org/observations/27801014",
+      "observed_on": "2019-06-27",
+      "place_guess": "SANTA MARGAR, CA 93453, USA",
+      "user_login": "heymana77",
+      "filename": "senecio-flaccidus_01_inat-43294735.jpeg"
+    },
+    {
+      "photo_id": 286281325,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/286281325/large.jpg",
+      "observation_id": 165380834,
+      "observation_url": "https://www.inaturalist.org/observations/165380834",
+      "observed_on": "2023-06-03",
+      "place_guess": "Cleveland National Forest, Riverside County, US-CA, US",
+      "user_login": "jsriley1984",
+      "filename": "senecio-flaccidus_02_inat-286281325.jpg"
+    },
+    {
+      "photo_id": 50691588,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/50691588/large.jpeg",
+      "observation_id": 27801014,
+      "observation_url": "https://www.inaturalist.org/observations/27801014",
+      "observed_on": "2019-06-27",
+      "place_guess": "SANTA MARGAR, CA 93453, USA",
+      "user_login": "heymana77",
+      "filename": "senecio-flaccidus_03_inat-50691588.jpeg"
+    },
+    {
+      "photo_id": 43294738,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43294738/large.jpeg",
+      "observation_id": 27801014,
+      "observation_url": "https://www.inaturalist.org/observations/27801014",
+      "observed_on": "2019-06-27",
+      "place_guess": "SANTA MARGAR, CA 93453, USA",
+      "user_login": "heymana77",
+      "filename": "senecio-flaccidus_04_inat-43294738.jpeg"
+    },
+    {
+      "photo_id": 43294741,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/43294741/large.jpeg",
+      "observation_id": 27801014,
+      "observation_url": "https://www.inaturalist.org/observations/27801014",
+      "observed_on": "2019-06-27",
+      "place_guess": "SANTA MARGAR, CA 93453, USA",
+      "user_login": "heymana77",
+      "filename": "senecio-flaccidus_05_inat-43294741.jpeg"
+    }
+  ]
+}

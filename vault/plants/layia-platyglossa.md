@@ -84,6 +84,25 @@ Layia platyglossa (Common Tidy Tips) is a California-native annual of Chaparral,
 - **Rarity:** Common
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/layia-platyglossa/layia-platyglossa_01_inat-182266788.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/108273823)*
+
+![](../raw/assets/inaturalist/layia-platyglossa/layia-platyglossa_02_inat-259775836.jpeg)
+*(c) Amy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/150631391)*
+
+![](../raw/assets/inaturalist/layia-platyglossa/layia-platyglossa_03_inat-502952747.jpg)
+*(c) Topher Mueller, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/280057129)*
+
+![](../raw/assets/inaturalist/layia-platyglossa/layia-platyglossa_04_inat-504414694.jpg)
+*(c) Rebecca Johnson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/280829306)*
+
+![](../raw/assets/inaturalist/layia-platyglossa/layia-platyglossa_05_inat-365882045.jpg)
+*(c) Melanie J. Davis, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/206883423)*
+
 ## Sources
 
 - Calscape (CNPS) — [Layia platyglossa](https://calscape.org/Layia-platyglossa-%28Common-Tidy-Tips%29). Structured fields from the

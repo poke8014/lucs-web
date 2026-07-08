@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Claytonia perfoliata",
+  "taxon_id": 52994,
+  "photos_taxon_id": 52994,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 38384880,
+      "license": "cc-by",
+      "attribution": "(c) larndesolen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/38384880/large.jpeg",
+      "observation_id": 24818327,
+      "observation_url": "https://www.inaturalist.org/observations/24818327",
+      "observed_on": "2019-05-08",
+      "place_guess": "South Hill, Bellingham, WA 98225, USA",
+      "user_login": "larndesolen",
+      "filename": "claytonia-perfoliata_01_inat-38384880.jpeg"
+    },
+    {
+      "photo_id": 32950061,
+      "license": "cc-by",
+      "attribution": "(c) Kristiina Hurme, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/32950061/large.jpg",
+      "observation_id": 21307530,
+      "observation_url": "https://www.inaturalist.org/observations/21307530",
+      "observed_on": "2019-03-16",
+      "place_guess": "401 Panoramic Way, Oakland, CA, US",
+      "user_login": "kjhurme",
+      "filename": "claytonia-perfoliata_02_inat-32950061.jpg"
+    },
+    {
+      "photo_id": 35447522,
+      "license": "cc-by",
+      "attribution": "(c) Alan Rockefeller, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35447522/large.jpg",
+      "observation_id": 22868417,
+      "observation_url": "https://www.inaturalist.org/observations/22868417",
+      "observed_on": "2019-03-08",
+      "place_guess": "Ensenada, Baja California, Mexico",
+      "user_login": "alan_rockefeller",
+      "filename": "claytonia-perfoliata_03_inat-35447522.jpg"
+    },
+    {
+      "photo_id": 41708203,
+      "license": "cc-by",
+      "attribution": "(c) Sam Kieschnick, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/41708203/large.jpeg",
+      "observation_id": 26844936,
+      "observation_url": "https://www.inaturalist.org/observations/26844936",
+      "observed_on": "2019-06-02",
+      "place_guess": "Sellwood - Moreland, Portland, OR, USA",
+      "user_login": "sambiology",
+      "filename": "claytonia-perfoliata_04_inat-41708203.jpeg"
+    },
+    {
+      "photo_id": 526582611,
+      "license": "cc-by",
+      "attribution": "(c) zebedeugalinha, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/526582611/large.jpg",
+      "observation_id": 292606492,
+      "observation_url": "https://www.inaturalist.org/observations/292606492",
+      "observed_on": "2009-04-29",
+      "place_guess": "Vila Nova de Foz C\u00f4a, Portugal",
+      "user_login": "zebedeugalinha",
+      "filename": "claytonia-perfoliata_05_inat-526582611.jpg"
+    }
+  ]
+}

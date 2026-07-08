@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Helenium puberulum",
+  "taxon_id": 53092,
+  "photos_taxon_id": 53092,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 470921847,
+      "license": "cc-by",
+      "attribution": "(c) mel letterman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/470921847/large.jpg",
+      "observation_id": 262081621,
+      "observation_url": "https://www.inaturalist.org/observations/262081621",
+      "observed_on": "2025-02-17",
+      "place_guess": "Coon Creek Trail, Los Osos, CA, US",
+      "user_login": "salvmell",
+      "filename": "helenium-puberulum_01_inat-470921847.jpg"
+    },
+    {
+      "photo_id": 529995,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/529995/large.jpg",
+      "observation_id": 420418,
+      "observation_url": "https://www.inaturalist.org/observations/420418",
+      "observed_on": "2013-10-05",
+      "place_guess": "Laurelwood / Sugarloaf Park, CA, USA",
+      "user_login": "kueda",
+      "filename": "helenium-puberulum_02_inat-529995.jpg"
+    },
+    {
+      "photo_id": 181502873,
+      "license": "cc-by",
+      "attribution": "(c) Matt Berger, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/181502873/large.jpeg",
+      "observation_id": 107869392,
+      "observation_url": "https://www.inaturalist.org/observations/107869392",
+      "observed_on": "2022-02-19",
+      "place_guess": "Morro Bay State Park, San Luis Obispo, California, United States",
+      "user_login": "sheriff_woody_pct",
+      "filename": "helenium-puberulum_03_inat-181502873.jpeg"
+    },
+    {
+      "photo_id": 1143565,
+      "license": "cc-by",
+      "attribution": "(c) 101595408250610106310, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1143565/large.JPG",
+      "observation_id": 898341,
+      "observation_url": "https://www.inaturalist.org/observations/898341",
+      "observed_on": "2014-09-20",
+      "place_guess": "Fremont Weir Wildlife Area, CA, US",
+      "user_login": "justin2",
+      "filename": "helenium-puberulum_04_inat-1143565.JPG"
+    },
+    {
+      "photo_id": 405875077,
+      "license": "cc-by",
+      "attribution": "(c) wonton_soup, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/405875077/large.jpeg",
+      "observation_id": 228703761,
+      "observation_url": "https://www.inaturalist.org/observations/228703761",
+      "observed_on": "2024-07-11",
+      "place_guess": "Ensenada, B.C., MX",
+      "user_login": "wonton_soup",
+      "filename": "helenium-puberulum_05_inat-405875077.jpeg"
+    }
+  ]
+}

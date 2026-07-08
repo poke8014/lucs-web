@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Erysimum capitatum",
+  "taxon_id": 50628,
+  "photos_taxon_id": 50628,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 76868806,
+      "license": "cc-by",
+      "attribution": "(c) Rachel Stringham, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/76868806/large.jpeg",
+      "observation_id": 48444589,
+      "observation_url": "https://www.inaturalist.org/observations/48444589",
+      "observed_on": "2020-05-30",
+      "place_guess": "Gila County, AZ, USA",
+      "user_login": "restringham",
+      "filename": "erysimum-capitatum_01_inat-76868806.jpeg"
+    },
+    {
+      "photo_id": 52064917,
+      "license": "cc-by",
+      "attribution": "(c) CK2AZ, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52064917/large.jpg",
+      "observation_id": 33164913,
+      "observation_url": "https://www.inaturalist.org/observations/33164913",
+      "observed_on": "2019-09-21",
+      "place_guess": "Lincoln National Forest, Cloudcroft, NM, US",
+      "user_login": "ck2az",
+      "filename": "erysimum-capitatum_02_inat-52064917.jpg"
+    },
+    {
+      "photo_id": 170105624,
+      "license": "cc-by",
+      "attribution": "(c) Matt Lavin, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170105624/large.jpg",
+      "observation_id": 101830622,
+      "observation_url": "https://www.inaturalist.org/observations/101830622",
+      "observed_on": "2018-07-21",
+      "place_guess": "New Army Pass, Sierra Nevada, California, United States",
+      "user_login": "mattlavin",
+      "filename": "erysimum-capitatum_03_inat-170105624.jpg"
+    },
+    {
+      "photo_id": 382024702,
+      "license": "cc-by",
+      "attribution": "(c) Sandy Wolkenberg, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/382024702/large.jpg",
+      "observation_id": 216035624,
+      "observation_url": "https://www.inaturalist.org/observations/216035624",
+      "observed_on": "2024-05-15",
+      "place_guess": "Orchard Rd, Webster, NY, US",
+      "user_login": "sadawolk",
+      "filename": "erysimum-capitatum_04_inat-382024702.jpg"
+    },
+    {
+      "photo_id": 3042104,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3042104/large.jpeg",
+      "observation_id": 2701538,
+      "observation_url": "https://www.inaturalist.org/observations/2701538",
+      "observed_on": "2016-02-20",
+      "place_guess": "Green Ranch Rd Walnut Creek, CA 94598",
+      "user_login": "kueda",
+      "filename": "erysimum-capitatum_05_inat-3042104.jpeg"
+    }
+  ]
+}

@@ -81,6 +81,25 @@ Verbena lasiostachys (Vervain) is a California-native perennial of Chaparral, Fo
 - **Site type:** Wet places, ditches, marshes
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/verbena-lasiostachys/verbena-lasiostachys_01_inat-100209708.jpeg)
+*(c) Amy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/62534777)*
+
+![](../raw/assets/inaturalist/verbena-lasiostachys/verbena-lasiostachys_02_inat-442437247.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/247705069)*
+
+![](../raw/assets/inaturalist/verbena-lasiostachys/verbena-lasiostachys_03_inat-418315693.jpeg)
+*(c) Alan Rockefeller, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/235235458)*
+
+![](../raw/assets/inaturalist/verbena-lasiostachys/verbena-lasiostachys_04_inat-134911904.jpg)
+*(c) joqatana, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/82210768)*
+
+![](../raw/assets/inaturalist/verbena-lasiostachys/verbena-lasiostachys_05_inat-169807321.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/101672143)*
+
 ## Sources
 
 - Calscape (CNPS) — [Verbena lasiostachys](https://calscape.org/Verbena-lasiostachys-%28Vervain%29). Structured fields from the

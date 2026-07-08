@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Plantago elongata",
+  "taxon_id": 58229,
+  "photos_taxon_id": 58229,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 270528230,
+      "license": "cc-by",
+      "attribution": "(c) Hannah Hickli, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/270528230/large.jpg",
+      "observation_id": 156447761,
+      "observation_url": "https://www.inaturalist.org/observations/156447761",
+      "observed_on": "2023-04-23",
+      "place_guess": "Victoria Harbour Migratory Bird Sanctuary, Oak Bay, BC, CA",
+      "user_login": "handroid",
+      "filename": "plantago-elongata_01_inat-270528230.jpg"
+    },
+    {
+      "photo_id": 463697888,
+      "license": "cc-by",
+      "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463697888/large.jpeg",
+      "observation_id": 258447190,
+      "observation_url": "https://www.inaturalist.org/observations/258447190",
+      "observed_on": "2025-01-11",
+      "place_guess": "Victoria, BC V8S 2J3, Canada",
+      "user_login": "chrisfluit",
+      "filename": "plantago-elongata_02_inat-463697888.jpeg"
+    },
+    {
+      "photo_id": 389843384,
+      "license": "cc-by",
+      "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389843384/large.jpg",
+      "observation_id": 220202343,
+      "observation_url": "https://www.inaturalist.org/observations/220202343",
+      "observed_on": "2024-05-23",
+      "place_guess": "San Juan County, WA, USA",
+      "user_login": "frondsinhighplaces",
+      "filename": "plantago-elongata_03_inat-389843384.jpg"
+    },
+    {
+      "photo_id": 463697910,
+      "license": "cc-by",
+      "attribution": "(c) Chris Fluit, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/463697910/large.jpeg",
+      "observation_id": 258447190,
+      "observation_url": "https://www.inaturalist.org/observations/258447190",
+      "observed_on": "2025-01-11",
+      "place_guess": "Victoria, BC V8S 2J3, Canada",
+      "user_login": "chrisfluit",
+      "filename": "plantago-elongata_04_inat-463697910.jpeg"
+    },
+    {
+      "photo_id": 389842789,
+      "license": "cc-by",
+      "attribution": "(c) Timothy McNitt, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/389842789/large.jpg",
+      "observation_id": 220202343,
+      "observation_url": "https://www.inaturalist.org/observations/220202343",
+      "observed_on": "2024-05-23",
+      "place_guess": "San Juan County, WA, USA",
+      "user_login": "frondsinhighplaces",
+      "filename": "plantago-elongata_05_inat-389842789.jpg"
+    }
+  ]
+}

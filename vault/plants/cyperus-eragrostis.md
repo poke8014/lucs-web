@@ -81,6 +81,25 @@ Cyperus eragrostis (Tall Flatsedge) is a California-native grass of Wetland/Ripa
 - **Site type:** Vernal pools, streambanks, ditches and other wet areas
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cyperus-eragrostis/cyperus-eragrostis_01_inat-88480133.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/55560869)*
+
+![](../raw/assets/inaturalist/cyperus-eragrostis/cyperus-eragrostis_02_inat-584132770.jpg)
+*(c) zebedeugalinha, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/322860450)*
+
+![](../raw/assets/inaturalist/cyperus-eragrostis/cyperus-eragrostis_03_inat-30216153.jpeg)
+*(c) Terra Occ, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/19624881)*
+
+![](../raw/assets/inaturalist/cyperus-eragrostis/cyperus-eragrostis_04_inat-320958317.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/183923124)*
+
+![](../raw/assets/inaturalist/cyperus-eragrostis/cyperus-eragrostis_05_inat-50959239.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/32488439)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cyperus eragrostis](https://calscape.org/Cyperus-eragrostis-%28Tall-Flatsedge%29). Structured fields from the

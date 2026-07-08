@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Trifolium depauperatum var. amplectens",
+  "taxon_id": 57077,
+  "photos_taxon_id": 57077,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 361429443,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361429443/large.jpg",
+      "observation_id": 204475995,
+      "observation_url": "https://www.inaturalist.org/observations/204475995",
+      "observed_on": "2024-03-28",
+      "place_guess": "Los Padres National Forest, Santa Margarita, CA, US",
+      "user_login": "heymana77",
+      "filename": "trifolium-depauperatum-var-amplectens_01_inat-361429443.jpg"
+    },
+    {
+      "photo_id": 3223535,
+      "license": "cc-by",
+      "attribution": "(c) Don Loarie, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/3223535/large.jpg",
+      "observation_id": 2830647,
+      "observation_url": "https://www.inaturalist.org/observations/2830647",
+      "observed_on": "2016-03-24",
+      "place_guess": "Marin Count CA",
+      "user_login": "dloarie",
+      "filename": "trifolium-depauperatum-var-amplectens_02_inat-3223535.jpg"
+    },
+    {
+      "photo_id": 289954176,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/289954176/large.jpg",
+      "observation_id": 167382338,
+      "observation_url": "https://www.inaturalist.org/observations/167382338",
+      "observed_on": "2023-05-17",
+      "place_guess": "Fort Ord National Monument, Salinas, CA, US",
+      "user_login": "aparrot1",
+      "filename": "trifolium-depauperatum-var-amplectens_03_inat-289954176.jpg"
+    },
+    {
+      "photo_id": 501969400,
+      "license": "cc-by",
+      "attribution": "(c) Konshau Duman, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/501969400/large.jpeg",
+      "observation_id": 279533770,
+      "observation_url": "https://www.inaturalist.org/observations/279533770",
+      "observed_on": "2025-05-08",
+      "place_guess": "Liberty Farms, CA 95620, USA",
+      "user_login": "konshau",
+      "filename": "trifolium-depauperatum-var-amplectens_04_inat-501969400.jpeg"
+    },
+    {
+      "photo_id": 361429387,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/361429387/large.jpg",
+      "observation_id": 204475995,
+      "observation_url": "https://www.inaturalist.org/observations/204475995",
+      "observed_on": "2024-03-28",
+      "place_guess": "Los Padres National Forest, Santa Margarita, CA, US",
+      "user_login": "heymana77",
+      "filename": "trifolium-depauperatum-var-amplectens_05_inat-361429387.jpg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Melica californica",
+  "taxon_id": 57186,
+  "photos_taxon_id": 57186,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 650800861,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650800861/large.jpg",
+      "observation_id": 356856161,
+      "observation_url": "https://www.inaturalist.org/observations/356856161",
+      "observed_on": "2026-04-24",
+      "place_guess": "CA-49, Plymouth, CA, US",
+      "user_login": "serpophaga",
+      "filename": "melica-californica_01_inat-650800861.jpg"
+    },
+    {
+      "photo_id": 277236156,
+      "license": "cc-by",
+      "attribution": "(c) Chris Conard, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/277236156/large.jpeg",
+      "observation_id": 160437943,
+      "observation_url": "https://www.inaturalist.org/observations/160437943",
+      "observed_on": "2023-05-07",
+      "place_guess": "Orangevale, CA, USA",
+      "user_login": "chrisconard",
+      "filename": "melica-californica_02_inat-277236156.jpeg"
+    },
+    {
+      "photo_id": 650800900,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650800900/large.jpg",
+      "observation_id": 356856161,
+      "observation_url": "https://www.inaturalist.org/observations/356856161",
+      "observed_on": "2026-04-24",
+      "place_guess": "CA-49, Plymouth, CA, US",
+      "user_login": "serpophaga",
+      "filename": "melica-californica_03_inat-650800900.jpg"
+    },
+    {
+      "photo_id": 650800938,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/650800938/large.jpg",
+      "observation_id": 356856161,
+      "observation_url": "https://www.inaturalist.org/observations/356856161",
+      "observed_on": "2026-04-24",
+      "place_guess": "CA-49, Plymouth, CA, US",
+      "user_login": "serpophaga",
+      "filename": "melica-californica_04_inat-650800938.jpg"
+    },
+    {
+      "photo_id": 487331646,
+      "license": "cc-by",
+      "attribution": "(c) Adam J. Searcy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/487331646/large.jpg",
+      "observation_id": 270948407,
+      "observation_url": "https://www.inaturalist.org/observations/270948407",
+      "observed_on": "2025-04-16",
+      "place_guess": "Loma Dr, Shingle Springs, CA, US",
+      "user_login": "serpophaga",
+      "filename": "melica-californica_05_inat-487331646.jpg"
+    }
+  ]
+}

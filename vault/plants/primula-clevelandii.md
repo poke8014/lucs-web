@@ -78,6 +78,25 @@ Primula clevelandii (Padre's Shootingstar) is a California-native perennial of C
 - **Site type:** Grassy places
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/primula-clevelandii/primula-clevelandii_01_inat-33164856.jpeg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/21436050)*
+
+![](../raw/assets/inaturalist/primula-clevelandii/primula-clevelandii_02_inat-256685095.jpg)
+*(c) joergmlpts, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/148999555)*
+
+![](../raw/assets/inaturalist/primula-clevelandii/primula-clevelandii_03_inat-608514304.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/335013161)*
+
+![](../raw/assets/inaturalist/primula-clevelandii/primula-clevelandii_04_inat-6211208.jpg)
+*(c) Zack Abbey, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5063317)*
+
+![](../raw/assets/inaturalist/primula-clevelandii/primula-clevelandii_05_inat-258139124.jpg)
+*(c) Henrik Kibak, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/149776879)*
+
 ## Sources
 
 - Calscape (CNPS) — [Primula clevelandii](https://calscape.org/Primula-clevelandii-%28Padre%27s-Shootingstar%29). Structured fields from the

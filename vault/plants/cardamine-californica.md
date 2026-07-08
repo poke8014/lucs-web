@@ -70,6 +70,25 @@ Cardamine californica (Milk Maids) is a California-native perennial of Forest, G
 - **Plant communities:** Coastal Prairie, Foothill Woodland, Mixed Evergreen Forest, Northern Oak Woodland, Redwood Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/cardamine-californica/cardamine-californica_01_inat-3285690.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/2877713)*
+
+![](../raw/assets/inaturalist/cardamine-californica/cardamine-californica_02_inat-34096188.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/21997162)*
+
+![](../raw/assets/inaturalist/cardamine-californica/cardamine-californica_03_inat-62566038.jpeg)
+*(c) Alan Rockefeller, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/39435091)*
+
+![](../raw/assets/inaturalist/cardamine-californica/cardamine-californica_04_inat-341971094.jpg)
+*(c) Cristhian Mace, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/194535308)*
+
+![](../raw/assets/inaturalist/cardamine-californica/cardamine-californica_05_inat-803316.jpg)
+*(c) Emily Burns, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/638314)*
+
 ## Sources
 
 - Calscape (CNPS) — [Cardamine californica](https://calscape.org/Cardamine-californica-%28Milk-Maids%29). Structured fields from the

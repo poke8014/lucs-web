@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Aesculus californica",
+  "taxon_id": 53348,
+  "photos_taxon_id": 53348,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 114753318,
+      "license": "cc-by",
+      "attribution": "(c) Isaac Krone, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/114753318/large.jpg",
+      "observation_id": 70571035,
+      "observation_url": "https://www.inaturalist.org/observations/70571035",
+      "observed_on": "2021-03-03",
+      "place_guess": "Berkeley, CA, USA",
+      "user_login": "isaac_krone",
+      "filename": "aesculus-californica_01_inat-114753318.jpg"
+    },
+    {
+      "photo_id": 282114026,
+      "license": "cc-by",
+      "attribution": "(c) Garth Harwood, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/282114026/large.jpeg",
+      "observation_id": 163129889,
+      "observation_url": "https://www.inaturalist.org/observations/163129889",
+      "observed_on": "2023-05-21",
+      "place_guess": "Santa Clara County, CA, USA",
+      "user_login": "garth_harwood",
+      "filename": "aesculus-californica_02_inat-282114026.jpeg"
+    },
+    {
+      "photo_id": 292786730,
+      "license": "cc-by",
+      "attribution": "(c) joergmlpts, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/292786730/large.jpg",
+      "observation_id": 168910713,
+      "observation_url": "https://www.inaturalist.org/observations/168910713",
+      "observed_on": "2023-06-22",
+      "place_guess": "Coyote Lake-Harvey Bear Ranch County Park, CA, US",
+      "user_login": "joergmlpts",
+      "filename": "aesculus-californica_03_inat-292786730.jpg"
+    },
+    {
+      "photo_id": 360645695,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/360645695/large.jpeg",
+      "observation_id": 204068586,
+      "observation_url": "https://www.inaturalist.org/observations/204068586",
+      "observed_on": "2024-03-21",
+      "place_guess": "Suncrest, CA, USA",
+      "user_login": "deejay",
+      "filename": "aesculus-californica_04_inat-360645695.jpeg"
+    },
+    {
+      "photo_id": 45485813,
+      "license": "cc-by",
+      "attribution": "(c) stephen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45485813/large.jpg",
+      "observation_id": 29152270,
+      "observation_url": "https://www.inaturalist.org/observations/29152270",
+      "observed_on": "2019-03-24",
+      "place_guess": "Santa Clara County, US-CA, US",
+      "user_login": "schizoform",
+      "filename": "aesculus-californica_05_inat-45485813.jpg"
+    }
+  ]
+}

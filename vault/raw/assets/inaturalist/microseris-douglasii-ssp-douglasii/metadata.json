@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Microseris douglasii ssp. douglasii",
+  "taxon_id": 58843,
+  "photos_taxon_id": 58843,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 280568932,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280568932/large.jpg",
+      "observation_id": 162249488,
+      "observation_url": "https://www.inaturalist.org/observations/162249488",
+      "observed_on": "2023-05-05",
+      "place_guess": "Woodside, CA, US",
+      "user_login": "workygirl",
+      "filename": "microseris-douglasii-ssp-douglasii_01_inat-280568932.jpg"
+    },
+    {
+      "photo_id": 186349824,
+      "license": "cc-by",
+      "attribution": "(c) Ken-ichi Ueda, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/186349824/large.jpg",
+      "observation_id": 110464624,
+      "observation_url": "https://www.inaturalist.org/observations/110464624",
+      "observed_on": "2022-04-02",
+      "place_guess": "Cakebread Ranch, Contra Costa County, CA, USA",
+      "user_login": "kueda",
+      "filename": "microseris-douglasii-ssp-douglasii_02_inat-186349824.jpg"
+    },
+    {
+      "photo_id": 487398026,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/487398026/large.jpg",
+      "observation_id": 270982883,
+      "observation_url": "https://www.inaturalist.org/observations/270982883",
+      "observed_on": "2025-04-16",
+      "place_guess": "M\u00e1yyan 'Ooy\u00e1kma, San Jose, CA, US",
+      "user_login": "hllrnnr",
+      "filename": "microseris-douglasii-ssp-douglasii_03_inat-487398026.jpg"
+    },
+    {
+      "photo_id": 641747278,
+      "license": "cc-by",
+      "attribution": "(c) Kyle Elshoff, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/641747278/large.jpg",
+      "observation_id": 351649730,
+      "observation_url": "https://www.inaturalist.org/observations/351649730",
+      "observed_on": "2026-04-20",
+      "place_guess": "Cook Ln, Dixon, CA, US",
+      "user_login": "kcelshoff",
+      "filename": "microseris-douglasii-ssp-douglasii_04_inat-641747278.jpg"
+    },
+    {
+      "photo_id": 280568951,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/280568951/large.jpg",
+      "observation_id": 162249488,
+      "observation_url": "https://www.inaturalist.org/observations/162249488",
+      "observed_on": "2023-05-05",
+      "place_guess": "Woodside, CA, US",
+      "user_login": "workygirl",
+      "filename": "microseris-douglasii-ssp-douglasii_05_inat-280568951.jpg"
+    }
+  ]
+}

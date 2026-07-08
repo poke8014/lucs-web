@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Gilia achilleifolia",
+  "taxon_id": 51098,
+  "photos_taxon_id": 51098,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 37987461,
+      "license": "cc-by",
+      "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37987461/large.jpg",
+      "observation_id": 24565496,
+      "observation_url": "https://www.inaturalist.org/observations/24565496",
+      "observed_on": "2019-05-04",
+      "place_guess": "Los Padres National Forest, Santa Margarita, CA, US",
+      "user_login": "redrovertracy",
+      "filename": "gilia-achilleifolia_01_inat-37987461.jpg"
+    },
+    {
+      "photo_id": 35150980,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/35150980/large.jpg",
+      "observation_id": 22685241,
+      "observation_url": "https://www.inaturalist.org/observations/22685241",
+      "observed_on": "2019-04-18",
+      "place_guess": "93405, San Luis Obispo, CA, US",
+      "user_login": "kylenessen",
+      "filename": "gilia-achilleifolia_02_inat-35150980.jpg"
+    },
+    {
+      "photo_id": 37987450,
+      "license": "cc-by",
+      "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37987450/large.jpg",
+      "observation_id": 24565496,
+      "observation_url": "https://www.inaturalist.org/observations/24565496",
+      "observed_on": "2019-05-04",
+      "place_guess": "Los Padres National Forest, Santa Margarita, CA, US",
+      "user_login": "redrovertracy",
+      "filename": "gilia-achilleifolia_03_inat-37987450.jpg"
+    },
+    {
+      "photo_id": 37987469,
+      "license": "cc-by",
+      "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37987469/large.jpg",
+      "observation_id": 24565496,
+      "observation_url": "https://www.inaturalist.org/observations/24565496",
+      "observed_on": "2019-05-04",
+      "place_guess": "Los Padres National Forest, Santa Margarita, CA, US",
+      "user_login": "redrovertracy",
+      "filename": "gilia-achilleifolia_04_inat-37987469.jpg"
+    },
+    {
+      "photo_id": 37988098,
+      "license": "cc-by",
+      "attribution": "(c) redrovertracy, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/37988098/large.jpg",
+      "observation_id": 24565496,
+      "observation_url": "https://www.inaturalist.org/observations/24565496",
+      "observed_on": "2019-05-04",
+      "place_guess": "Los Padres National Forest, Santa Margarita, CA, US",
+      "user_login": "redrovertracy",
+      "filename": "gilia-achilleifolia_05_inat-37988098.jpg"
+    }
+  ]
+}

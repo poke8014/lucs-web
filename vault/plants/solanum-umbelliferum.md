@@ -84,6 +84,25 @@ Solanum umbelliferum (Bluewitch Nightshade) is a California-native shrub of Chap
 - **Site type:** Dry, rocky slopes, canyons and mesas throughout the state, in various plant communities including chaparral, sage scrub, grassland, and woodlands
 - **Nursery availability:** Commonly Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/solanum-umbelliferum/solanum-umbelliferum_01_inat-32320404.jpg)
+*(c) Adam J. Searcy, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/20938007)*
+
+![](../raw/assets/inaturalist/solanum-umbelliferum/solanum-umbelliferum_02_inat-182878137.jpg)
+*(c) Justin, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/108600029)*
+
+![](../raw/assets/inaturalist/solanum-umbelliferum/solanum-umbelliferum_03_inat-278528792.jpg)
+*(c) Tim Messick, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/161151997)*
+
+![](../raw/assets/inaturalist/solanum-umbelliferum/solanum-umbelliferum_04_inat-594092796.jpg)
+*(c) nmoorhatch, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/327896264)*
+
+![](../raw/assets/inaturalist/solanum-umbelliferum/solanum-umbelliferum_05_inat-467263847.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/260216587)*
+
 ## Sources
 
 - Calscape (CNPS) — [Solanum umbelliferum](https://calscape.org/Solanum-umbelliferum-%28Bluewitch-Nightshade%29). Structured fields from the

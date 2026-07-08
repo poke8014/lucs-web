@@ -73,6 +73,25 @@ Epilobium ciliatum ssp. ciliatum (Fringed Willowherb) is a California-native per
 - **Rarity:** Abundant
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/epilobium-ciliatum-ssp-ciliatum/epilobium-ciliatum-ssp-ciliatum_01_inat-152388510.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/92071370)*
+
+![](../raw/assets/inaturalist/epilobium-ciliatum-ssp-ciliatum/epilobium-ciliatum-ssp-ciliatum_02_inat-152388527.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/92071370)*
+
+![](../raw/assets/inaturalist/epilobium-ciliatum-ssp-ciliatum/epilobium-ciliatum-ssp-ciliatum_03_inat-152388539.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/92071370)*
+
+![](../raw/assets/inaturalist/epilobium-ciliatum-ssp-ciliatum/epilobium-ciliatum-ssp-ciliatum_04_inat-152388542.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/92071370)*
+
+![](../raw/assets/inaturalist/epilobium-ciliatum-ssp-ciliatum/epilobium-ciliatum-ssp-ciliatum_05_inat-152388551.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/92071370)*
+
 ## Sources
 
 - Calscape (CNPS) — [Epilobium ciliatum ssp. ciliatum](https://calscape.org/Epilobium-ciliatum-ssp.-ciliatum-%28Fringed-Willowherb%29). Structured fields from the

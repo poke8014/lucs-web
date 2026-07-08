@@ -65,6 +65,25 @@ Lepidium latipes (San Diego Pepperweed) is a California-native annual of Grassla
 - **Plant communities:** Valley Grassland, Wetland-Riparian
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/lepidium-latipes/lepidium-latipes_01_inat-265953537.jpeg)
+*(c) Konshau Duman, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/153947762)*
+
+![](../raw/assets/inaturalist/lepidium-latipes/lepidium-latipes_02_inat-184781000.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/109603079)*
+
+![](../raw/assets/inaturalist/lepidium-latipes/lepidium-latipes_03_inat-628757923.jpg)
+*(c) Kyle Elshoff, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/345043482)*
+
+![](../raw/assets/inaturalist/lepidium-latipes/lepidium-latipes_04_inat-479213303.jpg)
+*(c) Ken-ichi Ueda, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/266709309)*
+
+![](../raw/assets/inaturalist/lepidium-latipes/lepidium-latipes_05_inat-485770032.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/270130005)*
+
 ## Sources
 
 - Calscape (CNPS) — [Lepidium latipes](https://calscape.org/Lepidium-latipes-%28San-Diego-Pepperweed%29). Structured fields from the

@@ -73,6 +73,25 @@ Senecio flaccidus (Threadleaf Ragwort) is a California-native shrub of Californi
 - **Site type:** Dry, rocky or sandy places
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/senecio-flaccidus/senecio-flaccidus_01_inat-43294735.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/27801014)*
+
+![](../raw/assets/inaturalist/senecio-flaccidus/senecio-flaccidus_02_inat-286281325.jpg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/165380834)*
+
+![](../raw/assets/inaturalist/senecio-flaccidus/senecio-flaccidus_03_inat-50691588.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/27801014)*
+
+![](../raw/assets/inaturalist/senecio-flaccidus/senecio-flaccidus_04_inat-43294738.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/27801014)*
+
+![](../raw/assets/inaturalist/senecio-flaccidus/senecio-flaccidus_05_inat-43294741.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/27801014)*
+
 ## Sources
 
 - Calscape (CNPS) — [Senecio flaccidus](https://calscape.org/Senecio-flaccidus-%28Threadleaf-Ragwort%29). Structured fields from the

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Matricaria discoidea",
+  "taxon_id": 52992,
+  "photos_taxon_id": 52992,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 106272984,
+      "license": "cc-by",
+      "attribution": "(c) giantcicada, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/106272984/large.jpg",
+      "observation_id": 65982505,
+      "observation_url": "https://www.inaturalist.org/observations/65982505",
+      "observed_on": "2020-12-01",
+      "place_guess": "Pierce, Washington, United States",
+      "user_login": "giantcicada",
+      "filename": "matricaria-discoidea_01_inat-106272984.jpg"
+    },
+    {
+      "photo_id": 532447482,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/532447482/large.jpg",
+      "observation_id": 295749039,
+      "observation_url": "https://www.inaturalist.org/observations/295749039",
+      "observed_on": "2025-07-06",
+      "place_guess": "Manorbier, Tenby SA70 8QR, UK",
+      "user_login": "cedaniel81",
+      "filename": "matricaria-discoidea_02_inat-532447482.jpg"
+    },
+    {
+      "photo_id": 136917827,
+      "license": "cc-by",
+      "attribution": "(c) Tom Norton, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/136917827/large.jpeg",
+      "observation_id": 83369821,
+      "observation_url": "https://www.inaturalist.org/observations/83369821",
+      "observed_on": "2021-06-16",
+      "place_guess": "Dothan Brook Trails, Hartford, VT",
+      "user_login": "tsn",
+      "filename": "matricaria-discoidea_03_inat-136917827.jpeg"
+    },
+    {
+      "photo_id": 197562538,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/197562538/large.jpg",
+      "observation_id": 117010741,
+      "observation_url": "https://www.inaturalist.org/observations/117010741",
+      "observed_on": "2022-05-14",
+      "place_guess": "London, UK",
+      "user_login": "pilmar",
+      "filename": "matricaria-discoidea_04_inat-197562538.jpg"
+    },
+    {
+      "photo_id": 468629731,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/468629731/large.jpeg",
+      "observation_id": 254540651,
+      "observation_url": "https://www.inaturalist.org/observations/254540651",
+      "observed_on": "2024-12-08",
+      "place_guess": "Marly, Santa Fe, Bogot\u00e1, Bogota, Colombia",
+      "user_login": "steviakiwi23",
+      "filename": "matricaria-discoidea_05_inat-468629731.jpeg"
+    }
+  ]
+}

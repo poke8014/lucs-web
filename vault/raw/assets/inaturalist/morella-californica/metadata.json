@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Morella californica",
+  "taxon_id": 61039,
+  "photos_taxon_id": 61039,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 116813280,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116813280/large.jpeg",
+      "observation_id": 71721555,
+      "observation_url": "https://www.inaturalist.org/observations/71721555",
+      "observed_on": "2021-03-21",
+      "place_guess": "Santa Cruz, CA, USA",
+      "user_login": "stekkelpak",
+      "filename": "morella-californica_01_inat-116813280.jpeg"
+    },
+    {
+      "photo_id": 52386520,
+      "license": "cc-by",
+      "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52386520/large.jpg",
+      "observation_id": 33356883,
+      "observation_url": "https://www.inaturalist.org/observations/33356883",
+      "observed_on": "2019-09-22",
+      "place_guess": "Coyote Point Recreation Area, San Mateo, CA, US",
+      "user_login": "brucehs",
+      "filename": "morella-californica_02_inat-52386520.jpg"
+    },
+    {
+      "photo_id": 116813318,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/116813318/large.jpeg",
+      "observation_id": 71721555,
+      "observation_url": "https://www.inaturalist.org/observations/71721555",
+      "observed_on": "2021-03-21",
+      "place_guess": "Santa Cruz, CA, USA",
+      "user_login": "stekkelpak",
+      "filename": "morella-californica_03_inat-116813318.jpeg"
+    },
+    {
+      "photo_id": 52386545,
+      "license": "cc-by",
+      "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52386545/large.jpg",
+      "observation_id": 33356883,
+      "observation_url": "https://www.inaturalist.org/observations/33356883",
+      "observed_on": "2019-09-22",
+      "place_guess": "Coyote Point Recreation Area, San Mateo, CA, US",
+      "user_login": "brucehs",
+      "filename": "morella-californica_04_inat-52386545.jpg"
+    },
+    {
+      "photo_id": 52386535,
+      "license": "cc-by",
+      "attribution": "(c) Bruce Homer-Smith, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/52386535/large.jpg",
+      "observation_id": 33356883,
+      "observation_url": "https://www.inaturalist.org/observations/33356883",
+      "observed_on": "2019-09-22",
+      "place_guess": "Coyote Point Recreation Area, San Mateo, CA, US",
+      "user_login": "brucehs",
+      "filename": "morella-californica_05_inat-52386535.jpg"
+    }
+  ]
+}

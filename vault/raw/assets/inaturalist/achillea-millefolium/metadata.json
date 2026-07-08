@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Achillea millefolium",
+  "taxon_id": 1105043,
+  "photos_taxon_id": 1105043,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 79491887,
+      "license": "cc-by",
+      "attribution": "(c) Eric Lamb, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79491887/large.jpg",
+      "observation_id": 50063769,
+      "observation_url": "https://www.inaturalist.org/observations/50063769",
+      "observed_on": "2009-08-16",
+      "place_guess": "Division No. 18, SK, Canada",
+      "user_login": "eric_lamb",
+      "filename": "achillea-millefolium_01_inat-79491887.jpg"
+    },
+    {
+      "photo_id": 391805083,
+      "license": "cc-by",
+      "attribution": "(c) prosperosity, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/391805083/large.jpg",
+      "observation_id": 221247130,
+      "observation_url": "https://www.inaturalist.org/observations/221247130",
+      "observed_on": "2024-06-02",
+      "place_guess": "Glen Eden, Auckland, New Zealand",
+      "user_login": "prosperosity",
+      "filename": "achillea-millefolium_02_inat-391805083.jpg"
+    },
+    {
+      "photo_id": 672401218,
+      "license": "cc-by",
+      "attribution": "(c) Jared Tholen, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/672401218/large.jpg",
+      "observation_id": 368159995,
+      "observation_url": "https://www.inaturalist.org/observations/368159995",
+      "observed_on": "2026-06-02",
+      "place_guess": "Granite, UT 84092, USA",
+      "user_login": "jared_tholen",
+      "filename": "achillea-millefolium_03_inat-672401218.jpg"
+    },
+    {
+      "photo_id": 126222917,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/126222917/large.jpeg",
+      "observation_id": 77191642,
+      "observation_url": "https://www.inaturalist.org/observations/77191642",
+      "observed_on": "2021-05-03",
+      "place_guess": "Bronx, NY, USA",
+      "user_login": "danielatha",
+      "filename": "achillea-millefolium_04_inat-126222917.jpeg"
+    },
+    {
+      "photo_id": 144230937,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/144230937/large.jpg",
+      "observation_id": 87477776,
+      "observation_url": "https://www.inaturalist.org/observations/87477776",
+      "observed_on": "2021-07-17",
+      "place_guess": "Hardman Farm Rd, Sautee, GA, US",
+      "user_login": "nat_t",
+      "filename": "achillea-millefolium_05_inat-144230937.jpg"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Eryngium aristulatum var. hooveri",
+  "taxon_id": 57904,
+  "photos_taxon_id": 57901,
+  "photos_from_parent_species": true,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 365789080,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365789080/large.jpg",
+      "observation_id": 206836282,
+      "observation_url": "https://www.inaturalist.org/observations/206836282",
+      "observed_on": "2024-04-12",
+      "place_guess": "San Diego County, US-CA, US",
+      "user_login": "ingorenner",
+      "filename": "eryngium-aristulatum-var-hooveri_01_inat-365789080.jpg"
+    },
+    {
+      "photo_id": 365789122,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/365789122/large.jpg",
+      "observation_id": 206836282,
+      "observation_url": "https://www.inaturalist.org/observations/206836282",
+      "observed_on": "2024-04-12",
+      "place_guess": "San Diego County, US-CA, US",
+      "user_login": "ingorenner",
+      "filename": "eryngium-aristulatum-var-hooveri_02_inat-365789122.jpg"
+    },
+    {
+      "photo_id": 607606153,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/607606153/large.jpg",
+      "observation_id": 334556916,
+      "observation_url": "https://www.inaturalist.org/observations/334556916",
+      "observed_on": "2026-01-12",
+      "place_guess": "Calzada del Tecnol\u00f3gico, Tijuana, B.C., MX",
+      "user_login": "picturepoker51",
+      "filename": "eryngium-aristulatum-var-hooveri_03_inat-607606153.jpg"
+    },
+    {
+      "photo_id": 204982854,
+      "license": "cc-by",
+      "attribution": "(c) Sula Vanderplank, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/204982854/large.jpg",
+      "observation_id": 121151507,
+      "observation_url": "https://www.inaturalist.org/observations/121151507",
+      "observed_on": "2022-06-06",
+      "place_guess": "Tijuana, MX-BN, MX",
+      "user_login": "sulavanderplank",
+      "filename": "eryngium-aristulatum-var-hooveri_04_inat-204982854.jpg"
+    },
+    {
+      "photo_id": 72387216,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/72387216/large.jpg",
+      "observation_id": 45645559,
+      "observation_url": "https://www.inaturalist.org/observations/45645559",
+      "observed_on": "2020-05-09",
+      "place_guess": "Ensenada, Ensenada, BC , MX",
+      "user_login": "jsriley1984",
+      "filename": "eryngium-aristulatum-var-hooveri_05_inat-72387216.jpg"
+    }
+  ]
+}

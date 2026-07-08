@@ -63,6 +63,25 @@ Pyrrocoma racemosa (Clustered Goldenweed) is a California-native perennial of Ch
 - **Plant communities:** Alkali Sink, Chaparral, Coastal Prairie, Coastal Salt Marsh, Douglas-Fir Forest, Northern Juniper Woodland, Red Fir Forest, Sagebrush Scrub, Valley Grassland, Wetland-Riparian, Yellow Pine Forest
 - **Nursery availability:** Never or Almost Never Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/pyrrocoma-racemosa/pyrrocoma-racemosa_01_inat-245150515.jpg)
+*(c) Steve Matson, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/142957609)*
+
+![](../raw/assets/inaturalist/pyrrocoma-racemosa/pyrrocoma-racemosa_02_inat-192069616.jpeg)
+*(c) Matt Berger, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/113694838)*
+
+![](../raw/assets/inaturalist/pyrrocoma-racemosa/pyrrocoma-racemosa_03_inat-217388360.jpg)
+*(c) Bobby McCabe, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/128008112)*
+
+![](../raw/assets/inaturalist/pyrrocoma-racemosa/pyrrocoma-racemosa_04_inat-226515250.jpg)
+*(c) Jim Morefield, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/133021081)*
+
+![](../raw/assets/inaturalist/pyrrocoma-racemosa/pyrrocoma-racemosa_05_inat-229591722.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/134672563)*
+
 ## Sources
 
 - Calscape (CNPS) — [Pyrrocoma racemosa](https://calscape.org/Pyrrocoma-racemosa-%28Clustered-Goldenweed%29). Structured fields from the

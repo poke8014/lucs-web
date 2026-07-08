@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Persicaria punctata",
+  "taxon_id": 78456,
+  "photos_taxon_id": 78456,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 589466400,
+      "license": "cc-by",
+      "attribution": "(c) Dustin Snider, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/589466400/large.jpg",
+      "observation_id": 325559621,
+      "observation_url": "https://www.inaturalist.org/observations/325559621",
+      "observed_on": "2025-08-17",
+      "place_guess": "Division No. 18, CA-SK, CA",
+      "user_login": "dustin777",
+      "filename": "persicaria-punctata_01_inat-589466400.jpg"
+    },
+    {
+      "photo_id": 566569369,
+      "license": "cc-by",
+      "attribution": "(c) M. Whitson, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/566569369/large.jpg",
+      "observation_id": 313726049,
+      "observation_url": "https://www.inaturalist.org/observations/313726049",
+      "observed_on": "2025-09-13",
+      "place_guess": "Highland Heights, KY 41076, USA",
+      "user_login": "m_whitson",
+      "filename": "persicaria-punctata_02_inat-566569369.jpg"
+    },
+    {
+      "photo_id": 6112571,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/6112571/large.jpg",
+      "observation_id": 5000533,
+      "observation_url": "https://www.inaturalist.org/observations/5000533",
+      "observed_on": "2017-01-24",
+      "place_guess": "Auckland, North Shore, Glenfield, Eskdale Reserve (Kaipatiki Project)",
+      "user_login": "pjd1",
+      "filename": "persicaria-punctata_03_inat-6112571.jpg"
+    },
+    {
+      "photo_id": 10546955,
+      "license": "cc-by",
+      "attribution": "(c) aarongunnar, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10546955/large.jpg",
+      "observation_id": 7977647,
+      "observation_url": "https://www.inaturalist.org/observations/7977647",
+      "observed_on": "2017-09-17",
+      "place_guess": "Monona, WI, USA",
+      "user_login": "aarongunnar",
+      "filename": "persicaria-punctata_04_inat-10546955.jpg"
+    },
+    {
+      "photo_id": 79960372,
+      "license": "cc-by",
+      "attribution": "(c) Alex Abair, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/79960372/large.jpg",
+      "observation_id": 50357044,
+      "observation_url": "https://www.inaturalist.org/observations/50357044",
+      "observed_on": "2020-06-20",
+      "place_guess": "Alachua County, FL, USA",
+      "user_login": "alex_abair",
+      "filename": "persicaria-punctata_05_inat-79960372.jpg"
+    }
+  ]
+}

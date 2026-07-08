@@ -76,6 +76,25 @@ Lasthenia glabrata (Yellow Rayed Lasthenia) is a California-native annual of Gra
 - **Site type:** Saline places, vernal pools
 - **Nursery availability:** Sometimes Available
 
+## Photos
+
+### iNaturalist
+
+![](../raw/assets/inaturalist/lasthenia-glabrata/lasthenia-glabrata_01_inat-276482323.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
+![](../raw/assets/inaturalist/lasthenia-glabrata/lasthenia-glabrata_02_inat-6891712.jpeg)
+*(c) Zack Abbey, some rights reserved (CC BY) — [observation](https://www.inaturalist.org/observations/5583035)*
+
+![](../raw/assets/inaturalist/lasthenia-glabrata/lasthenia-glabrata_03_inat-276482369.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
+![](../raw/assets/inaturalist/lasthenia-glabrata/lasthenia-glabrata_04_inat-276482382.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
+![](../raw/assets/inaturalist/lasthenia-glabrata/lasthenia-glabrata_05_inat-276482305.jpeg)
+*no rights reserved — [observation](https://www.inaturalist.org/observations/160016673)*
+
 ## Sources
 
 - Calscape (CNPS) — [Lasthenia glabrata](https://calscape.org/Lasthenia-glabrata-%28Yellow-Rayed-Lasthenia%29). Structured fields from the

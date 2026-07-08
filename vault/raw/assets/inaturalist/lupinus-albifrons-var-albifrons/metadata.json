@@ -1,0 +1,72 @@
+{
+  "scientific_name": "Lupinus albifrons var. albifrons",
+  "taxon_id": 53418,
+  "photos_taxon_id": 53418,
+  "photos_from_parent_species": false,
+  "fetched_at": "2026-07-07",
+  "license_filter": "cc0,cc-by",
+  "image_size": "large",
+  "source": "iNaturalist API v1 (research-grade, popular)",
+  "photos": [
+    {
+      "photo_id": 67868348,
+      "license": "cc-by",
+      "attribution": "(c) crothfels, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67868348/large.jpg",
+      "observation_id": 42734678,
+      "observation_url": "https://www.inaturalist.org/observations/42734678",
+      "observed_on": "2020-04-20",
+      "place_guess": "Wildcat Canyon Regional Park, Richmond, CA, US",
+      "user_login": "crothfels",
+      "filename": "lupinus-albifrons-var-albifrons_01_inat-67868348.jpg"
+    },
+    {
+      "photo_id": 27217,
+      "license": "cc-by",
+      "attribution": "(c) Barbara Banfield, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/27217/large.JPG",
+      "observation_id": 13799,
+      "observation_url": "https://www.inaturalist.org/observations/13799",
+      "observed_on": "2011-04-03",
+      "place_guess": "Bonny Doon Ecological Reserve, Bonny Doon, CA",
+      "user_login": "barbarab",
+      "filename": "lupinus-albifrons-var-albifrons_02_inat-27217.JPG"
+    },
+    {
+      "photo_id": 67868365,
+      "license": "cc-by",
+      "attribution": "(c) crothfels, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67868365/large.jpg",
+      "observation_id": 42734678,
+      "observation_url": "https://www.inaturalist.org/observations/42734678",
+      "observed_on": "2020-04-20",
+      "place_guess": "Wildcat Canyon Regional Park, Richmond, CA, US",
+      "user_login": "crothfels",
+      "filename": "lupinus-albifrons-var-albifrons_03_inat-67868365.jpg"
+    },
+    {
+      "photo_id": 67868339,
+      "license": "cc-by",
+      "attribution": "(c) crothfels, some rights reserved (CC BY)",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/67868339/large.jpg",
+      "observation_id": 42734678,
+      "observation_url": "https://www.inaturalist.org/observations/42734678",
+      "observed_on": "2020-04-20",
+      "place_guess": "Wildcat Canyon Regional Park, Richmond, CA, US",
+      "user_login": "crothfels",
+      "filename": "lupinus-albifrons-var-albifrons_04_inat-67868339.jpg"
+    },
+    {
+      "photo_id": 121152726,
+      "license": "cc0",
+      "attribution": "no rights reserved",
+      "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/121152726/large.jpeg",
+      "observation_id": 74148826,
+      "observation_url": "https://www.inaturalist.org/observations/74148826",
+      "observed_on": "2021-04-15",
+      "place_guess": "Bonny Doon Ecological Reserve, Santa Cruz County, US-CA, US",
+      "user_login": "caseyhh",
+      "filename": "lupinus-albifrons-var-albifrons_05_inat-121152726.jpeg"
+    }
+  ]
+}
