@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { loadProfile } from '../site-inventory/profile'
 import CanvasStage, { useStage } from './CanvasStage'
+import ShadeHelp from './ShadeHelp'
 import { importAddress } from './addressImport'
 import {
   defaultObstructionHeightFt,
@@ -799,8 +800,13 @@ function ObstructionList({
 
   return (
     <div>
-      <p className="mb-2 text-xs uppercase tracking-[0.14em] text-[#2a1d10]/60">
+      <p className="mb-1 text-xs uppercase tracking-[0.14em] text-[#2a1d10]/60">
         Traced obstructions
+      </p>
+      <p className="mb-2 text-xs text-[#2a1d10]/55">
+        Heights feed the step-5 sun &amp; shade preview — an obstruction with no
+        height casts no shadow. The presets are rough on purpose; nudge them if
+        you know better.
       </p>
       <ul className="space-y-2">
         {baseMap.obstructions.map((o, i) => (
@@ -833,6 +839,9 @@ function ObstructionList({
           </li>
         ))}
       </ul>
+      <div className="mt-2">
+        <ShadeHelp />
+      </div>
     </div>
   )
 }
