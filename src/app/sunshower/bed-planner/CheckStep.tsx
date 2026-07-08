@@ -10,6 +10,7 @@ import AnnotationTools from './AnnotationTools'
 import BloomTintLayer from './BloomTintLayer'
 import CheckerPanel from './CheckerPanel'
 import SeasonScrubber from './SeasonScrubber'
+import ShadeHelp from './ShadeHelp'
 import SunLabelOverlay, { SunLegend } from './SunLabelOverlay'
 import SunShadeLayer from './SunShadeLayer'
 import TimelapseControls from './TimelapseControls'
@@ -227,6 +228,7 @@ export default function CheckStep({ plan, onChange, blobStore, onJumpToSection }
               }}
             />
           )}
+          {showShadows && <ShadeHelp />}
 
           <div className="rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/90 p-4">
             <AnnotationTools
