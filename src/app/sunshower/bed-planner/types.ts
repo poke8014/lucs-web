@@ -29,6 +29,7 @@ export interface BaseMap {
   heightFt: number
   imageKey?: string // IndexedDB blob key — satellite/GIS screenshot or photographed paper sketch
   imageOpacity?: number
+  imageAttribution?: string // e.g. "© Mapbox © OpenStreetMap © Maxar" or "USGS, USDA — public domain"; rendered whenever the underlay shows
   pxPerFt?: number // set by scale calibration when an image exists
   northBearingDeg?: number // seeded from SiteProfile.aspect, editable
   boundary?: Polygon // yard outline; defaults to the full rectangle
