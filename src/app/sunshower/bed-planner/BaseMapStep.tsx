@@ -14,6 +14,7 @@ import {
   storyToHeightFt,
   type StoryPreset,
 } from './baseMapMath'
+import AttributionChip from './AttributionChip'
 import { createMemoryBlobStore, useBlobUrl, type BlobStore } from './blobStore'
 import { newId } from './plan'
 import type { BaseMap, GardenPlan, Obstruction, Point } from './types'
@@ -160,7 +161,7 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
           obstructionKind={obstructionKind}
           onObstructionKind={setObstructionKind}
         />
-        <div className="mt-2 h-[26rem] overflow-hidden rounded-lg border border-[#2a1d10]/20 sm:h-[32rem]">
+        <div className="relative mt-2 h-[26rem] overflow-hidden rounded-lg border border-[#2a1d10]/20 sm:h-[32rem]">
           <CanvasStage
             widthFt={baseMap.widthFt}
             heightFt={baseMap.heightFt}
@@ -181,6 +182,12 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
               onBaseMap={patchBaseMap}
             />
           </CanvasStage>
+          {/* Attribution chip — shown whenever an underlay (kept or session-only)
+              is visible. Mapbox's terms require visible attribution even when the
+              URL carries attribution=false; the session-only case must show it too. */}
+          <AttributionChip
+            attribution={baseMap.imageAttribution ?? sessionUnderlay?.attribution}
+          />
         </div>
         <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
           <p className="text-xs text-[#2a1d10]/55">
@@ -381,7 +388,9 @@ function AddressPanel({
       }
       setStatus('idle')
       setMessage(
-        "Photo's in. Now trace your yard boundary and obstructions right over it — your eyes, not our guesswork.",
+        result.provider === 'naip'
+          ? "Photo's in — this one comes from the free USGS aerial survey, so it may look a bit blurry. Trace the big shapes: boundary, house, the tree canopies."
+          : "Photo's in. Now trace your yard boundary and obstructions right over it — your eyes, not our guesswork.",
       )
     } else {
       setStatus('error')
