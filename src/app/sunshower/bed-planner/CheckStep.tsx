@@ -7,6 +7,7 @@ import { nativePlants, plantBySlug } from '../plant-selector/corpus'
 import CanvasStage, { useStage } from './CanvasStage'
 import AnnotationLayer from './AnnotationLayer'
 import AnnotationTools from './AnnotationTools'
+import AttributionChip from './AttributionChip'
 import BloomTintLayer from './BloomTintLayer'
 import CheckerPanel from './CheckerPanel'
 import SeasonScrubber from './SeasonScrubber'
@@ -206,6 +207,10 @@ export default function CheckStep({ plan, onChange, blobStore, onJumpToSection }
             {showSunLabels && (
               <SunLegend className="pointer-events-none absolute bottom-14 left-3" />
             )}
+            {/* Attribution chip — shown whenever the plan carries a satellite
+                or fetched underlay (imageAttribution set). User-uploaded images
+                leave the field unset, so uploads don't show a chip. */}
+            <AttributionChip attribution={baseMap.imageAttribution} />
           </div>
 
           {/* Time-of-day scrub for the shadow overlay; its season pills mirror the

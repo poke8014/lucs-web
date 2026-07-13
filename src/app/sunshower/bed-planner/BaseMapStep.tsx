@@ -5,6 +5,7 @@ import { loadProfile } from '../site-inventory/profile'
 import CanvasStage, { useStage } from './CanvasStage'
 import ShadeHelp from './ShadeHelp'
 import { importAddress } from './addressImport'
+import type { Framing } from './satelliteFetch'
 import {
   defaultObstructionHeightFt,
   heightFtToStory,
@@ -13,13 +14,15 @@ import {
   storyToHeightFt,
   type StoryPreset,
 } from './baseMapMath'
+import AttributionChip from './AttributionChip'
 import { createMemoryBlobStore, useBlobUrl, type BlobStore } from './blobStore'
 import { newId } from './plan'
 import type { BaseMap, GardenPlan, Obstruction, Point } from './types'
 
 // ── Flow step 1: the base map ────────────────────────────────────────────────
 // Three ways in, presented with equal weight (spec §Scope decisions):
-//   1. Address import — traces a rough outline, used once and forgotten.
+//   1. Address import — fetches a bird's-eye photo to trace over, then forgets
+//      the address (satellite-underlay spec §Scope decision 1).
 //   2. Image upload + scale calibration.
 //   3. Draw a rectangle + type its size.
 // Then refinement tools on the canvas: edit the yard boundary, trace
@@ -28,6 +31,13 @@ import type { BaseMap, GardenPlan, Obstruction, Point } from './types'
 
 type OnRamp = 'address' | 'image' | 'rectangle'
 type Tool = 'boundary' | 'obstruction'
+
+// A fetched photo the user chose NOT to keep (address on-ramp, keep-photo toggle
+// off — spec §Scope decision 4). It lives in a session-only memory store and
+// renders as the underlay for this editing session only; it is deliberately kept
+// OUT of the plan document, so the saved/exported plan carries geometry only —
+// no dangling imageKey, no attribution, nothing that outlives the tab.
+type SessionUnderlay = { imageKey: string; opacity: number; attribution: string } | null
 
 const CLOSE_TOLERANCE_FT = 3 // click within this of the first corner to close a trace
 
@@ -56,6 +66,13 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
     return () => ownedStore.dispose()
   }, [blobStore, ownedStore])
   const activeBlobStore: BlobStore = blobStore ?? ownedStore
+
+  // A session-only store for photos the user fetched but chose not to keep. Its
+  // bytes never reach the persistent `blobs` store, so nothing survives the tab
+  // (keep-photo toggle off — see SessionUnderlay). Disposed on unmount.
+  const [sessionStore] = useState(() => createMemoryBlobStore())
+  useEffect(() => () => sessionStore.dispose(), [sessionStore])
+  const [sessionUnderlay, setSessionUnderlay] = useState<SessionUnderlay>(null)
 
   // Seed the north bearing once from the read-only SiteProfile. We only read
   // the profile — never write it back (spec: one-way flow).
@@ -126,7 +143,9 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
       <OnRampChooser
         baseMap={baseMap}
         blobStore={activeBlobStore}
+        sessionStore={sessionStore}
         onBaseMap={patchBaseMap}
+        onSessionUnderlay={setSessionUnderlay}
       />
 
       <div>
@@ -142,7 +161,7 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
           obstructionKind={obstructionKind}
           onObstructionKind={setObstructionKind}
         />
-        <div className="mt-2 h-[26rem] overflow-hidden rounded-lg border border-[#2a1d10]/20 sm:h-[32rem]">
+        <div className="relative mt-2 h-[26rem] overflow-hidden rounded-lg border border-[#2a1d10]/20 sm:h-[32rem]">
           <CanvasStage
             widthFt={baseMap.widthFt}
             heightFt={baseMap.heightFt}
@@ -150,7 +169,12 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
             className="h-full w-full"
             onBackgroundPointerDown={onCanvasTap}
           >
-            <BaseMapImageLayer baseMap={baseMap} blobStore={activeBlobStore} />
+            <BaseMapImageLayer
+              baseMap={baseMap}
+              blobStore={activeBlobStore}
+              sessionStore={sessionStore}
+              sessionUnderlay={sessionUnderlay}
+            />
             <BoundaryObstructionLayer
               baseMap={baseMap}
               tool={tool}
@@ -158,6 +182,12 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
               onBaseMap={patchBaseMap}
             />
           </CanvasStage>
+          {/* Attribution chip — shown whenever an underlay (kept or session-only)
+              is visible. Mapbox's terms require visible attribution even when the
+              URL carries attribution=false; the session-only case must show it too. */}
+          <AttributionChip
+            attribution={baseMap.imageAttribution ?? sessionUnderlay?.attribution}
+          />
         </div>
         <div className="mt-2 flex flex-wrap items-center justify-between gap-2">
           <p className="text-xs text-[#2a1d10]/55">
@@ -207,11 +237,15 @@ export default function BaseMapStep({ plan, onChange, blobStore }: BaseMapStepPr
 function OnRampChooser({
   baseMap,
   blobStore,
+  sessionStore,
   onBaseMap,
+  onSessionUnderlay,
 }: {
   baseMap: BaseMap
   blobStore: BlobStore
+  sessionStore: BlobStore
   onBaseMap: (patch: Partial<BaseMap>) => void
+  onSessionUnderlay: (u: SessionUnderlay) => void
 }) {
   const [open, setOpen] = useState<OnRamp>('rectangle')
 
@@ -219,7 +253,7 @@ function OnRampChooser({
     {
       id: 'address',
       title: 'Type an address',
-      blurb: 'We trace a rough outline from it, then forget the address.',
+      blurb: 'We fetch a bird’s-eye photo to trace over, then forget the address.',
     },
     {
       id: 'image',
@@ -261,7 +295,14 @@ function OnRampChooser({
       </div>
 
       <div className="mt-3">
-        {open === 'address' && <AddressPanel onBaseMap={onBaseMap} />}
+        {open === 'address' && (
+          <AddressPanel
+            blobStore={blobStore}
+            sessionStore={sessionStore}
+            onBaseMap={onBaseMap}
+            onSessionUnderlay={onSessionUnderlay}
+          />
+        )}
         {open === 'image' && (
           <ImagePanel baseMap={baseMap} blobStore={blobStore} onBaseMap={onBaseMap} />
         )}
@@ -271,10 +312,30 @@ function OnRampChooser({
   )
 }
 
-// ── On-ramp 1: address import (privacy-guarded, best-effort) ──────────────────
+// ── On-ramp 1: address → fetch a bird's-eye photo the user traces over ────────
+// Fetch-and-trace (spec §Scope decision 1): geocode → satellite raster under the
+// canvas → user traces their own boundary + obstructions. No auto-boundary, no
+// obstructions written. The address and its coordinates never leave importAddress
+// (spec §Privacy). The keep-photo toggle (scope decision 4) routes the fetched
+// image to either the persistent store (kept with the plan) or a session-only
+// one (underlay for now, geometry-only when saved — see SessionUnderlay).
 
-function AddressPanel({ onBaseMap }: { onBaseMap: (patch: Partial<BaseMap>) => void }) {
+const ADDRESS_OPACITY = 0.8 // the photo is the point here — stronger than upload's 0.6
+
+function AddressPanel({
+  blobStore,
+  sessionStore,
+  onBaseMap,
+  onSessionUnderlay,
+}: {
+  blobStore: BlobStore
+  sessionStore: BlobStore
+  onBaseMap: (patch: Partial<BaseMap>) => void
+  onSessionUnderlay: (u: SessionUnderlay) => void
+}) {
   const [address, setAddress] = useState('')
+  const [framing, setFraming] = useState<Framing>('small')
+  const [keepPhoto, setKeepPhoto] = useState(true)
   const [status, setStatus] = useState<'idle' | 'loading' | 'error'>('idle')
   const [message, setMessage] = useState<string | null>(null)
   const abortRef = useRef<AbortController | null>(null)
@@ -285,19 +346,52 @@ function AddressPanel({ onBaseMap }: { onBaseMap: (patch: Partial<BaseMap>) => v
     abortRef.current?.abort()
     const ctrl = new AbortController()
     abortRef.current = ctrl
-    const result = await importAddress(address, ctrl.signal)
+    // Keep-on → persistent store (image travels with the plan like a path-2
+    // upload). Keep-off → session store, and we DON'T patch imageKey onto the
+    // plan; the underlay renders from onSessionUnderlay for this session only.
+    const store = keepPhoto ? blobStore : sessionStore
+    const result = await importAddress(address, framing, store, ctrl.signal)
     if (ctrl.signal.aborted) return
     if (result.ok) {
-      // Only de-identified feet-space geometry crosses this boundary — the
-      // address and its coordinates stayed inside importAddress.
-      onBaseMap({
-        widthFt: Math.max(10, result.widthFt),
-        heightFt: Math.max(10, result.heightFt),
-        boundary: result.boundary,
-        obstructions: result.obstructions,
-      })
+      // The photo's true footprint (auto-scale, scope decision 2). Boundary
+      // defaults to the full rectangle so the canvas has its usual frame; the
+      // user traces the real outline over the photo. No obstructions written.
+      if (keepPhoto) {
+        onSessionUnderlay(null)
+        onBaseMap({
+          widthFt: result.widthFt,
+          heightFt: result.heightFt,
+          boundary: rectangleBoundary(result.widthFt, result.heightFt),
+          imageKey: result.imageKey,
+          imageAttribution: result.attribution,
+          imageOpacity: ADDRESS_OPACITY,
+          northBearingDeg: 0, // tiles are north-up — exact, not seeded guesswork
+        })
+      } else {
+        // Geometry-only patch — no imageKey/imageAttribution touch the plan, so
+        // nothing dangling is ever saved or exported. Clearing them also evicts
+        // any previously KEPT photo, which would otherwise outrank the session
+        // underlay in BaseMapImageLayer and keep riding the saved plan.
+        onBaseMap({
+          widthFt: result.widthFt,
+          heightFt: result.heightFt,
+          boundary: rectangleBoundary(result.widthFt, result.heightFt),
+          northBearingDeg: 0,
+          imageKey: undefined,
+          imageAttribution: undefined,
+        })
+        onSessionUnderlay({
+          imageKey: result.imageKey,
+          opacity: ADDRESS_OPACITY,
+          attribution: result.attribution,
+        })
+      }
       setStatus('idle')
-      setMessage('Traced a starting outline. Nudge the corners on the canvas to match your yard.')
+      setMessage(
+        result.provider === 'naip'
+          ? "Photo's in — this one comes from the free USGS aerial survey, so it may look a bit blurry. Trace the big shapes: boundary, house, the tree canopies."
+          : "Photo's in. Now trace your yard boundary and obstructions right over it — your eyes, not our guesswork.",
+      )
     } else {
       setStatus('error')
       setMessage(result.reason)
@@ -307,9 +401,10 @@ function AddressPanel({ onBaseMap }: { onBaseMap: (patch: Partial<BaseMap>) => v
   return (
     <div className="rounded-lg border border-[#2a1d10]/15 bg-[#fff6df]/90 p-4">
       <p className="rounded-md border border-emerald-800/25 bg-emerald-800/10 px-3 py-2 text-sm text-emerald-900">
-        We use your address once to trace a starting outline, then forget it —
-        nothing links your saved plan to where you live. If you&rsquo;d rather
-        not share one, the picture and rectangle paths work just as well.
+        We use your address once to fetch a bird&rsquo;s-eye photo you trace over,
+        then forget it. The photo is saved with your plan only if you keep it —
+        nothing that says where you live (no address, no coordinates) is ever
+        stored.
       </p>
       <label className="mt-3 block text-xs uppercase tracking-[0.14em] text-[#2a1d10]/60">
         Address
@@ -331,9 +426,39 @@ function AddressPanel({ onBaseMap }: { onBaseMap: (patch: Partial<BaseMap>) => v
           disabled={status === 'loading' || !address.trim()}
           className="rounded-md bg-[#2a1d10] px-5 py-2 text-sm font-medium text-[#f7e9c9] hover:bg-[#3d2a18] disabled:opacity-40"
         >
-          {status === 'loading' ? 'Tracing…' : 'Trace outline'}
+          {status === 'loading' ? 'Fetching…' : 'Fetch photo'}
         </button>
       </div>
+
+      <div className="mt-3">
+        <span className="mb-1 block text-xs uppercase tracking-[0.14em] text-[#2a1d10]/60">
+          Yard size
+        </span>
+        <div className="flex flex-wrap gap-1.5">
+          <Pill small active={framing === 'small'} onClick={() => setFraming('small')}>
+            small yard (≈250 ft)
+          </Pill>
+          <Pill small active={framing === 'large'} onClick={() => setFraming('large')}>
+            large yard (≈500 ft)
+          </Pill>
+        </div>
+      </div>
+
+      <label className="mt-3 flex items-start gap-2 text-sm text-[#2a1d10]/80">
+        <input
+          type="checkbox"
+          checked={keepPhoto}
+          onChange={(e) => setKeepPhoto(e.target.checked)}
+          className="mt-0.5 accent-[#2a1d10]"
+        />
+        <span>
+          Keep this photo with your plan
+          <span className="mt-0.5 block text-xs text-[#2a1d10]/55">
+            Off = the photo helps you trace now, but only your tracing is saved.
+          </span>
+        </span>
+      </label>
+
       {message && (
         <p
           className={
@@ -344,9 +469,8 @@ function AddressPanel({ onBaseMap }: { onBaseMap: (patch: Partial<BaseMap>) => v
         </p>
       )}
       <p className="mt-2 text-xs text-[#2a1d10]/50">
-        Outlines come from OpenStreetMap and are often approximate — a starting
-        point, not a survey. If it can&rsquo;t find one, upload a screenshot or
-        draw a rectangle instead.
+        The photo is a tracing aid, not a survey — imagery can be a season or two
+        old. If nothing loads, upload a screenshot or draw a rectangle instead.
       </p>
     </div>
   )
@@ -511,10 +635,31 @@ function RectanglePanel({
 
 // ── Canvas layers ─────────────────────────────────────────────────────────────
 
-/** The uploaded base-map image, drawn under everything at its opacity. */
-function BaseMapImageLayer({ baseMap, blobStore }: { baseMap: BaseMap; blobStore: BlobStore }) {
+/**
+ * The base-map image, drawn under everything at its opacity. Renders the plan's
+ * persisted `imageKey` (uploads + kept satellite photos) when present; otherwise
+ * a session-only underlay — a fetched photo the user chose not to keep, resolved
+ * from the session store so it never touches the saved plan (see SessionUnderlay).
+ */
+function BaseMapImageLayer({
+  baseMap,
+  blobStore,
+  sessionStore,
+  sessionUnderlay,
+}: {
+  baseMap: BaseMap
+  blobStore: BlobStore
+  sessionStore: BlobStore
+  sessionUnderlay: SessionUnderlay
+}) {
   const stage = useStage()
-  const url = useBlobUrl(baseMap.imageKey, blobStore)
+  // The plan's own image wins; the session underlay only fills in when there is
+  // none (kept photos and uploads set imageKey, so both take this first branch).
+  const usePlan = baseMap.imageKey !== undefined
+  const planUrl = useBlobUrl(baseMap.imageKey, blobStore)
+  const sessionUrl = useBlobUrl(usePlan ? undefined : sessionUnderlay?.imageKey, sessionStore)
+  const url = usePlan ? planUrl : sessionUrl
+  const opacity = usePlan ? baseMap.imageOpacity ?? 0.6 : sessionUnderlay?.opacity ?? 0.6
 
   if (!url) return null
   // Anchor the image to the yard extent so it scales with the transform.
@@ -527,7 +672,7 @@ function BaseMapImageLayer({ baseMap, blobStore }: { baseMap: BaseMap; blobStore
       y={tl.sy}
       width={br.sx - tl.sx}
       height={br.sy - tl.sy}
-      opacity={baseMap.imageOpacity ?? 0.6}
+      opacity={opacity}
       preserveAspectRatio="none"
       pointerEvents="none"
     />
